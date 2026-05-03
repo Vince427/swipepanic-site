@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Suggérer une carte - Swipe Panic</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header>
+    <div class="shell nav">
+      <a class="brand" href="./"><span class="mark">SP</span><span class="brand-name">Swipe Panic</span></a>
+      <nav>
+        <a href="./" data-i18n="navHome">Home</a>
+        <a href="./ugc.html" data-i18n="navUgc">UGC</a>
+        <a href="./report.html" data-i18n="navReport">Report</a>
+        <a href="./support.html" data-i18n="navSupport">Support</a>
+      </nav>
+      <div class="language-switch" aria-label="Language">
+        <button type="button" data-lang="fr">FR</button>
+        <button type="button" data-lang="en">EN</button>
+      </div>
+    </div>
+  </header>
+  <main class="shell page-main">
+    <article class="page-card">
+      <h1 data-i18n="suggestTitle">Suggérer une carte</h1>
+      <p data-i18n="suggestIntro">Envoyez une idée courte, claire et sûre pour Classic, Quiz ou Action/Vérité. Le formulaire prépare un email et copie le texte pour éviter toute perte.</p>
+
+      <form id="suggest-form" class="form-grid">
+        <label>
+          <span data-i18n="fieldMode">Mode</span>
+          <select id="suggest-mode" name="mode">
+            <option>Classic</option>
+            <option>Quiz</option>
+            <option>Action/Vérité</option>
+          </select>
+        </label>
+        <p id="suggest-format-help" class="notice compact" data-i18n="formatHelpClassic">Format Classic : une phrase courte de dating. Pas de lien, pas de coordonnées, pas de personne réelle ciblée.</p>
+        <label>
+          <span data-i18n="fieldLang">Langue de la carte</span>
+          <select id="suggest-lang" name="language">
+            <option value="fr">Français</option>
+            <option value="en">English</option>
+            <option value="es">Español</option>
+            <option value="de">Deutsch</option>
+            <option value="nl">Nederlands</option>
+            <option value="pt">Português</option>
+          </select>
+        </label>
+        <label>
+          <span data-i18n="fieldIdea">Texte de la carte</span>
+          <textarea id="suggest-idea" name="idea" required data-i18n-placeholder="placeholderIdea" placeholder="Ex: Il/Elle parle de son ex au premier rendez-vous."></textarea>
+        </label>
+        <label>
+          <span data-i18n="fieldNote">Note optionnelle</span>
+          <input id="suggest-note" name="note" type="text" data-i18n-placeholder="placeholderNote" placeholder="Ton pseudo, contexte, pack visé, variante...">
+        </label>
+        <div class="actions">
+          <button class="button" type="submit" data-i18n="prepareEmail">Préparer l’email</button>
+          <button class="button secondary" type="button" id="copy-suggestion" data-i18n="copySuggestion">Copier la suggestion</button>
+        </div>
+        <p id="suggest-status" class="status" aria-live="polite"></p>
+      </form>
+    </article>
+  </main>
+  <footer><div class="shell" data-i18n="suggestFooter">Les suggestions peuvent être adaptées avant intégration.</div></footer>
+  <script src="./site.js"></script>
+</body>
+</html>

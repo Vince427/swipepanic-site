@@ -1,0 +1,2 @@
+# Swipe Panic global UGC blacklist.
+# Add one pack id or device id per line.
