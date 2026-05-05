@@ -1,24 +1,24 @@
 {
   "version": 1,
-  "id": "daily_2026_05_06_classic",
-  "date": "2026-05-06",
+  "id": "daily_2026_05_05_classic",
+  "date": "2026-05-05",
   "mode": "classic",
   "maxCards": 20,
   "title": {
-    "fr": "Panic du jour",
-    "en": "Daily Panic",
-    "es": "Panic diario",
-    "de": "Daily Panic",
-    "nl": "Daily Panic",
-    "pt": "Panic diario"
+    "fr": "Defi du jour",
+    "en": "Daily challenge",
+    "de": "Tageschallenge",
+    "es": "Reto diario",
+    "nl": "Daguitdaging",
+    "pt": "Desafio diario"
   },
   "subtitle": {
-    "fr": "20 choix rapides pour lancer le debat.",
-    "en": "20 quick choices to start the debate.",
-    "es": "20 decisiones rapidas para empezar el debate.",
-    "de": "20 schnelle Entscheidungen fuer die Runde.",
-    "nl": "20 snelle keuzes om het gesprek te starten.",
-    "pt": "20 escolhas rapidas para comecar o debate."
+    "fr": "20 choix rapides pour lancer le debat du groupe.",
+    "en": "20 quick choices to get the group talking.",
+    "de": "20 schnelle Entscheidungen fuer die Gruppe.",
+    "es": "20 decisiones rapidas para activar el grupo.",
+    "nl": "20 snelle keuzes om de groep los te krijgen.",
+    "pt": "20 escolhas rapidas para animar o grupo."
   },
   "cardIds": [
     "dating_red_1",
