@@ -1,5 +1,45 @@
 {
   "version": 1,
-  "date": "2026-05-03",
-  "cardIds": []
+  "id": "daily_2026_05_06_classic",
+  "date": "2026-05-06",
+  "mode": "classic",
+  "maxCards": 20,
+  "title": {
+    "fr": "Panic du jour",
+    "en": "Daily Panic",
+    "es": "Panic diario",
+    "de": "Daily Panic",
+    "nl": "Daily Panic",
+    "pt": "Panic diario"
+  },
+  "subtitle": {
+    "fr": "20 choix rapides pour lancer le debat.",
+    "en": "20 quick choices to start the debate.",
+    "es": "20 decisiones rapidas para empezar el debate.",
+    "de": "20 schnelle Entscheidungen fuer die Runde.",
+    "nl": "20 snelle keuzes om het gesprek te starten.",
+    "pt": "20 escolhas rapidas para comecar o debate."
+  },
+  "cardIds": [
+    "dating_red_1",
+    "dating_red_2",
+    "dating_red_3",
+    "dating_red_4",
+    "dating_red_5",
+    "dating_red_6",
+    "dating_red_7",
+    "dating_red_8",
+    "dating_red_9",
+    "dating_red_10",
+    "dating_green_1",
+    "dating_green_2",
+    "dating_green_3",
+    "dating_green_4",
+    "dating_green_5",
+    "dating_green_6",
+    "dating_green_7",
+    "dating_green_8",
+    "dating_green_9",
+    "dating_green_10"
+  ]
 }

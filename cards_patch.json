@@ -1,4 +1,156 @@
 {
   "version": 1,
-  "cards": []
+  "updated_at": "2026-05-06T00:00:00Z",
+  "cards": [
+    {
+      "id": "remote_dating_red_001",
+      "pack_id": "dating_pack",
+      "mode": "classic",
+      "theme": "dating",
+      "type": "red_flag",
+      "difficulty": 1,
+      "enabled": true,
+      "safe_reviewed": {
+        "fr": true,
+        "en": true,
+        "es": true,
+        "de": true,
+        "nl": true,
+        "pt": true
+      },
+      "texts": {
+        "fr": "Il arrive en retard et fait comme si c'etait normal.",
+        "en": "They arrive late and act like it is totally normal.",
+        "es": "Llega tarde y actua como si fuera normal.",
+        "de": "Die Person kommt zu spaet und tut so, als waere es normal.",
+        "nl": "Die persoon komt te laat en doet alsof dat normaal is.",
+        "pt": "Chega atrasado e age como se fosse normal."
+      }
+    },
+    {
+      "id": "remote_dating_red_002",
+      "pack_id": "dating_pack",
+      "mode": "classic",
+      "theme": "dating",
+      "type": "red_flag",
+      "difficulty": 1,
+      "enabled": true,
+      "safe_reviewed": {
+        "fr": true,
+        "en": true,
+        "es": true,
+        "de": true,
+        "nl": true,
+        "pt": true
+      },
+      "texts": {
+        "fr": "Il coupe la parole a tout le monde pendant le repas.",
+        "en": "They interrupt everyone during the meal.",
+        "es": "Interrumpe a todos durante la comida.",
+        "de": "Die Person faellt allen beim Essen ins Wort.",
+        "nl": "Die persoon onderbreekt iedereen tijdens het eten.",
+        "pt": "Interrompe todos durante a refeicao."
+      }
+    },
+    {
+      "id": "remote_dating_red_003",
+      "pack_id": "dating_pack",
+      "mode": "classic",
+      "theme": "dating",
+      "type": "red_flag",
+      "difficulty": 1,
+      "enabled": true,
+      "safe_reviewed": {
+        "fr": true,
+        "en": true,
+        "es": true,
+        "de": true,
+        "nl": true,
+        "pt": true
+      },
+      "texts": {
+        "fr": "Il transforme chaque discussion en monologue.",
+        "en": "They turn every conversation into a monologue.",
+        "es": "Convierte cada conversacion en un monologo.",
+        "de": "Die Person macht aus jedem Gespraech einen Monolog.",
+        "nl": "Die persoon maakt van elk gesprek een monoloog.",
+        "pt": "Transforma toda conversa em um monologo."
+      }
+    },
+    {
+      "id": "remote_dating_green_001",
+      "pack_id": "dating_pack",
+      "mode": "classic",
+      "theme": "dating",
+      "type": "green_flag",
+      "difficulty": 1,
+      "enabled": true,
+      "safe_reviewed": {
+        "fr": true,
+        "en": true,
+        "es": true,
+        "de": true,
+        "nl": true,
+        "pt": true
+      },
+      "texts": {
+        "fr": "Il pose des questions et ecoute vraiment les reponses.",
+        "en": "They ask questions and truly listen to the answers.",
+        "es": "Hace preguntas y escucha de verdad las respuestas.",
+        "de": "Die Person stellt Fragen und hoert wirklich zu.",
+        "nl": "Die persoon stelt vragen en luistert echt naar de antwoorden.",
+        "pt": "Faz perguntas e escuta de verdade as respostas."
+      }
+    },
+    {
+      "id": "remote_dating_green_002",
+      "pack_id": "dating_pack",
+      "mode": "classic",
+      "theme": "dating",
+      "type": "green_flag",
+      "difficulty": 1,
+      "enabled": true,
+      "safe_reviewed": {
+        "fr": true,
+        "en": true,
+        "es": true,
+        "de": true,
+        "nl": true,
+        "pt": true
+      },
+      "texts": {
+        "fr": "Il respecte les limites sans faire de remarque.",
+        "en": "They respect boundaries without making a comment.",
+        "es": "Respeta los limites sin hacer comentarios.",
+        "de": "Die Person respektiert Grenzen ohne Kommentar.",
+        "nl": "Die persoon respecteert grenzen zonder commentaar.",
+        "pt": "Respeita limites sem fazer comentarios."
+      }
+    },
+    {
+      "id": "remote_dating_green_003",
+      "pack_id": "dating_pack",
+      "mode": "classic",
+      "theme": "dating",
+      "type": "green_flag",
+      "difficulty": 1,
+      "enabled": true,
+      "safe_reviewed": {
+        "fr": true,
+        "en": true,
+        "es": true,
+        "de": true,
+        "nl": true,
+        "pt": true
+      },
+      "texts": {
+        "fr": "Il rit de lui-meme sans rabaisser les autres.",
+        "en": "They laugh at themselves without putting others down.",
+        "es": "Se rie de si mismo sin menospreciar a los demas.",
+        "de": "Die Person lacht ueber sich selbst, ohne andere kleinzumachen.",
+        "nl": "Die persoon lacht om zichzelf zonder anderen naar beneden te halen.",
+        "pt": "Ri de si mesmo sem diminuir os outros."
+      }
+    }
+  ]
 }
