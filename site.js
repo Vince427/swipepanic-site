@@ -30,6 +30,9 @@
       fieldIdea: 'Texte de la carte',
       fieldNote: 'Note optionnelle',
       fieldLang: 'Langue de la carte',
+      fieldClassicType: 'Type Classic',
+      classicTypeRed: 'Red flag',
+      classicTypeGreen: 'Green flag',
       prepareEmail: 'Préparer l’email',
       copySuggestion: 'Copier la suggestion',
       copied: 'Suggestion copiée. Si votre mail ne s’ouvre pas, envoyez-la à support@swipepanic.app.',
@@ -116,6 +119,9 @@
       fieldIdea: 'Card text',
       fieldNote: 'Optional note',
       fieldLang: 'Card language',
+      fieldClassicType: 'Classic type',
+      classicTypeRed: 'Red flag',
+      classicTypeGreen: 'Green flag',
       prepareEmail: 'Prepare email',
       copySuggestion: 'Copy suggestion',
       copied: 'Suggestion copied. If your email app does not open, send it to support@swipepanic.app.',
@@ -234,6 +240,7 @@
   function getSuggestionFields() {
     return {
       mode: document.getElementById('suggest-mode')?.value || 'Classic',
+      classicType: document.getElementById('suggest-classic-type')?.value || 'red_flag',
       cardLang: document.getElementById('suggest-lang')?.value || getLang(),
       idea: document.getElementById('suggest-idea')?.value.trim() || '',
       note: document.getElementById('suggest-note')?.value.trim() || '',
@@ -244,11 +251,63 @@
     return mode.toLowerCase().includes('action') || mode.toLowerCase().includes('truth');
   }
 
+  function suggestionModeKey(mode) {
+    if (mode === 'Quiz') return 'quiz';
+    if (isSocialMode(mode)) return 'social';
+    return 'classic';
+  }
+
+  function targetPackForMode(mode) {
+    const key = suggestionModeKey(mode);
+    if (key === 'quiz') return 'quiz_pack_v1';
+    if (key === 'social') return 'party_pack_v1';
+    return 'dating_pack';
+  }
+
+  function suggestionSubject(fields) {
+    return `[Swipe Panic][Site][Suggestion][${suggestionModeKey(fields.mode)}][${fields.cardLang}]`;
+  }
+
+  function buildSuggestionDraft(fields) {
+    const key = suggestionModeKey(fields.mode);
+    const draft = {
+      source: 'site_suggest',
+      status: 'draft',
+      mode: key,
+      pack_id: targetPackForMode(fields.mode),
+      source_locale: fields.cardLang,
+      needs_translation: true,
+      needs_review: true,
+    };
+
+    if (key === 'quiz') {
+      const answer = fields.idea.trim().startsWith('+');
+      draft.type = answer ? 'green_flag' : 'red_flag';
+      draft.answer = answer;
+      draft.text = fields.idea.replace(/^[+-]\s*/, '').trim();
+    } else if (key === 'social') {
+      const parts = fields.idea.split('|').map((part) => part.trim());
+      draft.action_text = parts[0];
+      draft.truth_text = parts[1];
+      draft.text = `${parts[0]} | ${parts[1]}`;
+    } else {
+      draft.type = fields.classicType;
+      draft.text = fields.idea;
+    }
+
+    if (fields.note) draft.note = fields.note;
+    return draft;
+  }
+
   function updateFormatHelp(lang) {
     const help = document.getElementById('suggest-format-help');
+    const classicTypeField = document.getElementById('suggest-classic-type-field');
     if (!help) return;
     const copy = dictionary[lang] || dictionary.fr;
     const { mode } = getSuggestionFields();
+    if (classicTypeField) {
+      classicTypeField.hidden = suggestionModeKey(mode) !== 'classic';
+    }
     if (mode === 'Quiz') {
       help.textContent = copy.formatHelpQuiz;
     } else if (isSocialMode(mode)) {
@@ -292,9 +351,12 @@
 
   function suggestionText(lang) {
     const copy = dictionary[lang] || dictionary.fr;
-    const { mode, cardLang, idea, note } = getSuggestionFields();
+    const fields = getSuggestionFields();
+    const { mode, classicType, cardLang, idea, note } = fields;
     const validationError = validateSuggestion(lang);
     if (validationError) return { error: validationError };
+    const modeKey = suggestionModeKey(mode);
+    const draft = buildSuggestionDraft(fields);
     const socialParts = isSocialMode(mode)
       ? idea.split('|').map((part) => part.trim())
       : null;
@@ -304,17 +366,28 @@
     return [
       copy.suggestionHeader,
       '',
-      `Mode: ${mode}`,
+      'ROUTING',
+      'Source: site_suggest',
+      'Category: card_suggestion',
+      `Mode: ${modeKey}`,
       `Language: ${cardLang}`,
+      `Pack target: ${draft.pack_id}`,
+      modeKey === 'classic' ? `Classic type: ${classicType}` : '',
       `${copy.safeCheck}`,
       '',
+      'SUMMARY',
+      `Mode: ${mode}`,
+      `Language: ${cardLang}`,
       'Card:',
-      idea,
+      modeKey === 'quiz' ? draft.text : idea,
       '',
       quizAnswer ? `Quiz answer: ${quizAnswer}` : '',
       socialParts ? `Action/Dare: ${socialParts[0]}\nTruth: ${socialParts[1]}` : '',
       '',
       note ? `Note:\n${note}` : '',
+      '',
+      'JSON_DRAFT',
+      JSON.stringify(draft, null, 2),
     ].filter(Boolean).join('\n');
   }
 
@@ -363,7 +436,7 @@
       const text = await copySuggestion(getLang());
       if (!text) return;
       markSuggestionPrepared();
-      window.location.href = `mailto:support@swipepanic.app?subject=${encodeURIComponent(copy.suggestionSubject)}&body=${encodeURIComponent(text)}`;
+      window.location.href = `mailto:support@swipepanic.app?subject=${encodeURIComponent(suggestionSubject(getSuggestionFields()))}&body=${encodeURIComponent(text)}`;
     });
     copyButton?.addEventListener('click', () => copySuggestion(getLang()));
   }
