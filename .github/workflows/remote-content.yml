@@ -1,0 +1,39 @@
+name: Validate remote content
+
+on:
+  pull_request:
+    paths:
+      - "manifest.json"
+      - "daily.json"
+      - "cards_patch.json"
+      - "blacklist.txt"
+      - "blacklist.json"
+      - "scripts/validate_remote_content.js"
+      - ".github/workflows/remote-content.yml"
+  push:
+    branches: [main]
+    paths:
+      - "manifest.json"
+      - "daily.json"
+      - "cards_patch.json"
+      - "blacklist.txt"
+      - "blacklist.json"
+      - "scripts/validate_remote_content.js"
+      - ".github/workflows/remote-content.yml"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Validate JSON endpoints
+        run: node scripts/validate_remote_content.js
