@@ -264,13 +264,20 @@
     return 'dating_pack';
   }
 
+  function compactId(prefix) {
+    const random = Math.random().toString(36).slice(2, 8);
+    return `${prefix}_${new Date().toISOString().replace(/[-:.TZ]/g, '').slice(0, 14)}_${random}`;
+  }
+
   function suggestionSubject(fields) {
-    return `[Swipe Panic][Site][Suggestion][${suggestionModeKey(fields.mode)}][${fields.cardLang}]`;
+    return `[SwipePanic][CARD_SUGGESTION][site][${suggestionModeKey(fields.mode)}][${fields.cardLang}]`;
   }
 
   function buildSuggestionDraft(fields) {
     const key = suggestionModeKey(fields.mode);
     const draft = {
+      schema_version: 1,
+      suggestion_id: compactId('suggestion'),
       source: 'site_suggest',
       status: 'draft',
       mode: key,
@@ -367,6 +374,7 @@
       copy.suggestionHeader,
       '',
       'ROUTING',
+      'Schema-Version: 1',
       'Source: site_suggest',
       'Category: card_suggestion',
       `Mode: ${modeKey}`,

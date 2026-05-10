@@ -1,2 +1,2 @@
 # Swipe Panic global UGC blacklist.
-# Add one pack id or device id per line.
+# Legacy fallback: add one blocked entry, card id, pack id, device id, or keyword per line.

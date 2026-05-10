@@ -1,0 +1,147 @@
+{
+  "version": 1,
+  "updated_at": "2026-05-10T00:00:00Z",
+  "pools": [
+    {
+      "id": "classic_dating_starter",
+      "mode": "classic",
+      "maxCards": 20,
+      "safe_reviewed": {
+        "fr": true,
+        "en": true,
+        "es": true,
+        "de": true,
+        "nl": true,
+        "pt": true
+      },
+      "title": {
+        "fr": "Defi du jour",
+        "en": "Daily challenge",
+        "es": "Reto diario",
+        "de": "Tageschallenge",
+        "nl": "Daguitdaging",
+        "pt": "Desafio diario"
+      },
+      "subtitle": {
+        "fr": "20 choix rapides pour lancer le debat du groupe.",
+        "en": "20 quick choices to get the group talking.",
+        "es": "20 decisiones rapidas para activar el grupo.",
+        "de": "20 schnelle Entscheidungen fuer die Gruppe.",
+        "nl": "20 snelle keuzes om de groep los te krijgen.",
+        "pt": "20 escolhas rapidas para animar o grupo."
+      },
+      "cardIds": [
+        "dating_red_1",
+        "dating_red_2",
+        "dating_red_3",
+        "dating_red_4",
+        "dating_red_5",
+        "dating_red_6",
+        "dating_red_7",
+        "dating_red_8",
+        "dating_red_9",
+        "dating_red_10",
+        "dating_green_1",
+        "dating_green_2",
+        "dating_green_3",
+        "dating_green_4",
+        "dating_green_5",
+        "dating_green_6",
+        "dating_green_7",
+        "dating_green_8",
+        "dating_green_9",
+        "dating_green_10"
+      ]
+    },
+    {
+      "id": "quiz_general_starter",
+      "mode": "quiz",
+      "maxCards": 8,
+      "safe_reviewed": {
+        "fr": true,
+        "en": true,
+        "es": true,
+        "de": true,
+        "nl": true,
+        "pt": true
+      },
+      "title": {
+        "fr": "Quiz du jour",
+        "en": "Daily quiz",
+        "es": "Quiz diario",
+        "de": "Tagesquiz",
+        "nl": "Dagquiz",
+        "pt": "Quiz diario"
+      },
+      "subtitle": {
+        "fr": "8 questions officielles, juste pour le recap.",
+        "en": "8 official questions, built for the recap.",
+        "es": "8 preguntas oficiales, pensadas para el resumen.",
+        "de": "8 offizielle Fragen, gemacht fuer den Rueckblick.",
+        "nl": "8 officiele vragen, gemaakt voor de recap.",
+        "pt": "8 perguntas oficiais, feitas para o resumo."
+      },
+      "cardIds": [
+        "quiz_1",
+        "quiz_2",
+        "quiz_3",
+        "quiz_4",
+        "quiz_5",
+        "quiz_6",
+        "quiz_7",
+        "quiz_8"
+      ]
+    },
+    {
+      "id": "social_party_starter",
+      "mode": "social",
+      "maxCards": 20,
+      "safe_reviewed": {
+        "fr": true,
+        "en": true,
+        "es": true,
+        "de": true,
+        "nl": true,
+        "pt": true
+      },
+      "title": {
+        "fr": "Soiree du jour",
+        "en": "Daily party",
+        "es": "Fiesta diaria",
+        "de": "Party des Tages",
+        "nl": "Dagfeest",
+        "pt": "Festa diaria"
+      },
+      "subtitle": {
+        "fr": "20 actions ou verites officielles pour faire parler la table.",
+        "en": "20 official dares or truths to wake up the table.",
+        "es": "20 retos o verdades oficiales para activar la mesa.",
+        "de": "20 offizielle Aufgaben oder Wahrheiten fuer die Runde.",
+        "nl": "20 officiele acties of waarheden voor de groep.",
+        "pt": "20 acoes ou verdades oficiais para animar a mesa."
+      },
+      "cardIds": [
+        "party_social_1",
+        "party_social_2",
+        "party_social_3",
+        "party_social_4",
+        "party_social_5",
+        "party_social_6",
+        "party_social_7",
+        "party_social_8",
+        "party_social_9",
+        "party_social_10",
+        "party_social_11",
+        "party_social_12",
+        "party_social_13",
+        "party_social_14",
+        "party_social_15",
+        "party_social_16",
+        "party_social_17",
+        "party_social_18",
+        "party_social_19",
+        "party_social_20"
+      ]
+    }
+  ]
+}

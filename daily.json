@@ -1,29 +1,26 @@
 {
   "version": 1,
-  "id": "daily_2026_05_05_classic",
-  "date": "2026-05-05",
+  "id": "daily_2026_05_10_classic",
+  "date": "2026-05-10",
   "mode": "classic",
   "maxCards": 20,
   "title": {
     "fr": "Defi du jour",
     "en": "Daily challenge",
-    "de": "Tageschallenge",
     "es": "Reto diario",
+    "de": "Tageschallenge",
     "nl": "Daguitdaging",
     "pt": "Desafio diario"
   },
   "subtitle": {
     "fr": "20 choix rapides pour lancer le debat du groupe.",
     "en": "20 quick choices to get the group talking.",
-    "de": "20 schnelle Entscheidungen fuer die Gruppe.",
     "es": "20 decisiones rapidas para activar el grupo.",
+    "de": "20 schnelle Entscheidungen fuer die Gruppe.",
     "nl": "20 snelle keuzes om de groep los te krijgen.",
     "pt": "20 escolhas rapidas para animar o grupo."
   },
   "cardIds": [
-    "dating_red_1",
-    "dating_red_2",
-    "dating_red_3",
     "dating_red_4",
     "dating_red_5",
     "dating_red_6",
@@ -40,6 +37,9 @@
     "dating_green_7",
     "dating_green_8",
     "dating_green_9",
-    "dating_green_10"
+    "dating_green_10",
+    "dating_red_1",
+    "dating_red_2",
+    "dating_red_3"
   ]
 }
