@@ -30,7 +30,7 @@ function main() {
     throw new Error(errors.join('\n'));
   }
 
-  const daily = buildDailyForDate(pool, date);
+  const daily = buildDailyForDate(pool, date, catalog, patch);
   const dailyErrors = validateDaily(daily, pool, patch, []);
   if (dailyErrors.length > 0) {
     throw new Error(dailyErrors.join('\n'));

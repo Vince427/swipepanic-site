@@ -354,8 +354,8 @@ function validateDaily(daily, poolFile, patch, errors = []) {
   return errors;
 }
 
-function buildDailyForDate(poolFile, dateText) {
-  const errors = validateDailyPool(poolFile, []);
+function buildDailyForDate(poolFile, dateText, catalog = null, patch = null) {
+  const errors = validateDailyPool(poolFile, catalog, patch, []);
   if (errors.length > 0) {
     throw new Error(errors.join('\n'));
   }
