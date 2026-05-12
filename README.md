@@ -29,7 +29,7 @@ node scripts\generate_daily.js --date=2026-05-10
 The site is public and static. Do not publish internal launch plans, private
 agent notes, API secrets or app worktree files here.
 
-Daily content:
+Weekly content (published through daily.json for app compatibility):
 
 1. Add reviewed official card IDs to `official_card_catalog.json`.
 2. Add or update a pool in `daily_pool.json`.

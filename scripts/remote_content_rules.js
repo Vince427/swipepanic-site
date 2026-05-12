@@ -168,6 +168,23 @@ function stableDayNumber(dateText) {
   return Math.floor(dateParts(dateText).date.getTime() / 86400000);
 }
 
+function isoWeekParts(dateText) {
+  const { date } = dateParts(dateText);
+  const target = new Date(Date.UTC(date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate()));
+  const day = target.getUTCDay() || 7;
+  target.setUTCDate(target.getUTCDate() + 4 - day);
+  const weekYear = target.getUTCFullYear();
+  const yearStart = new Date(Date.UTC(weekYear, 0, 1));
+  const week = Math.ceil((((target - yearStart) / 86400000) + 1) / 7);
+
+  const monday = new Date(Date.UTC(date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate()));
+  monday.setUTCDate(monday.getUTCDate() - day + 1);
+  const mondayText = monday.toISOString().slice(0, 10);
+  const weekSlug = `${weekYear}_${String(week).padStart(2, '0')}`;
+  const weekIndex = Math.floor(monday.getTime() / 604800000);
+  return { mondayText, weekSlug, weekIndex };
+}
+
 function rotate(values, offset) {
   if (values.length === 0) {
     return [];
@@ -359,15 +376,15 @@ function buildDailyForDate(poolFile, dateText, catalog = null, patch = null) {
   if (errors.length > 0) {
     throw new Error(errors.join('\n'));
   }
-  const { slug } = dateParts(dateText);
-  const dayNumber = stableDayNumber(dateText);
+  const { mondayText, weekSlug, weekIndex } = isoWeekParts(dateText);
   const pools = poolFile.pools;
-  const pool = pools[dayNumber % pools.length];
-  const cardIds = rotate(pool.cardIds, dayNumber).slice(0, pool.maxCards);
+  const pool = pools[weekIndex % pools.length];
+  const cardIds = rotate(pool.cardIds, weekIndex).slice(0, pool.maxCards);
   return {
     version: 1,
-    id: `daily_${slug}_${pool.mode}`,
-    date: dateText,
+    id: `weekly_${weekSlug}_${pool.mode}`,
+    date: mondayText,
+    cadence: 'weekly',
     mode: pool.mode,
     maxCards: pool.maxCards,
     title: pool.title,

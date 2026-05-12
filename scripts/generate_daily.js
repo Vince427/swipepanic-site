@@ -37,7 +37,7 @@ function main() {
   }
 
   writeJson('daily.json', daily);
-  console.log(`Generated ${daily.id} from daily_pool.json`);
+  console.log(`Generated weekly ${daily.id} into daily.json from daily_pool.json`);
 }
 
 main();

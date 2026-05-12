@@ -15,20 +15,20 @@
         "pt": true
       },
       "title": {
-        "fr": "Defi du jour",
-        "en": "Daily challenge",
-        "es": "Reto diario",
-        "de": "Tageschallenge",
-        "nl": "Daguitdaging",
-        "pt": "Desafio diario"
+        "fr": "Pack de la semaine",
+        "en": "Weekly pack",
+        "es": "Pack semanal",
+        "de": "Wochenpack",
+        "nl": "Weekpack",
+        "pt": "Pack semanal"
       },
       "subtitle": {
-        "fr": "20 choix rapides pour lancer le debat du groupe.",
-        "en": "20 quick choices to get the group talking.",
-        "es": "20 decisiones rapidas para activar el grupo.",
-        "de": "20 schnelle Entscheidungen fuer die Gruppe.",
-        "nl": "20 snelle keuzes om de groep los te krijgen.",
-        "pt": "20 escolhas rapidas para animar o grupo."
+        "fr": "20 choix officiels pour lancer le debat cette semaine.",
+        "en": "20 official choices to get the group talking this week.",
+        "es": "20 decisiones oficiales para activar el grupo esta semana.",
+        "de": "20 offizielle Entscheidungen fuer die Gruppe in dieser Woche.",
+        "nl": "20 officiele keuzes om de groep deze week los te krijgen.",
+        "pt": "20 escolhas oficiais para animar o grupo esta semana."
       },
       "cardIds": [
         "dating_red_1",
@@ -66,20 +66,20 @@
         "pt": true
       },
       "title": {
-        "fr": "Quiz du jour",
-        "en": "Daily quiz",
-        "es": "Quiz diario",
-        "de": "Tagesquiz",
-        "nl": "Dagquiz",
-        "pt": "Quiz diario"
+        "fr": "Quiz de la semaine",
+        "en": "Weekly quiz",
+        "es": "Quiz semanal",
+        "de": "Wochenquiz",
+        "nl": "Weekquiz",
+        "pt": "Quiz semanal"
       },
       "subtitle": {
-        "fr": "8 questions officielles, juste pour le recap.",
-        "en": "8 official questions, built for the recap.",
-        "es": "8 preguntas oficiales, pensadas para el resumen.",
-        "de": "8 offizielle Fragen, gemacht fuer den Rueckblick.",
-        "nl": "8 officiele vragen, gemaakt voor de recap.",
-        "pt": "8 perguntas oficiais, feitas para o resumo."
+        "fr": "8 questions officielles pour le recap de la semaine.",
+        "en": "8 official questions for this week recap.",
+        "es": "8 preguntas oficiales para el resumen de esta semana.",
+        "de": "8 offizielle Fragen fuer den Rueckblick dieser Woche.",
+        "nl": "8 officiele vragen voor de recap van deze week.",
+        "pt": "8 perguntas oficiais para o resumo desta semana."
       },
       "cardIds": [
         "quiz_1",
@@ -105,20 +105,20 @@
         "pt": true
       },
       "title": {
-        "fr": "Soiree du jour",
-        "en": "Daily party",
-        "es": "Fiesta diaria",
-        "de": "Party des Tages",
-        "nl": "Dagfeest",
-        "pt": "Festa diaria"
+        "fr": "Soiree de la semaine",
+        "en": "Weekly party",
+        "es": "Fiesta semanal",
+        "de": "Party der Woche",
+        "nl": "Weekfeest",
+        "pt": "Festa semanal"
       },
       "subtitle": {
-        "fr": "20 actions ou verites officielles pour faire parler la table.",
-        "en": "20 official dares or truths to wake up the table.",
-        "es": "20 retos o verdades oficiales para activar la mesa.",
-        "de": "20 offizielle Aufgaben oder Wahrheiten fuer die Runde.",
-        "nl": "20 officiele acties of waarheden voor de groep.",
-        "pt": "20 acoes ou verdades oficiais para animar a mesa."
+        "fr": "20 actions ou verites officielles pour faire parler la table cette semaine.",
+        "en": "20 official dares or truths to wake up the table this week.",
+        "es": "20 retos o verdades oficiales para activar la mesa esta semana.",
+        "de": "20 offizielle Aufgaben oder Wahrheiten fuer die Runde in dieser Woche.",
+        "nl": "20 officiele acties of waarheden voor de groep deze week.",
+        "pt": "20 acoes ou verdades oficiais para animar a mesa esta semana."
       },
       "cardIds": [
         "party_social_1",
