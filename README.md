@@ -40,7 +40,8 @@ Weekly content (published through daily.json for app compatibility):
 Reports and suggestions arrive through `support@swipepanic.app`. Configure mail
 filters by subject/source:
 
-- `[SwipePanic][UGC_REPORT]` or `Source: app_report` -> urgent moderation.
+- `[SwipePanic][UGC_REPORT]` or `Source: app_ugc_report` -> urgent moderation.
+- `[SwipePanic][CARD_REPORT]` or `Source: app_card_report` -> official card review.
 - `[SwipePanic][CARD_SUGGESTION]` or `Source: site_suggest` -> backlog.
 - `JSON_REPORT` / `JSON_DRAFT` blocks -> copy into a review branch only after
   manual moderation.
