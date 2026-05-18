@@ -649,6 +649,96 @@
   }
 };
 
+  const extraDictionary = {
+    fr: {
+      "contactTitle": "Contact",
+      "googlePrivacyLink": "Politique de confidentialité Google",
+      "googleAdsLink": "Règles publicitaires Google",
+      "sitePreviewAlt": "Aperçu du site Swipe Panic avec accueil, fonctionnalités et collection",
+      "storeBannerAlt": "Bannière promotionnelle Swipe Panic",
+      "languageFr": "Français",
+      "languageEn": "Anglais",
+      "languageEs": "Espagnol",
+      "languageDe": "Allemand",
+      "languageNl": "Néerlandais",
+      "languagePt": "Portugais"
+    },
+    en: {
+      "contactTitle": "Contact",
+      "googlePrivacyLink": "Google Privacy Policy",
+      "googleAdsLink": "Google Advertising Policies",
+      "sitePreviewAlt": "Swipe Panic site preview with home, features and collection",
+      "storeBannerAlt": "Swipe Panic promotional banner",
+      "languageFr": "French",
+      "languageEn": "English",
+      "languageEs": "Spanish",
+      "languageDe": "German",
+      "languageNl": "Dutch",
+      "languagePt": "Portuguese"
+    },
+    es: {
+      "contactTitle": "Contacto",
+      "googlePrivacyLink": "Política de privacidad de Google",
+      "googleAdsLink": "Políticas publicitarias de Google",
+      "sitePreviewAlt": "Vista previa del sitio Swipe Panic con inicio, funciones y colección",
+      "storeBannerAlt": "Banner promocional de Swipe Panic",
+      "languageFr": "Francés",
+      "languageEn": "Inglés",
+      "languageEs": "Español",
+      "languageDe": "Alemán",
+      "languageNl": "Neerlandés",
+      "languagePt": "Portugués"
+    },
+    de: {
+      "contactTitle": "Kontakt",
+      "googlePrivacyLink": "Datenschutzerklärung von Google",
+      "googleAdsLink": "Werberichtlinien von Google",
+      "sitePreviewAlt": "Vorschau der Swipe Panic Website mit Startseite, Funktionen und Sammlung",
+      "storeBannerAlt": "Werbebanner für Swipe Panic",
+      "languageFr": "Französisch",
+      "languageEn": "Englisch",
+      "languageEs": "Spanisch",
+      "languageDe": "Deutsch",
+      "languageNl": "Niederländisch",
+      "languagePt": "Portugiesisch"
+    },
+    nl: {
+      "contactTitle": "Contact",
+      "googlePrivacyLink": "Privacybeleid van Google",
+      "googleAdsLink": "Advertentiebeleid van Google",
+      "sitePreviewAlt": "Voorbeeld van de Swipe Panic site met home, functies en collectie",
+      "storeBannerAlt": "Promotiebanner van Swipe Panic",
+      "languageFr": "Frans",
+      "languageEn": "Engels",
+      "languageEs": "Spaans",
+      "languageDe": "Duits",
+      "languageNl": "Nederlands",
+      "languagePt": "Portugees"
+    },
+    pt: {
+      "contactTitle": "Contacto",
+      "googlePrivacyLink": "Política de privacidade da Google",
+      "googleAdsLink": "Políticas de publicidade da Google",
+      "sitePreviewAlt": "Pré-visualização do site Swipe Panic com início, funcionalidades e coleção",
+      "storeBannerAlt": "Banner promocional Swipe Panic",
+      "languageFr": "Francês",
+      "languageEn": "Inglês",
+      "languageEs": "Espanhol",
+      "languageDe": "Alemão",
+      "languageNl": "Neerlandês",
+      "languagePt": "Português"
+    }
+  };
+
+  function copyFor(lang) {
+    return {
+      ...dictionary.fr,
+      ...(extraDictionary.fr || {}),
+      ...(dictionary[lang] || {}),
+      ...(extraDictionary[lang] || {})
+    };
+  }
+
   function pageKey() {
     const path = window.location.pathname.replace(/\\/g, '/');
     if (path.includes('suggest')) return 'titleSuggest';
@@ -679,7 +769,7 @@
   }
 
   function setText(lang) {
-    const copy = dictionary[lang] || dictionary.fr;
+    const copy = copyFor(lang);
     document.documentElement.lang = lang;
     document.title = copy[pageKey()] || document.title;
     document.querySelectorAll('[data-i18n]').forEach((node) => {
@@ -689,6 +779,10 @@
     document.querySelectorAll('[data-i18n-placeholder]').forEach((node) => {
       const key = node.getAttribute('data-i18n-placeholder');
       if (copy[key]) node.setAttribute('placeholder', copy[key]);
+    });
+    document.querySelectorAll('[data-i18n-alt]').forEach((node) => {
+      const key = node.getAttribute('data-i18n-alt');
+      if (copy[key]) node.setAttribute('alt', copy[key]);
     });
     document.querySelectorAll('[data-lang]').forEach((button) => {
       button.classList.toggle('active', button.getAttribute('data-lang') === lang);
@@ -781,7 +875,7 @@
     const help = document.getElementById('suggest-format-help');
     const classicTypeField = document.getElementById('suggest-classic-type-field');
     if (!help) return;
-    const copy = dictionary[lang] || dictionary.fr;
+    const copy = copyFor(lang);
     const { mode } = getSuggestionFields();
     if (classicTypeField) classicTypeField.hidden = suggestionModeKey(mode) !== 'classic';
     if (mode === 'Quiz') help.textContent = copy.formatHelpQuiz;
@@ -790,7 +884,7 @@
   }
 
   function validateSuggestion(lang) {
-    const copy = dictionary[lang] || dictionary.fr;
+    const copy = copyFor(lang);
     const { mode, idea, note } = getSuggestionFields();
     const checkedText = (idea + '\n' + note).toLowerCase();
     if (idea.length < 10) return copy.invalidTooShort;
@@ -816,7 +910,7 @@
   }
 
   function suggestionText(lang) {
-    const copy = dictionary[lang] || dictionary.fr;
+    const copy = copyFor(lang);
     const fields = getSuggestionFields();
     const { mode, classicType, cardLang, idea, note } = fields;
     const validationError = validateSuggestion(lang);
@@ -855,7 +949,7 @@
   }
 
   async function copySuggestion(lang) {
-    const copy = dictionary[lang] || dictionary.fr;
+    const copy = copyFor(lang);
     const result = suggestionText(lang);
     const status = document.getElementById('suggest-status');
     if (!result) {
