@@ -776,32 +776,32 @@
   const publicCardSamples = {
     fr: [
       { mode: 'Green Flags / Red Flags', text: 'Il/Elle respecte ton temps même quand la soirée part dans tous les sens.' },
-      { mode: 'Quiz', text: '+ Une partie peut rester drôle sans score public.' },
+      { mode: 'Quiz · Vrai ou Faux', text: 'Le hashtag a été inventé par Instagram.' },
       { mode: 'Action / Vérité', text: 'Fais un compliment précis | Raconte ton plus grand fou rire de soirée' }
     ],
     en: [
       { mode: 'Green Flags / Red Flags', text: 'They respect your time even when the night gets chaotic.' },
-      { mode: 'Quiz', text: '+ A game can stay fun without a public score.' },
+      { mode: 'Quiz · True or False', text: 'The hashtag was invented by Instagram.' },
       { mode: 'Truth or Dare', text: 'Give a specific compliment | Tell your biggest party laugh' }
     ],
     es: [
       { mode: 'Green Flags / Red Flags', text: 'Respeta tu tiempo aunque la noche se vuelva caótica.' },
-      { mode: 'Quiz', text: '+ Una partida puede ser divertida sin marcador público.' },
+      { mode: 'Quiz · Verdadero o Falso', text: 'El hashtag fue inventado por Instagram.' },
       { mode: 'Verdad o Reto', text: 'Haz un cumplido concreto | Cuenta tu mayor ataque de risa en una fiesta' }
     ],
     de: [
       { mode: 'Green Flags / Red Flags', text: 'Respektiert deine Zeit, auch wenn der Abend chaotisch wird.' },
-      { mode: 'Quiz', text: '+ Ein Spiel kann auch ohne öffentlichen Score Spaß machen.' },
+      { mode: 'Quiz · Wahr oder Falsch', text: 'Der Hashtag wurde von Instagram erfunden.' },
       { mode: 'Wahrheit / Pflicht', text: 'Mach ein genaues Kompliment | Erzähl deinen größten Party-Lacher' }
     ],
     nl: [
       { mode: 'Green Flags / Red Flags', text: 'Respecteert je tijd, zelfs als de avond chaotisch wordt.' },
-      { mode: 'Quiz', text: '+ Een spel kan leuk blijven zonder openbare score.' },
+      { mode: 'Quiz · Waar of Niet', text: 'De hashtag is uitgevonden door Instagram.' },
       { mode: 'Truth or Dare', text: 'Geef een concreet compliment | Vertel je grootste lachmoment op een feestje' }
     ],
     pt: [
       { mode: 'Green Flags / Red Flags', text: 'Respeita o teu tempo mesmo quando a noite fica caótica.' },
-      { mode: 'Quiz', text: '+ Um jogo pode ser divertido sem pontuação pública.' },
+      { mode: 'Quiz · Verdadeiro ou Falso', text: 'O hashtag foi inventado pelo Instagram.' },
       { mode: 'Verdade / Desafio', text: 'Faz um elogio específico | Conta a tua maior gargalhada numa festa' }
     ]
   };
