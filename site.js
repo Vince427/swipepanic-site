@@ -26,12 +26,12 @@
     "storeCopy": "Une expérience rapide, fun et pensée pour les soirées : packs officiels, packs amis, modes solo/local et règles UGC claires.",
     "footer": "© Swipe Panic. Contact : support@swipepanic.app",
     "suggestTitle": "Suggérer une carte",
-    "suggestIntro": "Envoyez une idée courte, claire et sûre pour Classic, Quiz ou Action/Vérité. Le formulaire prépare un email et copie le texte pour éviter toute perte.",
+    "suggestIntro": "Envoyez une idée courte, claire et sûre pour Green Flags / Red Flags, Quiz ou Action/Vérité. Le formulaire prépare un email et copie le texte pour éviter toute perte.",
     "fieldMode": "Mode",
     "fieldIdea": "Texte de la carte",
     "fieldNote": "Note optionnelle",
     "fieldLang": "Langue de la carte",
-    "fieldClassicType": "Type Classic",
+    "fieldClassicType": "Type Green / Red",
     "classicTypeRed": "Red flag",
     "classicTypeGreen": "Green flag",
     "prepareEmail": "Préparer l’email",
@@ -42,7 +42,7 @@
     "suggestionHeader": "Nouvelle suggestion de carte Swipe Panic",
     "placeholderIdea": "Ex: Il/Elle parle de son ex au premier rendez-vous.",
     "placeholderNote": "Ton pseudo, contexte, pack visé, variante...",
-    "formatHelpClassic": "Format Classic : une phrase courte de dating. Pas de lien, pas de coordonnées, pas de personne réelle ciblée.",
+    "formatHelpClassic": "Format Green Flags / Red Flags : une phrase courte de dating. Pas de lien, pas de coordonnées, pas de personne réelle ciblée.",
     "formatHelpQuiz": "Format Quiz : commence par + pour Vrai ou - pour Faux. Exemple : + Le premier message compte.",
     "formatHelpSocial": "Format Action/Vérité : écris deux textes séparés par |. Exemple : Fais un compliment | Raconte ton pire rendez-vous.",
     "invalidTooShort": "La suggestion est trop courte. Ajoute une vraie phrase jouable.",
@@ -98,9 +98,12 @@
     "manualReports": "Les signalements sont traités manuellement.",
     "moderationContact": "Contact : support@swipepanic.app",
     "navTerms": "Conditions",
-    "modeClassic": "Classic",
+    "modeClassic": "Green Flags / Red Flags",
     "modeQuiz": "Quiz",
     "modeSocial": "Action/Vérité",
+    "publicCatalogEyebrow": "Aperçu officiel modéré",
+    "randomCardButton": "Carte au hasard",
+    "randomCardFallback": "Les cartes officielles restent courtes, relues et pensées pour être jouées vite.",
     "titleHome": "Swipe Panic - Le party game qui révèle ton groupe",
     "titleSuggest": "Suggérer une carte - Swipe Panic",
     "titlePrivacy": "Politique de confidentialité - Swipe Panic",
@@ -134,12 +137,12 @@
     "storeCopy": "A fast, fun party experience with official packs, friends packs, solo/local modes and clear UGC rules.",
     "footer": "© Swipe Panic. Contact: support@swipepanic.app",
     "suggestTitle": "Suggest a card",
-    "suggestIntro": "Send a short, clear and safe idea for Classic, Quiz or Truth or Dare. The form prepares an email and copies the text so nothing gets lost.",
+    "suggestIntro": "Send a short, clear and safe idea for Green Flags / Red Flags, Quiz or Truth or Dare. The form prepares an email and copies the text so nothing gets lost.",
     "fieldMode": "Mode",
     "fieldIdea": "Card text",
     "fieldNote": "Optional note",
     "fieldLang": "Card language",
-    "fieldClassicType": "Classic type",
+    "fieldClassicType": "Green / Red type",
     "classicTypeRed": "Red flag",
     "classicTypeGreen": "Green flag",
     "prepareEmail": "Prepare email",
@@ -150,7 +153,7 @@
     "suggestionHeader": "New Swipe Panic card suggestion",
     "placeholderIdea": "Ex: They talk about their ex on the first date.",
     "placeholderNote": "Nickname, context, target pack, variant...",
-    "formatHelpClassic": "Classic format: one short dating sentence. No links, no contact details, no real targeted person.",
+    "formatHelpClassic": "Green Flags / Red Flags format: one short dating sentence. No links, no contact details, no real targeted person.",
     "formatHelpQuiz": "Quiz format: start with + for True or - for False. Example: + The first message matters.",
     "formatHelpSocial": "Truth or Dare format: write two texts separated by |. Example: Give a compliment | Tell your worst date story.",
     "invalidTooShort": "The suggestion is too short. Add a playable sentence.",
@@ -206,9 +209,12 @@
     "manualReports": "Reports are reviewed manually.",
     "moderationContact": "Contact: support@swipepanic.app",
     "navTerms": "Terms",
-    "modeClassic": "Classic",
+    "modeClassic": "Green Flags / Red Flags",
     "modeQuiz": "Quiz",
     "modeSocial": "Truth/Dare",
+    "publicCatalogEyebrow": "Moderated official preview",
+    "randomCardButton": "Random card",
+    "randomCardFallback": "Official cards stay short, reviewed and built for fast play.",
     "titleHome": "Swipe Panic - The party game that reveals your group",
     "titleSuggest": "Suggest a card - Swipe Panic",
     "titlePrivacy": "Privacy Policy - Swipe Panic",
@@ -242,16 +248,19 @@
     "storeTitle": "Disponible en Google Play",
     "storeCopy": "Una experiencia rápida y divertida para fiestas: packs oficiales, packs de amigos, modos solo/locales y reglas UGC claras.",
     "footer": "© Swipe Panic. Contacto: support@swipepanic.app",
-    "modeClassic": "Classic",
+    "modeClassic": "Green Flags / Red Flags",
     "modeQuiz": "Quiz",
     "modeSocial": "Verdad/Reto",
+    "publicCatalogEyebrow": "Vista oficial moderada",
+    "randomCardButton": "Carta al azar",
+    "randomCardFallback": "Las cartas oficiales son cortas, revisadas y pensadas para jugar rápido.",
     "suggestTitle": "Sugerir una carta",
-    "suggestIntro": "Envía una idea corta, clara y segura para Classic, Quiz o Verdad/Reto. El formulario prepara un email y copia el texto para que no se pierda.",
+    "suggestIntro": "Envía una idea breve, clara y segura para Green Flags / Red Flags, Quiz o Verdad/Reto. El formulario prepara un email y copia el texto para que no se pierda.",
     "fieldMode": "Modo",
     "fieldIdea": "Texto de la carta",
     "fieldNote": "Nota opcional",
     "fieldLang": "Idioma de la carta",
-    "fieldClassicType": "Tipo Classic",
+    "fieldClassicType": "Tipo Green / Red",
     "classicTypeRed": "Red flag",
     "classicTypeGreen": "Green flag",
     "prepareEmail": "Preparar email",
@@ -261,7 +270,7 @@
     "suggestionHeader": "Nueva sugerencia de carta Swipe Panic",
     "placeholderIdea": "Ej.: Habla de su ex en la primera cita.",
     "placeholderNote": "Apodo, contexto, pack objetivo, variante...",
-    "formatHelpClassic": "Formato Classic: una frase corta de dating. Sin enlaces, datos de contacto ni una persona real como objetivo.",
+    "formatHelpClassic": "Formato Green Flags / Red Flags: una frase corta de dating. Sin enlaces, datos de contacto ni una persona real como objetivo.",
     "formatHelpQuiz": "Formato Quiz: empieza con + para Verdadero o - para Falso. Ejemplo: + El primer mensaje importa.",
     "formatHelpSocial": "Formato Verdad/Reto: escribe dos textos separados por |. Ejemplo: Haz un cumplido | Cuenta tu peor cita.",
     "invalidTooShort": "La sugerencia es demasiado corta. Añade una frase jugable.",
@@ -349,16 +358,19 @@
     "storeTitle": "Verfügbar bei Google Play",
     "storeCopy": "Ein schnelles, lustiges Party-Erlebnis mit offiziellen Packs, Freunde-Packs, Solo-/Lokalmodi und klaren UGC-Regeln.",
     "footer": "© Swipe Panic. Kontakt: support@swipepanic.app",
-    "modeClassic": "Classic",
+    "modeClassic": "Green Flags / Red Flags",
     "modeQuiz": "Quiz",
     "modeSocial": "Wahrheit/Pflicht",
+    "publicCatalogEyebrow": "Moderierte offizielle Vorschau",
+    "randomCardButton": "Zufällige Karte",
+    "randomCardFallback": "Offizielle Karten bleiben kurz, geprüft und schnell spielbar.",
     "suggestTitle": "Karte vorschlagen",
-    "suggestIntro": "Sende eine kurze, klare und sichere Idee für Classic, Quiz oder Wahrheit/Pflicht. Das Formular bereitet eine E-Mail vor und kopiert den Text.",
+    "suggestIntro": "Sende eine kurze, klare und sichere Idee für Green Flags / Red Flags, Quiz oder Wahrheit/Pflicht. Das Formular bereitet eine E-Mail vor und kopiert den Text.",
     "fieldMode": "Modus",
     "fieldIdea": "Kartentext",
     "fieldNote": "Optionale Notiz",
     "fieldLang": "Kartensprache",
-    "fieldClassicType": "Classic-Typ",
+    "fieldClassicType": "Green / Red Typ",
     "classicTypeRed": "Red flag",
     "classicTypeGreen": "Green flag",
     "prepareEmail": "E-Mail vorbereiten",
@@ -368,7 +380,7 @@
     "suggestionHeader": "Neuer Swipe Panic Kartenvorschlag",
     "placeholderIdea": "Bsp.: Er/Sie spricht beim ersten Date über den Ex.",
     "placeholderNote": "Nickname, Kontext, Zielpack, Variante...",
-    "formatHelpClassic": "Classic-Format: ein kurzer Dating-Satz. Keine Links, Kontaktdaten oder gezielte reale Person.",
+    "formatHelpClassic": "Green Flags / Red Flags Format: ein kurzer Dating-Satz. Keine Links, Kontaktdaten oder gezielte reale Person.",
     "formatHelpQuiz": "Quiz-Format: Beginne mit + für Wahr oder - für Falsch. Beispiel: + Die erste Nachricht zählt.",
     "formatHelpSocial": "Wahrheit/Pflicht-Format: zwei Texte mit | trennen. Beispiel: Mach ein Kompliment | Erzähl von deinem schlimmsten Date.",
     "invalidTooShort": "Der Vorschlag ist zu kurz. Füge einen spielbaren Satz hinzu.",
@@ -456,12 +468,12 @@
     "storeCopy": "Een snelle, leuke party-ervaring met officiële packs, vriendenpacks, solo/lokale modi en duidelijke UGC-regels.",
     "footer": "© Swipe Panic. Contact: support@swipepanic.app",
     "suggestTitle": "Kaart voorstellen",
-    "suggestIntro": "Stuur een kort, duidelijk en veilig idee voor Classic, Quiz of Truth/Dare. Het formulier maakt een e-mail klaar en kopieert de tekst.",
+    "suggestIntro": "Stuur een kort, duidelijk en veilig idee voor Green Flags / Red Flags, Quiz of Truth/Dare. Het formulier maakt een e-mail klaar en kopieert de tekst.",
     "fieldMode": "Modus",
     "fieldIdea": "Kaarttekst",
     "fieldNote": "Optionele notitie",
     "fieldLang": "Taal van de kaart",
-    "fieldClassicType": "Classic-type",
+    "fieldClassicType": "Green / Red type",
     "classicTypeRed": "Red flag",
     "classicTypeGreen": "Green flag",
     "prepareEmail": "E-mail voorbereiden",
@@ -472,7 +484,7 @@
     "suggestionHeader": "Nieuwe Swipe Panic kaartsuggestie",
     "placeholderIdea": "Bijv.: Diegene praat op de eerste date over een ex.",
     "placeholderNote": "Nickname, context, doelpack, variant...",
-    "formatHelpClassic": "Classic-formaat: één korte datingzin. Geen links, contactgegevens of echte persoon als doelwit.",
+    "formatHelpClassic": "Green Flags / Red Flags formaat: één korte datingzin. Geen links, contactgegevens of echte persoon als doelwit.",
     "formatHelpQuiz": "Quiz-formaat: begin met + voor Waar of - voor Niet waar. Voorbeeld: + Het eerste bericht telt.",
     "formatHelpSocial": "Truth/Dare-formaat: schrijf twee teksten gescheiden door |. Voorbeeld: Geef een compliment | Vertel je slechtste dateverhaal.",
     "invalidTooShort": "De suggestie is te kort. Voeg een speelbare zin toe.",
@@ -528,9 +540,12 @@
     "manualReports": "Meldingen worden handmatig beoordeeld.",
     "moderationContact": "Contact: support@swipepanic.app",
     "navTerms": "Voorwaarden",
-    "modeClassic": "Classic",
+    "modeClassic": "Green Flags / Red Flags",
     "modeQuiz": "Quiz",
     "modeSocial": "Truth/Dare",
+    "publicCatalogEyebrow": "Gematigde officiële preview",
+    "randomCardButton": "Willekeurige kaart",
+    "randomCardFallback": "Officiële kaarten blijven kort, nagekeken en snel speelbaar.",
     "titleHome": "Swipe Panic - De partygame die je groep onthult",
     "titleSuggest": "Kaart voorstellen - Swipe Panic",
     "titlePrivacy": "Privacybeleid - Swipe Panic",
@@ -564,12 +579,12 @@
     "storeCopy": "Uma experiência rápida e divertida para festas: packs oficiais, packs de amigos, modos solo/locais e regras UGC claras.",
     "footer": "© Swipe Panic. Contacto: support@swipepanic.app",
     "suggestTitle": "Sugerir uma carta",
-    "suggestIntro": "Envia uma ideia curta, clara e segura para Classic, Quiz ou Verdade/Desafio. O formulário prepara um email e copia o texto.",
+    "suggestIntro": "Envia uma ideia curta, clara e segura para Green Flags / Red Flags, Quiz ou Verdade/Desafio. O formulário prepara um email e copia o texto.",
     "fieldMode": "Modo",
     "fieldIdea": "Texto da carta",
     "fieldNote": "Nota opcional",
     "fieldLang": "Idioma da carta",
-    "fieldClassicType": "Tipo Classic",
+    "fieldClassicType": "Tipo Green / Red",
     "classicTypeRed": "Red flag",
     "classicTypeGreen": "Green flag",
     "prepareEmail": "Preparar email",
@@ -580,7 +595,7 @@
     "suggestionHeader": "Nova sugestão de carta Swipe Panic",
     "placeholderIdea": "Ex.: Fala do ex no primeiro encontro.",
     "placeholderNote": "Alcunha, contexto, pack alvo, variante...",
-    "formatHelpClassic": "Formato Classic: uma frase curta de dating. Sem links, contactos ou pessoa real visada.",
+    "formatHelpClassic": "Formato Green Flags / Red Flags: uma frase curta de dating. Sem links, contactos ou pessoa real visada.",
     "formatHelpQuiz": "Formato Quiz: começa com + para Verdadeiro ou - para Falso. Exemplo: + A primeira mensagem conta.",
     "formatHelpSocial": "Formato Verdade/Desafio: escreve dois textos separados por |. Exemplo: Faz um elogio | Conta o teu pior encontro.",
     "invalidTooShort": "A sugestão é demasiado curta. Adiciona uma frase jogável.",
@@ -636,9 +651,12 @@
     "manualReports": "As denúncias são revistas manualmente.",
     "moderationContact": "Contacto: support@swipepanic.app",
     "navTerms": "Termos",
-    "modeClassic": "Classic",
+    "modeClassic": "Green Flags / Red Flags",
     "modeQuiz": "Quiz",
     "modeSocial": "Verdade/Desafio",
+    "publicCatalogEyebrow": "Prévia oficial moderada",
+    "randomCardButton": "Carta aleatória",
+    "randomCardFallback": "As cartas oficiais são curtas, revistas e feitas para jogar rápido.",
     "titleHome": "Swipe Panic - O party game que revela o teu grupo",
     "titleSuggest": "Sugerir uma carta - Swipe Panic",
     "titlePrivacy": "Política de privacidade - Swipe Panic",
@@ -755,6 +773,39 @@
     return supportedLangs.includes(raw) ? raw : 'fr';
   }
 
+  const publicCardSamples = {
+    fr: [
+      { mode: 'Green Flags / Red Flags', text: 'Il/Elle respecte ton temps même quand la soirée part dans tous les sens.' },
+      { mode: 'Quiz', text: '+ Une partie peut rester drôle sans score public.' },
+      { mode: 'Action / Vérité', text: 'Fais un compliment précis | Raconte ton plus grand fou rire de soirée' }
+    ],
+    en: [
+      { mode: 'Green Flags / Red Flags', text: 'They respect your time even when the night gets chaotic.' },
+      { mode: 'Quiz', text: '+ A game can stay fun without a public score.' },
+      { mode: 'Truth or Dare', text: 'Give a specific compliment | Tell your biggest party laugh' }
+    ],
+    es: [
+      { mode: 'Green Flags / Red Flags', text: 'Respeta tu tiempo aunque la noche se vuelva caótica.' },
+      { mode: 'Quiz', text: '+ Una partida puede ser divertida sin marcador público.' },
+      { mode: 'Verdad o Reto', text: 'Haz un cumplido concreto | Cuenta tu mayor ataque de risa en una fiesta' }
+    ],
+    de: [
+      { mode: 'Green Flags / Red Flags', text: 'Respektiert deine Zeit, auch wenn der Abend chaotisch wird.' },
+      { mode: 'Quiz', text: '+ Ein Spiel kann auch ohne öffentlichen Score Spaß machen.' },
+      { mode: 'Wahrheit / Pflicht', text: 'Mach ein genaues Kompliment | Erzähl deinen größten Party-Lacher' }
+    ],
+    nl: [
+      { mode: 'Green Flags / Red Flags', text: 'Respecteert je tijd, zelfs als de avond chaotisch wordt.' },
+      { mode: 'Quiz', text: '+ Een spel kan leuk blijven zonder openbare score.' },
+      { mode: 'Truth or Dare', text: 'Geef een concreet compliment | Vertel je grootste lachmoment op een feestje' }
+    ],
+    pt: [
+      { mode: 'Green Flags / Red Flags', text: 'Respeita o teu tempo mesmo quando a noite fica caótica.' },
+      { mode: 'Quiz', text: '+ Um jogo pode ser divertido sem pontuação pública.' },
+      { mode: 'Verdade / Desafio', text: 'Faz um elogio específico | Conta a tua maior gargalhada numa festa' }
+    ]
+  };
+
   function getLang() {
     const saved = localStorage.getItem('sp_lang');
     if (supportedLangs.includes(saved)) return saved;
@@ -766,6 +817,22 @@
     if (select && !select.dataset.userTouched && supportedLangs.includes(lang)) {
       select.value = lang;
     }
+  }
+
+  function renderRandomCardPreview(lang) {
+    const modeNode = document.querySelector('[data-random-card-mode]');
+    const textNode = document.querySelector('[data-random-card-text]');
+    if (!modeNode || !textNode) return;
+    const samples = publicCardSamples[lang] || publicCardSamples.en || [];
+    const copy = copyFor(lang);
+    if (!samples.length) {
+      modeNode.textContent = copy.modeClassic || 'Green Flags / Red Flags';
+      textNode.textContent = copy.randomCardFallback || '';
+      return;
+    }
+    const sample = samples[Math.floor(Math.random() * samples.length)];
+    modeNode.textContent = sample.mode;
+    textNode.textContent = sample.text;
   }
 
   function setText(lang) {
@@ -789,6 +856,7 @@
     });
     syncSuggestionLanguage(lang);
     updateFormatHelp(lang);
+    renderRandomCardPreview(lang);
   }
 
   const blockedKeywords = [
@@ -929,7 +997,7 @@
       'Mode: ' + modeKey,
       'Language: ' + cardLang,
       'Pack target: ' + draft.pack_id,
-      modeKey === 'classic' ? 'Classic type: ' + classicType : '',
+      modeKey === 'classic' ? 'Green / Red type: ' + classicType : '',
       copy.safeCheck,
       '',
       'SUMMARY',
@@ -1003,6 +1071,10 @@
   const lang = getLang();
   setText(lang);
   wireSuggestion(lang);
+  const randomCardButton = document.getElementById('random-card-button');
+  if (randomCardButton) {
+    randomCardButton.addEventListener('click', () => renderRandomCardPreview(getLang()));
+  }
   document.querySelectorAll('[data-lang]').forEach((button) => {
     button.addEventListener('click', () => {
       const next = button.getAttribute('data-lang') || 'fr';
