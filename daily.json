@@ -22,6 +22,11 @@
     "pt": "20 acoes ou verdades oficiais para animar a mesa esta semana."
   },
   "cardIds": [
+    "party_social_1",
+    "party_social_2",
+    "party_social_3",
+    "party_social_4",
+    "party_social_5",
     "party_social_6",
     "party_social_7",
     "party_social_8",
@@ -36,11 +41,6 @@
     "party_social_17",
     "party_social_18",
     "party_social_19",
-    "party_social_20",
-    "party_social_1",
-    "party_social_2",
-    "party_social_3",
-    "party_social_4",
-    "party_social_5"
+    "party_social_20"
   ]
 }

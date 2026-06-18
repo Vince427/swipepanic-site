@@ -379,7 +379,9 @@ function buildDailyForDate(poolFile, dateText, catalog = null, patch = null) {
   const { mondayText, weekSlug, weekIndex } = isoWeekParts(dateText);
   const pools = poolFile.pools;
   const pool = pools[weekIndex % pools.length];
-  const cardIds = rotate(pool.cardIds, weekIndex).slice(0, pool.maxCards);
+  // Step by a full window (weekIndex * maxCards) so consecutive picks of the
+  // same pool are non-overlapping instead of drifting one card per week.
+  const cardIds = rotate(pool.cardIds, weekIndex * pool.maxCards).slice(0, pool.maxCards);
   return {
     version: 1,
     id: `weekly_${weekSlug}_${pool.mode}`,
