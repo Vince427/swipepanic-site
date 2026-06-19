@@ -151,6 +151,31 @@
         "nl": "Die persoon lacht om zichzelf zonder anderen naar beneden te halen.",
         "pt": "Ri de si mesmo sem diminuir os outros."
       }
+    },
+    {
+      "id": "remote_dating_red_004",
+      "pack_id": "dating_pack",
+      "mode": "classic",
+      "theme": "dating",
+      "type": "red_flag",
+      "difficulty": 1,
+      "enabled": true,
+      "safe_reviewed": {
+        "fr": true,
+        "en": true,
+        "es": true,
+        "de": true,
+        "nl": true,
+        "pt": true
+      },
+      "texts": {
+        "fr": "Appelle sans prevenir.",
+        "en": "Calls without texting first.",
+        "es": "Llama sin avisar.",
+        "de": "Ruft an, ohne vorher zu schreiben.",
+        "nl": "Belt zonder eerst te appen.",
+        "pt": "Liga sem avisar antes."
+      }
     }
   ]
 }
