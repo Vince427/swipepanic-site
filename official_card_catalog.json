@@ -1201,6 +1201,66 @@
     {
       "id": "quiz_100",
       "mode": "quiz"
+    },
+    {
+      "id": "vacation_red_1",
+      "mode": "classic"
+    },
+    {
+      "id": "vacation_red_2",
+      "mode": "classic"
+    },
+    {
+      "id": "vacation_red_3",
+      "mode": "classic"
+    },
+    {
+      "id": "vacation_red_4",
+      "mode": "classic"
+    },
+    {
+      "id": "vacation_red_5",
+      "mode": "classic"
+    },
+    {
+      "id": "vacation_green_1",
+      "mode": "classic"
+    },
+    {
+      "id": "vacation_green_2",
+      "mode": "classic"
+    },
+    {
+      "id": "vacation_red_6",
+      "mode": "classic"
+    },
+    {
+      "id": "vacation_red_7",
+      "mode": "classic"
+    },
+    {
+      "id": "vacation_green_3",
+      "mode": "classic"
+    },
+    {
+      "id": "vacation_red_8",
+      "mode": "classic"
+    },
+    {
+      "id": "vacation_red_9",
+      "mode": "classic"
+    },
+    {
+      "id": "vacation_green_4",
+      "mode": "classic"
+    },
+    {
+      "id": "vacation_red_10",
+      "mode": "classic"
+    },
+    {
+      "id": "vacation_green_5",
+      "mode": "classic"
     }
   ]
 }
