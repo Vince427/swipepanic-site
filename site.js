@@ -146,6 +146,14 @@
     "liveSetupWifiDesc": "Chacun joue sur son propre téléphone, connectés au même réseau local. Aucun compte requis.",
     "liveDownloadTitle": "Télécharge Swipe Panic",
     "liveDownloadCta": "Disponible gratuitement sur Google Play",
+    "liveConsensusTitle": "Comment le LIVE se connecte à l'appli",
+    "liveConsensusStep1Title": "Le streamer affiche une carte",
+    "liveConsensusStep1Desc": "Une carte Swipe Panic apparaît en overlay OBS sur le stream. Tout le monde voit la même situation.",
+    "liveConsensusStep2Title": "Les viewers votent dans le chat",
+    "liveConsensusStep2Desc": "🟢 pour Green Flag, 🔴 pour Red Flag — directement dans les commentaires TikTok.",
+    "liveConsensusStep3Title": "L'appli te montre comment des milliers ont voté",
+    "liveConsensusStep3Desc": "Les stats de consensus apparaissent dans le récap : comment ton pays a voté, et ce que pensent les autres.",
+    "liveConsensusNote": "Note : le consensus est une photo périodique, pas un résultat en temps réel.",
     "liveModerationTitle": "Des cartes officielles, pas du hasard",
     "liveModerationCopy": "Les cartes officielles sont relues et validées par l'équipe — elles ne viennent pas d'inconnus sur Internet. Les packs créés par les joueurs restent privés dans leur groupe : personne d'autre ne les voit ni ne les reçoit.",
     "changelogTitle": "Évolutions et corrections",
@@ -304,6 +312,14 @@
     "liveSetupWifiDesc": "Everyone plays on their own phone, connected to the same local network. No account required.",
     "liveDownloadTitle": "Download Swipe Panic",
     "liveDownloadCta": "Free on Google Play",
+    "liveConsensusTitle": "How the LIVE connects to the app",
+    "liveConsensusStep1Title": "The streamer shows a card",
+    "liveConsensusStep1Desc": "A Swipe Panic card appears as an OBS overlay on the stream. Everyone sees the same situation.",
+    "liveConsensusStep2Title": "Viewers vote in the chat",
+    "liveConsensusStep2Desc": "🟢 for Green Flag, 🔴 for Red Flag — right in the TikTok comments.",
+    "liveConsensusStep3Title": "The app shows you how thousands voted",
+    "liveConsensusStep3Desc": "Consensus stats appear in your recap: how your country voted, and what others thought.",
+    "liveConsensusNote": "Note: the consensus is a periodic snapshot, not a real-time result.",
     "liveModerationTitle": "Official cards, not random crowd content",
     "liveModerationCopy": "Official cards are reviewed and approved by the team — they don't come from random strangers on the Internet. Packs created by players stay private within their group: no one else sees or receives them.",
     "changelogTitle": "Updates & fixes",
@@ -461,6 +477,14 @@
     "liveSetupWifiDesc": "Cada uno juega en su propio teléfono, conectados a la misma red local. Sin cuenta requerida.",
     "liveDownloadTitle": "Descarga Swipe Panic",
     "liveDownloadCta": "Gratis en Google Play",
+    "liveConsensusTitle": "Cómo el LIVE se conecta a la app",
+    "liveConsensusStep1Title": "El streamer muestra una carta",
+    "liveConsensusStep1Desc": "Una carta de Swipe Panic aparece como overlay OBS en el stream. Todo el mundo ve la misma situación.",
+    "liveConsensusStep2Title": "Los espectadores votan en el chat",
+    "liveConsensusStep2Desc": "🟢 para Green Flag, 🔴 para Red Flag — directamente en los comentarios de TikTok.",
+    "liveConsensusStep3Title": "La app te muestra cómo votaron miles de personas",
+    "liveConsensusStep3Desc": "Las estadísticas de consenso aparecen en tu resumen: cómo votó tu país y qué pensaron los demás.",
+    "liveConsensusNote": "Nota: el consenso es una foto periódica, no un resultado en tiempo real.",
     "liveModerationTitle": "Cartas oficiales, no contenido aleatorio",
     "liveModerationCopy": "Las cartas oficiales son revisadas y aprobadas por el equipo — no vienen de desconocidos en Internet. Los packs creados por jugadores se quedan privados dentro de su grupo: nadie más los ve ni los recibe.",
     "changelogTitle": "Evoluciones y correcciones",
@@ -618,6 +642,14 @@
     "liveSetupWifiDesc": "Alle spielen auf ihrem eigenen Handy, verbunden mit demselben lokalen Netzwerk. Kein Konto erforderlich.",
     "liveDownloadTitle": "Swipe Panic herunterladen",
     "liveDownloadCta": "Kostenlos bei Google Play",
+    "liveConsensusTitle": "Wie das LIVE mit der App verbunden ist",
+    "liveConsensusStep1Title": "Der Streamer zeigt eine Karte",
+    "liveConsensusStep1Desc": "Eine Swipe Panic-Karte erscheint als OBS-Overlay im Stream. Alle sehen dieselbe Situation.",
+    "liveConsensusStep2Title": "Zuschauer stimmen im Chat ab",
+    "liveConsensusStep2Desc": "🟢 für Green Flag, 🔴 für Red Flag — direkt in den TikTok-Kommentaren.",
+    "liveConsensusStep3Title": "Die App zeigt dir, wie Tausende abgestimmt haben",
+    "liveConsensusStep3Desc": "Konsens-Statistiken erscheinen in deinem Recap: wie dein Land abgestimmt hat und was andere dachten.",
+    "liveConsensusNote": "Hinweis: Der Konsens ist eine periodische Momentaufnahme, kein Echtzeitergebnis.",
     "liveModerationTitle": "Offizielle Karten, keine zufälligen Inhalte",
     "liveModerationCopy": "Offizielle Karten werden vom Team geprüft und freigegeben — sie stammen nicht von Fremden aus dem Internet. Von Spielern erstellte Packs bleiben privat in ihrer Gruppe: niemand sonst sieht oder erhält sie.",
     "changelogTitle": "Entwicklungen und Korrekturen",
@@ -776,6 +808,14 @@
     "liveSetupWifiDesc": "Iedereen speelt op zijn eigen telefoon, verbonden met hetzelfde lokale netwerk. Geen account vereist.",
     "liveDownloadTitle": "Download Swipe Panic",
     "liveDownloadCta": "Gratis op Google Play",
+    "liveConsensusTitle": "Hoe de LIVE verbindt met de app",
+    "liveConsensusStep1Title": "De streamer toont een kaart",
+    "liveConsensusStep1Desc": "Een Swipe Panic-kaart verschijnt als OBS-overlay in de stream. Iedereen ziet dezelfde situatie.",
+    "liveConsensusStep2Title": "Kijkers stemmen in de chat",
+    "liveConsensusStep2Desc": "🟢 voor Green Flag, 🔴 voor Red Flag — rechtstreeks in de TikTok-reacties.",
+    "liveConsensusStep3Title": "De app laat je zien hoe duizenden hebben gestemd",
+    "liveConsensusStep3Desc": "Consensusstatistieken verschijnen in je samenvatting: hoe jouw land stemde en wat anderen dachten.",
+    "liveConsensusNote": "Opmerking: het consensus is een periodieke momentopname, geen realtime resultaat.",
     "liveModerationTitle": "Officiële kaarten, geen willekeurige inhoud",
     "liveModerationCopy": "Officiële kaarten worden door het team beoordeeld en goedgekeurd — ze komen niet van vreemden op internet. Packs gemaakt door spelers blijven privé binnen hun groep: niemand anders ziet of ontvangt ze.",
     "changelogTitle": "Updates en verbeteringen",
@@ -934,6 +974,14 @@
     "liveSetupWifiDesc": "Cada um joga no seu próprio telemóvel, ligados à mesma rede local. Sem conta necessária.",
     "liveDownloadTitle": "Descarrega Swipe Panic",
     "liveDownloadCta": "Grátis no Google Play",
+    "liveConsensusTitle": "Como o LIVE se liga à app",
+    "liveConsensusStep1Title": "O streamer mostra uma carta",
+    "liveConsensusStep1Desc": "Uma carta do Swipe Panic aparece como overlay OBS no stream. Toda a gente vê a mesma situação.",
+    "liveConsensusStep2Title": "Os espectadores votam no chat",
+    "liveConsensusStep2Desc": "🟢 para Green Flag, 🔴 para Red Flag — diretamente nos comentários do TikTok.",
+    "liveConsensusStep3Title": "A app mostra-te como milhares votaram",
+    "liveConsensusStep3Desc": "As estatísticas de consenso aparecem no teu resumo: como o teu país votou e o que os outros acharam.",
+    "liveConsensusNote": "Nota: o consenso é uma fotografia periódica, não um resultado em tempo real.",
     "liveModerationTitle": "Cartas oficiais, não conteúdo aleatório",
     "liveModerationCopy": "As cartas oficiais são revistas e aprovadas pela equipa — não vêm de desconhecidos na Internet. Os packs criados por jogadores ficam privados dentro do seu grupo: mais ninguém os vê ou recebe.",
     "changelogTitle": "Evoluções e correções",
@@ -1126,7 +1174,16 @@
     document.title = copy[pageKey()] || document.title;
     document.querySelectorAll('[data-i18n]').forEach((node) => {
       const key = node.getAttribute('data-i18n');
-      if (copy[key]) node.textContent = copy[key];
+      if (!copy[key]) return;
+      // Some strings (e.g. the play guide) carry intentional inline markup
+      // (<strong>, <em>, <code>). Render those as HTML so the tags don't show
+      // literally; plain strings stay textContent. All values are static,
+      // author-controlled copy (no user input), so innerHTML is safe here.
+      if (/<[a-z][\s\S]*>/i.test(copy[key])) {
+        node.innerHTML = copy[key];
+      } else {
+        node.textContent = copy[key];
+      }
     });
     document.querySelectorAll('[data-i18n-placeholder]').forEach((node) => {
       const key = node.getAttribute('data-i18n-placeholder');
