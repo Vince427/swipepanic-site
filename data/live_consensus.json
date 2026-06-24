@@ -1,9 +1,9 @@
 {
-  "vacation_red_1": { "accept": 35, "reject": 65 },
-  "vacation_red_2": { "accept": 12, "reject": 88 },
-  "vacation_red_3": { "accept": 78, "reject": 22 },
-  "vacation_red_4": { "accept": 45, "reject": 55 },
-  "vacation_red_5": { "accept": 52, "reject": 48 },
-  "vacation_green_1": { "accept": 90, "reject": 10 },
-  "vacation_green_2": { "accept": 60, "reject": 40 }
+  "vacation_red_1": { "accept": 35, "reject": 65, "countries": { "🇫🇷": { "accept": 42, "reject": 58 }, "🇧🇷": { "accept": 28, "reject": 72 }, "🇺🇸": { "accept": 33, "reject": 67 } } },
+  "vacation_red_2": { "accept": 12, "reject": 88, "countries": { "🇫🇷": { "accept": 18, "reject": 82 }, "🇧🇷": { "accept": 9, "reject": 91 } } },
+  "vacation_red_3": { "accept": 78, "reject": 22, "countries": { "🇫🇷": { "accept": 71, "reject": 29 }, "🇺🇸": { "accept": 82, "reject": 18 } } },
+  "vacation_red_4": { "accept": 45, "reject": 55, "countries": { "🇫🇷": { "accept": 50, "reject": 50 }, "🇧🇷": { "accept": 39, "reject": 61 } } },
+  "vacation_red_5": { "accept": 52, "reject": 48, "countries": { "🇫🇷": { "accept": 47, "reject": 53 } } },
+  "vacation_green_1": { "accept": 90, "reject": 10, "countries": { "🇫🇷": { "accept": 88, "reject": 12 }, "🇺🇸": { "accept": 93, "reject": 7 } } },
+  "vacation_green_2": { "accept": 60, "reject": 40, "countries": { "🇫🇷": { "accept": 64, "reject": 36 }, "🇧🇷": { "accept": 55, "reject": 45 } } }
 }
