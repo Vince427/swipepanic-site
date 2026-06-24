@@ -4,5 +4,6 @@
   "daily_url": "daily.json",
   "cards_patch_url": "cards_patch.json",
   "blacklist_url": "blacklist.txt",
-  "blacklist_json_url": "blacklist.json"
+  "blacklist_json_url": "blacklist.json",
+  "live_consensus_url": "data/live_consensus.json"
 }

@@ -1,0 +1,9 @@
+{
+  "vacation_red_1": { "accept": 35, "reject": 65 },
+  "vacation_red_2": { "accept": 12, "reject": 88 },
+  "vacation_red_3": { "accept": 78, "reject": 22 },
+  "vacation_red_4": { "accept": 45, "reject": 55 },
+  "vacation_red_5": { "accept": 52, "reject": 48 },
+  "vacation_green_1": { "accept": 90, "reject": 10 },
+  "vacation_green_2": { "accept": 60, "reject": 40 }
+}
