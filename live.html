@@ -56,6 +56,20 @@
       </div>
     </section>
 
+    <!-- Featured pack (live -> app funnel; populated by site.js from consensus) -->
+    <section class="band shell" id="live-featured" hidden>
+      <div class="feature-card" style="max-width: 760px; margin: 0 auto; text-align: center; padding: 32px;">
+        <span class="kicker" data-featured-title>Le LIVE jouait</span>
+        <h2 class="section-title" style="font-size: clamp(26px, 3vw, 44px);">
+          <span data-featured-pack></span> <span data-featured-flames aria-hidden="true"></span>
+        </h2>
+        <p class="section-copy" data-featured-sub></p>
+        <div class="actions" style="margin-top: 24px;">
+          <a class="button" data-featured-cta target="_blank" rel="noopener noreferrer">Jouer ce pack</a>
+        </div>
+      </div>
+    </section>
+
     <!-- Live Consensus explainer -->
     <section class="band shell">
       <h2 class="section-title" data-i18n="liveConsensusTitle">Comment le LIVE se connecte à l'appli</h2>
@@ -172,6 +186,6 @@
       </div>
     </div>
   </footer>
-  <script src="./site.js?v=20260602-live"></script>
+  <script src="./site.js?v=20260625-funnel"></script>
 </body>
 </html>

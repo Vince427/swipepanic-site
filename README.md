@@ -11,6 +11,13 @@ Remote content endpoints:
 - `cards_patch.json`
 - `blacklist.txt`
 - `blacklist.json`
+- `data/live_consensus.json` — live audience consensus, published from the
+  studio's `deploy_consensus.js`. Card-id keyed:
+  `{ "<cardId>": { "accept": int, "reject": int, "countries"?: { "<flag>": { "accept": int, "reject": int } } } }`.
+  Referenced by `manifest.json` (`live_consensus_url`). Consumed by the app
+  recap AND by `live.html` (the "Le LIVE jouait" funnel block), which infers
+  the featured pack from card-id **prefixes** (`vacation_*` → `vacation_pack`,
+  etc.). Keep card-id prefixes intact or the funnel stops surfacing the pack.
 
 Validate public JSON before publishing:
 

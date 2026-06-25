@@ -1009,7 +1009,10 @@
       "languageEs": "Espagnol",
       "languageDe": "Allemand",
       "languageNl": "Néerlandais",
-      "languagePt": "Portugais"
+      "languagePt": "Portugais",
+      "liveFeaturedTitle": "Le LIVE jouait",
+      "liveFeaturedSub": "Les cartes que tu as vues en stream — installe et lance-les avec tes potes.",
+      "liveFeaturedCta": "Jouer ce pack"
     },
     en: {
       "contactTitle": "Contact",
@@ -1022,7 +1025,10 @@
       "languageEs": "Spanish",
       "languageDe": "German",
       "languageNl": "Dutch",
-      "languagePt": "Portuguese"
+      "languagePt": "Portuguese",
+      "liveFeaturedTitle": "The LIVE was playing",
+      "liveFeaturedSub": "The cards you saw on stream — install and play them with your friends.",
+      "liveFeaturedCta": "Play this pack"
     },
     es: {
       "contactTitle": "Contacto",
@@ -1035,7 +1041,10 @@
       "languageEs": "Español",
       "languageDe": "Alemán",
       "languageNl": "Neerlandés",
-      "languagePt": "Portugués"
+      "languagePt": "Portugués",
+      "liveFeaturedTitle": "El LIVE jugaba",
+      "liveFeaturedSub": "Las cartas que viste en directo — instala y juega con tus amigos.",
+      "liveFeaturedCta": "Jugar este pack"
     },
     de: {
       "contactTitle": "Kontakt",
@@ -1048,7 +1057,10 @@
       "languageEs": "Spanisch",
       "languageDe": "Deutsch",
       "languageNl": "Niederländisch",
-      "languagePt": "Portugiesisch"
+      "languagePt": "Portugiesisch",
+      "liveFeaturedTitle": "Das LIVE spielte",
+      "liveFeaturedSub": "Die Karten aus dem Stream — installier's und spiel mit deinen Freunden.",
+      "liveFeaturedCta": "Diesen Pack spielen"
     },
     nl: {
       "contactTitle": "Contact",
@@ -1061,7 +1073,10 @@
       "languageEs": "Spaans",
       "languageDe": "Duits",
       "languageNl": "Nederlands",
-      "languagePt": "Portugees"
+      "languagePt": "Portugees",
+      "liveFeaturedTitle": "De LIVE speelde",
+      "liveFeaturedSub": "De kaarten die je in de stream zag — installeer en speel met je vrienden.",
+      "liveFeaturedCta": "Speel dit pakket"
     },
     pt: {
       "contactTitle": "Contacto",
@@ -1074,7 +1089,10 @@
       "languageEs": "Espanhol",
       "languageDe": "Alemão",
       "languageNl": "Neerlandês",
-      "languagePt": "Português"
+      "languagePt": "Português",
+      "liveFeaturedTitle": "O LIVE jogava",
+      "liveFeaturedSub": "As cartas que viste na stream — instala e joga com os teus amigos.",
+      "liveFeaturedCta": "Jogar este pacote"
     }
   };
 
@@ -1168,6 +1186,79 @@
     textNode.textContent = sample.text;
   }
 
+  // --- Live -> app funnel (live.html) ---------------------------------------
+  // Infers which official pack a recent live featured (from the consensus
+  // card-id prefixes, mirroring the app's ConsensusService) and surfaces a
+  // store CTA tagged with UTM + the pack id, so a stream viewer lands on the
+  // exact pack they saw. Kept fully static (just fetches a published JSON).
+  const STORE_URL =
+    'https://play.google.com/store/apps/details?id=com.swipepanic.swipe_panic';
+  const PREFIX_TO_PACK = {
+    vacation: 'vacation_pack', dating: 'dating_pack', office: 'office_pack',
+    gym: 'gym_pack_v1', party: 'party_pack_v1', quiz: 'quiz_pack_v1'
+  };
+  // Editorial intensity 1..3, mirrors the app's PackCatalog.
+  const SITE_PACK_INTENSITY = {
+    vacation_pack: 1, quiz_pack_v1: 1, dating_pack: 2,
+    office_pack: 2, gym_pack_v1: 2, party_pack_v1: 3
+  };
+  const SITE_PACK_LABELS = {
+    vacation_pack: { fr: 'Vacances', en: 'Vacation', es: 'Vacaciones', de: 'Urlaub', nl: 'Vakantie', pt: 'Férias' },
+    dating_pack: { fr: 'Dating', en: 'Dating', es: 'Citas', de: 'Dating', nl: 'Dating', pt: 'Encontros' },
+    office_pack: { fr: 'Bureau', en: 'Office', es: 'Oficina', de: 'Büro', nl: 'Kantoor', pt: 'Escritório' },
+    gym_pack_v1: { fr: 'Gym', en: 'Gym', es: 'Gimnasio', de: 'Gym', nl: 'Sportschool', pt: 'Ginásio' },
+    party_pack_v1: { fr: 'Soirée', en: 'Party', es: 'Fiesta', de: 'Party', nl: 'Feest', pt: 'Festa' },
+    quiz_pack_v1: { fr: 'Quiz', en: 'Quiz', es: 'Quiz', de: 'Quiz', nl: 'Quiz', pt: 'Quiz' }
+  };
+
+  let _liveStatsPromise = null;
+  function loadLiveStats() {
+    if (!_liveStatsPromise) {
+      _liveStatsPromise = fetch('./data/live_consensus.json', { cache: 'no-store' })
+        .then((r) => (r.ok ? r.json() : null))
+        .catch(() => null);
+    }
+    return _liveStatsPromise;
+  }
+
+  function inferFeaturedPack(stats) {
+    if (!stats) return null;
+    const counts = {};
+    Object.keys(stats).forEach((id) => {
+      const pack = PREFIX_TO_PACK[String(id).split('_')[0]];
+      if (pack) counts[pack] = (counts[pack] || 0) + 1;
+    });
+    let best = null, n = -1;
+    Object.keys(counts).forEach((p) => { if (counts[p] > n) { best = p; n = counts[p]; } });
+    return best;
+  }
+
+  function storeUrlForPack(pack) {
+    return STORE_URL +
+      '&utm_source=live&utm_medium=site&utm_campaign=live_funnel&pack=' +
+      encodeURIComponent(pack);
+  }
+
+  async function renderLiveFeatured(lang) {
+    const box = document.getElementById('live-featured');
+    if (!box) return;
+    const stats = await loadLiveStats();
+    const pack = inferFeaturedPack(stats);
+    if (!pack) { box.hidden = true; return; }
+    const copy = copyFor(lang);
+    const label = (SITE_PACK_LABELS[pack] || {})[lang] ||
+      (SITE_PACK_LABELS[pack] || {}).en || pack;
+    const flames = '🔥'.repeat(SITE_PACK_INTENSITY[pack] || 0);
+    const set = (sel, val) => { const n = box.querySelector(sel); if (n) n.textContent = val; };
+    set('[data-featured-title]', copy.liveFeaturedTitle || '');
+    set('[data-featured-pack]', label);
+    set('[data-featured-flames]', flames);
+    set('[data-featured-sub]', copy.liveFeaturedSub || '');
+    const cta = box.querySelector('[data-featured-cta]');
+    if (cta) { cta.href = storeUrlForPack(pack); cta.textContent = copy.liveFeaturedCta || copy.download || 'Download'; }
+    box.hidden = false;
+  }
+
   function setText(lang) {
     const copy = copyFor(lang);
     document.documentElement.lang = lang;
@@ -1199,6 +1290,7 @@
     syncSuggestionLanguage(lang);
     updateFormatHelp(lang);
     renderRandomCardPreview(lang);
+    renderLiveFeatured(lang);
   }
 
   const blockedKeywords = [
