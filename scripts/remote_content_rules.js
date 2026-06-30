@@ -365,13 +365,63 @@ function validateDaily(daily, poolFile, patch, errors = []) {
     for (const cardId of daily.cardIds) {
       assert(publicIds.has(cardId), `daily.cardIds.${cardId}: not_in_public_pool`);
     }
+
+    // Optional live-event fields (candidates #4/#5/#7). Each is validated only
+    // when present so older packs without them stay valid.
+    for (const key of ['liveStartDate', 'liveEndDate']) {
+      if (daily[key] !== undefined) {
+        assert(typeof daily[key] === 'string', `daily.${key}: expected_string`);
+        const parsed = new Date(daily[key]);
+        assert(!Number.isNaN(parsed.getTime()), `daily.${key}: invalid_datetime`);
+      }
+    }
+    if (daily.liveTime !== undefined) {
+      assert(
+        typeof daily.liveTime === 'string' && daily.liveTime.trim().length > 0 && daily.liveTime.length <= 40,
+        'daily.liveTime: invalid'
+      );
+    }
+    if (daily.streamerVotes !== undefined) {
+      assert(isPlainObject(daily.streamerVotes), 'daily.streamerVotes: expected_object');
+      const cardIdSet = new Set(daily.cardIds);
+      for (const [cardId, verdict] of Object.entries(daily.streamerVotes)) {
+        assert(cardIdSet.has(cardId), `daily.streamerVotes.${cardId}: not_in_cardIds`);
+        assert(verdict === 'accept' || verdict === 'reject', `daily.streamerVotes.${cardId}: invalid_verdict`);
+      }
+    }
   } catch (error) {
     errors.push(error.message);
   }
   return errors;
 }
 
-function buildDailyForDate(poolFile, dateText, catalog = null, patch = null) {
+// Derives the per-card streamer/live verdict map the app shows as the
+// "Streamer vs You" chip (candidate #4). Source = live_consensus.json, the
+// crowd verdict gathered during the live: a card is "accept" when more live
+// viewers accepted than rejected, else "reject". Only cards present in BOTH
+// the pack and the consensus produce an entry; ties resolve to "accept".
+// Returns null when no card has consensus data (field then omitted entirely).
+function deriveStreamerVotes(cardIds, consensus) {
+  if (!isPlainObject(consensus)) {
+    return null;
+  }
+  const votes = {};
+  for (const cardId of cardIds) {
+    const entry = consensus[cardId];
+    if (!isPlainObject(entry)) {
+      continue;
+    }
+    const accept = Number(entry.accept);
+    const reject = Number(entry.reject);
+    if (!Number.isFinite(accept) || !Number.isFinite(reject)) {
+      continue;
+    }
+    votes[cardId] = accept >= reject ? 'accept' : 'reject';
+  }
+  return Object.keys(votes).length > 0 ? votes : null;
+}
+
+function buildDailyForDate(poolFile, dateText, catalog = null, patch = null, options = {}) {
   const errors = validateDailyPool(poolFile, catalog, patch, []);
   if (errors.length > 0) {
     throw new Error(errors.join('\n'));
@@ -382,7 +432,7 @@ function buildDailyForDate(poolFile, dateText, catalog = null, patch = null) {
   // Step by a full window (weekIndex * maxCards) so consecutive picks of the
   // same pool are non-overlapping instead of drifting one card per week.
   const cardIds = rotate(pool.cardIds, weekIndex * pool.maxCards).slice(0, pool.maxCards);
-  return {
+  const daily = {
     version: 1,
     id: `weekly_${weekSlug}_${pool.mode}`,
     date: mondayText,
@@ -393,6 +443,27 @@ function buildDailyForDate(poolFile, dateText, catalog = null, patch = null) {
     subtitle: pool.subtitle,
     cardIds
   };
+
+  // Optional live-event fields. The app reads them but degrades gracefully when
+  // absent, so they are only emitted when their source is present.
+  const streamerVotes = deriveStreamerVotes(cardIds, options.consensus);
+  if (streamerVotes) {
+    daily.streamerVotes = streamerVotes;
+  }
+  const liveEvent = options.liveEvent;
+  if (isPlainObject(liveEvent)) {
+    if (typeof liveEvent.liveStartDate === 'string' && liveEvent.liveStartDate.trim()) {
+      daily.liveStartDate = liveEvent.liveStartDate.trim();
+    }
+    if (typeof liveEvent.liveEndDate === 'string' && liveEvent.liveEndDate.trim()) {
+      daily.liveEndDate = liveEvent.liveEndDate.trim();
+    }
+    if (typeof liveEvent.liveTime === 'string' && liveEvent.liveTime.trim()) {
+      daily.liveTime = liveEvent.liveTime.trim();
+    }
+  }
+
+  return daily;
 }
 
 module.exports = {
