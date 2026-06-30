@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-06-18T00:00:00Z",
+  "updated_at": "2026-06-30T00:00:00Z",
   "cards": [
     {
       "id": "dating_red_1",
@@ -1276,6 +1276,7 @@
     },
     {
       "id": "vacation_19",
+      "live_tier": "risky",
       "mode": "classic"
     },
     {
@@ -1340,6 +1341,26 @@
     },
     {
       "id": "vacation_35",
+      "mode": "classic"
+    },
+    {
+      "id": "gym_red_16",
+      "live_tier": "risky",
+      "mode": "classic"
+    },
+    {
+      "id": "gym_red_18",
+      "live_tier": "risky",
+      "mode": "classic"
+    },
+    {
+      "id": "gym_red_42",
+      "live_tier": "risky",
+      "mode": "classic"
+    },
+    {
+      "id": "gym_red_50",
+      "live_tier": "risky",
       "mode": "classic"
     }
   ]

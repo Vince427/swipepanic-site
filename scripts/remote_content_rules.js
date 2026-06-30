@@ -6,6 +6,10 @@ const path = require('path');
 const LOCALES = ['fr', 'en', 'es', 'de', 'nl', 'pt'];
 const MODES = new Set(['classic', 'quiz', 'social']);
 const CARD_TYPES = new Set(['red_flag', 'green_flag']);
+// Content-sensitivity tiers, mirrors LiveTier (app: lib/domain/model/live_tier.dart).
+// Only safe/debate may appear in a PUBLIC live pack; risky/forbidden are filtered out.
+const LIVE_TIERS = new Set(['safe', 'debate', 'risky', 'forbidden']);
+const LIVE_TIERS_EXCLUDED = new Set(['risky', 'forbidden']);
 
 const SIZE_LIMITS = {
   'manifest.json': 16 * 1024,
@@ -115,6 +119,11 @@ function validateOfficialCardCatalog(catalog, errors = []) {
       assert(!ids.has(card.id), `${label}.id: duplicate`);
       ids.add(card.id);
       assert(MODES.has(card.mode), `${label}.mode: invalid`);
+      // Optional content-sensitivity tier (used to keep risky/forbidden cards
+      // out of public live packs). Absent → treated as broadcastable.
+      if (card.live_tier !== undefined) {
+        assert(LIVE_TIERS.has(card.live_tier), `${label}.live_tier: invalid`);
+      }
     }
     catalog.__byId = new Map(catalog.cards.map((card) => [card.id, card]));
   } catch (error) {
@@ -250,6 +259,9 @@ function validateCardsPatch(patch, errors = []) {
       assert(CARD_TYPES.has(card.type), `${label}.type: invalid`);
       assert(Number.isInteger(card.difficulty) && card.difficulty >= 1 && card.difficulty <= 5, `${label}.difficulty: invalid`);
       assert(card.enabled === true, `${label}.enabled: must_be_true`);
+      if (card.live_tier !== undefined) {
+        assert(LIVE_TIERS.has(card.live_tier), `${label}.live_tier: invalid`);
+      }
       assertSafeReviewed(card.safe_reviewed, `${label}.safe_reviewed`);
       assertLocalizedStrings(card.texts, `${label}.texts`, 180);
     }
@@ -421,6 +433,30 @@ function deriveStreamerVotes(cardIds, consensus) {
   return Object.keys(votes).length > 0 ? votes : null;
 }
 
+// Whether a card may appear in a PUBLIC live pack. Absent tier / unknown card →
+// eligible (broadcastable), so untagged content is non-disruptive. Only an
+// explicit risky/forbidden tier excludes it. The tier is resolved from the
+// catalog first, then the patch (a daily cardId may come from either), so the
+// enforcement chain covers both sources.
+function liveTierOf(cardId, catalog, patch) {
+  const fromCatalog = catalog && catalog.__byId ? catalog.__byId.get(cardId) : null;
+  if (fromCatalog && fromCatalog.live_tier !== undefined) {
+    return fromCatalog.live_tier;
+  }
+  if (patch && Array.isArray(patch.cards)) {
+    const fromPatch = patch.cards.find((c) => c && c.id === cardId);
+    if (fromPatch && fromPatch.live_tier !== undefined) {
+      return fromPatch.live_tier;
+    }
+  }
+  return undefined;
+}
+
+function isPublicLiveEligible(cardId, catalog, patch) {
+  const tier = liveTierOf(cardId, catalog, patch);
+  return tier === undefined || !LIVE_TIERS_EXCLUDED.has(tier);
+}
+
 function buildDailyForDate(poolFile, dateText, catalog = null, patch = null, options = {}) {
   const errors = validateDailyPool(poolFile, catalog, patch, []);
   if (errors.length > 0) {
@@ -429,16 +465,25 @@ function buildDailyForDate(poolFile, dateText, catalog = null, patch = null, opt
   const { mondayText, weekSlug, weekIndex } = isoWeekParts(dateText);
   const pools = poolFile.pools;
   const pool = pools[weekIndex % pools.length];
+  // Keep risky/forbidden cards OUT of the public weekly pack. A card with no
+  // catalog tier (or no catalog at all) is treated as broadcastable, matching
+  // the app's default — so this is non-disruptive until cards are tagged.
+  const eligibleIds = pool.cardIds.filter((cardId) => isPublicLiveEligible(cardId, catalog, patch));
+  // The pack can shrink when risky cards are excluded; never below 0. A pool
+  // that is entirely risky yields maxCards 0 → validateDaily fails loudly.
+  const maxCards = Math.min(pool.maxCards, eligibleIds.length);
   // Step by a full window (weekIndex * maxCards) so consecutive picks of the
   // same pool are non-overlapping instead of drifting one card per week.
-  const cardIds = rotate(pool.cardIds, weekIndex * pool.maxCards).slice(0, pool.maxCards);
+  const cardIds = maxCards > 0
+    ? rotate(eligibleIds, weekIndex * maxCards).slice(0, maxCards)
+    : [];
   const daily = {
     version: 1,
     id: `weekly_${weekSlug}_${pool.mode}`,
     date: mondayText,
     cadence: 'weekly',
     mode: pool.mode,
-    maxCards: pool.maxCards,
+    maxCards,
     title: pool.title,
     subtitle: pool.subtitle,
     cardIds
