@@ -119,10 +119,14 @@ function validateOfficialCardCatalog(catalog, errors = []) {
       assert(!ids.has(card.id), `${label}.id: duplicate`);
       ids.add(card.id);
       assert(MODES.has(card.mode), `${label}.mode: invalid`);
-      // Optional content-sensitivity tier (used to keep risky/forbidden cards
-      // out of public live packs). Absent → treated as broadcastable.
       if (card.live_tier !== undefined) {
-        assert(LIVE_TIERS.has(card.live_tier), `${label}.live_tier: invalid`);
+        assert(
+          card.live_tier === 'safe' ||
+            card.live_tier === 'debate' ||
+            card.live_tier === 'risky' ||
+            card.live_tier === 'forbidden',
+          `${label}.live_tier: invalid_live_tier`
+        );
       }
     }
     catalog.__byId = new Map(catalog.cards.map((card) => [card.id, card]));
@@ -378,27 +382,26 @@ function validateDaily(daily, poolFile, patch, errors = []) {
       assert(publicIds.has(cardId), `daily.cardIds.${cardId}: not_in_public_pool`);
     }
 
-    // Optional live-event fields (candidates #4/#5/#7). Each is validated only
-    // when present so older packs without them stay valid.
-    for (const key of ['liveStartDate', 'liveEndDate']) {
-      if (daily[key] !== undefined) {
-        assert(typeof daily[key] === 'string', `daily.${key}: expected_string`);
-        const parsed = new Date(daily[key]);
-        assert(!Number.isNaN(parsed.getTime()), `daily.${key}: invalid_datetime`);
-      }
+    if (daily.liveStartDate !== undefined) {
+      assert(typeof daily.liveStartDate === 'string', 'daily.liveStartDate: expected_string');
+      assert(/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?Z$/.test(daily.liveStartDate), 'daily.liveStartDate: invalid_iso_date');
+      assert(!Number.isNaN(new Date(daily.liveStartDate).getTime()), 'daily.liveStartDate: invalid_date');
+    }
+    if (daily.liveEndDate !== undefined) {
+      assert(typeof daily.liveEndDate === 'string', 'daily.liveEndDate: expected_string');
+      assert(/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?Z$/.test(daily.liveEndDate), 'daily.liveEndDate: invalid_iso_date');
+      assert(!Number.isNaN(new Date(daily.liveEndDate).getTime()), 'daily.liveEndDate: invalid_date');
     }
     if (daily.liveTime !== undefined) {
-      assert(
-        typeof daily.liveTime === 'string' && daily.liveTime.trim().length > 0 && daily.liveTime.length <= 40,
-        'daily.liveTime: invalid'
-      );
+      assert(typeof daily.liveTime === 'string', 'daily.liveTime: expected_string');
+      assert(daily.liveTime.trim().length > 0, 'daily.liveTime: empty');
+      assert(daily.liveTime.length <= 40, 'daily.liveTime: too_long');
     }
     if (daily.streamerVotes !== undefined) {
       assert(isPlainObject(daily.streamerVotes), 'daily.streamerVotes: expected_object');
-      const cardIdSet = new Set(daily.cardIds);
-      for (const [cardId, verdict] of Object.entries(daily.streamerVotes)) {
-        assert(cardIdSet.has(cardId), `daily.streamerVotes.${cardId}: not_in_cardIds`);
-        assert(verdict === 'accept' || verdict === 'reject', `daily.streamerVotes.${cardId}: invalid_verdict`);
+      for (const [cardId, vote] of Object.entries(daily.streamerVotes)) {
+        assert(daily.cardIds.includes(cardId), `daily.streamerVotes.${cardId}: not_in_cardIds`);
+        assert(vote === 'accept' || vote === 'reject', `daily.streamerVotes.${cardId}: invalid_vote_value`);
       }
     }
   } catch (error) {
@@ -407,57 +410,7 @@ function validateDaily(daily, poolFile, patch, errors = []) {
   return errors;
 }
 
-// Derives the per-card streamer/live verdict map the app shows as the
-// "Streamer vs You" chip (candidate #4). Source = live_consensus.json, the
-// crowd verdict gathered during the live: a card is "accept" when more live
-// viewers accepted than rejected, else "reject". Only cards present in BOTH
-// the pack and the consensus produce an entry; ties resolve to "accept".
-// Returns null when no card has consensus data (field then omitted entirely).
-function deriveStreamerVotes(cardIds, consensus) {
-  if (!isPlainObject(consensus)) {
-    return null;
-  }
-  const votes = {};
-  for (const cardId of cardIds) {
-    const entry = consensus[cardId];
-    if (!isPlainObject(entry)) {
-      continue;
-    }
-    const accept = Number(entry.accept);
-    const reject = Number(entry.reject);
-    if (!Number.isFinite(accept) || !Number.isFinite(reject)) {
-      continue;
-    }
-    votes[cardId] = accept >= reject ? 'accept' : 'reject';
-  }
-  return Object.keys(votes).length > 0 ? votes : null;
-}
-
-// Whether a card may appear in a PUBLIC live pack. Absent tier / unknown card →
-// eligible (broadcastable), so untagged content is non-disruptive. Only an
-// explicit risky/forbidden tier excludes it. The tier is resolved from the
-// catalog first, then the patch (a daily cardId may come from either), so the
-// enforcement chain covers both sources.
-function liveTierOf(cardId, catalog, patch) {
-  const fromCatalog = catalog && catalog.__byId ? catalog.__byId.get(cardId) : null;
-  if (fromCatalog && fromCatalog.live_tier !== undefined) {
-    return fromCatalog.live_tier;
-  }
-  if (patch && Array.isArray(patch.cards)) {
-    const fromPatch = patch.cards.find((c) => c && c.id === cardId);
-    if (fromPatch && fromPatch.live_tier !== undefined) {
-      return fromPatch.live_tier;
-    }
-  }
-  return undefined;
-}
-
-function isPublicLiveEligible(cardId, catalog, patch) {
-  const tier = liveTierOf(cardId, catalog, patch);
-  return tier === undefined || !LIVE_TIERS_EXCLUDED.has(tier);
-}
-
-function buildDailyForDate(poolFile, dateText, catalog = null, patch = null, options = {}) {
+function buildDailyForDate(poolFile, dateText, catalog = null, patch = null, liveEvent = null, liveConsensus = null) {
   const errors = validateDailyPool(poolFile, catalog, patch, []);
   if (errors.length > 0) {
     throw new Error(errors.join('\n'));
@@ -465,50 +418,68 @@ function buildDailyForDate(poolFile, dateText, catalog = null, patch = null, opt
   const { mondayText, weekSlug, weekIndex } = isoWeekParts(dateText);
   const pools = poolFile.pools;
   const pool = pools[weekIndex % pools.length];
-  // Keep risky/forbidden cards OUT of the public weekly pack. A card with no
-  // catalog tier (or no catalog at all) is treated as broadcastable, matching
-  // the app's default — so this is non-disruptive until cards are tagged.
-  const eligibleIds = pool.cardIds.filter((cardId) => isPublicLiveEligible(cardId, catalog, patch));
-  // The pack can shrink when risky cards are excluded; never below 0. A pool
-  // that is entirely risky yields maxCards 0 → validateDaily fails loudly.
-  const maxCards = Math.min(pool.maxCards, eligibleIds.length);
   // Step by a full window (weekIndex * maxCards) so consecutive picks of the
   // same pool are non-overlapping instead of drifting one card per week.
-  const cardIds = maxCards > 0
-    ? rotate(eligibleIds, weekIndex * maxCards).slice(0, maxCards)
-    : [];
-  const daily = {
+  const baseCardIds = rotate(pool.cardIds, weekIndex * pool.maxCards).slice(0, pool.maxCards);
+  
+  // Filter by live_tier safety: exclude risky and forbidden cards
+  const cardIds = baseCardIds.filter((cardId) => {
+    const catalogCard = catalog && catalog.__byId ? catalog.__byId.get(cardId) : null;
+    if (catalogCard && catalogCard.live_tier) {
+      return catalogCard.live_tier === 'safe' || catalogCard.live_tier === 'debate';
+    }
+    return true;
+  });
+  const maxCards = cardIds.length;
+
+  const result = {
     version: 1,
     id: `weekly_${weekSlug}_${pool.mode}`,
     date: mondayText,
     cadence: 'weekly',
     mode: pool.mode,
-    maxCards,
+    maxCards: maxCards,
     title: pool.title,
     subtitle: pool.subtitle,
     cardIds
   };
 
-  // Optional live-event fields. The app reads them but degrades gracefully when
-  // absent, so they are only emitted when their source is present.
-  const streamerVotes = deriveStreamerVotes(cardIds, options.consensus);
-  if (streamerVotes) {
-    daily.streamerVotes = streamerVotes;
-  }
-  const liveEvent = options.liveEvent;
-  if (isPlainObject(liveEvent)) {
+  if (liveEvent) {
     if (typeof liveEvent.liveStartDate === 'string' && liveEvent.liveStartDate.trim()) {
-      daily.liveStartDate = liveEvent.liveStartDate.trim();
+      result.liveStartDate = liveEvent.liveStartDate.trim();
     }
     if (typeof liveEvent.liveEndDate === 'string' && liveEvent.liveEndDate.trim()) {
-      daily.liveEndDate = liveEvent.liveEndDate.trim();
+      result.liveEndDate = liveEvent.liveEndDate.trim();
     }
     if (typeof liveEvent.liveTime === 'string' && liveEvent.liveTime.trim()) {
-      daily.liveTime = liveEvent.liveTime.trim();
+      result.liveTime = liveEvent.liveTime.trim();
     }
   }
 
-  return daily;
+  if (liveConsensus) {
+    const streamerVotes = {};
+    let hasVotes = false;
+    for (const cardId of cardIds) {
+      const votes = liveConsensus[cardId];
+      if (votes && typeof votes.accept === 'number' && typeof votes.reject === 'number') {
+        if (votes.accept > votes.reject) {
+          streamerVotes[cardId] = 'accept';
+          hasVotes = true;
+        } else if (votes.reject > votes.accept) {
+          streamerVotes[cardId] = 'reject';
+          hasVotes = true;
+        } else {
+          streamerVotes[cardId] = 'reject';
+          hasVotes = true;
+        }
+      }
+    }
+    if (hasVotes) {
+      result.streamerVotes = streamerVotes;
+    }
+  }
+
+  return result;
 }
 
 module.exports = {

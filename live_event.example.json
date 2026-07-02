@@ -1,6 +1,5 @@
 {
-  "_comment": "Template for the live schedule. Rename to live_event.json and fill with the REAL live datetimes for generate_daily.js to bake them into daily.json. All three fields are optional and ISO-8601 (UTC) except liveTime which is a free display string. Source of truth = the studio.",
-  "liveStartDate": "2026-07-03T19:00:00Z",
-  "liveEndDate": "2026-07-05T19:00:00Z",
+  "liveStartDate": "2026-07-03T21:00:00Z",
+  "liveEndDate": "2026-07-05T21:00:00Z",
   "liveTime": "21:00"
 }

@@ -43,13 +43,37 @@ function main() {
     throw new Error(errors.join('\n'));
   }
 
-  // Optional live-event sources. `live_consensus.json` (published, also fetched
-  // by the app) feeds the streamer/live chip; `live_event.json` (build input)
-  // carries the live schedule. Both are optional — absent → fields omitted.
-  const consensus = readOptionalJson('data/live_consensus.json');
-  const liveEvent = readOptionalJson('live_event.json');
+  let liveEvent = null;
+  const liveEventPath = path.join(__dirname, '../live_event.json');
+  if (fs.existsSync(liveEventPath)) {
+    try {
+      liveEvent = JSON.parse(fs.readFileSync(liveEventPath, 'utf8'));
+      console.log('Loaded live_event.json data.');
+    } catch (e) {
+      console.warn('Warning: Failed to parse live_event.json:', e.message);
+    }
+  }
 
-  const daily = buildDailyForDate(pool, date, catalog, patch, { consensus, liveEvent });
+  let liveConsensus = null;
+  const consensusPath = path.join(__dirname, '../data/live_consensus.json');
+  const consensusPathRoot = path.join(__dirname, '../live_consensus.json');
+  if (fs.existsSync(consensusPath)) {
+    try {
+      liveConsensus = JSON.parse(fs.readFileSync(consensusPath, 'utf8'));
+      console.log('Loaded data/live_consensus.json.');
+    } catch (e) {
+      console.warn('Warning: Failed to parse data/live_consensus.json:', e.message);
+    }
+  } else if (fs.existsSync(consensusPathRoot)) {
+    try {
+      liveConsensus = JSON.parse(fs.readFileSync(consensusPathRoot, 'utf8'));
+      console.log('Loaded live_consensus.json.');
+    } catch (e) {
+      console.warn('Warning: Failed to parse live_consensus.json:', e.message);
+    }
+  }
+
+  const daily = buildDailyForDate(pool, date, catalog, patch, liveEvent, liveConsensus);
   const dailyErrors = validateDaily(daily, pool, patch, []);
   if (dailyErrors.length > 0) {
     throw new Error(dailyErrors.join('\n'));
