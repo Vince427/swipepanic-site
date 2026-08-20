@@ -18,7 +18,7 @@ const SIZE_LIMITS = {
   'blacklist.txt': 64 * 1024,
   'blacklist.json': 128 * 1024,
   'daily_pool.json': 256 * 1024,
-  'official_card_catalog.json': 128 * 1024
+  'official_card_catalog.json': 2 * 1024 * 1024
 };
 
 function repoRoot() {

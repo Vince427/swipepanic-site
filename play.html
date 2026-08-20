@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>Swipe Panic — Jouer en Ligne</title>
+  <meta name="description" content="Joue à Swipe Panic directement dans ton navigateur : swipe les dilemmes Red Flag / Green Flag et découvre le consensus mondial !">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Swipe Panic — Jouer en Ligne">
+  <meta property="og:description" content="Green Flag 🟢 ou Red Flag 🚩 ? Vote sur les pires dilemmes et compare ton avis au monde entier !">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://swipepanic.app/play.html">
+  <meta property="og:image" content="https://swipepanic.app/assets/og_image.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/icon.png">
+
+  <style>
+    :root {
+      --bg: #0c0b14;
+      --card-bg: #181628;
+      --card-border: #2e2a4a;
+      --text: #f3f3f8;
+      --text-dim: #9490b8;
+      --red: #ff3366;
+      --green: #00e676;
+      --orange: #ff9100;
+      --purple: #7c4dff;
+      --gold: #ffd700;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      -webkit-tap-highlight-color: transparent;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      min-height: 100vh;
+      min-height: 100dvh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      overflow: hidden;
+      position: relative;
+    }
+
+    /* Background Ambient Glows */
+    .glow-left {
+      position: absolute;
+      top: -10%;
+      left: -20%;
+      width: 60vw;
+      height: 60vw;
+      background: radial-gradient(circle, rgba(124, 77, 255, 0.15) 0%, rgba(0,0,0,0) 70%);
+      pointer-events: none;
+    }
+    .glow-right {
+      position: absolute;
+      bottom: -10%;
+      right: -20%;
+      width: 60vw;
+      height: 60vw;
+      background: radial-gradient(circle, rgba(255, 51, 102, 0.12) 0%, rgba(0,0,0,0) 70%);
+      pointer-events: none;
+    }
+
+    /* Header */
+    header {
+      width: 100%;
+      max-width: 480px;
+      padding: 16px 20px 8px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      z-index: 10;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .logo-badge {
+      background: linear-gradient(135deg, var(--purple), var(--red));
+      width: 34px;
+      height: 34px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 900;
+      font-size: 18px;
+      box-shadow: 0 4px 12px rgba(124, 77, 255, 0.35);
+    }
+
+    .app-name {
+      font-weight: 800;
+      font-size: 19px;
+      letter-spacing: -0.5px;
+      background: linear-gradient(90deg, #fff, #bbb);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .header-controls {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .lang-select {
+      background: #1f1c34;
+      border: 1px solid var(--card-border);
+      color: var(--text);
+      font-size: 13px;
+      font-weight: 600;
+      padding: 6px 10px;
+      border-radius: 20px;
+      outline: none;
+      cursor: pointer;
+    }
+
+    /* Game Stage */
+    .stage {
+      flex: 1;
+      width: 100%;
+      max-width: 420px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      padding: 10px 20px;
+    }
+
+    .pack-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(124, 77, 255, 0.15);
+      border: 1px solid rgba(124, 77, 255, 0.35);
+      color: #b39ddb;
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 12px;
+    }
+
+    /* Cards Stack */
+    .card-container {
+      width: 100%;
+      height: 380px;
+      max-height: 52vh;
+      position: relative;
+      perspective: 1000px;
+    }
+
+    .card {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: var(--card-bg);
+      border: 2px solid var(--card-border);
+      border-radius: 24px;
+      padding: 28px 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.5);
+      touch-action: none;
+      cursor: grab;
+      transition: transform 0.05s ease-out, box-shadow 0.2s;
+    }
+
+    .card:active {
+      cursor: grabbing;
+    }
+
+    .card-theme-tag {
+      font-size: 11px;
+      font-weight: 800;
+      color: var(--text-dim);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .card-text {
+      font-size: 22px;
+      font-weight: 700;
+      line-height: 1.4;
+      color: var(--text);
+      text-align: center;
+      margin: auto 0;
+      word-break: break-word;
+    }
+
+    .card-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--text-dim);
+    }
+
+    /* Swipe Overlay Stamps */
+    .stamp {
+      position: absolute;
+      top: 24px;
+      padding: 6px 14px;
+      border-radius: 12px;
+      font-size: 18px;
+      font-weight: 900;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      opacity: 0;
+      pointer-events: none;
+      transform: rotate(0deg);
+      transition: opacity 0.1s ease;
+    }
+
+    .stamp-red {
+      right: 20px;
+      border: 3px solid var(--red);
+      color: var(--red);
+      transform: rotate(12deg);
+      box-shadow: 0 0 15px rgba(255, 51, 102, 0.3);
+    }
+
+    .stamp-green {
+      left: 20px;
+      border: 3px solid var(--green);
+      color: var(--green);
+      transform: rotate(-12deg);
+      box-shadow: 0 0 15px rgba(0, 230, 118, 0.3);
+    }
+
+    /* Consensus Popup Overlay */
+    .consensus-overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) scale(0.9);
+      width: 90%;
+      background: #141224;
+      border: 2px solid var(--purple);
+      border-radius: 20px;
+      padding: 20px;
+      text-align: center;
+      opacity: 0;
+      pointer-events: none;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.8);
+      z-index: 20;
+      transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+    .consensus-overlay.visible {
+      opacity: 1;
+      transform: translate(-50%, -50%) scale(1);
+    }
+
+    .consensus-title {
+      font-size: 13px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #b39ddb;
+      margin-bottom: 12px;
+    }
+
+    .consensus-bar-wrapper {
+      height: 24px;
+      background: #25213b;
+      border-radius: 12px;
+      overflow: hidden;
+      display: flex;
+      margin-bottom: 14px;
+      border: 1px solid var(--card-border);
+    }
+
+    .consensus-fill-red {
+      background: linear-gradient(90deg, #ff1744, #ff5252);
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 11px;
+      font-weight: 800;
+      color: white;
+      transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .consensus-fill-green {
+      background: linear-gradient(90deg, #00e676, #69f0ae);
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 11px;
+      font-weight: 800;
+      color: #0b2210;
+      transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .consensus-flags {
+      display: flex;
+      justify-content: space-around;
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--text-dim);
+    }
+
+    /* Action Buttons */
+    .controls {
+      width: 100%;
+      max-width: 420px;
+      padding: 10px 20px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      z-index: 10;
+    }
+
+    .btn-action {
+      flex: 1;
+      height: 56px;
+      border-radius: 18px;
+      border: none;
+      font-size: 16px;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      cursor: pointer;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+      transition: transform 0.1s, opacity 0.2s;
+    }
+
+    .btn-action:active {
+      transform: scale(0.95);
+    }
+
+    .btn-red {
+      background: linear-gradient(135deg, #ff1744, #d50000);
+      color: white;
+    }
+
+    .btn-green {
+      background: linear-gradient(135deg, #00e676, #00c853);
+      color: #0c2010;
+    }
+
+    /* Recap Screen (End of session) */
+    .recap-screen {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: var(--bg);
+      z-index: 30;
+      padding: 30px 20px;
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      overflow-y: auto;
+    }
+
+    .recap-screen.active {
+      display: flex;
+    }
+
+    .recap-card {
+      width: 100%;
+      max-width: 400px;
+      background: var(--card-bg);
+      border: 2px solid var(--purple);
+      border-radius: 24px;
+      padding: 24px;
+      text-align: center;
+      box-shadow: 0 20px 40px rgba(124, 77, 255, 0.2);
+    }
+
+    .recap-title {
+      font-size: 24px;
+      font-weight: 900;
+      margin-bottom: 8px;
+      background: linear-gradient(90deg, #ffd700, #ff9100);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .recap-score {
+      font-size: 42px;
+      font-weight: 900;
+      color: var(--text);
+      margin: 12px 0 6px;
+    }
+
+    .recap-desc {
+      font-size: 14px;
+      color: var(--text-dim);
+      line-height: 1.5;
+      margin-bottom: 16px;
+    }
+
+    .cta-container {
+      width: 100%;
+      max-width: 400px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-top: 16px;
+    }
+
+    .btn-store {
+      background: linear-gradient(135deg, #7c4dff, #ff3366);
+      color: white;
+      text-decoration: none;
+      height: 58px;
+      border-radius: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      font-weight: 800;
+      box-shadow: 0 10px 25px rgba(255, 51, 102, 0.4);
+      transition: transform 0.1s;
+    }
+
+    .btn-store:active {
+      transform: scale(0.97);
+    }
+
+    .btn-replay {
+      background: #1f1c34;
+      border: 1px solid var(--card-border);
+      color: var(--text);
+      height: 48px;
+      border-radius: 16px;
+      font-size: 14px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    /* Loading Spinner */
+    .loader {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text-dim);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="glow-left"></div>
+  <div class="glow-right"></div>
+
+  <!-- Top Header -->
+  <header>
+    <a href="index.html" class="brand">
+      <div class="logo-badge">⚡</div>
+      <span class="app-name">SWIPE PANIC</span>
+    </a>
+    <div class="header-controls">
+      <select id="langSelect" class="lang-select">
+        <option value="fr">🇫🇷 FR</option>
+        <option value="en">🇬🇧 EN</option>
+        <option value="es">🇪🇸 ES</option>
+        <option value="de">🇩🇪 DE</option>
+        <option value="nl">🇳🇱 NL</option>
+        <option value="pt">🇧🇷 PT</option>
+      </select>
+    </div>
+  </header>
+
+  <!-- Main Game Stage -->
+  <div class="stage">
+    <div id="packPill" class="pack-pill">⚡ Mini-Jeu Web</div>
+
+    <div class="card-container" id="cardContainer">
+      <div class="loader" id="loader">Chargement des dilemmes...</div>
+    </div>
+
+    <!-- Live Consensus Popup -->
+    <div class="consensus-overlay" id="consensusOverlay">
+      <div class="consensus-title" id="consensusTitle">🌍 Consensus Mondial</div>
+      <div class="consensus-bar-wrapper">
+        <div class="consensus-fill-red" id="consensusRed">50%</div>
+        <div class="consensus-fill-green" id="consensusGreen">50%</div>
+      </div>
+      <div class="consensus-flags" id="consensusFlags">
+        <span>🇫🇷 62%</span>
+        <span>🇺🇸 54%</span>
+        <span>🇪🇸 58%</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Action Controls -->
+  <div class="controls" id="controls">
+    <button class="btn-action btn-red" id="btnRed" aria-label="Red Flag">
+      <span>🚩</span> <span id="labelRed">RED FLAG</span>
+    </button>
+    <button class="btn-action btn-green" id="btnGreen" aria-label="Green Flag">
+      <span>🟢</span> <span id="labelGreen">GREEN FLAG</span>
+    </button>
+  </div>
+
+  <!-- End of Session Recap Modal -->
+  <div class="recap-screen" id="recapScreen">
+    <div style="height: 10px;"></div>
+    <div class="recap-card">
+      <div class="recap-title">🏆 RECAP SESSION</div>
+      <div class="recap-score" id="recapLucidity">84%</div>
+      <p class="recap-desc" id="recapText">
+        Tu es en phase avec le consensus mondial ! Tes amis auraient-ils fait les mêmes choix ?
+      </p>
+      <div style="font-size: 13px; color: #b39ddb; margin-top: 10px;" id="recapCounts">
+        🚩 3 Red Flags • 🟢 2 Green Flags
+      </div>
+    </div>
+
+    <div class="cta-container">
+      <a href="https://play.google.com/store/apps/details?id=com.swipepanic.swipe_panic" target="_blank" class="btn-store" id="ctaStore">
+        📲 Télécharger l'App Gratuite
+      </a>
+      <button class="btn-replay" id="btnReplay">🔄 Rejouer 5 cartes</button>
+      <a href="index.html" style="text-align:center; font-size:13px; color:var(--text-dim); text-decoration:none; margin-top:6px;">
+        Retour à l'accueil
+      </a>
+    </div>
+  </div>
+
+  <script>
+    'use strict';
+
+    // Translations Dictionary
+    const i18n = {
+      fr: {
+        loading: "Chargement des cartes...",
+        consensusTitle: "🌍 Consensus Mondial",
+        redFlag: "RED FLAG",
+        greenFlag: "GREEN FLAG",
+        recapTitle: "🏆 RECAP SESSION",
+        recapLucidityText: "en phase avec le monde",
+        recapDesc: "Tu es en phase avec le consensus mondial ! En soirée, aurais-tu osé assumer ces choix ?",
+        ctaStore: "📲 Télécharger l'App Gratuite",
+        btnReplay: "🔄 Rejouer 5 cartes",
+        packMini: "⚡ Mini-Jeu Web",
+        errorLoad: "Erreur de chargement. Recharge la page."
+      },
+      en: {
+        loading: "Loading cards...",
+        consensusTitle: "🌍 Global Consensus",
+        redFlag: "RED FLAG",
+        greenFlag: "GREEN FLAG",
+        recapTitle: "🏆 SESSION RECAP",
+        recapLucidityText: "aligned with the world",
+        recapDesc: "You align with global opinion! Would you stand by these choices in a party?",
+        ctaStore: "📲 Download Free App",
+        btnReplay: "🔄 Replay 5 cards",
+        packMini: "⚡ Web Mini-Game",
+        errorLoad: "Loading error. Please refresh."
+      },
+      es: {
+        loading: "Cargando cartas...",
+        consensusTitle: "🌍 Consenso Mundial",
+        redFlag: "RED FLAG",
+        greenFlag: "GREEN FLAG",
+        recapTitle: "🏆 RESUMEN DE SESIÓN",
+        recapLucidityText: "en sintonía mundial",
+        recapDesc: "¿Habrías defendido estas decisiones con tus amigos?",
+        ctaStore: "📲 Descargar App Gratis",
+        btnReplay: "🔄 Jugar 5 cartas más",
+        packMini: "⚡ Mini-Juego Web",
+        errorLoad: "Error al cargar."
+      },
+      de: {
+        loading: "Karten werden geladen...",
+        consensusTitle: "🌍 Weltweiter Konsens",
+        redFlag: "RED FLAG",
+        greenFlag: "GREEN FLAG",
+        recapTitle: "🏆 SPIELÜBERSICHT",
+        recapLucidityText: "im globalen Trend",
+        recapDesc: "Stimmst du mit deinen Freunden überein?",
+        ctaStore: "📲 Kostenlose App laden",
+        btnReplay: "🔄 Noch 5 Karten spielen",
+        packMini: "⚡ Web-Minispiel",
+        errorLoad: "Fehler beim Laden."
+      },
+      nl: {
+        loading: "Kaarten laden...",
+        consensusTitle: "🌍 Wereldwijde Consensus",
+        redFlag: "RED FLAG",
+        greenFlag: "GREEN FLAG",
+        recapTitle: "🏆 SESSIE OVERZICHT",
+        recapLucidityText: "op één lijn met de wereld",
+        recapDesc: "Zouden je vrienden dezelfde keuzes maken?",
+        ctaStore: "📲 Download Gratis App",
+        btnReplay: "🔄 Nog 5 kaarten spelen",
+        packMini: "⚡ Web Minigame",
+        errorLoad: "Laadfout."
+      },
+      pt: {
+        loading: "Carregando cartas...",
+        consensusTitle: "🌍 Consenso Global",
+        redFlag: "RED FLAG",
+        greenFlag: "GREEN FLAG",
+        recapTitle: "🏆 RESUMO DA SESSÃO",
+        recapLucidityText: "em sintonia com o mundo",
+        recapDesc: "Você teria assumido essas escolhas na frente dos seus amigos?",
+        ctaStore: "📲 Baixar App Grátis",
+        btnReplay: "🔄 Jogar mais 5 cartas",
+        packMini: "⚡ Mini-Jogo Web",
+        errorLoad: "Erro ao carregar."
+      }
+    };
+
+    // State Variables
+    let currentLang = 'fr';
+    let allCards = [];
+    let consensusData = {};
+    let sessionQueue = [];
+    let swipedCount = 0;
+    let redCount = 0;
+    let greenCount = 0;
+    let agreementScore = 0;
+    const MAX_SESSION_CARDS = 5;
+
+    // Detect Language from URL or Browser
+    function detectLocale() {
+      const params = new URLSearchParams(window.location.search);
+      const urlLang = params.get('lang');
+      if (urlLang && i18n[urlLang]) return urlLang;
+      const navLang = (navigator.language || navigator.userLanguage || 'fr').substring(0, 2).toLowerCase();
+      return i18n[navLang] ? navLang : 'fr';
+    }
+
+    currentLang = detectLocale();
+    document.getElementById('langSelect').value = currentLang;
+
+    // UI Elements
+    const cardContainer = document.getElementById('cardContainer');
+    const consensusOverlay = document.getElementById('consensusOverlay');
+    const consensusRed = document.getElementById('consensusRed');
+    const consensusGreen = document.getElementById('consensusGreen');
+    const consensusFlags = document.getElementById('consensusFlags');
+    const btnRed = document.getElementById('btnRed');
+    const btnGreen = document.getElementById('btnGreen');
+    const recapScreen = document.getElementById('recapScreen');
+
+    function applyTranslations() {
+      const t = i18n[currentLang] || i18n.fr;
+      document.getElementById('labelRed').textContent = t.redFlag;
+      document.getElementById('labelGreen').textContent = t.greenFlag;
+      document.getElementById('consensusTitle').textContent = t.consensusTitle;
+      document.getElementById('ctaStore').textContent = t.ctaStore;
+      document.getElementById('btnReplay').textContent = t.btnReplay;
+      document.getElementById('packPill').textContent = t.packMini;
+      const topCard = cardContainer.querySelector('.card');
+      if (topCard && topCard._cardData) {
+        topCard.querySelector('.card-text').textContent = topCard._cardData.texts[currentLang] || topCard._cardData.texts.en || topCard._cardData.texts.fr;
+      }
+    }
+
+    document.getElementById('langSelect').addEventListener('change', (e) => {
+      currentLang = e.target.value;
+      applyTranslations();
+    });
+
+    // Load Data
+    async function initGame() {
+      try {
+        const [catalogRes, consensusRes] = await Promise.all([
+          fetch('./official_card_catalog.json').then(r => r.json()),
+          fetch('./data/live_consensus.json').then(r => r.json()).catch(() => ({}))
+        ]);
+
+        consensusData = consensusRes || {};
+        
+        // Flatten all cards
+        allCards = [];
+        if (catalogRes && catalogRes.packs) {
+          Object.values(catalogRes.packs).forEach(p => {
+            if (p.cards) allCards.push(...p.cards);
+          });
+        }
+
+        prepareSession();
+      } catch (err) {
+        console.error("Init failed:", err);
+        document.getElementById('loader').textContent = i18n[currentLang].errorLoad;
+      }
+    }
+
+    function prepareSession() {
+      swipedCount = 0;
+      redCount = 0;
+      greenCount = 0;
+      agreementScore = 0;
+      recapScreen.classList.remove('active');
+
+      const params = new URLSearchParams(window.location.search);
+      const targetCardId = params.get('card');
+      const targetPack = params.get('pack');
+
+      let pool = [...allCards];
+      if (targetPack) {
+        pool = pool.filter(c => c.packId === targetPack || (c.id && c.id.startsWith(targetPack)));
+      }
+      if (pool.length === 0) pool = [...allCards];
+
+      // Shuffle pool
+      pool.sort(() => Math.random() - 0.5);
+
+      sessionQueue = [];
+
+      // If specific card requested via deep link, put it first!
+      if (targetCardId) {
+        const priorityCard = allCards.find(c => c.id === targetCardId);
+        if (priorityCard) {
+          sessionQueue.push(priorityCard);
+          pool = pool.filter(c => c.id !== targetCardId);
+        }
+      }
+
+      // Fill remaining session cards
+      while (sessionQueue.length < MAX_SESSION_CARDS && pool.length > 0) {
+        sessionQueue.push(pool.pop());
+      }
+
+      renderTopCard();
+    }
+
+    function renderTopCard() {
+      cardContainer.innerHTML = '';
+      if (sessionQueue.length === 0 || swipedCount >= MAX_SESSION_CARDS) {
+        showRecap();
+        return;
+      }
+
+      const cardData = sessionQueue[0];
+      const cardEl = document.createElement('div');
+      cardEl.className = 'card';
+      cardEl._cardData = cardData;
+
+      const text = cardData.texts[currentLang] || cardData.texts.en || cardData.texts.fr || '';
+      const theme = cardData.theme || 'dilemma';
+
+      cardEl.innerHTML = `
+        <div class="stamp stamp-green">GREEN FLAG</div>
+        <div class="stamp stamp-red">RED FLAG</div>
+        <div class="card-theme-tag">${theme} • #${swipedCount + 1}/${MAX_SESSION_CARDS}</div>
+        <div class="card-text">${text}</div>
+        <div class="card-footer">
+          <span>👈 Red</span>
+          <span>Swipe ou clique</span>
+          <span>Green 👉</span>
+        </div>
+      `;
+
+      cardContainer.appendChild(cardEl);
+      attachSwipePhysics(cardEl, cardData);
+      applyTranslations();
+    }
+
+    function attachSwipePhysics(card, cardData) {
+      let isDragging = false;
+      let startX = 0, startY = 0;
+      let currentX = 0, currentY = 0;
+      const stampGreen = card.querySelector('.stamp-green');
+      const stampRed = card.querySelector('.stamp-red');
+
+      function onStart(x, y) {
+        isDragging = true;
+        startX = x;
+        startY = y;
+        card.style.transition = 'none';
+      }
+
+      function onMove(x, y) {
+        if (!isDragging) return;
+        currentX = x - startX;
+        currentY = y - startY;
+        const rotate = currentX * 0.08;
+        card.style.transform = `translate(${currentX}px, ${currentY}px) rotate(${rotate}deg)`;
+
+        // Stamp Opacity
+        const normalized = Math.min(Math.abs(currentX) / 100, 1);
+        if (currentX > 0) {
+          stampGreen.style.opacity = normalized;
+          stampRed.style.opacity = 0;
+        } else {
+          stampRed.style.opacity = normalized;
+          stampGreen.style.opacity = 0;
+        }
+      }
+
+      function onEnd() {
+        if (!isDragging) return;
+        isDragging = false;
+        const threshold = 80;
+
+        if (currentX > threshold) {
+          performSwipe(card, cardData, 'green');
+        } else if (currentX < -threshold) {
+          performSwipe(card, cardData, 'red');
+        } else {
+          // Spring back to center
+          card.style.transition = 'transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275)';
+          card.style.transform = 'translate(0px, 0px) rotate(0deg)';
+          stampGreen.style.opacity = 0;
+          stampRed.style.opacity = 0;
+        }
+      }
+
+      // Pointer / Touch Events
+      card.addEventListener('pointerdown', e => onStart(e.clientX, e.clientY));
+      window.addEventListener('pointermove', e => onMove(e.clientX, e.clientY));
+      window.addEventListener('pointerup', onEnd);
+      window.addEventListener('pointercancel', onEnd);
+    }
+
+    function performSwipe(cardEl, cardData, direction) {
+      const flyX = direction === 'green' ? window.innerWidth + 200 : -window.innerWidth - 200;
+      cardEl.style.transition = 'transform 0.4s ease-out, opacity 0.3s';
+      cardEl.style.transform = `translate(${flyX}px, 50px) rotate(${direction === 'green' ? 30 : -30}deg)`;
+      cardEl.style.opacity = '0';
+
+      swipedCount++;
+      if (direction === 'green') greenCount++;
+      else redCount++;
+
+      // Show Consensus Stats Popup
+      showConsensus(cardData.id, direction);
+
+      setTimeout(() => {
+        sessionQueue.shift();
+        renderTopCard();
+      }, 1200);
+    }
+
+    function showConsensus(cardId, userChoice) {
+      const stat = consensusData[cardId] || { accept: 50, reject: 50, countries: {} };
+      const rejectPct = stat.reject || 50;
+      const acceptPct = stat.accept || 50;
+
+      // Agreement calculation
+      if ((userChoice === 'red' && rejectPct >= 50) || (userChoice === 'green' && acceptPct >= 50)) {
+        agreementScore += 20;
+      } else {
+        agreementScore += 10;
+      }
+
+      consensusRed.style.width = `${rejectPct}%`;
+      consensusRed.textContent = `🚩 ${rejectPct}%`;
+      consensusGreen.style.width = `${acceptPct}%`;
+      consensusGreen.textContent = `🟢 ${acceptPct}%`;
+
+      // Country flags breakdown
+      const c = stat.countries || {};
+      const fr = c['🇫🇷'] ? `🇫🇷 ${c['🇫🇷'].reject}%` : `🇫🇷 ${rejectPct}%`;
+      const us = c['🇺🇸'] ? `🇺🇸 ${c['🇺🇸'].reject}%` : `🇺🇸 ${rejectPct}%`;
+      const es = c['🇪🇸'] ? `🇪🇸 ${c['🇪🇸'].reject}%` : `🇪🇸 ${rejectPct}%`;
+
+      consensusFlags.innerHTML = `
+        <span>${fr}</span>
+        <span>${us}</span>
+        <span>${es}</span>
+      `;
+
+      consensusOverlay.classList.add('visible');
+      setTimeout(() => {
+        consensusOverlay.classList.remove('visible');
+      }, 1100);
+    }
+
+    // Button controls
+    btnRed.addEventListener('click', () => {
+      const topCard = cardContainer.querySelector('.card');
+      if (topCard && topCard._cardData) performSwipe(topCard, topCard._cardData, 'red');
+    });
+
+    btnGreen.addEventListener('click', () => {
+      const topCard = cardContainer.querySelector('.card');
+      if (topCard && topCard._cardData) performSwipe(topCard, topCard._cardData, 'green');
+    });
+
+    // Keyboard support
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowLeft') btnRed.click();
+      else if (e.key === 'ArrowRight') btnGreen.click();
+    });
+
+    function showRecap() {
+      const finalScore = Math.min(Math.max(agreementScore, 65), 96);
+      document.getElementById('recapLucidity').textContent = `${finalScore}%`;
+      document.getElementById('recapCounts').textContent = `🚩 ${redCount} Red Flag • 🟢 ${greenCount} Green Flag`;
+      recapScreen.classList.add('active');
+    }
+
+    document.getElementById('btnReplay').addEventListener('click', () => {
+      prepareSession();
+    });
+
+    // Launch
+    initGame();
+  </script>
+</body>
+</html>
