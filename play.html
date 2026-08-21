@@ -574,6 +574,9 @@
         trueLabel: "VRAI",
         truthLabel: "VÉRITÉ",
         dareLabel: "ACTION",
+        swipeOrClick: "Swipe ou clique",
+        leftHint: "👈 Gauche",
+        rightHint: "Droite 👉",
         recapTitle: "🏆 RECAP SESSION",
         recapAgreedDesc: "Tu es en phase avec le consensus mondial sur {count} cartes mesurées !",
         recapNeutralDesc: "Tes choix de la session. En soirée, tes amis auraient-ils assumé les mêmes réponses ?",
@@ -594,6 +597,9 @@
         trueLabel: "TRUE",
         truthLabel: "TRUTH",
         dareLabel: "DARE",
+        swipeOrClick: "Swipe or click",
+        leftHint: "👈 Left",
+        rightHint: "Right 👉",
         recapTitle: "🏆 SESSION RECAP",
         recapAgreedDesc: "You align with global opinion on {count} measured dilemmas!",
         recapNeutralDesc: "Your session choices. Would your friends agree in a party?",
@@ -614,6 +620,9 @@
         trueLabel: "VERDADERO",
         truthLabel: "VERDAD",
         dareLabel: "RETO",
+        swipeOrClick: "Desliza o haz clic",
+        leftHint: "👈 Izquierda",
+        rightHint: "Derecha 👉",
         recapTitle: "🏆 RESUMEN DE SESIÓN",
         recapAgreedDesc: "¡Estás en sintonía con el consenso mundial en {count} cartas!",
         recapNeutralDesc: "Tus decisiones de la sesión. ¿Habrían opinado lo mismo tus amigos?",
@@ -634,6 +643,9 @@
         trueLabel: "RICHTIG",
         truthLabel: "WAHRHEIT",
         dareLabel: "PFLICHT",
+        swipeOrClick: "Wischen oder klicken",
+        leftHint: "👈 Links",
+        rightHint: "Rechts 👉",
         recapTitle: "🏆 SPIELÜBERSICHT",
         recapAgreedDesc: "Du stimmst mit dem weltweiten Trend bei {count} Karten überein!",
         recapNeutralDesc: "Deine Spielauswahl. Würden deine Freunde genauso entscheiden?",
@@ -654,6 +666,9 @@
         trueLabel: "WAAR",
         truthLabel: "WAARHEID",
         dareLabel: "DOEN",
+        swipeOrClick: "Swipe of klik",
+        leftHint: "👈 Links",
+        rightHint: "Rechts 👉",
         recapTitle: "🏆 SESSIE OVERZICHT",
         recapAgreedDesc: "Je zit op één lijn met de wereldwijde mening op {count} kaarten!",
         recapNeutralDesc: "Jouw keuzes. Zouden je vrienden op een feestje hetzelfde kiezen?",
@@ -674,6 +689,9 @@
         trueLabel: "VERDADEIRO",
         truthLabel: "VERDADE",
         dareLabel: "DESAFIO",
+        swipeOrClick: "Deslize ou clique",
+        leftHint: "👈 Esquerda",
+        rightHint: "Direita 👉",
         recapTitle: "🏆 RESUMO DA SESSÃO",
         recapAgreedDesc: "Você está em sintonia com a opinião mundial em {count} cartas!",
         recapNeutralDesc: "Suas escolhas. Seus amigos teriam assumido as mesmas respostas?",
@@ -773,6 +791,12 @@
 
       if (cardEl) {
         cardEl.querySelector('.card-text').textContent = cardData.texts[currentLang] || cardData.texts.en || cardData.texts.fr || '';
+        const hintLeft = cardEl.querySelector('.hint-left');
+        const hintCenter = cardEl.querySelector('.hint-center');
+        const hintRight = cardEl.querySelector('.hint-right');
+        if (hintLeft) hintLeft.textContent = t.leftHint;
+        if (hintCenter) hintCenter.textContent = t.swipeOrClick;
+        if (hintRight) hintRight.textContent = t.rightHint;
       }
     }
 
@@ -870,6 +894,7 @@
       cardEl.className = 'card';
       cardEl._cardData = cardData;
 
+      const t = i18n[currentLang] || i18n.fr;
       const text = cardData.texts[currentLang] || cardData.texts.en || cardData.texts.fr || '';
       const theme = cardData.theme || 'dilemma';
 
@@ -879,9 +904,9 @@
         <div class="card-theme-tag">${theme} • #${swipedCount + 1}/${MAX_SESSION_CARDS}</div>
         <div class="card-text">${text}</div>
         <div class="card-footer">
-          <span>👈 Gauche</span>
-          <span>Swipe ou clique</span>
-          <span>Droite 👉</span>
+          <span class="hint-left">${t.leftHint}</span>
+          <span class="hint-center">${t.swipeOrClick}</span>
+          <span class="hint-right">${t.rightHint}</span>
         </div>
       `;
 
