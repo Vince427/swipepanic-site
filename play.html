@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
   <title>Swipe Panic — Jouer en Ligne</title>
-  <meta name="description" content="Joue à Swipe Panic directement dans ton navigateur : swipe les dilemmes Red Flag / Green Flag et découvre le consensus mondial !">
+  <meta name="description" content="Joue à Swipe Panic directement dans ton navigateur : swipe les dilemmes Red Flag / Green Flag et découvre les vraies tendances mondiales !">
   
   <!-- Open Graph -->
   <meta property="og:title" content="Swipe Panic — Jouer en Ligne">
@@ -258,15 +258,15 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%) scale(0.9);
-      width: 90%;
+      width: 92%;
       background: #141224;
       border: 2px solid var(--purple);
       border-radius: 20px;
-      padding: 20px;
+      padding: 20px 16px;
       text-align: center;
       opacity: 0;
       pointer-events: none;
-      box-shadow: 0 20px 50px rgba(0,0,0,0.8);
+      box-shadow: 0 20px 50px rgba(0,0,0,0.85);
       z-index: 20;
       transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     }
@@ -291,7 +291,7 @@
       border-radius: 12px;
       overflow: hidden;
       display: flex;
-      margin-bottom: 14px;
+      margin-bottom: 12px;
       border: 1px solid var(--card-border);
     }
 
@@ -463,6 +463,14 @@
       cursor: pointer;
     }
 
+    .link-home {
+      text-align: center;
+      font-size: 13px;
+      color: var(--text-dim);
+      text-decoration: none;
+      margin-top: 6px;
+    }
+
     /* Loading Spinner */
     .loader {
       font-size: 16px;
@@ -519,11 +527,11 @@
 
   <!-- Action Controls -->
   <div class="controls" id="controls">
-    <button class="btn-action btn-red" id="btnRed" aria-label="Red Flag">
-      <span>🚩</span> <span id="labelRed">RED FLAG</span>
+    <button class="btn-action btn-red" id="btnRed" aria-label="Action Gauche">
+      <span id="iconRed">🚩</span> <span id="labelRed">RED FLAG</span>
     </button>
-    <button class="btn-action btn-green" id="btnGreen" aria-label="Green Flag">
-      <span>🟢</span> <span id="labelGreen">GREEN FLAG</span>
+    <button class="btn-action btn-green" id="btnGreen" aria-label="Action Droite">
+      <span id="iconGreen">🟢</span> <span id="labelGreen">GREEN FLAG</span>
     </button>
   </div>
 
@@ -531,8 +539,8 @@
   <div class="recap-screen" id="recapScreen">
     <div style="height: 10px;"></div>
     <div class="recap-card">
-      <div class="recap-title">🏆 RECAP SESSION</div>
-      <div class="recap-score" id="recapLucidity">84%</div>
+      <div class="recap-title" id="recapTitle">🏆 RECAP SESSION</div>
+      <div class="recap-score" id="recapScore">84%</div>
       <p class="recap-desc" id="recapText">
         Tu es en phase avec le consensus mondial ! Tes amis auraient-ils fait les mêmes choix ?
       </p>
@@ -546,92 +554,132 @@
         📲 Télécharger l'App Gratuite
       </a>
       <button class="btn-replay" id="btnReplay">🔄 Rejouer 5 cartes</button>
-      <a href="index.html" style="text-align:center; font-size:13px; color:var(--text-dim); text-decoration:none; margin-top:6px;">
-        Retour à l'accueil
-      </a>
+      <a href="index.html" class="link-home" id="linkHome">Retour à l'accueil</a>
     </div>
   </div>
 
   <script>
     'use strict';
 
-    // Translations Dictionary
+    // Complete 6-language translations dictionary
     const i18n = {
       fr: {
         loading: "Chargement des cartes...",
-        consensusTitle: "🌍 Consensus Mondial",
+        consensusTitleMeasured: "🌍 Consensus Mondial",
+        consensusTitleNeutral: "⏳ Pas encore assez de votes",
+        consensusSubtitleNeutral: "À toi d'ouvrir le débat !",
         redFlag: "RED FLAG",
         greenFlag: "GREEN FLAG",
+        falseLabel: "FAUX",
+        trueLabel: "VRAI",
+        truthLabel: "VÉRITÉ",
+        dareLabel: "ACTION",
         recapTitle: "🏆 RECAP SESSION",
-        recapLucidityText: "en phase avec le monde",
-        recapDesc: "Tu es en phase avec le consensus mondial ! En soirée, aurais-tu osé assumer ces choix ?",
+        recapAgreedDesc: "Tu es en phase avec le consensus mondial sur {count} cartes mesurées !",
+        recapNeutralDesc: "Tes choix de la session. En soirée, tes amis auraient-ils assumé les mêmes réponses ?",
         ctaStore: "📲 Télécharger l'App Gratuite",
         btnReplay: "🔄 Rejouer 5 cartes",
+        linkHome: "Retour à l'accueil",
         packMini: "⚡ Mini-Jeu Web",
         errorLoad: "Erreur de chargement. Recharge la page."
       },
       en: {
         loading: "Loading cards...",
-        consensusTitle: "🌍 Global Consensus",
+        consensusTitleMeasured: "🌍 Global Consensus",
+        consensusTitleNeutral: "⏳ Not enough votes yet",
+        consensusSubtitleNeutral: "You're opening the debate!",
         redFlag: "RED FLAG",
         greenFlag: "GREEN FLAG",
+        falseLabel: "FALSE",
+        trueLabel: "TRUE",
+        truthLabel: "TRUTH",
+        dareLabel: "DARE",
         recapTitle: "🏆 SESSION RECAP",
-        recapLucidityText: "aligned with the world",
-        recapDesc: "You align with global opinion! Would you stand by these choices in a party?",
+        recapAgreedDesc: "You align with global opinion on {count} measured dilemmas!",
+        recapNeutralDesc: "Your session choices. Would your friends agree in a party?",
         ctaStore: "📲 Download Free App",
         btnReplay: "🔄 Replay 5 cards",
+        linkHome: "Back to Home",
         packMini: "⚡ Web Mini-Game",
         errorLoad: "Loading error. Please refresh."
       },
       es: {
         loading: "Cargando cartas...",
-        consensusTitle: "🌍 Consenso Mundial",
+        consensusTitleMeasured: "🌍 Consenso Mundial",
+        consensusTitleNeutral: "⏳ Aún no hay suficientes votos",
+        consensusSubtitleNeutral: "¡Tú abres el debate!",
         redFlag: "RED FLAG",
         greenFlag: "GREEN FLAG",
+        falseLabel: "FALSO",
+        trueLabel: "VERDADERO",
+        truthLabel: "VERDAD",
+        dareLabel: "RETO",
         recapTitle: "🏆 RESUMEN DE SESIÓN",
-        recapLucidityText: "en sintonía mundial",
-        recapDesc: "¿Habrías defendido estas decisiones con tus amigos?",
+        recapAgreedDesc: "¡Estás en sintonía con el consenso mundial en {count} cartas!",
+        recapNeutralDesc: "Tus decisiones de la sesión. ¿Habrían opinado lo mismo tus amigos?",
         ctaStore: "📲 Descargar App Gratis",
         btnReplay: "🔄 Jugar 5 cartas más",
+        linkHome: "Volver al inicio",
         packMini: "⚡ Mini-Juego Web",
         errorLoad: "Error al cargar."
       },
       de: {
         loading: "Karten werden geladen...",
-        consensusTitle: "🌍 Weltweiter Konsens",
+        consensusTitleMeasured: "🌍 Weltweiter Konsens",
+        consensusTitleNeutral: "⏳ Noch nicht genug Stimmen",
+        consensusSubtitleNeutral: "Du eröffnest die Debatte!",
         redFlag: "RED FLAG",
         greenFlag: "GREEN FLAG",
+        falseLabel: "FALSCH",
+        trueLabel: "RICHTIG",
+        truthLabel: "WAHRHEIT",
+        dareLabel: "PFLICHT",
         recapTitle: "🏆 SPIELÜBERSICHT",
-        recapLucidityText: "im globalen Trend",
-        recapDesc: "Stimmst du mit deinen Freunden überein?",
+        recapAgreedDesc: "Du stimmst mit dem weltweiten Trend bei {count} Karten überein!",
+        recapNeutralDesc: "Deine Spielauswahl. Würden deine Freunde genauso entscheiden?",
         ctaStore: "📲 Kostenlose App laden",
         btnReplay: "🔄 Noch 5 Karten spielen",
+        linkHome: "Zur Startseite",
         packMini: "⚡ Web-Minispiel",
         errorLoad: "Fehler beim Laden."
       },
       nl: {
         loading: "Kaarten laden...",
-        consensusTitle: "🌍 Wereldwijde Consensus",
+        consensusTitleMeasured: "🌍 Wereldwijde Consensus",
+        consensusTitleNeutral: "⏳ Nog niet genoeg stemmen",
+        consensusSubtitleNeutral: "Jij opent het debat!",
         redFlag: "RED FLAG",
         greenFlag: "GREEN FLAG",
+        falseLabel: "ONWAAR",
+        trueLabel: "WAAR",
+        truthLabel: "WAARHEID",
+        dareLabel: "DOEN",
         recapTitle: "🏆 SESSIE OVERZICHT",
-        recapLucidityText: "op één lijn met de wereld",
-        recapDesc: "Zouden je vrienden dezelfde keuzes maken?",
+        recapAgreedDesc: "Je zit op één lijn met de wereldwijde mening op {count} kaarten!",
+        recapNeutralDesc: "Jouw keuzes. Zouden je vrienden op een feestje hetzelfde kiezen?",
         ctaStore: "📲 Download Gratis App",
         btnReplay: "🔄 Nog 5 kaarten spelen",
+        linkHome: "Terug naar startpagina",
         packMini: "⚡ Web Minigame",
         errorLoad: "Laadfout."
       },
       pt: {
         loading: "Carregando cartas...",
-        consensusTitle: "🌍 Consenso Global",
+        consensusTitleMeasured: "🌍 Consenso Global",
+        consensusTitleNeutral: "⏳ Ainda não há votos suficientes",
+        consensusSubtitleNeutral: "Você está abrindo o debate!",
         redFlag: "RED FLAG",
         greenFlag: "GREEN FLAG",
+        falseLabel: "FALSO",
+        trueLabel: "VERDADEIRO",
+        truthLabel: "VERDADE",
+        dareLabel: "DESAFIO",
         recapTitle: "🏆 RESUMO DA SESSÃO",
-        recapLucidityText: "em sintonia com o mundo",
-        recapDesc: "Você teria assumido essas escolhas na frente dos seus amigos?",
+        recapAgreedDesc: "Você está em sintonia com a opinião mundial em {count} cartas!",
+        recapNeutralDesc: "Suas escolhas. Seus amigos teriam assumido as mesmas respostas?",
         ctaStore: "📲 Baixar App Grátis",
         btnReplay: "🔄 Jogar mais 5 cartas",
+        linkHome: "Voltar ao início",
         packMini: "⚡ Mini-Jogo Web",
         errorLoad: "Erro ao carregar."
       }
@@ -645,7 +693,9 @@
     let swipedCount = 0;
     let redCount = 0;
     let greenCount = 0;
-    let agreementScore = 0;
+    let measuredAgreedCount = 0;
+    let measuredTotalCount = 0;
+    let isTransitioning = false;
     const MAX_SESSION_CARDS = 5;
 
     // Detect Language from URL or Browser
@@ -663,24 +713,66 @@
     // UI Elements
     const cardContainer = document.getElementById('cardContainer');
     const consensusOverlay = document.getElementById('consensusOverlay');
+    const consensusTitle = document.getElementById('consensusTitle');
     const consensusRed = document.getElementById('consensusRed');
     const consensusGreen = document.getElementById('consensusGreen');
     const consensusFlags = document.getElementById('consensusFlags');
     const btnRed = document.getElementById('btnRed');
     const btnGreen = document.getElementById('btnGreen');
+    const labelRed = document.getElementById('labelRed');
+    const labelGreen = document.getElementById('labelGreen');
+    const iconRed = document.getElementById('iconRed');
+    const iconGreen = document.getElementById('iconGreen');
     const recapScreen = document.getElementById('recapScreen');
 
     function applyTranslations() {
       const t = i18n[currentLang] || i18n.fr;
-      document.getElementById('labelRed').textContent = t.redFlag;
-      document.getElementById('labelGreen').textContent = t.greenFlag;
-      document.getElementById('consensusTitle').textContent = t.consensusTitle;
       document.getElementById('ctaStore').textContent = t.ctaStore;
       document.getElementById('btnReplay').textContent = t.btnReplay;
+      document.getElementById('linkHome').textContent = t.linkHome;
       document.getElementById('packPill').textContent = t.packMini;
+      
       const topCard = cardContainer.querySelector('.card');
       if (topCard && topCard._cardData) {
-        topCard.querySelector('.card-text').textContent = topCard._cardData.texts[currentLang] || topCard._cardData.texts.en || topCard._cardData.texts.fr;
+        updateCardAndButtonsForMode(topCard._cardData, topCard);
+      }
+    }
+
+    function updateCardAndButtonsForMode(cardData, cardEl) {
+      const t = i18n[currentLang] || i18n.fr;
+      const mode = cardData.mode || (cardData.type === 'quiz' ? 'quiz' : (cardData.theme === 'party' ? 'social' : 'classic'));
+      
+      if (mode === 'quiz') {
+        iconRed.textContent = '❌';
+        labelRed.textContent = t.falseLabel;
+        iconGreen.textContent = '✅';
+        labelGreen.textContent = t.trueLabel;
+        if (cardEl) {
+          cardEl.querySelector('.stamp-red').textContent = t.falseLabel;
+          cardEl.querySelector('.stamp-green').textContent = t.trueLabel;
+        }
+      } else if (mode === 'social') {
+        iconRed.textContent = '👁️';
+        labelRed.textContent = t.truthLabel;
+        iconGreen.textContent = '⚡';
+        labelGreen.textContent = t.dareLabel;
+        if (cardEl) {
+          cardEl.querySelector('.stamp-red').textContent = t.truthLabel;
+          cardEl.querySelector('.stamp-green').textContent = t.dareLabel;
+        }
+      } else {
+        iconRed.textContent = '🚩';
+        labelRed.textContent = t.redFlag;
+        iconGreen.textContent = '🟢';
+        labelGreen.textContent = t.greenFlag;
+        if (cardEl) {
+          cardEl.querySelector('.stamp-red').textContent = t.redFlag;
+          cardEl.querySelector('.stamp-green').textContent = t.greenFlag;
+        }
+      }
+
+      if (cardEl) {
+        cardEl.querySelector('.card-text').textContent = cardData.texts[currentLang] || cardData.texts.en || cardData.texts.fr || '';
       }
     }
 
@@ -699,9 +791,12 @@
 
         consensusData = consensusRes || {};
         
-        // Flatten all cards
+        // Flatten all public/safe cards
         allCards = [];
-        if (catalogRes && catalogRes.packs) {
+        const rawList = catalogRes.cards || [];
+        if (rawList.length > 0) {
+          allCards = rawList.filter(c => c.live_tier !== 'forbidden' && c.live_tier !== 'risky');
+        } else if (catalogRes.packs) {
           Object.values(catalogRes.packs).forEach(p => {
             if (p.cards) allCards.push(...p.cards);
           });
@@ -710,7 +805,7 @@
         prepareSession();
       } catch (err) {
         console.error("Init failed:", err);
-        document.getElementById('loader').textContent = i18n[currentLang].errorLoad;
+        document.getElementById('loader').textContent = (i18n[currentLang] || i18n.fr).errorLoad;
       }
     }
 
@@ -718,7 +813,9 @@
       swipedCount = 0;
       redCount = 0;
       greenCount = 0;
-      agreementScore = 0;
+      measuredAgreedCount = 0;
+      measuredTotalCount = 0;
+      isTransitioning = false;
       recapScreen.classList.remove('active');
 
       const params = new URLSearchParams(window.location.search);
@@ -731,8 +828,12 @@
       }
       if (pool.length === 0) pool = [...allCards];
 
-      // Shuffle pool
-      pool.sort(() => Math.random() - 0.5);
+      // Prioritize cards with measured consensus for random sessions
+      const poolWithStats = pool.filter(c => consensusData[c.id] && (consensusData[c.id].reject !== undefined));
+      const poolWithoutStats = pool.filter(c => !consensusData[c.id]);
+
+      poolWithStats.sort(() => Math.random() - 0.5);
+      poolWithoutStats.sort(() => Math.random() - 0.5);
 
       sessionQueue = [];
 
@@ -741,13 +842,17 @@
         const priorityCard = allCards.find(c => c.id === targetCardId);
         if (priorityCard) {
           sessionQueue.push(priorityCard);
-          pool = pool.filter(c => c.id !== targetCardId);
+          poolWithStats.filter(c => c.id !== targetCardId);
+          poolWithoutStats.filter(c => c.id !== targetCardId);
         }
       }
 
-      // Fill remaining session cards
-      while (sessionQueue.length < MAX_SESSION_CARDS && pool.length > 0) {
-        sessionQueue.push(pool.pop());
+      // Fill remaining session cards (prioritizing measured cards)
+      while (sessionQueue.length < MAX_SESSION_CARDS && poolWithStats.length > 0) {
+        sessionQueue.push(poolWithStats.pop());
+      }
+      while (sessionQueue.length < MAX_SESSION_CARDS && poolWithoutStats.length > 0) {
+        sessionQueue.push(poolWithoutStats.pop());
       }
 
       renderTopCard();
@@ -774,15 +879,16 @@
         <div class="card-theme-tag">${theme} • #${swipedCount + 1}/${MAX_SESSION_CARDS}</div>
         <div class="card-text">${text}</div>
         <div class="card-footer">
-          <span>👈 Red</span>
+          <span>👈 Gauche</span>
           <span>Swipe ou clique</span>
-          <span>Green 👉</span>
+          <span>Droite 👉</span>
         </div>
       `;
 
       cardContainer.appendChild(cardEl);
+      updateCardAndButtonsForMode(cardData, cardEl);
       attachSwipePhysics(cardEl, cardData);
-      applyTranslations();
+      isTransitioning = false;
     }
 
     function attachSwipePhysics(card, cardData) {
@@ -793,6 +899,7 @@
       const stampRed = card.querySelector('.stamp-red');
 
       function onStart(x, y) {
+        if (isTransitioning) return;
         isDragging = true;
         startX = x;
         startY = y;
@@ -800,13 +907,12 @@
       }
 
       function onMove(x, y) {
-        if (!isDragging) return;
+        if (!isDragging || isTransitioning) return;
         currentX = x - startX;
         currentY = y - startY;
         const rotate = currentX * 0.08;
         card.style.transform = `translate(${currentX}px, ${currentY}px) rotate(${rotate}deg)`;
 
-        // Stamp Opacity
         const normalized = Math.min(Math.abs(currentX) / 100, 1);
         if (currentX > 0) {
           stampGreen.style.opacity = normalized;
@@ -818,7 +924,7 @@
       }
 
       function onEnd() {
-        if (!isDragging) return;
+        if (!isDragging || isTransitioning) return;
         isDragging = false;
         const threshold = 80;
 
@@ -827,7 +933,6 @@
         } else if (currentX < -threshold) {
           performSwipe(card, cardData, 'red');
         } else {
-          // Spring back to center
           card.style.transition = 'transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275)';
           card.style.transform = 'translate(0px, 0px) rotate(0deg)';
           stampGreen.style.opacity = 0;
@@ -835,7 +940,6 @@
         }
       }
 
-      // Pointer / Touch Events
       card.addEventListener('pointerdown', e => onStart(e.clientX, e.clientY));
       window.addEventListener('pointermove', e => onMove(e.clientX, e.clientY));
       window.addEventListener('pointerup', onEnd);
@@ -843,6 +947,9 @@
     }
 
     function performSwipe(cardEl, cardData, direction) {
+      if (isTransitioning) return;
+      isTransitioning = true;
+
       const flyX = direction === 'green' ? window.innerWidth + 200 : -window.innerWidth - 200;
       cardEl.style.transition = 'transform 0.4s ease-out, opacity 0.3s';
       cardEl.style.transform = `translate(${flyX}px, 50px) rotate(${direction === 'green' ? 30 : -30}deg)`;
@@ -852,7 +959,7 @@
       if (direction === 'green') greenCount++;
       else redCount++;
 
-      // Show Consensus Stats Popup
+      // Show Honest Consensus Stats Popup
       showConsensus(cardData.id, direction);
 
       setTimeout(() => {
@@ -862,33 +969,46 @@
     }
 
     function showConsensus(cardId, userChoice) {
-      const stat = consensusData[cardId] || { accept: 50, reject: 50, countries: {} };
-      const rejectPct = stat.reject || 50;
-      const acceptPct = stat.accept || 50;
+      const t = i18n[currentLang] || i18n.fr;
+      const stat = consensusData[cardId];
+      const hasRealConsensus = stat && (stat.reject !== undefined) && (stat.accept !== undefined);
 
-      // Agreement calculation
-      if ((userChoice === 'red' && rejectPct >= 50) || (userChoice === 'green' && acceptPct >= 50)) {
-        agreementScore += 20;
+      if (hasRealConsensus) {
+        const rejectPct = stat.reject;
+        const acceptPct = stat.accept;
+
+        measuredTotalCount++;
+        if ((userChoice === 'red' && rejectPct >= 50) || (userChoice === 'green' && acceptPct >= 50)) {
+          measuredAgreedCount++;
+        }
+
+        consensusTitle.textContent = t.consensusTitleMeasured;
+        consensusRed.style.width = `${rejectPct}%`;
+        consensusRed.textContent = `🚩 ${rejectPct}%`;
+        consensusGreen.style.width = `${acceptPct}%`;
+        consensusGreen.textContent = `🟢 ${acceptPct}%`;
+
+        const c = stat.countries || {};
+        const fr = c['🇫🇷'] ? `🇫🇷 ${c['🇫🇷'].reject}%` : `🇫🇷 ${rejectPct}%`;
+        const us = c['🇺🇸'] ? `🇺🇸 ${c['🇺🇸'].reject}%` : `🇺🇸 ${rejectPct}%`;
+        const es = c['🇪🇸'] ? `🇪🇸 ${c['🇪🇸'].reject}%` : `🇪🇸 ${rejectPct}%`;
+
+        consensusFlags.style.display = 'flex';
+        consensusFlags.innerHTML = `
+          <span>${fr}</span>
+          <span>${us}</span>
+          <span>${es}</span>
+        `;
       } else {
-        agreementScore += 10;
+        // Honest neutral state when not enough votes yet
+        consensusTitle.textContent = t.consensusTitleNeutral;
+        consensusRed.style.width = '50%';
+        consensusRed.textContent = '50%';
+        consensusGreen.style.width = '50%';
+        consensusGreen.textContent = '50%';
+        consensusFlags.style.display = 'block';
+        consensusFlags.innerHTML = `<span>${t.consensusSubtitleNeutral}</span>`;
       }
-
-      consensusRed.style.width = `${rejectPct}%`;
-      consensusRed.textContent = `🚩 ${rejectPct}%`;
-      consensusGreen.style.width = `${acceptPct}%`;
-      consensusGreen.textContent = `🟢 ${acceptPct}%`;
-
-      // Country flags breakdown
-      const c = stat.countries || {};
-      const fr = c['🇫🇷'] ? `🇫🇷 ${c['🇫🇷'].reject}%` : `🇫🇷 ${rejectPct}%`;
-      const us = c['🇺🇸'] ? `🇺🇸 ${c['🇺🇸'].reject}%` : `🇺🇸 ${rejectPct}%`;
-      const es = c['🇪🇸'] ? `🇪🇸 ${c['🇪🇸'].reject}%` : `🇪🇸 ${rejectPct}%`;
-
-      consensusFlags.innerHTML = `
-        <span>${fr}</span>
-        <span>${us}</span>
-        <span>${es}</span>
-      `;
 
       consensusOverlay.classList.add('visible');
       setTimeout(() => {
@@ -898,25 +1018,38 @@
 
     // Button controls
     btnRed.addEventListener('click', () => {
+      if (isTransitioning) return;
       const topCard = cardContainer.querySelector('.card');
       if (topCard && topCard._cardData) performSwipe(topCard, topCard._cardData, 'red');
     });
 
     btnGreen.addEventListener('click', () => {
+      if (isTransitioning) return;
       const topCard = cardContainer.querySelector('.card');
       if (topCard && topCard._cardData) performSwipe(topCard, topCard._cardData, 'green');
     });
 
     // Keyboard support
     window.addEventListener('keydown', (e) => {
+      if (isTransitioning) return;
       if (e.key === 'ArrowLeft') btnRed.click();
       else if (e.key === 'ArrowRight') btnGreen.click();
     });
 
     function showRecap() {
-      const finalScore = Math.min(Math.max(agreementScore, 65), 96);
-      document.getElementById('recapLucidity').textContent = `${finalScore}%`;
-      document.getElementById('recapCounts').textContent = `🚩 ${redCount} Red Flag • 🟢 ${greenCount} Green Flag`;
+      const t = i18n[currentLang] || i18n.fr;
+      document.getElementById('recapTitle').textContent = t.recapTitle;
+
+      if (measuredTotalCount > 0) {
+        const agreementPct = Math.round((measuredAgreedCount / measuredTotalCount) * 100);
+        document.getElementById('recapScore').textContent = `${agreementPct}%`;
+        document.getElementById('recapText').textContent = t.recapAgreedDesc.replace('{count}', `${measuredAgreedCount}/${measuredTotalCount}`);
+      } else {
+        document.getElementById('recapScore').textContent = `🎯`;
+        document.getElementById('recapText').textContent = t.recapNeutralDesc;
+      }
+
+      document.getElementById('recapCounts').textContent = `🚩 ${redCount} • 🟢 ${greenCount}`;
       recapScreen.classList.add('active');
     }
 
