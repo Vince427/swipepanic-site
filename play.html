@@ -491,6 +491,9 @@
       <span class="app-name">SWIPE PANIC</span>
     </a>
     <div class="header-controls">
+      <select id="countrySelect" class="lang-select" title="">
+        <!-- Filled at runtime from the ISO list: every country in the world. -->
+      </select>
       <select id="langSelect" class="lang-select">
         <option value="fr">🇫🇷 FR</option>
         <option value="en">🇬🇧 EN</option>
@@ -517,11 +520,7 @@
         <div class="consensus-fill-red" id="consensusRed">50%</div>
         <div class="consensus-fill-green" id="consensusGreen">50%</div>
       </div>
-      <div class="consensus-flags" id="consensusFlags">
-        <span>🇫🇷 62%</span>
-        <span>🇺🇸 54%</span>
-        <span>🇪🇸 58%</span>
-      </div>
+      <div class="consensus-flags" id="consensusFlags"></div>
     </div>
   </div>
 
@@ -562,6 +561,137 @@
     'use strict';
 
     // Complete 6-language translations dictionary
+    // ---------------------------------------------------------------
+    // Country of the voter.
+    //
+    // Same rule as the live: the country is DECLARED by the person, never
+    // inferred from an IP or from the language. Language and country are two
+    // separate notions - a locale like "fr" carries no region.
+    //
+    // The consensus data is keyed by flag emoji, which is derivable from the
+    // ISO 3166-1 alpha-2 code, and the country NAME comes from the browser via
+    // Intl.DisplayNames in the active language. So the whole world fits in one
+    // list of codes, translated for free in every language.
+    // ---------------------------------------------------------------
+    const COUNTRY_CODES = (
+      'AD AE AF AG AL AM AO AR AT AU AZ BA BB BD BE BF BG BH BI BJ BN BO BR BS ' +
+      'BT BW BY BZ CA CD CF CG CH CI CL CM CN CO CR CU CV CY CZ DE DJ DK DM DO ' +
+      'DZ EC EE EG ER ES ET FI FJ FM FR GA GB GD GE GH GM GN GQ GR GT GW GY HN ' +
+      'HR HT HU ID IE IL IN IQ IR IS IT JM JO JP KE KG KH KI KM KN KP KR KW KZ ' +
+      'LA LB LC LI LK LR LS LT LU LV LY MA MC MD ME MG MH MK ML MM MN MR MT MU ' +
+      'MV MW MX MY MZ NA NE NG NI NL NO NP NR NZ OM PA PE PG PH PK PL PT PW PY ' +
+      'QA RO RS RU RW SA SB SC SD SE SG SI SK SL SM SN SO SR SS ST SV SY SZ TD ' +
+      'TG TH TJ TL TM TN TO TR TT TV TW TZ UA UG US UY UZ VA VC VE VN VU WS YE ' +
+      'ZA ZM ZW'
+    ).split(' ');
+
+    const COUNTRY_STORAGE_KEY = 'sp_country';
+
+    function flagFromCode(code) {
+      return String.fromCodePoint(
+        ...[...code].map((ch) => 0x1f1e6 + ch.charCodeAt(0) - 65),
+      );
+    }
+
+    // Flag emoji -> ISO code, so a stored flag survives and stays comparable
+    // with the flags the live writes into the consensus file.
+    const CODE_BY_FLAG = {};
+    for (const code of COUNTRY_CODES) CODE_BY_FLAG[flagFromCode(code)] = code;
+
+    function countryName(code, locale) {
+      try {
+        const names = new Intl.DisplayNames([locale], { type: 'region' });
+        return names.of(code) || code;
+      } catch (err) {
+        return code;
+      }
+    }
+
+    function readStoredCountry() {
+      try {
+        const raw = localStorage.getItem(COUNTRY_STORAGE_KEY);
+        if (raw && CODE_BY_FLAG[raw]) return raw;
+      } catch (err) {
+        // Private browsing or blocked storage: fall through to "unset".
+      }
+      return '';
+    }
+
+    function storeCountry(flag) {
+      try {
+        localStorage.setItem(COUNTRY_STORAGE_KEY, flag);
+      } catch (err) {
+        // Non-fatal: the vote still carries the country for this session.
+      }
+    }
+
+    let currentCountry = readStoredCountry();
+
+    function buildCountrySelect(locale) {
+      const select = document.getElementById('countrySelect');
+      if (!select) return;
+      const t = i18n[locale] || i18n.en;
+
+      const entries = COUNTRY_CODES.map((code) => ({
+        code,
+        flag: flagFromCode(code),
+        name: countryName(code, locale),
+      })).sort((a, b) => a.name.localeCompare(b.name, locale));
+
+      const options = [`<option value="">${t.countryPrompt}</option>`];
+      for (const entry of entries) {
+        options.push(
+          `<option value="${entry.flag}">${entry.flag} ${entry.name}</option>`,
+        );
+      }
+      select.innerHTML = options.join('');
+      select.value = currentCountry;
+      select.title = t.countryPrompt;
+    }
+
+    // ---------------------------------------------------------------
+    // Vote recording.
+    //
+    // Endpoint is configuration, not code: while SP_VOTE_ENDPOINT is empty
+    // nothing is sent and the page behaves exactly as before. Point it at a
+    // collector and votes start flowing, with the provenance the contract
+    // requires (source: web_votes, declared country).
+    // ---------------------------------------------------------------
+    const SP_VOTE_ENDPOINT = window.SP_VOTE_ENDPOINT || '';
+
+    function submitVote(cardId, direction) {
+      if (!SP_VOTE_ENDPOINT) return;
+
+      const payload = {
+        card_id: cardId,
+        choice: direction === 'green' ? 'accept' : 'reject',
+        country: currentCountry || null,
+        source: 'web_votes',
+        lang: currentLang,
+      };
+
+      try {
+        const body = JSON.stringify(payload);
+        // sendBeacon survives the page being closed mid-session; fetch is the
+        // fallback. Either way a failed vote must never break the game.
+        if (navigator.sendBeacon) {
+          navigator.sendBeacon(
+            SP_VOTE_ENDPOINT,
+            new Blob([body], { type: 'application/json' }),
+          );
+        } else {
+          fetch(SP_VOTE_ENDPOINT, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body,
+            keepalive: true,
+          }).catch(() => {});
+        }
+      } catch (err) {
+        // Silent by design: a collector outage is not the player's problem.
+      }
+    }
+
     const i18n = {
       fr: {
         loading: "Chargement des cartes...",
@@ -584,7 +714,13 @@
         btnReplay: "🔄 Rejouer 5 cartes",
         linkHome: "Retour à l'accueil",
         packMini: "⚡ Mini-Jeu Web",
-        errorLoad: "Erreur de chargement. Recharge la page."
+        errorLoad: "Erreur de chargement. Recharge la page.",
+        countryPrompt: "🌍 Ton pays",
+        countryYours: "Ton pays",
+        countryNoData: "Pas encore de votes pour ton pays — le tien comptera.",
+        countryCompare: "Comparer les pays ({count})",
+        countryPick: "Choisis ton pays pour qu'il compte",
+        votesLabel: "{count} votes"
       },
       en: {
         loading: "Loading cards...",
@@ -607,7 +743,13 @@
         btnReplay: "🔄 Replay 5 cards",
         linkHome: "Back to Home",
         packMini: "⚡ Web Mini-Game",
-        errorLoad: "Loading error. Please refresh."
+        errorLoad: "Loading error. Please refresh.",
+        countryPrompt: "🌍 Your country",
+        countryYours: "Your country",
+        countryNoData: "No votes from your country yet — yours will count.",
+        countryCompare: "Compare countries ({count})",
+        countryPick: "Pick your country so it counts",
+        votesLabel: "{count} votes"
       },
       es: {
         loading: "Cargando cartas...",
@@ -630,7 +772,13 @@
         btnReplay: "🔄 Jugar 5 cartas más",
         linkHome: "Volver al inicio",
         packMini: "⚡ Mini-Juego Web",
-        errorLoad: "Error al cargar."
+        errorLoad: "Error al cargar.",
+        countryPrompt: "🌍 Tu país",
+        countryYours: "Tu país",
+        countryNoData: "Aún no hay votos de tu país — el tuyo contará.",
+        countryCompare: "Comparar países ({count})",
+        countryPick: "Elige tu país para que cuente",
+        votesLabel: "{count} votos"
       },
       de: {
         loading: "Karten werden geladen...",
@@ -653,7 +801,13 @@
         btnReplay: "🔄 Noch 5 Karten spielen",
         linkHome: "Zur Startseite",
         packMini: "⚡ Web-Minispiel",
-        errorLoad: "Fehler beim Laden."
+        errorLoad: "Fehler beim Laden.",
+        countryPrompt: "🌍 Dein Land",
+        countryYours: "Dein Land",
+        countryNoData: "Noch keine Stimmen aus deinem Land — deine zählt.",
+        countryCompare: "Länder vergleichen ({count})",
+        countryPick: "Wähle dein Land, damit es zählt",
+        votesLabel: "{count} Stimmen"
       },
       nl: {
         loading: "Kaarten laden...",
@@ -676,7 +830,13 @@
         btnReplay: "🔄 Nog 5 kaarten spelen",
         linkHome: "Terug naar startpagina",
         packMini: "⚡ Web Minigame",
-        errorLoad: "Laadfout."
+        errorLoad: "Laadfout.",
+        countryPrompt: "🌍 Jouw land",
+        countryYours: "Jouw land",
+        countryNoData: "Nog geen stemmen uit jouw land — die van jou telt.",
+        countryCompare: "Landen vergelijken ({count})",
+        countryPick: "Kies je land zodat het meetelt",
+        votesLabel: "{count} stemmen"
       },
       pt: {
         loading: "Carregando cartas...",
@@ -699,7 +859,13 @@
         btnReplay: "🔄 Jogar mais 5 cartas",
         linkHome: "Voltar ao início",
         packMini: "⚡ Mini-Jogo Web",
-        errorLoad: "Erro ao carregar."
+        errorLoad: "Erro ao carregar.",
+        countryPrompt: "🌍 Teu país",
+        countryYours: "Teu país",
+        countryNoData: "Ainda sem votos do teu país — o teu vai contar.",
+        countryCompare: "Comparar países ({count})",
+        countryPick: "Escolhe o teu país para que conte",
+        votesLabel: "{count} votos"
       }
     };
 
@@ -749,6 +915,9 @@
       document.getElementById('btnReplay').textContent = t.btnReplay;
       document.getElementById('linkHome').textContent = t.linkHome;
       document.getElementById('packPill').textContent = t.packMini;
+
+      // Country names follow the active language; the CHOSEN country does not.
+      buildCountrySelect(currentLang);
       
       const topCard = cardContainer.querySelector('.card');
       if (topCard && topCard._cardData) {
@@ -799,6 +968,11 @@
         if (hintRight) hintRight.textContent = t.rightHint;
       }
     }
+
+    document.getElementById('countrySelect').addEventListener('change', (e) => {
+      currentCountry = e.target.value || '';
+      if (currentCountry) storeCountry(currentCountry);
+    });
 
     document.getElementById('langSelect').addEventListener('change', (e) => {
       currentLang = e.target.value;
@@ -984,6 +1158,10 @@
       if (direction === 'green') greenCount++;
       else redCount++;
 
+      // Record the vote before showing the result, so a player who closes the
+      // page on the reveal still counts.
+      submitVote(cardData.id, direction);
+
       // Show Honest Consensus Stats Popup
       showConsensus(cardData.id, direction);
 
@@ -1013,17 +1191,40 @@
         consensusGreen.style.width = `${acceptPct}%`;
         consensusGreen.textContent = `🟢 ${acceptPct}%`;
 
+        // Every country actually present in the data, none invented.
+        // A country with no measurement is OMITTED, never given the world
+        // figure: showing the global number under a flag would claim a
+        // measurement that was never taken.
         const c = stat.countries || {};
-        const fr = c['🇫🇷'] ? `🇫🇷 ${c['🇫🇷'].reject}%` : `🇫🇷 ${rejectPct}%`;
-        const us = c['🇺🇸'] ? `🇺🇸 ${c['🇺🇸'].reject}%` : `🇺🇸 ${rejectPct}%`;
-        const es = c['🇪🇸'] ? `🇪🇸 ${c['🇪🇸'].reject}%` : `🇪🇸 ${rejectPct}%`;
+        const present = Object.keys(c);
+
+        // The voter's own country first when it has data - that is the
+        // comparison people came for.
+        present.sort((a, b) => {
+          if (a === currentCountry) return -1;
+          if (b === currentCountry) return 1;
+          return (c[b].sample_size || 0) - (c[a].sample_size || 0) || a.localeCompare(b);
+        });
+
+        const parts = present.map((flag) => {
+          const entry = c[flag];
+          const mine = flag === currentCountry ? ' style="font-weight:900"' : '';
+          const n = Number.isInteger(entry.sample_size)
+            ? ` <small>(${t.votesLabel.replace('{count}', entry.sample_size)})</small>`
+            : '';
+          return `<span${mine}>${flag} 🚩 ${entry.reject}%${n}</span>`;
+        });
+
+        // The voter's country is missing from the data: say so plainly, and
+        // turn it into the reason to vote rather than into a fake number.
+        if (currentCountry && !c[currentCountry]) {
+          parts.push(`<span>${currentCountry} ${t.countryNoData}</span>`);
+        } else if (!currentCountry) {
+          parts.push(`<span>${t.countryPick}</span>`);
+        }
 
         consensusFlags.style.display = 'flex';
-        consensusFlags.innerHTML = `
-          <span>${fr}</span>
-          <span>${us}</span>
-          <span>${es}</span>
-        `;
+        consensusFlags.innerHTML = parts.join('');
       } else {
         // Honest neutral state when not enough votes yet
         consensusTitle.textContent = t.consensusTitleNeutral;

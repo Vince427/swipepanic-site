@@ -444,6 +444,19 @@ function buildDailyForDate(poolFile, dateText, catalog = null, patch = null, liv
     cardIds
   };
 
+  // Pack of the Week countdown (app candidate #5).
+  //
+  // The countdown does NOT need a live: a weekly pack ends when the next one
+  // starts, which is derivable from the ISO week already computed above. It
+  // used to depend entirely on live_event.json, a file that has never existed
+  // on the site, so the countdown widget shipped in the app stayed dormant.
+  // An explicit live_event.json still wins over this derived default.
+  if (result.cadence === 'weekly') {
+    const weekEnd = new Date(`${mondayText}T00:00:00Z`);
+    weekEnd.setUTCDate(weekEnd.getUTCDate() + 7);
+    result.liveEndDate = weekEnd.toISOString();
+  }
+
   if (liveEvent) {
     if (typeof liveEvent.liveStartDate === 'string' && liveEvent.liveStartDate.trim()) {
       result.liveStartDate = liveEvent.liveStartDate.trim();

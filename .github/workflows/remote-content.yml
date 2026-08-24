@@ -29,6 +29,8 @@ jobs:
       - run: node --check scripts/remote_content_rules.js
       - run: node --check scripts/validate_remote_content.js
       - run: node --check scripts/generate_daily.js
+      - run: node --check scripts/play_contract.test.js
+      - run: node --test scripts/play_contract.test.js
       - run: node scripts/validate_remote_content.js
 
   generate-weekly:
