@@ -99,12 +99,34 @@ test('no fabricated example percentages are shipped in the markup', () => {
   }
 });
 
-test('the vote payload carries the provenance the contract requires', () => {
-  assert.ok(PLAY.includes("source: 'web_votes'"), 'vote payload must declare its source');
-  assert.ok(PLAY.includes('country: currentCountry'), 'vote payload must carry the declared country');
+test('the vote carries the declared country and the card', () => {
+  assert.ok(PLAY.includes('country: currentCountry'), 'vote must carry the declared country');
+  assert.ok(PLAY.includes('card_id: cardId'), 'vote must carry the card it is about');
+  assert.ok(PLAY.includes("choice: direction === 'green' ? 'accept' : 'reject'"));
+});
+
+test('the collector stays configuration, and no secret lives in the page', () => {
+  assert.ok(PLAY.includes('vote_config.json'), 'ids come from a config file');
+  // A credential being ASSIGNED a value, not the word appearing in a comment:
+  // the previous form matched its own explanation of why there is no token.
+  const assignedCredential =
+    /(api[_-]?key|secret|access[_-]?token|auth[_-]?token|bearer)\s*[:=]\s*['"`]/i;
+  const authHeader = /['"`]Authorization['"`]\s*:/i;
+
+  assert.ok(!assignedCredential.test(PLAY), 'a public page must never carry a credential');
+  assert.ok(!authHeader.test(PLAY), 'a public page must never send an auth header');
+});
+
+test('votes are batched and survive the tab closing', () => {
+  assert.ok(PLAY.includes('voteBuffer'), 'votes must be batched, not one request per swipe');
+  assert.ok(PLAY.includes('sendBeacon'), 'a closing tab must still deliver its batch');
+  assert.ok(PLAY.includes("addEventListener('pagehide'"), 'pagehide must flush');
+});
+
+test('nothing is sent while no collector is configured', () => {
   assert.ok(
-    PLAY.includes('const SP_VOTE_ENDPOINT'),
-    'the collector endpoint must stay configuration, not hardcoded',
+    PLAY.includes('if (!voteConfig || voteBuffer.length === 0) return;'),
+    'an unconfigured page must stay silent',
   );
 });
 

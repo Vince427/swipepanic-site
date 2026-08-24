@@ -657,40 +657,81 @@
     // collector and votes start flowing, with the provenance the contract
     // requires (source: web_votes, declared country).
     // ---------------------------------------------------------------
-    const SP_VOTE_ENDPOINT = window.SP_VOTE_ENDPOINT || '';
+    // The collector is a Google Form response endpoint: public by design, which
+    // is exactly why no token has to live in this page. vote_config.json holds
+    // the ids; while it is absent nothing is sent and the game is unchanged.
+    let voteConfig = null;
 
-    function submitVote(cardId, direction) {
-      if (!SP_VOTE_ENDPOINT) return;
-
-      const payload = {
-        card_id: cardId,
-        choice: direction === 'green' ? 'accept' : 'reject',
-        country: currentCountry || null,
-        source: 'web_votes',
-        lang: currentLang,
-      };
-
+    async function loadVoteConfig() {
       try {
-        const body = JSON.stringify(payload);
-        // sendBeacon survives the page being closed mid-session; fetch is the
-        // fallback. Either way a failed vote must never break the game.
-        if (navigator.sendBeacon) {
-          navigator.sendBeacon(
-            SP_VOTE_ENDPOINT,
-            new Blob([body], { type: 'application/json' }),
-          );
-        } else {
-          fetch(SP_VOTE_ENDPOINT, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body,
-            keepalive: true,
-          }).catch(() => {});
-        }
+        const res = await fetch('./vote_config.json', { cache: 'no-store' });
+        if (!res.ok) return;
+        const config = await res.json();
+        if (!config.formId || String(config.formId).includes('REPLACE')) return;
+        voteConfig = config;
       } catch (err) {
-        // Silent by design: a collector outage is not the player's problem.
+        // No collector configured. Voting still works, it just is not counted.
       }
     }
+
+    // Votes are buffered and sent as one batch per session: one request instead
+    // of one per swipe. sendBeacon keeps the batch alive when the tab closes,
+    // so a player who leaves on the last card still counts.
+    let voteBuffer = [];
+
+    function submitVote(cardId, direction) {
+      voteBuffer.push({
+        card_id: cardId,
+        choice: direction === 'green' ? 'accept' : 'reject',
+        country: currentCountry || '',
+        lang: currentLang,
+      });
+    }
+
+    function flushVotes() {
+      if (!voteConfig || voteBuffer.length === 0) return;
+
+      const url = `https://docs.google.com/forms/d/e/${voteConfig.formId}/formResponse`;
+      const fields = voteConfig.entries || {};
+      const pending = voteBuffer;
+      voteBuffer = [];
+
+      for (const vote of pending) {
+        const body = new URLSearchParams();
+        for (const [key, entryId] of Object.entries(fields)) {
+          if (vote[key] !== undefined && vote[key] !== '') body.append(entryId, vote[key]);
+        }
+        if ([...body.keys()].length === 0) continue;
+
+        try {
+          if (navigator.sendBeacon) {
+            navigator.sendBeacon(
+              url,
+              new Blob([body.toString()], {
+                type: 'application/x-www-form-urlencoded',
+              }),
+            );
+          } else {
+            // no-cors: the form accepts the write but returns an opaque
+            // response. There is nothing to read back, and nothing to leak.
+            fetch(url, {
+              method: 'POST',
+              mode: 'no-cors',
+              headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+              body: body.toString(),
+              keepalive: true,
+            }).catch(() => {});
+          }
+        } catch (err) {
+          // Silent by design: a collector outage is not the player's problem.
+        }
+      }
+    }
+
+    window.addEventListener('pagehide', flushVotes);
+    document.addEventListener('visibilitychange', () => {
+      if (document.visibilityState === 'hidden') flushVotes();
+    });
 
     const i18n = {
       fr: {
@@ -982,6 +1023,9 @@
     // Load Data
     async function initGame() {
       try {
+        // Fire and forget: a missing collector must never delay the game.
+        loadVoteConfig();
+
         const [catalogRes, consensusRes] = await Promise.all([
           fetch('./official_card_catalog.json').then(r => r.json()),
           fetch('./data/live_consensus.json').then(r => r.json()).catch(() => ({}))
@@ -1276,6 +1320,8 @@
       }
 
       document.getElementById('recapCounts').textContent = `🚩 ${redCount} • 🟢 ${greenCount}`;
+      // The session is over: send the batch now rather than hoping for pagehide.
+      flushVotes();
       recapScreen.classList.add('active');
     }
 

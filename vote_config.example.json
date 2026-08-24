@@ -1,0 +1,11 @@
+{
+  "_comment": "Copy to vote_config.json and fill in. No secret goes here: a Google Form response endpoint is public by design, which is exactly why the page needs no token.",
+  "formId": "1FAIpQLSc_REPLACE_WITH_YOUR_FORM_ID",
+  "entries": {
+    "card_id": "entry.111111111",
+    "choice": "entry.222222222",
+    "country": "entry.333333333",
+    "lang": "entry.444444444"
+  },
+  "responsesCsvUrl": "https://docs.google.com/spreadsheets/d/e/REPLACE_PUBLISHED_ID/pub?gid=0&single=true&output=csv"
+}
