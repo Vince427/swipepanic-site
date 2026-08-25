@@ -8,16 +8,24 @@ on:
     # database" viable - one commit per batch, not one per vote.
     - cron: '23 */6 * * *'
   workflow_dispatch:
-  pull_request:
-    paths:
+  # Both triggers list data/live_consensus.json on purpose: deploy_consensus.js
+  # tells a human to commit that file by hand, so the path a person actually
+  # takes must be validated too - not only the paths the bots take. Without the
+  # push trigger, a direct commit to main reaches the public site unchecked.
+  push:
+    branches: [main]
+    paths: &content_paths
       - 'manifest.json'
       - 'daily.json'
       - 'daily_pool.json'
       - 'cards_patch.json'
       - 'blacklist.txt'
       - 'blacklist.json'
+      - 'data/live_consensus.json'
       - 'scripts/**'
       - '.github/workflows/remote-content.yml'
+  pull_request:
+    paths: *content_paths
 
 permissions:
   contents: read
@@ -37,6 +45,7 @@ jobs:
       - run: node --check scripts/aggregate_web_votes.js
       - run: node --test scripts/play_contract.test.js
       - run: node --test scripts/aggregate_web_votes.test.js
+      - run: node --test scripts/live_consensus_validation.test.js
       - run: node scripts/validate_remote_content.js
 
   generate-weekly:
