@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-08-20T21:33:56.146Z",
+  "updated_at": "2026-08-26T14:24:02.235Z",
   "cards": [
     {
       "id": "dating_red_1",
@@ -1872,6 +1872,906 @@
       "enabled": true,
       "mode": "classic",
       "packId": "dating_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "clash_men_1",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Mettre des semelles rehaussantes ou mentir de 5 cm sur sa taille pour le premier date.",
+        "en": "Wearing elevator shoes or adding 2 inches to his height for the first date.",
+        "de": "Absatzeinlagen tragen oder beim ersten Date 5 cm bei der Körpergröße dazuschummeln.",
+        "es": "Ponerse plantillas con alzas o mentir 5 cm sobre su altura en la primera cita.",
+        "nl": "Verhogende inlegzolen dragen of 5 cm liegen over zijn lengte op de eerste date.",
+        "pt": "Usar palmilhas de aumento ou mentir 5 cm sobre a altura no primeiro encontro."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "clash_men_2",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Vivre encore chez sa mère à plus de 26 ans et la laisser gérer ses repas et son linge.",
+        "en": "Still living with his mom past 26 and letting her do all his cooking and laundry.",
+        "de": "Mit über 26 noch bei Mama wohnen und sich von ihr bekochen und waschen lassen.",
+        "es": "Vivir con su madre con más de 26 años y dejar que le haga la comida y la colada.",
+        "nl": "Op zijn 26e nog bij zijn moeder wonen en haar zijn eten en was laten doen.",
+        "pt": "Viver com a mãe aos 26 anos e deixar que ela lhe faça a comida e a roupa."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "clash_men_3",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Demander de faire 50/50 au centime près sur l'addition du premier date.",
+        "en": "Asking to split the first date bill 50/50 down to the exact penny.",
+        "de": "Beim ersten Date die Rechnung auf den Cent genau 50/50 aufteilen wollen.",
+        "es": "Pedir dividir la cuenta de la primera cita al céntimo exacto.",
+        "nl": "Vragen om de rekening van de eerste date tot op de cent nauwkeurig te splitten.",
+        "pt": "Pedir para dividir a conta do primeiro encontro 50/50 ao cêntimo."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "clash_men_4",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Avoir une 'meilleure amie' fille à qui il raconte tous ses problèmes de couple.",
+        "en": "Having a female 'best friend' he vents to about all his relationship issues.",
+        "de": "Eine beste Freundin haben, der er alle Beziehungsprobleme im Detail erzählt.",
+        "es": "Tener una 'mejor amiga' a quien le cuenta todos sus problemas de pareja.",
+        "nl": "Een vrouwelijke 'beste vriendin' hebben aan wie hij al zijn relatieproblemen vertelt.",
+        "pt": "Ter uma 'melhor amiga' a quem conta todos os problemas do casal."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "clash_men_5",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Refuser catégoriquement de fréquenter une femme qui a déjà un enfant.",
+        "en": "Flat out refusing to date a woman who already has a child.",
+        "de": "Kategorisch ablehnen, eine Frau zu daten, die bereits ein Kind hat.",
+        "es": "Negarse rotundamente a salir con una mujer que ya tiene un hijo.",
+        "nl": "Categorisch weigeren te daten met een vrouw die al een kind heeft.",
+        "pt": "Recusar categoricamente sair com uma mulher que já tem um filho."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "clash_men_6",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Gagner un très bon salaire mais rouler dans une épave et refuser le restau pour économiser.",
+        "en": "Making great money but driving a beat-up wreck and refusing restaurants to save cash.",
+        "de": "Viel Geld verdienen, aber eine Schrottlaube fahren und Restaurantbesuche aus Geiz verweigern.",
+        "es": "Ganar un buen sueldo pero conducir un coche destartalado y negarse a ir a restaurantes.",
+        "nl": "Een topsalaris verdienen maar in een wrak rijden en uit eten weigeren uit gierigheid.",
+        "pt": "Ganhar um bom salário mas conduzir um carro a cair aos pedaços e recusar restaurantes."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "clash_men_7",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Refuser d'éteindre sa console ou de quitter sa partie quand tu demandes de l'aide urgente.",
+        "en": "Refusing to turn off his console or leave an online game when you need urgent help.",
+        "de": "Sich weigern, das Online-Game zu verlassen, wenn du dringend Hilfe brauchst.",
+        "es": "Negarse a apagar la consola o dejar una partida online cuando necesitas ayuda urgente.",
+        "nl": "Weigeren zijn online game te stoppen als je dringend om hulp vraagt.",
+        "pt": "Recusar sair de um jogo online quando precisas de ajuda urgente."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "clash_men_8",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Avoir encore des photos de son ex encadrées chez lui ou archivées sur ses réseaux.",
+        "en": "Still keeping framed photos of his ex at home or pinned on his social feeds.",
+        "de": "Noch immer gerahmte Fotos der Ex in der Wohnung stehen oder auf Social Media haben.",
+        "es": "Tener fotos enmarcadas de su ex en casa o fijadas en sus redes sociales.",
+        "nl": "Nog ingelijste foto's van zijn ex in huis hebben staan of gepind op zijn socials.",
+        "pt": "Ainda ter fotos da ex emolduradas em casa ou destacadas nas redes sociais."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "clash_men_9",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Dire 'on prend notre temps' et refuser d'officialiser après 8 mois de fréquentation régulière.",
+        "en": "Saying 'let us take it slow' and refusing to make it official after 8 months of dating.",
+        "de": "Nach 8 Monaten Dating immer noch sagen: 'Lass uns Zeit lassen' und nichts festmachen.",
+        "es": "Decir 'vamos despacio' y negarse a formalizar tras 8 meses viéndose todas las semanas.",
+        "nl": "Na 8 maanden daten nog steeds zeggen: 'we doen rustig aan' en niets officieel maken.",
+        "pt": "Dizer 'vamos com calma' e recusar oficializar após 8 meses a saírem juntos."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "clash_men_10",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Suivre 500 influenceuses fitness sur Instagram et liker toutes leurs photos en maillot.",
+        "en": "Following 500 fitness models on Instagram and liking every single bikini post.",
+        "de": "Über 500 Fitness-Models auf Instagram folgen und jedes einzelne Bikini-Foto liken.",
+        "es": "Seguir a 500 modelos fitness en Instagram y dar me gusta a todas sus fotos en bikini.",
+        "nl": "500 fitnessmodellen op Instagram volgen en elke bikinifoto liken.",
+        "pt": "Seguir 500 modelos de fitness no Instagram e pôr like em todas as fotos de biquíni."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "clash_men_11",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Commander à ta place au restaurant sans te demander ton avis pour faire le connaisseur.",
+        "en": "Ordering for you at the restaurant without asking to look like a connoisseur.",
+        "de": "Im Restaurant für dich mitbestellen, ohne zu fragen, um wie ein Kenner zu wirken.",
+        "es": "Pedir por ti en el restaurante sin preguntarte para hacerse el entendido.",
+        "nl": "In het restaurant voor jou bestellen zonder je mening te vragen om stoer te doen.",
+        "pt": "Pedir a comida por ti no restaurante sem perguntar para parecer entendido."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "clash_men_12",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Avoir un appart sans draps housse sur le matelas et de la vaisselle sale depuis 4 jours.",
+        "en": "No fitted sheet on his mattress and 4-day-old dirty dishes in the sink on date night.",
+        "de": "Kein Spannbettlaken auf der Matratze und 4 Tage altes Dreckgeschirr beim ersten Besuch.",
+        "es": "Tener la cama sin sábana bajera y platos sucios en el fregadero desde hace 4 días.",
+        "nl": "Geen hoeslaken om het matras en de vuile vaat van 4 dagen nog in de gootsteen.",
+        "pt": "Não ter lençol no colchão e louça suja na pia há 4 dias no primeiro encontro em casa dele."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "clash_men_13",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Parler uniquement de son job, de crypto ou de bourse pendant 2h sans poser une seule question.",
+        "en": "Talking only about his job, crypto or stocks for 2 straight hours without asking a single question.",
+        "de": "Zwei Stunden lang nur über seinen Job, Krypto und Aktien reden, ohne eine Frage zu stellen.",
+        "es": "Hablar solo de su trabajo, criptos o bolsa durante 2 horas sin hacer una sola pregunta.",
+        "nl": "Twee uur lang alleen maar praten over crypto, aandelen en zijn werk zonder één vraag te stellen.",
+        "pt": "Falar durante duas horas seguidas de trabalho, criptos ou ações sem fazer uma única pergunta."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "clash_men_14",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Devenir glacial ou agressif dès que tu refuses de monter chez lui après le verre.",
+        "en": "Turning cold or passive-aggressive the moment you say no to going up to his place.",
+        "de": "Sofort eiskalt oder passiv-aggressiv werden, sobald du ablehnst, mit zu ihm zu gehen.",
+        "es": "Ponerse frío o distante en cuanto te niegas a subir a su casa tras la primera copa.",
+        "nl": "Meteen koud of afstandelijk worden zodra je weigert mee naar zijn huis te gaan.",
+        "pt": "Ficar frio ou distante no momento em que recusas subir ao apartamento dele."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "clash_men_15",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Critiquer ouvertement la tenue ou le maquillage des autres femmes dans la rue.",
+        "en": "Openly judging and criticizing other women's outfits or makeup on the street.",
+        "de": "Auf der Straße ständig das Outfit oder Make-up anderer Frauen schlechtreden.",
+        "es": "Criticar abiertamente la ropa o el maquillaje de otras mujeres por la calle.",
+        "nl": "Op straat openlijk opmerkingen maken over de kleding of make-up van andere vrouwen.",
+        "pt": "Criticar abertamente a roupa ou a maquilhagem de outras mulheres na rua."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "clash_men_16",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Agir en couple pendant 6 mois (dormir ensemble, restos) mais répéter 'on ne met pas d'étiquette'.",
+        "en": "Acting like a couple for 6 months (sleepovers, dates) but insisting 'let us not put a label on it'.",
+        "de": "6 Monate lang wie ein Paar leben (Kuscheln, Dates), aber sagen: 'Keine Labels'.",
+        "es": "Actuar como pareja durante 6 meses (cenas, dormir juntos) pero repetir 'sin etiquetas'.",
+        "nl": "6 maanden doen alsof je een stel bent maar blijven herhalen: 'ik wil geen label plakken'.",
+        "pt": "Agir como um casal durante 6 meses mas repetir sempre 'não quero rótulos'."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "clash_men_17",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Conduire dangereusement et insulter tout le monde sur la route pour faire le viril.",
+        "en": "Driving aggressively and yelling road rage insults to look manly on the first date.",
+        "de": "Beim Date aggressiv rasen und andere Fahrer anschreien, um 'männlich' zu wirken.",
+        "es": "Conducir como un loco e insultar a todo el mundo al volante para hacerse el tipo duro.",
+        "nl": "Roekeloos rijden en iedereen uitschelden in het verkeer om stoer te doen op een date.",
+        "pt": "Conduzir à doida e insultar toda a gente no trânsito para se armar em machão."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "clash_men_18",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Faire le mort pendant 3 jours après un simple désaccord plutôt que d'en parler.",
+        "en": "Giving you the silent treatment for 3 days after a minor disagreement.",
+        "de": "Nach einer Meinungsverschiedenheit drei Tage lang toter Mann spielen (Silent Treatment).",
+        "es": "Aplicar la ley del hielo y desaparecer 3 días tras una pequeña discusión.",
+        "nl": "Na een klein meningsverschil drie dagen lang niets van zich laten horen.",
+        "pt": "Fazer silêncio absoluto durante 3 dias após um pequeno desentendimento."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "clash_men_19",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Ne pas changer de t-shirt après le sport ou zapper la douche avant un date.",
+        "en": "Wearing the same shirt after the gym or skipping the shower before a date.",
+        "de": "Nach dem Sport dasselbe T-Shirt anbehalten oder vor dem Date die Dusche schwänzen.",
+        "es": "No cambiarse de camiseta tras el gimnasio o saltarse la ducha antes de una cita.",
+        "nl": "Hetzelfde shirt dragen na het sporten of de douche overslaan voor een date.",
+        "pt": "Não mudar de t-shirt depois do treino ou saltar o banho antes de um encontro."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "clash_men_20",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Sortir la phrase 'toutes mes ex étaient folles' dès les 30 premières minutes.",
+        "en": "Dropping 'all my exes were crazy' within the first 30 minutes of conversation.",
+        "de": "Schon in den ersten 30 Minuten sagen: 'Alle meine Ex-Freundinnen waren verrückt'.",
+        "es": "Soltar la frase 'todas mis ex estaban locas' en la primera media hora de cita.",
+        "nl": "Binnen het eerste half uur al zeggen: 'al mijn exen waren gestoord'.",
+        "pt": "Dizer 'todas as minhas ex eram loucas' logo nos primeiros 30 minutos de conversa."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "clash_men_21",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Courir après son bus avec un sac à dos qui sautille ou trébucher tout seul.",
+        "en": "Running after the bus with a bouncing backpack or tripping over his own feet.",
+        "de": "Mit wackelndem Rucksack dem Bus hinterherrennen oder über die eigenen Füße stolpern.",
+        "es": "Correr tras el autobús con la mochila botando o tropezar solo por la calle.",
+        "nl": "Achter de bus aan rennen met een stuiterende rugzak of over zijn eigen voeten struikelen.",
+        "pt": "Correr atrás do autocarro com a mochila a saltitar ou tropeçar nos próprios pés."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "clash_men_22",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Appeler sa mère en plein supermarché pour savoir quelle marque de pâtes acheter.",
+        "en": "Calling his mom in the middle of the grocery store to ask which pasta brand to buy.",
+        "de": "Im Supermarkt Mama anrufen, um zu fragen, welche Nudeln er kaufen soll.",
+        "es": "Llamar a su madre en el supermercado para saber qué marca de pasta comprar.",
+        "nl": "Midden in de supermarkt zijn moeder bellen om te vragen welk merk pasta hij moet kopen.",
+        "pt": "Ligar à mãe no meio do supermercado para perguntar qual a marca de massa a comprar."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "clash_men_23",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Laisser ses potes manquer de respect à sa copine sans jamais intervenir.",
+        "en": "Letting his friends disrespect his girlfriend without ever standing up for her.",
+        "de": "Zulassen, dass seine Kumpels seine Freundin dissen, ohne einzugreifen.",
+        "es": "Dejar que sus amigos le falten al respeto a su pareja sin dar la cara por ella.",
+        "nl": "Toelaten dat zijn vrienden respectloos doen tegen zijn vriendin zonder in te grijpen.",
+        "pt": "Deixar que os amigos faltem ao respeito à namorada sem nunca intervir."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "clash_men_24",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Exiger d'avoir la géolocalisation partagée en direct 24h/24 dès la première semaine.",
+        "en": "Demanding 24/7 live location sharing from the very first week of dating.",
+        "de": "Schon in der ersten Woche verlangen, 24/7 den Live-Standort geteilt zu bekommen.",
+        "es": "Exigir tener la ubicación compartida en tiempo real 24/7 desde la primera semana.",
+        "nl": "Al in de eerste week eisen dat je 24/7 je live locatie met hem deelt.",
+        "pt": "Exigir partilha de localização em tempo real 24 horas por dia logo na primeira semana."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "clash_men_25",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Faire des réflexions sur le décolleté ou la robe juste avant de partir en soirée.",
+        "en": "Making passive-aggressive remarks about her dress or cleavage right before leaving.",
+        "de": "Kurz vor der Party abwertende Kommentare über das Dekolleté oder Kleid machen.",
+        "es": "Hacer comentarios sobre su escote o su vestido justo antes de salir de fiesta.",
+        "nl": "Vlak voor vertrek naar een feestje opmerkingen maken over haar jurk of decolleté.",
+        "pt": "Fazer comentários desagradáveis sobre o decote ou o vestido mesmo antes de sair para a festa."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "clash_women_1",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Demander le salaire ou la profession exacte avant même d'accepter un premier verre.",
+        "en": "Asking for exact salary or job title before even agreeing to a first drink.",
+        "de": "Vor dem ersten Treffen nach Gehalt und genauem Berufstitel fragen.",
+        "es": "Preguntar el sueldo o profesión exacta antes de aceptar un primer café.",
+        "nl": "Vragen naar het exacte salaris of beroep voordat ze überhaupt op date wil.",
+        "pt": "Perguntar o salário ou a profissão exata antes sequer de aceitar um primeiro copo."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "clash_women_2",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Avoir un passif amoureux très chargé et refuser catégoriquement d'en parler.",
+        "en": "Having a very heavy dating history and strictly refusing to ever mention it.",
+        "de": "Eine sehr wilde Dating-Vergangenheit haben und kategorisch schweigen.",
+        "es": "Tener un pasado amoroso muy movido y negarse tajantemente a hablar de ello.",
+        "nl": "Een heel wild liefdesverleden hebben en er categorisch over weigeren te praten.",
+        "pt": "Ter um passado amoroso muito longo e recusar terminantemente falar sobre isso."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "clash_women_3",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Partir en vacances entre copines dans des destinations festives (Ibiza, Mykonos) sans son copain.",
+        "en": "Going on girls-only party trips to wild destinations (Ibiza, Mykonos) without her boyfriend.",
+        "de": "Ohne den Freund auf Party-Urlaub mit den Mädels nach Ibiza oder Mykonos fliegen.",
+        "es": "Irse de fiesta con sus amigas a destinos como Ibiza o Mykonos sin su pareja.",
+        "nl": "Zonder haar vriend op meidentrip gaan naar feestbestemmingen als Ibiza of Mykonos.",
+        "pt": "Ir de férias com as amigas para destinos de festa (Ibiza, Mykonos) sem o namorado."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "clash_women_4",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Avoir 500 prétendants en DM Instagram et continuer à entretenir leurs likes et messages.",
+        "en": "Having 500 guys in her Instagram DMs and actively keeping their attention alive.",
+        "de": "500 Typen in den Instagram-DMs haben und deren Aufmerksamkeit aktiv füttern.",
+        "es": "Tener 500 pretendientes en los MD de Instagram y seguir dándoles cuerda.",
+        "nl": "500 mannen in haar Instagram-DM's hebben en hun berichtjes blijven beantwoorden.",
+        "pt": "Ter centenas de homens nas mensagens do Instagram e continuar a alimentar as conversas."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "clash_women_5",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Être maman solo et exiger que le nouveau conjoint prenne en charge l'enfant financièrement dès le début.",
+        "en": "Being a single mom and expecting a new partner to pay for her child from day one.",
+        "de": "Als Alleinerziehende erwarten, dass der neue Partner das Kind von Tag 1 an mitfinanziert.",
+        "es": "Ser madre soltera y exigir que la nueva pareja mantenga al niño desde el principio.",
+        "nl": "Als alleenstaande moeder verwachten dat de nieuwe partner direct financieel bijspringt voor het kind.",
+        "pt": "Ser mãe solteira e exigir que o novo companheiro sustente a criança desde o início."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "clash_women_6",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Répondre 'Rien' avec un visage fermé quand on lui demande ce qui ne va pas et bouder toute la soirée.",
+        "en": "Saying 'Nothing' with a stone face when asked what is wrong and pouting all night.",
+        "de": "Mit versteinertem Gesicht 'Nichts' sagen und dann den ganzen Abend schmollen.",
+        "es": "Responder 'Nada' con cara de pocos amigos y pasarse toda la noche enfadada.",
+        "nl": "'Niks' zeggen met een boos gezicht en vervolgens de hele avond mokken.",
+        "pt": "Dizer 'Nada' com cara fechada quando perguntam o que se passa e ficar de trombas a noite toda."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "clash_women_7",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Exiger le code de déverrouillage de ton téléphone dès le premier mois au nom de la confiance.",
+        "en": "Demanding your phone passcode within the first month under the excuse of trust.",
+        "de": "Schon im ersten Monat deinen Handy-Code unter dem Vorwand von Vertrauen verlangen.",
+        "es": "Exigir la contraseña de tu móvil en el primer mes con la excusa de la confianza.",
+        "nl": "Al in de eerste maand je toegangscode van je telefoon eisen onder het mom van vertrouwen.",
+        "pt": "Exigir o código do teu telemóvel no primeiro mês sob o pretexto de confiança."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "clash_women_8",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Avoir un 'meilleur ami' garçon qui lui a déjà avoué ses sentiments et rester très proche de lui.",
+        "en": "Staying super close with a male 'best friend' who already confessed feelings for her.",
+        "de": "Mit einem 'besten Freund' eng bleiben, der ihr schon mal seine Liebe gestanden hat.",
+        "es": "Tener un 'mejor amigo' que ya se le declaró en el pasado y seguir pegada a él.",
+        "nl": "Heel close blijven met een mannelijke 'beste vriend' die ooit gevoelens voor haar heeft bekend.",
+        "pt": "Ficar super próxima de um 'melhor amigo' que já lhe confessou sentimentos no passado."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "clash_women_9",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Poster des photos très suggestives en story uniquement après une dispute de couple.",
+        "en": "Posting spicy thirst traps on her story right after an argument just for validation.",
+        "de": "Direkt nach einem Beziehungsstreit freizügige Fotos in die Story posten.",
+        "es": "Subir fotos provocativas a su historia justo después de una discusión de pareja.",
+        "nl": "Meteen na een relatie-ruzie uitdagende foto's op haar verhaal plaatsen voor aandacht.",
+        "pt": "Publicar fotos provocantes nos stories logo após uma discussão de casal."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "clash_women_10",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Considérer que les tâches ménagères ou l'organisation incombent automatiquement à l'autre.",
+        "en": "Assuming household chores and daily planning are solely the partner's job.",
+        "de": "Hausarbeit und Organisation stillschweigend komplett auf den Partner abwälzen.",
+        "es": "Considerar que las tareas del hogar o la organización le tocan siempre a la otra persona.",
+        "nl": "Ervan uitgaan dat het huishouden en de planning automatisch de taak van de ander is.",
+        "pt": "Achar que as tarefas domésticas e o planeamento diário são obrigação da outra pessoa."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "clash_women_11",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Passer tout le premier date à filmer ses plats et cocktails pour les réseaux au lieu de parler.",
+        "en": "Spending the whole first date filming food and drinks for social media instead of talking.",
+        "de": "Beim ersten Date ständig Essen und Drinks für Social Media filmen statt zu reden.",
+        "es": "Pasarse toda la primera cita grabando platos y copas para Instagram en vez de hablar.",
+        "nl": "De hele eerste date bezig zijn met het filmen van eten en drankjes voor haar socials.",
+        "pt": "Passar o primeiro encontro todo a filmar a comida e os copos para as redes em vez de conversar."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "clash_women_12",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Prôner l'égalité stricte au quotidien mais exiger que l'homme paye tous les restos et vacances.",
+        "en": "Demanding strict equality in daily life but expecting the man to pay for every meal and trip.",
+        "de": "Gleichberechtigung predigen, aber erwarten, dass der Mann alle Urlaube und Essen zahlt.",
+        "es": "Defender la igualdad total pero exigir que el hombre pague todas las cenas y viajes.",
+        "nl": "Gelijkheid prediken maar verwachten dat de man voor alle etentjes en vakanties betaalt.",
+        "pt": "Defender a igualdade total no dia a dia mas exigir que o homem pague todos os jantares e viagens."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "clash_women_13",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Menacer de rompre ou bloquer sur WhatsApp à la moindre petite contrariété.",
+        "en": "Threatening to break up or blocking on WhatsApp over every minor argument.",
+        "de": "Wegen jeder Kleinigkeit mit Trennung drohen oder den Partner auf WhatsApp blockieren.",
+        "es": "Amenazar con romper o bloquear en WhatsApp a la mínima discusión.",
+        "nl": "Bij het minste geringste dreigen met uitmaken of de ander blokkeren op WhatsApp.",
+        "pt": "Ameaçar acabar o namoro ou bloquear no WhatsApp ao menor sinal de conflito."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "clash_women_14",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Vouloir t'éloigner de ton groupe d'amis d'enfance parce qu'elle ne les apprécie pas.",
+        "en": "Trying to isolate you from your childhood friends because she does not like them.",
+        "de": "Versuchen, dich von deinen Jugendfreunden zu trennen, weil sie sie nicht mag.",
+        "es": "Intentar alejarte de tus amigos de toda la vida porque a ella no le caen bien.",
+        "nl": "Je proberen weg te houden van je jeugdvrienden omdat ze hen niet mag.",
+        "pt": "Tentar afastar-te do teu grupo de amigos de infância só porque não gosta deles."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "clash_women_15",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Comparer ouvertement ses cadeaux, son train de vie ou son copain à ceux des influenceurs.",
+        "en": "Openly comparing her gifts, lifestyle or boyfriend to wealthy influencers online.",
+        "de": "Ihre Geschenke oder ihren Freund ständig mit reichen Influencern im Netz vergleichen.",
+        "es": "Comparar abiertamente sus regalos o a su pareja con lo que ve en influencers.",
+        "nl": "Haar cadeaus of vriend openlijk vergelijken met het luxe leven van influencers.",
+        "pt": "Comparar abertamente os presentes e o namorado com o que vê nos influenciadores."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "clash_women_16",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Parler ouvertement d'un autre prétendant qui lui offre des cadeaux pour te rendre jaloux.",
+        "en": "Casually mentioning other guys offering her expensive gifts just to make you jealous.",
+        "de": "Von anderen Verehrern und deren Geschenken schwärmen, nur um dich eifersüchtig zu machen.",
+        "es": "Hablar de otro pretendiente que le hace regalos caros para darte celos.",
+        "nl": "Vertellen over andere mannen die haar cadeaus geven om je jaloers te maken.",
+        "pt": "Falar abertamente de outros pretendentes que lhe dão prendas só para causar ciúmes."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "clash_women_17",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Justifier un comportement toxique ou un caprice en disant 'désolée c'est mon signe astro'.",
+        "en": "Excusing toxic behavior or mood swings with 'sorry, it is because I am a Scorpio'.",
+        "de": "Toxische Launen mit 'Sorry, ich bin eben Skorpion' rechtfertigen.",
+        "es": "Justificar una actitud tóxica diciendo 'lo siento, es que soy Escorpio'.",
+        "nl": "Toxisch gedrag goedpraten met: 'sorry, dat komt door mijn sterrenbeeld'.",
+        "pt": "Justificar atitudes tóxicas dizendo 'desculpa, é porque sou do signo Escorpião'."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "clash_women_18",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Arriver systématiquement avec 45 minutes de retard sans prévenir ni s'excuser.",
+        "en": "Arriving 45 minutes late every single time without giving a heads-up or apologizing.",
+        "de": "Grundsätzlich 45 Minuten zu spät kommen, ohne Bescheid zu geben oder sich zu entschuldigen.",
+        "es": "Llegar siempre 45 minutos tarde a las citas sin avisar ni pedir disculpas.",
+        "nl": "Altijd 45 minuten te laat komen zonder waarschuwing of excuses.",
+        "pt": "Chegar sempre 45 minutos atrasada aos encontros sem avisar nem pedir desculpa."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "clash_women_19",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Juger la valeur d'un mec uniquement sur la marque de sa montre ou le modèle de sa voiture.",
+        "en": "Judging a man's worth purely by the brand of his watch or the car he drives.",
+        "de": "Den Wert eines Mannes nur nach seiner Uhrenmarke oder seinem Auto beurteilen.",
+        "es": "Juzgar el valor de un hombre únicamente por la marca de su reloj o su coche.",
+        "nl": "De waarde van een man uitsluitend beoordelen op zijn horlogemerk of auto.",
+        "pt": "Julgar o valor de um homem apenas pela marca do relógio ou pelo carro que conduz."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "clash_women_20",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Garder 3 prétendants 'en réserve' (plan B) au cas où votre relation ne marcherait pas.",
+        "en": "Keeping 3 guys on the backburner as a backup plan in case things do not work out.",
+        "de": "3 Verehrer in der Hinterhand als Plan B halten, falls es mit euch nicht klappt.",
+        "es": "Tener a 3 chicos 'en reserva' (plan B) por si lo vuestro no funciona.",
+        "nl": "Drie mannen als 'reserve' achter de hand houden voor het geval jullie relatie strandt.",
+        "pt": "Manter 3 pretendentes 'na reserva' (plano B) para o caso de não resultar."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "clash_women_21",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Demander à une copine inconnue d'envoyer des DM séducteurs à son mec pour tester sa fidélité.",
+        "en": "Having a stranger friend slide into her boyfriend's DMs as a fake loyalty test.",
+        "de": "Eine fremde Freundin anstiften, dem Partner Flirt-DMs für einen 'Loyalitätstest' zu schicken.",
+        "es": "Pedirle a una amiga desconocida que le tire la caña a su novio para probar su fidelidad.",
+        "nl": "Een vriendin vragen om haar vriend te verleiden via DM als een neppe loyaliteitstest.",
+        "pt": "Pedir a uma amiga desconhecida para mandar mensagens sedutoras ao namorado como teste."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "clash_women_22",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Refuser de payer son propre café à 3 € lors du tout premier date par principe.",
+        "en": "Refusing to pay for her own 3 dollar coffee on the first date strictly out of principle.",
+        "de": "Aus reinem Prinzip ablehnen, beim ersten Date den eigenen 3-Euro-Kaffee zu zahlen.",
+        "es": "Negarse por principio a pagar su propio café de 3 € en la primera cita.",
+        "nl": "Uit principe weigeren haar eigen koffie van 3 euro af te rekenen op de eerste date.",
+        "pt": "Recusar por princípio pagar o seu próprio café de 3 € no primeiro encontro."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "clash_women_23",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Raconter tous les détails intimes et les faiblesses de son copain à son groupe WhatsApp de copines.",
+        "en": "Sharing her boyfriend's deepest insecurities and intimate secrets in the girls group chat.",
+        "de": "Alle intimen Geheimnisse und Unsicherheiten des Freundes im Mädels-Gruppenchat teilen.",
+        "es": "Contar las debilidades y secretos íntimos de su pareja en el grupo de WhatsApp de amigas.",
+        "nl": "Alle intieme details en onzekerheden van haar vriend delen in de meiden-groepsapp.",
+        "pt": "Contar os detalhes íntimos e as inseguranças do namorado no grupo de WhatsApp de amigas."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "clash_women_24",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Inverser les rôles et se mettre à pleurer dès qu'on lui fait un reproche justifié.",
+        "en": "Turning the tables and bursting into tears the second she receives valid feedback.",
+        "de": "Die Rollen vertauschen und weinen, sobald man ihr berechtigte Kritik äußert.",
+        "es": "Darle la vuelta a la tortilla y ponerse a llorar en cuanto recibe una queja justificada.",
+        "nl": "De rollen omdraaien en in huilen uitbarsten zodra je een terecht punt van kritiek maakt.",
+        "pt": "Inverter a situação e começar a chorar assim que ouve uma crítica justa."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "clash_women_25",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Exiger un train de vie de luxe (hôtels 5 étoiles, voyages) sans aucune source de revenus stable.",
+        "en": "Demanding a 5-star luxury lifestyle and expensive trips with no stable income.",
+        "de": "Einen 5-Sterne-Luxus-Lifestyle fordern, ohne über ein eigenes Einkommen zu verfügen.",
+        "es": "Exigir un estilo de vida de lujo (hoteles 5 estrellas, viajes) sin tener ingresos estables.",
+        "nl": "Een 5-sterren luxe levensstijl en dure reizen eisen zonder zelf een stabiel inkomen te hebben.",
+        "pt": "Exigir um estilo de vida de luxo (hotéis de 5 estrelas e viagens) sem qualquer fonte de rendimento."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
       "live_tier": "safe"
     },
     {
@@ -11273,6 +12173,763 @@
         }
       ]
     },
+    "clash_pack": {
+      "id": "clash_pack",
+      "name": "CLASH",
+      "card_count": 50,
+      "cards": [
+        {
+          "id": "clash_men_1",
+          "theme": "dating",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Mettre des semelles rehaussantes ou mentir de 5 cm sur sa taille pour le premier date.",
+            "en": "Wearing elevator shoes or adding 2 inches to his height for the first date.",
+            "de": "Absatzeinlagen tragen oder beim ersten Date 5 cm bei der Körpergröße dazuschummeln.",
+            "es": "Ponerse plantillas con alzas o mentir 5 cm sobre su altura en la primera cita.",
+            "nl": "Verhogende inlegzolen dragen of 5 cm liegen over zijn lengte op de eerste date.",
+            "pt": "Usar palmilhas de aumento ou mentir 5 cm sobre a altura no primeiro encontro."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "clash_men_2",
+          "theme": "dating",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Vivre encore chez sa mère à plus de 26 ans et la laisser gérer ses repas et son linge.",
+            "en": "Still living with his mom past 26 and letting her do all his cooking and laundry.",
+            "de": "Mit über 26 noch bei Mama wohnen und sich von ihr bekochen und waschen lassen.",
+            "es": "Vivir con su madre con más de 26 años y dejar que le haga la comida y la colada.",
+            "nl": "Op zijn 26e nog bij zijn moeder wonen en haar zijn eten en was laten doen.",
+            "pt": "Viver com a mãe aos 26 anos e deixar que ela lhe faça a comida e a roupa."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "clash_men_3",
+          "theme": "dating",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Demander de faire 50/50 au centime près sur l'addition du premier date.",
+            "en": "Asking to split the first date bill 50/50 down to the exact penny.",
+            "de": "Beim ersten Date die Rechnung auf den Cent genau 50/50 aufteilen wollen.",
+            "es": "Pedir dividir la cuenta de la primera cita al céntimo exacto.",
+            "nl": "Vragen om de rekening van de eerste date tot op de cent nauwkeurig te splitten.",
+            "pt": "Pedir para dividir a conta do primeiro encontro 50/50 ao cêntimo."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "clash_men_4",
+          "theme": "dating",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Avoir une 'meilleure amie' fille à qui il raconte tous ses problèmes de couple.",
+            "en": "Having a female 'best friend' he vents to about all his relationship issues.",
+            "de": "Eine beste Freundin haben, der er alle Beziehungsprobleme im Detail erzählt.",
+            "es": "Tener una 'mejor amiga' a quien le cuenta todos sus problemas de pareja.",
+            "nl": "Een vrouwelijke 'beste vriendin' hebben aan wie hij al zijn relatieproblemen vertelt.",
+            "pt": "Ter uma 'melhor amiga' a quem conta todos os problemas do casal."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "clash_men_5",
+          "theme": "dating",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Refuser catégoriquement de fréquenter une femme qui a déjà un enfant.",
+            "en": "Flat out refusing to date a woman who already has a child.",
+            "de": "Kategorisch ablehnen, eine Frau zu daten, die bereits ein Kind hat.",
+            "es": "Negarse rotundamente a salir con una mujer que ya tiene un hijo.",
+            "nl": "Categorisch weigeren te daten met een vrouw die al een kind heeft.",
+            "pt": "Recusar categoricamente sair com uma mulher que já tem um filho."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "clash_men_6",
+          "theme": "dating",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Gagner un très bon salaire mais rouler dans une épave et refuser le restau pour économiser.",
+            "en": "Making great money but driving a beat-up wreck and refusing restaurants to save cash.",
+            "de": "Viel Geld verdienen, aber eine Schrottlaube fahren und Restaurantbesuche aus Geiz verweigern.",
+            "es": "Ganar un buen sueldo pero conducir un coche destartalado y negarse a ir a restaurantes.",
+            "nl": "Een topsalaris verdienen maar in een wrak rijden en uit eten weigeren uit gierigheid.",
+            "pt": "Ganhar um bom salário mas conduzir um carro a cair aos pedaços e recusar restaurantes."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "clash_men_7",
+          "theme": "dating",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Refuser d'éteindre sa console ou de quitter sa partie quand tu demandes de l'aide urgente.",
+            "en": "Refusing to turn off his console or leave an online game when you need urgent help.",
+            "de": "Sich weigern, das Online-Game zu verlassen, wenn du dringend Hilfe brauchst.",
+            "es": "Negarse a apagar la consola o dejar una partida online cuando necesitas ayuda urgente.",
+            "nl": "Weigeren zijn online game te stoppen als je dringend om hulp vraagt.",
+            "pt": "Recusar sair de um jogo online quando precisas de ajuda urgente."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "clash_men_8",
+          "theme": "dating",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Avoir encore des photos de son ex encadrées chez lui ou archivées sur ses réseaux.",
+            "en": "Still keeping framed photos of his ex at home or pinned on his social feeds.",
+            "de": "Noch immer gerahmte Fotos der Ex in der Wohnung stehen oder auf Social Media haben.",
+            "es": "Tener fotos enmarcadas de su ex en casa o fijadas en sus redes sociales.",
+            "nl": "Nog ingelijste foto's van zijn ex in huis hebben staan of gepind op zijn socials.",
+            "pt": "Ainda ter fotos da ex emolduradas em casa ou destacadas nas redes sociais."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "clash_men_9",
+          "theme": "dating",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Dire 'on prend notre temps' et refuser d'officialiser après 8 mois de fréquentation régulière.",
+            "en": "Saying 'let us take it slow' and refusing to make it official after 8 months of dating.",
+            "de": "Nach 8 Monaten Dating immer noch sagen: 'Lass uns Zeit lassen' und nichts festmachen.",
+            "es": "Decir 'vamos despacio' y negarse a formalizar tras 8 meses viéndose todas las semanas.",
+            "nl": "Na 8 maanden daten nog steeds zeggen: 'we doen rustig aan' en niets officieel maken.",
+            "pt": "Dizer 'vamos com calma' e recusar oficializar após 8 meses a saírem juntos."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "clash_men_10",
+          "theme": "dating",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Suivre 500 influenceuses fitness sur Instagram et liker toutes leurs photos en maillot.",
+            "en": "Following 500 fitness models on Instagram and liking every single bikini post.",
+            "de": "Über 500 Fitness-Models auf Instagram folgen und jedes einzelne Bikini-Foto liken.",
+            "es": "Seguir a 500 modelos fitness en Instagram y dar me gusta a todas sus fotos en bikini.",
+            "nl": "500 fitnessmodellen op Instagram volgen en elke bikinifoto liken.",
+            "pt": "Seguir 500 modelos de fitness no Instagram e pôr like em todas as fotos de biquíni."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "clash_men_11",
+          "theme": "dating",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Commander à ta place au restaurant sans te demander ton avis pour faire le connaisseur.",
+            "en": "Ordering for you at the restaurant without asking to look like a connoisseur.",
+            "de": "Im Restaurant für dich mitbestellen, ohne zu fragen, um wie ein Kenner zu wirken.",
+            "es": "Pedir por ti en el restaurante sin preguntarte para hacerse el entendido.",
+            "nl": "In het restaurant voor jou bestellen zonder je mening te vragen om stoer te doen.",
+            "pt": "Pedir a comida por ti no restaurante sem perguntar para parecer entendido."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "clash_men_12",
+          "theme": "dating",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Avoir un appart sans draps housse sur le matelas et de la vaisselle sale depuis 4 jours.",
+            "en": "No fitted sheet on his mattress and 4-day-old dirty dishes in the sink on date night.",
+            "de": "Kein Spannbettlaken auf der Matratze und 4 Tage altes Dreckgeschirr beim ersten Besuch.",
+            "es": "Tener la cama sin sábana bajera y platos sucios en el fregadero desde hace 4 días.",
+            "nl": "Geen hoeslaken om het matras en de vuile vaat van 4 dagen nog in de gootsteen.",
+            "pt": "Não ter lençol no colchão e louça suja na pia há 4 dias no primeiro encontro em casa dele."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "clash_men_13",
+          "theme": "dating",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Parler uniquement de son job, de crypto ou de bourse pendant 2h sans poser une seule question.",
+            "en": "Talking only about his job, crypto or stocks for 2 straight hours without asking a single question.",
+            "de": "Zwei Stunden lang nur über seinen Job, Krypto und Aktien reden, ohne eine Frage zu stellen.",
+            "es": "Hablar solo de su trabajo, criptos o bolsa durante 2 horas sin hacer una sola pregunta.",
+            "nl": "Twee uur lang alleen maar praten over crypto, aandelen en zijn werk zonder één vraag te stellen.",
+            "pt": "Falar durante duas horas seguidas de trabalho, criptos ou ações sem fazer uma única pergunta."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "clash_men_14",
+          "theme": "dating",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Devenir glacial ou agressif dès que tu refuses de monter chez lui après le verre.",
+            "en": "Turning cold or passive-aggressive the moment you say no to going up to his place.",
+            "de": "Sofort eiskalt oder passiv-aggressiv werden, sobald du ablehnst, mit zu ihm zu gehen.",
+            "es": "Ponerse frío o distante en cuanto te niegas a subir a su casa tras la primera copa.",
+            "nl": "Meteen koud of afstandelijk worden zodra je weigert mee naar zijn huis te gaan.",
+            "pt": "Ficar frio ou distante no momento em que recusas subir ao apartamento dele."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "clash_men_15",
+          "theme": "dating",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Critiquer ouvertement la tenue ou le maquillage des autres femmes dans la rue.",
+            "en": "Openly judging and criticizing other women's outfits or makeup on the street.",
+            "de": "Auf der Straße ständig das Outfit oder Make-up anderer Frauen schlechtreden.",
+            "es": "Criticar abiertamente la ropa o el maquillaje de otras mujeres por la calle.",
+            "nl": "Op straat openlijk opmerkingen maken over de kleding of make-up van andere vrouwen.",
+            "pt": "Criticar abertamente a roupa ou a maquilhagem de outras mulheres na rua."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "clash_men_16",
+          "theme": "dating",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Agir en couple pendant 6 mois (dormir ensemble, restos) mais répéter 'on ne met pas d'étiquette'.",
+            "en": "Acting like a couple for 6 months (sleepovers, dates) but insisting 'let us not put a label on it'.",
+            "de": "6 Monate lang wie ein Paar leben (Kuscheln, Dates), aber sagen: 'Keine Labels'.",
+            "es": "Actuar como pareja durante 6 meses (cenas, dormir juntos) pero repetir 'sin etiquetas'.",
+            "nl": "6 maanden doen alsof je een stel bent maar blijven herhalen: 'ik wil geen label plakken'.",
+            "pt": "Agir como um casal durante 6 meses mas repetir sempre 'não quero rótulos'."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "clash_men_17",
+          "theme": "dating",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Conduire dangereusement et insulter tout le monde sur la route pour faire le viril.",
+            "en": "Driving aggressively and yelling road rage insults to look manly on the first date.",
+            "de": "Beim Date aggressiv rasen und andere Fahrer anschreien, um 'männlich' zu wirken.",
+            "es": "Conducir como un loco e insultar a todo el mundo al volante para hacerse el tipo duro.",
+            "nl": "Roekeloos rijden en iedereen uitschelden in het verkeer om stoer te doen op een date.",
+            "pt": "Conduzir à doida e insultar toda a gente no trânsito para se armar em machão."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "clash_men_18",
+          "theme": "dating",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Faire le mort pendant 3 jours après un simple désaccord plutôt que d'en parler.",
+            "en": "Giving you the silent treatment for 3 days after a minor disagreement.",
+            "de": "Nach einer Meinungsverschiedenheit drei Tage lang toter Mann spielen (Silent Treatment).",
+            "es": "Aplicar la ley del hielo y desaparecer 3 días tras una pequeña discusión.",
+            "nl": "Na een klein meningsverschil drie dagen lang niets van zich laten horen.",
+            "pt": "Fazer silêncio absoluto durante 3 dias após um pequeno desentendimento."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "clash_men_19",
+          "theme": "dating",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Ne pas changer de t-shirt après le sport ou zapper la douche avant un date.",
+            "en": "Wearing the same shirt after the gym or skipping the shower before a date.",
+            "de": "Nach dem Sport dasselbe T-Shirt anbehalten oder vor dem Date die Dusche schwänzen.",
+            "es": "No cambiarse de camiseta tras el gimnasio o saltarse la ducha antes de una cita.",
+            "nl": "Hetzelfde shirt dragen na het sporten of de douche overslaan voor een date.",
+            "pt": "Não mudar de t-shirt depois do treino ou saltar o banho antes de um encontro."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "clash_men_20",
+          "theme": "dating",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Sortir la phrase 'toutes mes ex étaient folles' dès les 30 premières minutes.",
+            "en": "Dropping 'all my exes were crazy' within the first 30 minutes of conversation.",
+            "de": "Schon in den ersten 30 Minuten sagen: 'Alle meine Ex-Freundinnen waren verrückt'.",
+            "es": "Soltar la frase 'todas mis ex estaban locas' en la primera media hora de cita.",
+            "nl": "Binnen het eerste half uur al zeggen: 'al mijn exen waren gestoord'.",
+            "pt": "Dizer 'todas as minhas ex eram loucas' logo nos primeiros 30 minutos de conversa."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "clash_men_21",
+          "theme": "dating",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Courir après son bus avec un sac à dos qui sautille ou trébucher tout seul.",
+            "en": "Running after the bus with a bouncing backpack or tripping over his own feet.",
+            "de": "Mit wackelndem Rucksack dem Bus hinterherrennen oder über die eigenen Füße stolpern.",
+            "es": "Correr tras el autobús con la mochila botando o tropezar solo por la calle.",
+            "nl": "Achter de bus aan rennen met een stuiterende rugzak of over zijn eigen voeten struikelen.",
+            "pt": "Correr atrás do autocarro com a mochila a saltitar ou tropeçar nos próprios pés."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "clash_men_22",
+          "theme": "dating",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Appeler sa mère en plein supermarché pour savoir quelle marque de pâtes acheter.",
+            "en": "Calling his mom in the middle of the grocery store to ask which pasta brand to buy.",
+            "de": "Im Supermarkt Mama anrufen, um zu fragen, welche Nudeln er kaufen soll.",
+            "es": "Llamar a su madre en el supermercado para saber qué marca de pasta comprar.",
+            "nl": "Midden in de supermarkt zijn moeder bellen om te vragen welk merk pasta hij moet kopen.",
+            "pt": "Ligar à mãe no meio do supermercado para perguntar qual a marca de massa a comprar."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "clash_men_23",
+          "theme": "dating",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Laisser ses potes manquer de respect à sa copine sans jamais intervenir.",
+            "en": "Letting his friends disrespect his girlfriend without ever standing up for her.",
+            "de": "Zulassen, dass seine Kumpels seine Freundin dissen, ohne einzugreifen.",
+            "es": "Dejar que sus amigos le falten al respeto a su pareja sin dar la cara por ella.",
+            "nl": "Toelaten dat zijn vrienden respectloos doen tegen zijn vriendin zonder in te grijpen.",
+            "pt": "Deixar que os amigos faltem ao respeito à namorada sem nunca intervir."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "clash_men_24",
+          "theme": "dating",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Exiger d'avoir la géolocalisation partagée en direct 24h/24 dès la première semaine.",
+            "en": "Demanding 24/7 live location sharing from the very first week of dating.",
+            "de": "Schon in der ersten Woche verlangen, 24/7 den Live-Standort geteilt zu bekommen.",
+            "es": "Exigir tener la ubicación compartida en tiempo real 24/7 desde la primera semana.",
+            "nl": "Al in de eerste week eisen dat je 24/7 je live locatie met hem deelt.",
+            "pt": "Exigir partilha de localização em tempo real 24 horas por dia logo na primeira semana."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "clash_men_25",
+          "theme": "dating",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Faire des réflexions sur le décolleté ou la robe juste avant de partir en soirée.",
+            "en": "Making passive-aggressive remarks about her dress or cleavage right before leaving.",
+            "de": "Kurz vor der Party abwertende Kommentare über das Dekolleté oder Kleid machen.",
+            "es": "Hacer comentarios sobre su escote o su vestido justo antes de salir de fiesta.",
+            "nl": "Vlak voor vertrek naar een feestje opmerkingen maken over haar jurk of decolleté.",
+            "pt": "Fazer comentários desagradáveis sobre o decote ou o vestido mesmo antes de sair para a festa."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "clash_women_1",
+          "theme": "dating",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Demander le salaire ou la profession exacte avant même d'accepter un premier verre.",
+            "en": "Asking for exact salary or job title before even agreeing to a first drink.",
+            "de": "Vor dem ersten Treffen nach Gehalt und genauem Berufstitel fragen.",
+            "es": "Preguntar el sueldo o profesión exacta antes de aceptar un primer café.",
+            "nl": "Vragen naar het exacte salaris of beroep voordat ze überhaupt op date wil.",
+            "pt": "Perguntar o salário ou a profissão exata antes sequer de aceitar um primeiro copo."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "clash_women_2",
+          "theme": "dating",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Avoir un passif amoureux très chargé et refuser catégoriquement d'en parler.",
+            "en": "Having a very heavy dating history and strictly refusing to ever mention it.",
+            "de": "Eine sehr wilde Dating-Vergangenheit haben und kategorisch schweigen.",
+            "es": "Tener un pasado amoroso muy movido y negarse tajantemente a hablar de ello.",
+            "nl": "Een heel wild liefdesverleden hebben en er categorisch over weigeren te praten.",
+            "pt": "Ter um passado amoroso muito longo e recusar terminantemente falar sobre isso."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "clash_women_3",
+          "theme": "dating",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Partir en vacances entre copines dans des destinations festives (Ibiza, Mykonos) sans son copain.",
+            "en": "Going on girls-only party trips to wild destinations (Ibiza, Mykonos) without her boyfriend.",
+            "de": "Ohne den Freund auf Party-Urlaub mit den Mädels nach Ibiza oder Mykonos fliegen.",
+            "es": "Irse de fiesta con sus amigas a destinos como Ibiza o Mykonos sin su pareja.",
+            "nl": "Zonder haar vriend op meidentrip gaan naar feestbestemmingen als Ibiza of Mykonos.",
+            "pt": "Ir de férias com as amigas para destinos de festa (Ibiza, Mykonos) sem o namorado."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "clash_women_4",
+          "theme": "dating",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Avoir 500 prétendants en DM Instagram et continuer à entretenir leurs likes et messages.",
+            "en": "Having 500 guys in her Instagram DMs and actively keeping their attention alive.",
+            "de": "500 Typen in den Instagram-DMs haben und deren Aufmerksamkeit aktiv füttern.",
+            "es": "Tener 500 pretendientes en los MD de Instagram y seguir dándoles cuerda.",
+            "nl": "500 mannen in haar Instagram-DM's hebben en hun berichtjes blijven beantwoorden.",
+            "pt": "Ter centenas de homens nas mensagens do Instagram e continuar a alimentar as conversas."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "clash_women_5",
+          "theme": "dating",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Être maman solo et exiger que le nouveau conjoint prenne en charge l'enfant financièrement dès le début.",
+            "en": "Being a single mom and expecting a new partner to pay for her child from day one.",
+            "de": "Als Alleinerziehende erwarten, dass der neue Partner das Kind von Tag 1 an mitfinanziert.",
+            "es": "Ser madre soltera y exigir que la nueva pareja mantenga al niño desde el principio.",
+            "nl": "Als alleenstaande moeder verwachten dat de nieuwe partner direct financieel bijspringt voor het kind.",
+            "pt": "Ser mãe solteira e exigir que o novo companheiro sustente a criança desde o início."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "clash_women_6",
+          "theme": "dating",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Répondre 'Rien' avec un visage fermé quand on lui demande ce qui ne va pas et bouder toute la soirée.",
+            "en": "Saying 'Nothing' with a stone face when asked what is wrong and pouting all night.",
+            "de": "Mit versteinertem Gesicht 'Nichts' sagen und dann den ganzen Abend schmollen.",
+            "es": "Responder 'Nada' con cara de pocos amigos y pasarse toda la noche enfadada.",
+            "nl": "'Niks' zeggen met een boos gezicht en vervolgens de hele avond mokken.",
+            "pt": "Dizer 'Nada' com cara fechada quando perguntam o que se passa e ficar de trombas a noite toda."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "clash_women_7",
+          "theme": "dating",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Exiger le code de déverrouillage de ton téléphone dès le premier mois au nom de la confiance.",
+            "en": "Demanding your phone passcode within the first month under the excuse of trust.",
+            "de": "Schon im ersten Monat deinen Handy-Code unter dem Vorwand von Vertrauen verlangen.",
+            "es": "Exigir la contraseña de tu móvil en el primer mes con la excusa de la confianza.",
+            "nl": "Al in de eerste maand je toegangscode van je telefoon eisen onder het mom van vertrouwen.",
+            "pt": "Exigir o código do teu telemóvel no primeiro mês sob o pretexto de confiança."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "clash_women_8",
+          "theme": "dating",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Avoir un 'meilleur ami' garçon qui lui a déjà avoué ses sentiments et rester très proche de lui.",
+            "en": "Staying super close with a male 'best friend' who already confessed feelings for her.",
+            "de": "Mit einem 'besten Freund' eng bleiben, der ihr schon mal seine Liebe gestanden hat.",
+            "es": "Tener un 'mejor amigo' que ya se le declaró en el pasado y seguir pegada a él.",
+            "nl": "Heel close blijven met een mannelijke 'beste vriend' die ooit gevoelens voor haar heeft bekend.",
+            "pt": "Ficar super próxima de um 'melhor amigo' que já lhe confessou sentimentos no passado."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "clash_women_9",
+          "theme": "dating",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Poster des photos très suggestives en story uniquement après une dispute de couple.",
+            "en": "Posting spicy thirst traps on her story right after an argument just for validation.",
+            "de": "Direkt nach einem Beziehungsstreit freizügige Fotos in die Story posten.",
+            "es": "Subir fotos provocativas a su historia justo después de una discusión de pareja.",
+            "nl": "Meteen na een relatie-ruzie uitdagende foto's op haar verhaal plaatsen voor aandacht.",
+            "pt": "Publicar fotos provocantes nos stories logo após uma discussão de casal."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "clash_women_10",
+          "theme": "dating",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Considérer que les tâches ménagères ou l'organisation incombent automatiquement à l'autre.",
+            "en": "Assuming household chores and daily planning are solely the partner's job.",
+            "de": "Hausarbeit und Organisation stillschweigend komplett auf den Partner abwälzen.",
+            "es": "Considerar que las tareas del hogar o la organización le tocan siempre a la otra persona.",
+            "nl": "Ervan uitgaan dat het huishouden en de planning automatisch de taak van de ander is.",
+            "pt": "Achar que as tarefas domésticas e o planeamento diário são obrigação da outra pessoa."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "clash_women_11",
+          "theme": "dating",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Passer tout le premier date à filmer ses plats et cocktails pour les réseaux au lieu de parler.",
+            "en": "Spending the whole first date filming food and drinks for social media instead of talking.",
+            "de": "Beim ersten Date ständig Essen und Drinks für Social Media filmen statt zu reden.",
+            "es": "Pasarse toda la primera cita grabando platos y copas para Instagram en vez de hablar.",
+            "nl": "De hele eerste date bezig zijn met het filmen van eten en drankjes voor haar socials.",
+            "pt": "Passar o primeiro encontro todo a filmar a comida e os copos para as redes em vez de conversar."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "clash_women_12",
+          "theme": "dating",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Prôner l'égalité stricte au quotidien mais exiger que l'homme paye tous les restos et vacances.",
+            "en": "Demanding strict equality in daily life but expecting the man to pay for every meal and trip.",
+            "de": "Gleichberechtigung predigen, aber erwarten, dass der Mann alle Urlaube und Essen zahlt.",
+            "es": "Defender la igualdad total pero exigir que el hombre pague todas las cenas y viajes.",
+            "nl": "Gelijkheid prediken maar verwachten dat de man voor alle etentjes en vakanties betaalt.",
+            "pt": "Defender a igualdade total no dia a dia mas exigir que o homem pague todos os jantares e viagens."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "clash_women_13",
+          "theme": "dating",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Menacer de rompre ou bloquer sur WhatsApp à la moindre petite contrariété.",
+            "en": "Threatening to break up or blocking on WhatsApp over every minor argument.",
+            "de": "Wegen jeder Kleinigkeit mit Trennung drohen oder den Partner auf WhatsApp blockieren.",
+            "es": "Amenazar con romper o bloquear en WhatsApp a la mínima discusión.",
+            "nl": "Bij het minste geringste dreigen met uitmaken of de ander blokkeren op WhatsApp.",
+            "pt": "Ameaçar acabar o namoro ou bloquear no WhatsApp ao menor sinal de conflito."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "clash_women_14",
+          "theme": "dating",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Vouloir t'éloigner de ton groupe d'amis d'enfance parce qu'elle ne les apprécie pas.",
+            "en": "Trying to isolate you from your childhood friends because she does not like them.",
+            "de": "Versuchen, dich von deinen Jugendfreunden zu trennen, weil sie sie nicht mag.",
+            "es": "Intentar alejarte de tus amigos de toda la vida porque a ella no le caen bien.",
+            "nl": "Je proberen weg te houden van je jeugdvrienden omdat ze hen niet mag.",
+            "pt": "Tentar afastar-te do teu grupo de amigos de infância só porque não gosta deles."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "clash_women_15",
+          "theme": "dating",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Comparer ouvertement ses cadeaux, son train de vie ou son copain à ceux des influenceurs.",
+            "en": "Openly comparing her gifts, lifestyle or boyfriend to wealthy influencers online.",
+            "de": "Ihre Geschenke oder ihren Freund ständig mit reichen Influencern im Netz vergleichen.",
+            "es": "Comparar abiertamente sus regalos o a su pareja con lo que ve en influencers.",
+            "nl": "Haar cadeaus of vriend openlijk vergelijken met het luxe leven van influencers.",
+            "pt": "Comparar abertamente os presentes e o namorado com o que vê nos influenciadores."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "clash_women_16",
+          "theme": "dating",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Parler ouvertement d'un autre prétendant qui lui offre des cadeaux pour te rendre jaloux.",
+            "en": "Casually mentioning other guys offering her expensive gifts just to make you jealous.",
+            "de": "Von anderen Verehrern und deren Geschenken schwärmen, nur um dich eifersüchtig zu machen.",
+            "es": "Hablar de otro pretendiente que le hace regalos caros para darte celos.",
+            "nl": "Vertellen over andere mannen die haar cadeaus geven om je jaloers te maken.",
+            "pt": "Falar abertamente de outros pretendentes que lhe dão prendas só para causar ciúmes."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "clash_women_17",
+          "theme": "dating",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Justifier un comportement toxique ou un caprice en disant 'désolée c'est mon signe astro'.",
+            "en": "Excusing toxic behavior or mood swings with 'sorry, it is because I am a Scorpio'.",
+            "de": "Toxische Launen mit 'Sorry, ich bin eben Skorpion' rechtfertigen.",
+            "es": "Justificar una actitud tóxica diciendo 'lo siento, es que soy Escorpio'.",
+            "nl": "Toxisch gedrag goedpraten met: 'sorry, dat komt door mijn sterrenbeeld'.",
+            "pt": "Justificar atitudes tóxicas dizendo 'desculpa, é porque sou do signo Escorpião'."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "clash_women_18",
+          "theme": "dating",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Arriver systématiquement avec 45 minutes de retard sans prévenir ni s'excuser.",
+            "en": "Arriving 45 minutes late every single time without giving a heads-up or apologizing.",
+            "de": "Grundsätzlich 45 Minuten zu spät kommen, ohne Bescheid zu geben oder sich zu entschuldigen.",
+            "es": "Llegar siempre 45 minutos tarde a las citas sin avisar ni pedir disculpas.",
+            "nl": "Altijd 45 minuten te laat komen zonder waarschuwing of excuses.",
+            "pt": "Chegar sempre 45 minutos atrasada aos encontros sem avisar nem pedir desculpa."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "clash_women_19",
+          "theme": "dating",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Juger la valeur d'un mec uniquement sur la marque de sa montre ou le modèle de sa voiture.",
+            "en": "Judging a man's worth purely by the brand of his watch or the car he drives.",
+            "de": "Den Wert eines Mannes nur nach seiner Uhrenmarke oder seinem Auto beurteilen.",
+            "es": "Juzgar el valor de un hombre únicamente por la marca de su reloj o su coche.",
+            "nl": "De waarde van een man uitsluitend beoordelen op zijn horlogemerk of auto.",
+            "pt": "Julgar o valor de um homem apenas pela marca do relógio ou pelo carro que conduz."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "clash_women_20",
+          "theme": "dating",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Garder 3 prétendants 'en réserve' (plan B) au cas où votre relation ne marcherait pas.",
+            "en": "Keeping 3 guys on the backburner as a backup plan in case things do not work out.",
+            "de": "3 Verehrer in der Hinterhand als Plan B halten, falls es mit euch nicht klappt.",
+            "es": "Tener a 3 chicos 'en reserva' (plan B) por si lo vuestro no funciona.",
+            "nl": "Drie mannen als 'reserve' achter de hand houden voor het geval jullie relatie strandt.",
+            "pt": "Manter 3 pretendentes 'na reserva' (plano B) para o caso de não resultar."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "clash_women_21",
+          "theme": "dating",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Demander à une copine inconnue d'envoyer des DM séducteurs à son mec pour tester sa fidélité.",
+            "en": "Having a stranger friend slide into her boyfriend's DMs as a fake loyalty test.",
+            "de": "Eine fremde Freundin anstiften, dem Partner Flirt-DMs für einen 'Loyalitätstest' zu schicken.",
+            "es": "Pedirle a una amiga desconocida que le tire la caña a su novio para probar su fidelidad.",
+            "nl": "Een vriendin vragen om haar vriend te verleiden via DM als een neppe loyaliteitstest.",
+            "pt": "Pedir a uma amiga desconhecida para mandar mensagens sedutoras ao namorado como teste."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "clash_women_22",
+          "theme": "dating",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Refuser de payer son propre café à 3 € lors du tout premier date par principe.",
+            "en": "Refusing to pay for her own 3 dollar coffee on the first date strictly out of principle.",
+            "de": "Aus reinem Prinzip ablehnen, beim ersten Date den eigenen 3-Euro-Kaffee zu zahlen.",
+            "es": "Negarse por principio a pagar su propio café de 3 € en la primera cita.",
+            "nl": "Uit principe weigeren haar eigen koffie van 3 euro af te rekenen op de eerste date.",
+            "pt": "Recusar por princípio pagar o seu próprio café de 3 € no primeiro encontro."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "clash_women_23",
+          "theme": "dating",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Raconter tous les détails intimes et les faiblesses de son copain à son groupe WhatsApp de copines.",
+            "en": "Sharing her boyfriend's deepest insecurities and intimate secrets in the girls group chat.",
+            "de": "Alle intimen Geheimnisse und Unsicherheiten des Freundes im Mädels-Gruppenchat teilen.",
+            "es": "Contar las debilidades y secretos íntimos de su pareja en el grupo de WhatsApp de amigas.",
+            "nl": "Alle intieme details en onzekerheden van haar vriend delen in de meiden-groepsapp.",
+            "pt": "Contar os detalhes íntimos e as inseguranças do namorado no grupo de WhatsApp de amigas."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "clash_women_24",
+          "theme": "dating",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Inverser les rôles et se mettre à pleurer dès qu'on lui fait un reproche justifié.",
+            "en": "Turning the tables and bursting into tears the second she receives valid feedback.",
+            "de": "Die Rollen vertauschen und weinen, sobald man ihr berechtigte Kritik äußert.",
+            "es": "Darle la vuelta a la tortilla y ponerse a llorar en cuanto recibe una queja justificada.",
+            "nl": "De rollen omdraaien en in huilen uitbarsten zodra je een terecht punt van kritiek maakt.",
+            "pt": "Inverter a situação e começar a chorar assim que ouve uma crítica justa."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "clash_women_25",
+          "theme": "dating",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Exiger un train de vie de luxe (hôtels 5 étoiles, voyages) sans aucune source de revenus stable.",
+            "en": "Demanding a 5-star luxury lifestyle and expensive trips with no stable income.",
+            "de": "Einen 5-Sterne-Luxus-Lifestyle fordern, ohne über ein eigenes Einkommen zu verfügen.",
+            "es": "Exigir un estilo de vida de lujo (hoteles 5 estrellas, viajes) sin tener ingresos estables.",
+            "nl": "Een 5-sterren luxe levensstijl en dure reizen eisen zonder zelf een stabiel inkomen te hebben.",
+            "pt": "Exigir um estilo de vida de luxo (hotéis de 5 estrelas e viagens) sem qualquer fonte de rendimento."
+          },
+          "difficulty": 2,
+          "enabled": true
+        }
+      ]
+    },
     "vacation_pack": {
       "id": "vacation_pack",
       "name": "VACATION",
@@ -19712,6 +21369,906 @@
       "packId": "dating_pack",
       "live_tier": "safe"
     },
+    "clash_men_1": {
+      "id": "clash_men_1",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Mettre des semelles rehaussantes ou mentir de 5 cm sur sa taille pour le premier date.",
+        "en": "Wearing elevator shoes or adding 2 inches to his height for the first date.",
+        "de": "Absatzeinlagen tragen oder beim ersten Date 5 cm bei der Körpergröße dazuschummeln.",
+        "es": "Ponerse plantillas con alzas o mentir 5 cm sobre su altura en la primera cita.",
+        "nl": "Verhogende inlegzolen dragen of 5 cm liegen over zijn lengte op de eerste date.",
+        "pt": "Usar palmilhas de aumento ou mentir 5 cm sobre a altura no primeiro encontro."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    "clash_men_2": {
+      "id": "clash_men_2",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Vivre encore chez sa mère à plus de 26 ans et la laisser gérer ses repas et son linge.",
+        "en": "Still living with his mom past 26 and letting her do all his cooking and laundry.",
+        "de": "Mit über 26 noch bei Mama wohnen und sich von ihr bekochen und waschen lassen.",
+        "es": "Vivir con su madre con más de 26 años y dejar que le haga la comida y la colada.",
+        "nl": "Op zijn 26e nog bij zijn moeder wonen en haar zijn eten en was laten doen.",
+        "pt": "Viver com a mãe aos 26 anos e deixar que ela lhe faça a comida e a roupa."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    "clash_men_3": {
+      "id": "clash_men_3",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Demander de faire 50/50 au centime près sur l'addition du premier date.",
+        "en": "Asking to split the first date bill 50/50 down to the exact penny.",
+        "de": "Beim ersten Date die Rechnung auf den Cent genau 50/50 aufteilen wollen.",
+        "es": "Pedir dividir la cuenta de la primera cita al céntimo exacto.",
+        "nl": "Vragen om de rekening van de eerste date tot op de cent nauwkeurig te splitten.",
+        "pt": "Pedir para dividir a conta do primeiro encontro 50/50 ao cêntimo."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    "clash_men_4": {
+      "id": "clash_men_4",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Avoir une 'meilleure amie' fille à qui il raconte tous ses problèmes de couple.",
+        "en": "Having a female 'best friend' he vents to about all his relationship issues.",
+        "de": "Eine beste Freundin haben, der er alle Beziehungsprobleme im Detail erzählt.",
+        "es": "Tener una 'mejor amiga' a quien le cuenta todos sus problemas de pareja.",
+        "nl": "Een vrouwelijke 'beste vriendin' hebben aan wie hij al zijn relatieproblemen vertelt.",
+        "pt": "Ter uma 'melhor amiga' a quem conta todos os problemas do casal."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    "clash_men_5": {
+      "id": "clash_men_5",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Refuser catégoriquement de fréquenter une femme qui a déjà un enfant.",
+        "en": "Flat out refusing to date a woman who already has a child.",
+        "de": "Kategorisch ablehnen, eine Frau zu daten, die bereits ein Kind hat.",
+        "es": "Negarse rotundamente a salir con una mujer que ya tiene un hijo.",
+        "nl": "Categorisch weigeren te daten met een vrouw die al een kind heeft.",
+        "pt": "Recusar categoricamente sair com uma mulher que já tem um filho."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    "clash_men_6": {
+      "id": "clash_men_6",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Gagner un très bon salaire mais rouler dans une épave et refuser le restau pour économiser.",
+        "en": "Making great money but driving a beat-up wreck and refusing restaurants to save cash.",
+        "de": "Viel Geld verdienen, aber eine Schrottlaube fahren und Restaurantbesuche aus Geiz verweigern.",
+        "es": "Ganar un buen sueldo pero conducir un coche destartalado y negarse a ir a restaurantes.",
+        "nl": "Een topsalaris verdienen maar in een wrak rijden en uit eten weigeren uit gierigheid.",
+        "pt": "Ganhar um bom salário mas conduzir um carro a cair aos pedaços e recusar restaurantes."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    "clash_men_7": {
+      "id": "clash_men_7",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Refuser d'éteindre sa console ou de quitter sa partie quand tu demandes de l'aide urgente.",
+        "en": "Refusing to turn off his console or leave an online game when you need urgent help.",
+        "de": "Sich weigern, das Online-Game zu verlassen, wenn du dringend Hilfe brauchst.",
+        "es": "Negarse a apagar la consola o dejar una partida online cuando necesitas ayuda urgente.",
+        "nl": "Weigeren zijn online game te stoppen als je dringend om hulp vraagt.",
+        "pt": "Recusar sair de um jogo online quando precisas de ajuda urgente."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    "clash_men_8": {
+      "id": "clash_men_8",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Avoir encore des photos de son ex encadrées chez lui ou archivées sur ses réseaux.",
+        "en": "Still keeping framed photos of his ex at home or pinned on his social feeds.",
+        "de": "Noch immer gerahmte Fotos der Ex in der Wohnung stehen oder auf Social Media haben.",
+        "es": "Tener fotos enmarcadas de su ex en casa o fijadas en sus redes sociales.",
+        "nl": "Nog ingelijste foto's van zijn ex in huis hebben staan of gepind op zijn socials.",
+        "pt": "Ainda ter fotos da ex emolduradas em casa ou destacadas nas redes sociais."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    "clash_men_9": {
+      "id": "clash_men_9",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Dire 'on prend notre temps' et refuser d'officialiser après 8 mois de fréquentation régulière.",
+        "en": "Saying 'let us take it slow' and refusing to make it official after 8 months of dating.",
+        "de": "Nach 8 Monaten Dating immer noch sagen: 'Lass uns Zeit lassen' und nichts festmachen.",
+        "es": "Decir 'vamos despacio' y negarse a formalizar tras 8 meses viéndose todas las semanas.",
+        "nl": "Na 8 maanden daten nog steeds zeggen: 'we doen rustig aan' en niets officieel maken.",
+        "pt": "Dizer 'vamos com calma' e recusar oficializar após 8 meses a saírem juntos."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    "clash_men_10": {
+      "id": "clash_men_10",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Suivre 500 influenceuses fitness sur Instagram et liker toutes leurs photos en maillot.",
+        "en": "Following 500 fitness models on Instagram and liking every single bikini post.",
+        "de": "Über 500 Fitness-Models auf Instagram folgen und jedes einzelne Bikini-Foto liken.",
+        "es": "Seguir a 500 modelos fitness en Instagram y dar me gusta a todas sus fotos en bikini.",
+        "nl": "500 fitnessmodellen op Instagram volgen en elke bikinifoto liken.",
+        "pt": "Seguir 500 modelos de fitness no Instagram e pôr like em todas as fotos de biquíni."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    "clash_men_11": {
+      "id": "clash_men_11",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Commander à ta place au restaurant sans te demander ton avis pour faire le connaisseur.",
+        "en": "Ordering for you at the restaurant without asking to look like a connoisseur.",
+        "de": "Im Restaurant für dich mitbestellen, ohne zu fragen, um wie ein Kenner zu wirken.",
+        "es": "Pedir por ti en el restaurante sin preguntarte para hacerse el entendido.",
+        "nl": "In het restaurant voor jou bestellen zonder je mening te vragen om stoer te doen.",
+        "pt": "Pedir a comida por ti no restaurante sem perguntar para parecer entendido."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    "clash_men_12": {
+      "id": "clash_men_12",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Avoir un appart sans draps housse sur le matelas et de la vaisselle sale depuis 4 jours.",
+        "en": "No fitted sheet on his mattress and 4-day-old dirty dishes in the sink on date night.",
+        "de": "Kein Spannbettlaken auf der Matratze und 4 Tage altes Dreckgeschirr beim ersten Besuch.",
+        "es": "Tener la cama sin sábana bajera y platos sucios en el fregadero desde hace 4 días.",
+        "nl": "Geen hoeslaken om het matras en de vuile vaat van 4 dagen nog in de gootsteen.",
+        "pt": "Não ter lençol no colchão e louça suja na pia há 4 dias no primeiro encontro em casa dele."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    "clash_men_13": {
+      "id": "clash_men_13",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Parler uniquement de son job, de crypto ou de bourse pendant 2h sans poser une seule question.",
+        "en": "Talking only about his job, crypto or stocks for 2 straight hours without asking a single question.",
+        "de": "Zwei Stunden lang nur über seinen Job, Krypto und Aktien reden, ohne eine Frage zu stellen.",
+        "es": "Hablar solo de su trabajo, criptos o bolsa durante 2 horas sin hacer una sola pregunta.",
+        "nl": "Twee uur lang alleen maar praten over crypto, aandelen en zijn werk zonder één vraag te stellen.",
+        "pt": "Falar durante duas horas seguidas de trabalho, criptos ou ações sem fazer uma única pergunta."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    "clash_men_14": {
+      "id": "clash_men_14",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Devenir glacial ou agressif dès que tu refuses de monter chez lui après le verre.",
+        "en": "Turning cold or passive-aggressive the moment you say no to going up to his place.",
+        "de": "Sofort eiskalt oder passiv-aggressiv werden, sobald du ablehnst, mit zu ihm zu gehen.",
+        "es": "Ponerse frío o distante en cuanto te niegas a subir a su casa tras la primera copa.",
+        "nl": "Meteen koud of afstandelijk worden zodra je weigert mee naar zijn huis te gaan.",
+        "pt": "Ficar frio ou distante no momento em que recusas subir ao apartamento dele."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    "clash_men_15": {
+      "id": "clash_men_15",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Critiquer ouvertement la tenue ou le maquillage des autres femmes dans la rue.",
+        "en": "Openly judging and criticizing other women's outfits or makeup on the street.",
+        "de": "Auf der Straße ständig das Outfit oder Make-up anderer Frauen schlechtreden.",
+        "es": "Criticar abiertamente la ropa o el maquillaje de otras mujeres por la calle.",
+        "nl": "Op straat openlijk opmerkingen maken over de kleding of make-up van andere vrouwen.",
+        "pt": "Criticar abertamente a roupa ou a maquilhagem de outras mulheres na rua."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    "clash_men_16": {
+      "id": "clash_men_16",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Agir en couple pendant 6 mois (dormir ensemble, restos) mais répéter 'on ne met pas d'étiquette'.",
+        "en": "Acting like a couple for 6 months (sleepovers, dates) but insisting 'let us not put a label on it'.",
+        "de": "6 Monate lang wie ein Paar leben (Kuscheln, Dates), aber sagen: 'Keine Labels'.",
+        "es": "Actuar como pareja durante 6 meses (cenas, dormir juntos) pero repetir 'sin etiquetas'.",
+        "nl": "6 maanden doen alsof je een stel bent maar blijven herhalen: 'ik wil geen label plakken'.",
+        "pt": "Agir como um casal durante 6 meses mas repetir sempre 'não quero rótulos'."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    "clash_men_17": {
+      "id": "clash_men_17",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Conduire dangereusement et insulter tout le monde sur la route pour faire le viril.",
+        "en": "Driving aggressively and yelling road rage insults to look manly on the first date.",
+        "de": "Beim Date aggressiv rasen und andere Fahrer anschreien, um 'männlich' zu wirken.",
+        "es": "Conducir como un loco e insultar a todo el mundo al volante para hacerse el tipo duro.",
+        "nl": "Roekeloos rijden en iedereen uitschelden in het verkeer om stoer te doen op een date.",
+        "pt": "Conduzir à doida e insultar toda a gente no trânsito para se armar em machão."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    "clash_men_18": {
+      "id": "clash_men_18",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Faire le mort pendant 3 jours après un simple désaccord plutôt que d'en parler.",
+        "en": "Giving you the silent treatment for 3 days after a minor disagreement.",
+        "de": "Nach einer Meinungsverschiedenheit drei Tage lang toter Mann spielen (Silent Treatment).",
+        "es": "Aplicar la ley del hielo y desaparecer 3 días tras una pequeña discusión.",
+        "nl": "Na een klein meningsverschil drie dagen lang niets van zich laten horen.",
+        "pt": "Fazer silêncio absoluto durante 3 dias após um pequeno desentendimento."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    "clash_men_19": {
+      "id": "clash_men_19",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Ne pas changer de t-shirt après le sport ou zapper la douche avant un date.",
+        "en": "Wearing the same shirt after the gym or skipping the shower before a date.",
+        "de": "Nach dem Sport dasselbe T-Shirt anbehalten oder vor dem Date die Dusche schwänzen.",
+        "es": "No cambiarse de camiseta tras el gimnasio o saltarse la ducha antes de una cita.",
+        "nl": "Hetzelfde shirt dragen na het sporten of de douche overslaan voor een date.",
+        "pt": "Não mudar de t-shirt depois do treino ou saltar o banho antes de um encontro."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    "clash_men_20": {
+      "id": "clash_men_20",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Sortir la phrase 'toutes mes ex étaient folles' dès les 30 premières minutes.",
+        "en": "Dropping 'all my exes were crazy' within the first 30 minutes of conversation.",
+        "de": "Schon in den ersten 30 Minuten sagen: 'Alle meine Ex-Freundinnen waren verrückt'.",
+        "es": "Soltar la frase 'todas mis ex estaban locas' en la primera media hora de cita.",
+        "nl": "Binnen het eerste half uur al zeggen: 'al mijn exen waren gestoord'.",
+        "pt": "Dizer 'todas as minhas ex eram loucas' logo nos primeiros 30 minutos de conversa."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    "clash_men_21": {
+      "id": "clash_men_21",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Courir après son bus avec un sac à dos qui sautille ou trébucher tout seul.",
+        "en": "Running after the bus with a bouncing backpack or tripping over his own feet.",
+        "de": "Mit wackelndem Rucksack dem Bus hinterherrennen oder über die eigenen Füße stolpern.",
+        "es": "Correr tras el autobús con la mochila botando o tropezar solo por la calle.",
+        "nl": "Achter de bus aan rennen met een stuiterende rugzak of over zijn eigen voeten struikelen.",
+        "pt": "Correr atrás do autocarro com a mochila a saltitar ou tropeçar nos próprios pés."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    "clash_men_22": {
+      "id": "clash_men_22",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Appeler sa mère en plein supermarché pour savoir quelle marque de pâtes acheter.",
+        "en": "Calling his mom in the middle of the grocery store to ask which pasta brand to buy.",
+        "de": "Im Supermarkt Mama anrufen, um zu fragen, welche Nudeln er kaufen soll.",
+        "es": "Llamar a su madre en el supermercado para saber qué marca de pasta comprar.",
+        "nl": "Midden in de supermarkt zijn moeder bellen om te vragen welk merk pasta hij moet kopen.",
+        "pt": "Ligar à mãe no meio do supermercado para perguntar qual a marca de massa a comprar."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    "clash_men_23": {
+      "id": "clash_men_23",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Laisser ses potes manquer de respect à sa copine sans jamais intervenir.",
+        "en": "Letting his friends disrespect his girlfriend without ever standing up for her.",
+        "de": "Zulassen, dass seine Kumpels seine Freundin dissen, ohne einzugreifen.",
+        "es": "Dejar que sus amigos le falten al respeto a su pareja sin dar la cara por ella.",
+        "nl": "Toelaten dat zijn vrienden respectloos doen tegen zijn vriendin zonder in te grijpen.",
+        "pt": "Deixar que os amigos faltem ao respeito à namorada sem nunca intervir."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    "clash_men_24": {
+      "id": "clash_men_24",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Exiger d'avoir la géolocalisation partagée en direct 24h/24 dès la première semaine.",
+        "en": "Demanding 24/7 live location sharing from the very first week of dating.",
+        "de": "Schon in der ersten Woche verlangen, 24/7 den Live-Standort geteilt zu bekommen.",
+        "es": "Exigir tener la ubicación compartida en tiempo real 24/7 desde la primera semana.",
+        "nl": "Al in de eerste week eisen dat je 24/7 je live locatie met hem deelt.",
+        "pt": "Exigir partilha de localização em tempo real 24 horas por dia logo na primeira semana."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    "clash_men_25": {
+      "id": "clash_men_25",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Faire des réflexions sur le décolleté ou la robe juste avant de partir en soirée.",
+        "en": "Making passive-aggressive remarks about her dress or cleavage right before leaving.",
+        "de": "Kurz vor der Party abwertende Kommentare über das Dekolleté oder Kleid machen.",
+        "es": "Hacer comentarios sobre su escote o su vestido justo antes de salir de fiesta.",
+        "nl": "Vlak voor vertrek naar een feestje opmerkingen maken over haar jurk of decolleté.",
+        "pt": "Fazer comentários desagradáveis sobre o decote ou o vestido mesmo antes de sair para a festa."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    "clash_women_1": {
+      "id": "clash_women_1",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Demander le salaire ou la profession exacte avant même d'accepter un premier verre.",
+        "en": "Asking for exact salary or job title before even agreeing to a first drink.",
+        "de": "Vor dem ersten Treffen nach Gehalt und genauem Berufstitel fragen.",
+        "es": "Preguntar el sueldo o profesión exacta antes de aceptar un primer café.",
+        "nl": "Vragen naar het exacte salaris of beroep voordat ze überhaupt op date wil.",
+        "pt": "Perguntar o salário ou a profissão exata antes sequer de aceitar um primeiro copo."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    "clash_women_2": {
+      "id": "clash_women_2",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Avoir un passif amoureux très chargé et refuser catégoriquement d'en parler.",
+        "en": "Having a very heavy dating history and strictly refusing to ever mention it.",
+        "de": "Eine sehr wilde Dating-Vergangenheit haben und kategorisch schweigen.",
+        "es": "Tener un pasado amoroso muy movido y negarse tajantemente a hablar de ello.",
+        "nl": "Een heel wild liefdesverleden hebben en er categorisch over weigeren te praten.",
+        "pt": "Ter um passado amoroso muito longo e recusar terminantemente falar sobre isso."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    "clash_women_3": {
+      "id": "clash_women_3",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Partir en vacances entre copines dans des destinations festives (Ibiza, Mykonos) sans son copain.",
+        "en": "Going on girls-only party trips to wild destinations (Ibiza, Mykonos) without her boyfriend.",
+        "de": "Ohne den Freund auf Party-Urlaub mit den Mädels nach Ibiza oder Mykonos fliegen.",
+        "es": "Irse de fiesta con sus amigas a destinos como Ibiza o Mykonos sin su pareja.",
+        "nl": "Zonder haar vriend op meidentrip gaan naar feestbestemmingen als Ibiza of Mykonos.",
+        "pt": "Ir de férias com as amigas para destinos de festa (Ibiza, Mykonos) sem o namorado."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    "clash_women_4": {
+      "id": "clash_women_4",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Avoir 500 prétendants en DM Instagram et continuer à entretenir leurs likes et messages.",
+        "en": "Having 500 guys in her Instagram DMs and actively keeping their attention alive.",
+        "de": "500 Typen in den Instagram-DMs haben und deren Aufmerksamkeit aktiv füttern.",
+        "es": "Tener 500 pretendientes en los MD de Instagram y seguir dándoles cuerda.",
+        "nl": "500 mannen in haar Instagram-DM's hebben en hun berichtjes blijven beantwoorden.",
+        "pt": "Ter centenas de homens nas mensagens do Instagram e continuar a alimentar as conversas."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    "clash_women_5": {
+      "id": "clash_women_5",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Être maman solo et exiger que le nouveau conjoint prenne en charge l'enfant financièrement dès le début.",
+        "en": "Being a single mom and expecting a new partner to pay for her child from day one.",
+        "de": "Als Alleinerziehende erwarten, dass der neue Partner das Kind von Tag 1 an mitfinanziert.",
+        "es": "Ser madre soltera y exigir que la nueva pareja mantenga al niño desde el principio.",
+        "nl": "Als alleenstaande moeder verwachten dat de nieuwe partner direct financieel bijspringt voor het kind.",
+        "pt": "Ser mãe solteira e exigir que o novo companheiro sustente a criança desde o início."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    "clash_women_6": {
+      "id": "clash_women_6",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Répondre 'Rien' avec un visage fermé quand on lui demande ce qui ne va pas et bouder toute la soirée.",
+        "en": "Saying 'Nothing' with a stone face when asked what is wrong and pouting all night.",
+        "de": "Mit versteinertem Gesicht 'Nichts' sagen und dann den ganzen Abend schmollen.",
+        "es": "Responder 'Nada' con cara de pocos amigos y pasarse toda la noche enfadada.",
+        "nl": "'Niks' zeggen met een boos gezicht en vervolgens de hele avond mokken.",
+        "pt": "Dizer 'Nada' com cara fechada quando perguntam o que se passa e ficar de trombas a noite toda."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    "clash_women_7": {
+      "id": "clash_women_7",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Exiger le code de déverrouillage de ton téléphone dès le premier mois au nom de la confiance.",
+        "en": "Demanding your phone passcode within the first month under the excuse of trust.",
+        "de": "Schon im ersten Monat deinen Handy-Code unter dem Vorwand von Vertrauen verlangen.",
+        "es": "Exigir la contraseña de tu móvil en el primer mes con la excusa de la confianza.",
+        "nl": "Al in de eerste maand je toegangscode van je telefoon eisen onder het mom van vertrouwen.",
+        "pt": "Exigir o código do teu telemóvel no primeiro mês sob o pretexto de confiança."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    "clash_women_8": {
+      "id": "clash_women_8",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Avoir un 'meilleur ami' garçon qui lui a déjà avoué ses sentiments et rester très proche de lui.",
+        "en": "Staying super close with a male 'best friend' who already confessed feelings for her.",
+        "de": "Mit einem 'besten Freund' eng bleiben, der ihr schon mal seine Liebe gestanden hat.",
+        "es": "Tener un 'mejor amigo' que ya se le declaró en el pasado y seguir pegada a él.",
+        "nl": "Heel close blijven met een mannelijke 'beste vriend' die ooit gevoelens voor haar heeft bekend.",
+        "pt": "Ficar super próxima de um 'melhor amigo' que já lhe confessou sentimentos no passado."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    "clash_women_9": {
+      "id": "clash_women_9",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Poster des photos très suggestives en story uniquement après une dispute de couple.",
+        "en": "Posting spicy thirst traps on her story right after an argument just for validation.",
+        "de": "Direkt nach einem Beziehungsstreit freizügige Fotos in die Story posten.",
+        "es": "Subir fotos provocativas a su historia justo después de una discusión de pareja.",
+        "nl": "Meteen na een relatie-ruzie uitdagende foto's op haar verhaal plaatsen voor aandacht.",
+        "pt": "Publicar fotos provocantes nos stories logo após uma discussão de casal."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    "clash_women_10": {
+      "id": "clash_women_10",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Considérer que les tâches ménagères ou l'organisation incombent automatiquement à l'autre.",
+        "en": "Assuming household chores and daily planning are solely the partner's job.",
+        "de": "Hausarbeit und Organisation stillschweigend komplett auf den Partner abwälzen.",
+        "es": "Considerar que las tareas del hogar o la organización le tocan siempre a la otra persona.",
+        "nl": "Ervan uitgaan dat het huishouden en de planning automatisch de taak van de ander is.",
+        "pt": "Achar que as tarefas domésticas e o planeamento diário são obrigação da outra pessoa."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    "clash_women_11": {
+      "id": "clash_women_11",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Passer tout le premier date à filmer ses plats et cocktails pour les réseaux au lieu de parler.",
+        "en": "Spending the whole first date filming food and drinks for social media instead of talking.",
+        "de": "Beim ersten Date ständig Essen und Drinks für Social Media filmen statt zu reden.",
+        "es": "Pasarse toda la primera cita grabando platos y copas para Instagram en vez de hablar.",
+        "nl": "De hele eerste date bezig zijn met het filmen van eten en drankjes voor haar socials.",
+        "pt": "Passar o primeiro encontro todo a filmar a comida e os copos para as redes em vez de conversar."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    "clash_women_12": {
+      "id": "clash_women_12",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Prôner l'égalité stricte au quotidien mais exiger que l'homme paye tous les restos et vacances.",
+        "en": "Demanding strict equality in daily life but expecting the man to pay for every meal and trip.",
+        "de": "Gleichberechtigung predigen, aber erwarten, dass der Mann alle Urlaube und Essen zahlt.",
+        "es": "Defender la igualdad total pero exigir que el hombre pague todas las cenas y viajes.",
+        "nl": "Gelijkheid prediken maar verwachten dat de man voor alle etentjes en vakanties betaalt.",
+        "pt": "Defender a igualdade total no dia a dia mas exigir que o homem pague todos os jantares e viagens."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    "clash_women_13": {
+      "id": "clash_women_13",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Menacer de rompre ou bloquer sur WhatsApp à la moindre petite contrariété.",
+        "en": "Threatening to break up or blocking on WhatsApp over every minor argument.",
+        "de": "Wegen jeder Kleinigkeit mit Trennung drohen oder den Partner auf WhatsApp blockieren.",
+        "es": "Amenazar con romper o bloquear en WhatsApp a la mínima discusión.",
+        "nl": "Bij het minste geringste dreigen met uitmaken of de ander blokkeren op WhatsApp.",
+        "pt": "Ameaçar acabar o namoro ou bloquear no WhatsApp ao menor sinal de conflito."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    "clash_women_14": {
+      "id": "clash_women_14",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Vouloir t'éloigner de ton groupe d'amis d'enfance parce qu'elle ne les apprécie pas.",
+        "en": "Trying to isolate you from your childhood friends because she does not like them.",
+        "de": "Versuchen, dich von deinen Jugendfreunden zu trennen, weil sie sie nicht mag.",
+        "es": "Intentar alejarte de tus amigos de toda la vida porque a ella no le caen bien.",
+        "nl": "Je proberen weg te houden van je jeugdvrienden omdat ze hen niet mag.",
+        "pt": "Tentar afastar-te do teu grupo de amigos de infância só porque não gosta deles."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    "clash_women_15": {
+      "id": "clash_women_15",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Comparer ouvertement ses cadeaux, son train de vie ou son copain à ceux des influenceurs.",
+        "en": "Openly comparing her gifts, lifestyle or boyfriend to wealthy influencers online.",
+        "de": "Ihre Geschenke oder ihren Freund ständig mit reichen Influencern im Netz vergleichen.",
+        "es": "Comparar abiertamente sus regalos o a su pareja con lo que ve en influencers.",
+        "nl": "Haar cadeaus of vriend openlijk vergelijken met het luxe leven van influencers.",
+        "pt": "Comparar abertamente os presentes e o namorado com o que vê nos influenciadores."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    "clash_women_16": {
+      "id": "clash_women_16",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Parler ouvertement d'un autre prétendant qui lui offre des cadeaux pour te rendre jaloux.",
+        "en": "Casually mentioning other guys offering her expensive gifts just to make you jealous.",
+        "de": "Von anderen Verehrern und deren Geschenken schwärmen, nur um dich eifersüchtig zu machen.",
+        "es": "Hablar de otro pretendiente que le hace regalos caros para darte celos.",
+        "nl": "Vertellen over andere mannen die haar cadeaus geven om je jaloers te maken.",
+        "pt": "Falar abertamente de outros pretendentes que lhe dão prendas só para causar ciúmes."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    "clash_women_17": {
+      "id": "clash_women_17",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Justifier un comportement toxique ou un caprice en disant 'désolée c'est mon signe astro'.",
+        "en": "Excusing toxic behavior or mood swings with 'sorry, it is because I am a Scorpio'.",
+        "de": "Toxische Launen mit 'Sorry, ich bin eben Skorpion' rechtfertigen.",
+        "es": "Justificar una actitud tóxica diciendo 'lo siento, es que soy Escorpio'.",
+        "nl": "Toxisch gedrag goedpraten met: 'sorry, dat komt door mijn sterrenbeeld'.",
+        "pt": "Justificar atitudes tóxicas dizendo 'desculpa, é porque sou do signo Escorpião'."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    "clash_women_18": {
+      "id": "clash_women_18",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Arriver systématiquement avec 45 minutes de retard sans prévenir ni s'excuser.",
+        "en": "Arriving 45 minutes late every single time without giving a heads-up or apologizing.",
+        "de": "Grundsätzlich 45 Minuten zu spät kommen, ohne Bescheid zu geben oder sich zu entschuldigen.",
+        "es": "Llegar siempre 45 minutos tarde a las citas sin avisar ni pedir disculpas.",
+        "nl": "Altijd 45 minuten te laat komen zonder waarschuwing of excuses.",
+        "pt": "Chegar sempre 45 minutos atrasada aos encontros sem avisar nem pedir desculpa."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    "clash_women_19": {
+      "id": "clash_women_19",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Juger la valeur d'un mec uniquement sur la marque de sa montre ou le modèle de sa voiture.",
+        "en": "Judging a man's worth purely by the brand of his watch or the car he drives.",
+        "de": "Den Wert eines Mannes nur nach seiner Uhrenmarke oder seinem Auto beurteilen.",
+        "es": "Juzgar el valor de un hombre únicamente por la marca de su reloj o su coche.",
+        "nl": "De waarde van een man uitsluitend beoordelen op zijn horlogemerk of auto.",
+        "pt": "Julgar o valor de um homem apenas pela marca do relógio ou pelo carro que conduz."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    "clash_women_20": {
+      "id": "clash_women_20",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Garder 3 prétendants 'en réserve' (plan B) au cas où votre relation ne marcherait pas.",
+        "en": "Keeping 3 guys on the backburner as a backup plan in case things do not work out.",
+        "de": "3 Verehrer in der Hinterhand als Plan B halten, falls es mit euch nicht klappt.",
+        "es": "Tener a 3 chicos 'en reserva' (plan B) por si lo vuestro no funciona.",
+        "nl": "Drie mannen als 'reserve' achter de hand houden voor het geval jullie relatie strandt.",
+        "pt": "Manter 3 pretendentes 'na reserva' (plano B) para o caso de não resultar."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    "clash_women_21": {
+      "id": "clash_women_21",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Demander à une copine inconnue d'envoyer des DM séducteurs à son mec pour tester sa fidélité.",
+        "en": "Having a stranger friend slide into her boyfriend's DMs as a fake loyalty test.",
+        "de": "Eine fremde Freundin anstiften, dem Partner Flirt-DMs für einen 'Loyalitätstest' zu schicken.",
+        "es": "Pedirle a una amiga desconocida que le tire la caña a su novio para probar su fidelidad.",
+        "nl": "Een vriendin vragen om haar vriend te verleiden via DM als een neppe loyaliteitstest.",
+        "pt": "Pedir a uma amiga desconhecida para mandar mensagens sedutoras ao namorado como teste."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    "clash_women_22": {
+      "id": "clash_women_22",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Refuser de payer son propre café à 3 € lors du tout premier date par principe.",
+        "en": "Refusing to pay for her own 3 dollar coffee on the first date strictly out of principle.",
+        "de": "Aus reinem Prinzip ablehnen, beim ersten Date den eigenen 3-Euro-Kaffee zu zahlen.",
+        "es": "Negarse por principio a pagar su propio café de 3 € en la primera cita.",
+        "nl": "Uit principe weigeren haar eigen koffie van 3 euro af te rekenen op de eerste date.",
+        "pt": "Recusar por princípio pagar o seu próprio café de 3 € no primeiro encontro."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    "clash_women_23": {
+      "id": "clash_women_23",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Raconter tous les détails intimes et les faiblesses de son copain à son groupe WhatsApp de copines.",
+        "en": "Sharing her boyfriend's deepest insecurities and intimate secrets in the girls group chat.",
+        "de": "Alle intimen Geheimnisse und Unsicherheiten des Freundes im Mädels-Gruppenchat teilen.",
+        "es": "Contar las debilidades y secretos íntimos de su pareja en el grupo de WhatsApp de amigas.",
+        "nl": "Alle intieme details en onzekerheden van haar vriend delen in de meiden-groepsapp.",
+        "pt": "Contar os detalhes íntimos e as inseguranças do namorado no grupo de WhatsApp de amigas."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    "clash_women_24": {
+      "id": "clash_women_24",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Inverser les rôles et se mettre à pleurer dès qu'on lui fait un reproche justifié.",
+        "en": "Turning the tables and bursting into tears the second she receives valid feedback.",
+        "de": "Die Rollen vertauschen und weinen, sobald man ihr berechtigte Kritik äußert.",
+        "es": "Darle la vuelta a la tortilla y ponerse a llorar en cuanto recibe una queja justificada.",
+        "nl": "De rollen omdraaien en in huilen uitbarsten zodra je een terecht punt van kritiek maakt.",
+        "pt": "Inverter a situação e começar a chorar assim que ouve uma crítica justa."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
+    "clash_women_25": {
+      "id": "clash_women_25",
+      "theme": "dating",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Exiger un train de vie de luxe (hôtels 5 étoiles, voyages) sans aucune source de revenus stable.",
+        "en": "Demanding a 5-star luxury lifestyle and expensive trips with no stable income.",
+        "de": "Einen 5-Sterne-Luxus-Lifestyle fordern, ohne über ein eigenes Einkommen zu verfügen.",
+        "es": "Exigir un estilo de vida de lujo (hoteles 5 estrellas, viajes) sin tener ingresos estables.",
+        "nl": "Een 5-sterren luxe levensstijl en dure reizen eisen zonder zelf een stabiel inkomen te hebben.",
+        "pt": "Exigir um estilo de vida de luxo (hotéis de 5 estrelas e viagens) sem qualquer fonte de rendimento."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "clash_pack",
+      "live_tier": "safe"
+    },
     "vacation_red_1": {
       "id": "vacation_red_1",
       "theme": "vacation",
@@ -27543,5 +30100,5 @@
       "live_tier": "safe"
     }
   },
-  "card_count": 539
+  "card_count": 589
 }
