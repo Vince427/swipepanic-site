@@ -921,7 +921,7 @@
     let measuredAgreedCount = 0;
     let measuredTotalCount = 0;
     let isTransitioning = false;
-    const MAX_SESSION_CARDS = 5;
+    let maxSessionCards = 5;
 
     // Detect Language from URL or Browser
     function detectLocale() {
@@ -1061,9 +1061,27 @@
       recapScreen.classList.remove('active');
 
       const params = new URLSearchParams(window.location.search);
+      const targetCardsParam = params.get('cards');
       const targetCardId = params.get('card');
       const targetPack = params.get('pack');
 
+      sessionQueue = [];
+
+      // Support exact carousel card lists: ?cards=id1,id2,id3
+      if (targetCardsParam) {
+        const ids = targetCardsParam.split(',').map(s => s.trim()).filter(Boolean);
+        for (const id of ids) {
+          const card = allCards.find(c => c.id === id);
+          if (card) sessionQueue.push(card);
+        }
+        if (sessionQueue.length > 0) {
+          maxSessionCards = sessionQueue.length;
+          renderTopCard();
+          return;
+        }
+      }
+
+      maxSessionCards = 5;
       let pool = [...allCards];
       if (targetPack) {
         pool = pool.filter(c => c.packId === targetPack || (c.id && c.id.startsWith(targetPack)));
@@ -1077,8 +1095,6 @@
       poolWithStats.sort(() => Math.random() - 0.5);
       poolWithoutStats.sort(() => Math.random() - 0.5);
 
-      sessionQueue = [];
-
       // If specific card requested via deep link, put it first!
       if (targetCardId) {
         const priorityCard = allCards.find(c => c.id === targetCardId);
@@ -1090,10 +1106,10 @@
       }
 
       // Fill remaining session cards (prioritizing measured cards)
-      while (sessionQueue.length < MAX_SESSION_CARDS && poolWithStats.length > 0) {
+      while (sessionQueue.length < maxSessionCards && poolWithStats.length > 0) {
         sessionQueue.push(poolWithStats.pop());
       }
-      while (sessionQueue.length < MAX_SESSION_CARDS && poolWithoutStats.length > 0) {
+      while (sessionQueue.length < maxSessionCards && poolWithoutStats.length > 0) {
         sessionQueue.push(poolWithoutStats.pop());
       }
 
@@ -1102,7 +1118,7 @@
 
     function renderTopCard() {
       cardContainer.innerHTML = '';
-      if (sessionQueue.length === 0 || swipedCount >= MAX_SESSION_CARDS) {
+      if (sessionQueue.length === 0 || swipedCount >= maxSessionCards) {
         showRecap();
         return;
       }
@@ -1119,7 +1135,7 @@
       cardEl.innerHTML = `
         <div class="stamp stamp-green">GREEN FLAG</div>
         <div class="stamp stamp-red">RED FLAG</div>
-        <div class="card-theme-tag">${theme} • #${swipedCount + 1}/${MAX_SESSION_CARDS}</div>
+        <div class="card-theme-tag">${theme} • #${swipedCount + 1}/${maxSessionCards}</div>
         <div class="card-text">${text}</div>
         <div class="card-footer">
           <span class="hint-left">${t.leftHint}</span>
