@@ -7,6 +7,7 @@ const {
   validateCardsPatch,
   validateDaily,
   validateDailyPool,
+  validateLiveConsensus,
   validateOfficialCardCatalog,
   validateManifest
 } = require('./remote_content_rules');
@@ -19,6 +20,7 @@ function main() {
   const blacklist = readJson('blacklist.json');
   const pool = readJson('daily_pool.json');
   const catalog = readJson('official_card_catalog.json');
+  const consensus = readJson('data/live_consensus.json');
 
   validateManifest(manifest, errors);
   validateCardsPatch(patch, errors);
@@ -26,6 +28,7 @@ function main() {
   validateOfficialCardCatalog(catalog, errors);
   validateDailyPool(pool, catalog, patch, errors);
   validateDaily(daily, pool, patch, errors);
+  validateLiveConsensus(consensus, catalog, errors);
 
   const blacklistText = readText('blacklist.txt');
   if (blacklistText.length > 64 * 1024) {

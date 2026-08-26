@@ -410,6 +410,115 @@ function validateDaily(daily, poolFile, patch, errors = []) {
   return errors;
 }
 
+/**
+ * Validates the published consensus file.
+ *
+ * This file is written by three different producers (the studio deploy, the
+ * web-vote aggregator, the admin dashboard) and read by the app and the site.
+ * It used to be the only public artefact NOT validated here, which meant the
+ * aggregation job ran a "validation" step that never looked at what it had
+ * just written.
+ *
+ * Contract: swipepanic/.agent/specs/CONSENSUS_CONTRACT.md
+ */
+function validateLiveConsensus(consensus, catalog, errors) {
+  const assert = (condition, message) => {
+    if (!condition) errors.push(message);
+    return condition;
+  };
+
+  // Absent is legitimate: nothing measured yet.
+  if (consensus === null || consensus === undefined) return;
+
+  if (!assert(
+    typeof consensus === 'object' && !Array.isArray(consensus),
+    'live_consensus.json: expected_object'
+  )) {
+    return;
+  }
+
+  const PUBLISHABLE = new Set(['live_votes', 'web_votes']);
+  const MIN_SAMPLE_GLOBAL = 30;
+  const MIN_SAMPLE_COUNTRY = 15;
+  const FLAG = /^[\u{1F1E6}-\u{1F1FF}]{2}$/u;
+
+  const knownIds = catalog && catalog.cards_by_id
+    ? new Set(Object.keys(catalog.cards_by_id))
+    : null;
+
+  const validPercentages = (entry, label) => {
+    if (!assert(Number.isInteger(entry.accept), `${label}.accept: expected_integer`)) return false;
+    if (!assert(Number.isInteger(entry.reject), `${label}.reject: expected_integer`)) return false;
+    return assert(entry.accept + entry.reject === 100, `${label}: percentages_must_sum_to_100`);
+  };
+
+  for (const [cardId, entry] of Object.entries(consensus)) {
+    const label = `live_consensus.${cardId}`;
+
+    if (!assert(entry && typeof entry === 'object' && !Array.isArray(entry), `${label}: expected_object`)) {
+      continue;
+    }
+    if (!validPercentages(entry, label)) continue;
+
+    if (knownIds) {
+      assert(knownIds.has(cardId), `${label}: unknown_official_card`);
+    }
+
+    const hasProvenance =
+      entry.source !== undefined
+      || entry.sample_size !== undefined
+      || entry.measured_at !== undefined;
+
+    // Legacy entries stay READABLE - the app degrades to "not enough votes" -
+    // so their presence is not an error. What IS an error is a half-declared
+    // provenance: it looks measured without being verifiable.
+    if (!hasProvenance) continue;
+
+    assert(PUBLISHABLE.has(entry.source), `${label}.source: not_publishable`);
+    assert(
+      Number.isInteger(entry.sample_size) && entry.sample_size >= MIN_SAMPLE_GLOBAL,
+      `${label}.sample_size: below_threshold_or_missing`
+    );
+    assert(
+      typeof entry.measured_at === 'string' && !Number.isNaN(Date.parse(entry.measured_at)),
+      `${label}.measured_at: invalid_or_missing`
+    );
+
+    if (entry.sources !== undefined) {
+      if (assert(
+        entry.sources && typeof entry.sources === 'object' && !Array.isArray(entry.sources),
+        `${label}.sources: expected_object`
+      )) {
+        let total = 0;
+        for (const [source, count] of Object.entries(entry.sources)) {
+          assert(PUBLISHABLE.has(source), `${label}.sources.${source}: not_publishable`);
+          assert(Number.isInteger(count) && count > 0, `${label}.sources.${source}: expected_positive_integer`);
+          total += Number.isInteger(count) ? count : 0;
+        }
+        assert(total === entry.sample_size, `${label}.sources: breakdown_must_match_sample_size`);
+      }
+    }
+
+    if (entry.countries === undefined) continue;
+    if (!assert(
+      entry.countries && typeof entry.countries === 'object' && !Array.isArray(entry.countries),
+      `${label}.countries: expected_object`
+    )) {
+      continue;
+    }
+
+    for (const [flag, country] of Object.entries(entry.countries)) {
+      const countryLabel = `${label}.countries.${flag}`;
+      assert(FLAG.test(flag), `${countryLabel}: not_a_flag_emoji`);
+      if (!validPercentages(country, countryLabel)) continue;
+      assert(
+        Number.isInteger(country.sample_size) && country.sample_size >= MIN_SAMPLE_COUNTRY,
+        `${countryLabel}.sample_size: below_threshold_or_missing`
+      );
+    }
+  }
+}
+
 function buildDailyForDate(poolFile, dateText, catalog = null, patch = null, liveEvent = null, liveConsensus = null) {
   const errors = validateDailyPool(poolFile, catalog, patch, []);
   if (errors.length > 0) {
@@ -443,6 +552,19 @@ function buildDailyForDate(poolFile, dateText, catalog = null, patch = null, liv
     subtitle: pool.subtitle,
     cardIds
   };
+
+  // Pack of the Week countdown (app candidate #5).
+  //
+  // The countdown does NOT need a live: a weekly pack ends when the next one
+  // starts, which is derivable from the ISO week already computed above. It
+  // used to depend entirely on live_event.json, a file that has never existed
+  // on the site, so the countdown widget shipped in the app stayed dormant.
+  // An explicit live_event.json still wins over this derived default.
+  if (result.cadence === 'weekly') {
+    const weekEnd = new Date(`${mondayText}T00:00:00Z`);
+    weekEnd.setUTCDate(weekEnd.getUTCDate() + 7);
+    result.liveEndDate = weekEnd.toISOString();
+  }
 
   if (liveEvent) {
     if (typeof liveEvent.liveStartDate === 'string' && liveEvent.liveStartDate.trim()) {
@@ -491,6 +613,7 @@ module.exports = {
   validateCardsPatch,
   validateDaily,
   validateDailyPool,
+  validateLiveConsensus,
   validateOfficialCardCatalog,
   validateManifest,
   writeJson
