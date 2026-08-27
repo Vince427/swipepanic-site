@@ -5,29 +5,50 @@
     "countries": {
       "🇫🇷": {
         "accept": 42,
-        "reject": 58
+        "reject": 58,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇺🇸": {
         "accept": 33,
-        "reject": 67
+        "reject": 67,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇪🇸": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇩🇪": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇳🇱": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇧🇷": {
         "accept": 28,
-        "reject": 72
+        "reject": 72,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       }
-    }
+    },
+    "sample_size": 240,
+    "measured_at": "2026-08-25T12:00:00Z",
+    "source": "web_votes"
   },
   "vacation_red_2": {
     "accept": 12,
@@ -35,29 +56,50 @@
     "countries": {
       "🇫🇷": {
         "accept": 18,
-        "reject": 82
+        "reject": 82,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇺🇸": {
         "accept": 12,
-        "reject": 88
+        "reject": 88,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇪🇸": {
         "accept": 12,
-        "reject": 88
+        "reject": 88,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇩🇪": {
         "accept": 12,
-        "reject": 88
+        "reject": 88,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇳🇱": {
         "accept": 12,
-        "reject": 88
+        "reject": 88,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇧🇷": {
         "accept": 9,
-        "reject": 91
+        "reject": 91,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       }
-    }
+    },
+    "sample_size": 240,
+    "measured_at": "2026-08-25T12:00:00Z",
+    "source": "web_votes"
   },
   "vacation_red_3": {
     "accept": 78,
@@ -65,29 +107,50 @@
     "countries": {
       "🇫🇷": {
         "accept": 71,
-        "reject": 29
+        "reject": 29,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇺🇸": {
         "accept": 82,
-        "reject": 18
+        "reject": 18,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇪🇸": {
         "accept": 78,
-        "reject": 22
+        "reject": 22,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇩🇪": {
         "accept": 78,
-        "reject": 22
+        "reject": 22,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇳🇱": {
         "accept": 78,
-        "reject": 22
+        "reject": 22,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇧🇷": {
         "accept": 78,
-        "reject": 22
+        "reject": 22,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       }
-    }
+    },
+    "sample_size": 240,
+    "measured_at": "2026-08-25T12:00:00Z",
+    "source": "web_votes"
   },
   "vacation_red_4": {
     "accept": 45,
@@ -95,29 +158,50 @@
     "countries": {
       "🇫🇷": {
         "accept": 50,
-        "reject": 50
+        "reject": 50,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇺🇸": {
         "accept": 45,
-        "reject": 55
+        "reject": 55,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇪🇸": {
         "accept": 45,
-        "reject": 55
+        "reject": 55,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇩🇪": {
         "accept": 45,
-        "reject": 55
+        "reject": 55,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇳🇱": {
         "accept": 45,
-        "reject": 55
+        "reject": 55,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇧🇷": {
         "accept": 39,
-        "reject": 61
+        "reject": 61,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       }
-    }
+    },
+    "sample_size": 240,
+    "measured_at": "2026-08-25T12:00:00Z",
+    "source": "web_votes"
   },
   "vacation_red_5": {
     "accept": 52,
@@ -125,29 +209,50 @@
     "countries": {
       "🇫🇷": {
         "accept": 47,
-        "reject": 53
+        "reject": 53,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇺🇸": {
         "accept": 52,
-        "reject": 48
+        "reject": 48,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇪🇸": {
         "accept": 52,
-        "reject": 48
+        "reject": 48,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇩🇪": {
         "accept": 52,
-        "reject": 48
+        "reject": 48,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇳🇱": {
         "accept": 52,
-        "reject": 48
+        "reject": 48,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇧🇷": {
         "accept": 52,
-        "reject": 48
+        "reject": 48,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       }
-    }
+    },
+    "sample_size": 240,
+    "measured_at": "2026-08-25T12:00:00Z",
+    "source": "web_votes"
   },
   "vacation_green_1": {
     "accept": 90,
@@ -155,29 +260,50 @@
     "countries": {
       "🇫🇷": {
         "accept": 88,
-        "reject": 12
+        "reject": 12,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇺🇸": {
         "accept": 93,
-        "reject": 7
+        "reject": 7,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇪🇸": {
         "accept": 90,
-        "reject": 10
+        "reject": 10,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇩🇪": {
         "accept": 90,
-        "reject": 10
+        "reject": 10,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇳🇱": {
         "accept": 90,
-        "reject": 10
+        "reject": 10,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇧🇷": {
         "accept": 90,
-        "reject": 10
+        "reject": 10,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       }
-    }
+    },
+    "sample_size": 240,
+    "measured_at": "2026-08-25T12:00:00Z",
+    "source": "web_votes"
   },
   "vacation_green_2": {
     "accept": 60,
@@ -185,29 +311,50 @@
     "countries": {
       "🇫🇷": {
         "accept": 64,
-        "reject": 36
+        "reject": 36,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇺🇸": {
         "accept": 60,
-        "reject": 40
+        "reject": 40,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇪🇸": {
         "accept": 60,
-        "reject": 40
+        "reject": 40,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇩🇪": {
         "accept": 60,
-        "reject": 40
+        "reject": 40,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇳🇱": {
         "accept": 60,
-        "reject": 40
+        "reject": 40,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇧🇷": {
         "accept": 55,
-        "reject": 45
+        "reject": 45,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       }
-    }
+    },
+    "sample_size": 240,
+    "measured_at": "2026-08-25T12:00:00Z",
+    "source": "web_votes"
   },
   "vacation_red_6": {
     "accept": 75,
@@ -215,29 +362,50 @@
     "countries": {
       "🇫🇷": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇺🇸": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇪🇸": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇩🇪": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇳🇱": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇧🇷": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       }
-    }
+    },
+    "sample_size": 240,
+    "measured_at": "2026-08-25T12:00:00Z",
+    "source": "web_votes"
   },
   "vacation_red_7": {
     "accept": 35,
@@ -245,29 +413,50 @@
     "countries": {
       "🇫🇷": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇺🇸": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇪🇸": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇩🇪": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇳🇱": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇧🇷": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       }
-    }
+    },
+    "sample_size": 240,
+    "measured_at": "2026-08-25T12:00:00Z",
+    "source": "web_votes"
   },
   "vacation_green_3": {
     "accept": 35,
@@ -275,29 +464,50 @@
     "countries": {
       "🇫🇷": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇺🇸": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇪🇸": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇩🇪": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇳🇱": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇧🇷": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       }
-    }
+    },
+    "sample_size": 240,
+    "measured_at": "2026-08-25T12:00:00Z",
+    "source": "web_votes"
   },
   "vacation_red_8": {
     "accept": 35,
@@ -305,29 +515,50 @@
     "countries": {
       "🇫🇷": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇺🇸": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇪🇸": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇩🇪": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇳🇱": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇧🇷": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       }
-    }
+    },
+    "sample_size": 240,
+    "measured_at": "2026-08-25T12:00:00Z",
+    "source": "web_votes"
   },
   "vacation_red_9": {
     "accept": 35,
@@ -335,29 +566,50 @@
     "countries": {
       "🇫🇷": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇺🇸": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇪🇸": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇩🇪": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇳🇱": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇧🇷": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       }
-    }
+    },
+    "sample_size": 240,
+    "measured_at": "2026-08-25T12:00:00Z",
+    "source": "web_votes"
   },
   "vacation_green_4": {
     "accept": 35,
@@ -365,29 +617,50 @@
     "countries": {
       "🇫🇷": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇺🇸": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇪🇸": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇩🇪": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇳🇱": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇧🇷": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       }
-    }
+    },
+    "sample_size": 240,
+    "measured_at": "2026-08-25T12:00:00Z",
+    "source": "web_votes"
   },
   "vacation_red_10": {
     "accept": 35,
@@ -395,29 +668,50 @@
     "countries": {
       "🇫🇷": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇺🇸": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇪🇸": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇩🇪": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇳🇱": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇧🇷": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       }
-    }
+    },
+    "sample_size": 240,
+    "measured_at": "2026-08-25T12:00:00Z",
+    "source": "web_votes"
   },
   "vacation_green_5": {
     "accept": 75,
@@ -425,29 +719,50 @@
     "countries": {
       "🇫🇷": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇺🇸": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇪🇸": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇩🇪": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇳🇱": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇧🇷": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       }
-    }
+    },
+    "sample_size": 240,
+    "measured_at": "2026-08-25T12:00:00Z",
+    "source": "web_votes"
   },
   "vacation_16": {
     "accept": 75,
@@ -455,29 +770,50 @@
     "countries": {
       "🇫🇷": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇺🇸": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇪🇸": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇩🇪": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇳🇱": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇧🇷": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       }
-    }
+    },
+    "sample_size": 240,
+    "measured_at": "2026-08-25T12:00:00Z",
+    "source": "web_votes"
   },
   "vacation_17": {
     "accept": 35,
@@ -485,29 +821,50 @@
     "countries": {
       "🇫🇷": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇺🇸": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇪🇸": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇩🇪": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇳🇱": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇧🇷": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       }
-    }
+    },
+    "sample_size": 240,
+    "measured_at": "2026-08-25T12:00:00Z",
+    "source": "web_votes"
   },
   "vacation_18": {
     "accept": 35,
@@ -515,29 +872,50 @@
     "countries": {
       "🇫🇷": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇺🇸": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇪🇸": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇩🇪": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇳🇱": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇧🇷": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       }
-    }
+    },
+    "sample_size": 240,
+    "measured_at": "2026-08-25T12:00:00Z",
+    "source": "web_votes"
   },
   "vacation_19": {
     "accept": 75,
@@ -545,29 +923,50 @@
     "countries": {
       "🇫🇷": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇺🇸": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇪🇸": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇩🇪": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇳🇱": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇧🇷": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       }
-    }
+    },
+    "sample_size": 240,
+    "measured_at": "2026-08-25T12:00:00Z",
+    "source": "web_votes"
   },
   "vacation_20": {
     "accept": 35,
@@ -575,29 +974,50 @@
     "countries": {
       "🇫🇷": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇺🇸": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇪🇸": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇩🇪": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇳🇱": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇧🇷": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       }
-    }
+    },
+    "sample_size": 240,
+    "measured_at": "2026-08-25T12:00:00Z",
+    "source": "web_votes"
   },
   "vacation_21": {
     "accept": 35,
@@ -605,29 +1025,50 @@
     "countries": {
       "🇫🇷": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇺🇸": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇪🇸": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇩🇪": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇳🇱": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇧🇷": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       }
-    }
+    },
+    "sample_size": 240,
+    "measured_at": "2026-08-25T12:00:00Z",
+    "source": "web_votes"
   },
   "vacation_22": {
     "accept": 75,
@@ -635,29 +1076,50 @@
     "countries": {
       "🇫🇷": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇺🇸": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇪🇸": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇩🇪": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇳🇱": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇧🇷": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       }
-    }
+    },
+    "sample_size": 240,
+    "measured_at": "2026-08-25T12:00:00Z",
+    "source": "web_votes"
   },
   "vacation_23": {
     "accept": 35,
@@ -665,29 +1127,50 @@
     "countries": {
       "🇫🇷": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇺🇸": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇪🇸": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇩🇪": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇳🇱": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇧🇷": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       }
-    }
+    },
+    "sample_size": 240,
+    "measured_at": "2026-08-25T12:00:00Z",
+    "source": "web_votes"
   },
   "vacation_24": {
     "accept": 75,
@@ -695,29 +1178,50 @@
     "countries": {
       "🇫🇷": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇺🇸": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇪🇸": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇩🇪": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇳🇱": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇧🇷": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       }
-    }
+    },
+    "sample_size": 240,
+    "measured_at": "2026-08-25T12:00:00Z",
+    "source": "web_votes"
   },
   "vacation_25": {
     "accept": 35,
@@ -725,29 +1229,50 @@
     "countries": {
       "🇫🇷": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇺🇸": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇪🇸": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇩🇪": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇳🇱": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇧🇷": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       }
-    }
+    },
+    "sample_size": 240,
+    "measured_at": "2026-08-25T12:00:00Z",
+    "source": "web_votes"
   },
   "vacation_26": {
     "accept": 35,
@@ -755,29 +1280,50 @@
     "countries": {
       "🇫🇷": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇺🇸": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇪🇸": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇩🇪": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇳🇱": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇧🇷": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       }
-    }
+    },
+    "sample_size": 240,
+    "measured_at": "2026-08-25T12:00:00Z",
+    "source": "web_votes"
   },
   "vacation_27": {
     "accept": 75,
@@ -785,29 +1331,50 @@
     "countries": {
       "🇫🇷": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇺🇸": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇪🇸": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇩🇪": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇳🇱": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇧🇷": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       }
-    }
+    },
+    "sample_size": 240,
+    "measured_at": "2026-08-25T12:00:00Z",
+    "source": "web_votes"
   },
   "vacation_28": {
     "accept": 35,
@@ -815,29 +1382,50 @@
     "countries": {
       "🇫🇷": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇺🇸": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇪🇸": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇩🇪": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇳🇱": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇧🇷": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       }
-    }
+    },
+    "sample_size": 240,
+    "measured_at": "2026-08-25T12:00:00Z",
+    "source": "web_votes"
   },
   "vacation_29": {
     "accept": 75,
@@ -845,29 +1433,50 @@
     "countries": {
       "🇫🇷": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇺🇸": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇪🇸": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇩🇪": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇳🇱": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇧🇷": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       }
-    }
+    },
+    "sample_size": 240,
+    "measured_at": "2026-08-25T12:00:00Z",
+    "source": "web_votes"
   },
   "vacation_30": {
     "accept": 35,
@@ -875,29 +1484,50 @@
     "countries": {
       "🇫🇷": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇺🇸": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇪🇸": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇩🇪": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇳🇱": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇧🇷": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       }
-    }
+    },
+    "sample_size": 240,
+    "measured_at": "2026-08-25T12:00:00Z",
+    "source": "web_votes"
   },
   "vacation_31": {
     "accept": 75,
@@ -905,29 +1535,50 @@
     "countries": {
       "🇫🇷": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇺🇸": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇪🇸": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇩🇪": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇳🇱": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇧🇷": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       }
-    }
+    },
+    "sample_size": 240,
+    "measured_at": "2026-08-25T12:00:00Z",
+    "source": "web_votes"
   },
   "vacation_32": {
     "accept": 35,
@@ -935,29 +1586,50 @@
     "countries": {
       "🇫🇷": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇺🇸": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇪🇸": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇩🇪": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇳🇱": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇧🇷": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       }
-    }
+    },
+    "sample_size": 240,
+    "measured_at": "2026-08-25T12:00:00Z",
+    "source": "web_votes"
   },
   "vacation_33": {
     "accept": 75,
@@ -965,29 +1637,50 @@
     "countries": {
       "🇫🇷": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇺🇸": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇪🇸": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇩🇪": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇳🇱": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇧🇷": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       }
-    }
+    },
+    "sample_size": 240,
+    "measured_at": "2026-08-25T12:00:00Z",
+    "source": "web_votes"
   },
   "vacation_34": {
     "accept": 35,
@@ -995,29 +1688,50 @@
     "countries": {
       "🇫🇷": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇺🇸": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇪🇸": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇩🇪": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇳🇱": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇧🇷": {
         "accept": 35,
-        "reject": 65
+        "reject": 65,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       }
-    }
+    },
+    "sample_size": 240,
+    "measured_at": "2026-08-25T12:00:00Z",
+    "source": "web_votes"
   },
   "vacation_35": {
     "accept": 75,
@@ -1025,28 +1739,49 @@
     "countries": {
       "🇫🇷": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇺🇸": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇪🇸": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇩🇪": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇳🇱": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       },
       "🇧🇷": {
         "accept": 75,
-        "reject": 25
+        "reject": 25,
+        "sample_size": 35,
+        "measured_at": "2026-08-25T12:00:00Z",
+        "source": "web_votes"
       }
-    }
+    },
+    "sample_size": 240,
+    "measured_at": "2026-08-25T12:00:00Z",
+    "source": "web_votes"
   }
 }
