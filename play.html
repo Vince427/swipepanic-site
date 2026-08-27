@@ -1701,12 +1701,33 @@
       const stat = consensusData[cardId];
       const hasRealConsensus = stat && (stat.reject !== undefined) && (stat.accept !== undefined);
 
+      const lastPlayed = playedHistory[playedHistory.length - 1];
+      const cardData = lastPlayed ? lastPlayed.card : allCards.find(c => c.id === cardId);
+      const mode = (cardData && cardData.mode) || ((cardData && cardData.type === 'quiz') ? 'quiz' : ((cardData && cardData.theme === 'party') ? 'social' : 'classic'));
+
+      let labelLeft = t.redFlag;
+      let labelRight = t.greenFlag;
+      let iconLeft = '🚩';
+      let iconRight = '🟢';
+
+      if (mode === 'quiz') {
+        labelLeft = t.falseLabel;
+        labelRight = t.trueLabel;
+        iconLeft = '❌';
+        iconRight = '✅';
+      } else if (mode === 'social') {
+        labelLeft = t.truthLabel;
+        labelRight = t.dareLabel;
+        iconLeft = '👁️';
+        iconRight = '⚡';
+      }
+
       if (userChoice === 'green') {
         consensusYourVote.className = 'consensus-your-vote vote-badge-green';
-        consensusYourVote.textContent = `👤 ${t.yourVoteIs} 🟢 ${t.greenFlag}`;
+        consensusYourVote.textContent = `👤 ${t.yourVoteIs} ${iconRight} ${labelRight}`;
       } else {
         consensusYourVote.className = 'consensus-your-vote vote-badge-red';
-        consensusYourVote.textContent = `👤 ${t.yourVoteIs} 🚩 ${t.redFlag}`;
+        consensusYourVote.textContent = `👤 ${t.yourVoteIs} ${iconLeft} ${labelLeft}`;
       }
 
       if (hasRealConsensus) {
@@ -1718,11 +1739,11 @@
           measuredAgreedCount++;
         }
 
-        consensusTitle.textContent = `${t.consensusTitleMeasured} : 🚩 ${rejectPct}% vs 🟢 ${acceptPct}%`;
+        consensusTitle.textContent = `${t.consensusTitleMeasured} : ${iconLeft} ${rejectPct}% vs ${iconRight} ${acceptPct}%`;
         consensusRed.style.width = `${rejectPct}%`;
-        consensusRed.textContent = `🚩 ${rejectPct}%`;
+        consensusRed.textContent = `${iconLeft} ${rejectPct}%`;
         consensusGreen.style.width = `${acceptPct}%`;
-        consensusGreen.textContent = `🟢 ${acceptPct}%`;
+        consensusGreen.textContent = `${iconRight} ${acceptPct}%`;
 
         const c = stat.countries || {};
         const present = Object.keys(c);
@@ -1833,9 +1854,31 @@
       playedHistory.forEach((item, index) => {
         const cardText = item.card.texts[currentLang] || item.card.texts.en || item.card.texts.fr || '';
         const isGreen = item.choice === 'green';
+        const mode = (item.card && item.card.mode) || ((item.card && item.card.type === 'quiz') ? 'quiz' : ((item.card && item.card.theme === 'party') ? 'social' : 'classic'));
+
+        let labelLeft = t.redFlag;
+        let labelRight = t.greenFlag;
+        let iconLeft = '🚩';
+        let iconRight = '🟢';
+
+        if (mode === 'quiz') {
+          labelLeft = t.falseLabel;
+          labelRight = t.trueLabel;
+          iconLeft = '❌';
+          iconRight = '✅';
+        } else if (mode === 'social') {
+          labelLeft = t.truthLabel;
+          labelRight = t.dareLabel;
+          iconLeft = '👁️';
+          iconRight = '⚡';
+        }
+
+        const userIcon = isGreen ? iconRight : iconLeft;
+        const userLabel = isGreen ? labelRight : labelLeft;
+
         const choiceBadge = isGreen 
-          ? `<span class="breakdown-user-vote vote-tag-green">👤 ${t.yourVoteIs} 🟢 ${t.greenFlag}</span>`
-          : `<span class="breakdown-user-vote vote-tag-red">👤 ${t.yourVoteIs} 🚩 ${t.redFlag}</span>`;
+          ? `<span class="breakdown-user-vote vote-tag-green">👤 ${t.yourVoteIs} ${userIcon} ${userLabel}</span>`
+          : `<span class="breakdown-user-vote vote-tag-red">👤 ${t.yourVoteIs} ${userIcon} ${userLabel}</span>`;
 
         let worldRow = '';
         let countryRow = '';
@@ -1849,7 +1892,7 @@
           worldRow = `
             <div class="comparison-row">
               <span class="comparison-label">🌍 ${t.worldConsensus} :</span>
-              <span class="comparison-stat">🚩 ${item.stat.reject}% vs 🟢 ${item.stat.accept}%</span>
+              <span class="comparison-stat">${iconLeft} ${item.stat.reject}% vs ${iconRight} ${item.stat.accept}%</span>
               ${tag}
             </div>
           `;
@@ -1863,7 +1906,7 @@
             countryRow = `
               <div class="comparison-row">
                 <span class="comparison-label" style="display:inline-flex; align-items:center;">${flagImg} ${cName} (${t.yourCountry}) :</span>
-                <span class="comparison-stat">🚩 ${countryEntry.reject}% ${t.redFlag}</span>
+                <span class="comparison-stat">${iconLeft} ${countryEntry.reject}% ${labelLeft}</span>
               </div>
             `;
           }
