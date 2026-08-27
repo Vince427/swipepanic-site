@@ -284,14 +284,15 @@
       left: 50%;
       transform: translate(-50%, -50%) scale(0.9);
       width: 95%;
+      max-width: 420px;
       background: #141224;
       border: 2px solid var(--purple);
       border-radius: 24px;
-      padding: 22px 18px;
+      padding: 20px 18px;
       text-align: center;
       opacity: 0;
       pointer-events: none;
-      box-shadow: 0 25px 60px rgba(0,0,0,0.9), 0 0 30px rgba(124,77,255,0.25);
+      box-shadow: 0 25px 60px rgba(0,0,0,0.95), 0 0 30px rgba(124,77,255,0.3);
       z-index: 20;
       transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     }
@@ -303,33 +304,39 @@
     }
 
     .consensus-your-vote {
-      font-size: 13px;
-      font-weight: 800;
-      margin-bottom: 8px;
-      padding: 4px 10px;
-      border-radius: 8px;
-      display: inline-block;
+      font-size: 14px;
+      font-weight: 900;
+      margin-bottom: 12px;
+      padding: 6px 14px;
+      border-radius: 12px;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
     }
 
     .vote-badge-green {
-      background: rgba(0, 230, 118, 0.15);
+      background: rgba(0, 230, 118, 0.2);
       color: var(--green);
-      border: 1px solid rgba(0, 230, 118, 0.3);
+      border: 1.5px solid rgba(0, 230, 118, 0.5);
     }
 
     .vote-badge-red {
-      background: rgba(255, 51, 102, 0.15);
+      background: rgba(255, 51, 102, 0.2);
       color: var(--red);
-      border: 1px solid rgba(255, 51, 102, 0.3);
+      border: 1.5px solid rgba(255, 51, 102, 0.5);
     }
 
     .consensus-title {
-      font-size: 14px;
+      font-size: 13px;
       font-weight: 800;
       text-transform: uppercase;
       letter-spacing: 0.5px;
       color: #b39ddb;
-      margin-bottom: 12px;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
     }
 
     .consensus-bar-wrapper {
@@ -366,18 +373,41 @@
       transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-    .consensus-flags {
+    .consensus-countries-box {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 14px;
+      padding: 10px;
+      margin-bottom: 14px;
+    }
+
+    .consensus-flags-grid {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      gap: 8px 12px;
+      gap: 8px 10px;
       font-size: 12px;
-      font-weight: 600;
-      color: var(--text-dim);
-      margin-bottom: 16px;
-      max-height: 90px;
+      max-height: 95px;
       overflow-y: auto;
-      padding: 4px;
+      padding: 2px;
+    }
+
+    .country-pill {
+      background: #1e1b36;
+      border: 1px solid #363259;
+      border-radius: 8px;
+      padding: 4px 8px;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      color: var(--text);
+    }
+
+    .country-pill-mine {
+      background: rgba(255, 215, 0, 0.15);
+      border: 1.5px solid var(--gold);
+      color: #fff;
+      font-weight: 900;
     }
 
     .btn-next-card {
@@ -537,18 +567,18 @@
       max-width: 420px;
       display: flex;
       flex-direction: column;
-      gap: 10px;
+      gap: 12px;
       margin-bottom: 16px;
     }
 
     .breakdown-item {
       background: #141224;
       border: 1px solid var(--card-border);
-      border-radius: 16px;
-      padding: 12px 14px;
+      border-radius: 18px;
+      padding: 14px 16px;
       display: flex;
       flex-direction: column;
-      gap: 6px;
+      gap: 8px;
       text-align: left;
     }
 
@@ -556,26 +586,65 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      font-size: 11px;
+      font-size: 12px;
       font-weight: 800;
     }
 
+    .breakdown-user-vote {
+      padding: 3px 8px;
+      border-radius: 8px;
+      font-size: 11px;
+      font-weight: 900;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .vote-tag-green {
+      background: rgba(0, 230, 118, 0.18);
+      color: var(--green);
+      border: 1px solid rgba(0, 230, 118, 0.4);
+    }
+
+    .vote-tag-red {
+      background: rgba(255, 51, 102, 0.18);
+      color: var(--red);
+      border: 1px solid rgba(255, 51, 102, 0.4);
+    }
+
     .breakdown-text {
-      font-size: 13px;
-      font-weight: 600;
+      font-size: 14px;
+      font-weight: 700;
       color: var(--text);
       line-height: 1.4;
     }
 
-    .breakdown-stats {
+    .breakdown-comparison {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      background: rgba(255, 255, 255, 0.03);
+      border-radius: 10px;
+      padding: 8px 10px;
+      border: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .comparison-row {
       font-size: 11px;
-      color: var(--text-dim);
       display: flex;
       align-items: center;
       justify-content: space-between;
-      border-top: 1px solid rgba(255,255,255,0.06);
-      padding-top: 4px;
-      margin-top: 2px;
+      gap: 8px;
+    }
+
+    .comparison-label {
+      color: var(--text-dim);
+      font-weight: 700;
+    }
+
+    .comparison-stat {
+      color: var(--text);
+      font-weight: 800;
     }
 
     .badge-majority {
@@ -584,6 +653,7 @@
       padding: 2px 6px;
       border-radius: 6px;
       font-weight: 800;
+      font-size: 10px;
     }
 
     .badge-minority {
@@ -592,6 +662,7 @@
       padding: 2px 6px;
       border-radius: 6px;
       font-weight: 800;
+      font-size: 10px;
     }
 
     .cta-container {
@@ -679,13 +750,21 @@
 
     <!-- Interactive Live Consensus Popup -->
     <div class="consensus-overlay" id="consensusOverlay">
-      <div id="consensusYourVote" class="consensus-your-vote">Ton vote : 🚩 RED FLAG</div>
+      <div id="consensusYourVote" class="consensus-your-vote">👤 Ton vote : 🚩 RED FLAG</div>
+      
       <div class="consensus-title" id="consensusTitle">🌍 Consensus Mondial</div>
       <div class="consensus-bar-wrapper">
         <div class="consensus-fill-red" id="consensusRed">50%</div>
         <div class="consensus-fill-green" id="consensusGreen">50%</div>
       </div>
-      <div class="consensus-flags" id="consensusFlags"></div>
+
+      <div class="consensus-countries-box">
+        <div style="font-size:11px; font-weight:800; color:#b39ddb; margin-bottom:6px;" id="countriesSectionLabel">
+          🏳️ TENDANCES PAR PAYS :
+        </div>
+        <div class="consensus-flags-grid" id="consensusFlags"></div>
+      </div>
+
       <button class="btn-next-card" id="btnNextCard">
         <span id="btnNextText">Carte suivante ➔</span>
       </button>
@@ -904,11 +983,14 @@
         consensusTitleMeasured: "🌍 Consensus Mondial",
         consensusTitleNeutral: "⏳ Pas encore assez de votes",
         consensusSubtitleNeutral: "À toi d'ouvrir le débat !",
-        yourVoteIs: "Ton choix :",
+        countriesTrends: "🏳️ Tendances par pays :",
+        yourVoteIs: "Ton vote :",
         btnNext: "Carte suivante ➔",
         breakdownTitle: "📋 Détail de tes réponses",
         majorityTag: "🎯 Majorité",
         minorityTag: "⚡ Minorité",
+        worldConsensus: "Monde",
+        yourCountry: "Ton pays",
         redFlag: "RED FLAG",
         greenFlag: "GREEN FLAG",
         falseLabel: "FAUX",
@@ -942,11 +1024,14 @@
         consensusTitleMeasured: "🌍 Global Consensus",
         consensusTitleNeutral: "⏳ Not enough votes yet",
         consensusSubtitleNeutral: "You're opening the debate!",
-        yourVoteIs: "Your choice:",
+        countriesTrends: "🏳️ Trends by country:",
+        yourVoteIs: "Your vote:",
         btnNext: "Next card ➔",
         breakdownTitle: "📋 Your choices in detail",
         majorityTag: "🎯 Majority",
         minorityTag: "⚡ Minority",
+        worldConsensus: "World",
+        yourCountry: "Your country",
         redFlag: "RED FLAG",
         greenFlag: "GREEN FLAG",
         falseLabel: "FALSE",
@@ -980,11 +1065,14 @@
         consensusTitleMeasured: "🌍 Consenso Mundial",
         consensusTitleNeutral: "⏳ Aún no hay suficientes votos",
         consensusSubtitleNeutral: "¡Tú abres el debate!",
-        yourVoteIs: "Tu elección:",
+        countriesTrends: "🏳️ Tendencias por país:",
+        yourVoteIs: "Tu voto:",
         btnNext: "Siguiente carta ➔",
         breakdownTitle: "📋 Detalle de tus respuestas",
         majorityTag: "🎯 Mayoría",
         minorityTag: "⚡ Minoría",
+        worldConsensus: "Mundo",
+        yourCountry: "Tu país",
         redFlag: "RED FLAG",
         greenFlag: "GREEN FLAG",
         falseLabel: "FALSO",
@@ -1018,11 +1106,14 @@
         consensusTitleMeasured: "🌍 Weltweiter Konsens",
         consensusTitleNeutral: "⏳ Noch nicht genug Stimmen",
         consensusSubtitleNeutral: "Du eröffnest die Debatte!",
-        yourVoteIs: "Deine Wahl:",
+        countriesTrends: "🏳️ Trends nach Land:",
+        yourVoteIs: "Deine Stimme:",
         btnNext: "Nächste Karte ➔",
         breakdownTitle: "📋 Deine Antworten im Detail",
         majorityTag: "🎯 Mehrheit",
         minorityTag: "⚡ Minderheit",
+        worldConsensus: "Welt",
+        yourCountry: "Dein Land",
         redFlag: "RED FLAG",
         greenFlag: "GREEN FLAG",
         falseLabel: "FALSCH",
@@ -1056,11 +1147,14 @@
         consensusTitleMeasured: "🌍 Wereldwijde Consensus",
         consensusTitleNeutral: "⏳ Nog niet genoeg stemmen",
         consensusSubtitleNeutral: "Jij opent het debat!",
-        yourVoteIs: "Jouw keuze:",
+        countriesTrends: "🏳️ Trends per land:",
+        yourVoteIs: "Jouw stem:",
         btnNext: "Volgende kaart ➔",
         breakdownTitle: "📋 Overzicht van je antwoorden",
         majorityTag: "🎯 Meerderheid",
         minorityTag: "⚡ Minderheid",
+        worldConsensus: "Wereld",
+        yourCountry: "Jouw land",
         redFlag: "RED FLAG",
         greenFlag: "GREEN FLAG",
         falseLabel: "ONWAAR",
@@ -1094,11 +1188,14 @@
         consensusTitleMeasured: "🌍 Consenso Global",
         consensusTitleNeutral: "⏳ Ainda não há votos suficientes",
         consensusSubtitleNeutral: "Você está abrindo o debate!",
-        yourVoteIs: "A tua escolha:",
+        countriesTrends: "🏳️ Tendências por país:",
+        yourVoteIs: "O teu voto:",
         btnNext: "Próxima carta ➔",
         breakdownTitle: "📋 Detalhe das tuas respostas",
         majorityTag: "🎯 Maioria",
         minorityTag: "⚡ Minoria",
+        worldConsensus: "Mundo",
+        yourCountry: "Teu país",
         redFlag: "RED FLAG",
         greenFlag: "GREEN FLAG",
         falseLabel: "FALSO",
@@ -1143,20 +1240,6 @@
     let maxSessionCards = 5;
     let autoAdvanceTimer = null;
 
-    function detectLocale() {
-      const params = new URLSearchParams(window.location.search);
-      const urlLang = params.get('lang');
-      if (urlLang && i18n[urlLang]) return urlLang;
-      const navLangs = navigator.languages || [navigator.language || navigator.userLanguage || ''];
-      for (const l of navLangs) {
-        if (!l) continue;
-        const code = l.substring(0, 2).toLowerCase();
-        if (i18n[code]) return code;
-      }
-      // International fallback: English
-      return 'en';
-    }
-
     const cardContainer = document.getElementById('cardContainer');
     const consensusOverlay = document.getElementById('consensusOverlay');
     const consensusYourVote = document.getElementById('consensusYourVote');
@@ -1164,6 +1247,7 @@
     const consensusRed = document.getElementById('consensusRed');
     const consensusGreen = document.getElementById('consensusGreen');
     const consensusFlags = document.getElementById('consensusFlags');
+    const countriesSectionLabel = document.getElementById('countriesSectionLabel');
     const btnNextCard = document.getElementById('btnNextCard');
     const btnNextText = document.getElementById('btnNextText');
     const autoProgressBar = document.getElementById('autoProgressBar');
@@ -1175,6 +1259,19 @@
     const iconGreen = document.getElementById('iconGreen');
     const recapScreen = document.getElementById('recapScreen');
     const cardsBreakdownList = document.getElementById('cardsBreakdownList');
+
+    function detectLocale() {
+      const params = new URLSearchParams(window.location.search);
+      const urlLang = params.get('lang');
+      if (urlLang && i18n[urlLang]) return urlLang;
+      const navLangs = navigator.languages || [navigator.language || navigator.userLanguage || ''];
+      for (const l of navLangs) {
+        if (!l) continue;
+        const code = l.substring(0, 2).toLowerCase();
+        if (i18n[code]) return code;
+      }
+      return 'en';
+    }
 
     currentLang = detectLocale();
     if (document.getElementById('langSelect')) {
@@ -1191,6 +1288,7 @@
       document.getElementById('packPill').textContent = t.packMini;
       document.getElementById('breakdownTitle').textContent = t.breakdownTitle;
       btnNextText.textContent = t.btnNext;
+      if (countriesSectionLabel) countriesSectionLabel.textContent = t.countriesTrends;
 
       buildCountrySelect(currentLang);
       
@@ -1353,7 +1451,6 @@
         return;
       }
 
-      // Add background card if there is a next card in queue
       if (sessionQueue.length > 1) {
         const backCard = document.createElement('div');
         backCard.className = 'card-back';
@@ -1461,7 +1558,6 @@
       if (direction === 'green') greenCount++;
       else redCount++;
 
-      // Save to played history for the end-game breakdown
       const stat = consensusData[cardData.id];
       playedHistory.push({
         card: cardData,
@@ -1471,7 +1567,6 @@
 
       submitVote(cardData.id, direction);
 
-      // Show Interactive Consensus Stats Popup
       setTimeout(() => {
         showConsensus(cardData.id, direction);
       }, 200);
@@ -1497,10 +1592,10 @@
 
       if (userChoice === 'green') {
         consensusYourVote.className = 'consensus-your-vote vote-badge-green';
-        consensusYourVote.textContent = `${t.yourVoteIs} 🟢 ${t.greenFlag}`;
+        consensusYourVote.textContent = `👤 ${t.yourVoteIs} 🟢 ${t.greenFlag}`;
       } else {
         consensusYourVote.className = 'consensus-your-vote vote-badge-red';
-        consensusYourVote.textContent = `${t.yourVoteIs} 🚩 ${t.redFlag}`;
+        consensusYourVote.textContent = `👤 ${t.yourVoteIs} 🚩 ${t.redFlag}`;
       }
 
       if (hasRealConsensus) {
@@ -1512,7 +1607,7 @@
           measuredAgreedCount++;
         }
 
-        consensusTitle.textContent = t.consensusTitleMeasured;
+        consensusTitle.textContent = `${t.consensusTitleMeasured} : 🚩 ${rejectPct}% vs 🟢 ${acceptPct}%`;
         consensusRed.style.width = `${rejectPct}%`;
         consensusRed.textContent = `🚩 ${rejectPct}%`;
         consensusGreen.style.width = `${acceptPct}%`;
@@ -1529,17 +1624,19 @@
 
         const parts = present.map((flag) => {
           const entry = c[flag];
-          const mine = flag === currentCountry ? ' style="font-weight:900; color:#ffd700;"' : '';
+          const isMine = flag === currentCountry;
+          const cssClass = isMine ? 'country-pill country-pill-mine' : 'country-pill';
           const n = Number.isInteger(entry.sample_size)
-            ? ` <small>(${t.votesLabel.replace('{count}', entry.sample_size)})</small>`
+            ? ` <small style="opacity:0.75;">(${t.votesLabel.replace('{count}', entry.sample_size)})</small>`
             : '';
-          return `<span${mine}>${flag} 🚩 ${entry.reject}%${n}</span>`;
+          const tagLabel = isMine ? ` <span style="color:var(--gold); font-size:10px;">(${t.yourCountry})</span>` : '';
+          return `<div class="${cssClass}"><span>${flag}</span> <span>🚩 ${entry.reject}%</span>${n}${tagLabel}</div>`;
         });
 
         if (currentCountry && !c[currentCountry]) {
-          parts.push(`<span>${currentCountry} ${t.countryNoData}</span>`);
+          parts.unshift(`<div class="country-pill country-pill-mine"><span>${currentCountry}</span> <span>${t.countryNoData}</span></div>`);
         } else if (!currentCountry) {
-          parts.push(`<span>${t.countryPick}</span>`);
+          parts.unshift(`<div class="country-pill"><span>${t.countryPick}</span></div>`);
         }
 
         consensusFlags.style.display = 'flex';
@@ -1551,12 +1648,11 @@
         consensusGreen.style.width = '50%';
         consensusGreen.textContent = '50%';
         consensusFlags.style.display = 'block';
-        consensusFlags.innerHTML = `<span>${t.consensusSubtitleNeutral}</span>`;
+        consensusFlags.innerHTML = `<div class="country-pill"><span>${t.consensusSubtitleNeutral}</span></div>`;
       }
 
       consensusOverlay.classList.add('visible');
 
-      // Auto-advance after 4 seconds (with interactive skip button anytime)
       autoProgressBar.style.transition = 'none';
       autoProgressBar.style.transform = 'scaleX(1)';
       setTimeout(() => {
@@ -1594,7 +1690,6 @@
       const t = i18n[currentLang] || i18n.fr;
       document.getElementById('recapTitle').textContent = t.recapTitle;
 
-      // Determine Personality verdict
       let verdict = t.chaoticVerdict;
       if (redCount >= 4) {
         verdict = t.demonVerdict;
@@ -1616,35 +1711,63 @@
 
       document.getElementById('recapCounts').textContent = `🚩 ${redCount} ${t.redFlag} • 🟢 ${greenCount} ${t.greenFlag}`;
 
-      // Build Full Breakdown List of all cards played
+      // Build Full Breakdown List of all cards played with crisp visual separation
       cardsBreakdownList.innerHTML = '';
       playedHistory.forEach((item, index) => {
         const cardText = item.card.texts[currentLang] || item.card.texts.en || item.card.texts.fr || '';
         const isGreen = item.choice === 'green';
         const choiceBadge = isGreen 
-          ? `<span class="badge-majority">🟢 ${t.greenFlag}</span>`
-          : `<span class="vote-badge-red" style="padding:2px 6px; border-radius:6px; font-weight:800;">🚩 ${t.redFlag}</span>`;
+          ? `<span class="breakdown-user-vote vote-tag-green">👤 ${t.yourVoteIs} 🟢 ${t.greenFlag}</span>`
+          : `<span class="breakdown-user-vote vote-tag-red">👤 ${t.yourVoteIs} 🚩 ${t.redFlag}</span>`;
 
-        let consensusSnippet = '';
+        let worldRow = '';
+        let countryRow = '';
+
         if (item.stat && item.stat.reject !== undefined) {
           const isMajority = (item.choice === 'red' && item.stat.reject >= 50) || (item.choice === 'green' && item.stat.accept >= 50);
           const tag = isMajority 
             ? `<span class="badge-majority">${t.majorityTag}</span>`
             : `<span class="badge-minority">${t.minorityTag}</span>`;
-          consensusSnippet = `<span>🌍 ${item.stat.reject}% 🚩 • ${item.stat.accept}% 🟢</span> ${tag}`;
+
+          worldRow = `
+            <div class="comparison-row">
+              <span class="comparison-label">🌍 ${t.worldConsensus} :</span>
+              <span class="comparison-stat">🚩 ${item.stat.reject}% vs 🟢 ${item.stat.accept}%</span>
+              ${tag}
+            </div>
+          `;
+
+          const c = item.stat.countries || {};
+          if (currentCountry && c[currentCountry]) {
+            const countryEntry = c[currentCountry];
+            countryRow = `
+              <div class="comparison-row">
+                <span class="comparison-label">${currentCountry} ${t.yourCountry} :</span>
+                <span class="comparison-stat">🚩 ${countryEntry.reject}% ${t.redFlag}</span>
+              </div>
+            `;
+          }
         } else {
-          consensusSnippet = `<span>🌍 En attente de votes</span>`;
+          worldRow = `
+            <div class="comparison-row">
+              <span class="comparison-label">🌍 ${t.worldConsensus} :</span>
+              <span class="comparison-stat">⏳ En attente de votes</span>
+            </div>
+          `;
         }
 
         const div = document.createElement('div');
         div.className = 'breakdown-item';
         div.innerHTML = `
           <div class="breakdown-header">
-            <span>#${index + 1} ${item.card.theme || 'dilemma'}</span>
+            <span>#${index + 1} • ${item.card.theme || 'dilemma'}</span>
             ${choiceBadge}
           </div>
           <div class="breakdown-text">${cardText}</div>
-          <div class="breakdown-stats">${consensusSnippet}</div>
+          <div class="breakdown-comparison">
+            ${worldRow}
+            ${countryRow}
+          </div>
         `;
         cardsBreakdownList.appendChild(div);
       });
