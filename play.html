@@ -392,15 +392,35 @@
       padding: 2px;
     }
 
+    .flag-icon {
+      width: 22px;
+      height: 16px;
+      border-radius: 3px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+      vertical-align: middle;
+      object-fit: cover;
+      display: inline-block;
+      margin-right: 5px;
+      border: 0.5px solid rgba(255,255,255,0.15);
+    }
+
     .country-pill {
-      background: #1e1b36;
+      background: #181628;
       border: 1px solid #363259;
-      border-radius: 8px;
-      padding: 4px 8px;
+      border-radius: 10px;
+      padding: 6px 12px;
       display: inline-flex;
       align-items: center;
-      gap: 5px;
+      justify-content: space-between;
+      gap: 10px;
       color: var(--text);
+      font-size: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+    }
+
+    .country-pill strong {
+      font-weight: 800;
+      color: #fff;
     }
 
     .country-pill-mine {
@@ -843,6 +863,19 @@
 
     const CODE_BY_FLAG = {};
     for (const code of COUNTRY_CODES) CODE_BY_FLAG[flagFromCode(code)] = code;
+
+    function isoFromFlagOrCode(flagOrCode) {
+      if (!flagOrCode) return '';
+      if (CODE_BY_FLAG[flagOrCode]) return CODE_BY_FLAG[flagOrCode].toLowerCase();
+      if (flagOrCode.length === 2) return flagOrCode.toLowerCase();
+      return '';
+    }
+
+    function flagImgHtml(flagOrCode, width = 22, height = 16) {
+      const iso = isoFromFlagOrCode(flagOrCode);
+      if (!iso) return flagOrCode || '🌍';
+      return `<img src="https://flagcdn.com/28x21/${iso}.png" srcset="https://flagcdn.com/56x42/${iso}.png 2x" width="${width}" height="${height}" alt="${iso.toUpperCase()}" class="flag-icon">`;
+    }
 
     function countryName(code, locale) {
       try {
@@ -1704,15 +1737,21 @@
           const entry = c[flag];
           const isMine = flag === currentCountry;
           const cssClass = isMine ? 'country-pill country-pill-mine' : 'country-pill';
+          const iso = isoFromFlagOrCode(flag);
+          const cName = iso ? countryName(iso.toUpperCase(), currentLang) : flag;
+          const flagImg = flagImgHtml(flag, 22, 16);
           const n = Number.isInteger(entry.sample_size)
             ? ` <small style="opacity:0.75;">(${t.votesLabel.replace('{count}', entry.sample_size)})</small>`
             : '';
-          const tagLabel = isMine ? ` <span style="color:var(--gold); font-size:10px;">(${t.yourCountry})</span>` : '';
-          return `<div class="${cssClass}"><span>${flag}</span> <span>🚩 ${entry.reject}%</span>${n}${tagLabel}</div>`;
+          const tagLabel = isMine ? ` <span style="color:var(--gold); font-size:10px; font-weight:800;">(${t.yourCountry})</span>` : '';
+          return `<div class="${cssClass}"><span style="display:inline-flex; align-items:center;">${flagImg}<strong>${cName}</strong></span> <span>🚩 ${entry.reject}%</span>${n}${tagLabel}</div>`;
         });
 
         if (currentCountry && !c[currentCountry]) {
-          parts.unshift(`<div class="country-pill country-pill-mine"><span>${currentCountry}</span> <span>${t.countryNoData}</span></div>`);
+          const iso = isoFromFlagOrCode(currentCountry);
+          const cName = iso ? countryName(iso.toUpperCase(), currentLang) : currentCountry;
+          const flagImg = flagImgHtml(currentCountry, 22, 16);
+          parts.unshift(`<div class="country-pill country-pill-mine"><span style="display:inline-flex; align-items:center;">${flagImg}<strong>${cName}</strong></span> <span>${t.countryNoData}</span></div>`);
         } else if (!currentCountry) {
           parts.unshift(`<div class="country-pill"><span>${t.countryPick}</span></div>`);
         }
@@ -1818,9 +1857,12 @@
           const c = item.stat.countries || {};
           if (currentCountry && c[currentCountry]) {
             const countryEntry = c[currentCountry];
+            const iso = isoFromFlagOrCode(currentCountry);
+            const cName = iso ? countryName(iso.toUpperCase(), currentLang) : currentCountry;
+            const flagImg = flagImgHtml(currentCountry, 20, 15);
             countryRow = `
               <div class="comparison-row">
-                <span class="comparison-label">${currentCountry} ${t.yourCountry} :</span>
+                <span class="comparison-label" style="display:inline-flex; align-items:center;">${flagImg} ${cName} (${t.yourCountry}) :</span>
                 <span class="comparison-stat">🚩 ${countryEntry.reject}% ${t.redFlag}</span>
               </div>
             `;
