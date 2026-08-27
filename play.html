@@ -1157,11 +1157,6 @@
       return 'en';
     }
 
-    currentLang = detectLocale();
-    document.getElementById('langSelect').value = currentLang;
-    buildCountrySelect(currentLang);
-    applyTranslations();
-
     const cardContainer = document.getElementById('cardContainer');
     const consensusOverlay = document.getElementById('consensusOverlay');
     const consensusYourVote = document.getElementById('consensusYourVote');
@@ -1180,6 +1175,13 @@
     const iconGreen = document.getElementById('iconGreen');
     const recapScreen = document.getElementById('recapScreen');
     const cardsBreakdownList = document.getElementById('cardsBreakdownList');
+
+    currentLang = detectLocale();
+    if (document.getElementById('langSelect')) {
+      document.getElementById('langSelect').value = currentLang;
+    }
+    buildCountrySelect(currentLang);
+    applyTranslations();
 
     function applyTranslations() {
       const t = i18n[currentLang] || i18n.fr;
