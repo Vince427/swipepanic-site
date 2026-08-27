@@ -727,6 +727,16 @@
     </a>
 
     <div class="header-controls">
+      <select id="packSelect" class="select-dropdown" aria-label="Choisir un pack">
+        <option value="all">🎲 Tous les packs</option>
+        <option value="clash_pack">🔥 Clash Hommes vs Femmes</option>
+        <option value="dating_pack">❤️ Dating & Séduction</option>
+        <option value="party_pack_v1">🎉 Soirée</option>
+        <option value="office_pack">💼 Travail</option>
+        <option value="vacation_pack">✈️ Vacances</option>
+        <option value="gym_pack_v1">🏋️ Salle de sport</option>
+        <option value="quiz_pack_v1">🧠 Quiz</option>
+      </select>
       <select id="countrySelect" class="select-dropdown" aria-label="Choisir mon pays"></select>
       <select id="langSelect" class="select-dropdown" aria-label="Langue">
         <option value="fr">🇫🇷 FR</option>
@@ -1017,6 +1027,14 @@
         demonVerdict: "PETIT DÉMON 😈",
         angelVerdict: "PUR ANGELOT 😇",
         masterVerdict: "MAÎTRE DU CONSENSUS 🎯",
+                packAll: "🎲 Tous les packs",
+        packClash: "🔥 Clash Hommes vs Femmes",
+        packDating: "❤️ Dating & Séduction",
+        packParty: "🎉 Soirée",
+        packOffice: "💼 Travail",
+        packVacation: "✈️ Vacances",
+        packGym: "🏋️ Salle de sport",
+        packQuiz: "🧠 Quiz",
         chaoticVerdict: "NEUTRE CHAOTIQUE ⚖️"
       },
       en: {
@@ -1058,6 +1076,14 @@
         demonVerdict: "LITTLE DEMON 😈",
         angelVerdict: "PURE ANGEL 😇",
         masterVerdict: "CONSENSUS MASTER 🎯",
+                packAll: "🎲 All Packs",
+        packClash: "🔥 Men vs Women Clash",
+        packDating: "❤️ Dating & Red Flags",
+        packParty: "🎉 Party & Friends",
+        packOffice: "💼 Office & Work",
+        packVacation: "✈️ Vacation & Travel",
+        packGym: "🏋️ Gym & Fitness",
+        packQuiz: "🧠 Trivia Quiz",
         chaoticVerdict: "NEUTRAL CHAOTIC ⚖️"
       },
       es: {
@@ -1099,6 +1125,14 @@
         demonVerdict: "PEQUEÑO DEMONIO 😈",
         angelVerdict: "PURO ANGELITO 😇",
         masterVerdict: "MAESTRO DEL CONSENSO 🎯",
+                packAll: "🎲 Todos los packs",
+        packClash: "🔥 Choque Hombres vs Mujeres",
+        packDating: "❤️ Citas y Red Flags",
+        packParty: "🎉 Fiesta y Grupo",
+        packOffice: "💼 Trabajo y Oficina",
+        packVacation: "✈️ Vacaciones y Viajes",
+        packGym: "🏋️ Gimnasio y Fitness",
+        packQuiz: "🧠 Quiz y Preguntas",
         chaoticVerdict: "NEUTRO CAÓTICO ⚖️"
       },
       de: {
@@ -1140,6 +1174,14 @@
         demonVerdict: "KLEINER DÄMON 😈",
         angelVerdict: "REINER ENGEL 😇",
         masterVerdict: "KONSENS-MEISTER 🎯",
+                packAll: "🎲 Alle Packs",
+        packClash: "🔥 Männer vs. Frauen Clash",
+        packDating: "❤️ Dating & Red Flags",
+        packParty: "🎉 Party & Freunde",
+        packOffice: "💼 Büro & Arbeit",
+        packVacation: "✈️ Urlaub & Reisen",
+        packGym: "🏋️ Fitnessstudio & Gym",
+        packQuiz: "🧠 Quiz & Trivia",
         chaoticVerdict: "NEUTRAL CHAOTISCH ⚖️"
       },
       nl: {
@@ -1181,6 +1223,14 @@
         demonVerdict: "KLEIN DUIVELTJE 😈",
         angelVerdict: "ZUIVERE ENGEL 😇",
         masterVerdict: "CONSENSUS MEESTER 🎯",
+                packAll: "🎲 Alle packs",
+        packClash: "🔥 Mannen vs Vrouwen Clash",
+        packDating: "❤️ Daten & Red Flags",
+        packParty: "🎉 Feestje & Vrienden",
+        packOffice: "💼 Werk & Kantoor",
+        packVacation: "✈️ Vakantie & Reizen",
+        packGym: "🏋️ Sportschool & Fitness",
+        packQuiz: "🧠 Quiz & Kennis",
         chaoticVerdict: "NEUTRAAL CHAOTISCH ⚖️"
       },
       pt: {
@@ -1222,6 +1272,14 @@
         demonVerdict: "PEQUENO DEMÔNIO 😈",
         angelVerdict: "PURO ANJINHO 😇",
         masterVerdict: "MESTRE DO CONSENSO 🎯",
+                packAll: "🎲 Todos os packs",
+        packClash: "🔥 Confronto Homens vs Mulheres",
+        packDating: "❤️ Encontros & Red Flags",
+        packParty: "🎉 Festa & Amigos",
+        packOffice: "💼 Trabalho & Escritório",
+        packVacation: "✈️ Férias & Viagens",
+        packGym: "🏋️ Academia & Fitness",
+        packQuiz: "🧠 Quiz & Conhecimento",
         chaoticVerdict: "NEUTRO CAÓTICO ⚖️"
       }
     };
@@ -1290,6 +1348,22 @@
       btnNextText.textContent = t.btnNext;
       if (countriesSectionLabel) countriesSectionLabel.textContent = t.countriesTrends;
 
+      const packSelect = document.getElementById('packSelect');
+      if (packSelect) {
+        const curVal = packSelect.value;
+        packSelect.innerHTML = `
+          <option value="all">${t.packAll || "🎲 Tous les packs"}</option>
+          <option value="clash_pack">${t.packClash || "🔥 Clash Hommes vs Femmes"}</option>
+          <option value="dating_pack">${t.packDating || "❤️ Dating & Séduction"}</option>
+          <option value="party_pack_v1">${t.packParty || "🎉 Soirée"}</option>
+          <option value="office_pack">${t.packOffice || "💼 Travail"}</option>
+          <option value="vacation_pack">${t.packVacation || "✈️ Vacances"}</option>
+          <option value="gym_pack_v1">${t.packGym || "🏋️ Salle de sport"}</option>
+          <option value="quiz_pack_v1">${t.packQuiz || "🧠 Quiz"}</option>
+        `;
+        packSelect.value = curVal || 'all';
+      }
+
       buildCountrySelect(currentLang);
       
       const topCard = cardContainer.querySelector('.card');
@@ -1340,6 +1414,13 @@
         if (hintCenter) hintCenter.textContent = t.swipeOrClick;
         if (hintRight) hintRight.textContent = t.rightHint;
       }
+    }
+
+    const packSelectEl = document.getElementById('packSelect');
+    if (packSelectEl) {
+      packSelectEl.addEventListener('change', () => {
+        prepareSession();
+      });
     }
 
     document.getElementById('countrySelect').addEventListener('change', (e) => {
@@ -1395,7 +1476,8 @@
       const params = new URLSearchParams(window.location.search);
       const targetCardsParam = params.get('cards');
       const targetCardId = params.get('card');
-      const targetPack = params.get('pack');
+      const packSelectVal = document.getElementById('packSelect') ? document.getElementById('packSelect').value : 'all';
+      const targetPack = (packSelectVal && packSelectVal !== 'all') ? packSelectVal : params.get('pack');
 
       sessionQueue = [];
 
@@ -1419,26 +1501,22 @@
       }
       if (pool.length === 0) pool = [...allCards];
 
-      const poolWithStats = pool.filter(c => consensusData[c.id] && (consensusData[c.id].reject !== undefined));
-      const poolWithoutStats = pool.filter(c => !consensusData[c.id]);
-
-      poolWithStats.sort(() => Math.random() - 0.5);
-      poolWithoutStats.sort(() => Math.random() - 0.5);
-
       if (targetCardId) {
         const priorityCard = allCards.find(c => c.id === targetCardId);
         if (priorityCard) {
           sessionQueue.push(priorityCard);
-          poolWithStats.filter(c => c.id !== targetCardId);
-          poolWithoutStats.filter(c => c.id !== targetCardId);
+          pool = pool.filter(c => c.id !== targetCardId);
         }
       }
 
-      while (sessionQueue.length < maxSessionCards && poolWithStats.length > 0) {
-        sessionQueue.push(poolWithStats.pop());
-      }
-      while (sessionQueue.length < maxSessionCards && poolWithoutStats.length > 0) {
-        sessionQueue.push(poolWithoutStats.pop());
+      // Truly shuffle the entire pool randomly across all themes & packs
+      pool.sort(() => Math.random() - 0.5);
+
+      while (sessionQueue.length < maxSessionCards && pool.length > 0) {
+        const next = pool.pop();
+        if (!sessionQueue.some(c => c.id === next.id)) {
+          sessionQueue.push(next);
+        }
       }
 
       renderTopCard();
