@@ -77,7 +77,7 @@
     header {
       width: 100%;
       max-width: 480px;
-      padding: 16px 20px 8px;
+      padding: 14px 18px 6px;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -100,16 +100,15 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      font-weight: 900;
       font-size: 18px;
-      box-shadow: 0 4px 12px rgba(124, 77, 255, 0.35);
+      box-shadow: 0 4px 12px rgba(255, 51, 102, 0.35);
     }
 
-    .app-name {
-      font-weight: 800;
-      font-size: 19px;
+    .brand-title {
+      font-size: 17px;
+      font-weight: 900;
       letter-spacing: -0.5px;
-      background: linear-gradient(90deg, #fff, #bbb);
+      background: linear-gradient(90deg, #fff, #b39ddb);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
@@ -117,76 +116,99 @@
     .header-controls {
       display: flex;
       align-items: center;
-      gap: 10px;
+      gap: 8px;
     }
 
-    .lang-select {
-      background: #1f1c34;
-      border: 1px solid var(--card-border);
+    .select-dropdown {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.15);
       color: var(--text);
       font-size: 13px;
-      font-weight: 600;
+      font-weight: 700;
       padding: 6px 10px;
-      border-radius: 20px;
+      border-radius: 12px;
       outline: none;
       cursor: pointer;
+      backdrop-filter: blur(8px);
     }
 
-    /* Game Stage */
+    .select-dropdown option {
+      background: var(--card-bg);
+      color: var(--text);
+    }
+
+    /* Main Stage */
     .stage {
       flex: 1;
       width: 100%;
-      max-width: 420px;
+      max-width: 440px;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
       position: relative;
-      padding: 10px 20px;
+      padding: 10px 16px;
     }
 
     .pack-pill {
+      background: rgba(124, 77, 255, 0.15);
+      border: 1px solid rgba(124, 77, 255, 0.4);
+      color: #d1c4e9;
+      font-size: 12px;
+      font-weight: 800;
+      padding: 5px 14px;
+      border-radius: 20px;
+      margin-bottom: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
       display: inline-flex;
       align-items: center;
       gap: 6px;
-      background: rgba(124, 77, 255, 0.15);
-      border: 1px solid rgba(124, 77, 255, 0.35);
-      color: #b39ddb;
-      padding: 4px 12px;
-      border-radius: 20px;
-      font-size: 12px;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-      margin-bottom: 12px;
     }
 
-    /* Cards Stack */
+    /* Card Stack Deck */
     .card-container {
       width: 100%;
       height: 380px;
-      max-height: 52vh;
       position: relative;
       perspective: 1000px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .card-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: #121020;
+      border: 2px solid #201c36;
+      border-radius: 26px;
+      transform: translateY(12px) scale(0.94);
+      opacity: 0.6;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+      pointer-events: none;
+      z-index: 1;
+      transition: transform 0.3s ease, opacity 0.3s ease;
     }
 
     .card {
       position: absolute;
-      top: 0;
-      left: 0;
       width: 100%;
       height: 100%;
       background: var(--card-bg);
       border: 2px solid var(--card-border);
-      border-radius: 24px;
-      padding: 28px 24px;
+      border-radius: 26px;
+      padding: 24px 20px 20px;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.5);
-      touch-action: none;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.7), 0 0 0 1px rgba(255,255,255,0.05);
       cursor: grab;
-      transition: transform 0.05s ease-out, box-shadow 0.2s;
+      touch-action: none;
+      transform-origin: 50% 100%;
+      z-index: 2;
+      transition: border-color 0.2s, box-shadow 0.2s;
     }
 
     .card:active {
@@ -194,17 +216,21 @@
     }
 
     .card-theme-tag {
+      align-self: center;
+      background: rgba(255, 255, 255, 0.08);
+      color: var(--text-dim);
       font-size: 11px;
       font-weight: 800;
-      color: var(--text-dim);
+      padding: 4px 12px;
+      border-radius: 12px;
       text-transform: uppercase;
       letter-spacing: 1px;
     }
 
     .card-text {
-      font-size: 22px;
+      font-size: 21px;
       font-weight: 700;
-      line-height: 1.4;
+      line-height: 1.45;
       color: var(--text);
       text-align: center;
       margin: auto 0;
@@ -215,15 +241,15 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      font-size: 12px;
-      font-weight: 600;
+      font-size: 11px;
+      font-weight: 700;
       color: var(--text-dim);
     }
 
     /* Swipe Overlay Stamps */
     .stamp {
       position: absolute;
-      top: 24px;
+      top: 20px;
       padding: 6px 14px;
       border-radius: 12px;
       font-size: 18px;
@@ -232,41 +258,40 @@
       text-transform: uppercase;
       opacity: 0;
       pointer-events: none;
-      transform: rotate(0deg);
       transition: opacity 0.1s ease;
     }
 
     .stamp-red {
-      right: 20px;
+      right: 18px;
       border: 3px solid var(--red);
       color: var(--red);
       transform: rotate(12deg);
-      box-shadow: 0 0 15px rgba(255, 51, 102, 0.3);
+      box-shadow: 0 0 20px rgba(255, 51, 102, 0.4);
     }
 
     .stamp-green {
-      left: 20px;
+      left: 18px;
       border: 3px solid var(--green);
       color: var(--green);
       transform: rotate(-12deg);
-      box-shadow: 0 0 15px rgba(0, 230, 118, 0.3);
+      box-shadow: 0 0 20px rgba(0, 230, 118, 0.4);
     }
 
-    /* Consensus Popup Overlay */
+    /* Interactive Consensus Modal */
     .consensus-overlay {
       position: absolute;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%) scale(0.9);
-      width: 92%;
+      width: 95%;
       background: #141224;
       border: 2px solid var(--purple);
-      border-radius: 20px;
-      padding: 20px 16px;
+      border-radius: 24px;
+      padding: 22px 18px;
       text-align: center;
       opacity: 0;
       pointer-events: none;
-      box-shadow: 0 20px 50px rgba(0,0,0,0.85);
+      box-shadow: 0 25px 60px rgba(0,0,0,0.9), 0 0 30px rgba(124,77,255,0.25);
       z-index: 20;
       transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     }
@@ -274,24 +299,46 @@
     .consensus-overlay.visible {
       opacity: 1;
       transform: translate(-50%, -50%) scale(1);
+      pointer-events: auto;
+    }
+
+    .consensus-your-vote {
+      font-size: 13px;
+      font-weight: 800;
+      margin-bottom: 8px;
+      padding: 4px 10px;
+      border-radius: 8px;
+      display: inline-block;
+    }
+
+    .vote-badge-green {
+      background: rgba(0, 230, 118, 0.15);
+      color: var(--green);
+      border: 1px solid rgba(0, 230, 118, 0.3);
+    }
+
+    .vote-badge-red {
+      background: rgba(255, 51, 102, 0.15);
+      color: var(--red);
+      border: 1px solid rgba(255, 51, 102, 0.3);
     }
 
     .consensus-title {
-      font-size: 13px;
+      font-size: 14px;
       font-weight: 800;
       text-transform: uppercase;
-      letter-spacing: 1px;
+      letter-spacing: 0.5px;
       color: #b39ddb;
       margin-bottom: 12px;
     }
 
     .consensus-bar-wrapper {
-      height: 24px;
+      height: 28px;
       background: #25213b;
-      border-radius: 12px;
+      border-radius: 14px;
       overflow: hidden;
       display: flex;
-      margin-bottom: 12px;
+      margin-bottom: 14px;
       border: 1px solid var(--card-border);
     }
 
@@ -301,8 +348,8 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 11px;
-      font-weight: 800;
+      font-size: 12px;
+      font-weight: 900;
       color: white;
       transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1);
     }
@@ -313,46 +360,83 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 11px;
-      font-weight: 800;
+      font-size: 12px;
+      font-weight: 900;
       color: #0b2210;
       transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1);
     }
 
     .consensus-flags {
       display: flex;
-      justify-content: space-around;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 8px 12px;
       font-size: 12px;
       font-weight: 600;
       color: var(--text-dim);
+      margin-bottom: 16px;
+      max-height: 90px;
+      overflow-y: auto;
+      padding: 4px;
+    }
+
+    .btn-next-card {
+      width: 100%;
+      height: 48px;
+      background: linear-gradient(135deg, var(--purple), #5e35b1);
+      border: none;
+      border-radius: 14px;
+      color: white;
+      font-size: 15px;
+      font-weight: 800;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      box-shadow: 0 4px 15px rgba(124,77,255,0.4);
+      transition: transform 0.1s, opacity 0.2s;
+    }
+
+    .btn-next-card:active {
+      transform: scale(0.97);
+    }
+
+    .auto-progress-bar {
+      height: 3px;
+      background: var(--purple);
+      border-radius: 2px;
+      margin-top: 10px;
+      width: 100%;
+      transform-origin: left;
     }
 
     /* Action Buttons */
     .controls {
       width: 100%;
       max-width: 420px;
-      padding: 10px 20px 24px;
+      padding: 10px 18px 24px;
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: 20px;
+      gap: 16px;
       z-index: 10;
     }
 
     .btn-action {
       flex: 1;
-      height: 56px;
-      border-radius: 18px;
+      height: 58px;
+      border-radius: 20px;
       border: none;
-      font-size: 16px;
-      font-weight: 800;
+      font-size: 15px;
+      font-weight: 900;
       display: flex;
       align-items: center;
       justify-content: center;
       gap: 8px;
       cursor: pointer;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.4);
-      transition: transform 0.1s, opacity 0.2s;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.5);
+      transition: transform 0.1s, box-shadow 0.2s;
     }
 
     .btn-action:active {
@@ -378,11 +462,10 @@
       height: 100%;
       background: var(--bg);
       z-index: 30;
-      padding: 30px 20px;
+      padding: 24px 18px;
       display: none;
       flex-direction: column;
       align-items: center;
-      justify-content: space-between;
       overflow-y: auto;
     }
 
@@ -392,52 +475,139 @@
 
     .recap-card {
       width: 100%;
-      max-width: 400px;
+      max-width: 420px;
       background: var(--card-bg);
       border: 2px solid var(--purple);
       border-radius: 24px;
-      padding: 24px;
+      padding: 20px;
       text-align: center;
-      box-shadow: 0 20px 40px rgba(124, 77, 255, 0.2);
+      box-shadow: 0 20px 50px rgba(124, 77, 255, 0.2);
+      margin-bottom: 16px;
+    }
+
+    .personality-badge {
+      display: inline-block;
+      background: linear-gradient(90deg, #ff9100, #ffd700);
+      color: #120b00;
+      font-size: 13px;
+      font-weight: 900;
+      padding: 4px 14px;
+      border-radius: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 8px;
     }
 
     .recap-title {
-      font-size: 24px;
+      font-size: 22px;
       font-weight: 900;
-      margin-bottom: 8px;
-      background: linear-gradient(90deg, #ffd700, #ff9100);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+      margin-bottom: 4px;
+      color: #fff;
     }
 
     .recap-score {
-      font-size: 42px;
+      font-size: 44px;
       font-weight: 900;
       color: var(--text);
-      margin: 12px 0 6px;
+      margin: 8px 0 4px;
     }
 
     .recap-desc {
-      font-size: 14px;
+      font-size: 13px;
       color: var(--text-dim);
-      line-height: 1.5;
+      line-height: 1.45;
+      margin-bottom: 12px;
+    }
+
+    /* Breakdown List of Played Cards */
+    .cards-breakdown-title {
+      font-size: 14px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: #b39ddb;
+      margin: 12px 0 8px;
+      text-align: left;
+      width: 100%;
+      max-width: 420px;
+    }
+
+    .cards-breakdown-list {
+      width: 100%;
+      max-width: 420px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
       margin-bottom: 16px;
+    }
+
+    .breakdown-item {
+      background: #141224;
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      padding: 12px 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      text-align: left;
+    }
+
+    .breakdown-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 11px;
+      font-weight: 800;
+    }
+
+    .breakdown-text {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text);
+      line-height: 1.4;
+    }
+
+    .breakdown-stats {
+      font-size: 11px;
+      color: var(--text-dim);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-top: 1px solid rgba(255,255,255,0.06);
+      padding-top: 4px;
+      margin-top: 2px;
+    }
+
+    .badge-majority {
+      background: rgba(0, 230, 118, 0.15);
+      color: var(--green);
+      padding: 2px 6px;
+      border-radius: 6px;
+      font-weight: 800;
+    }
+
+    .badge-minority {
+      background: rgba(255, 145, 0, 0.15);
+      color: var(--orange);
+      padding: 2px 6px;
+      border-radius: 6px;
+      font-weight: 800;
     }
 
     .cta-container {
       width: 100%;
-      max-width: 400px;
+      max-width: 420px;
       display: flex;
       flex-direction: column;
-      gap: 12px;
-      margin-top: 16px;
+      gap: 10px;
+      padding-bottom: 20px;
     }
 
     .btn-store {
       background: linear-gradient(135deg, #7c4dff, #ff3366);
       color: white;
       text-decoration: none;
-      height: 58px;
+      height: 56px;
       border-radius: 18px;
       display: flex;
       align-items: center;
@@ -449,33 +619,27 @@
     }
 
     .btn-store:active {
-      transform: scale(0.97);
+      transform: scale(0.98);
     }
 
     .btn-replay {
-      background: #1f1c34;
-      border: 1px solid var(--card-border);
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.15);
       color: var(--text);
       height: 48px;
       border-radius: 16px;
       font-size: 14px;
       font-weight: 700;
       cursor: pointer;
+      transition: background 0.2s;
     }
 
     .link-home {
-      text-align: center;
+      color: var(--text-dim);
       font-size: 13px;
-      color: var(--text-dim);
+      text-align: center;
       text-decoration: none;
-      margin-top: 6px;
-    }
-
-    /* Loading Spinner */
-    .loader {
-      font-size: 16px;
-      font-weight: 700;
-      color: var(--text-dim);
+      padding: 6px;
     }
   </style>
 </head>
@@ -484,17 +648,16 @@
   <div class="glow-left"></div>
   <div class="glow-right"></div>
 
-  <!-- Top Header -->
+  <!-- Top Navigation Header -->
   <header>
     <a href="index.html" class="brand">
-      <div class="logo-badge">⚡</div>
-      <span class="app-name">SWIPE PANIC</span>
+      <div class="logo-badge">🔥</div>
+      <div class="brand-title">SWIPE PANIC</div>
     </a>
+
     <div class="header-controls">
-      <select id="countrySelect" class="lang-select" title="">
-        <!-- Filled at runtime from the ISO list: every country in the world. -->
-      </select>
-      <select id="langSelect" class="lang-select">
+      <select id="countrySelect" class="select-dropdown" aria-label="Choisir mon pays"></select>
+      <select id="langSelect" class="select-dropdown" aria-label="Langue">
         <option value="fr">🇫🇷 FR</option>
         <option value="en">🇬🇧 EN</option>
         <option value="es">🇪🇸 ES</option>
@@ -510,17 +673,23 @@
     <div id="packPill" class="pack-pill">⚡ Mini-Jeu Web</div>
 
     <div class="card-container" id="cardContainer">
+      <div class="card-back" id="cardBack"></div>
       <div class="loader" id="loader">Chargement des dilemmes...</div>
     </div>
 
-    <!-- Live Consensus Popup -->
+    <!-- Interactive Live Consensus Popup -->
     <div class="consensus-overlay" id="consensusOverlay">
+      <div id="consensusYourVote" class="consensus-your-vote">Ton vote : 🚩 RED FLAG</div>
       <div class="consensus-title" id="consensusTitle">🌍 Consensus Mondial</div>
       <div class="consensus-bar-wrapper">
         <div class="consensus-fill-red" id="consensusRed">50%</div>
         <div class="consensus-fill-green" id="consensusGreen">50%</div>
       </div>
       <div class="consensus-flags" id="consensusFlags"></div>
+      <button class="btn-next-card" id="btnNextCard">
+        <span id="btnNextText">Carte suivante ➔</span>
+      </button>
+      <div class="auto-progress-bar" id="autoProgressBar"></div>
     </div>
   </div>
 
@@ -536,23 +705,26 @@
 
   <!-- End of Session Recap Modal -->
   <div class="recap-screen" id="recapScreen">
-    <div style="height: 10px;"></div>
     <div class="recap-card">
-      <div class="recap-title" id="recapTitle">🏆 RECAP SESSION</div>
+      <div class="personality-badge" id="personalityBadge">PETIT DÉMON 😈</div>
+      <div class="recap-title" id="recapTitle">RÉSUMÉ DE PARTIE</div>
       <div class="recap-score" id="recapScore">84%</div>
       <p class="recap-desc" id="recapText">
         Tu es en phase avec le consensus mondial ! Tes amis auraient-ils fait les mêmes choix ?
       </p>
-      <div style="font-size: 13px; color: #b39ddb; margin-top: 10px;" id="recapCounts">
+      <div style="font-size: 13px; color: #b39ddb;" id="recapCounts">
         🚩 3 Red Flags • 🟢 2 Green Flags
       </div>
     </div>
+
+    <div class="cards-breakdown-title" id="breakdownTitle">📋 Détail de tes réponses</div>
+    <div class="cards-breakdown-list" id="cardsBreakdownList"></div>
 
     <div class="cta-container">
       <a href="https://play.google.com/store/apps/details?id=com.swipepanic.swipe_panic" target="_blank" class="btn-store" id="ctaStore">
         📲 Télécharger l'App Gratuite
       </a>
-      <button class="btn-replay" id="btnReplay">🔄 Rejouer 5 cartes</button>
+      <button class="btn-replay" id="btnReplay">🔄 Rejouer d'autres cartes</button>
       <a href="index.html" class="link-home" id="linkHome">Retour à l'accueil</a>
     </div>
   </div>
@@ -560,19 +732,6 @@
   <script>
     'use strict';
 
-    // Complete 6-language translations dictionary
-    // ---------------------------------------------------------------
-    // Country of the voter.
-    //
-    // Same rule as the live: the country is DECLARED by the person, never
-    // inferred from an IP or from the language. Language and country are two
-    // separate notions - a locale like "fr" carries no region.
-    //
-    // The consensus data is keyed by flag emoji, which is derivable from the
-    // ISO 3166-1 alpha-2 code, and the country NAME comes from the browser via
-    // Intl.DisplayNames in the active language. So the whole world fits in one
-    // list of codes, translated for free in every language.
-    // ---------------------------------------------------------------
     const COUNTRY_CODES = (
       'AD AE AF AG AL AM AO AR AT AU AZ BA BB BD BE BF BG BH BI BJ BN BO BR BS ' +
       'BT BW BY BZ CA CD CF CG CH CI CL CM CN CO CR CU CV CY CZ DE DJ DK DM DO ' +
@@ -593,8 +752,6 @@
       );
     }
 
-    // Flag emoji -> ISO code, so a stored flag survives and stays comparable
-    // with the flags the live writes into the consensus file.
     const CODE_BY_FLAG = {};
     for (const code of COUNTRY_CODES) CODE_BY_FLAG[flagFromCode(code)] = code;
 
@@ -611,18 +768,14 @@
       try {
         const raw = localStorage.getItem(COUNTRY_STORAGE_KEY);
         if (raw && CODE_BY_FLAG[raw]) return raw;
-      } catch (err) {
-        // Private browsing or blocked storage: fall through to "unset".
-      }
+      } catch (err) {}
       return '';
     }
 
     function storeCountry(flag) {
       try {
         localStorage.setItem(COUNTRY_STORAGE_KEY, flag);
-      } catch (err) {
-        // Non-fatal: the vote still carries the country for this session.
-      }
+      } catch (err) {}
     }
 
     let currentCountry = readStoredCountry();
@@ -649,17 +802,6 @@
       select.title = t.countryPrompt;
     }
 
-    // ---------------------------------------------------------------
-    // Vote recording.
-    //
-    // Endpoint is configuration, not code: while SP_VOTE_ENDPOINT is empty
-    // nothing is sent and the page behaves exactly as before. Point it at a
-    // collector and votes start flowing, with the provenance the contract
-    // requires (source: web_votes, declared country).
-    // ---------------------------------------------------------------
-    // The collector is a Google Form response endpoint: public by design, which
-    // is exactly why no token has to live in this page. vote_config.json holds
-    // the ids; while it is absent nothing is sent and the game is unchanged.
     let voteConfig = null;
 
     async function loadVoteConfig() {
@@ -669,14 +811,9 @@
         const config = await res.json();
         if (!config.formId || String(config.formId).includes('REPLACE')) return;
         voteConfig = config;
-      } catch (err) {
-        // No collector configured. Voting still works, it just is not counted.
-      }
+      } catch (err) {}
     }
 
-    // Votes are buffered and sent as one batch per session: one request instead
-    // of one per swipe. sendBeacon keeps the batch alive when the tab closes,
-    // so a player who leaves on the last card still counts.
     let voteBuffer = [];
 
     function submitVote(cardId, direction) {
@@ -712,8 +849,6 @@
               }),
             );
           } else {
-            // no-cors: the form accepts the write but returns an opaque
-            // response. There is nothing to read back, and nothing to leak.
             fetch(url, {
               method: 'POST',
               mode: 'no-cors',
@@ -722,9 +857,7 @@
               keepalive: true,
             }).catch(() => {});
           }
-        } catch (err) {
-          // Silent by design: a collector outage is not the player's problem.
-        }
+        } catch (err) {}
       }
     }
 
@@ -739,6 +872,11 @@
         consensusTitleMeasured: "🌍 Consensus Mondial",
         consensusTitleNeutral: "⏳ Pas encore assez de votes",
         consensusSubtitleNeutral: "À toi d'ouvrir le débat !",
+        yourVoteIs: "Ton choix :",
+        btnNext: "Carte suivante ➔",
+        breakdownTitle: "📋 Détail de tes réponses",
+        majorityTag: "🎯 Majorité",
+        minorityTag: "⚡ Minorité",
         redFlag: "RED FLAG",
         greenFlag: "GREEN FLAG",
         falseLabel: "FAUX",
@@ -748,11 +886,11 @@
         swipeOrClick: "Swipe ou clique",
         leftHint: "👈 Gauche",
         rightHint: "Droite 👉",
-        recapTitle: "🏆 RECAP SESSION",
-        recapAgreedDesc: "Tu es en phase avec le consensus mondial sur {count} cartes mesurées !",
+        recapTitle: "RÉSUMÉ DE PARTIE",
+        recapAgreedDesc: "Tu es en phase avec le consensus mondial sur {count} dilemmes mesurés !",
         recapNeutralDesc: "Tes choix de la session. En soirée, tes amis auraient-ils assumé les mêmes réponses ?",
         ctaStore: "📲 Télécharger l'App Gratuite",
-        btnReplay: "🔄 Rejouer 5 cartes",
+        btnReplay: "🔄 Rejouer d'autres cartes",
         linkHome: "Retour à l'accueil",
         packMini: "⚡ Mini-Jeu Web",
         errorLoad: "Erreur de chargement. Recharge la page.",
@@ -761,13 +899,22 @@
         countryNoData: "Pas encore de votes pour ton pays — le tien comptera.",
         countryCompare: "Comparer les pays ({count})",
         countryPick: "Choisis ton pays pour qu'il compte",
-        votesLabel: "{count} votes"
+        votesLabel: "{count} votes",
+        demonVerdict: "PETIT DÉMON 😈",
+        angelVerdict: "PUR ANGELOT 😇",
+        masterVerdict: "MAÎTRE DU CONSENSUS 🎯",
+        chaoticVerdict: "NEUTRE CHAOTIQUE ⚖️"
       },
       en: {
         loading: "Loading cards...",
         consensusTitleMeasured: "🌍 Global Consensus",
         consensusTitleNeutral: "⏳ Not enough votes yet",
         consensusSubtitleNeutral: "You're opening the debate!",
+        yourVoteIs: "Your choice:",
+        btnNext: "Next card ➔",
+        breakdownTitle: "📋 Your choices in detail",
+        majorityTag: "🎯 Majority",
+        minorityTag: "⚡ Minority",
         redFlag: "RED FLAG",
         greenFlag: "GREEN FLAG",
         falseLabel: "FALSE",
@@ -777,11 +924,11 @@
         swipeOrClick: "Swipe or click",
         leftHint: "👈 Left",
         rightHint: "Right 👉",
-        recapTitle: "🏆 SESSION RECAP",
+        recapTitle: "SESSION SUMMARY",
         recapAgreedDesc: "You align with global opinion on {count} measured dilemmas!",
         recapNeutralDesc: "Your session choices. Would your friends agree in a party?",
         ctaStore: "📲 Download Free App",
-        btnReplay: "🔄 Replay 5 cards",
+        btnReplay: "🔄 Replay more cards",
         linkHome: "Back to Home",
         packMini: "⚡ Web Mini-Game",
         errorLoad: "Loading error. Please refresh.",
@@ -790,13 +937,22 @@
         countryNoData: "No votes from your country yet — yours will count.",
         countryCompare: "Compare countries ({count})",
         countryPick: "Pick your country so it counts",
-        votesLabel: "{count} votes"
+        votesLabel: "{count} votes",
+        demonVerdict: "LITTLE DEMON 😈",
+        angelVerdict: "PURE ANGEL 😇",
+        masterVerdict: "CONSENSUS MASTER 🎯",
+        chaoticVerdict: "NEUTRAL CHAOTIC ⚖️"
       },
       es: {
         loading: "Cargando cartas...",
         consensusTitleMeasured: "🌍 Consenso Mundial",
         consensusTitleNeutral: "⏳ Aún no hay suficientes votos",
         consensusSubtitleNeutral: "¡Tú abres el debate!",
+        yourVoteIs: "Tu elección:",
+        btnNext: "Siguiente carta ➔",
+        breakdownTitle: "📋 Detalle de tus respuestas",
+        majorityTag: "🎯 Mayoría",
+        minorityTag: "⚡ Minoría",
         redFlag: "RED FLAG",
         greenFlag: "GREEN FLAG",
         falseLabel: "FALSO",
@@ -806,11 +962,11 @@
         swipeOrClick: "Desliza o haz clic",
         leftHint: "👈 Izquierda",
         rightHint: "Derecha 👉",
-        recapTitle: "🏆 RESUMEN DE SESIÓN",
+        recapTitle: "RESUMEN DE SESIÓN",
         recapAgreedDesc: "¡Estás en sintonía con el consenso mundial en {count} cartas!",
         recapNeutralDesc: "Tus decisiones de la sesión. ¿Habrían opinado lo mismo tus amigos?",
         ctaStore: "📲 Descargar App Gratis",
-        btnReplay: "🔄 Jugar 5 cartas más",
+        btnReplay: "🔄 Jugar más cartas",
         linkHome: "Volver al inicio",
         packMini: "⚡ Mini-Juego Web",
         errorLoad: "Error al cargar.",
@@ -819,13 +975,22 @@
         countryNoData: "Aún no hay votos de tu país — el tuyo contará.",
         countryCompare: "Comparar países ({count})",
         countryPick: "Elige tu país para que cuente",
-        votesLabel: "{count} votos"
+        votesLabel: "{count} votos",
+        demonVerdict: "PEQUEÑO DEMONIO 😈",
+        angelVerdict: "PURO ANGELITO 😇",
+        masterVerdict: "MAESTRO DEL CONSENSO 🎯",
+        chaoticVerdict: "NEUTRO CAÓTICO ⚖️"
       },
       de: {
         loading: "Karten werden geladen...",
         consensusTitleMeasured: "🌍 Weltweiter Konsens",
         consensusTitleNeutral: "⏳ Noch nicht genug Stimmen",
         consensusSubtitleNeutral: "Du eröffnest die Debatte!",
+        yourVoteIs: "Deine Wahl:",
+        btnNext: "Nächste Karte ➔",
+        breakdownTitle: "📋 Deine Antworten im Detail",
+        majorityTag: "🎯 Mehrheit",
+        minorityTag: "⚡ Minderheit",
         redFlag: "RED FLAG",
         greenFlag: "GREEN FLAG",
         falseLabel: "FALSCH",
@@ -835,11 +1000,11 @@
         swipeOrClick: "Wischen oder klicken",
         leftHint: "👈 Links",
         rightHint: "Rechts 👉",
-        recapTitle: "🏆 SPIELÜBERSICHT",
+        recapTitle: "SPIELÜBERSICHT",
         recapAgreedDesc: "Du stimmst mit dem weltweiten Trend bei {count} Karten überein!",
         recapNeutralDesc: "Deine Spielauswahl. Würden deine Freunde genauso entscheiden?",
         ctaStore: "📲 Kostenlose App laden",
-        btnReplay: "🔄 Noch 5 Karten spielen",
+        btnReplay: "🔄 Weitere Karten spielen",
         linkHome: "Zur Startseite",
         packMini: "⚡ Web-Minispiel",
         errorLoad: "Fehler beim Laden.",
@@ -848,13 +1013,22 @@
         countryNoData: "Noch keine Stimmen aus deinem Land — deine zählt.",
         countryCompare: "Länder vergleichen ({count})",
         countryPick: "Wähle dein Land, damit es zählt",
-        votesLabel: "{count} Stimmen"
+        votesLabel: "{count} Stimmen",
+        demonVerdict: "KLEINER DÄMON 😈",
+        angelVerdict: "REINER ENGEL 😇",
+        masterVerdict: "KONSENS-MEISTER 🎯",
+        chaoticVerdict: "NEUTRAL CHAOTISCH ⚖️"
       },
       nl: {
         loading: "Kaarten laden...",
         consensusTitleMeasured: "🌍 Wereldwijde Consensus",
         consensusTitleNeutral: "⏳ Nog niet genoeg stemmen",
         consensusSubtitleNeutral: "Jij opent het debat!",
+        yourVoteIs: "Jouw keuze:",
+        btnNext: "Volgende kaart ➔",
+        breakdownTitle: "📋 Overzicht van je antwoorden",
+        majorityTag: "🎯 Meerderheid",
+        minorityTag: "⚡ Minderheid",
         redFlag: "RED FLAG",
         greenFlag: "GREEN FLAG",
         falseLabel: "ONWAAR",
@@ -864,11 +1038,11 @@
         swipeOrClick: "Swipe of klik",
         leftHint: "👈 Links",
         rightHint: "Rechts 👉",
-        recapTitle: "🏆 SESSIE OVERZICHT",
+        recapTitle: "SESSIE OVERZICHT",
         recapAgreedDesc: "Je zit op één lijn met de wereldwijde mening op {count} kaarten!",
         recapNeutralDesc: "Jouw keuzes. Zouden je vrienden op een feestje hetzelfde kiezen?",
         ctaStore: "📲 Download Gratis App",
-        btnReplay: "🔄 Nog 5 kaarten spelen",
+        btnReplay: "🔄 Meer kaarten spelen",
         linkHome: "Terug naar startpagina",
         packMini: "⚡ Web Minigame",
         errorLoad: "Laadfout.",
@@ -877,13 +1051,22 @@
         countryNoData: "Nog geen stemmen uit jouw land — die van jou telt.",
         countryCompare: "Landen vergelijken ({count})",
         countryPick: "Kies je land zodat het meetelt",
-        votesLabel: "{count} stemmen"
+        votesLabel: "{count} stemmen",
+        demonVerdict: "KLEIN DUIVELTJE 😈",
+        angelVerdict: "ZUIVERE ENGEL 😇",
+        masterVerdict: "CONSENSUS MEESTER 🎯",
+        chaoticVerdict: "NEUTRAAL CHAOTISCH ⚖️"
       },
       pt: {
         loading: "Carregando cartas...",
         consensusTitleMeasured: "🌍 Consenso Global",
         consensusTitleNeutral: "⏳ Ainda não há votos suficientes",
         consensusSubtitleNeutral: "Você está abrindo o debate!",
+        yourVoteIs: "A tua escolha:",
+        btnNext: "Próxima carta ➔",
+        breakdownTitle: "📋 Detalhe das tuas respostas",
+        majorityTag: "🎯 Maioria",
+        minorityTag: "⚡ Minoria",
         redFlag: "RED FLAG",
         greenFlag: "GREEN FLAG",
         falseLabel: "FALSO",
@@ -893,11 +1076,11 @@
         swipeOrClick: "Deslize ou clique",
         leftHint: "👈 Esquerda",
         rightHint: "Direita 👉",
-        recapTitle: "🏆 RESUMO DA SESSÃO",
+        recapTitle: "RESUMO DA SESSÃO",
         recapAgreedDesc: "Você está em sintonia com a opinião mundial em {count} cartas!",
         recapNeutralDesc: "Suas escolhas. Seus amigos teriam assumido as mesmas respostas?",
         ctaStore: "📲 Baixar App Grátis",
-        btnReplay: "🔄 Jogar mais 5 cartas",
+        btnReplay: "🔄 Jogar mais cartas",
         linkHome: "Voltar ao início",
         packMini: "⚡ Mini-Jogo Web",
         errorLoad: "Erro ao carregar.",
@@ -906,15 +1089,19 @@
         countryNoData: "Ainda sem votos do teu país — o teu vai contar.",
         countryCompare: "Comparar países ({count})",
         countryPick: "Escolhe o teu país para que conte",
-        votesLabel: "{count} votos"
+        votesLabel: "{count} votos",
+        demonVerdict: "PEQUENO DEMÔNIO 😈",
+        angelVerdict: "PURO ANJINHO 😇",
+        masterVerdict: "MESTRE DO CONSENSO 🎯",
+        chaoticVerdict: "NEUTRO CAÓTICO ⚖️"
       }
     };
 
-    // State Variables
     let currentLang = 'fr';
     let allCards = [];
     let consensusData = {};
     let sessionQueue = [];
+    let playedHistory = [];
     let swipedCount = 0;
     let redCount = 0;
     let greenCount = 0;
@@ -922,8 +1109,8 @@
     let measuredTotalCount = 0;
     let isTransitioning = false;
     let maxSessionCards = 5;
+    let autoAdvanceTimer = null;
 
-    // Detect Language from URL or Browser
     function detectLocale() {
       const params = new URLSearchParams(window.location.search);
       const urlLang = params.get('lang');
@@ -935,13 +1122,16 @@
     currentLang = detectLocale();
     document.getElementById('langSelect').value = currentLang;
 
-    // UI Elements
     const cardContainer = document.getElementById('cardContainer');
     const consensusOverlay = document.getElementById('consensusOverlay');
+    const consensusYourVote = document.getElementById('consensusYourVote');
     const consensusTitle = document.getElementById('consensusTitle');
     const consensusRed = document.getElementById('consensusRed');
     const consensusGreen = document.getElementById('consensusGreen');
     const consensusFlags = document.getElementById('consensusFlags');
+    const btnNextCard = document.getElementById('btnNextCard');
+    const btnNextText = document.getElementById('btnNextText');
+    const autoProgressBar = document.getElementById('autoProgressBar');
     const btnRed = document.getElementById('btnRed');
     const btnGreen = document.getElementById('btnGreen');
     const labelRed = document.getElementById('labelRed');
@@ -949,6 +1139,7 @@
     const iconRed = document.getElementById('iconRed');
     const iconGreen = document.getElementById('iconGreen');
     const recapScreen = document.getElementById('recapScreen');
+    const cardsBreakdownList = document.getElementById('cardsBreakdownList');
 
     function applyTranslations() {
       const t = i18n[currentLang] || i18n.fr;
@@ -956,8 +1147,9 @@
       document.getElementById('btnReplay').textContent = t.btnReplay;
       document.getElementById('linkHome').textContent = t.linkHome;
       document.getElementById('packPill').textContent = t.packMini;
+      document.getElementById('breakdownTitle').textContent = t.breakdownTitle;
+      btnNextText.textContent = t.btnNext;
 
-      // Country names follow the active language; the CHOSEN country does not.
       buildCountrySelect(currentLang);
       
       const topCard = cardContainer.querySelector('.card');
@@ -1020,10 +1212,8 @@
       applyTranslations();
     });
 
-    // Load Data
     async function initGame() {
       try {
-        // Fire and forget: a missing collector must never delay the game.
         loadVoteConfig();
 
         const [catalogRes, consensusRes] = await Promise.all([
@@ -1033,7 +1223,6 @@
 
         consensusData = consensusRes || {};
         
-        // Flatten all public/safe cards
         allCards = [];
         const rawList = catalogRes.cards || [];
         if (rawList.length > 0) {
@@ -1058,7 +1247,10 @@
       measuredAgreedCount = 0;
       measuredTotalCount = 0;
       isTransitioning = false;
+      playedHistory = [];
       recapScreen.classList.remove('active');
+      consensusOverlay.classList.remove('visible');
+      if (autoAdvanceTimer) clearTimeout(autoAdvanceTimer);
 
       const params = new URLSearchParams(window.location.search);
       const targetCardsParam = params.get('cards');
@@ -1067,7 +1259,6 @@
 
       sessionQueue = [];
 
-      // Support exact carousel card lists: ?cards=id1,id2,id3
       if (targetCardsParam) {
         const ids = targetCardsParam.split(',').map(s => s.trim()).filter(Boolean);
         for (const id of ids) {
@@ -1088,14 +1279,12 @@
       }
       if (pool.length === 0) pool = [...allCards];
 
-      // Prioritize cards with measured consensus for random sessions
       const poolWithStats = pool.filter(c => consensusData[c.id] && (consensusData[c.id].reject !== undefined));
       const poolWithoutStats = pool.filter(c => !consensusData[c.id]);
 
       poolWithStats.sort(() => Math.random() - 0.5);
       poolWithoutStats.sort(() => Math.random() - 0.5);
 
-      // If specific card requested via deep link, put it first!
       if (targetCardId) {
         const priorityCard = allCards.find(c => c.id === targetCardId);
         if (priorityCard) {
@@ -1105,7 +1294,6 @@
         }
       }
 
-      // Fill remaining session cards (prioritizing measured cards)
       while (sessionQueue.length < maxSessionCards && poolWithStats.length > 0) {
         sessionQueue.push(poolWithStats.pop());
       }
@@ -1121,6 +1309,13 @@
       if (sessionQueue.length === 0 || swipedCount >= maxSessionCards) {
         showRecap();
         return;
+      }
+
+      // Add background card if there is a next card in queue
+      if (sessionQueue.length > 1) {
+        const backCard = document.createElement('div');
+        backCard.className = 'card-back';
+        cardContainer.appendChild(backCard);
       }
 
       const cardData = sessionQueue[0];
@@ -1172,28 +1367,34 @@
         const rotate = currentX * 0.08;
         card.style.transform = `translate(${currentX}px, ${currentY}px) rotate(${rotate}deg)`;
 
-        const normalized = Math.min(Math.abs(currentX) / 100, 1);
+        const normalized = Math.min(Math.abs(currentX) / 90, 1);
         if (currentX > 0) {
           stampGreen.style.opacity = normalized;
           stampRed.style.opacity = 0;
+          card.style.borderColor = `rgba(0, 230, 118, ${normalized * 0.8})`;
+          card.style.boxShadow = `0 20px 50px rgba(0,0,0,0.7), 0 0 ${normalized * 25}px rgba(0,230,118,${normalized * 0.4})`;
         } else {
           stampRed.style.opacity = normalized;
           stampGreen.style.opacity = 0;
+          card.style.borderColor = `rgba(255, 51, 102, ${normalized * 0.8})`;
+          card.style.boxShadow = `0 20px 50px rgba(0,0,0,0.7), 0 0 ${normalized * 25}px rgba(255,51,102,${normalized * 0.4})`;
         }
       }
 
       function onEnd() {
         if (!isDragging || isTransitioning) return;
         isDragging = false;
-        const threshold = 80;
+        const threshold = 75;
 
         if (currentX > threshold) {
           performSwipe(card, cardData, 'green');
         } else if (currentX < -threshold) {
           performSwipe(card, cardData, 'red');
         } else {
-          card.style.transition = 'transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275)';
+          card.style.transition = 'transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), border-color 0.3s, box-shadow 0.3s';
           card.style.transform = 'translate(0px, 0px) rotate(0deg)';
+          card.style.borderColor = 'var(--card-border)';
+          card.style.boxShadow = '0 20px 50px rgba(0,0,0,0.7)';
           stampGreen.style.opacity = 0;
           stampRed.style.opacity = 0;
         }
@@ -1211,30 +1412,54 @@
 
       const flyX = direction === 'green' ? window.innerWidth + 200 : -window.innerWidth - 200;
       cardEl.style.transition = 'transform 0.4s ease-out, opacity 0.3s';
-      cardEl.style.transform = `translate(${flyX}px, 50px) rotate(${direction === 'green' ? 30 : -30}deg)`;
+      cardEl.style.transform = `translate(${flyX}px, 40px) rotate(${direction === 'green' ? 30 : -30}deg)`;
       cardEl.style.opacity = '0';
 
       swipedCount++;
       if (direction === 'green') greenCount++;
       else redCount++;
 
-      // Record the vote before showing the result, so a player who closes the
-      // page on the reveal still counts.
+      // Save to played history for the end-game breakdown
+      const stat = consensusData[cardData.id];
+      playedHistory.push({
+        card: cardData,
+        choice: direction,
+        stat: stat || null
+      });
+
       submitVote(cardData.id, direction);
 
-      // Show Honest Consensus Stats Popup
-      showConsensus(cardData.id, direction);
-
+      // Show Interactive Consensus Stats Popup
       setTimeout(() => {
-        sessionQueue.shift();
-        renderTopCard();
-      }, 1200);
+        showConsensus(cardData.id, direction);
+      }, 200);
     }
+
+    function advanceToNextCard() {
+      if (autoAdvanceTimer) clearTimeout(autoAdvanceTimer);
+      consensusOverlay.classList.remove('visible');
+      sessionQueue.shift();
+      setTimeout(() => {
+        renderTopCard();
+      }, 250);
+    }
+
+    btnNextCard.addEventListener('click', () => {
+      advanceToNextCard();
+    });
 
     function showConsensus(cardId, userChoice) {
       const t = i18n[currentLang] || i18n.fr;
       const stat = consensusData[cardId];
       const hasRealConsensus = stat && (stat.reject !== undefined) && (stat.accept !== undefined);
+
+      if (userChoice === 'green') {
+        consensusYourVote.className = 'consensus-your-vote vote-badge-green';
+        consensusYourVote.textContent = `${t.yourVoteIs} 🟢 ${t.greenFlag}`;
+      } else {
+        consensusYourVote.className = 'consensus-your-vote vote-badge-red';
+        consensusYourVote.textContent = `${t.yourVoteIs} 🚩 ${t.redFlag}`;
+      }
 
       if (hasRealConsensus) {
         const rejectPct = stat.reject;
@@ -1251,15 +1476,9 @@
         consensusGreen.style.width = `${acceptPct}%`;
         consensusGreen.textContent = `🟢 ${acceptPct}%`;
 
-        // Every country actually present in the data, none invented.
-        // A country with no measurement is OMITTED, never given the world
-        // figure: showing the global number under a flag would claim a
-        // measurement that was never taken.
         const c = stat.countries || {};
         const present = Object.keys(c);
 
-        // The voter's own country first when it has data - that is the
-        // comparison people came for.
         present.sort((a, b) => {
           if (a === currentCountry) return -1;
           if (b === currentCountry) return 1;
@@ -1268,15 +1487,13 @@
 
         const parts = present.map((flag) => {
           const entry = c[flag];
-          const mine = flag === currentCountry ? ' style="font-weight:900"' : '';
+          const mine = flag === currentCountry ? ' style="font-weight:900; color:#ffd700;"' : '';
           const n = Number.isInteger(entry.sample_size)
             ? ` <small>(${t.votesLabel.replace('{count}', entry.sample_size)})</small>`
             : '';
           return `<span${mine}>${flag} 🚩 ${entry.reject}%${n}</span>`;
         });
 
-        // The voter's country is missing from the data: say so plainly, and
-        // turn it into the reason to vote rather than into a fake number.
         if (currentCountry && !c[currentCountry]) {
           parts.push(`<span>${currentCountry} ${t.countryNoData}</span>`);
         } else if (!currentCountry) {
@@ -1286,7 +1503,6 @@
         consensusFlags.style.display = 'flex';
         consensusFlags.innerHTML = parts.join('');
       } else {
-        // Honest neutral state when not enough votes yet
         consensusTitle.textContent = t.consensusTitleNeutral;
         consensusRed.style.width = '50%';
         consensusRed.textContent = '50%';
@@ -1297,12 +1513,20 @@
       }
 
       consensusOverlay.classList.add('visible');
+
+      // Auto-advance after 4 seconds (with interactive skip button anytime)
+      autoProgressBar.style.transition = 'none';
+      autoProgressBar.style.transform = 'scaleX(1)';
       setTimeout(() => {
-        consensusOverlay.classList.remove('visible');
-      }, 1100);
+        autoProgressBar.style.transition = 'transform 3.8s linear';
+        autoProgressBar.style.transform = 'scaleX(0)';
+      }, 50);
+
+      autoAdvanceTimer = setTimeout(() => {
+        advanceToNextCard();
+      }, 4000);
     }
 
-    // Button controls
     btnRed.addEventListener('click', () => {
       if (isTransitioning) return;
       const topCard = cardContainer.querySelector('.card');
@@ -1315,16 +1539,29 @@
       if (topCard && topCard._cardData) performSwipe(topCard, topCard._cardData, 'green');
     });
 
-    // Keyboard support
     window.addEventListener('keydown', (e) => {
       if (isTransitioning) return;
       if (e.key === 'ArrowLeft') btnRed.click();
       else if (e.key === 'ArrowRight') btnGreen.click();
+      else if (e.key === ' ' || e.key === 'Enter') {
+        if (consensusOverlay.classList.contains('visible')) advanceToNextCard();
+      }
     });
 
     function showRecap() {
       const t = i18n[currentLang] || i18n.fr;
       document.getElementById('recapTitle').textContent = t.recapTitle;
+
+      // Determine Personality verdict
+      let verdict = t.chaoticVerdict;
+      if (redCount >= 4) {
+        verdict = t.demonVerdict;
+      } else if (greenCount >= 4) {
+        verdict = t.angelVerdict;
+      } else if (measuredTotalCount > 0 && (measuredAgreedCount / measuredTotalCount) >= 0.7) {
+        verdict = t.masterVerdict;
+      }
+      document.getElementById('personalityBadge').textContent = verdict;
 
       if (measuredTotalCount > 0) {
         const agreementPct = Math.round((measuredAgreedCount / measuredTotalCount) * 100);
@@ -1335,8 +1572,41 @@
         document.getElementById('recapText').textContent = t.recapNeutralDesc;
       }
 
-      document.getElementById('recapCounts').textContent = `🚩 ${redCount} • 🟢 ${greenCount}`;
-      // The session is over: send the batch now rather than hoping for pagehide.
+      document.getElementById('recapCounts').textContent = `🚩 ${redCount} ${t.redFlag} • 🟢 ${greenCount} ${t.greenFlag}`;
+
+      // Build Full Breakdown List of all cards played
+      cardsBreakdownList.innerHTML = '';
+      playedHistory.forEach((item, index) => {
+        const cardText = item.card.texts[currentLang] || item.card.texts.en || item.card.texts.fr || '';
+        const isGreen = item.choice === 'green';
+        const choiceBadge = isGreen 
+          ? `<span class="badge-majority">🟢 ${t.greenFlag}</span>`
+          : `<span class="vote-badge-red" style="padding:2px 6px; border-radius:6px; font-weight:800;">🚩 ${t.redFlag}</span>`;
+
+        let consensusSnippet = '';
+        if (item.stat && item.stat.reject !== undefined) {
+          const isMajority = (item.choice === 'red' && item.stat.reject >= 50) || (item.choice === 'green' && item.stat.accept >= 50);
+          const tag = isMajority 
+            ? `<span class="badge-majority">${t.majorityTag}</span>`
+            : `<span class="badge-minority">${t.minorityTag}</span>`;
+          consensusSnippet = `<span>🌍 ${item.stat.reject}% 🚩 • ${item.stat.accept}% 🟢</span> ${tag}`;
+        } else {
+          consensusSnippet = `<span>🌍 En attente de votes</span>`;
+        }
+
+        const div = document.createElement('div');
+        div.className = 'breakdown-item';
+        div.innerHTML = `
+          <div class="breakdown-header">
+            <span>#${index + 1} ${item.card.theme || 'dilemma'}</span>
+            ${choiceBadge}
+          </div>
+          <div class="breakdown-text">${cardText}</div>
+          <div class="breakdown-stats">${consensusSnippet}</div>
+        `;
+        cardsBreakdownList.appendChild(div);
+      });
+
       flushVotes();
       recapScreen.classList.add('active');
     }
@@ -1345,7 +1615,6 @@
       prepareSession();
     });
 
-    // Launch
     initGame();
   </script>
 </body>
