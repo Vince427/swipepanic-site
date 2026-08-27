@@ -764,12 +764,44 @@
       }
     }
 
+    const LANG_DEFAULT_COUNTRY = {
+      fr: 'FR',
+      de: 'DE',
+      nl: 'NL',
+      pt: 'BR',
+      es: 'ES',
+      en: 'US'
+    };
+
+    function inferCountryFromLocale() {
+      try {
+        const navLangs = navigator.languages || [navigator.language || navigator.userLanguage || ''];
+        for (const l of navLangs) {
+          if (!l) continue;
+          const match = l.match(/[-_]([a-zA-Z]{2})\b/);
+          if (match) {
+            const countryIso = match[1].toUpperCase();
+            if (COUNTRY_CODES.includes(countryIso)) {
+              const flag = flagFromCode(countryIso);
+              if (CODE_BY_FLAG[flag]) return flag;
+            }
+          }
+          const langCode = l.substring(0, 2).toLowerCase();
+          if (LANG_DEFAULT_COUNTRY[langCode]) {
+            const flag = flagFromCode(LANG_DEFAULT_COUNTRY[langCode]);
+            if (CODE_BY_FLAG[flag]) return flag;
+          }
+        }
+      } catch (err) {}
+      return '';
+    }
+
     function readStoredCountry() {
       try {
         const raw = localStorage.getItem(COUNTRY_STORAGE_KEY);
         if (raw && CODE_BY_FLAG[raw]) return raw;
       } catch (err) {}
-      return '';
+      return inferCountryFromLocale();
     }
 
     function storeCountry(flag) {
@@ -1115,12 +1147,20 @@
       const params = new URLSearchParams(window.location.search);
       const urlLang = params.get('lang');
       if (urlLang && i18n[urlLang]) return urlLang;
-      const navLang = (navigator.language || navigator.userLanguage || 'fr').substring(0, 2).toLowerCase();
-      return i18n[navLang] ? navLang : 'fr';
+      const navLangs = navigator.languages || [navigator.language || navigator.userLanguage || ''];
+      for (const l of navLangs) {
+        if (!l) continue;
+        const code = l.substring(0, 2).toLowerCase();
+        if (i18n[code]) return code;
+      }
+      // International fallback: English
+      return 'en';
     }
 
     currentLang = detectLocale();
     document.getElementById('langSelect').value = currentLang;
+    buildCountrySelect(currentLang);
+    applyTranslations();
 
     const cardContainer = document.getElementById('cardContainer');
     const consensusOverlay = document.getElementById('consensusOverlay');
