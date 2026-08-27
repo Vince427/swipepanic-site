@@ -1076,7 +1076,8 @@
         quizVerdictMaster: "GÉNIE DU QUIZ 🧠",
         quizVerdictGood: "EXPERT DE LA CULTURE 🎓",
         quizVerdictLearner: "APPRENTI CURIEUX 📚",
-        quizScoreDesc: "Tu as obtenu {count} bonnes réponses sur cette session !",
+                quizSuccessLabel: "réussite",
+quizScoreDesc: "Tu as obtenu {count} bonnes réponses sur cette session !",
         socialDareChosen: "Tu as choisi ACTION !",
         socialTruthChosen: "Tu as choisi VÉRITÉ !",
         socialDarePrompt: "⚡ Relève le défi devant le groupe !",
@@ -1144,7 +1145,8 @@
         quizVerdictMaster: "QUIZ MASTER 🧠",
         quizVerdictGood: "TRIVIA EXPERT 🎓",
         quizVerdictLearner: "CURIOUS ROOKIE 📚",
-        quizScoreDesc: "You got {count} correct answers in this session!",
+                quizSuccessLabel: "success rate",
+quizScoreDesc: "You got {count} correct answers in this session!",
         socialDareChosen: "You picked DARE!",
         socialTruthChosen: "You picked TRUTH!",
         socialDarePrompt: "⚡ Complete the challenge in front of everyone!",
@@ -1163,7 +1165,8 @@
         quizVerdictMaster: "GENIO DEL QUIZ 🧠",
         quizVerdictGood: "EXPERTO EN TRIVIA 🎓",
         quizVerdictLearner: "APRENDIZ CURIOSO 📚",
-        quizScoreDesc: "¡Obtuviste {count} respuestas correctas en esta sesión!",
+                quizSuccessLabel: "aciertos",
+quizScoreDesc: "¡Obtuviste {count} respuestas correctas en esta sesión!",
         socialDareChosen: "¡Elegiste RETO!",
         socialTruthChosen: "¡Elegiste VERDAD!",
         socialDarePrompt: "⚡ ¡Haz el reto delante de todos!",
@@ -1280,7 +1283,8 @@
         quizVerdictMaster: "QUIZ-GENIE 🧠",
         quizVerdictGood: "TRIVIA-EXPERTE 🎓",
         quizVerdictLearner: "NEUGIERIGER ANFÄNGER 📚",
-        quizScoreDesc: "Du hast {count} richtige Antworten erzielt!",
+                quizSuccessLabel: "Erfolgsquote",
+quizScoreDesc: "Du hast {count} richtige Antworten erzielt!",
         socialDareChosen: "Du hast PFLICHT gewählt!",
         socialTruthChosen: "Du hast WAHRHEIT gewählt!",
         socialDarePrompt: "⚡ Erfülle die Aufgabe vor allen!",
@@ -1348,7 +1352,8 @@
         quizVerdictMaster: "QUIZ GENIE 🧠",
         quizVerdictGood: "TRIVIA EXPERT 🎓",
         quizVerdictLearner: "NIEUWSGIERIGE BEGINNER 📚",
-        quizScoreDesc: "Je behaalde {count} goede antwoorden in deze sessie!",
+                quizSuccessLabel: "goed",
+quizScoreDesc: "Je behaalde {count} goede antwoorden in deze sessie!",
         socialDareChosen: "Je koos DOEN!",
         socialTruthChosen: "Je koos WAARHEID!",
         socialDarePrompt: "⚡ Voer de opdracht uit voor de groep!",
@@ -1416,7 +1421,8 @@
         quizVerdictMaster: "GÉNIO DO QUIZ 🧠",
         quizVerdictGood: "ESPECIALISTA EM TRIVIA 🎓",
         quizVerdictLearner: "APRENDIZ CURIOSO 📚",
-        quizScoreDesc: "Conseguiste {count} respostas corretas nesta sessão!",
+                quizSuccessLabel: "acertos",
+quizScoreDesc: "Conseguiste {count} respostas corretas nesta sessão!",
         socialDareChosen: "Escolheste DESAFIO!",
         socialTruthChosen: "Escolheste VERDADE!",
         socialDarePrompt: "⚡ Cumpre o desafio em frente a todos!",
@@ -1840,7 +1846,7 @@
       const cardData = lastPlayed ? lastPlayed.card : allCards.find(c => c.id === cardId);
       const mode = (cardData && cardData.mode) || ((cardData && cardData.type === 'quiz') ? 'quiz' : ((cardData && cardData.theme === 'party') ? 'social' : 'classic'));
 
-      // MODE 1: QUIZ (True / False validation)
+      // MODE 1: QUIZ (True / False validation + Global accuracy consensus)
       if (mode === 'quiz') {
         quizTotalCount++;
         const isTrue = cardData.type === 'green_flag';
@@ -1857,15 +1863,55 @@
         }
 
         const expectedText = isTrue ? `✅ ${t.trueLabel}` : `❌ ${t.falseLabel}`;
-        consensusTitle.textContent = `${t.quizAnswerIs} : ${expectedText}`;
 
-        consensusRed.style.width = isTrue ? '0%' : '100%';
-        consensusRed.textContent = isTrue ? '' : `❌ ${t.falseLabel}`;
-        consensusGreen.style.width = isTrue ? '100%' : '0%';
-        consensusGreen.textContent = isTrue ? `✅ ${t.trueLabel}` : '';
+        if (hasRealConsensus) {
+          const falsePct = stat.reject;
+          const truePct = stat.accept;
+          const worldAccuracy = isTrue ? truePct : falsePct;
 
-        consensusFlags.style.display = 'block';
-        consensusFlags.innerHTML = `<div class="country-pill" style="justify-content:center; width:100%;"><span>${isCorrect ? t.quizBravo : t.quizOops}</span></div>`;
+          consensusTitle.textContent = `${t.quizAnswerIs} : ${expectedText} (🌍 ${worldAccuracy}% ${t.quizSuccessLabel || 'de réussite'})`;
+          consensusRed.style.width = `${falsePct}%`;
+          consensusRed.textContent = `❌ ${falsePct}%`;
+          consensusGreen.style.width = `${truePct}%`;
+          consensusGreen.textContent = `✅ ${truePct}%`;
+
+          const c = stat.countries || {};
+          const present = Object.keys(c);
+          present.sort((a, b) => (a === currentCountry ? -1 : (b === currentCountry ? 1 : 0)));
+
+          const parts = present.map((flag) => {
+            const entry = c[flag];
+            const isMine = flag === currentCountry;
+            const cssClass = isMine ? 'country-pill country-pill-mine' : 'country-pill';
+            const iso = isoFromFlagOrCode(flag);
+            const cName = iso ? countryName(iso.toUpperCase(), currentLang) : flag;
+            const flagImg = flagImgHtml(flag, 22, 16);
+            const countryAccuracy = isTrue ? entry.accept : entry.reject;
+            const n = Number.isInteger(entry.sample_size)
+              ? ` <small style="opacity:0.75;">(${t.votesLabel.replace('{count}', entry.sample_size)})</small>`
+              : '';
+            const tagLabel = isMine ? ` <span style="color:var(--gold); font-size:10px; font-weight:800;">(${t.yourCountry})</span>` : '';
+            return `<div class="${cssClass}"><span style="display:inline-flex; align-items:center;">${flagImg}<strong>${cName}</strong></span> <span>🎯 ${countryAccuracy}%</span>${n}${tagLabel}</div>`;
+          });
+
+          if (currentCountry && !c[currentCountry]) {
+            const iso = isoFromFlagOrCode(currentCountry);
+            const cName = iso ? countryName(iso.toUpperCase(), currentLang) : currentCountry;
+            const flagImg = flagImgHtml(currentCountry, 22, 16);
+            parts.unshift(`<div class="country-pill country-pill-mine"><span style="display:inline-flex; align-items:center;">${flagImg}<strong>${cName}</strong></span> <span>${t.countryNoData}</span></div>`);
+          }
+
+          consensusFlags.style.display = 'flex';
+          consensusFlags.innerHTML = parts.join('');
+        } else {
+          consensusTitle.textContent = `${t.quizAnswerIs} : ${expectedText}`;
+          consensusRed.style.width = isTrue ? '0%' : '100%';
+          consensusRed.textContent = isTrue ? '' : `❌ ${t.falseLabel}`;
+          consensusGreen.style.width = isTrue ? '100%' : '0%';
+          consensusGreen.textContent = isTrue ? `✅ ${t.trueLabel}` : '';
+          consensusFlags.style.display = 'block';
+          consensusFlags.innerHTML = `<div class="country-pill" style="justify-content:center; width:100%;"><span>${isCorrect ? t.quizBravo : t.quizOops}</span></div>`;
+        }
 
         consensusOverlay.classList.add('visible');
         startAutoProgressBar();
