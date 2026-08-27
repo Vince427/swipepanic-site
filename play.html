@@ -1087,7 +1087,8 @@ quizScoreDesc: "Tu as obtenu {count} bonnes réponses sur cette session !",
         socialVerdictDare: "CASSE-COU DE SOIRÉE ⚡",
         socialVerdictTruth: "LIVRE OUVERT 👁️",
         socialVerdictBalanced: "AMBIEUR ÉQUILIBRÉ 🎉",
-        socialScoreDesc: "Tes choix de soirée : {count} actions et vérités assumées !",
+                socialAppPrompt: "📲 En soirée, fais tourner l'App avec tes potes pour les tester en direct !",
+socialScoreDesc: "Tes choix de soirée : {count} actions et vérités assumées !",
         chaoticVerdict: "NEUTRE CHAOTIQUE ⚖️"
       },
       en: {
@@ -1156,7 +1157,8 @@ quizScoreDesc: "You got {count} correct answers in this session!",
         socialVerdictDare: "DAREDEVIL ⚡",
         socialVerdictTruth: "OPEN BOOK 👁️",
         socialVerdictBalanced: "BALANCED PARTYGOER 🎉",
-        socialScoreDesc: "Your party choices: {count} actions and truths accepted!",
+                socialAppPrompt: "📲 Pass the App around at parties to test your friends live!",
+socialScoreDesc: "Your party choices: {count} actions and truths accepted!",
                 quizCorrect: "¡Respuesta correcta!",
         quizWrong: "¡Respuesta incorrecta!",
         quizAnswerIs: "La respuesta correcta era",
@@ -1176,7 +1178,8 @@ quizScoreDesc: "¡Obtuviste {count} respuestas correctas en esta sesión!",
         socialVerdictDare: "ATREVIDO TOTAL ⚡",
         socialVerdictTruth: "LIBRO ABIERTO 👁️",
         socialVerdictBalanced: "FIESTERO EQUILIBRADO 🎉",
-        socialScoreDesc: "Tus elecciones de fiesta: {count} retos y verdades asumidas.",
+                socialAppPrompt: "📲 ¡Pasa la App en las fiestas para retar a tus amigos en directo!",
+socialScoreDesc: "Tus elecciones de fiesta: {count} retos y verdades asumidas.",
         chaoticVerdict: "NEUTRAL CHAOTIC ⚖️"
       },
       es: {
@@ -1294,7 +1297,8 @@ quizScoreDesc: "Du hast {count} richtige Antworten erzielt!",
         socialVerdictDare: "DRAUFGÄNGER ⚡",
         socialVerdictTruth: "OFFENES BUCH 👁️",
         socialVerdictBalanced: "AUSGEGLICHENER PARTYGAST 🎉",
-        socialScoreDesc: "Deine Party-Auswahl: {count} angenommene Aufgaben und Wahrheiten!",
+                socialAppPrompt: "📲 Reiche die App auf Partys herum, um deine Freunde herauszufordern!",
+socialScoreDesc: "Deine Party-Auswahl: {count} angenommene Aufgaben und Wahrheiten!",
         chaoticVerdict: "NEUTRAL CHAOTISCH ⚖️"
       },
       nl: {
@@ -1363,7 +1367,8 @@ quizScoreDesc: "Je behaalde {count} goede antwoorden in deze sessie!",
         socialVerdictDare: "WAAGHALS ⚡",
         socialVerdictTruth: "OPEN BOEK 👁️",
         socialVerdictBalanced: "EVENWICHTIGE FEESTGANGER 🎉",
-        socialScoreDesc: "Jouw feestkeuzes: {count} voltooide acties en waarheden!",
+                socialAppPrompt: "📲 Geef de app door op feestjes om je vrienden live uit te dagen!",
+socialScoreDesc: "Jouw feestkeuzes: {count} voltooide acties en waarheden!",
         chaoticVerdict: "NEUTRAAL CHAOTISCH ⚖️"
       },
       pt: {
@@ -1432,7 +1437,8 @@ quizScoreDesc: "Conseguiste {count} respostas corretas nesta sessão!",
         socialVerdictDare: "CORAJOSO ⚡",
         socialVerdictTruth: "LIVRO ABERTO 👁️",
         socialVerdictBalanced: "FESTEIRO EQUILIBRADO 🎉",
-        socialScoreDesc: "As tuas escolhas de festa: {count} desafios e verdades assumidas!",
+                socialAppPrompt: "📲 Passa a App nas festas para desafiares os teus amigos ao vivo!",
+socialScoreDesc: "As tuas escolhas de festa: {count} desafios e verdades assumidas!",
         chaoticVerdict: "NEUTRO CAÓTICO ⚖️"
       }
     };
@@ -1918,11 +1924,18 @@ quizScoreDesc: "Conseguiste {count} respostas corretas nesta sessão!",
         return;
       }
 
-      // MODE 2: SOCIAL (Action vs Truth Party Challenge)
+      // MODE 2: SOCIAL (Action vs Truth Party Challenge + Courage stats)
       if (mode === 'social') {
         const isDare = userChoice === 'green';
         if (isDare) socialDareCount++;
         else socialTruthCount++;
+
+        const cardText = (cardData && cardData.texts && (cardData.texts[currentLang] || cardData.texts.en || cardData.texts.fr)) || '';
+        let taskText = cardText;
+        if (cardText.includes('|')) {
+          const parts = cardText.split('|').map(s => s.trim());
+          taskText = isDare ? parts[0] : parts[1];
+        }
 
         if (isDare) {
           consensusYourVote.className = 'consensus-your-vote vote-badge-green';
@@ -1934,13 +1947,62 @@ quizScoreDesc: "Conseguiste {count} respostas corretas nesta sessão!",
 
         consensusTitle.textContent = isDare ? t.socialDarePrompt : t.socialTruthPrompt;
 
-        consensusRed.style.width = isDare ? '0%' : '100%';
-        consensusRed.textContent = isDare ? '' : `👁️ ${t.truthLabel}`;
-        consensusGreen.style.width = isDare ? '100%' : '0%';
-        consensusGreen.textContent = isDare ? `⚡ ${t.dareLabel}` : '';
+        if (hasRealConsensus) {
+          const truthPct = stat.reject;
+          const darePct = stat.accept;
 
-        consensusFlags.style.display = 'block';
-        consensusFlags.innerHTML = `<div class="country-pill" style="justify-content:center; width:100%;"><span>${isDare ? t.socialDareSub : t.socialTruthSub}</span></div>`;
+          consensusRed.style.width = `${truthPct}%`;
+          consensusRed.textContent = `👁️ ${truthPct}%`;
+          consensusGreen.style.width = `${darePct}%`;
+          consensusGreen.textContent = `⚡ ${darePct}%`;
+
+          const c = stat.countries || {};
+          const present = Object.keys(c);
+          present.sort((a, b) => (a === currentCountry ? -1 : (b === currentCountry ? 1 : 0)));
+
+          const parts = present.map((flag) => {
+            const entry = c[flag];
+            const isMine = flag === currentCountry;
+            const cssClass = isMine ? 'country-pill country-pill-mine' : 'country-pill';
+            const iso = isoFromFlagOrCode(flag);
+            const cName = iso ? countryName(iso.toUpperCase(), currentLang) : flag;
+            const flagImg = flagImgHtml(flag, 22, 16);
+            const n = Number.isInteger(entry.sample_size)
+              ? ` <small style="opacity:0.75;">(${t.votesLabel.replace('{count}', entry.sample_size)})</small>`
+              : '';
+            const tagLabel = isMine ? ` <span style="color:var(--gold); font-size:10px; font-weight:800;">(${t.yourCountry})</span>` : '';
+            return `<div class="${cssClass}"><span style="display:inline-flex; align-items:center;">${flagImg}<strong>${cName}</strong></span> <span>⚡ ${entry.accept}% ${t.dareLabel}</span>${n}${tagLabel}</div>`;
+          });
+
+          consensusFlags.style.display = 'flex';
+          consensusFlags.innerHTML = `
+            <div style="width:100%; text-align:center; padding:10px; background:rgba(255,255,255,0.04); border-radius:12px; margin-bottom:8px; font-size:14px; font-weight:800; color:#fff;">
+              ${isDare ? '⚡' : '👁️'} « ${taskText} »
+            </div>
+            ${parts.join('')}
+            <div style="width:100%; text-align:center; font-size:11px; color:#b39ddb; margin-top:6px;">
+              ${t.socialAppPrompt || "📲 En soirée, fais tourner l'App avec tes potes pour les tester en direct !"}
+            </div>
+          `;
+        } else {
+          consensusRed.style.width = isDare ? '0%' : '100%';
+          consensusRed.textContent = isDare ? '' : `👁️ ${t.truthLabel}`;
+          consensusGreen.style.width = isDare ? '100%' : '0%';
+          consensusGreen.textContent = isDare ? `⚡ ${t.dareLabel}` : '';
+
+          consensusFlags.style.display = 'block';
+          consensusFlags.innerHTML = `
+            <div style="text-align:center; padding:10px; background:rgba(255,255,255,0.04); border-radius:12px; margin-bottom:8px; font-size:14px; font-weight:800; color:#fff;">
+              ${isDare ? '⚡' : '👁️'} « ${taskText} »
+            </div>
+            <div class="country-pill" style="justify-content:center; width:100%;">
+              <span>${isDare ? t.socialDareSub : t.socialTruthSub}</span>
+            </div>
+            <div style="text-align:center; font-size:11px; color:#b39ddb; margin-top:6px;">
+              ${t.socialAppPrompt || "📲 En soirée, fais tourner l'App avec tes potes pour les tester en direct !"}
+            </div>
+          `;
+        }
 
         consensusOverlay.classList.add('visible');
         startAutoProgressBar();
