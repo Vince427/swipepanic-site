@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "updated_at": "2026-05-06T00:00:00Z",
+  "version": 2,
+  "updated_at": "2026-08-28T17:25:00Z",
   "cards": [
     {
       "id": "remote_dating_red_001",
@@ -175,6 +175,31 @@
         "de": "Ruft an, ohne vorher zu schreiben.",
         "nl": "Belt zonder eerst te appen.",
         "pt": "Liga sem avisar antes."
+      }
+    },
+    {
+      "id": "vacation_green_3",
+      "pack_id": "vacation_pack",
+      "mode": "classic",
+      "theme": "vacation",
+      "type": "red_flag",
+      "difficulty": 1,
+      "enabled": true,
+      "safe_reviewed": {
+        "fr": true,
+        "en": true,
+        "es": true,
+        "de": true,
+        "nl": true,
+        "pt": true
+      },
+      "texts": {
+        "fr": "Commande du champagne et des plats hors de prix, mais exige de faire 50/50 alors que tu as juste bu de l'eau.",
+        "en": "Orders expensive champagne and dishes, but expects to split the bill 50/50 when you only drank water.",
+        "de": "Bestellt teuren Champagner und Essen, verlangt aber 50/50 aufzuteilen, obwohl du nur Wasser getrunken hast.",
+        "es": "Pide champán y platos caros, pero exige dividir la cuenta 50/50 aunque tú solo hayas tomado agua.",
+        "nl": "Bestelt dure champagne en gerechten, maar eist de rekening 50/50 te delen terwijl jij alleen water dronk.",
+        "pt": "Pede champanhe e pratos caros, mas exige dividir a conta a meio quando tu só bebeste água."
       }
     }
   ]
