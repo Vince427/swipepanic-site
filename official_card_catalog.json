@@ -2941,12 +2941,12 @@
       "theme": "vacation",
       "type": "red_flag",
       "texts": {
-        "fr": "S'attend à partager toutes les dépenses à parts égales, même si vous buvez du champagne et lui de l'eau.",
-        "en": "Expects to split all trip expenses 50/50, even if you drink champagne and they drink tap water.",
-        "de": "Erwartet, alle Ausgaben 50/50 zu teilen, selbst wenn du Champagner trinkst und er Leitungswasser.",
-        "es": "Espera dividir todos los gastos a partes iguales, aunque tú bebas champán y él agua del grifo.",
-        "nl": "Verwacht alle kosten 50/50 te delen, zelfs als jij champagne drinkt en zij kraanwater.",
-        "pt": "Espera dividir todas as despesas a meio, mesmo que tu bebas champanhe e ele água."
+        "fr": "Commande du champagne et des plats hors de prix, mais exige de faire 50/50 alors que tu as juste bu de l'eau.",
+        "en": "Orders expensive champagne and dishes, but expects to split the bill 50/50 when you only drank water.",
+        "de": "Bestellt teuren Champagner und Essen, verlangt aber 50/50 aufzuteilen, obwohl du nur Wasser getrunken hast.",
+        "es": "Pide champán y platos caros, pero exige dividir la cuenta 50/50 aunque tú solo hayas tomado agua.",
+        "nl": "Bestelt dure champagne en gerechten, maar eist de rekening 50/50 te delen terwijl jij alleen water dronk.",
+        "pt": "Pede champanhe e pratos caros, mas exige dividir a conta a meio quando tu só bebeste água."
       },
       "difficulty": 1,
       "enabled": true,
@@ -13075,12 +13075,12 @@
           "theme": "vacation",
           "type": "red_flag",
           "texts": {
-            "fr": "S'attend à partager toutes les dépenses à parts égales, même si vous buvez du champagne et lui de l'eau.",
-            "en": "Expects to split all trip expenses 50/50, even if you drink champagne and they drink tap water.",
-            "de": "Erwartet, alle Ausgaben 50/50 zu teilen, selbst wenn du Champagner trinkst und er Leitungswasser.",
-            "es": "Espera dividir todos los gastos a partes iguales, aunque tú bebas champán y él agua del grifo.",
-            "nl": "Verwacht alle kosten 50/50 te delen, zelfs als jij champagne drinkt en zij kraanwater.",
-            "pt": "Espera dividir todas as despesas a meio, mesmo que tu bebas champanhe e ele água."
+            "fr": "Commande du champagne et des plats hors de prix, mais exige de faire 50/50 alors que tu as juste bu de l'eau.",
+            "en": "Orders expensive champagne and dishes, but expects to split the bill 50/50 when you only drank water.",
+            "de": "Bestellt teuren Champagner und Essen, verlangt aber 50/50 aufzuteilen, obwohl du nur Wasser getrunken hast.",
+            "es": "Pide champán y platos caros, pero exige dividir la cuenta 50/50 aunque tú solo hayas tomado agua.",
+            "nl": "Bestelt dure champagne en gerechten, maar eist de rekening 50/50 te delen terwijl jij alleen water dronk.",
+            "pt": "Pede champanhe e pratos caros, mas exige dividir a conta a meio quando tu só bebeste água."
           },
           "difficulty": 1,
           "enabled": true
