@@ -77,11 +77,18 @@
     header {
       width: 100%;
       max-width: 480px;
-      padding: 14px 18px 6px;
+      padding: 12px 16px 6px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      z-index: 10;
+    }
+
+    .header-top {
+      width: 100%;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      z-index: 10;
     }
 
     .brand {
@@ -116,6 +123,7 @@
     .header-controls {
       display: flex;
       align-items: center;
+      width: 100%;
       gap: 8px;
     }
 
@@ -125,11 +133,30 @@
       color: var(--text);
       font-size: 13px;
       font-weight: 700;
-      padding: 6px 10px;
+      padding: 7px 10px;
       border-radius: 12px;
       outline: none;
       cursor: pointer;
       backdrop-filter: blur(8px);
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+      max-width: 100%;
+    }
+
+    #packSelect {
+      flex: 1.15;
+      min-width: 0;
+    }
+
+    #countrySelect {
+      flex: 0.85;
+      min-width: 0;
+    }
+
+    #langSelect {
+      padding: 5px 8px;
+      font-size: 12px;
     }
 
     .select-dropdown option {
@@ -741,10 +768,20 @@
 
   <!-- Top Navigation Header -->
   <header>
-    <a href="index.html" class="brand">
-      <div class="logo-badge">🔥</div>
-      <div class="brand-title">SWIPE PANIC</div>
-    </a>
+    <div class="header-top">
+      <a href="index.html" class="brand">
+        <div class="logo-badge">🔥</div>
+        <div class="brand-title">SWIPE PANIC</div>
+      </a>
+      <select id="langSelect" class="select-dropdown" aria-label="Langue">
+        <option value="fr">🇫🇷 FR</option>
+        <option value="en">🇬🇧 EN</option>
+        <option value="es">🇪🇸 ES</option>
+        <option value="de">🇩🇪 DE</option>
+        <option value="nl">🇳🇱 NL</option>
+        <option value="pt">🇧🇷 PT</option>
+      </select>
+    </div>
 
     <div class="header-controls">
       <select id="packSelect" class="select-dropdown" aria-label="Choisir un pack">
@@ -758,14 +795,6 @@
         <option value="quiz_pack_v1">🧠 Quiz</option>
       </select>
       <select id="countrySelect" class="select-dropdown" aria-label="Choisir mon pays"></select>
-      <select id="langSelect" class="select-dropdown" aria-label="Langue">
-        <option value="fr">🇫🇷 FR</option>
-        <option value="en">🇬🇧 EN</option>
-        <option value="es">🇪🇸 ES</option>
-        <option value="de">🇩🇪 DE</option>
-        <option value="nl">🇳🇱 NL</option>
-        <option value="pt">🇧🇷 PT</option>
-      </select>
     </div>
   </header>
 
