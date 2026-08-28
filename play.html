@@ -414,9 +414,11 @@
       justify-content: center;
       gap: 8px 10px;
       font-size: 12px;
-      max-height: 95px;
+      max-height: 140px;
       overflow-y: auto;
-      padding: 2px;
+      padding: 4px 2px;
+      scrollbar-width: thin;
+      scrollbar-color: rgba(255,255,255,0.2) transparent;
     }
 
     .flag-icon {
@@ -2138,7 +2140,7 @@ socialScoreDesc: "As tuas escolhas de festa: {count} desafios e verdades assumid
       const packSelectVal = document.getElementById('packSelect') ? document.getElementById('packSelect').value : 'all';
 
       // Verdict and Score for QUIZ mode
-      if (quizTotalCount > 0 && quizTotalCount >= swipedCount * 0.7) {
+      if (quizTotalCount > 0 && quizTotalCount >= swipedCount * 0.6) {
         const scorePct = Math.round((quizCorrectCount / quizTotalCount) * 100);
         document.getElementById('recapScore').textContent = `${quizCorrectCount}/${quizTotalCount}`;
         document.getElementById('recapText').textContent = t.quizScoreDesc.replace('{count}', `${quizCorrectCount}/${quizTotalCount}`);
@@ -2150,7 +2152,7 @@ socialScoreDesc: "As tuas escolhas de festa: {count} desafios e verdades assumid
         document.getElementById('personalityBadge').textContent = quizVerdict;
       }
       // Verdict and Score for SOCIAL mode
-      else if (socialDareCount + socialTruthCount >= swipedCount * 0.7 && (socialDareCount + socialTruthCount) > 0) {
+      else if ((socialDareCount + socialTruthCount) >= swipedCount * 0.6 && (socialDareCount + socialTruthCount) > 0) {
         const totalSocial = socialDareCount + socialTruthCount;
         document.getElementById('recapScore').textContent = `🎉`;
         document.getElementById('recapText').textContent = t.socialScoreDesc.replace('{count}', totalSocial);
@@ -2161,7 +2163,7 @@ socialScoreDesc: "As tuas escolhas de festa: {count} desafios e verdades assumid
         else if (socialTruthCount >= totalSocial * 0.7) socialVerdict = t.socialVerdictTruth;
         document.getElementById('personalityBadge').textContent = socialVerdict;
       }
-      // Verdict and Score for CLASSIC mode
+      // Verdict and Score for CLASSIC or MIXED mode
       else {
         let verdict = t.chaoticVerdict;
         if (redCount >= 4) {
@@ -2182,15 +2184,20 @@ socialScoreDesc: "As tuas escolhas de festa: {count} desafios e verdades assumid
           document.getElementById('recapText').textContent = t.recapNeutralDesc;
         }
 
-        document.getElementById('recapCounts').textContent = `🚩 ${redCount} ${t.redFlag} • 🟢 ${greenCount} ${t.greenFlag}`;
+        const summaryChips = [];
+        if (redCount > 0) summaryChips.push(`🚩 ${redCount} ${t.redFlag}`);
+        if (greenCount > 0) summaryChips.push(`🟢 ${greenCount} ${t.greenFlag}`);
+        if (quizTotalCount > 0) summaryChips.push(`🧠 ${quizCorrectCount}/${quizTotalCount} Quiz`);
+        if (socialDareCount + socialTruthCount > 0) summaryChips.push(`🎉 ${socialDareCount + socialTruthCount} Soirée`);
+        document.getElementById('recapCounts').textContent = summaryChips.join(' • ') || `🚩 ${redCount} ${t.redFlag} • 🟢 ${greenCount} ${t.greenFlag}`;
       }
 
       // Build Full Breakdown List of all cards played with crisp visual separation
       cardsBreakdownList.innerHTML = '';
       playedHistory.forEach((item, index) => {
-        const cardText = item.card.texts[currentLang] || item.card.texts.en || item.card.texts.fr || '';
+        const cardText = (item.card && item.card.texts && (item.card.texts[currentLang] || item.card.texts.en || item.card.texts.fr)) || '';
         const isGreen = item.choice === 'green';
-        const mode = (item.card && item.card.mode) || ((item.card && item.card.type === 'quiz') ? 'quiz' : ((item.card && item.card.theme === 'party') ? 'social' : 'classic'));
+        const mode = (item.card && item.card.mode) || ((item.card && item.card.type === 'quiz') || (item.card && item.card.id && item.card.id.startsWith('quiz_')) ? 'quiz' : (((item.card && item.card.theme === 'party') || (item.card && item.card.id && item.card.id.startsWith('party_'))) ? 'social' : 'classic'));
 
         let labelLeft = t.redFlag;
         let labelRight = t.greenFlag;
@@ -2229,18 +2236,47 @@ socialScoreDesc: "As tuas escolhas de festa: {count} desafios e verdades assumid
 
           worldRow = `
             <div class="comparison-row">
-              <span class="comparison-label">${t.quizAnswerIs} :</span>
+              <span class="comparison-label">🌍 ${t.quizAnswerIs} :</span>
               <span class="comparison-stat">${isTrue ? '✅ ' + t.trueLabel : '❌ ' + t.falseLabel}</span>
               ${answerTag}
             </div>
           `;
+
+          const c = (item.stat && item.stat.countries) || {};
+          if (currentCountry && c[currentCountry]) {
+            const countryEntry = c[currentCountry];
+            const iso = isoFromFlagOrCode(currentCountry);
+            const cName = iso ? countryName(iso.toUpperCase(), currentLang) : currentCountry;
+            const flagImg = flagImgHtml(currentCountry, 20, 15);
+            const countryAcc = isTrue ? countryEntry.accept : countryEntry.reject;
+            countryRow = `
+              <div class="comparison-row">
+                <span class="comparison-label" style="display:inline-flex; align-items:center;">${flagImg} ${cName} (${t.yourCountry}) :</span>
+                <span class="comparison-stat">🎯 ${countryAcc}% ${t.quizSuccessLabel || 'de réussite'}</span>
+              </div>
+            `;
+          }
         } else if (mode === 'social') {
           worldRow = `
             <div class="comparison-row">
-              <span class="comparison-label">${t.packParty} :</span>
-              <span class="comparison-stat">${isGreen ? '⚡ ' + t.dareLabel : '👁️ ' + t.truthLabel}</span>
+              <span class="comparison-label">🌍 ${t.worldConsensus} :</span>
+              <span class="comparison-stat">⚡ ${item.stat ? item.stat.accept : 50}% ${t.dareLabel} • 👁️ ${item.stat ? item.stat.reject : 50}% ${t.truthLabel}</span>
             </div>
           `;
+
+          const c = (item.stat && item.stat.countries) || {};
+          if (currentCountry && c[currentCountry]) {
+            const countryEntry = c[currentCountry];
+            const iso = isoFromFlagOrCode(currentCountry);
+            const cName = iso ? countryName(iso.toUpperCase(), currentLang) : currentCountry;
+            const flagImg = flagImgHtml(currentCountry, 20, 15);
+            countryRow = `
+              <div class="comparison-row">
+                <span class="comparison-label" style="display:inline-flex; align-items:center;">${flagImg} ${cName} (${t.yourCountry}) :</span>
+                <span class="comparison-stat">⚡ ${countryEntry.accept}% ${t.dareLabel} • 👁️ ${countryEntry.reject}% ${t.truthLabel}</span>
+              </div>
+            `;
+          }
         } else if (item.stat && item.stat.reject !== undefined) {
           const isMajority = (item.choice === 'red' && item.stat.reject >= 50) || (item.choice === 'green' && item.stat.accept >= 50);
           const tag = isMajority 
