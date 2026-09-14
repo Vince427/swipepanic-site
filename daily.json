@@ -1,47 +1,35 @@
 {
   "version": 1,
-  "id": "weekly_2026_37_classic",
-  "date": "2026-09-07",
+  "id": "weekly_2026_38_quiz",
+  "date": "2026-09-14",
   "cadence": "weekly",
-  "mode": "classic",
-  "maxCards": 20,
+  "mode": "quiz",
+  "maxCards": 8,
   "title": {
-    "fr": "Pack de la semaine",
-    "en": "Weekly pack",
-    "es": "Pack semanal",
-    "de": "Wochenpack",
-    "nl": "Weekpack",
-    "pt": "Pack semanal"
+    "fr": "Quiz de la semaine",
+    "en": "Weekly quiz",
+    "es": "Quiz semanal",
+    "de": "Wochenquiz",
+    "nl": "Weekquiz",
+    "pt": "Quiz semanal"
   },
   "subtitle": {
-    "fr": "20 choix officiels pour lancer le debat cette semaine.",
-    "en": "20 official choices to get the group talking this week.",
-    "es": "20 decisiones oficiales para activar el grupo esta semana.",
-    "de": "20 offizielle Entscheidungen fuer die Gruppe in dieser Woche.",
-    "nl": "20 officiele keuzes om de groep deze week los te krijgen.",
-    "pt": "20 escolhas oficiais para animar o grupo esta semana."
+    "fr": "8 questions officielles pour le recap de la semaine.",
+    "en": "8 official questions for this week recap.",
+    "es": "8 preguntas oficiales para el resumen de esta semana.",
+    "de": "8 offizielle Fragen fuer den Rueckblick dieser Woche.",
+    "nl": "8 officiele vragen voor de recap van deze week.",
+    "pt": "8 perguntas oficiais para o resumo desta semana."
   },
   "cardIds": [
-    "dating_red_21",
-    "dating_green_21",
-    "dating_red_22",
-    "dating_green_22",
-    "dating_red_23",
-    "dating_green_23",
-    "dating_red_24",
-    "dating_green_24",
-    "dating_red_25",
-    "dating_green_25",
-    "dating_red_26",
-    "dating_green_26",
-    "dating_red_27",
-    "dating_green_27",
-    "dating_red_28",
-    "dating_green_28",
-    "dating_red_29",
-    "dating_green_29",
-    "dating_red_30",
-    "dating_green_30"
+    "quiz_25",
+    "quiz_26",
+    "quiz_27",
+    "quiz_28",
+    "quiz_29",
+    "quiz_30",
+    "quiz_31",
+    "quiz_32"
   ],
-  "liveEndDate": "2026-09-14T00:00:00.000Z"
+  "liveEndDate": "2026-09-21T00:00:00.000Z"
 }
