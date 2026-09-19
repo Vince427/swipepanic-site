@@ -869,6 +869,7 @@
     </div>
   </div>
 
+  <script src="./acquisition.js?v=20260909"></script>
   <script>
     'use strict';
 
@@ -1513,19 +1514,24 @@ socialScoreDesc: "As tuas escolhas de festa: {count} desafios e verdades assumid
     const cardsBreakdownList = document.getElementById('cardsBreakdownList');
 
     function detectLocale() {
-      const params = new URLSearchParams(window.location.search);
-      const urlLang = params.get('lang');
-      if (urlLang && i18n[urlLang]) return urlLang;
-      const navLangs = navigator.languages || [navigator.language || navigator.userLanguage || ''];
-      for (const l of navLangs) {
-        if (!l) continue;
-        const code = l.substring(0, 2).toLowerCase();
-        if (i18n[code]) return code;
-      }
-      return 'en';
+      let storedLanguage = null;
+      try {
+        const storage = typeof localStorage === 'undefined' ? null : localStorage;
+        storedLanguage = storage?.getItem('sp_lang');
+      } catch (error) {}
+      return SwipePanicAcquisition.resolveLanguage({
+        search: window.location.search,
+        storedLanguage,
+        navigatorLanguages:
+          navigator.languages || [navigator.language || navigator.userLanguage || ''],
+      });
     }
 
     currentLang = detectLocale();
+    const browserStorage =
+      typeof localStorage === 'undefined' ? null : localStorage;
+    SwipePanicAcquisition.persistLanguage(browserStorage, currentLang);
+    document.documentElement.lang = currentLang;
     if (document.getElementById('langSelect')) {
       document.getElementById('langSelect').value = currentLang;
     }
@@ -1534,6 +1540,8 @@ socialScoreDesc: "As tuas escolhas de festa: {count} desafios e verdades assumid
 
     function applyTranslations() {
       const t = i18n[currentLang] || i18n.fr;
+      document.documentElement.lang = currentLang;
+      SwipePanicAcquisition.decorateStoreLinks(document, window.location, currentLang);
       document.getElementById('ctaStore').textContent = t.ctaStore;
       document.getElementById('btnReplay').textContent = t.btnReplay;
       document.getElementById('linkHome').textContent = t.linkHome;
@@ -1623,7 +1631,15 @@ socialScoreDesc: "As tuas escolhas de festa: {count} desafios e verdades assumid
     });
 
     document.getElementById('langSelect').addEventListener('change', (e) => {
-      currentLang = e.target.value;
+      currentLang = SwipePanicAcquisition.persistLanguage(
+        browserStorage,
+        e.target.value,
+      ) || 'en';
+      const nextUrl = SwipePanicAcquisition.languageUrl(
+        window.location.href,
+        currentLang,
+      );
+      window.history.replaceState({}, '', nextUrl);
       applyTranslations();
     });
 

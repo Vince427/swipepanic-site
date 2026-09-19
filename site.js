@@ -1200,9 +1200,18 @@
   };
 
   function getLang() {
-    const saved = localStorage.getItem('sp_lang');
-    if (supportedLangs.includes(saved)) return saved;
-    return browserLang();
+    let saved = null;
+    try {
+      saved = localStorage.getItem('sp_lang');
+    } catch (error) {}
+    if (!window.SwipePanicAcquisition) {
+      return supportedLangs.includes(saved) ? saved : browserLang();
+    }
+    return SwipePanicAcquisition.resolveLanguage({
+      search: window.location.search,
+      storedLanguage: saved,
+      navigatorLanguages: navigator.languages || [navigator.language || ''],
+    });
   }
 
   function syncSuggestionLanguage(lang) {
@@ -1276,9 +1285,18 @@
   }
 
   function storeUrlForPack(pack) {
-    return STORE_URL +
-      '&utm_source=live&utm_medium=site&utm_campaign=live_funnel&pack=' +
-      encodeURIComponent(pack);
+    if (!window.SwipePanicAcquisition) return STORE_URL;
+    const campaign = new URLSearchParams({
+      utm_source: 'live',
+      utm_medium: 'site',
+      utm_campaign: 'live_funnel',
+      utm_content: pack,
+    });
+    return SwipePanicAcquisition.playStoreUrl({
+      baseUrl: STORE_URL,
+      search: `?${campaign.toString()}`,
+      language: getLang(),
+    });
   }
 
   async function renderLiveFeatured(lang) {
@@ -1305,6 +1323,9 @@
     const copy = copyFor(lang);
     document.documentElement.lang = lang;
     document.title = copy[pageKey()] || document.title;
+    if (window.SwipePanicAcquisition) {
+      SwipePanicAcquisition.decorateStoreLinks(document, window.location, lang);
+    }
     document.querySelectorAll('[data-i18n]').forEach((node) => {
       const key = node.getAttribute('data-i18n');
       if (!copy[key]) return;
