@@ -1,35 +1,47 @@
 {
   "version": 1,
-  "id": "weekly_2026_38_quiz",
-  "date": "2026-09-14",
+  "id": "weekly_2026_39_social",
+  "date": "2026-09-21",
   "cadence": "weekly",
-  "mode": "quiz",
-  "maxCards": 8,
+  "mode": "social",
+  "maxCards": 20,
   "title": {
-    "fr": "Quiz de la semaine",
-    "en": "Weekly quiz",
-    "es": "Quiz semanal",
-    "de": "Wochenquiz",
-    "nl": "Weekquiz",
-    "pt": "Quiz semanal"
+    "fr": "Soiree de la semaine",
+    "en": "Weekly party",
+    "es": "Fiesta semanal",
+    "de": "Party der Woche",
+    "nl": "Weekfeest",
+    "pt": "Festa semanal"
   },
   "subtitle": {
-    "fr": "8 questions officielles pour le recap de la semaine.",
-    "en": "8 official questions for this week recap.",
-    "es": "8 preguntas oficiales para el resumen de esta semana.",
-    "de": "8 offizielle Fragen fuer den Rueckblick dieser Woche.",
-    "nl": "8 officiele vragen voor de recap van deze week.",
-    "pt": "8 perguntas oficiais para o resumo desta semana."
+    "fr": "20 actions ou verites officielles pour faire parler la table cette semaine.",
+    "en": "20 official dares or truths to wake up the table this week.",
+    "es": "20 retos o verdades oficiales para activar la mesa esta semana.",
+    "de": "20 offizielle Aufgaben oder Wahrheiten fuer die Runde in dieser Woche.",
+    "nl": "20 officiele acties of waarheden voor de groep deze week.",
+    "pt": "20 acoes ou verdades oficiais para animar a mesa esta semana."
   },
   "cardIds": [
-    "quiz_25",
-    "quiz_26",
-    "quiz_27",
-    "quiz_28",
-    "quiz_29",
-    "quiz_30",
-    "quiz_31",
-    "quiz_32"
+    "party_social_81",
+    "party_social_82",
+    "party_social_83",
+    "party_social_84",
+    "party_social_85",
+    "party_social_86",
+    "party_social_87",
+    "party_social_88",
+    "party_social_89",
+    "party_social_90",
+    "party_social_91",
+    "party_social_92",
+    "party_social_93",
+    "party_social_94",
+    "party_social_95",
+    "party_social_96",
+    "party_social_97",
+    "party_social_98",
+    "party_social_99",
+    "party_social_100"
   ],
-  "liveEndDate": "2026-09-21T00:00:00.000Z"
+  "liveEndDate": "2026-09-28T00:00:00.000Z"
 }
