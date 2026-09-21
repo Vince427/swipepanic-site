@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-08-26T14:24:02.235Z",
+  "updated_at": "2026-09-19T21:00:43.049Z",
   "cards": [
     {
       "id": "dating_red_1",
@@ -3402,6 +3402,636 @@
       "enabled": true,
       "mode": "classic",
       "packId": "vacation_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "school_red_1",
+      "theme": "school",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Achète 12 surligneurs fluo le premier jour et abandonne les cours dès la deuxième semaine.",
+        "en": "Buys 12 neon highlighters on day one and drops all classes by week two.",
+        "de": "Kauft am ersten Tag 12 Textmarker und schwänzt ab Woche zwei die Vorlesungen.",
+        "es": "Compra 12 subrayadores fluorescentes el primer día y deja de ir a clase la segunda semana.",
+        "nl": "Koopt op dag één 12 markeerstiften en stopt in week twee al met naar de les gaan.",
+        "pt": "Compra 12 marcadores fluorescentes no primeiro dia e falta às aulas logo na segunda semana."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "school_green_1",
+      "theme": "school",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Te garde discrètement une place au fond de l'amphi à côté de la seule prise qui fonctionne.",
+        "en": "Quietly saves you a seat in the back of the lecture hall next to the only working power outlet.",
+        "de": "Hält dir heimlich einen Platz hinten im Hörsaal neben der einzigen funktionierenden Steckdose frei.",
+        "es": "Te guarda discretamente un sitio al fondo del aula magna junto al único enchufe que funciona.",
+        "nl": "Houdt stiekem een plekje achter in de collegezaal vrij naast het enige werkende stopcontact.",
+        "pt": "Guarda-te discretamente um lugar no fundo do anfiteatro ao lado da única tomada que funciona."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "school_red_2",
+      "theme": "school",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Demande au prof « Est-ce que vous ramassez les devoirs ? » à 2 minutes de la sonnerie.",
+        "en": "Asks the teacher \"Are you going to collect our homework?\" 2 minutes before the bell rings.",
+        "de": "Fragt den Dozenten zwei Minuten vor Schluss: „Sammeln Sie die Hausaufgaben noch ein?“",
+        "es": "Le pregunta al profesor «¿Va a recoger los deberes?» a 2 minutos de que suene la campana.",
+        "nl": "Vraagt twee minuten voor de bel aan de docent: \"Kijkt u het huiswerk nog na?\"",
+        "pt": "Pergunta ao professor «Vai recolher os trabalhos de casa?» a 2 minutos do toque."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "school_green_2",
+      "theme": "school",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Partage spontanément un Google Drive propre avec toutes les fiches de révision et les anciens partiels.",
+        "en": "Spontaneously shares a clean Google Drive folder with all summary notes and past exams.",
+        "de": "Teilt ungefragt einen aufgeräumten Google Drive-Ordner mit allen Zusammenfassungen und Altklausuren.",
+        "es": "Comparte espontáneamente una carpeta de Google Drive con todos los apuntes y exámenes anteriores.",
+        "nl": "Deelt spontaan een overzichtelijke Google Drive met alle samenvattingen en oude tentamens.",
+        "pt": "Partilha espontaneamente uma pasta do Google Drive com todos os resumos e exames anteriores."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "school_red_3",
+      "theme": "school",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Déclare le 2 septembre : « Cette année c'est sérieux, zéro soirée en semaine », et finit en boîte le jeudi soir.",
+        "en": "Announces on September 2nd: \"This year I'm locked in, no weekday parties\", and ends up at a club by Thursday.",
+        "de": "Verkündet am 2. September: „Dieses Jahr lerne ich durch, keine Partys unter der Woche“, und feiert am Donnerstag.",
+        "es": "Dice el 2 de septiembre: «Este año voy en serio, cero fiestas entre semana», y el jueves ya está de fiesta.",
+        "nl": "Zegt op 2 september: \"Dit jaar ga ik knallen, geen feestjes doordeweeks\", en staat donderdag in de club.",
+        "pt": "Diz a 2 de setembro: «Este ano é a sério, zero festas à semana», e quinta-feira já está na discoteca."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "school_green_3",
+      "theme": "school",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Ramène un thermos de café chaud et deux gobelets pour le cours magistral de 8h du matin.",
+        "en": "Brings a thermos of hot coffee and two cups for the 8 AM lecture.",
+        "de": "Bringt für die Vorlesung um 8 Uhr morgens eine Thermoskanne heißen Kaffee und zwei Becher mit.",
+        "es": "Trae un termo de café caliente y dos vasos para la clase de las 8 de la mañana.",
+        "nl": "Neemt een thermoskan hete koffie en twee bekers mee voor het college van 8 uur 's ochtends.",
+        "pt": "Traz uma garrafa térmica de café quente e dois copos para a aula das 8h da manhã."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "school_red_4",
+      "theme": "school",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Dans un projet de groupe, ne répond jamais sur WhatsApp mais se pointe le jour de l'oral pour lire les diapos.",
+        "en": "Ghosts the group project WhatsApp chat, then shows up on presentation day just to read the slides.",
+        "de": "Ignoriert den WhatsApp-Gruppenchat, taucht aber am Präsentationstag auf, um Folien abzulesen.",
+        "es": "No contesta nunca en el grupo de WhatsApp del trabajo, pero aparece el día de la presentación para leer las diapositivas.",
+        "nl": "Reageert nooit in de WhatsApp-groep voor het project, maar verschijnt wel om de slides voor te lezen.",
+        "pt": "Não responde no grupo de WhatsApp do trabalho, mas aparece no dia da apresentação para ler os slides."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "school_green_4",
+      "theme": "school",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Te prévient par message quand le prof fait l'appel pour que tu puisses sprinter jusqu'à la salle.",
+        "en": "Texts you the second attendance is being taken so you have time to sprint to class.",
+        "de": "Schreibt dir sofort, wenn die Anwesenheit geprüft wird, damit du noch schnell in den Raum sprinten kannst.",
+        "es": "Te avisa por mensaje en cuanto pasan lista para que puedas esprintar hasta el aula.",
+        "nl": "Appt je direct als de presentielijst wordt rondgestuurd zodat je nog snel kunt sprinten.",
+        "pt": "Manda-te mensagem assim que o professor começa a marcar faltas para poderes correr para a sala."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "school_red_5",
+      "theme": "school",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Met un réveil strident à 6h30 en colocation, l'éteint 8 fois d'affilée et finit par ne pas se lever.",
+        "en": "Sets a blasting 6:30 AM alarm in a shared flat, hits snooze 8 times, and doesn't even get out of bed.",
+        "de": "Stellt in der WG einen schrillen Wecker auf 6:30 Uhr, snoozt 8 Mal und bleibt am Ende liegen.",
+        "es": "Pone una alarma estridente a las 6:30 en el piso compartido, la pospone 8 veces y ni se levanta.",
+        "nl": "Zet in het studentenhuis een schelle wekker om 6:30, snoozet 8 keer en blijft uiteindelijk gewoon liggen.",
+        "pt": "Põe um alarme estridente às 6h30 no apartamento partilhado, adia 8 vezes e acaba por não se levantar."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "school_green_5",
+      "theme": "school",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Se porte volontaire pour faire le compte-rendu du cours que tu as raté parce que tu étais malade.",
+        "en": "Volunteers to write clean lecture notes for the class you missed while sick.",
+        "de": "Schreibt dir freiwillig eine saubere Mitschrift für die Vorlesung, die du krank verpasst hast.",
+        "es": "Se ofrece voluntario para pasarte los apuntes de la clase que te perdiste por estar enfermo.",
+        "nl": "Biedt vrijwillig aan om aantekeningen te maken voor het college dat je wegens ziekte hebt gemist.",
+        "pt": "Oferece-se para te passar os apontamentos da aula que perdeste por estares doente."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "school_red_6",
+      "theme": "school",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Vient au premier date avec son sac à dos de cours qui pèse 15 kg et refuse de le poser au sol.",
+        "en": "Shows up to the first date with a 30-pound school backpack and refuses to put it on the floor.",
+        "de": "Kommt mit einem 15-Kilo-Rucksack zum ersten Date und weigert sich, ihn auf den Boden zu stellen.",
+        "es": "Llega a la primera cita con su mochila escolar de 15 kg y se niega a dejarla en el suelo.",
+        "nl": "Komt naar de eerste date met een schooltas van 15 kilo en weigert die op de grond te zetten.",
+        "pt": "Aparece no primeiro encontro com uma mochila escolar de 15 kg e recusa pô-la no chão."
+      },
+      "difficulty": 3,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "school_green_6",
+      "theme": "school",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Te prête un stylo qui fonctionne bien sans te demander une caution de 50 euros.",
+        "en": "Lends you a nice, working pen without demanding a blood oath that you'll return it.",
+        "de": "Leiht dir einen guten Stift, ohne ein Pfand oder ein Versprechen einzufordern.",
+        "es": "Te presta un boli que escribe bien sin pedirte una fianza para devolvérselo.",
+        "nl": "Leent je een goede pen zonder te eisen dat je je paspoort als borg achterlaat.",
+        "pt": "Empresta-te uma caneta boa sem te pedir uma caução para a devolveres."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "school_red_7",
+      "theme": "school",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Mange une boîte de thon ou un tupperware aux œufs durs en plein milieu d'un amphi fermé.",
+        "en": "Eats canned tuna or a hard-boiled egg lunchbox in the middle of a packed, windowless lecture hall.",
+        "de": "Isst mitten im vollen, fensterlosen Hörsaal eine Dose Thunfisch oder hartgekochte Eier.",
+        "es": "Abre una lata de atún o un táper con huevos cocidos en mitad de un aula cerrada y llena.",
+        "nl": "Eet een bakje tonijn of hardgekookte eieren midden in een overvolle collegezaal zonder ramen.",
+        "pt": "Come uma lata de atum ou ovos cozidos a meio de um anfiteatro cheio e sem janelas."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "school_green_7",
+      "theme": "school",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Propose spontanément de faire les courses de rentrée en gros pour que la coloc économise 40%.",
+        "en": "Suggests buying back-to-school essentials in bulk so the whole flatshare saves 40%.",
+        "de": "Schlägt vor, WG-Vorräte im Großpack zu kaufen, damit alle Mitbewohner 40 % sparen.",
+        "es": "Propone comprar los básicos de la casa al por mayor para que el piso ahorre un 40%.",
+        "nl": "Stelt voor om studentenhuis-boodschappen in bulk in te slaan zodat iedereen 40% bespaart.",
+        "pt": "Sugere comprar os essenciais da casa a granel para que o apartamento poupe 40%."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "school_red_8",
+      "theme": "school",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Passe tout le cours à taper bruyamment sur son clavier mécanique pour faire croire qu'il prend des notes.",
+        "en": "Clacks furiously on a loud mechanical keyboard the entire class just to look studious.",
+        "de": "Hämmert die ganze Vorlesung laut auf einer mechanischen Tastatur herum, um fleißig zu wirken.",
+        "es": "Se pasa toda la clase aporreando su teclado mecánico para fingir que está tomando apuntes.",
+        "nl": "Ramt het hele college luidruchtig op een mechanisch toetsenbord om ijverig te lijken.",
+        "pt": "Passa a aula inteira a teclar com força num teclado mecânico só para parecer estudioso."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "school_green_8",
+      "theme": "school",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Connaît déjà tous les meilleurs plans de la cafétéria et les horaires où il n'y a personne qui fait la queue.",
+        "en": "Already knows the best cheap cafeteria meals and the exact time to skip the line.",
+        "de": "Kennt bereits das beste günstige Mensa-Essen und die Uhrzeit, zu der man nicht anstehen muss.",
+        "es": "Ya conoce las mejores ofertas de la cafetería y la hora exacta para no hacer cola.",
+        "nl": "Weet precies welke kantinehappen het beste zijn en wanneer er geen rij staat.",
+        "pt": "Já sabe quais são os melhores pratos da cantina e a hora certa para não apanhar fila."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "school_red_9",
+      "theme": "school",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Drague le ou la délégué(e) uniquement pour avoir accès au planning des examens en avance.",
+        "en": "Hits on the class rep purely to get early access to the exam timetable.",
+        "de": "Flirtet mit dem Kurssprecher nur, um früher an die Prüfungstermine zu kommen.",
+        "es": "Le tira los tejos al delegado de clase solo para conseguir las fechas de exámenes antes que nadie.",
+        "nl": "Versiert de klassenvertegenwoordiger puur om het tentamenrooster eerder te krijgen.",
+        "pt": "Mete conversa com o delegado de turma só para saber as datas dos exames com antecedência."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "school_green_9",
+      "theme": "school",
+      "type": "green_flag",
+      "texts": {
+        "fr": "T'empêche gentiment d'envoyer un mail passif-agressif à un prof à 2h du matin après une mauvaise note.",
+        "en": "Gently stops you from sending a passive-aggressive email to a professor at 2 AM after a bad grade.",
+        "de": "Hält dich nachts um 2 Uhr liebevoll davon ab, eine wütende Mail an den Dozenten zu schicken.",
+        "es": "Te frena con tacto antes de mandar un correo pasivo-agresivo a un profesor a las 2 de la madrugada.",
+        "nl": "Houdt je 's nachts om 2 uur tegen als je een boze mail naar een docent wilt sturen.",
+        "pt": "Impede-te com calma de enviar um e-mail agressivo a um professor às 2h da manhã após uma má nota."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "school_red_10",
+      "theme": "school",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Raconte à toute la soirée d'intégration qu'il a eu mention Très Bien au bac alors que tout le monde s'en fiche.",
+        "en": "Brags to everyone at the welcome party about their high school grades when literally nobody asked.",
+        "de": "Prahlt auf der Ersti-Party mit seiner Abiturnote, obwohl es absolut niemanden interessiert.",
+        "es": "Le cuenta a todo el mundo en la fiesta de bienvenida su nota de selectividad sin que nadie le pregunte.",
+        "nl": "Schept op de introductieborrel op over zijn eindexamencijfers terwijl niemand erom vroeg.",
+        "pt": "Vangloria-se na festa de receção aos caloiros com as notas do secundário sem ninguém ter perguntado."
+      },
+      "difficulty": 3,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "school_green_10",
+      "theme": "school",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Propose de faire des sessions de révision avec des pizzas plutôt que de paniquer tout seul la veille.",
+        "en": "Suggests a study session with pizza instead of having a solo panic attack the night before.",
+        "de": "Schlägt eine Lernsession mit Pizza vor, statt am Vorabend allein in Panik zu verfallen.",
+        "es": "Propone una sesión de estudio con pizza en lugar de sufrir un ataque de pánico a solas.",
+        "nl": "Stelt een studiesessie met pizza voor in plaats van de avond ervoor in je eentje te stressen.",
+        "pt": "Sugere uma sessão de estudo com pizza em vez de entrares em pânico sozinho na véspera."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "school_red_11",
+      "theme": "school",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Achète le manuel scolaire obligatoire à 90 euros et ne l'ouvre pas une seule fois du semestre.",
+        "en": "Buys the required 90-dollar textbook brand new and never cracks it open all semester.",
+        "de": "Kauft das empfohlene 90-Euro-Fachbuch neu und schlägt es das ganze Semester nicht einmal auf.",
+        "es": "Se compra el libro de texto obligatorio de 90 euros y no lo abre ni una sola vez en el semestre.",
+        "nl": "Koopt het verplichte studieboek van 90 euro nieuw en doet het het hele semester niet één keer open.",
+        "pt": "Compra o livro obrigatório de 90 euros novinho em folha e não o abre nem uma vez no semestre."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "school_green_11",
+      "theme": "school",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Trouve le PDF gratuit du manuel obligatoire en 3 clics sur un obscur forum universitaire.",
+        "en": "Finds the free textbook PDF within 3 clicks on a random academic forum and sends it to you.",
+        "de": "Findet das Lehrbuch-PDF innerhalb von drei Klicks kostenlos im Netz und schickt es dir.",
+        "es": "Encuentra el PDF gratis del libro obligatorio en 3 clics en un foro y te lo pasa.",
+        "nl": "Vindt de gratis pdf van het dure studieboek binnen drie klikken en stuurt hem door.",
+        "pt": "Encontra o PDF gratuito do livro obrigatório em 3 cliques num fórum e envia-to."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "school_red_12",
+      "theme": "school",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Met 4 alarmes différentes avec des musiques insupportables et se rendort systématiquement.",
+        "en": "Sets 4 different alarms with screeching tunes and still goes straight back to sleep.",
+        "de": "Stellt vier Wecker mit grauenhaften Melodien und schläft trotzdem jedes Mal wieder ein.",
+        "es": "Pone 4 alarmas distintas con tonos estridentes y se vuelve a dormir en cada una de ellas.",
+        "nl": "Zet vier verschillende wekkers met vreselijke muziek en draait zich telkens gewoon weer om.",
+        "pt": "Põe 4 alarmes diferentes com músicas irritantes e volta sempre a adormecer."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "school_green_12",
+      "theme": "school",
+      "type": "green_flag",
+      "texts": {
+        "fr": "T'accueille avec un grand sourire et un café quand tu arrives en retard et essoufflé au cours.",
+        "en": "Welcomes you with a warm smile and a coffee when you show up late and breathless to class.",
+        "de": "Begrüßt dich mit einem Lächeln und einem Kaffee, wenn du abgehetzt zu spät reinkommst.",
+        "es": "Te recibe con una sonrisa y un café cuando llegas tarde y sin aliento a clase.",
+        "nl": "Ontvangt je met een glimlach en koffie als je te laat en buiten adem binnenkomt.",
+        "pt": "Recebe-te com um sorriso e um café quando chegas atrasado e esbaforido à aula."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "school_red_13",
+      "theme": "school",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Emprunte tes stabilos et te les rend tous sans leurs capuchons, complètement secs.",
+        "en": "Borrows your highlighters and gives them back capless and completely dried out.",
+        "de": "Leiht sich deine Textmarker und gibt sie dir ohne Kappe völlig ausgetrocknet zurück.",
+        "es": "Te pide los subrayadores y te los devuelve sin tapa y totalmente secos.",
+        "nl": "Leent je markeerstiften en geeft ze zonder dop en kurkdroog aan je terug.",
+        "pt": "Pede os teus marcadores emprestados e devolve-os sem tampa e completamente secos."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "school_green_13",
+      "theme": "school",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Fait semblant de poser une question au prof exprès pour te laisser le temps de finir ton exo.",
+        "en": "Deliberately asks the professor a long question just to buy you time to finish the exercise.",
+        "de": "Stellt dem Dozenten absichtlich eine lange Frage, damit du deine Aufgabe noch beenden kannst.",
+        "es": "Hace una pregunta larga al profesor a propósito para darte tiempo a terminar el ejercicio.",
+        "nl": "Stelt de docent expres een lange vraag zodat jij tijd hebt om je opdracht af te maken.",
+        "pt": "Faz uma pergunta longa ao professor de propósito para te dar tempo de acabar o exercício."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "school_red_14",
+      "theme": "school",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Prend 4 chaises dans la bibliothèque pour y poser son manteau, son sac et ses pieds.",
+        "en": "Claims 4 chairs in the silent library for their jacket, backpack, and feet.",
+        "de": "Blockiert in der vollen Bibliothek vier Stühle für Mantel, Tasche und Füße.",
+        "es": "Ocupa 4 sillas en la biblioteca silenciosa para su abrigo, su mochila y sus pies.",
+        "nl": "Bezet in de volle universiteitsbieb vier stoelen voor jas, tas en voeten.",
+        "pt": "Ocupa 4 cadeiras na biblioteca silenciosa para o casaco, a mochila e os pés."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "school_green_14",
+      "theme": "school",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Te garde ta place et surveille tes affaires à la bibliothèque quand tu vas chercher un sandwich.",
+        "en": "Watches your laptop and guards your library desk like a hawk while you grab lunch.",
+        "de": "Passt zuverlässig auf deinen Laptop auf, während du dir kurz etwas zu essen holst.",
+        "es": "Vigila tu portátil y te guarda el sitio en la biblioteca mientras vas a por un bocadillo.",
+        "nl": "Past trouw op je laptop en houdt je plek vast terwijl jij even een broodje haalt.",
+        "pt": "Guarda o teu portátil e protege o teu lugar na biblioteca enquanto vais buscar um lanche."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "school_red_15",
+      "theme": "school",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Change d'avis sur le sujet du projet final la veille du rendu à 23h30.",
+        "en": "Decides to completely change the final project topic at 11:30 PM the night before the deadline.",
+        "de": "Will das Thema der Gruppenarbeit am Vorabend um 23:30 Uhr noch einmal komplett umwerfen.",
+        "es": "Decide cambiar por completo el tema del proyecto final a las 23:30 la noche antes de la entrega.",
+        "nl": "Wil het onderwerp van het groepsproject om 23:30 de avond voor de deadline nog omgooien.",
+        "pt": "Decide mudar o tema do projeto final às 23h30 na noite anterior à entrega."
+      },
+      "difficulty": 3,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "school_green_15",
+      "theme": "school",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Te fait réviser les définitions clés sous forme de mini-quiz drôle avant l'examen.",
+        "en": "Turns key concepts into a hilarious mini-quiz to test you right before the exam.",
+        "de": "Macht vor der Klausur ein witziges Mini-Quiz mit dir, um die wichtigsten Begriffe zu festigen.",
+        "es": "Te repasa los conceptos clave con un mini-quiz divertido justo antes del examen.",
+        "nl": "Overhoort je voor het tentamen met een grappige mini-quiz over de belangrijkste begrippen.",
+        "pt": "Revê contigo os conceitos mais difíceis através de um mini-quiz divertido antes do teste."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "school_red_16",
+      "theme": "school",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Se plaint d'avoir « trop raté son partiel » et finit par avoir 18/20 devant tout le monde.",
+        "en": "Complains loudly that they failed the exam, then gets a 95% in front of everyone.",
+        "de": "Jammert lautstark über die angebliche 5,0 und bekommt am Ende eine 1,0.",
+        "es": "Se queja en voz alta de que le fue fatal el examen y acaba sacando un sobresaliente.",
+        "nl": "Klaagt luidkeels dat het tentamen een ramp was en haalt vervolgens een 9,5.",
+        "pt": "Queixa-se em voz alta de que chumbou no exame e acaba por tirar um 19."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "school_green_16",
+      "theme": "school",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Te propose de débriefer la journée autour d'un verre dès que le dernier cours est fini.",
+        "en": "Suggests grabbing a cold drink and debriefing the day the second the final class wraps up.",
+        "de": "Schlägt direkt nach der letzten Vorlesung ein Feierabendgetränk vor, um den Tag sacken zu lassen.",
+        "es": "Propone tomar algo y desconectar en cuanto termina la última clase del día.",
+        "nl": "Stelt voor om na het laatste college meteen wat te gaan drinken en de dag te evalueren.",
+        "pt": "Sugere ir beber um copo e descomprimir assim que acaba a última aula do dia."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "school_red_17",
+      "theme": "school",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Laisse traîner sa vaisselle sale dans l'évier de la coloc pendant 10 jours sous prétexte de « semaine de rentrée chargée ».",
+        "en": "Leaves dirty dishes in the shared kitchen sink for 10 days blaming \"busy first-week vibes\".",
+        "de": "Lässt das schmutzige Geschirr 10 Tage in der WG-Spüle stehen und schiebt es auf den „Ersti-Stress“.",
+        "es": "Deja los platos sucios en el fregadero del piso durante 10 días excusándose en la «semana de bienvenida».",
+        "nl": "Laat de afwas tien dagen in de studentenhuiskeuken staan onder het mom van \"drukke introweek\".",
+        "pt": "Deixa a loiça suja no lava-loiça partilhado durante 10 dias com a desculpa da «semana de praxe»."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "school_green_17",
+      "theme": "school",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Propose de cuisiner un grand plat de pâtes pour toute la coloc le premier soir pour briser la glace.",
+        "en": "Cooks a huge pasta dinner for the entire flatshare on night one to break the ice.",
+        "de": "Kocht am ersten Abend einen riesigen Topf Pasta für die ganze WG, um das Eis zu brechen.",
+        "es": "Cocina una gran fuente de pasta para todo el piso la primera noche para romper el hielo.",
+        "nl": "Kookt op de eerste avond een grote pan pasta voor het hele huis om het ijs te breken.",
+        "pt": "Cozinha um grande tacho de massa para toda a casa na primeira noite para quebrar o gelo."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "school_red_18",
+      "theme": "school",
+      "type": "red_flag",
+      "texts": {
+        "fr": "T'envoie un message à 7h45 pour te demander de signer la feuille de présence à sa place.",
+        "en": "Texts you at 7:45 AM begging you to forge their signature on the attendance sheet.",
+        "de": "Schreibt dir um 7:45 Uhr morgens und bittet dich, seine Unterschrift auf der Anwesenheitsliste zu fälschen.",
+        "es": "Te escribe a las 7:45 de la mañana para pedirte que firmes la hoja de asistencia en su lugar.",
+        "nl": "Appt je om 7:45 's ochtends met de vraag of je even zijn handtekening op de presentielijst wilt zetten.",
+        "pt": "Manda-te mensagem às 7h45 a pedir para assinares a folha de presenças no lugar dele."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
       "live_tier": "safe"
     },
     {
@@ -13463,6 +14093,538 @@
         }
       ]
     },
+    "back_to_school_pack": {
+      "id": "back_to_school_pack",
+      "name": "BACK_TO_SCHOOL",
+      "card_count": 35,
+      "cards": [
+        {
+          "id": "school_red_1",
+          "theme": "school",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Achète 12 surligneurs fluo le premier jour et abandonne les cours dès la deuxième semaine.",
+            "en": "Buys 12 neon highlighters on day one and drops all classes by week two.",
+            "de": "Kauft am ersten Tag 12 Textmarker und schwänzt ab Woche zwei die Vorlesungen.",
+            "es": "Compra 12 subrayadores fluorescentes el primer día y deja de ir a clase la segunda semana.",
+            "nl": "Koopt op dag één 12 markeerstiften en stopt in week twee al met naar de les gaan.",
+            "pt": "Compra 12 marcadores fluorescentes no primeiro dia e falta às aulas logo na segunda semana."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "school_green_1",
+          "theme": "school",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Te garde discrètement une place au fond de l'amphi à côté de la seule prise qui fonctionne.",
+            "en": "Quietly saves you a seat in the back of the lecture hall next to the only working power outlet.",
+            "de": "Hält dir heimlich einen Platz hinten im Hörsaal neben der einzigen funktionierenden Steckdose frei.",
+            "es": "Te guarda discretamente un sitio al fondo del aula magna junto al único enchufe que funciona.",
+            "nl": "Houdt stiekem een plekje achter in de collegezaal vrij naast het enige werkende stopcontact.",
+            "pt": "Guarda-te discretamente um lugar no fundo do anfiteatro ao lado da única tomada que funciona."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "school_red_2",
+          "theme": "school",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Demande au prof « Est-ce que vous ramassez les devoirs ? » à 2 minutes de la sonnerie.",
+            "en": "Asks the teacher \"Are you going to collect our homework?\" 2 minutes before the bell rings.",
+            "de": "Fragt den Dozenten zwei Minuten vor Schluss: „Sammeln Sie die Hausaufgaben noch ein?“",
+            "es": "Le pregunta al profesor «¿Va a recoger los deberes?» a 2 minutos de que suene la campana.",
+            "nl": "Vraagt twee minuten voor de bel aan de docent: \"Kijkt u het huiswerk nog na?\"",
+            "pt": "Pergunta ao professor «Vai recolher os trabalhos de casa?» a 2 minutos do toque."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "school_green_2",
+          "theme": "school",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Partage spontanément un Google Drive propre avec toutes les fiches de révision et les anciens partiels.",
+            "en": "Spontaneously shares a clean Google Drive folder with all summary notes and past exams.",
+            "de": "Teilt ungefragt einen aufgeräumten Google Drive-Ordner mit allen Zusammenfassungen und Altklausuren.",
+            "es": "Comparte espontáneamente una carpeta de Google Drive con todos los apuntes y exámenes anteriores.",
+            "nl": "Deelt spontaan een overzichtelijke Google Drive met alle samenvattingen en oude tentamens.",
+            "pt": "Partilha espontaneamente uma pasta do Google Drive com todos os resumos e exames anteriores."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "school_red_3",
+          "theme": "school",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Déclare le 2 septembre : « Cette année c'est sérieux, zéro soirée en semaine », et finit en boîte le jeudi soir.",
+            "en": "Announces on September 2nd: \"This year I'm locked in, no weekday parties\", and ends up at a club by Thursday.",
+            "de": "Verkündet am 2. September: „Dieses Jahr lerne ich durch, keine Partys unter der Woche“, und feiert am Donnerstag.",
+            "es": "Dice el 2 de septiembre: «Este año voy en serio, cero fiestas entre semana», y el jueves ya está de fiesta.",
+            "nl": "Zegt op 2 september: \"Dit jaar ga ik knallen, geen feestjes doordeweeks\", en staat donderdag in de club.",
+            "pt": "Diz a 2 de setembro: «Este ano é a sério, zero festas à semana», e quinta-feira já está na discoteca."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "school_green_3",
+          "theme": "school",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Ramène un thermos de café chaud et deux gobelets pour le cours magistral de 8h du matin.",
+            "en": "Brings a thermos of hot coffee and two cups for the 8 AM lecture.",
+            "de": "Bringt für die Vorlesung um 8 Uhr morgens eine Thermoskanne heißen Kaffee und zwei Becher mit.",
+            "es": "Trae un termo de café caliente y dos vasos para la clase de las 8 de la mañana.",
+            "nl": "Neemt een thermoskan hete koffie en twee bekers mee voor het college van 8 uur 's ochtends.",
+            "pt": "Traz uma garrafa térmica de café quente e dois copos para a aula das 8h da manhã."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "school_red_4",
+          "theme": "school",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Dans un projet de groupe, ne répond jamais sur WhatsApp mais se pointe le jour de l'oral pour lire les diapos.",
+            "en": "Ghosts the group project WhatsApp chat, then shows up on presentation day just to read the slides.",
+            "de": "Ignoriert den WhatsApp-Gruppenchat, taucht aber am Präsentationstag auf, um Folien abzulesen.",
+            "es": "No contesta nunca en el grupo de WhatsApp del trabajo, pero aparece el día de la presentación para leer las diapositivas.",
+            "nl": "Reageert nooit in de WhatsApp-groep voor het project, maar verschijnt wel om de slides voor te lezen.",
+            "pt": "Não responde no grupo de WhatsApp do trabalho, mas aparece no dia da apresentação para ler os slides."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "school_green_4",
+          "theme": "school",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Te prévient par message quand le prof fait l'appel pour que tu puisses sprinter jusqu'à la salle.",
+            "en": "Texts you the second attendance is being taken so you have time to sprint to class.",
+            "de": "Schreibt dir sofort, wenn die Anwesenheit geprüft wird, damit du noch schnell in den Raum sprinten kannst.",
+            "es": "Te avisa por mensaje en cuanto pasan lista para que puedas esprintar hasta el aula.",
+            "nl": "Appt je direct als de presentielijst wordt rondgestuurd zodat je nog snel kunt sprinten.",
+            "pt": "Manda-te mensagem assim que o professor começa a marcar faltas para poderes correr para a sala."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "school_red_5",
+          "theme": "school",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Met un réveil strident à 6h30 en colocation, l'éteint 8 fois d'affilée et finit par ne pas se lever.",
+            "en": "Sets a blasting 6:30 AM alarm in a shared flat, hits snooze 8 times, and doesn't even get out of bed.",
+            "de": "Stellt in der WG einen schrillen Wecker auf 6:30 Uhr, snoozt 8 Mal und bleibt am Ende liegen.",
+            "es": "Pone una alarma estridente a las 6:30 en el piso compartido, la pospone 8 veces y ni se levanta.",
+            "nl": "Zet in het studentenhuis een schelle wekker om 6:30, snoozet 8 keer en blijft uiteindelijk gewoon liggen.",
+            "pt": "Põe um alarme estridente às 6h30 no apartamento partilhado, adia 8 vezes e acaba por não se levantar."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "school_green_5",
+          "theme": "school",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Se porte volontaire pour faire le compte-rendu du cours que tu as raté parce que tu étais malade.",
+            "en": "Volunteers to write clean lecture notes for the class you missed while sick.",
+            "de": "Schreibt dir freiwillig eine saubere Mitschrift für die Vorlesung, die du krank verpasst hast.",
+            "es": "Se ofrece voluntario para pasarte los apuntes de la clase que te perdiste por estar enfermo.",
+            "nl": "Biedt vrijwillig aan om aantekeningen te maken voor het college dat je wegens ziekte hebt gemist.",
+            "pt": "Oferece-se para te passar os apontamentos da aula que perdeste por estares doente."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "school_red_6",
+          "theme": "school",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Vient au premier date avec son sac à dos de cours qui pèse 15 kg et refuse de le poser au sol.",
+            "en": "Shows up to the first date with a 30-pound school backpack and refuses to put it on the floor.",
+            "de": "Kommt mit einem 15-Kilo-Rucksack zum ersten Date und weigert sich, ihn auf den Boden zu stellen.",
+            "es": "Llega a la primera cita con su mochila escolar de 15 kg y se niega a dejarla en el suelo.",
+            "nl": "Komt naar de eerste date met een schooltas van 15 kilo en weigert die op de grond te zetten.",
+            "pt": "Aparece no primeiro encontro com uma mochila escolar de 15 kg e recusa pô-la no chão."
+          },
+          "difficulty": 3,
+          "enabled": true
+        },
+        {
+          "id": "school_green_6",
+          "theme": "school",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Te prête un stylo qui fonctionne bien sans te demander une caution de 50 euros.",
+            "en": "Lends you a nice, working pen without demanding a blood oath that you'll return it.",
+            "de": "Leiht dir einen guten Stift, ohne ein Pfand oder ein Versprechen einzufordern.",
+            "es": "Te presta un boli que escribe bien sin pedirte una fianza para devolvérselo.",
+            "nl": "Leent je een goede pen zonder te eisen dat je je paspoort als borg achterlaat.",
+            "pt": "Empresta-te uma caneta boa sem te pedir uma caução para a devolveres."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "school_red_7",
+          "theme": "school",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Mange une boîte de thon ou un tupperware aux œufs durs en plein milieu d'un amphi fermé.",
+            "en": "Eats canned tuna or a hard-boiled egg lunchbox in the middle of a packed, windowless lecture hall.",
+            "de": "Isst mitten im vollen, fensterlosen Hörsaal eine Dose Thunfisch oder hartgekochte Eier.",
+            "es": "Abre una lata de atún o un táper con huevos cocidos en mitad de un aula cerrada y llena.",
+            "nl": "Eet een bakje tonijn of hardgekookte eieren midden in een overvolle collegezaal zonder ramen.",
+            "pt": "Come uma lata de atum ou ovos cozidos a meio de um anfiteatro cheio e sem janelas."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "school_green_7",
+          "theme": "school",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Propose spontanément de faire les courses de rentrée en gros pour que la coloc économise 40%.",
+            "en": "Suggests buying back-to-school essentials in bulk so the whole flatshare saves 40%.",
+            "de": "Schlägt vor, WG-Vorräte im Großpack zu kaufen, damit alle Mitbewohner 40 % sparen.",
+            "es": "Propone comprar los básicos de la casa al por mayor para que el piso ahorre un 40%.",
+            "nl": "Stelt voor om studentenhuis-boodschappen in bulk in te slaan zodat iedereen 40% bespaart.",
+            "pt": "Sugere comprar os essenciais da casa a granel para que o apartamento poupe 40%."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "school_red_8",
+          "theme": "school",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Passe tout le cours à taper bruyamment sur son clavier mécanique pour faire croire qu'il prend des notes.",
+            "en": "Clacks furiously on a loud mechanical keyboard the entire class just to look studious.",
+            "de": "Hämmert die ganze Vorlesung laut auf einer mechanischen Tastatur herum, um fleißig zu wirken.",
+            "es": "Se pasa toda la clase aporreando su teclado mecánico para fingir que está tomando apuntes.",
+            "nl": "Ramt het hele college luidruchtig op een mechanisch toetsenbord om ijverig te lijken.",
+            "pt": "Passa a aula inteira a teclar com força num teclado mecânico só para parecer estudioso."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "school_green_8",
+          "theme": "school",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Connaît déjà tous les meilleurs plans de la cafétéria et les horaires où il n'y a personne qui fait la queue.",
+            "en": "Already knows the best cheap cafeteria meals and the exact time to skip the line.",
+            "de": "Kennt bereits das beste günstige Mensa-Essen und die Uhrzeit, zu der man nicht anstehen muss.",
+            "es": "Ya conoce las mejores ofertas de la cafetería y la hora exacta para no hacer cola.",
+            "nl": "Weet precies welke kantinehappen het beste zijn en wanneer er geen rij staat.",
+            "pt": "Já sabe quais são os melhores pratos da cantina e a hora certa para não apanhar fila."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "school_red_9",
+          "theme": "school",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Drague le ou la délégué(e) uniquement pour avoir accès au planning des examens en avance.",
+            "en": "Hits on the class rep purely to get early access to the exam timetable.",
+            "de": "Flirtet mit dem Kurssprecher nur, um früher an die Prüfungstermine zu kommen.",
+            "es": "Le tira los tejos al delegado de clase solo para conseguir las fechas de exámenes antes que nadie.",
+            "nl": "Versiert de klassenvertegenwoordiger puur om het tentamenrooster eerder te krijgen.",
+            "pt": "Mete conversa com o delegado de turma só para saber as datas dos exames com antecedência."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "school_green_9",
+          "theme": "school",
+          "type": "green_flag",
+          "texts": {
+            "fr": "T'empêche gentiment d'envoyer un mail passif-agressif à un prof à 2h du matin après une mauvaise note.",
+            "en": "Gently stops you from sending a passive-aggressive email to a professor at 2 AM after a bad grade.",
+            "de": "Hält dich nachts um 2 Uhr liebevoll davon ab, eine wütende Mail an den Dozenten zu schicken.",
+            "es": "Te frena con tacto antes de mandar un correo pasivo-agresivo a un profesor a las 2 de la madrugada.",
+            "nl": "Houdt je 's nachts om 2 uur tegen als je een boze mail naar een docent wilt sturen.",
+            "pt": "Impede-te com calma de enviar um e-mail agressivo a um professor às 2h da manhã após uma má nota."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "school_red_10",
+          "theme": "school",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Raconte à toute la soirée d'intégration qu'il a eu mention Très Bien au bac alors que tout le monde s'en fiche.",
+            "en": "Brags to everyone at the welcome party about their high school grades when literally nobody asked.",
+            "de": "Prahlt auf der Ersti-Party mit seiner Abiturnote, obwohl es absolut niemanden interessiert.",
+            "es": "Le cuenta a todo el mundo en la fiesta de bienvenida su nota de selectividad sin que nadie le pregunte.",
+            "nl": "Schept op de introductieborrel op over zijn eindexamencijfers terwijl niemand erom vroeg.",
+            "pt": "Vangloria-se na festa de receção aos caloiros com as notas do secundário sem ninguém ter perguntado."
+          },
+          "difficulty": 3,
+          "enabled": true
+        },
+        {
+          "id": "school_green_10",
+          "theme": "school",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Propose de faire des sessions de révision avec des pizzas plutôt que de paniquer tout seul la veille.",
+            "en": "Suggests a study session with pizza instead of having a solo panic attack the night before.",
+            "de": "Schlägt eine Lernsession mit Pizza vor, statt am Vorabend allein in Panik zu verfallen.",
+            "es": "Propone una sesión de estudio con pizza en lugar de sufrir un ataque de pánico a solas.",
+            "nl": "Stelt een studiesessie met pizza voor in plaats van de avond ervoor in je eentje te stressen.",
+            "pt": "Sugere uma sessão de estudo com pizza em vez de entrares em pânico sozinho na véspera."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "school_red_11",
+          "theme": "school",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Achète le manuel scolaire obligatoire à 90 euros et ne l'ouvre pas une seule fois du semestre.",
+            "en": "Buys the required 90-dollar textbook brand new and never cracks it open all semester.",
+            "de": "Kauft das empfohlene 90-Euro-Fachbuch neu und schlägt es das ganze Semester nicht einmal auf.",
+            "es": "Se compra el libro de texto obligatorio de 90 euros y no lo abre ni una sola vez en el semestre.",
+            "nl": "Koopt het verplichte studieboek van 90 euro nieuw en doet het het hele semester niet één keer open.",
+            "pt": "Compra o livro obrigatório de 90 euros novinho em folha e não o abre nem uma vez no semestre."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "school_green_11",
+          "theme": "school",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Trouve le PDF gratuit du manuel obligatoire en 3 clics sur un obscur forum universitaire.",
+            "en": "Finds the free textbook PDF within 3 clicks on a random academic forum and sends it to you.",
+            "de": "Findet das Lehrbuch-PDF innerhalb von drei Klicks kostenlos im Netz und schickt es dir.",
+            "es": "Encuentra el PDF gratis del libro obligatorio en 3 clics en un foro y te lo pasa.",
+            "nl": "Vindt de gratis pdf van het dure studieboek binnen drie klikken en stuurt hem door.",
+            "pt": "Encontra o PDF gratuito do livro obrigatório em 3 cliques num fórum e envia-to."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "school_red_12",
+          "theme": "school",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Met 4 alarmes différentes avec des musiques insupportables et se rendort systématiquement.",
+            "en": "Sets 4 different alarms with screeching tunes and still goes straight back to sleep.",
+            "de": "Stellt vier Wecker mit grauenhaften Melodien und schläft trotzdem jedes Mal wieder ein.",
+            "es": "Pone 4 alarmas distintas con tonos estridentes y se vuelve a dormir en cada una de ellas.",
+            "nl": "Zet vier verschillende wekkers met vreselijke muziek en draait zich telkens gewoon weer om.",
+            "pt": "Põe 4 alarmes diferentes com músicas irritantes e volta sempre a adormecer."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "school_green_12",
+          "theme": "school",
+          "type": "green_flag",
+          "texts": {
+            "fr": "T'accueille avec un grand sourire et un café quand tu arrives en retard et essoufflé au cours.",
+            "en": "Welcomes you with a warm smile and a coffee when you show up late and breathless to class.",
+            "de": "Begrüßt dich mit einem Lächeln und einem Kaffee, wenn du abgehetzt zu spät reinkommst.",
+            "es": "Te recibe con una sonrisa y un café cuando llegas tarde y sin aliento a clase.",
+            "nl": "Ontvangt je met een glimlach en koffie als je te laat en buiten adem binnenkomt.",
+            "pt": "Recebe-te com um sorriso e um café quando chegas atrasado e esbaforido à aula."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "school_red_13",
+          "theme": "school",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Emprunte tes stabilos et te les rend tous sans leurs capuchons, complètement secs.",
+            "en": "Borrows your highlighters and gives them back capless and completely dried out.",
+            "de": "Leiht sich deine Textmarker und gibt sie dir ohne Kappe völlig ausgetrocknet zurück.",
+            "es": "Te pide los subrayadores y te los devuelve sin tapa y totalmente secos.",
+            "nl": "Leent je markeerstiften en geeft ze zonder dop en kurkdroog aan je terug.",
+            "pt": "Pede os teus marcadores emprestados e devolve-os sem tampa e completamente secos."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "school_green_13",
+          "theme": "school",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Fait semblant de poser une question au prof exprès pour te laisser le temps de finir ton exo.",
+            "en": "Deliberately asks the professor a long question just to buy you time to finish the exercise.",
+            "de": "Stellt dem Dozenten absichtlich eine lange Frage, damit du deine Aufgabe noch beenden kannst.",
+            "es": "Hace una pregunta larga al profesor a propósito para darte tiempo a terminar el ejercicio.",
+            "nl": "Stelt de docent expres een lange vraag zodat jij tijd hebt om je opdracht af te maken.",
+            "pt": "Faz uma pergunta longa ao professor de propósito para te dar tempo de acabar o exercício."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "school_red_14",
+          "theme": "school",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Prend 4 chaises dans la bibliothèque pour y poser son manteau, son sac et ses pieds.",
+            "en": "Claims 4 chairs in the silent library for their jacket, backpack, and feet.",
+            "de": "Blockiert in der vollen Bibliothek vier Stühle für Mantel, Tasche und Füße.",
+            "es": "Ocupa 4 sillas en la biblioteca silenciosa para su abrigo, su mochila y sus pies.",
+            "nl": "Bezet in de volle universiteitsbieb vier stoelen voor jas, tas en voeten.",
+            "pt": "Ocupa 4 cadeiras na biblioteca silenciosa para o casaco, a mochila e os pés."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "school_green_14",
+          "theme": "school",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Te garde ta place et surveille tes affaires à la bibliothèque quand tu vas chercher un sandwich.",
+            "en": "Watches your laptop and guards your library desk like a hawk while you grab lunch.",
+            "de": "Passt zuverlässig auf deinen Laptop auf, während du dir kurz etwas zu essen holst.",
+            "es": "Vigila tu portátil y te guarda el sitio en la biblioteca mientras vas a por un bocadillo.",
+            "nl": "Past trouw op je laptop en houdt je plek vast terwijl jij even een broodje haalt.",
+            "pt": "Guarda o teu portátil e protege o teu lugar na biblioteca enquanto vais buscar um lanche."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "school_red_15",
+          "theme": "school",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Change d'avis sur le sujet du projet final la veille du rendu à 23h30.",
+            "en": "Decides to completely change the final project topic at 11:30 PM the night before the deadline.",
+            "de": "Will das Thema der Gruppenarbeit am Vorabend um 23:30 Uhr noch einmal komplett umwerfen.",
+            "es": "Decide cambiar por completo el tema del proyecto final a las 23:30 la noche antes de la entrega.",
+            "nl": "Wil het onderwerp van het groepsproject om 23:30 de avond voor de deadline nog omgooien.",
+            "pt": "Decide mudar o tema do projeto final às 23h30 na noite anterior à entrega."
+          },
+          "difficulty": 3,
+          "enabled": true
+        },
+        {
+          "id": "school_green_15",
+          "theme": "school",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Te fait réviser les définitions clés sous forme de mini-quiz drôle avant l'examen.",
+            "en": "Turns key concepts into a hilarious mini-quiz to test you right before the exam.",
+            "de": "Macht vor der Klausur ein witziges Mini-Quiz mit dir, um die wichtigsten Begriffe zu festigen.",
+            "es": "Te repasa los conceptos clave con un mini-quiz divertido justo antes del examen.",
+            "nl": "Overhoort je voor het tentamen met een grappige mini-quiz over de belangrijkste begrippen.",
+            "pt": "Revê contigo os conceitos mais difíceis através de um mini-quiz divertido antes do teste."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "school_red_16",
+          "theme": "school",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Se plaint d'avoir « trop raté son partiel » et finit par avoir 18/20 devant tout le monde.",
+            "en": "Complains loudly that they failed the exam, then gets a 95% in front of everyone.",
+            "de": "Jammert lautstark über die angebliche 5,0 und bekommt am Ende eine 1,0.",
+            "es": "Se queja en voz alta de que le fue fatal el examen y acaba sacando un sobresaliente.",
+            "nl": "Klaagt luidkeels dat het tentamen een ramp was en haalt vervolgens een 9,5.",
+            "pt": "Queixa-se em voz alta de que chumbou no exame e acaba por tirar um 19."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "school_green_16",
+          "theme": "school",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Te propose de débriefer la journée autour d'un verre dès que le dernier cours est fini.",
+            "en": "Suggests grabbing a cold drink and debriefing the day the second the final class wraps up.",
+            "de": "Schlägt direkt nach der letzten Vorlesung ein Feierabendgetränk vor, um den Tag sacken zu lassen.",
+            "es": "Propone tomar algo y desconectar en cuanto termina la última clase del día.",
+            "nl": "Stelt voor om na het laatste college meteen wat te gaan drinken en de dag te evalueren.",
+            "pt": "Sugere ir beber um copo e descomprimir assim que acaba a última aula do dia."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "school_red_17",
+          "theme": "school",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Laisse traîner sa vaisselle sale dans l'évier de la coloc pendant 10 jours sous prétexte de « semaine de rentrée chargée ».",
+            "en": "Leaves dirty dishes in the shared kitchen sink for 10 days blaming \"busy first-week vibes\".",
+            "de": "Lässt das schmutzige Geschirr 10 Tage in der WG-Spüle stehen und schiebt es auf den „Ersti-Stress“.",
+            "es": "Deja los platos sucios en el fregadero del piso durante 10 días excusándose en la «semana de bienvenida».",
+            "nl": "Laat de afwas tien dagen in de studentenhuiskeuken staan onder het mom van \"drukke introweek\".",
+            "pt": "Deixa a loiça suja no lava-loiça partilhado durante 10 dias com a desculpa da «semana de praxe»."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "school_green_17",
+          "theme": "school",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Propose de cuisiner un grand plat de pâtes pour toute la coloc le premier soir pour briser la glace.",
+            "en": "Cooks a huge pasta dinner for the entire flatshare on night one to break the ice.",
+            "de": "Kocht am ersten Abend einen riesigen Topf Pasta für die ganze WG, um das Eis zu brechen.",
+            "es": "Cocina una gran fuente de pasta para todo el piso la primera noche para romper el hielo.",
+            "nl": "Kookt op de eerste avond een grote pan pasta voor het hele huis om het ijs te breken.",
+            "pt": "Cozinha um grande tacho de massa para toda a casa na primeira noite para quebrar o gelo."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "school_red_18",
+          "theme": "school",
+          "type": "red_flag",
+          "texts": {
+            "fr": "T'envoie un message à 7h45 pour te demander de signer la feuille de présence à sa place.",
+            "en": "Texts you at 7:45 AM begging you to forge their signature on the attendance sheet.",
+            "de": "Schreibt dir um 7:45 Uhr morgens und bittet dich, seine Unterschrift auf der Anwesenheitsliste zu fälschen.",
+            "es": "Te escribe a las 7:45 de la mañana para pedirte que firmes la hoja de asistencia en su lugar.",
+            "nl": "Appt je om 7:45 's ochtends met de vraag of je even zijn handtekening op de presentielijst wilt zetten.",
+            "pt": "Manda-te mensagem às 7h45 a pedir para assinares a folha de presenças no lugar dele."
+          },
+          "difficulty": 2,
+          "enabled": true
+        }
+      ]
+    },
     "office_pack": {
       "id": "office_pack",
       "name": "OFFICE",
@@ -22436,12 +23598,12 @@
       "theme": "vacation",
       "type": "red_flag",
       "texts": {
-        "fr": "S'attend à partager toutes les dépenses à parts égales, même si vous buvez du champagne et lui de l'eau.",
-        "en": "Expects to split all trip expenses 50/50, even if you drink champagne and they drink tap water.",
-        "de": "Erwartet, alle Ausgaben 50/50 zu teilen, selbst wenn du Champagner trinkst und er Leitungswasser.",
-        "es": "Espera dividir todos los gastos a partes iguales, aunque tú bebas champán y él agua del grifo.",
-        "nl": "Verwacht alle kosten 50/50 te delen, zelfs als jij champagne drinkt en zij kraanwater.",
-        "pt": "Espera dividir todas as despesas a meio, mesmo que tu bebas champanhe e ele água."
+        "fr": "Commande du champagne et des plats hors de prix, mais exige de faire 50/50 alors que tu as juste bu de l'eau.",
+        "en": "Orders expensive champagne and dishes, but expects to split the bill 50/50 when you only drank water.",
+        "de": "Bestellt teuren Champagner und Essen, verlangt aber 50/50 aufzuteilen, obwohl du nur Wasser getrunken hast.",
+        "es": "Pide champán y platos caros, pero exige dividir la cuenta 50/50 aunque tú solo hayas tomado agua.",
+        "nl": "Bestelt dure champagne en gerechten, maar eist de rekening 50/50 te delen terwijl jij alleen water dronk.",
+        "pt": "Pede champanhe e pratos caros, mas exige dividir a conta a meio quando tu só bebeste água."
       },
       "difficulty": 1,
       "enabled": true,
@@ -22897,6 +24059,636 @@
       "enabled": true,
       "mode": "classic",
       "packId": "vacation_pack",
+      "live_tier": "safe"
+    },
+    "school_red_1": {
+      "id": "school_red_1",
+      "theme": "school",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Achète 12 surligneurs fluo le premier jour et abandonne les cours dès la deuxième semaine.",
+        "en": "Buys 12 neon highlighters on day one and drops all classes by week two.",
+        "de": "Kauft am ersten Tag 12 Textmarker und schwänzt ab Woche zwei die Vorlesungen.",
+        "es": "Compra 12 subrayadores fluorescentes el primer día y deja de ir a clase la segunda semana.",
+        "nl": "Koopt op dag één 12 markeerstiften en stopt in week twee al met naar de les gaan.",
+        "pt": "Compra 12 marcadores fluorescentes no primeiro dia e falta às aulas logo na segunda semana."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    "school_green_1": {
+      "id": "school_green_1",
+      "theme": "school",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Te garde discrètement une place au fond de l'amphi à côté de la seule prise qui fonctionne.",
+        "en": "Quietly saves you a seat in the back of the lecture hall next to the only working power outlet.",
+        "de": "Hält dir heimlich einen Platz hinten im Hörsaal neben der einzigen funktionierenden Steckdose frei.",
+        "es": "Te guarda discretamente un sitio al fondo del aula magna junto al único enchufe que funciona.",
+        "nl": "Houdt stiekem een plekje achter in de collegezaal vrij naast het enige werkende stopcontact.",
+        "pt": "Guarda-te discretamente um lugar no fundo do anfiteatro ao lado da única tomada que funciona."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    "school_red_2": {
+      "id": "school_red_2",
+      "theme": "school",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Demande au prof « Est-ce que vous ramassez les devoirs ? » à 2 minutes de la sonnerie.",
+        "en": "Asks the teacher \"Are you going to collect our homework?\" 2 minutes before the bell rings.",
+        "de": "Fragt den Dozenten zwei Minuten vor Schluss: „Sammeln Sie die Hausaufgaben noch ein?“",
+        "es": "Le pregunta al profesor «¿Va a recoger los deberes?» a 2 minutos de que suene la campana.",
+        "nl": "Vraagt twee minuten voor de bel aan de docent: \"Kijkt u het huiswerk nog na?\"",
+        "pt": "Pergunta ao professor «Vai recolher os trabalhos de casa?» a 2 minutos do toque."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    "school_green_2": {
+      "id": "school_green_2",
+      "theme": "school",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Partage spontanément un Google Drive propre avec toutes les fiches de révision et les anciens partiels.",
+        "en": "Spontaneously shares a clean Google Drive folder with all summary notes and past exams.",
+        "de": "Teilt ungefragt einen aufgeräumten Google Drive-Ordner mit allen Zusammenfassungen und Altklausuren.",
+        "es": "Comparte espontáneamente una carpeta de Google Drive con todos los apuntes y exámenes anteriores.",
+        "nl": "Deelt spontaan een overzichtelijke Google Drive met alle samenvattingen en oude tentamens.",
+        "pt": "Partilha espontaneamente uma pasta do Google Drive com todos os resumos e exames anteriores."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    "school_red_3": {
+      "id": "school_red_3",
+      "theme": "school",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Déclare le 2 septembre : « Cette année c'est sérieux, zéro soirée en semaine », et finit en boîte le jeudi soir.",
+        "en": "Announces on September 2nd: \"This year I'm locked in, no weekday parties\", and ends up at a club by Thursday.",
+        "de": "Verkündet am 2. September: „Dieses Jahr lerne ich durch, keine Partys unter der Woche“, und feiert am Donnerstag.",
+        "es": "Dice el 2 de septiembre: «Este año voy en serio, cero fiestas entre semana», y el jueves ya está de fiesta.",
+        "nl": "Zegt op 2 september: \"Dit jaar ga ik knallen, geen feestjes doordeweeks\", en staat donderdag in de club.",
+        "pt": "Diz a 2 de setembro: «Este ano é a sério, zero festas à semana», e quinta-feira já está na discoteca."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    "school_green_3": {
+      "id": "school_green_3",
+      "theme": "school",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Ramène un thermos de café chaud et deux gobelets pour le cours magistral de 8h du matin.",
+        "en": "Brings a thermos of hot coffee and two cups for the 8 AM lecture.",
+        "de": "Bringt für die Vorlesung um 8 Uhr morgens eine Thermoskanne heißen Kaffee und zwei Becher mit.",
+        "es": "Trae un termo de café caliente y dos vasos para la clase de las 8 de la mañana.",
+        "nl": "Neemt een thermoskan hete koffie en twee bekers mee voor het college van 8 uur 's ochtends.",
+        "pt": "Traz uma garrafa térmica de café quente e dois copos para a aula das 8h da manhã."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    "school_red_4": {
+      "id": "school_red_4",
+      "theme": "school",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Dans un projet de groupe, ne répond jamais sur WhatsApp mais se pointe le jour de l'oral pour lire les diapos.",
+        "en": "Ghosts the group project WhatsApp chat, then shows up on presentation day just to read the slides.",
+        "de": "Ignoriert den WhatsApp-Gruppenchat, taucht aber am Präsentationstag auf, um Folien abzulesen.",
+        "es": "No contesta nunca en el grupo de WhatsApp del trabajo, pero aparece el día de la presentación para leer las diapositivas.",
+        "nl": "Reageert nooit in de WhatsApp-groep voor het project, maar verschijnt wel om de slides voor te lezen.",
+        "pt": "Não responde no grupo de WhatsApp do trabalho, mas aparece no dia da apresentação para ler os slides."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    "school_green_4": {
+      "id": "school_green_4",
+      "theme": "school",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Te prévient par message quand le prof fait l'appel pour que tu puisses sprinter jusqu'à la salle.",
+        "en": "Texts you the second attendance is being taken so you have time to sprint to class.",
+        "de": "Schreibt dir sofort, wenn die Anwesenheit geprüft wird, damit du noch schnell in den Raum sprinten kannst.",
+        "es": "Te avisa por mensaje en cuanto pasan lista para que puedas esprintar hasta el aula.",
+        "nl": "Appt je direct als de presentielijst wordt rondgestuurd zodat je nog snel kunt sprinten.",
+        "pt": "Manda-te mensagem assim que o professor começa a marcar faltas para poderes correr para a sala."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    "school_red_5": {
+      "id": "school_red_5",
+      "theme": "school",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Met un réveil strident à 6h30 en colocation, l'éteint 8 fois d'affilée et finit par ne pas se lever.",
+        "en": "Sets a blasting 6:30 AM alarm in a shared flat, hits snooze 8 times, and doesn't even get out of bed.",
+        "de": "Stellt in der WG einen schrillen Wecker auf 6:30 Uhr, snoozt 8 Mal und bleibt am Ende liegen.",
+        "es": "Pone una alarma estridente a las 6:30 en el piso compartido, la pospone 8 veces y ni se levanta.",
+        "nl": "Zet in het studentenhuis een schelle wekker om 6:30, snoozet 8 keer en blijft uiteindelijk gewoon liggen.",
+        "pt": "Põe um alarme estridente às 6h30 no apartamento partilhado, adia 8 vezes e acaba por não se levantar."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    "school_green_5": {
+      "id": "school_green_5",
+      "theme": "school",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Se porte volontaire pour faire le compte-rendu du cours que tu as raté parce que tu étais malade.",
+        "en": "Volunteers to write clean lecture notes for the class you missed while sick.",
+        "de": "Schreibt dir freiwillig eine saubere Mitschrift für die Vorlesung, die du krank verpasst hast.",
+        "es": "Se ofrece voluntario para pasarte los apuntes de la clase que te perdiste por estar enfermo.",
+        "nl": "Biedt vrijwillig aan om aantekeningen te maken voor het college dat je wegens ziekte hebt gemist.",
+        "pt": "Oferece-se para te passar os apontamentos da aula que perdeste por estares doente."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    "school_red_6": {
+      "id": "school_red_6",
+      "theme": "school",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Vient au premier date avec son sac à dos de cours qui pèse 15 kg et refuse de le poser au sol.",
+        "en": "Shows up to the first date with a 30-pound school backpack and refuses to put it on the floor.",
+        "de": "Kommt mit einem 15-Kilo-Rucksack zum ersten Date und weigert sich, ihn auf den Boden zu stellen.",
+        "es": "Llega a la primera cita con su mochila escolar de 15 kg y se niega a dejarla en el suelo.",
+        "nl": "Komt naar de eerste date met een schooltas van 15 kilo en weigert die op de grond te zetten.",
+        "pt": "Aparece no primeiro encontro com uma mochila escolar de 15 kg e recusa pô-la no chão."
+      },
+      "difficulty": 3,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    "school_green_6": {
+      "id": "school_green_6",
+      "theme": "school",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Te prête un stylo qui fonctionne bien sans te demander une caution de 50 euros.",
+        "en": "Lends you a nice, working pen without demanding a blood oath that you'll return it.",
+        "de": "Leiht dir einen guten Stift, ohne ein Pfand oder ein Versprechen einzufordern.",
+        "es": "Te presta un boli que escribe bien sin pedirte una fianza para devolvérselo.",
+        "nl": "Leent je een goede pen zonder te eisen dat je je paspoort als borg achterlaat.",
+        "pt": "Empresta-te uma caneta boa sem te pedir uma caução para a devolveres."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    "school_red_7": {
+      "id": "school_red_7",
+      "theme": "school",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Mange une boîte de thon ou un tupperware aux œufs durs en plein milieu d'un amphi fermé.",
+        "en": "Eats canned tuna or a hard-boiled egg lunchbox in the middle of a packed, windowless lecture hall.",
+        "de": "Isst mitten im vollen, fensterlosen Hörsaal eine Dose Thunfisch oder hartgekochte Eier.",
+        "es": "Abre una lata de atún o un táper con huevos cocidos en mitad de un aula cerrada y llena.",
+        "nl": "Eet een bakje tonijn of hardgekookte eieren midden in een overvolle collegezaal zonder ramen.",
+        "pt": "Come uma lata de atum ou ovos cozidos a meio de um anfiteatro cheio e sem janelas."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    "school_green_7": {
+      "id": "school_green_7",
+      "theme": "school",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Propose spontanément de faire les courses de rentrée en gros pour que la coloc économise 40%.",
+        "en": "Suggests buying back-to-school essentials in bulk so the whole flatshare saves 40%.",
+        "de": "Schlägt vor, WG-Vorräte im Großpack zu kaufen, damit alle Mitbewohner 40 % sparen.",
+        "es": "Propone comprar los básicos de la casa al por mayor para que el piso ahorre un 40%.",
+        "nl": "Stelt voor om studentenhuis-boodschappen in bulk in te slaan zodat iedereen 40% bespaart.",
+        "pt": "Sugere comprar os essenciais da casa a granel para que o apartamento poupe 40%."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    "school_red_8": {
+      "id": "school_red_8",
+      "theme": "school",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Passe tout le cours à taper bruyamment sur son clavier mécanique pour faire croire qu'il prend des notes.",
+        "en": "Clacks furiously on a loud mechanical keyboard the entire class just to look studious.",
+        "de": "Hämmert die ganze Vorlesung laut auf einer mechanischen Tastatur herum, um fleißig zu wirken.",
+        "es": "Se pasa toda la clase aporreando su teclado mecánico para fingir que está tomando apuntes.",
+        "nl": "Ramt het hele college luidruchtig op een mechanisch toetsenbord om ijverig te lijken.",
+        "pt": "Passa a aula inteira a teclar com força num teclado mecânico só para parecer estudioso."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    "school_green_8": {
+      "id": "school_green_8",
+      "theme": "school",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Connaît déjà tous les meilleurs plans de la cafétéria et les horaires où il n'y a personne qui fait la queue.",
+        "en": "Already knows the best cheap cafeteria meals and the exact time to skip the line.",
+        "de": "Kennt bereits das beste günstige Mensa-Essen und die Uhrzeit, zu der man nicht anstehen muss.",
+        "es": "Ya conoce las mejores ofertas de la cafetería y la hora exacta para no hacer cola.",
+        "nl": "Weet precies welke kantinehappen het beste zijn en wanneer er geen rij staat.",
+        "pt": "Já sabe quais são os melhores pratos da cantina e a hora certa para não apanhar fila."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    "school_red_9": {
+      "id": "school_red_9",
+      "theme": "school",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Drague le ou la délégué(e) uniquement pour avoir accès au planning des examens en avance.",
+        "en": "Hits on the class rep purely to get early access to the exam timetable.",
+        "de": "Flirtet mit dem Kurssprecher nur, um früher an die Prüfungstermine zu kommen.",
+        "es": "Le tira los tejos al delegado de clase solo para conseguir las fechas de exámenes antes que nadie.",
+        "nl": "Versiert de klassenvertegenwoordiger puur om het tentamenrooster eerder te krijgen.",
+        "pt": "Mete conversa com o delegado de turma só para saber as datas dos exames com antecedência."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    "school_green_9": {
+      "id": "school_green_9",
+      "theme": "school",
+      "type": "green_flag",
+      "texts": {
+        "fr": "T'empêche gentiment d'envoyer un mail passif-agressif à un prof à 2h du matin après une mauvaise note.",
+        "en": "Gently stops you from sending a passive-aggressive email to a professor at 2 AM after a bad grade.",
+        "de": "Hält dich nachts um 2 Uhr liebevoll davon ab, eine wütende Mail an den Dozenten zu schicken.",
+        "es": "Te frena con tacto antes de mandar un correo pasivo-agresivo a un profesor a las 2 de la madrugada.",
+        "nl": "Houdt je 's nachts om 2 uur tegen als je een boze mail naar een docent wilt sturen.",
+        "pt": "Impede-te com calma de enviar um e-mail agressivo a um professor às 2h da manhã após uma má nota."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    "school_red_10": {
+      "id": "school_red_10",
+      "theme": "school",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Raconte à toute la soirée d'intégration qu'il a eu mention Très Bien au bac alors que tout le monde s'en fiche.",
+        "en": "Brags to everyone at the welcome party about their high school grades when literally nobody asked.",
+        "de": "Prahlt auf der Ersti-Party mit seiner Abiturnote, obwohl es absolut niemanden interessiert.",
+        "es": "Le cuenta a todo el mundo en la fiesta de bienvenida su nota de selectividad sin que nadie le pregunte.",
+        "nl": "Schept op de introductieborrel op over zijn eindexamencijfers terwijl niemand erom vroeg.",
+        "pt": "Vangloria-se na festa de receção aos caloiros com as notas do secundário sem ninguém ter perguntado."
+      },
+      "difficulty": 3,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    "school_green_10": {
+      "id": "school_green_10",
+      "theme": "school",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Propose de faire des sessions de révision avec des pizzas plutôt que de paniquer tout seul la veille.",
+        "en": "Suggests a study session with pizza instead of having a solo panic attack the night before.",
+        "de": "Schlägt eine Lernsession mit Pizza vor, statt am Vorabend allein in Panik zu verfallen.",
+        "es": "Propone una sesión de estudio con pizza en lugar de sufrir un ataque de pánico a solas.",
+        "nl": "Stelt een studiesessie met pizza voor in plaats van de avond ervoor in je eentje te stressen.",
+        "pt": "Sugere uma sessão de estudo com pizza em vez de entrares em pânico sozinho na véspera."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    "school_red_11": {
+      "id": "school_red_11",
+      "theme": "school",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Achète le manuel scolaire obligatoire à 90 euros et ne l'ouvre pas une seule fois du semestre.",
+        "en": "Buys the required 90-dollar textbook brand new and never cracks it open all semester.",
+        "de": "Kauft das empfohlene 90-Euro-Fachbuch neu und schlägt es das ganze Semester nicht einmal auf.",
+        "es": "Se compra el libro de texto obligatorio de 90 euros y no lo abre ni una sola vez en el semestre.",
+        "nl": "Koopt het verplichte studieboek van 90 euro nieuw en doet het het hele semester niet één keer open.",
+        "pt": "Compra o livro obrigatório de 90 euros novinho em folha e não o abre nem uma vez no semestre."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    "school_green_11": {
+      "id": "school_green_11",
+      "theme": "school",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Trouve le PDF gratuit du manuel obligatoire en 3 clics sur un obscur forum universitaire.",
+        "en": "Finds the free textbook PDF within 3 clicks on a random academic forum and sends it to you.",
+        "de": "Findet das Lehrbuch-PDF innerhalb von drei Klicks kostenlos im Netz und schickt es dir.",
+        "es": "Encuentra el PDF gratis del libro obligatorio en 3 clics en un foro y te lo pasa.",
+        "nl": "Vindt de gratis pdf van het dure studieboek binnen drie klikken en stuurt hem door.",
+        "pt": "Encontra o PDF gratuito do livro obrigatório em 3 cliques num fórum e envia-to."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    "school_red_12": {
+      "id": "school_red_12",
+      "theme": "school",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Met 4 alarmes différentes avec des musiques insupportables et se rendort systématiquement.",
+        "en": "Sets 4 different alarms with screeching tunes and still goes straight back to sleep.",
+        "de": "Stellt vier Wecker mit grauenhaften Melodien und schläft trotzdem jedes Mal wieder ein.",
+        "es": "Pone 4 alarmas distintas con tonos estridentes y se vuelve a dormir en cada una de ellas.",
+        "nl": "Zet vier verschillende wekkers met vreselijke muziek en draait zich telkens gewoon weer om.",
+        "pt": "Põe 4 alarmes diferentes com músicas irritantes e volta sempre a adormecer."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    "school_green_12": {
+      "id": "school_green_12",
+      "theme": "school",
+      "type": "green_flag",
+      "texts": {
+        "fr": "T'accueille avec un grand sourire et un café quand tu arrives en retard et essoufflé au cours.",
+        "en": "Welcomes you with a warm smile and a coffee when you show up late and breathless to class.",
+        "de": "Begrüßt dich mit einem Lächeln und einem Kaffee, wenn du abgehetzt zu spät reinkommst.",
+        "es": "Te recibe con una sonrisa y un café cuando llegas tarde y sin aliento a clase.",
+        "nl": "Ontvangt je met een glimlach en koffie als je te laat en buiten adem binnenkomt.",
+        "pt": "Recebe-te com um sorriso e um café quando chegas atrasado e esbaforido à aula."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    "school_red_13": {
+      "id": "school_red_13",
+      "theme": "school",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Emprunte tes stabilos et te les rend tous sans leurs capuchons, complètement secs.",
+        "en": "Borrows your highlighters and gives them back capless and completely dried out.",
+        "de": "Leiht sich deine Textmarker und gibt sie dir ohne Kappe völlig ausgetrocknet zurück.",
+        "es": "Te pide los subrayadores y te los devuelve sin tapa y totalmente secos.",
+        "nl": "Leent je markeerstiften en geeft ze zonder dop en kurkdroog aan je terug.",
+        "pt": "Pede os teus marcadores emprestados e devolve-os sem tampa e completamente secos."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    "school_green_13": {
+      "id": "school_green_13",
+      "theme": "school",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Fait semblant de poser une question au prof exprès pour te laisser le temps de finir ton exo.",
+        "en": "Deliberately asks the professor a long question just to buy you time to finish the exercise.",
+        "de": "Stellt dem Dozenten absichtlich eine lange Frage, damit du deine Aufgabe noch beenden kannst.",
+        "es": "Hace una pregunta larga al profesor a propósito para darte tiempo a terminar el ejercicio.",
+        "nl": "Stelt de docent expres een lange vraag zodat jij tijd hebt om je opdracht af te maken.",
+        "pt": "Faz uma pergunta longa ao professor de propósito para te dar tempo de acabar o exercício."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    "school_red_14": {
+      "id": "school_red_14",
+      "theme": "school",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Prend 4 chaises dans la bibliothèque pour y poser son manteau, son sac et ses pieds.",
+        "en": "Claims 4 chairs in the silent library for their jacket, backpack, and feet.",
+        "de": "Blockiert in der vollen Bibliothek vier Stühle für Mantel, Tasche und Füße.",
+        "es": "Ocupa 4 sillas en la biblioteca silenciosa para su abrigo, su mochila y sus pies.",
+        "nl": "Bezet in de volle universiteitsbieb vier stoelen voor jas, tas en voeten.",
+        "pt": "Ocupa 4 cadeiras na biblioteca silenciosa para o casaco, a mochila e os pés."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    "school_green_14": {
+      "id": "school_green_14",
+      "theme": "school",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Te garde ta place et surveille tes affaires à la bibliothèque quand tu vas chercher un sandwich.",
+        "en": "Watches your laptop and guards your library desk like a hawk while you grab lunch.",
+        "de": "Passt zuverlässig auf deinen Laptop auf, während du dir kurz etwas zu essen holst.",
+        "es": "Vigila tu portátil y te guarda el sitio en la biblioteca mientras vas a por un bocadillo.",
+        "nl": "Past trouw op je laptop en houdt je plek vast terwijl jij even een broodje haalt.",
+        "pt": "Guarda o teu portátil e protege o teu lugar na biblioteca enquanto vais buscar um lanche."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    "school_red_15": {
+      "id": "school_red_15",
+      "theme": "school",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Change d'avis sur le sujet du projet final la veille du rendu à 23h30.",
+        "en": "Decides to completely change the final project topic at 11:30 PM the night before the deadline.",
+        "de": "Will das Thema der Gruppenarbeit am Vorabend um 23:30 Uhr noch einmal komplett umwerfen.",
+        "es": "Decide cambiar por completo el tema del proyecto final a las 23:30 la noche antes de la entrega.",
+        "nl": "Wil het onderwerp van het groepsproject om 23:30 de avond voor de deadline nog omgooien.",
+        "pt": "Decide mudar o tema do projeto final às 23h30 na noite anterior à entrega."
+      },
+      "difficulty": 3,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    "school_green_15": {
+      "id": "school_green_15",
+      "theme": "school",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Te fait réviser les définitions clés sous forme de mini-quiz drôle avant l'examen.",
+        "en": "Turns key concepts into a hilarious mini-quiz to test you right before the exam.",
+        "de": "Macht vor der Klausur ein witziges Mini-Quiz mit dir, um die wichtigsten Begriffe zu festigen.",
+        "es": "Te repasa los conceptos clave con un mini-quiz divertido justo antes del examen.",
+        "nl": "Overhoort je voor het tentamen met een grappige mini-quiz over de belangrijkste begrippen.",
+        "pt": "Revê contigo os conceitos mais difíceis através de um mini-quiz divertido antes do teste."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    "school_red_16": {
+      "id": "school_red_16",
+      "theme": "school",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Se plaint d'avoir « trop raté son partiel » et finit par avoir 18/20 devant tout le monde.",
+        "en": "Complains loudly that they failed the exam, then gets a 95% in front of everyone.",
+        "de": "Jammert lautstark über die angebliche 5,0 und bekommt am Ende eine 1,0.",
+        "es": "Se queja en voz alta de que le fue fatal el examen y acaba sacando un sobresaliente.",
+        "nl": "Klaagt luidkeels dat het tentamen een ramp was en haalt vervolgens een 9,5.",
+        "pt": "Queixa-se em voz alta de que chumbou no exame e acaba por tirar um 19."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    "school_green_16": {
+      "id": "school_green_16",
+      "theme": "school",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Te propose de débriefer la journée autour d'un verre dès que le dernier cours est fini.",
+        "en": "Suggests grabbing a cold drink and debriefing the day the second the final class wraps up.",
+        "de": "Schlägt direkt nach der letzten Vorlesung ein Feierabendgetränk vor, um den Tag sacken zu lassen.",
+        "es": "Propone tomar algo y desconectar en cuanto termina la última clase del día.",
+        "nl": "Stelt voor om na het laatste college meteen wat te gaan drinken en de dag te evalueren.",
+        "pt": "Sugere ir beber um copo e descomprimir assim que acaba a última aula do dia."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    "school_red_17": {
+      "id": "school_red_17",
+      "theme": "school",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Laisse traîner sa vaisselle sale dans l'évier de la coloc pendant 10 jours sous prétexte de « semaine de rentrée chargée ».",
+        "en": "Leaves dirty dishes in the shared kitchen sink for 10 days blaming \"busy first-week vibes\".",
+        "de": "Lässt das schmutzige Geschirr 10 Tage in der WG-Spüle stehen und schiebt es auf den „Ersti-Stress“.",
+        "es": "Deja los platos sucios en el fregadero del piso durante 10 días excusándose en la «semana de bienvenida».",
+        "nl": "Laat de afwas tien dagen in de studentenhuiskeuken staan onder het mom van \"drukke introweek\".",
+        "pt": "Deixa a loiça suja no lava-loiça partilhado durante 10 dias com a desculpa da «semana de praxe»."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    "school_green_17": {
+      "id": "school_green_17",
+      "theme": "school",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Propose de cuisiner un grand plat de pâtes pour toute la coloc le premier soir pour briser la glace.",
+        "en": "Cooks a huge pasta dinner for the entire flatshare on night one to break the ice.",
+        "de": "Kocht am ersten Abend einen riesigen Topf Pasta für die ganze WG, um das Eis zu brechen.",
+        "es": "Cocina una gran fuente de pasta para todo el piso la primera noche para romper el hielo.",
+        "nl": "Kookt op de eerste avond een grote pan pasta voor het hele huis om het ijs te breken.",
+        "pt": "Cozinha um grande tacho de massa para toda a casa na primeira noite para quebrar o gelo."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    "school_red_18": {
+      "id": "school_red_18",
+      "theme": "school",
+      "type": "red_flag",
+      "texts": {
+        "fr": "T'envoie un message à 7h45 pour te demander de signer la feuille de présence à sa place.",
+        "en": "Texts you at 7:45 AM begging you to forge their signature on the attendance sheet.",
+        "de": "Schreibt dir um 7:45 Uhr morgens und bittet dich, seine Unterschrift auf der Anwesenheitsliste zu fälschen.",
+        "es": "Te escribe a las 7:45 de la mañana para pedirte que firmes la hoja de asistencia en su lugar.",
+        "nl": "Appt je om 7:45 's ochtends met de vraag of je even zijn handtekening op de presentielijst wilt zetten.",
+        "pt": "Manda-te mensagem às 7h45 a pedir para assinares a folha de presenças no lugar dele."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "back_to_school_pack",
       "live_tier": "safe"
     },
     "office_red_1": {
@@ -30100,5 +31892,5 @@
       "live_tier": "safe"
     }
   },
-  "card_count": 589
+  "card_count": 624
 }
