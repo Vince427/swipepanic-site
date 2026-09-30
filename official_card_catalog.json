@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-19T21:00:43.049Z",
+  "updated_at": "2026-09-30T12:59:41.700Z",
   "cards": [
     {
       "id": "dating_red_1",
@@ -4032,6 +4032,636 @@
       "enabled": true,
       "mode": "classic",
       "packId": "back_to_school_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "halloween_red_1",
+      "theme": "halloween",
+      "type": "red_flag",
+      "texts": {
+        "fr": "En cas d'apocalypse zombie, a déjà un plan pour vous sacrifier en premier afin de sauver son chat.",
+        "en": "In a zombie apocalypse, already has a plan to sacrifice you first to save their cat.",
+        "de": "Hat bei einer Zombie-Apokalypse schon einen Plan, dich zuerst zu opfern, um die Katze zu retten.",
+        "es": "En un apocalipsis zombi, ya tiene un plan para sacrificarte el primero y salvar a su gato.",
+        "nl": "Heeft bij een zombie-apocalyps al een plan om jou eerst op te offeren om de kat te redden.",
+        "pt": "No caso de um apocalipse zombie, já tem um plano para te sacrificar primeiro e salvar o gato."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "halloween_green_1",
+      "theme": "halloween",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Accepte d'aller vérifier le premier dans la cave quand un bruit suspect retentit pendant la soirée.",
+        "en": "Voluntarily checks the creepy basement first when a weird noise echoes during the party.",
+        "de": "Geht freiwillig als Erster in den gruseligen Keller, wenn während der Party ein seltsames Geräusch ertönt.",
+        "es": "Va el primero al sótano a mirar cuando se oye un ruido sospechoso durante la fiesta.",
+        "nl": "Gaat als eerste vrijwillig in de donkere kelder kijken als er een verdacht geluid klinkt op het feest.",
+        "pt": "Aceita ir verificar a cave primeiro quando se ouve um barulho suspeito durante a festa."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "halloween_red_2",
+      "theme": "halloween",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Propose de faire tourner un verre ou d'invoquer des esprits à 3h du matin après 4 verres.",
+        "en": "Suggests using a Ouija board or summoning spirits at 3 AM after 4 drinks.",
+        "de": "Schlägt um 3 Uhr morgens nach 4 Drinks vor, Geister zu beschwören oder Gläserrücken zu spielen.",
+        "es": "Propone hacer espiritismo o invocar fantasmas a las 3 de la mañana después de 4 copas.",
+        "nl": "Stelt voor om om 3 uur 's nachts na 4 drankjes geesten op te roepen of glaasje te draaien.",
+        "pt": "Sugere fazer uma sessão espírita ou invocar espíritos às 3h da manhã depois de 4 copos."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "halloween_green_2",
+      "theme": "halloween",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Connaît par cœur les règles de survie des films d'horreur et refuse catégoriquement que le groupe se sépare.",
+        "en": "Knows every horror movie survival rule by heart and strictly forbids splitting up the group.",
+        "de": "Kennt jede Horrorfilm-Überlebensregel auswendig und verbietet strikt, dass sich die Gruppe trennt.",
+        "es": "Se sabe de memoria las reglas de supervivencia de las pelis de terror y prohíbe que el grupo se separe.",
+        "nl": "Kent alle overlevingsregels uit horrorfilms uit zijn hoofd en weigert pertinent dat de groep zich splitst.",
+        "pt": "Conhece de cor as regras de sobrevivência dos filmes de terror e recusa terminantemente que o grupo se separe."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "halloween_red_3",
+      "theme": "halloween",
+      "type": "red_flag",
+      "texts": {
+        "fr": "T'impose un costume de couple ridicule pour une soirée alors que vous sortez ensemble depuis seulement 3 jours.",
+        "en": "Forces a ridiculous couple's costume on you when you've only been dating for 3 days.",
+        "de": "Zwingt dir ein peinliches Pärchenkostüm auf, obwohl ihr erst seit 3 Tagen zusammen seid.",
+        "es": "Te impone un ridículo disfraz de pareja para una fiesta cuando solo lleváis saliendo 3 días.",
+        "nl": "Dringt een gênant koppels-kostuum aan je op terwijl jullie pas 3 dagen daten.",
+        "pt": "Impõe-te um disfarce de casal ridículo quando só namoram há 3 dias."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "halloween_green_3",
+      "theme": "halloween",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Prépare un grand bol de vrais chocolats de marque pour les gosses au lieu de vieux bonbons durs périmés.",
+        "en": "Stocks a giant bowl of full-size brand chocolates for trick-or-treaters instead of cheap hard candy.",
+        "de": "Kauft eine riesige Schüssel Marken-Schokolade für die Kids statt steinharter uralter Bonbons.",
+        "es": "Prepara un bol enorme de chocolatinas de marca para los niños en vez de caramelos duros caducados.",
+        "nl": "Heeft een grote schaal met echte merkchocolade klaarstaan voor de kinderen in plaats van oude zuurtjes.",
+        "pt": "Prepara uma taça cheia de chocolates de marca para os miúdos em vez de rebuçados velhos e duros."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "halloween_red_4",
+      "theme": "halloween",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Regarde des documentaires de tueurs en série pour s'endormir et les trouve « incompris ».",
+        "en": "Falls asleep to serial killer documentaries and unironically calls them \"misunderstood\".",
+        "de": "Schläft zu Serienmörder-Dokus ein und behauptet ernsthaft, sie seien nur „missverstanden“.",
+        "es": "Se duerme viendo documentales de asesinos en serie y dice convencido que eran «incomprendidos».",
+        "nl": "Valt in slaap bij documentaires over seriemoordenaars en noemt ze serieus \"onbegrepen\".",
+        "pt": "Adormece a ver documentários de assassinos em série e acha que eles eram apenas «mal compreendidos»."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "halloween_green_4",
+      "theme": "halloween",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Trouve un déguisement hilarant et bluffant en 10 minutes avec juste un vieux drap et un rouleau de scotch.",
+        "en": "Crafts a hilarious and genius costume in 10 minutes using only an old bedsheet and duct tape.",
+        "de": "Bastelt in 10 Minuten aus einem alten Bettlaken und Klebeband ein urkomisches Geniekostüm.",
+        "es": "Se inventa un disfraz desternillante en 10 minutos con solo una sábana vieja y cinta adhesiva.",
+        "nl": "Maakt in 10 minuten een hilarisch topkostuum met alleen een oud laken en een rol ducttape.",
+        "pt": "Cria um disfarce hilariante em 10 minutos apenas com um lençol velho e fita adesiva."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "halloween_red_5",
+      "theme": "halloween",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Dans un escape game d'horreur, panique, pousse ses potes en avant et s'enferme seul dans un placard.",
+        "en": "In a horror escape room, panics, shoves friends forward and locks themselves alone in a closet.",
+        "de": "Verfällt im Horror-Escape-Room in Panik, schubst Freunde nach vorne und schließt sich allein im Schrank ein.",
+        "es": "En un escape room de terror, le entra el pánico, empuja a los demás y se encierra solo en un armario.",
+        "nl": "Raakt in paniek in een horror-escape-room, duwt vrienden naar voren en sluit zichzelf op in een kast.",
+        "pt": "Num escape room de terror, entra em pânico, empurra os amigos para a frente e fecha-se sozinho num armário."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "halloween_green_5",
+      "theme": "halloween",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Reste éveillé avec toi pour regarder des dessins animés rassurants après un film d'horreur trop traumatisant.",
+        "en": "Stays awake with you watching wholesome cartoons after a genuinely traumatizing horror movie.",
+        "de": "Bleibt wach und schaut mit dir beruhigende Zeichentrickfilme nach einem zu verstörenden Horrorfilm.",
+        "es": "Se queda despierto contigo viendo dibujos animados para calmarte tras una peli de terror traumática.",
+        "nl": "Blijft gezellig met je op om vrolijke tekenfilms te kijken na een veel te enge horrorfilm.",
+        "pt": "Fica acordado contigo a ver desenhos animados reconfortantes depois de um filme de terror traumatizante."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "halloween_red_6",
+      "theme": "halloween",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Éteint brusquement toutes les lumières pendant le film et hurle derrière toi pour te faire sursauter.",
+        "en": "Suddenly cuts all the lights during the jump scare and screams right behind you to make you leap.",
+        "de": "Schaltet mitten im Film das Licht aus und brüllt direkt hinter dir, um dich zu Tode zu erschrecken.",
+        "es": "Apaga todas las luces de golpe durante la peli y te grita en la oreja por la espalda para asustarte.",
+        "nl": "Doet plots alle lichten uit tijdens de spannendste scène en schreeuwt achter je rug om je te laten schrikken.",
+        "pt": "Apaga todas as luzes de repente durante o filme e grita atrás de ti para te pregar um susto de morte."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "halloween_green_6",
+      "theme": "halloween",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Te prête immédiatement sa veste bien chaude par-dessus ton costume qui ne protège absolument pas du froid.",
+        "en": "Instantly offers you their warm jacket over your costume that provides zero protection against the cold.",
+        "de": "Leiht dir sofort die warme Jacke über dein Kostüm, das absolut null gegen die Kälte schützt.",
+        "es": "Te presta de inmediato su abrigo calentito sobre tu disfraz, que no abriga absolutamente nada.",
+        "nl": "Geeft je meteen zijn warme jas over je kostuum dat totaal niet bestand is tegen de kou.",
+        "pt": "Empresta-te logo o casaco quente por cima do teu disfarce que não protege nada do frio."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "halloween_red_7",
+      "theme": "halloween",
+      "type": "red_flag",
+      "texts": {
+        "fr": "A posé sur sa table de chevet une poupée en porcelaine flippante qui fixe le lit toute la nuit.",
+        "en": "Keeps a creepy vintage porcelain doll on their nightstand staring directly at the bed all night.",
+        "de": "Hat auf dem Nachttisch eine gruselige Porzellanpuppe stehen, die die ganze Nacht das Bett anstarrt.",
+        "es": "Tiene en la mesita de noche una muñeca de porcelana siniestra que mira fijamente a la cama toda la noche.",
+        "nl": "Heeft een griezelige porseleinen pop op het nachtkastje staan die de hele nacht naar het bed staart.",
+        "pt": "Tem na mesa de cabeceira uma boneca de porcelana assustadora que fixa a cama a noite inteira."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "halloween_green_7",
+      "theme": "halloween",
+      "type": "green_flag",
+      "texts": {
+        "fr": "N'a absolument peur de rien et attrape les araignées géantes à mains nues pour les relâcher dehors.",
+        "en": "Fearing absolutely nothing, catches giant spiders with bare hands to gently release them outside.",
+        "de": "Hat vor absolut gar nichts Angst und fängt Riesenspinnen mit bloßen Händen, um sie draußen freizulassen.",
+        "es": "No le teme a nada y atrapa las arañas gigantes con la mano para soltarlas vivas en la calle.",
+        "nl": "Is nergens bang voor en vangt reuzenspinnen met blote handen om ze buiten weer vrij te laten.",
+        "pt": "Não tem medo de nada e apanha aranhas gigantes com as mãos para as soltar lá fora."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "halloween_red_8",
+      "theme": "halloween",
+      "type": "red_flag",
+      "texts": {
+        "fr": "T'emmène au cimetière pour un premier date en prétendant que « l'énergie des tombes est romantique ».",
+        "en": "Takes you to a cemetery on a first date claiming that \"graveyard energy is deeply romantic\".",
+        "de": "Führt dich beim ersten Date auf einen Friedhof und behauptet, „die Energie von Gräbern sei romantisch“.",
+        "es": "Te lleva a un cementerio en la primera cita afirmando que «la energía de las tumbas es romántica».",
+        "nl": "Neemt je mee naar een begraafplaats op een eerste date omdat \"de energie van graven zo romantisch is\".",
+        "pt": "Leva-te a um cemitério no primeiro encontro afirmando que «a energia das campas é muito romântica»."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "halloween_green_8",
+      "theme": "halloween",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Décore son appart avec goût sans mettre de fausses toiles d'araignées gluantes impossibles à nettoyer.",
+        "en": "Decorates their place stylishly for Halloween without using sticky fake spiderwebs that ruin furniture.",
+        "de": "Dekoriert die Wohnung stilvoll für Halloween, ohne klebrige Kunst-Spinnweben zu verteilen.",
+        "es": "Decora la casa con estilazo para Halloween sin poner telarañas pegajosas imposibles de limpiar.",
+        "nl": "Versiert het huis sfeervol voor Halloween zonder die plakkerige nep-spinnenwebben die overal blijven hangen.",
+        "pt": "Decora a casa com muito bom gosto sem espalhar teias de aranha pegajosas impossíveis de limpar."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "halloween_red_9",
+      "theme": "halloween",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Te prépare un punch mystérieux dans un chaudron et refuse catégoriquement de dire ce qu'il y a dedans.",
+        "en": "Serves a suspicious punch in a smoking cauldron and strictly refuses to disclose what's inside.",
+        "de": "Braut eine mysteriöse Bowle im Kessel und weigert sich strikt zu verraten, was eigentlich drin ist.",
+        "es": "Prepara un ponche sospechoso en un caldero y se niega en rotundo a decirte qué lleva dentro.",
+        "nl": "Maakt een mysterieuze punch in een ketel en weigert pertinent te vertellen wat er allemaal in zit.",
+        "pt": "Prepara um ponche misterioso num caldeirão e recusa terminantemente dizer o que colocou lá dentro."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "halloween_green_9",
+      "theme": "halloween",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Propose de faire la tournée des bonbons avec les petits frères et sœurs pour qu'ils soient en sécurité.",
+        "en": "Volunteers to escort younger siblings trick-or-treating so they stay safe and get maximum loot.",
+        "de": "Geht freiwillig mit den jüngeren Geschwistern um die Häuser, damit sie sicher sind und viele Süßigkeiten kriegen.",
+        "es": "Se ofrece a acompañar a los hermanos pequeños a pedir caramelos para que vayan seguros.",
+        "nl": "Gaat vrijwillig mee met jongere broertjes en zusjes langs de deuren zodat ze veilig veel snoep ophalen.",
+        "pt": "Oferece-se para acompanhar os irmãos mais novos a pedir doces para garantir que estão em segurança."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "halloween_red_10",
+      "theme": "halloween",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Refuse d'allumer la lumière quand il rentre chez lui à 2h du matin parce qu'il « ressent des présences ».",
+        "en": "Refuses to turn on the lights when coming home at 2 AM because they \"sense spiritual presences\".",
+        "de": "Weigert sich, nachts um 2 Uhr das Licht anzumachen, weil eine „übernatürliche Präsenz im Raum ist“.",
+        "es": "Se niega a encender la luz al volver a casa a las 2 de la madrugada porque «siente presencias».",
+        "nl": "Weigert het licht aan te doen bij thuiskomst om 2 uur 's nachts omdat er \"aanwezigheden voelbaar zijn\".",
+        "pt": "Recusa-se a acender a luz quando chega a casa às 2h da manhã porque «sente presenças espirituais»."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "halloween_green_10",
+      "theme": "halloween",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Rigole franchement quand son déguisement fait un flop total au lieu de faire la gueule toute la soirée.",
+        "en": "Laughs heartily when their costume completely flops instead of sulking in a corner all evening.",
+        "de": "Lacht herzlich darüber, wenn das eigene Kostüm total floppt, statt den ganzen Abend beleidigt zu sein.",
+        "es": "Se parte de risa cuando su disfraz es un fracaso total en vez de enfadarse toda la noche.",
+        "nl": "Lacht hartelijk als het eigen kostuum compleet mislukt in plaats van de hele avond te mokken.",
+        "pt": "Dá uma boa gargalhada quando o seu disfarce é um fracasso total em vez de emburrar a noite toda."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "halloween_red_11",
+      "theme": "halloween",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Met des lentilles de contact blanches flippantes et te parle à 10 centimètres du visage toute la soirée.",
+        "en": "Wears eerie solid white contact lenses and talks to you 4 inches from your face the entire party.",
+        "de": "Trägt gruselige weiße Kontaktlinsen und redet den ganzen Abend aus 10 Zentimetern Entfernung mit dir.",
+        "es": "Se pone lentillas blancas siniestras y te habla a 10 centímetros de la cara durante toda la fiesta.",
+        "nl": "Draagt enge spierwitte lenzen en praat de hele avond op 10 centimeter afstand van je gezicht.",
+        "pt": "Usa lentes de contacto brancas arrepiantes e fala contigo a 10 centímetros da cara a noite toda."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "halloween_green_11",
+      "theme": "halloween",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Sait exactement quel classique d'horreur lancer selon le niveau de trouille des invités de la soirée.",
+        "en": "Knows precisely which horror classic to stream based on how easily spooked the party guests are.",
+        "de": "Weiß genau, welchen Horrorklassiker man anmachen muss, passend zum Grusel-Level der Gäste.",
+        "es": "Sabe exactamente qué clásico de terror poner según lo miedicas que sean los invitados de la fiesta.",
+        "nl": "Weet precies welke horrorklassieker moet worden opgezet afgestemd op hoe bang de gasten zijn.",
+        "pt": "Sabe exatamente qual clássico de terror pôr a dar de acordo com o nível de medo dos convidados."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "halloween_red_12",
+      "theme": "halloween",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Te raconte avec le plus grand sérieux que sa maison d'enfance était hantée par un curé sans tête.",
+        "en": "Tells you with absolute seriousness that their childhood house was haunted by a headless priest.",
+        "de": "Erzählt dir mit ernster Miene, dass das eigene Elternhaus von einem kopflosen Priester heimgesucht wurde.",
+        "es": "Te cuenta totalmente en serio que en su casa de la infancia se aparecía el fantasma de un cura sin cabeza.",
+        "nl": "Vertelt doodserieus dat het ouderlijk huis werd geteisterd door een onthoofde priester.",
+        "pt": "Conta-te com a maior seriedade que a sua casa de infância era assombrada por um padre sem cabeça."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "halloween_green_12",
+      "theme": "halloween",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Ramène un gâteau fait maison en forme de cerveau qui a l'air dégoûtant mais qui est délicieux.",
+        "en": "Brings a homemade brain-shaped cake that looks disgusting on the outside but tastes incredible.",
+        "de": "Bringt einen selbstgebackenen Gehirn-Kuchen mit, der eklig aussieht, aber absolut köstlich schmeckt.",
+        "es": "Trae una tarta casera con forma de cerebro que da repelús pero sabe increíblemente rica.",
+        "nl": "Brengt een zelfgebakken hersenentaart mee die er vies uitziet maar verrukkelijk smaakt.",
+        "pt": "Traz um bolo caseiro em forma de cérebro com aspeto nojento mas que é absolutamente delicioso."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "halloween_red_13",
+      "theme": "halloween",
+      "type": "red_flag",
+      "texts": {
+        "fr": "A installé un squelette articulé dans sa douche pour faire faire une crise cardiaque à ses invités.",
+        "en": "Rigged an articulated skeleton inside the shower curtain just to give guests a mild heart attack.",
+        "de": "Hat ein lebensgroßes Skelett in die Dusche gehängt, nur um Gästen einen Herzinfarkt zu verpassen.",
+        "es": "Ha colocado un esqueleto articulado en la ducha para que a las visitas les dé un infarto.",
+        "nl": "Heeft een bewegend skelet in de douche gehangen om gasten de schrik van hun leven te bezorgen.",
+        "pt": "Pôs um esqueleto articulado dentro do poliban só para pregar um susto de morte aos convidados."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "halloween_green_13",
+      "theme": "halloween",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Fait semblant d'être terrifié devant les déguisements des enfants pour leur faire super plaisir.",
+        "en": "Pretends to be terrified by little kids' cute costumes just to make their whole Halloween night.",
+        "de": "Tut vor den süßen Kostümen der Nachbarskinder total verängstigt, um ihnen eine riesige Freude zu machen.",
+        "es": "Finge estar aterrorizado con los disfraces de los niños pequeños para hacerles la mayor ilusión.",
+        "nl": "Doet alsof hij doodsbang is voor de schattige kinderkostuums om ze een geweldige avond te bezorgen.",
+        "pt": "Finge estar aterrorizado com os disfarces dos miúdos para lhes dar uma alegria enorme."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "halloween_red_14",
+      "theme": "halloween",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Vient à une soirée déguisée en vêtements normaux et dit avec mépris : « Moi, mon costume c'est moi-même ».",
+        "en": "Shows up to a costume party in normal clothes and sneers: \"My costume is just myself\".",
+        "de": "Kommt in Alltagskleidung zur Kostümparty und verkündet arrogant: „Mein Kostüm bin ich selbst“.",
+        "es": "Va a una fiesta de disfraces con ropa normal y dice con desprecio: «Mi disfraz soy yo mismo».",
+        "nl": "Komt in gewone kleding naar een verkleedfeest en zegt arrogant: \"Mijn kostuum is gewoon mezelf\".",
+        "pt": "Vai a uma festa de disfarces com roupa normal e diz com desdém: «O meu disfarce sou eu próprio»."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "halloween_green_14",
+      "theme": "halloween",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Accepte de tester les attractions de maison hantée les plus extrêmes juste pour te tenir la main.",
+        "en": "Bravely enters the most intense haunted house attractions just to hold your hand throughout.",
+        "de": "Geht mutig in die extremste Geisterbahn mit, nur um währenddessen deine Hand zu halten.",
+        "es": "Acepta entrar al pasaje del terror más bestia solo para darte la mano todo el camino.",
+        "nl": "Gaat dapper mee in het engste spookhuis alleen om onderweg je hand vast te houden.",
+        "pt": "Aceita entrar na casa assombrada mais assustadora só para te dar a mão o percurso todo."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "halloween_red_15",
+      "theme": "halloween",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Te spoil la fin du film d'horreur 10 minutes après le début en disant « De toute façon c'était évident ».",
+        "en": "Spoils the killer's identity 10 minutes into the horror movie boasting: \"It was obvious anyway\".",
+        "de": "Spoilert nach 10 Minuten das Ende des Horrorfilms und prahlt: „War doch eh von Anfang an klar“.",
+        "es": "Te destripa el final de la peli de terror a los 10 minutos diciendo: «Se veía venir desde lejos».",
+        "nl": "Verklapt na 10 minuten wie de moordenaar is en snoeft: \"Het lag er toch duimendik bovenop\".",
+        "pt": "Dá spoiler do assassino 10 minutos após o início do filme dizendo com desdém: «Era óbvio desde o início»."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "halloween_green_15",
+      "theme": "halloween",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Prépare une playlist Halloween de génie qui mélange Michael Jackson, classiques rétro et sons bien flippants.",
+        "en": "Curates an incredible Halloween playlist mixing Thriller, retro classics and genuinely eerie tracks.",
+        "de": "Erstellt eine geniale Halloween-Playlist mit Thriller, Retro-Klassikern und atmosphärischem Gruselsound.",
+        "es": "Prepara una lista musical de Halloween brutal combinando Thriller, clásicos retro y temazos siniestros.",
+        "nl": "Stelt een geniale Halloween-afspeellijst samen met Thriller, retro-klassiekers en sfeervolle tracks.",
+        "pt": "Cria uma playlist de Halloween brilhante que junta Thriller, clássicos retro e batidas bem sombrias."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "halloween_red_16",
+      "theme": "halloween",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Te raconte pendant tout le trajet de nuit en forêt des histoires de disparitions inexpliquées dans la région.",
+        "en": "Recounts creepy local missing persons stories during the entire late-night drive through dense woods.",
+        "de": "Erzählt dir während der gesamten nächtlichen Waldfahrt unheimliche Geschichten über vermisste Personen.",
+        "es": "Te cuenta durante todo el viaje nocturno por el bosque historias de desapariciones sin resolver en la zona.",
+        "nl": "Vertelt tijdens de nachtelijke autorit door het donkere bos verhalen over onopgeloste verdwijningen.",
+        "pt": "Conta-te durante toda a viagem noturna pela floresta histórias sinistras de pessoas desaparecidas na região."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "halloween_green_16",
+      "theme": "halloween",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Te raccompagne jusqu'au pas de ta porte avec le flash de son téléphone pour vérifier qu'aucun monstre ne traîne.",
+        "en": "Walks you right up to your doorstep with their phone flashlight to verify zero monsters are lurking.",
+        "de": "Begleitet dich mit der Handytaschenlampe bis vor die Haustür, um zu checken, dass kein Monster lauert.",
+        "es": "Te acompaña hasta la misma puerta de casa con la linterna del móvil para comprobar que no hay monstruos.",
+        "nl": "Brengt je met de zaklamp van de telefoon tot aan de voordeur om te controleren of er geen monsters rondhangen.",
+        "pt": "Acompanha-te até à porta de casa com a lanterna do telemóvel para confirmar que não há monstros à espreita."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "halloween_red_17",
+      "theme": "halloween",
+      "type": "red_flag",
+      "texts": {
+        "fr": "A un rire de méchant de dessin animé à chaque fois qu'il gagne à un jeu de société.",
+        "en": "Busts out an unhinged cartoon villain evil laugh every single time they win a board game.",
+        "de": "Lacht jedes Mal wie ein durchgeknallter Zeichentrick-Bösewicht, wenn er ein Brettspiel gewinnt.",
+        "es": "Se ríe como un villano psicópata de dibujos animados cada vez que gana a un juego de mesa.",
+        "nl": "Lacht elke keer als een maniakale tekenfilm-schurk wanneer hij een bordspelletje wint.",
+        "pt": "Dá uma gargalhada sinistra de vilão de desenhos animados sempre que ganha um jogo de tabuleiro."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "halloween_green_17",
+      "theme": "halloween",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Ramène des citrouilles pour toute la bande et organise un concours de sculpture où tout le monde rigole.",
+        "en": "Brings pumpkins for the whole crew and hosts an impromptu carving contest where everyone ends up laughing.",
+        "de": "Bringt Kürbisse für die ganze Clique mit und veranstaltet einen Schnitzwettbewerb, bei dem alle Tränen lachen.",
+        "es": "Trae calabazas para todo el grupo y monta un concurso de tallado donde todo el mundo acaba llorando de risa.",
+        "nl": "Brengt pompoenen mee voor de hele groep en organiseert een uithol-wedstrijd waar iedereen dubbel om ligt.",
+        "pt": "Traz abóboras para todo o grupo e organiza um concurso de escultura onde toda a gente chora a rir."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "halloween_red_18",
+      "theme": "halloween",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Fait semblant de s'évanouir dans le couloir sombre pour voir qui viendra l'aider et qui s'enfuira en courant.",
+        "en": "Fakes fainting in the pitch-black hallway just to test who rushes to help and who runs away screaming.",
+        "de": "Täuscht im stockdunklen Flur eine Ohnmacht vor, nur um zu sehen, wer hilft und wer schreiend wegrennt.",
+        "es": "Finge desmayarse en el pasillo a oscuras solo para ver quién viene a ayudar y quién sale corriendo.",
+        "nl": "Doet alsof hij flauwvalt in de aardedonkere gang om te testen wie komt helpen en wie schreeuwend wegrent.",
+        "pt": "Finge desmaiar no corredor às escuras para ver quem vem ajudar e quem foge aos gritos."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
       "live_tier": "safe"
     },
     {
@@ -14625,6 +15255,538 @@
         }
       ]
     },
+    "halloween_pack": {
+      "id": "halloween_pack",
+      "name": "HALLOWEEN",
+      "card_count": 35,
+      "cards": [
+        {
+          "id": "halloween_red_1",
+          "theme": "halloween",
+          "type": "red_flag",
+          "texts": {
+            "fr": "En cas d'apocalypse zombie, a déjà un plan pour vous sacrifier en premier afin de sauver son chat.",
+            "en": "In a zombie apocalypse, already has a plan to sacrifice you first to save their cat.",
+            "de": "Hat bei einer Zombie-Apokalypse schon einen Plan, dich zuerst zu opfern, um die Katze zu retten.",
+            "es": "En un apocalipsis zombi, ya tiene un plan para sacrificarte el primero y salvar a su gato.",
+            "nl": "Heeft bij een zombie-apocalyps al een plan om jou eerst op te offeren om de kat te redden.",
+            "pt": "No caso de um apocalipse zombie, já tem um plano para te sacrificar primeiro e salvar o gato."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "halloween_green_1",
+          "theme": "halloween",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Accepte d'aller vérifier le premier dans la cave quand un bruit suspect retentit pendant la soirée.",
+            "en": "Voluntarily checks the creepy basement first when a weird noise echoes during the party.",
+            "de": "Geht freiwillig als Erster in den gruseligen Keller, wenn während der Party ein seltsames Geräusch ertönt.",
+            "es": "Va el primero al sótano a mirar cuando se oye un ruido sospechoso durante la fiesta.",
+            "nl": "Gaat als eerste vrijwillig in de donkere kelder kijken als er een verdacht geluid klinkt op het feest.",
+            "pt": "Aceita ir verificar a cave primeiro quando se ouve um barulho suspeito durante a festa."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "halloween_red_2",
+          "theme": "halloween",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Propose de faire tourner un verre ou d'invoquer des esprits à 3h du matin après 4 verres.",
+            "en": "Suggests using a Ouija board or summoning spirits at 3 AM after 4 drinks.",
+            "de": "Schlägt um 3 Uhr morgens nach 4 Drinks vor, Geister zu beschwören oder Gläserrücken zu spielen.",
+            "es": "Propone hacer espiritismo o invocar fantasmas a las 3 de la mañana después de 4 copas.",
+            "nl": "Stelt voor om om 3 uur 's nachts na 4 drankjes geesten op te roepen of glaasje te draaien.",
+            "pt": "Sugere fazer uma sessão espírita ou invocar espíritos às 3h da manhã depois de 4 copos."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "halloween_green_2",
+          "theme": "halloween",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Connaît par cœur les règles de survie des films d'horreur et refuse catégoriquement que le groupe se sépare.",
+            "en": "Knows every horror movie survival rule by heart and strictly forbids splitting up the group.",
+            "de": "Kennt jede Horrorfilm-Überlebensregel auswendig und verbietet strikt, dass sich die Gruppe trennt.",
+            "es": "Se sabe de memoria las reglas de supervivencia de las pelis de terror y prohíbe que el grupo se separe.",
+            "nl": "Kent alle overlevingsregels uit horrorfilms uit zijn hoofd en weigert pertinent dat de groep zich splitst.",
+            "pt": "Conhece de cor as regras de sobrevivência dos filmes de terror e recusa terminantemente que o grupo se separe."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "halloween_red_3",
+          "theme": "halloween",
+          "type": "red_flag",
+          "texts": {
+            "fr": "T'impose un costume de couple ridicule pour une soirée alors que vous sortez ensemble depuis seulement 3 jours.",
+            "en": "Forces a ridiculous couple's costume on you when you've only been dating for 3 days.",
+            "de": "Zwingt dir ein peinliches Pärchenkostüm auf, obwohl ihr erst seit 3 Tagen zusammen seid.",
+            "es": "Te impone un ridículo disfraz de pareja para una fiesta cuando solo lleváis saliendo 3 días.",
+            "nl": "Dringt een gênant koppels-kostuum aan je op terwijl jullie pas 3 dagen daten.",
+            "pt": "Impõe-te um disfarce de casal ridículo quando só namoram há 3 dias."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "halloween_green_3",
+          "theme": "halloween",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Prépare un grand bol de vrais chocolats de marque pour les gosses au lieu de vieux bonbons durs périmés.",
+            "en": "Stocks a giant bowl of full-size brand chocolates for trick-or-treaters instead of cheap hard candy.",
+            "de": "Kauft eine riesige Schüssel Marken-Schokolade für die Kids statt steinharter uralter Bonbons.",
+            "es": "Prepara un bol enorme de chocolatinas de marca para los niños en vez de caramelos duros caducados.",
+            "nl": "Heeft een grote schaal met echte merkchocolade klaarstaan voor de kinderen in plaats van oude zuurtjes.",
+            "pt": "Prepara uma taça cheia de chocolates de marca para os miúdos em vez de rebuçados velhos e duros."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "halloween_red_4",
+          "theme": "halloween",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Regarde des documentaires de tueurs en série pour s'endormir et les trouve « incompris ».",
+            "en": "Falls asleep to serial killer documentaries and unironically calls them \"misunderstood\".",
+            "de": "Schläft zu Serienmörder-Dokus ein und behauptet ernsthaft, sie seien nur „missverstanden“.",
+            "es": "Se duerme viendo documentales de asesinos en serie y dice convencido que eran «incomprendidos».",
+            "nl": "Valt in slaap bij documentaires over seriemoordenaars en noemt ze serieus \"onbegrepen\".",
+            "pt": "Adormece a ver documentários de assassinos em série e acha que eles eram apenas «mal compreendidos»."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "halloween_green_4",
+          "theme": "halloween",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Trouve un déguisement hilarant et bluffant en 10 minutes avec juste un vieux drap et un rouleau de scotch.",
+            "en": "Crafts a hilarious and genius costume in 10 minutes using only an old bedsheet and duct tape.",
+            "de": "Bastelt in 10 Minuten aus einem alten Bettlaken und Klebeband ein urkomisches Geniekostüm.",
+            "es": "Se inventa un disfraz desternillante en 10 minutos con solo una sábana vieja y cinta adhesiva.",
+            "nl": "Maakt in 10 minuten een hilarisch topkostuum met alleen een oud laken en een rol ducttape.",
+            "pt": "Cria um disfarce hilariante em 10 minutos apenas com um lençol velho e fita adesiva."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "halloween_red_5",
+          "theme": "halloween",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Dans un escape game d'horreur, panique, pousse ses potes en avant et s'enferme seul dans un placard.",
+            "en": "In a horror escape room, panics, shoves friends forward and locks themselves alone in a closet.",
+            "de": "Verfällt im Horror-Escape-Room in Panik, schubst Freunde nach vorne und schließt sich allein im Schrank ein.",
+            "es": "En un escape room de terror, le entra el pánico, empuja a los demás y se encierra solo en un armario.",
+            "nl": "Raakt in paniek in een horror-escape-room, duwt vrienden naar voren en sluit zichzelf op in een kast.",
+            "pt": "Num escape room de terror, entra em pânico, empurra os amigos para a frente e fecha-se sozinho num armário."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "halloween_green_5",
+          "theme": "halloween",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Reste éveillé avec toi pour regarder des dessins animés rassurants après un film d'horreur trop traumatisant.",
+            "en": "Stays awake with you watching wholesome cartoons after a genuinely traumatizing horror movie.",
+            "de": "Bleibt wach und schaut mit dir beruhigende Zeichentrickfilme nach einem zu verstörenden Horrorfilm.",
+            "es": "Se queda despierto contigo viendo dibujos animados para calmarte tras una peli de terror traumática.",
+            "nl": "Blijft gezellig met je op om vrolijke tekenfilms te kijken na een veel te enge horrorfilm.",
+            "pt": "Fica acordado contigo a ver desenhos animados reconfortantes depois de um filme de terror traumatizante."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "halloween_red_6",
+          "theme": "halloween",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Éteint brusquement toutes les lumières pendant le film et hurle derrière toi pour te faire sursauter.",
+            "en": "Suddenly cuts all the lights during the jump scare and screams right behind you to make you leap.",
+            "de": "Schaltet mitten im Film das Licht aus und brüllt direkt hinter dir, um dich zu Tode zu erschrecken.",
+            "es": "Apaga todas las luces de golpe durante la peli y te grita en la oreja por la espalda para asustarte.",
+            "nl": "Doet plots alle lichten uit tijdens de spannendste scène en schreeuwt achter je rug om je te laten schrikken.",
+            "pt": "Apaga todas as luzes de repente durante o filme e grita atrás de ti para te pregar um susto de morte."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "halloween_green_6",
+          "theme": "halloween",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Te prête immédiatement sa veste bien chaude par-dessus ton costume qui ne protège absolument pas du froid.",
+            "en": "Instantly offers you their warm jacket over your costume that provides zero protection against the cold.",
+            "de": "Leiht dir sofort die warme Jacke über dein Kostüm, das absolut null gegen die Kälte schützt.",
+            "es": "Te presta de inmediato su abrigo calentito sobre tu disfraz, que no abriga absolutamente nada.",
+            "nl": "Geeft je meteen zijn warme jas over je kostuum dat totaal niet bestand is tegen de kou.",
+            "pt": "Empresta-te logo o casaco quente por cima do teu disfarce que não protege nada do frio."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "halloween_red_7",
+          "theme": "halloween",
+          "type": "red_flag",
+          "texts": {
+            "fr": "A posé sur sa table de chevet une poupée en porcelaine flippante qui fixe le lit toute la nuit.",
+            "en": "Keeps a creepy vintage porcelain doll on their nightstand staring directly at the bed all night.",
+            "de": "Hat auf dem Nachttisch eine gruselige Porzellanpuppe stehen, die die ganze Nacht das Bett anstarrt.",
+            "es": "Tiene en la mesita de noche una muñeca de porcelana siniestra que mira fijamente a la cama toda la noche.",
+            "nl": "Heeft een griezelige porseleinen pop op het nachtkastje staan die de hele nacht naar het bed staart.",
+            "pt": "Tem na mesa de cabeceira uma boneca de porcelana assustadora que fixa a cama a noite inteira."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "halloween_green_7",
+          "theme": "halloween",
+          "type": "green_flag",
+          "texts": {
+            "fr": "N'a absolument peur de rien et attrape les araignées géantes à mains nues pour les relâcher dehors.",
+            "en": "Fearing absolutely nothing, catches giant spiders with bare hands to gently release them outside.",
+            "de": "Hat vor absolut gar nichts Angst und fängt Riesenspinnen mit bloßen Händen, um sie draußen freizulassen.",
+            "es": "No le teme a nada y atrapa las arañas gigantes con la mano para soltarlas vivas en la calle.",
+            "nl": "Is nergens bang voor en vangt reuzenspinnen met blote handen om ze buiten weer vrij te laten.",
+            "pt": "Não tem medo de nada e apanha aranhas gigantes com as mãos para as soltar lá fora."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "halloween_red_8",
+          "theme": "halloween",
+          "type": "red_flag",
+          "texts": {
+            "fr": "T'emmène au cimetière pour un premier date en prétendant que « l'énergie des tombes est romantique ».",
+            "en": "Takes you to a cemetery on a first date claiming that \"graveyard energy is deeply romantic\".",
+            "de": "Führt dich beim ersten Date auf einen Friedhof und behauptet, „die Energie von Gräbern sei romantisch“.",
+            "es": "Te lleva a un cementerio en la primera cita afirmando que «la energía de las tumbas es romántica».",
+            "nl": "Neemt je mee naar een begraafplaats op een eerste date omdat \"de energie van graven zo romantisch is\".",
+            "pt": "Leva-te a um cemitério no primeiro encontro afirmando que «a energia das campas é muito romântica»."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "halloween_green_8",
+          "theme": "halloween",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Décore son appart avec goût sans mettre de fausses toiles d'araignées gluantes impossibles à nettoyer.",
+            "en": "Decorates their place stylishly for Halloween without using sticky fake spiderwebs that ruin furniture.",
+            "de": "Dekoriert die Wohnung stilvoll für Halloween, ohne klebrige Kunst-Spinnweben zu verteilen.",
+            "es": "Decora la casa con estilazo para Halloween sin poner telarañas pegajosas imposibles de limpiar.",
+            "nl": "Versiert het huis sfeervol voor Halloween zonder die plakkerige nep-spinnenwebben die overal blijven hangen.",
+            "pt": "Decora a casa com muito bom gosto sem espalhar teias de aranha pegajosas impossíveis de limpar."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "halloween_red_9",
+          "theme": "halloween",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Te prépare un punch mystérieux dans un chaudron et refuse catégoriquement de dire ce qu'il y a dedans.",
+            "en": "Serves a suspicious punch in a smoking cauldron and strictly refuses to disclose what's inside.",
+            "de": "Braut eine mysteriöse Bowle im Kessel und weigert sich strikt zu verraten, was eigentlich drin ist.",
+            "es": "Prepara un ponche sospechoso en un caldero y se niega en rotundo a decirte qué lleva dentro.",
+            "nl": "Maakt een mysterieuze punch in een ketel en weigert pertinent te vertellen wat er allemaal in zit.",
+            "pt": "Prepara um ponche misterioso num caldeirão e recusa terminantemente dizer o que colocou lá dentro."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "halloween_green_9",
+          "theme": "halloween",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Propose de faire la tournée des bonbons avec les petits frères et sœurs pour qu'ils soient en sécurité.",
+            "en": "Volunteers to escort younger siblings trick-or-treating so they stay safe and get maximum loot.",
+            "de": "Geht freiwillig mit den jüngeren Geschwistern um die Häuser, damit sie sicher sind und viele Süßigkeiten kriegen.",
+            "es": "Se ofrece a acompañar a los hermanos pequeños a pedir caramelos para que vayan seguros.",
+            "nl": "Gaat vrijwillig mee met jongere broertjes en zusjes langs de deuren zodat ze veilig veel snoep ophalen.",
+            "pt": "Oferece-se para acompanhar os irmãos mais novos a pedir doces para garantir que estão em segurança."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "halloween_red_10",
+          "theme": "halloween",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Refuse d'allumer la lumière quand il rentre chez lui à 2h du matin parce qu'il « ressent des présences ».",
+            "en": "Refuses to turn on the lights when coming home at 2 AM because they \"sense spiritual presences\".",
+            "de": "Weigert sich, nachts um 2 Uhr das Licht anzumachen, weil eine „übernatürliche Präsenz im Raum ist“.",
+            "es": "Se niega a encender la luz al volver a casa a las 2 de la madrugada porque «siente presencias».",
+            "nl": "Weigert het licht aan te doen bij thuiskomst om 2 uur 's nachts omdat er \"aanwezigheden voelbaar zijn\".",
+            "pt": "Recusa-se a acender a luz quando chega a casa às 2h da manhã porque «sente presenças espirituais»."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "halloween_green_10",
+          "theme": "halloween",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Rigole franchement quand son déguisement fait un flop total au lieu de faire la gueule toute la soirée.",
+            "en": "Laughs heartily when their costume completely flops instead of sulking in a corner all evening.",
+            "de": "Lacht herzlich darüber, wenn das eigene Kostüm total floppt, statt den ganzen Abend beleidigt zu sein.",
+            "es": "Se parte de risa cuando su disfraz es un fracaso total en vez de enfadarse toda la noche.",
+            "nl": "Lacht hartelijk als het eigen kostuum compleet mislukt in plaats van de hele avond te mokken.",
+            "pt": "Dá uma boa gargalhada quando o seu disfarce é um fracasso total em vez de emburrar a noite toda."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "halloween_red_11",
+          "theme": "halloween",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Met des lentilles de contact blanches flippantes et te parle à 10 centimètres du visage toute la soirée.",
+            "en": "Wears eerie solid white contact lenses and talks to you 4 inches from your face the entire party.",
+            "de": "Trägt gruselige weiße Kontaktlinsen und redet den ganzen Abend aus 10 Zentimetern Entfernung mit dir.",
+            "es": "Se pone lentillas blancas siniestras y te habla a 10 centímetros de la cara durante toda la fiesta.",
+            "nl": "Draagt enge spierwitte lenzen en praat de hele avond op 10 centimeter afstand van je gezicht.",
+            "pt": "Usa lentes de contacto brancas arrepiantes e fala contigo a 10 centímetros da cara a noite toda."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "halloween_green_11",
+          "theme": "halloween",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Sait exactement quel classique d'horreur lancer selon le niveau de trouille des invités de la soirée.",
+            "en": "Knows precisely which horror classic to stream based on how easily spooked the party guests are.",
+            "de": "Weiß genau, welchen Horrorklassiker man anmachen muss, passend zum Grusel-Level der Gäste.",
+            "es": "Sabe exactamente qué clásico de terror poner según lo miedicas que sean los invitados de la fiesta.",
+            "nl": "Weet precies welke horrorklassieker moet worden opgezet afgestemd op hoe bang de gasten zijn.",
+            "pt": "Sabe exatamente qual clássico de terror pôr a dar de acordo com o nível de medo dos convidados."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "halloween_red_12",
+          "theme": "halloween",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Te raconte avec le plus grand sérieux que sa maison d'enfance était hantée par un curé sans tête.",
+            "en": "Tells you with absolute seriousness that their childhood house was haunted by a headless priest.",
+            "de": "Erzählt dir mit ernster Miene, dass das eigene Elternhaus von einem kopflosen Priester heimgesucht wurde.",
+            "es": "Te cuenta totalmente en serio que en su casa de la infancia se aparecía el fantasma de un cura sin cabeza.",
+            "nl": "Vertelt doodserieus dat het ouderlijk huis werd geteisterd door een onthoofde priester.",
+            "pt": "Conta-te com a maior seriedade que a sua casa de infância era assombrada por um padre sem cabeça."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "halloween_green_12",
+          "theme": "halloween",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Ramène un gâteau fait maison en forme de cerveau qui a l'air dégoûtant mais qui est délicieux.",
+            "en": "Brings a homemade brain-shaped cake that looks disgusting on the outside but tastes incredible.",
+            "de": "Bringt einen selbstgebackenen Gehirn-Kuchen mit, der eklig aussieht, aber absolut köstlich schmeckt.",
+            "es": "Trae una tarta casera con forma de cerebro que da repelús pero sabe increíblemente rica.",
+            "nl": "Brengt een zelfgebakken hersenentaart mee die er vies uitziet maar verrukkelijk smaakt.",
+            "pt": "Traz um bolo caseiro em forma de cérebro com aspeto nojento mas que é absolutamente delicioso."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "halloween_red_13",
+          "theme": "halloween",
+          "type": "red_flag",
+          "texts": {
+            "fr": "A installé un squelette articulé dans sa douche pour faire faire une crise cardiaque à ses invités.",
+            "en": "Rigged an articulated skeleton inside the shower curtain just to give guests a mild heart attack.",
+            "de": "Hat ein lebensgroßes Skelett in die Dusche gehängt, nur um Gästen einen Herzinfarkt zu verpassen.",
+            "es": "Ha colocado un esqueleto articulado en la ducha para que a las visitas les dé un infarto.",
+            "nl": "Heeft een bewegend skelet in de douche gehangen om gasten de schrik van hun leven te bezorgen.",
+            "pt": "Pôs um esqueleto articulado dentro do poliban só para pregar um susto de morte aos convidados."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "halloween_green_13",
+          "theme": "halloween",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Fait semblant d'être terrifié devant les déguisements des enfants pour leur faire super plaisir.",
+            "en": "Pretends to be terrified by little kids' cute costumes just to make their whole Halloween night.",
+            "de": "Tut vor den süßen Kostümen der Nachbarskinder total verängstigt, um ihnen eine riesige Freude zu machen.",
+            "es": "Finge estar aterrorizado con los disfraces de los niños pequeños para hacerles la mayor ilusión.",
+            "nl": "Doet alsof hij doodsbang is voor de schattige kinderkostuums om ze een geweldige avond te bezorgen.",
+            "pt": "Finge estar aterrorizado com os disfarces dos miúdos para lhes dar uma alegria enorme."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "halloween_red_14",
+          "theme": "halloween",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Vient à une soirée déguisée en vêtements normaux et dit avec mépris : « Moi, mon costume c'est moi-même ».",
+            "en": "Shows up to a costume party in normal clothes and sneers: \"My costume is just myself\".",
+            "de": "Kommt in Alltagskleidung zur Kostümparty und verkündet arrogant: „Mein Kostüm bin ich selbst“.",
+            "es": "Va a una fiesta de disfraces con ropa normal y dice con desprecio: «Mi disfraz soy yo mismo».",
+            "nl": "Komt in gewone kleding naar een verkleedfeest en zegt arrogant: \"Mijn kostuum is gewoon mezelf\".",
+            "pt": "Vai a uma festa de disfarces com roupa normal e diz com desdém: «O meu disfarce sou eu próprio»."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "halloween_green_14",
+          "theme": "halloween",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Accepte de tester les attractions de maison hantée les plus extrêmes juste pour te tenir la main.",
+            "en": "Bravely enters the most intense haunted house attractions just to hold your hand throughout.",
+            "de": "Geht mutig in die extremste Geisterbahn mit, nur um währenddessen deine Hand zu halten.",
+            "es": "Acepta entrar al pasaje del terror más bestia solo para darte la mano todo el camino.",
+            "nl": "Gaat dapper mee in het engste spookhuis alleen om onderweg je hand vast te houden.",
+            "pt": "Aceita entrar na casa assombrada mais assustadora só para te dar a mão o percurso todo."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "halloween_red_15",
+          "theme": "halloween",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Te spoil la fin du film d'horreur 10 minutes après le début en disant « De toute façon c'était évident ».",
+            "en": "Spoils the killer's identity 10 minutes into the horror movie boasting: \"It was obvious anyway\".",
+            "de": "Spoilert nach 10 Minuten das Ende des Horrorfilms und prahlt: „War doch eh von Anfang an klar“.",
+            "es": "Te destripa el final de la peli de terror a los 10 minutos diciendo: «Se veía venir desde lejos».",
+            "nl": "Verklapt na 10 minuten wie de moordenaar is en snoeft: \"Het lag er toch duimendik bovenop\".",
+            "pt": "Dá spoiler do assassino 10 minutos após o início do filme dizendo com desdém: «Era óbvio desde o início»."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "halloween_green_15",
+          "theme": "halloween",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Prépare une playlist Halloween de génie qui mélange Michael Jackson, classiques rétro et sons bien flippants.",
+            "en": "Curates an incredible Halloween playlist mixing Thriller, retro classics and genuinely eerie tracks.",
+            "de": "Erstellt eine geniale Halloween-Playlist mit Thriller, Retro-Klassikern und atmosphärischem Gruselsound.",
+            "es": "Prepara una lista musical de Halloween brutal combinando Thriller, clásicos retro y temazos siniestros.",
+            "nl": "Stelt een geniale Halloween-afspeellijst samen met Thriller, retro-klassiekers en sfeervolle tracks.",
+            "pt": "Cria uma playlist de Halloween brilhante que junta Thriller, clássicos retro e batidas bem sombrias."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "halloween_red_16",
+          "theme": "halloween",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Te raconte pendant tout le trajet de nuit en forêt des histoires de disparitions inexpliquées dans la région.",
+            "en": "Recounts creepy local missing persons stories during the entire late-night drive through dense woods.",
+            "de": "Erzählt dir während der gesamten nächtlichen Waldfahrt unheimliche Geschichten über vermisste Personen.",
+            "es": "Te cuenta durante todo el viaje nocturno por el bosque historias de desapariciones sin resolver en la zona.",
+            "nl": "Vertelt tijdens de nachtelijke autorit door het donkere bos verhalen over onopgeloste verdwijningen.",
+            "pt": "Conta-te durante toda a viagem noturna pela floresta histórias sinistras de pessoas desaparecidas na região."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "halloween_green_16",
+          "theme": "halloween",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Te raccompagne jusqu'au pas de ta porte avec le flash de son téléphone pour vérifier qu'aucun monstre ne traîne.",
+            "en": "Walks you right up to your doorstep with their phone flashlight to verify zero monsters are lurking.",
+            "de": "Begleitet dich mit der Handytaschenlampe bis vor die Haustür, um zu checken, dass kein Monster lauert.",
+            "es": "Te acompaña hasta la misma puerta de casa con la linterna del móvil para comprobar que no hay monstruos.",
+            "nl": "Brengt je met de zaklamp van de telefoon tot aan de voordeur om te controleren of er geen monsters rondhangen.",
+            "pt": "Acompanha-te até à porta de casa com a lanterna do telemóvel para confirmar que não há monstros à espreita."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "halloween_red_17",
+          "theme": "halloween",
+          "type": "red_flag",
+          "texts": {
+            "fr": "A un rire de méchant de dessin animé à chaque fois qu'il gagne à un jeu de société.",
+            "en": "Busts out an unhinged cartoon villain evil laugh every single time they win a board game.",
+            "de": "Lacht jedes Mal wie ein durchgeknallter Zeichentrick-Bösewicht, wenn er ein Brettspiel gewinnt.",
+            "es": "Se ríe como un villano psicópata de dibujos animados cada vez que gana a un juego de mesa.",
+            "nl": "Lacht elke keer als een maniakale tekenfilm-schurk wanneer hij een bordspelletje wint.",
+            "pt": "Dá uma gargalhada sinistra de vilão de desenhos animados sempre que ganha um jogo de tabuleiro."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "halloween_green_17",
+          "theme": "halloween",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Ramène des citrouilles pour toute la bande et organise un concours de sculpture où tout le monde rigole.",
+            "en": "Brings pumpkins for the whole crew and hosts an impromptu carving contest where everyone ends up laughing.",
+            "de": "Bringt Kürbisse für die ganze Clique mit und veranstaltet einen Schnitzwettbewerb, bei dem alle Tränen lachen.",
+            "es": "Trae calabazas para todo el grupo y monta un concurso de tallado donde todo el mundo acaba llorando de risa.",
+            "nl": "Brengt pompoenen mee voor de hele groep en organiseert een uithol-wedstrijd waar iedereen dubbel om ligt.",
+            "pt": "Traz abóboras para todo o grupo e organiza um concurso de escultura onde toda a gente chora a rir."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "halloween_red_18",
+          "theme": "halloween",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Fait semblant de s'évanouir dans le couloir sombre pour voir qui viendra l'aider et qui s'enfuira en courant.",
+            "en": "Fakes fainting in the pitch-black hallway just to test who rushes to help and who runs away screaming.",
+            "de": "Täuscht im stockdunklen Flur eine Ohnmacht vor, nur um zu sehen, wer hilft und wer schreiend wegrennt.",
+            "es": "Finge desmayarse en el pasillo a oscuras solo para ver quién viene a ayudar y quién sale corriendo.",
+            "nl": "Doet alsof hij flauwvalt in de aardedonkere gang om te testen wie komt helpen en wie schreeuwend wegrent.",
+            "pt": "Finge desmaiar no corredor às escuras para ver quem vem ajudar e quem foge aos gritos."
+          },
+          "difficulty": 2,
+          "enabled": true
+        }
+      ]
+    },
     "office_pack": {
       "id": "office_pack",
       "name": "OFFICE",
@@ -24691,6 +25853,636 @@
       "packId": "back_to_school_pack",
       "live_tier": "safe"
     },
+    "halloween_red_1": {
+      "id": "halloween_red_1",
+      "theme": "halloween",
+      "type": "red_flag",
+      "texts": {
+        "fr": "En cas d'apocalypse zombie, a déjà un plan pour vous sacrifier en premier afin de sauver son chat.",
+        "en": "In a zombie apocalypse, already has a plan to sacrifice you first to save their cat.",
+        "de": "Hat bei einer Zombie-Apokalypse schon einen Plan, dich zuerst zu opfern, um die Katze zu retten.",
+        "es": "En un apocalipsis zombi, ya tiene un plan para sacrificarte el primero y salvar a su gato.",
+        "nl": "Heeft bij een zombie-apocalyps al een plan om jou eerst op te offeren om de kat te redden.",
+        "pt": "No caso de um apocalipse zombie, já tem um plano para te sacrificar primeiro e salvar o gato."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    "halloween_green_1": {
+      "id": "halloween_green_1",
+      "theme": "halloween",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Accepte d'aller vérifier le premier dans la cave quand un bruit suspect retentit pendant la soirée.",
+        "en": "Voluntarily checks the creepy basement first when a weird noise echoes during the party.",
+        "de": "Geht freiwillig als Erster in den gruseligen Keller, wenn während der Party ein seltsames Geräusch ertönt.",
+        "es": "Va el primero al sótano a mirar cuando se oye un ruido sospechoso durante la fiesta.",
+        "nl": "Gaat als eerste vrijwillig in de donkere kelder kijken als er een verdacht geluid klinkt op het feest.",
+        "pt": "Aceita ir verificar a cave primeiro quando se ouve um barulho suspeito durante a festa."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    "halloween_red_2": {
+      "id": "halloween_red_2",
+      "theme": "halloween",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Propose de faire tourner un verre ou d'invoquer des esprits à 3h du matin après 4 verres.",
+        "en": "Suggests using a Ouija board or summoning spirits at 3 AM after 4 drinks.",
+        "de": "Schlägt um 3 Uhr morgens nach 4 Drinks vor, Geister zu beschwören oder Gläserrücken zu spielen.",
+        "es": "Propone hacer espiritismo o invocar fantasmas a las 3 de la mañana después de 4 copas.",
+        "nl": "Stelt voor om om 3 uur 's nachts na 4 drankjes geesten op te roepen of glaasje te draaien.",
+        "pt": "Sugere fazer uma sessão espírita ou invocar espíritos às 3h da manhã depois de 4 copos."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    "halloween_green_2": {
+      "id": "halloween_green_2",
+      "theme": "halloween",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Connaît par cœur les règles de survie des films d'horreur et refuse catégoriquement que le groupe se sépare.",
+        "en": "Knows every horror movie survival rule by heart and strictly forbids splitting up the group.",
+        "de": "Kennt jede Horrorfilm-Überlebensregel auswendig und verbietet strikt, dass sich die Gruppe trennt.",
+        "es": "Se sabe de memoria las reglas de supervivencia de las pelis de terror y prohíbe que el grupo se separe.",
+        "nl": "Kent alle overlevingsregels uit horrorfilms uit zijn hoofd en weigert pertinent dat de groep zich splitst.",
+        "pt": "Conhece de cor as regras de sobrevivência dos filmes de terror e recusa terminantemente que o grupo se separe."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    "halloween_red_3": {
+      "id": "halloween_red_3",
+      "theme": "halloween",
+      "type": "red_flag",
+      "texts": {
+        "fr": "T'impose un costume de couple ridicule pour une soirée alors que vous sortez ensemble depuis seulement 3 jours.",
+        "en": "Forces a ridiculous couple's costume on you when you've only been dating for 3 days.",
+        "de": "Zwingt dir ein peinliches Pärchenkostüm auf, obwohl ihr erst seit 3 Tagen zusammen seid.",
+        "es": "Te impone un ridículo disfraz de pareja para una fiesta cuando solo lleváis saliendo 3 días.",
+        "nl": "Dringt een gênant koppels-kostuum aan je op terwijl jullie pas 3 dagen daten.",
+        "pt": "Impõe-te um disfarce de casal ridículo quando só namoram há 3 dias."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    "halloween_green_3": {
+      "id": "halloween_green_3",
+      "theme": "halloween",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Prépare un grand bol de vrais chocolats de marque pour les gosses au lieu de vieux bonbons durs périmés.",
+        "en": "Stocks a giant bowl of full-size brand chocolates for trick-or-treaters instead of cheap hard candy.",
+        "de": "Kauft eine riesige Schüssel Marken-Schokolade für die Kids statt steinharter uralter Bonbons.",
+        "es": "Prepara un bol enorme de chocolatinas de marca para los niños en vez de caramelos duros caducados.",
+        "nl": "Heeft een grote schaal met echte merkchocolade klaarstaan voor de kinderen in plaats van oude zuurtjes.",
+        "pt": "Prepara uma taça cheia de chocolates de marca para os miúdos em vez de rebuçados velhos e duros."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    "halloween_red_4": {
+      "id": "halloween_red_4",
+      "theme": "halloween",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Regarde des documentaires de tueurs en série pour s'endormir et les trouve « incompris ».",
+        "en": "Falls asleep to serial killer documentaries and unironically calls them \"misunderstood\".",
+        "de": "Schläft zu Serienmörder-Dokus ein und behauptet ernsthaft, sie seien nur „missverstanden“.",
+        "es": "Se duerme viendo documentales de asesinos en serie y dice convencido que eran «incomprendidos».",
+        "nl": "Valt in slaap bij documentaires over seriemoordenaars en noemt ze serieus \"onbegrepen\".",
+        "pt": "Adormece a ver documentários de assassinos em série e acha que eles eram apenas «mal compreendidos»."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    "halloween_green_4": {
+      "id": "halloween_green_4",
+      "theme": "halloween",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Trouve un déguisement hilarant et bluffant en 10 minutes avec juste un vieux drap et un rouleau de scotch.",
+        "en": "Crafts a hilarious and genius costume in 10 minutes using only an old bedsheet and duct tape.",
+        "de": "Bastelt in 10 Minuten aus einem alten Bettlaken und Klebeband ein urkomisches Geniekostüm.",
+        "es": "Se inventa un disfraz desternillante en 10 minutos con solo una sábana vieja y cinta adhesiva.",
+        "nl": "Maakt in 10 minuten een hilarisch topkostuum met alleen een oud laken en een rol ducttape.",
+        "pt": "Cria um disfarce hilariante em 10 minutos apenas com um lençol velho e fita adesiva."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    "halloween_red_5": {
+      "id": "halloween_red_5",
+      "theme": "halloween",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Dans un escape game d'horreur, panique, pousse ses potes en avant et s'enferme seul dans un placard.",
+        "en": "In a horror escape room, panics, shoves friends forward and locks themselves alone in a closet.",
+        "de": "Verfällt im Horror-Escape-Room in Panik, schubst Freunde nach vorne und schließt sich allein im Schrank ein.",
+        "es": "En un escape room de terror, le entra el pánico, empuja a los demás y se encierra solo en un armario.",
+        "nl": "Raakt in paniek in een horror-escape-room, duwt vrienden naar voren en sluit zichzelf op in een kast.",
+        "pt": "Num escape room de terror, entra em pânico, empurra os amigos para a frente e fecha-se sozinho num armário."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    "halloween_green_5": {
+      "id": "halloween_green_5",
+      "theme": "halloween",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Reste éveillé avec toi pour regarder des dessins animés rassurants après un film d'horreur trop traumatisant.",
+        "en": "Stays awake with you watching wholesome cartoons after a genuinely traumatizing horror movie.",
+        "de": "Bleibt wach und schaut mit dir beruhigende Zeichentrickfilme nach einem zu verstörenden Horrorfilm.",
+        "es": "Se queda despierto contigo viendo dibujos animados para calmarte tras una peli de terror traumática.",
+        "nl": "Blijft gezellig met je op om vrolijke tekenfilms te kijken na een veel te enge horrorfilm.",
+        "pt": "Fica acordado contigo a ver desenhos animados reconfortantes depois de um filme de terror traumatizante."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    "halloween_red_6": {
+      "id": "halloween_red_6",
+      "theme": "halloween",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Éteint brusquement toutes les lumières pendant le film et hurle derrière toi pour te faire sursauter.",
+        "en": "Suddenly cuts all the lights during the jump scare and screams right behind you to make you leap.",
+        "de": "Schaltet mitten im Film das Licht aus und brüllt direkt hinter dir, um dich zu Tode zu erschrecken.",
+        "es": "Apaga todas las luces de golpe durante la peli y te grita en la oreja por la espalda para asustarte.",
+        "nl": "Doet plots alle lichten uit tijdens de spannendste scène en schreeuwt achter je rug om je te laten schrikken.",
+        "pt": "Apaga todas as luzes de repente durante o filme e grita atrás de ti para te pregar um susto de morte."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    "halloween_green_6": {
+      "id": "halloween_green_6",
+      "theme": "halloween",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Te prête immédiatement sa veste bien chaude par-dessus ton costume qui ne protège absolument pas du froid.",
+        "en": "Instantly offers you their warm jacket over your costume that provides zero protection against the cold.",
+        "de": "Leiht dir sofort die warme Jacke über dein Kostüm, das absolut null gegen die Kälte schützt.",
+        "es": "Te presta de inmediato su abrigo calentito sobre tu disfraz, que no abriga absolutamente nada.",
+        "nl": "Geeft je meteen zijn warme jas over je kostuum dat totaal niet bestand is tegen de kou.",
+        "pt": "Empresta-te logo o casaco quente por cima do teu disfarce que não protege nada do frio."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    "halloween_red_7": {
+      "id": "halloween_red_7",
+      "theme": "halloween",
+      "type": "red_flag",
+      "texts": {
+        "fr": "A posé sur sa table de chevet une poupée en porcelaine flippante qui fixe le lit toute la nuit.",
+        "en": "Keeps a creepy vintage porcelain doll on their nightstand staring directly at the bed all night.",
+        "de": "Hat auf dem Nachttisch eine gruselige Porzellanpuppe stehen, die die ganze Nacht das Bett anstarrt.",
+        "es": "Tiene en la mesita de noche una muñeca de porcelana siniestra que mira fijamente a la cama toda la noche.",
+        "nl": "Heeft een griezelige porseleinen pop op het nachtkastje staan die de hele nacht naar het bed staart.",
+        "pt": "Tem na mesa de cabeceira uma boneca de porcelana assustadora que fixa a cama a noite inteira."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    "halloween_green_7": {
+      "id": "halloween_green_7",
+      "theme": "halloween",
+      "type": "green_flag",
+      "texts": {
+        "fr": "N'a absolument peur de rien et attrape les araignées géantes à mains nues pour les relâcher dehors.",
+        "en": "Fearing absolutely nothing, catches giant spiders with bare hands to gently release them outside.",
+        "de": "Hat vor absolut gar nichts Angst und fängt Riesenspinnen mit bloßen Händen, um sie draußen freizulassen.",
+        "es": "No le teme a nada y atrapa las arañas gigantes con la mano para soltarlas vivas en la calle.",
+        "nl": "Is nergens bang voor en vangt reuzenspinnen met blote handen om ze buiten weer vrij te laten.",
+        "pt": "Não tem medo de nada e apanha aranhas gigantes com as mãos para as soltar lá fora."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    "halloween_red_8": {
+      "id": "halloween_red_8",
+      "theme": "halloween",
+      "type": "red_flag",
+      "texts": {
+        "fr": "T'emmène au cimetière pour un premier date en prétendant que « l'énergie des tombes est romantique ».",
+        "en": "Takes you to a cemetery on a first date claiming that \"graveyard energy is deeply romantic\".",
+        "de": "Führt dich beim ersten Date auf einen Friedhof und behauptet, „die Energie von Gräbern sei romantisch“.",
+        "es": "Te lleva a un cementerio en la primera cita afirmando que «la energía de las tumbas es romántica».",
+        "nl": "Neemt je mee naar een begraafplaats op een eerste date omdat \"de energie van graven zo romantisch is\".",
+        "pt": "Leva-te a um cemitério no primeiro encontro afirmando que «a energia das campas é muito romântica»."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    "halloween_green_8": {
+      "id": "halloween_green_8",
+      "theme": "halloween",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Décore son appart avec goût sans mettre de fausses toiles d'araignées gluantes impossibles à nettoyer.",
+        "en": "Decorates their place stylishly for Halloween without using sticky fake spiderwebs that ruin furniture.",
+        "de": "Dekoriert die Wohnung stilvoll für Halloween, ohne klebrige Kunst-Spinnweben zu verteilen.",
+        "es": "Decora la casa con estilazo para Halloween sin poner telarañas pegajosas imposibles de limpiar.",
+        "nl": "Versiert het huis sfeervol voor Halloween zonder die plakkerige nep-spinnenwebben die overal blijven hangen.",
+        "pt": "Decora a casa com muito bom gosto sem espalhar teias de aranha pegajosas impossíveis de limpar."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    "halloween_red_9": {
+      "id": "halloween_red_9",
+      "theme": "halloween",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Te prépare un punch mystérieux dans un chaudron et refuse catégoriquement de dire ce qu'il y a dedans.",
+        "en": "Serves a suspicious punch in a smoking cauldron and strictly refuses to disclose what's inside.",
+        "de": "Braut eine mysteriöse Bowle im Kessel und weigert sich strikt zu verraten, was eigentlich drin ist.",
+        "es": "Prepara un ponche sospechoso en un caldero y se niega en rotundo a decirte qué lleva dentro.",
+        "nl": "Maakt een mysterieuze punch in een ketel en weigert pertinent te vertellen wat er allemaal in zit.",
+        "pt": "Prepara um ponche misterioso num caldeirão e recusa terminantemente dizer o que colocou lá dentro."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    "halloween_green_9": {
+      "id": "halloween_green_9",
+      "theme": "halloween",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Propose de faire la tournée des bonbons avec les petits frères et sœurs pour qu'ils soient en sécurité.",
+        "en": "Volunteers to escort younger siblings trick-or-treating so they stay safe and get maximum loot.",
+        "de": "Geht freiwillig mit den jüngeren Geschwistern um die Häuser, damit sie sicher sind und viele Süßigkeiten kriegen.",
+        "es": "Se ofrece a acompañar a los hermanos pequeños a pedir caramelos para que vayan seguros.",
+        "nl": "Gaat vrijwillig mee met jongere broertjes en zusjes langs de deuren zodat ze veilig veel snoep ophalen.",
+        "pt": "Oferece-se para acompanhar os irmãos mais novos a pedir doces para garantir que estão em segurança."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    "halloween_red_10": {
+      "id": "halloween_red_10",
+      "theme": "halloween",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Refuse d'allumer la lumière quand il rentre chez lui à 2h du matin parce qu'il « ressent des présences ».",
+        "en": "Refuses to turn on the lights when coming home at 2 AM because they \"sense spiritual presences\".",
+        "de": "Weigert sich, nachts um 2 Uhr das Licht anzumachen, weil eine „übernatürliche Präsenz im Raum ist“.",
+        "es": "Se niega a encender la luz al volver a casa a las 2 de la madrugada porque «siente presencias».",
+        "nl": "Weigert het licht aan te doen bij thuiskomst om 2 uur 's nachts omdat er \"aanwezigheden voelbaar zijn\".",
+        "pt": "Recusa-se a acender a luz quando chega a casa às 2h da manhã porque «sente presenças espirituais»."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    "halloween_green_10": {
+      "id": "halloween_green_10",
+      "theme": "halloween",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Rigole franchement quand son déguisement fait un flop total au lieu de faire la gueule toute la soirée.",
+        "en": "Laughs heartily when their costume completely flops instead of sulking in a corner all evening.",
+        "de": "Lacht herzlich darüber, wenn das eigene Kostüm total floppt, statt den ganzen Abend beleidigt zu sein.",
+        "es": "Se parte de risa cuando su disfraz es un fracaso total en vez de enfadarse toda la noche.",
+        "nl": "Lacht hartelijk als het eigen kostuum compleet mislukt in plaats van de hele avond te mokken.",
+        "pt": "Dá uma boa gargalhada quando o seu disfarce é um fracasso total em vez de emburrar a noite toda."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    "halloween_red_11": {
+      "id": "halloween_red_11",
+      "theme": "halloween",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Met des lentilles de contact blanches flippantes et te parle à 10 centimètres du visage toute la soirée.",
+        "en": "Wears eerie solid white contact lenses and talks to you 4 inches from your face the entire party.",
+        "de": "Trägt gruselige weiße Kontaktlinsen und redet den ganzen Abend aus 10 Zentimetern Entfernung mit dir.",
+        "es": "Se pone lentillas blancas siniestras y te habla a 10 centímetros de la cara durante toda la fiesta.",
+        "nl": "Draagt enge spierwitte lenzen en praat de hele avond op 10 centimeter afstand van je gezicht.",
+        "pt": "Usa lentes de contacto brancas arrepiantes e fala contigo a 10 centímetros da cara a noite toda."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    "halloween_green_11": {
+      "id": "halloween_green_11",
+      "theme": "halloween",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Sait exactement quel classique d'horreur lancer selon le niveau de trouille des invités de la soirée.",
+        "en": "Knows precisely which horror classic to stream based on how easily spooked the party guests are.",
+        "de": "Weiß genau, welchen Horrorklassiker man anmachen muss, passend zum Grusel-Level der Gäste.",
+        "es": "Sabe exactamente qué clásico de terror poner según lo miedicas que sean los invitados de la fiesta.",
+        "nl": "Weet precies welke horrorklassieker moet worden opgezet afgestemd op hoe bang de gasten zijn.",
+        "pt": "Sabe exatamente qual clássico de terror pôr a dar de acordo com o nível de medo dos convidados."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    "halloween_red_12": {
+      "id": "halloween_red_12",
+      "theme": "halloween",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Te raconte avec le plus grand sérieux que sa maison d'enfance était hantée par un curé sans tête.",
+        "en": "Tells you with absolute seriousness that their childhood house was haunted by a headless priest.",
+        "de": "Erzählt dir mit ernster Miene, dass das eigene Elternhaus von einem kopflosen Priester heimgesucht wurde.",
+        "es": "Te cuenta totalmente en serio que en su casa de la infancia se aparecía el fantasma de un cura sin cabeza.",
+        "nl": "Vertelt doodserieus dat het ouderlijk huis werd geteisterd door een onthoofde priester.",
+        "pt": "Conta-te com a maior seriedade que a sua casa de infância era assombrada por um padre sem cabeça."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    "halloween_green_12": {
+      "id": "halloween_green_12",
+      "theme": "halloween",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Ramène un gâteau fait maison en forme de cerveau qui a l'air dégoûtant mais qui est délicieux.",
+        "en": "Brings a homemade brain-shaped cake that looks disgusting on the outside but tastes incredible.",
+        "de": "Bringt einen selbstgebackenen Gehirn-Kuchen mit, der eklig aussieht, aber absolut köstlich schmeckt.",
+        "es": "Trae una tarta casera con forma de cerebro que da repelús pero sabe increíblemente rica.",
+        "nl": "Brengt een zelfgebakken hersenentaart mee die er vies uitziet maar verrukkelijk smaakt.",
+        "pt": "Traz um bolo caseiro em forma de cérebro com aspeto nojento mas que é absolutamente delicioso."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    "halloween_red_13": {
+      "id": "halloween_red_13",
+      "theme": "halloween",
+      "type": "red_flag",
+      "texts": {
+        "fr": "A installé un squelette articulé dans sa douche pour faire faire une crise cardiaque à ses invités.",
+        "en": "Rigged an articulated skeleton inside the shower curtain just to give guests a mild heart attack.",
+        "de": "Hat ein lebensgroßes Skelett in die Dusche gehängt, nur um Gästen einen Herzinfarkt zu verpassen.",
+        "es": "Ha colocado un esqueleto articulado en la ducha para que a las visitas les dé un infarto.",
+        "nl": "Heeft een bewegend skelet in de douche gehangen om gasten de schrik van hun leven te bezorgen.",
+        "pt": "Pôs um esqueleto articulado dentro do poliban só para pregar um susto de morte aos convidados."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    "halloween_green_13": {
+      "id": "halloween_green_13",
+      "theme": "halloween",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Fait semblant d'être terrifié devant les déguisements des enfants pour leur faire super plaisir.",
+        "en": "Pretends to be terrified by little kids' cute costumes just to make their whole Halloween night.",
+        "de": "Tut vor den süßen Kostümen der Nachbarskinder total verängstigt, um ihnen eine riesige Freude zu machen.",
+        "es": "Finge estar aterrorizado con los disfraces de los niños pequeños para hacerles la mayor ilusión.",
+        "nl": "Doet alsof hij doodsbang is voor de schattige kinderkostuums om ze een geweldige avond te bezorgen.",
+        "pt": "Finge estar aterrorizado com os disfarces dos miúdos para lhes dar uma alegria enorme."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    "halloween_red_14": {
+      "id": "halloween_red_14",
+      "theme": "halloween",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Vient à une soirée déguisée en vêtements normaux et dit avec mépris : « Moi, mon costume c'est moi-même ».",
+        "en": "Shows up to a costume party in normal clothes and sneers: \"My costume is just myself\".",
+        "de": "Kommt in Alltagskleidung zur Kostümparty und verkündet arrogant: „Mein Kostüm bin ich selbst“.",
+        "es": "Va a una fiesta de disfraces con ropa normal y dice con desprecio: «Mi disfraz soy yo mismo».",
+        "nl": "Komt in gewone kleding naar een verkleedfeest en zegt arrogant: \"Mijn kostuum is gewoon mezelf\".",
+        "pt": "Vai a uma festa de disfarces com roupa normal e diz com desdém: «O meu disfarce sou eu próprio»."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    "halloween_green_14": {
+      "id": "halloween_green_14",
+      "theme": "halloween",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Accepte de tester les attractions de maison hantée les plus extrêmes juste pour te tenir la main.",
+        "en": "Bravely enters the most intense haunted house attractions just to hold your hand throughout.",
+        "de": "Geht mutig in die extremste Geisterbahn mit, nur um währenddessen deine Hand zu halten.",
+        "es": "Acepta entrar al pasaje del terror más bestia solo para darte la mano todo el camino.",
+        "nl": "Gaat dapper mee in het engste spookhuis alleen om onderweg je hand vast te houden.",
+        "pt": "Aceita entrar na casa assombrada mais assustadora só para te dar a mão o percurso todo."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    "halloween_red_15": {
+      "id": "halloween_red_15",
+      "theme": "halloween",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Te spoil la fin du film d'horreur 10 minutes après le début en disant « De toute façon c'était évident ».",
+        "en": "Spoils the killer's identity 10 minutes into the horror movie boasting: \"It was obvious anyway\".",
+        "de": "Spoilert nach 10 Minuten das Ende des Horrorfilms und prahlt: „War doch eh von Anfang an klar“.",
+        "es": "Te destripa el final de la peli de terror a los 10 minutos diciendo: «Se veía venir desde lejos».",
+        "nl": "Verklapt na 10 minuten wie de moordenaar is en snoeft: \"Het lag er toch duimendik bovenop\".",
+        "pt": "Dá spoiler do assassino 10 minutos após o início do filme dizendo com desdém: «Era óbvio desde o início»."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    "halloween_green_15": {
+      "id": "halloween_green_15",
+      "theme": "halloween",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Prépare une playlist Halloween de génie qui mélange Michael Jackson, classiques rétro et sons bien flippants.",
+        "en": "Curates an incredible Halloween playlist mixing Thriller, retro classics and genuinely eerie tracks.",
+        "de": "Erstellt eine geniale Halloween-Playlist mit Thriller, Retro-Klassikern und atmosphärischem Gruselsound.",
+        "es": "Prepara una lista musical de Halloween brutal combinando Thriller, clásicos retro y temazos siniestros.",
+        "nl": "Stelt een geniale Halloween-afspeellijst samen met Thriller, retro-klassiekers en sfeervolle tracks.",
+        "pt": "Cria uma playlist de Halloween brilhante que junta Thriller, clássicos retro e batidas bem sombrias."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    "halloween_red_16": {
+      "id": "halloween_red_16",
+      "theme": "halloween",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Te raconte pendant tout le trajet de nuit en forêt des histoires de disparitions inexpliquées dans la région.",
+        "en": "Recounts creepy local missing persons stories during the entire late-night drive through dense woods.",
+        "de": "Erzählt dir während der gesamten nächtlichen Waldfahrt unheimliche Geschichten über vermisste Personen.",
+        "es": "Te cuenta durante todo el viaje nocturno por el bosque historias de desapariciones sin resolver en la zona.",
+        "nl": "Vertelt tijdens de nachtelijke autorit door het donkere bos verhalen over onopgeloste verdwijningen.",
+        "pt": "Conta-te durante toda a viagem noturna pela floresta histórias sinistras de pessoas desaparecidas na região."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    "halloween_green_16": {
+      "id": "halloween_green_16",
+      "theme": "halloween",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Te raccompagne jusqu'au pas de ta porte avec le flash de son téléphone pour vérifier qu'aucun monstre ne traîne.",
+        "en": "Walks you right up to your doorstep with their phone flashlight to verify zero monsters are lurking.",
+        "de": "Begleitet dich mit der Handytaschenlampe bis vor die Haustür, um zu checken, dass kein Monster lauert.",
+        "es": "Te acompaña hasta la misma puerta de casa con la linterna del móvil para comprobar que no hay monstruos.",
+        "nl": "Brengt je met de zaklamp van de telefoon tot aan de voordeur om te controleren of er geen monsters rondhangen.",
+        "pt": "Acompanha-te até à porta de casa com a lanterna do telemóvel para confirmar que não há monstros à espreita."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    "halloween_red_17": {
+      "id": "halloween_red_17",
+      "theme": "halloween",
+      "type": "red_flag",
+      "texts": {
+        "fr": "A un rire de méchant de dessin animé à chaque fois qu'il gagne à un jeu de société.",
+        "en": "Busts out an unhinged cartoon villain evil laugh every single time they win a board game.",
+        "de": "Lacht jedes Mal wie ein durchgeknallter Zeichentrick-Bösewicht, wenn er ein Brettspiel gewinnt.",
+        "es": "Se ríe como un villano psicópata de dibujos animados cada vez que gana a un juego de mesa.",
+        "nl": "Lacht elke keer als een maniakale tekenfilm-schurk wanneer hij een bordspelletje wint.",
+        "pt": "Dá uma gargalhada sinistra de vilão de desenhos animados sempre que ganha um jogo de tabuleiro."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    "halloween_green_17": {
+      "id": "halloween_green_17",
+      "theme": "halloween",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Ramène des citrouilles pour toute la bande et organise un concours de sculpture où tout le monde rigole.",
+        "en": "Brings pumpkins for the whole crew and hosts an impromptu carving contest where everyone ends up laughing.",
+        "de": "Bringt Kürbisse für die ganze Clique mit und veranstaltet einen Schnitzwettbewerb, bei dem alle Tränen lachen.",
+        "es": "Trae calabazas para todo el grupo y monta un concurso de tallado donde todo el mundo acaba llorando de risa.",
+        "nl": "Brengt pompoenen mee voor de hele groep en organiseert een uithol-wedstrijd waar iedereen dubbel om ligt.",
+        "pt": "Traz abóboras para todo o grupo e organiza um concurso de escultura onde toda a gente chora a rir."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    "halloween_red_18": {
+      "id": "halloween_red_18",
+      "theme": "halloween",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Fait semblant de s'évanouir dans le couloir sombre pour voir qui viendra l'aider et qui s'enfuira en courant.",
+        "en": "Fakes fainting in the pitch-black hallway just to test who rushes to help and who runs away screaming.",
+        "de": "Täuscht im stockdunklen Flur eine Ohnmacht vor, nur um zu sehen, wer hilft und wer schreiend wegrennt.",
+        "es": "Finge desmayarse en el pasillo a oscuras solo para ver quién viene a ayudar y quién sale corriendo.",
+        "nl": "Doet alsof hij flauwvalt in de aardedonkere gang om te testen wie komt helpen en wie schreeuwend wegrent.",
+        "pt": "Finge desmaiar no corredor às escuras para ver quem vem ajudar e quem foge aos gritos."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
     "office_red_1": {
       "id": "office_red_1",
       "theme": "office",
@@ -31892,5 +33684,5 @@
       "live_tier": "safe"
     }
   },
-  "card_count": 624
+  "card_count": 659
 }
