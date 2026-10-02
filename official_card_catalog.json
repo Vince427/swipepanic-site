@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-30T12:59:41.700Z",
+  "updated_at": "2026-10-02T13:42:42.352Z",
   "cards": [
     {
       "id": "dating_red_1",
@@ -4662,6 +4662,636 @@
       "enabled": true,
       "mode": "classic",
       "packId": "halloween_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "winter_red_1",
+      "theme": "winter",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Offre à Noël un cadeau de pub reçu gratuitement avec le logo de son entreprise encore dessus.",
+        "en": "Gifts you free corporate merch for Christmas with their company logo still clearly visible.",
+        "de": "Schenkt dir zu Weihnachten ein kostenloses Firmen-Werbegeschenk mit Firmenlogo darauf.",
+        "es": "Te regala por Navidad un detalle corporativo gratis con el logo de su empresa bien visible.",
+        "nl": "Geeft je voor kerst een gratis relatiegeschenk waar het bedrijfslogo nog pontificaal op staat.",
+        "pt": "Dá-te de prenda de Natal um brinde da empresa onde trabalha com o logótipo bem visível."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "winter_green_1",
+      "theme": "winter",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Se porte volontaire pour s'asseoir à côté de l'oncle gênant au repas de Noël pour épargner tout le monde.",
+        "en": "Voluntarily sits next to the awkward uncle at Christmas dinner to spare everyone else.",
+        "de": "Setzt sich beim Weihnachtsessen freiwillig neben den peinlichen Onkel, um alle anderen zu verschonen.",
+        "es": "Se sienta voluntariamente al lado del tío pesado en la cena de Navidad para salvar a los demás.",
+        "nl": "Gaat tijdens het kerstdiner vrijwillig naast die ongemakkelijke oom zitten om de rest te sparen.",
+        "pt": "Senta-se voluntariamente ao lado do tio chato no jantar de Natal para poupar toda a gente."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "winter_red_2",
+      "theme": "winter",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Prend une résolution de Nouvel An en public, te force à la faire avec lui, et abandonne le 2 janvier à midi.",
+        "en": "Announces a New Year's resolution, forces you to join in, and gives up on January 2nd at noon.",
+        "de": "Verkündet einen Neujahrsvorsatz, zwingt dich mitzumachen und bricht ihn am 2. Januar mittags ab.",
+        "es": "Hace un propósito de Año Nuevo en público, te obliga a sumarte y lo abandona el 2 de enero a mediodía.",
+        "nl": "Kondigt een goed voornemen aan, dwingt je mee te doen en geeft op 2 januari om 12u 's middags al op.",
+        "pt": "Faz uma resolução de Ano Novo em público, obriga-te a alinhar e desiste no dia 2 de janeiro ao meio-dia."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "winter_green_2",
+      "theme": "winter",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Ramène des boîtes hermétiques au réveillon pour que chacun reparte avec des restes le lendemain sans gâchis.",
+        "en": "Brings Tupperware to New Year's Eve so everyone takes leftovers home without wasting food.",
+        "de": "Bringt Tupperdosen zur Silvesterparty mit, damit alle Reste mitnehmen und nichts weggeworfen wird.",
+        "es": "Trae fiambreras a Nochevieja para que todos se lleven sobras al día siguiente sin tirar nada.",
+        "nl": "Neemt bakjes mee naar oudejaarsavond zodat iedereen restjes mee kan nemen zonder eten te verspillen.",
+        "pt": "Leva caixas herméticas para o Réveillon para que todos levem sobras para casa sem desperdiçar nada."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "winter_red_3",
+      "theme": "winter",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Critique ouvertement la bûche de Noël préparée par ta grand-mère devant toute la tablée.",
+        "en": "Openly criticizes the homemade Christmas Yule log your grandma made in front of the whole table.",
+        "de": "Kritisiert die selbstgemachte Weihnachtstorte deiner Oma vor der versammelten Familie.",
+        "es": "Critica abiertamente el postre navideño que preparó tu abuela delante de toda la mesa.",
+        "nl": "Kritiseert openlijk het kerstdessert dat je oma heeft gemaakt voor de hele familie.",
+        "pt": "Critica abertamente o tronco de Natal feito pela tua avó à frente de toda a família."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "winter_green_3",
+      "theme": "winter",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Met une playlist de Noël moderne et entraînante qui réussit l'exploit d'ambiancer toutes les générations.",
+        "en": "Puts on an upbeat holiday playlist that miraculously gets every single generation dancing.",
+        "de": "Startet eine moderne Weihnachts-Playlist, die es schafft, Jung und Alt auf die Tanzfläche zu bringen.",
+        "es": "Pone una lista de música navideña animada que logra que bailen todas las generaciones a la vez.",
+        "nl": "Zet een vrolijke feestdagen-playlist op die zowaar alle generaties aan het dansen krijgt.",
+        "pt": "Põe uma playlist festiva animada que consegue o milagre de pôr todas as gerações a dançar."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "winter_red_4",
+      "theme": "winter",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Disparaît mystérieusement dans la salle de bain dès qu'il faut faire la vaisselle après un repas de 12 personnes.",
+        "en": "Mysteriously vanishes to the bathroom the exact moment dishes need to be washed after a 12-person dinner.",
+        "de": "Verschwindet spurlos im Bad, genau in der Sekunde, in der nach einem 12-Personen-Essen abgewaschen werden muss.",
+        "es": "Desaparece misteriosamente en el baño justo cuando toca fregar los platos tras una cena de 12 personas.",
+        "nl": "Verdwijnt plots naar het toilet op het exacte moment dat er moet worden afgewassen na een diner van 12 man.",
+        "pt": "Desaparece misteriosamente na casa de banho no momento exato em que é preciso lavar a loiça de 12 pessoas."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "winter_green_4",
+      "theme": "winter",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Prépare un chocolat chaud maison exceptionnel avec guimauves et cannelle pour tout le monde au réveil.",
+        "en": "Makes top-tier homemade hot chocolate with marshmallows and cinnamon for everyone the morning after.",
+        "de": "Kocht am nächsten Morgen für alle fantastische heiße Schokolade mit Marshmallows und Zimt.",
+        "es": "Prepara un chocolate caliente casero brutal con nubes y canela para todos al despertar.",
+        "nl": "Maakt 's ochtends voor iedereen waanzinnige warme chocolademelk met marshmallows en kaneel.",
+        "pt": "Prepara um chocolate quente caseiro incrível com marshmallows e canela para todos ao acordar."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "winter_red_5",
+      "theme": "winter",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Revend sur Vinted le pull tricoté avec amour par sa belle-mère dès le 26 décembre au matin.",
+        "en": "Lists the hand-knitted sweater from their in-laws on an online marketplace on December 26th morning.",
+        "de": "Stellt den liebevoll gestrickten Pullover der Schwiegermutter am 26. Dezember morgens auf Vinted ein.",
+        "es": "Vende en una app de segunda mano el jersey que le tejió su suegra el mismísimo 26 de diciembre por la mañana.",
+        "nl": "Zet de met liefde gebreide trui van schoonmoeder op 26 december 's ochtends meteen op Marktplaats.",
+        "pt": "Põe à venda no Vinted a camisola tricotada com carinho pela sogra logo na manhã de 26 de dezembro."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "winter_green_5",
+      "theme": "winter",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Participe au concours du pull de Noël moche avec un modèle clignotant et assume fièrement toute la soirée.",
+        "en": "Fully embraces the ugly Christmas sweater contest with flashing lights and rocks it with total pride.",
+        "de": "Macht beim Ugly-Christmas-Sweater-Wettbewerb mit Lichtern mit und trägt ihn den ganzen Abend voller Stolz.",
+        "es": "Se apunta al concurso de jerséis navideños feos con uno que tiene luces y lo luce con orgullo toda la noche.",
+        "nl": "Doet vol overgave mee aan de foute kersttruienwedstrijd met knipperlichtjes en draagt hem met trots.",
+        "pt": "Alinha no concurso de camisolas feias de Natal com luzes a piscar e usa-a com orgulho a noite toda."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "winter_red_6",
+      "theme": "winter",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Mange en cachette tous les meilleurs chocolats du calendrier de l'Avent avant le 10 décembre.",
+        "en": "Secretly eats all the best advent calendar chocolates before December 10th.",
+        "de": "Isst heimlich vor dem 10. Dezember alle besten Schokoladen aus dem Adventskalender auf.",
+        "es": "Se come a escondidas los mejores bombones del calendario de Adviento antes del 10 de diciembre.",
+        "nl": "Eet stiekem alle lekkerste chocolaatjes uit de adventskalender al vóór 10 december op.",
+        "pt": "Come às escondidas os melhores chocolates do calendário do Advento antes do dia 10 de dezembro."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "winter_green_6",
+      "theme": "winter",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Garde le secret absolu sur les surprises et cadeaux de tout le monde sans jamais laisser fuiter un indice.",
+        "en": "Guards everyone's gift surprises like state secrets without dropping a single spoiler.",
+        "de": "Hütet alle Geschenk-Überraschungen wie ein Staatsgeheimnis, ohne den kleinsten Hinweis zu verraten.",
+        "es": "Guarda el secreto de los regalos como si fuera seguridad nacional sin soltar ni una pista.",
+        "nl": "Bewaart alle cadeau-geheimen als een staatsgeheim zonder ook maar één hint te verklappen.",
+        "pt": "Guarda o segredo dos presentes de toda a gente como segredo de Estado sem dar uma única pista."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "winter_red_7",
+      "theme": "winter",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Balance le prix exact de chaque cadeau qu'il a offert au moment où les gens déballent leurs paquets.",
+        "en": "Announces the exact price tag of every gift they bought while people are unwrapping them.",
+        "de": "Posaunt beim Auspacken laut heraus, wie viel jeder einzelne von ihm gekaufte Gegenstand gekostet hat.",
+        "es": "Dice en voz alta el precio exacto de cada regalo que hizo mientras la gente abre sus paquetes.",
+        "nl": "Roept bij het uitpakken van cadeautjes meteen de exacte prijs die hij ervoor betaald heeft.",
+        "pt": "Diz o preço exato de cada presente que comprou no momento em que as pessoas estão a desembrulhar."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "winter_green_7",
+      "theme": "winter",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Propose un jeu de société délirant qui désamorce instantanément une dispute politique au réveillon.",
+        "en": "Pulls out a hilarious board game that instantly defuses a political argument at the holiday dinner.",
+        "de": "Zaubert ein witziges Partyspiel hervor, das einen politischen Streit bei Tisch sofort im Keim erstickt.",
+        "es": "Saca un juego de mesa divertidísimo que frena en seco una discusión de política en la cena.",
+        "nl": "Tovert een hilarisch partyspel tevoorschijn dat een politieke ruzie aan tafel meteen ontmijnt.",
+        "pt": "Tira um jogo de tabuleiro hilariante que desfaz instantaneamente uma discussão política à mesa."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "winter_red_8",
+      "theme": "winter",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Envoie un copier-coller impersonnel de « Bonne année » à tout son répertoire le 1er janvier à minuit une.",
+        "en": "Mass sends a generic copy-pasted 'Happy New Year' text to their entire contact list at 12:01 AM.",
+        "de": "Verschickt um 00:01 Uhr eine lieblose Copy-Paste-Neujahrsnachricht an alle Kontakte im Telefonbuch.",
+        "es": "Manda un mensaje copiado y pegado genérico de «Feliz Año» a toda su agenda a las 00:01.",
+        "nl": "Stuurt om 00:01 een generiek knip-en-plak 'Gelukkig Nieuwjaar' berichtje naar zijn hele contactenlijst.",
+        "pt": "Envia uma mensagem genérica de copiar e colar de «Bom Ano» a todos os contactos às 00h01."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "winter_green_8",
+      "theme": "winter",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Se désigne d'office capitaine de soirée sobre pour ramener tout le monde en sécurité après le réveillon.",
+        "en": "Voluntarily stays fully sober as designated driver to safely bring everyone home after New Year's Eve.",
+        "de": "Meldet sich freiwillig als nüchterner Fahrer, um an Silvester alle sicher nach Hause zu bringen.",
+        "es": "Se ofrece de conductor designado para llevar a todos a salvo a casa tras la fiesta de Nochevieja.",
+        "nl": "Is vrijwillig de nuchtere BOB om iedereen na oudejaarsavond veilig thuis af te zetten.",
+        "pt": "Oferece-se como condutor designado para levar toda a gente em segurança para casa após o Réveillon."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "winter_red_9",
+      "theme": "winter",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Lance un compte à rebours de minuit avec 40 secondes d'avance et fait crier tout le monde dans le vide.",
+        "en": "Starts the midnight countdown 40 seconds too early and has everyone shouting into thin air.",
+        "de": "Zählt den Silvester-Countdown 40 Sekunden zu früh an und lässt alle ins Leere jubeln.",
+        "es": "Empieza la cuenta atrás de medianoche con 40 segundos de adelanto y hace gritar a todos para nada.",
+        "nl": "Begint het aftellen om middernacht 40 seconden te vroeg waardoor iedereen voor niks staat te juichen.",
+        "pt": "Começa a contagem decrescente com 40 segundos de avanço e põe toda a gente a gritar para o nada."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "winter_green_9",
+      "theme": "winter",
+      "type": "green_flag",
+      "texts": {
+        "fr": "A pensé à acheter des cotillons, des confettis et des chapeaux ridicules pour que la photo de minuit soit mémorable.",
+        "en": "Thought to bring party poppers, confetti, and funny hats so the midnight group photo is legendary.",
+        "de": "Hat an Konfetti, Partyhüte und Tröten gedacht, damit das Gruppenfoto um Mitternacht legendär wird.",
+        "es": "Se acordó de traer cotillón, confeti y sombreros graciosos para que la foto de medianoche sea épica.",
+        "nl": "Heeft gedacht aan feesthoedjes, slingers en confetti zodat de middernachtfoto memorabel wordt.",
+        "pt": "Lembrou-se de levar serpentinas, confetes e chapéus cómicos para a foto da meia-noite ser inesquecível."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "winter_red_10",
+      "theme": "winter",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Ouvre les huîtres avec un couteau de cuisine émoussé en manquant de s'amputer devant tout le monde.",
+        "en": "Shucks oysters with a blunt kitchen knife, nearly amputating a finger in front of guests.",
+        "de": "Öffnet Austern mit einem stumpfen Küchenmesser und schneidet sich vor allen Gästen fast den Finger ab.",
+        "es": "Abre ostras con un cuchillo de cocina desafilado y casi se corta un dedo delante de los invitados.",
+        "nl": "Opent oesters met een bot keukenmes en hakt bijna in zijn eigen hand voor alle gasten.",
+        "pt": "Abre ostras com uma faca de cozinha sem corte e quase corta um dedo à frente de todos os convidados."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "winter_green_10",
+      "theme": "winter",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Prépare une alternative végétarienne ou sans gluten aussi gourmande que le plat principal pour les invités concernés.",
+        "en": "Prepares a festive vegetarian or gluten-free alternative just as delicious as the main roast for guests.",
+        "de": "Kocht für betroffene Gäste ein vegetarisches oder glutenfreies Festessen, das genauso köstlich ist wie der Braten.",
+        "es": "Prepara una opción vegetariana o sin gluten igual de rica que el plato principal para los invitados que lo necesitan.",
+        "nl": "Maakt een feestelijk vegetarisch of glutenvrij alternatief dat net zo lekker is als het hoofdgerecht.",
+        "pt": "Prepara uma opção vegetariana ou sem glúten tão saborosa quanto o prato principal para quem precisa."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "winter_red_11",
+      "theme": "winter",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Se plaint du froid toutes les 3 minutes alors qu'il est sorti en veste fine et sans chaussettes chaudes.",
+        "en": "Complains about freezing every 3 minutes despite going out in a thin jacket with no warm socks.",
+        "de": "Meckert alle 3 Minuten über die Kälte, obwohl er nur in dünner Jacke und ohne warme Socken rausgegangen ist.",
+        "es": "Se queja del frío cada 3 minutos a pesar de haber salido con chaqueta fina y sin calcetines abrigados.",
+        "nl": "Klaagt elke 3 minuten over de kou terwijl hij in een dun jasje en zonder warme sokken naar buiten is gegaan.",
+        "pt": "Queixa-se do frio de 3 em 3 minutos apesar de ter saído com um casaco fino e sem meias quentes."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "winter_green_11",
+      "theme": "winter",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Apporte une raclette d'appoint ou un appareil à fondue en renfort quand il y a plus d'invités que prévu.",
+        "en": "Brings a backup raclette or fondue machine when more guests unexpectedly show up.",
+        "de": "Bringt ein zusätzliches Raclette- oder Fonduegerät mit, falls überraschend mehr Gäste auftauchen.",
+        "es": "Trae una plancha o fondue de repuesto cuando aparecen más invitados de los esperados.",
+        "nl": "Neemt een extra gourmetstel of fondueset mee wanneer er onverwacht meer gasten aanschuiven.",
+        "pt": "Leva um aparelho de raclette ou fondue extra quando aparecem mais convidados do que o previsto."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "winter_red_12",
+      "theme": "winter",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Fait semblant d'adorer son cadeau en ouvrant le paquet, puis le laisse traîner sous le canapé en partant.",
+        "en": "Pretends to love their gift when opening it, then 'accidentally' abandons it under the couch when leaving.",
+        "de": "Tut beim Auspacken begeistert, 'vergisst' das Geschenk beim Gehen dann aber absichtlich unterm Sofa.",
+        "es": "Finge adorar su regalo al abrirlo y luego lo deja 'olvidado' debajo del sofá al marcharse.",
+        "nl": "Doet alsof hij dolblij is met het cadeau, maar laat het bij vertrek 'per ongeluk' onder de bank liggen.",
+        "pt": "Finge adorar o presente ao abrir e depois deixa-o 'esquecido' debaixo do sofá quando vai embora."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "winter_green_12",
+      "theme": "winter",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Prend le temps d'écrire un mot personnalisé et touchant sur chaque paquet cadeau au lieu d'une simple étiquette.",
+        "en": "Takes the time to handwrite a thoughtful, heartwarming note on every single gift tag.",
+        "de": "Schreibt eine persönliche, herzerwärmende Karte zu jedem einzelnen Geschenk statt nur eines Preisschilds.",
+        "es": "Se toma el tiempo de escribir una nota emotiva y personalizada en cada paquete de regalo.",
+        "nl": "Neemt de tijd om op elk pakje een persoonlijk en lief briefje te schrijven in plaats van een simpel labeltje.",
+        "pt": "Tira tempo para escrever uma mensagem pessoal e carinhosa em cada embrulho em vez de uma etiqueta simples."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "winter_red_13",
+      "theme": "winter",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Démarre un blind test musical de fin d'année et triche en utilisant Shazam sous la table.",
+        "en": "Starts a holiday music trivia game and shamelessly cheats with Shazam under the dining table.",
+        "de": "Startet ein Neujahrs-Musik-Quiz und schummelt schamlos mit Shazam unterm Tisch.",
+        "es": "Propone un trivial musical de fin de año y hace trampas con Shazam por debajo de la mesa.",
+        "nl": "Doet mee aan de oudejaars-muziekquiz en spiekt schaamteloos met Shazam onder de tafel.",
+        "pt": "Sugere um blind test musical de fim de ano e faz batota a usar o Shazam por baixo da mesa."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "winter_green_13",
+      "theme": "winter",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Participe spontanément à la bataille de boules de neige ou au concours du plus beau bonhomme de neige.",
+        "en": "Spontaneously jumps into the snowball fight or snowman building contest with child-like joy.",
+        "de": "Macht spontan mit kindlicher Freude bei der Schneeballschlacht oder beim Schneemann-Wettbewerb mit.",
+        "es": "Se suma al instante a una guerra de bolas de nieve o al concurso del mejor muñeco de nieve con ilusión.",
+        "nl": "Doet spontaan met kinderlijk enthousiasme mee aan een sneeuwballengevecht of sneeuwpoppenwedstrijd.",
+        "pt": "Alinha espontaneamente numa batalha de bolas de neve ou a fazer um boneco de neve com alegria contagiante."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "winter_red_14",
+      "theme": "winter",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Boit tout le champagne millésimé réservé pour minuit avant même l'arrivée des premiers invités.",
+        "en": "Drinks the vintage champagne meant for the midnight toast before guests even arrive.",
+        "de": "Trinkt den edlen Champagner für Mitternacht schon aus, bevor die ersten Gäste überhaupt ankommen.",
+        "es": "Se bebe el champán reservado para el brindis de medianoche antes de que lleguen los invitados.",
+        "nl": "Drinkt de dure champagne voor middernacht al leeg voordat de eerste gasten binnen zijn.",
+        "pt": "Bebe o champanhe especial da meia-noite antes sequer de chegarem os primeiros convidados."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "winter_green_14",
+      "theme": "winter",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Prévoit des cotillons et des boissons sans alcool pétillantes savoureuses pour ceux qui ne boivent pas d'alcool.",
+        "en": "Brings festive alcohol-free sparkling cider so non-drinkers can fully celebrate the midnight toast.",
+        "de": "Bringt festlichen alkoholfreien Sekt mit, damit alle beim Mitternachtstoast gemeinsam anstoßen können.",
+        "es": "Trae un espumoso sin alcohol riquísimo para que quienes no beben brinden igual a medianoche.",
+        "nl": "Heeft lekkere alcoholvrije bubbels meegebracht zodat iedereen gezellig mee kan proosten om middernacht.",
+        "pt": "Leva espumante sem álcool saboroso para quem não bebe poder brindar à meia-noite com todo o grupo."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "winter_red_15",
+      "theme": "winter",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Allume un gros pétard dans la cour à 2 centimètres des oreilles de tes potes pour « rigoler ».",
+        "en": "Lights a loud firecracker 2 inches from your friends' ears just 'for laughs'.",
+        "de": "Zündet einen lauten Böller direkt neben den Ohren deiner Freunde, um 'witzig' zu sein.",
+        "es": "Tira un petardo enorme a dos centímetros de los oídos de sus amigos solo 'para hacer la gracia'.",
+        "nl": "Steekt een keiharde knaller af vlak naast de oren van zijn vrienden 'voor de grap'.",
+        "pt": "Acende um petardo enorme a dois centímetros dos ouvidos dos amigos só 'pela piada'."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "winter_green_15",
+      "theme": "winter",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Ramène des viennoiseries chaudes de la boulangerie pour tout le monde le lendemain du réveillon à 11h.",
+        "en": "Brings fresh warm pastries from the bakery for everyone at 11 AM the morning after New Year's.",
+        "de": "Holt am Neujahrsmorgen um 11 Uhr frische warme Croissants vom Bäcker für die ganze Truppe.",
+        "es": "Trae bollería recién hecha de la panadería para todos al día siguiente de Nochevieja a las 11.",
+        "nl": "Haalt op nieuwjaarsochtend om 11u verse warme croissants bij de bakker voor het hele gezelschap.",
+        "pt": "Vai à padaria e traz croissants quentinhos para todos na manhã seguinte ao Réveillon às 11h."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "winter_red_16",
+      "theme": "winter",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Spolie le film de Noël culte à ceux qui ne l'avaient encore jamais vu.",
+        "en": "Spoils the ending of a classic holiday movie to friends who had never seen it before.",
+        "de": "Verrät das Ende eines Weihnachts-Kultfilms für alle, die ihn zum ersten Mal schauen wollten.",
+        "es": "Hace spoiler del final de una peli navideña mítica a quienes no la habían visto todavía.",
+        "nl": "Vespoilt het einde van een klassieke kerstfilm voor vrienden die hem voor het eerst keken.",
+        "pt": "Dá spoiler do final de um clássico filme de Natal a quem nunca o tinha visto."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "winter_green_16",
+      "theme": "winter",
+      "type": "green_flag",
+      "texts": {
+        "fr": "N'hésite pas à relancer la bûche glacée ou le gâteau pour que personne n'ait honte de se resservir.",
+        "en": "Takes a second slice of dessert first so nobody feels guilty about having seconds.",
+        "de": "Nimmt sich als Erster ein zweites Stück Torte, damit sich niemand fürs Nachnehmen schämen muss.",
+        "es": "Se sirve el primero un segundo trozo de postre para que nadie tenga vergüenza de repetir.",
+        "nl": "Pakt als eerste een tweede stuk dessert zodat niemand zich bezwaard voelt om nog wat te nemen.",
+        "pt": "Serve-se de uma segunda fatia de sobremesa primeiro para ninguém ter vergonha de repetir."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "winter_red_17",
+      "theme": "winter",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Te demande de lui rembourser sa part de bûche de Noël par virement pour 1€80.",
+        "en": "Requests a 1.80€ payment transfer for their fraction of the supermarket holiday dessert.",
+        "de": "Verlangt per PayPal 1,80€ für seinen Anteil an der Supermarkt-Eistorte zurück.",
+        "es": "Te pide un Bizum de 1,80€ por su parte del postre navideño comprado en el súper.",
+        "nl": "Stuurt een Tikkie van €1,80 voor zijn deel van het kerstdessert uit de supermarkt.",
+        "pt": "Pede uma transferência por MB Way de 1,80€ pela sua parte do tronco de Natal."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "winter_green_17",
+      "theme": "winter",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Envoie un vrai message chaleureux et personnalisé à chacun de ses proches pour le nouvel an.",
+        "en": "Sends a genuine, heartfelt, and personal message to every close friend for the New Year.",
+        "de": "Schreibt jedem engen Freund zum neuen Jahr eine ehrliche, persönliche und herzerwärmende Nachricht.",
+        "es": "Envía un mensaje sincero, cariñoso y personalizado a cada uno de sus seres queridos en Año Nuevo.",
+        "nl": "Stuurt een oprecht, warm en persoonlijk berichtje naar al zijn dierbaren voor het nieuwe jaar.",
+        "pt": "Envia uma mensagem sincera, carinhosa e personalizada a cada pessoa próxima no Ano Novo."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "winter_red_18",
+      "theme": "winter",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Dort tout habillé avec ses chaussures sur le canapé blanc du salon après le réveillon.",
+        "en": "Passes out fully dressed with dirty shoes on the host's white living room couch after New Year's.",
+        "de": "Schläft nach der Silvesterfeier voll angezogen mit schmutzigen Straßenschuhen auf dem weißen Sofa ein.",
+        "es": "Se queda frito vestido y con zapatos en el sofá blanco del salón tras la fiesta de Nochevieja.",
+        "nl": "Valt na oud en nieuw met vieze schoenen en al in slaap op de witte bank van de gastheer.",
+        "pt": "Adormece vestido e com sapatos no sofá branco da sala após a festa de Réveillon."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
       "live_tier": "safe"
     },
     {
@@ -15787,6 +16417,538 @@
         }
       ]
     },
+    "winter_holidays_pack": {
+      "id": "winter_holidays_pack",
+      "name": "WINTER_HOLIDAYS",
+      "card_count": 35,
+      "cards": [
+        {
+          "id": "winter_red_1",
+          "theme": "winter",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Offre à Noël un cadeau de pub reçu gratuitement avec le logo de son entreprise encore dessus.",
+            "en": "Gifts you free corporate merch for Christmas with their company logo still clearly visible.",
+            "de": "Schenkt dir zu Weihnachten ein kostenloses Firmen-Werbegeschenk mit Firmenlogo darauf.",
+            "es": "Te regala por Navidad un detalle corporativo gratis con el logo de su empresa bien visible.",
+            "nl": "Geeft je voor kerst een gratis relatiegeschenk waar het bedrijfslogo nog pontificaal op staat.",
+            "pt": "Dá-te de prenda de Natal um brinde da empresa onde trabalha com o logótipo bem visível."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "winter_green_1",
+          "theme": "winter",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Se porte volontaire pour s'asseoir à côté de l'oncle gênant au repas de Noël pour épargner tout le monde.",
+            "en": "Voluntarily sits next to the awkward uncle at Christmas dinner to spare everyone else.",
+            "de": "Setzt sich beim Weihnachtsessen freiwillig neben den peinlichen Onkel, um alle anderen zu verschonen.",
+            "es": "Se sienta voluntariamente al lado del tío pesado en la cena de Navidad para salvar a los demás.",
+            "nl": "Gaat tijdens het kerstdiner vrijwillig naast die ongemakkelijke oom zitten om de rest te sparen.",
+            "pt": "Senta-se voluntariamente ao lado do tio chato no jantar de Natal para poupar toda a gente."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "winter_red_2",
+          "theme": "winter",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Prend une résolution de Nouvel An en public, te force à la faire avec lui, et abandonne le 2 janvier à midi.",
+            "en": "Announces a New Year's resolution, forces you to join in, and gives up on January 2nd at noon.",
+            "de": "Verkündet einen Neujahrsvorsatz, zwingt dich mitzumachen und bricht ihn am 2. Januar mittags ab.",
+            "es": "Hace un propósito de Año Nuevo en público, te obliga a sumarte y lo abandona el 2 de enero a mediodía.",
+            "nl": "Kondigt een goed voornemen aan, dwingt je mee te doen en geeft op 2 januari om 12u 's middags al op.",
+            "pt": "Faz uma resolução de Ano Novo em público, obriga-te a alinhar e desiste no dia 2 de janeiro ao meio-dia."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "winter_green_2",
+          "theme": "winter",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Ramène des boîtes hermétiques au réveillon pour que chacun reparte avec des restes le lendemain sans gâchis.",
+            "en": "Brings Tupperware to New Year's Eve so everyone takes leftovers home without wasting food.",
+            "de": "Bringt Tupperdosen zur Silvesterparty mit, damit alle Reste mitnehmen und nichts weggeworfen wird.",
+            "es": "Trae fiambreras a Nochevieja para que todos se lleven sobras al día siguiente sin tirar nada.",
+            "nl": "Neemt bakjes mee naar oudejaarsavond zodat iedereen restjes mee kan nemen zonder eten te verspillen.",
+            "pt": "Leva caixas herméticas para o Réveillon para que todos levem sobras para casa sem desperdiçar nada."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "winter_red_3",
+          "theme": "winter",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Critique ouvertement la bûche de Noël préparée par ta grand-mère devant toute la tablée.",
+            "en": "Openly criticizes the homemade Christmas Yule log your grandma made in front of the whole table.",
+            "de": "Kritisiert die selbstgemachte Weihnachtstorte deiner Oma vor der versammelten Familie.",
+            "es": "Critica abiertamente el postre navideño que preparó tu abuela delante de toda la mesa.",
+            "nl": "Kritiseert openlijk het kerstdessert dat je oma heeft gemaakt voor de hele familie.",
+            "pt": "Critica abertamente o tronco de Natal feito pela tua avó à frente de toda a família."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "winter_green_3",
+          "theme": "winter",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Met une playlist de Noël moderne et entraînante qui réussit l'exploit d'ambiancer toutes les générations.",
+            "en": "Puts on an upbeat holiday playlist that miraculously gets every single generation dancing.",
+            "de": "Startet eine moderne Weihnachts-Playlist, die es schafft, Jung und Alt auf die Tanzfläche zu bringen.",
+            "es": "Pone una lista de música navideña animada que logra que bailen todas las generaciones a la vez.",
+            "nl": "Zet een vrolijke feestdagen-playlist op die zowaar alle generaties aan het dansen krijgt.",
+            "pt": "Põe uma playlist festiva animada que consegue o milagre de pôr todas as gerações a dançar."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "winter_red_4",
+          "theme": "winter",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Disparaît mystérieusement dans la salle de bain dès qu'il faut faire la vaisselle après un repas de 12 personnes.",
+            "en": "Mysteriously vanishes to the bathroom the exact moment dishes need to be washed after a 12-person dinner.",
+            "de": "Verschwindet spurlos im Bad, genau in der Sekunde, in der nach einem 12-Personen-Essen abgewaschen werden muss.",
+            "es": "Desaparece misteriosamente en el baño justo cuando toca fregar los platos tras una cena de 12 personas.",
+            "nl": "Verdwijnt plots naar het toilet op het exacte moment dat er moet worden afgewassen na een diner van 12 man.",
+            "pt": "Desaparece misteriosamente na casa de banho no momento exato em que é preciso lavar a loiça de 12 pessoas."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "winter_green_4",
+          "theme": "winter",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Prépare un chocolat chaud maison exceptionnel avec guimauves et cannelle pour tout le monde au réveil.",
+            "en": "Makes top-tier homemade hot chocolate with marshmallows and cinnamon for everyone the morning after.",
+            "de": "Kocht am nächsten Morgen für alle fantastische heiße Schokolade mit Marshmallows und Zimt.",
+            "es": "Prepara un chocolate caliente casero brutal con nubes y canela para todos al despertar.",
+            "nl": "Maakt 's ochtends voor iedereen waanzinnige warme chocolademelk met marshmallows en kaneel.",
+            "pt": "Prepara um chocolate quente caseiro incrível com marshmallows e canela para todos ao acordar."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "winter_red_5",
+          "theme": "winter",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Revend sur Vinted le pull tricoté avec amour par sa belle-mère dès le 26 décembre au matin.",
+            "en": "Lists the hand-knitted sweater from their in-laws on an online marketplace on December 26th morning.",
+            "de": "Stellt den liebevoll gestrickten Pullover der Schwiegermutter am 26. Dezember morgens auf Vinted ein.",
+            "es": "Vende en una app de segunda mano el jersey que le tejió su suegra el mismísimo 26 de diciembre por la mañana.",
+            "nl": "Zet de met liefde gebreide trui van schoonmoeder op 26 december 's ochtends meteen op Marktplaats.",
+            "pt": "Põe à venda no Vinted a camisola tricotada com carinho pela sogra logo na manhã de 26 de dezembro."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "winter_green_5",
+          "theme": "winter",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Participe au concours du pull de Noël moche avec un modèle clignotant et assume fièrement toute la soirée.",
+            "en": "Fully embraces the ugly Christmas sweater contest with flashing lights and rocks it with total pride.",
+            "de": "Macht beim Ugly-Christmas-Sweater-Wettbewerb mit Lichtern mit und trägt ihn den ganzen Abend voller Stolz.",
+            "es": "Se apunta al concurso de jerséis navideños feos con uno que tiene luces y lo luce con orgullo toda la noche.",
+            "nl": "Doet vol overgave mee aan de foute kersttruienwedstrijd met knipperlichtjes en draagt hem met trots.",
+            "pt": "Alinha no concurso de camisolas feias de Natal com luzes a piscar e usa-a com orgulho a noite toda."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "winter_red_6",
+          "theme": "winter",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Mange en cachette tous les meilleurs chocolats du calendrier de l'Avent avant le 10 décembre.",
+            "en": "Secretly eats all the best advent calendar chocolates before December 10th.",
+            "de": "Isst heimlich vor dem 10. Dezember alle besten Schokoladen aus dem Adventskalender auf.",
+            "es": "Se come a escondidas los mejores bombones del calendario de Adviento antes del 10 de diciembre.",
+            "nl": "Eet stiekem alle lekkerste chocolaatjes uit de adventskalender al vóór 10 december op.",
+            "pt": "Come às escondidas os melhores chocolates do calendário do Advento antes do dia 10 de dezembro."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "winter_green_6",
+          "theme": "winter",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Garde le secret absolu sur les surprises et cadeaux de tout le monde sans jamais laisser fuiter un indice.",
+            "en": "Guards everyone's gift surprises like state secrets without dropping a single spoiler.",
+            "de": "Hütet alle Geschenk-Überraschungen wie ein Staatsgeheimnis, ohne den kleinsten Hinweis zu verraten.",
+            "es": "Guarda el secreto de los regalos como si fuera seguridad nacional sin soltar ni una pista.",
+            "nl": "Bewaart alle cadeau-geheimen als een staatsgeheim zonder ook maar één hint te verklappen.",
+            "pt": "Guarda o segredo dos presentes de toda a gente como segredo de Estado sem dar uma única pista."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "winter_red_7",
+          "theme": "winter",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Balance le prix exact de chaque cadeau qu'il a offert au moment où les gens déballent leurs paquets.",
+            "en": "Announces the exact price tag of every gift they bought while people are unwrapping them.",
+            "de": "Posaunt beim Auspacken laut heraus, wie viel jeder einzelne von ihm gekaufte Gegenstand gekostet hat.",
+            "es": "Dice en voz alta el precio exacto de cada regalo que hizo mientras la gente abre sus paquetes.",
+            "nl": "Roept bij het uitpakken van cadeautjes meteen de exacte prijs die hij ervoor betaald heeft.",
+            "pt": "Diz o preço exato de cada presente que comprou no momento em que as pessoas estão a desembrulhar."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "winter_green_7",
+          "theme": "winter",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Propose un jeu de société délirant qui désamorce instantanément une dispute politique au réveillon.",
+            "en": "Pulls out a hilarious board game that instantly defuses a political argument at the holiday dinner.",
+            "de": "Zaubert ein witziges Partyspiel hervor, das einen politischen Streit bei Tisch sofort im Keim erstickt.",
+            "es": "Saca un juego de mesa divertidísimo que frena en seco una discusión de política en la cena.",
+            "nl": "Tovert een hilarisch partyspel tevoorschijn dat een politieke ruzie aan tafel meteen ontmijnt.",
+            "pt": "Tira um jogo de tabuleiro hilariante que desfaz instantaneamente uma discussão política à mesa."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "winter_red_8",
+          "theme": "winter",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Envoie un copier-coller impersonnel de « Bonne année » à tout son répertoire le 1er janvier à minuit une.",
+            "en": "Mass sends a generic copy-pasted 'Happy New Year' text to their entire contact list at 12:01 AM.",
+            "de": "Verschickt um 00:01 Uhr eine lieblose Copy-Paste-Neujahrsnachricht an alle Kontakte im Telefonbuch.",
+            "es": "Manda un mensaje copiado y pegado genérico de «Feliz Año» a toda su agenda a las 00:01.",
+            "nl": "Stuurt om 00:01 een generiek knip-en-plak 'Gelukkig Nieuwjaar' berichtje naar zijn hele contactenlijst.",
+            "pt": "Envia uma mensagem genérica de copiar e colar de «Bom Ano» a todos os contactos às 00h01."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "winter_green_8",
+          "theme": "winter",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Se désigne d'office capitaine de soirée sobre pour ramener tout le monde en sécurité après le réveillon.",
+            "en": "Voluntarily stays fully sober as designated driver to safely bring everyone home after New Year's Eve.",
+            "de": "Meldet sich freiwillig als nüchterner Fahrer, um an Silvester alle sicher nach Hause zu bringen.",
+            "es": "Se ofrece de conductor designado para llevar a todos a salvo a casa tras la fiesta de Nochevieja.",
+            "nl": "Is vrijwillig de nuchtere BOB om iedereen na oudejaarsavond veilig thuis af te zetten.",
+            "pt": "Oferece-se como condutor designado para levar toda a gente em segurança para casa após o Réveillon."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "winter_red_9",
+          "theme": "winter",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Lance un compte à rebours de minuit avec 40 secondes d'avance et fait crier tout le monde dans le vide.",
+            "en": "Starts the midnight countdown 40 seconds too early and has everyone shouting into thin air.",
+            "de": "Zählt den Silvester-Countdown 40 Sekunden zu früh an und lässt alle ins Leere jubeln.",
+            "es": "Empieza la cuenta atrás de medianoche con 40 segundos de adelanto y hace gritar a todos para nada.",
+            "nl": "Begint het aftellen om middernacht 40 seconden te vroeg waardoor iedereen voor niks staat te juichen.",
+            "pt": "Começa a contagem decrescente com 40 segundos de avanço e põe toda a gente a gritar para o nada."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "winter_green_9",
+          "theme": "winter",
+          "type": "green_flag",
+          "texts": {
+            "fr": "A pensé à acheter des cotillons, des confettis et des chapeaux ridicules pour que la photo de minuit soit mémorable.",
+            "en": "Thought to bring party poppers, confetti, and funny hats so the midnight group photo is legendary.",
+            "de": "Hat an Konfetti, Partyhüte und Tröten gedacht, damit das Gruppenfoto um Mitternacht legendär wird.",
+            "es": "Se acordó de traer cotillón, confeti y sombreros graciosos para que la foto de medianoche sea épica.",
+            "nl": "Heeft gedacht aan feesthoedjes, slingers en confetti zodat de middernachtfoto memorabel wordt.",
+            "pt": "Lembrou-se de levar serpentinas, confetes e chapéus cómicos para a foto da meia-noite ser inesquecível."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "winter_red_10",
+          "theme": "winter",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Ouvre les huîtres avec un couteau de cuisine émoussé en manquant de s'amputer devant tout le monde.",
+            "en": "Shucks oysters with a blunt kitchen knife, nearly amputating a finger in front of guests.",
+            "de": "Öffnet Austern mit einem stumpfen Küchenmesser und schneidet sich vor allen Gästen fast den Finger ab.",
+            "es": "Abre ostras con un cuchillo de cocina desafilado y casi se corta un dedo delante de los invitados.",
+            "nl": "Opent oesters met een bot keukenmes en hakt bijna in zijn eigen hand voor alle gasten.",
+            "pt": "Abre ostras com uma faca de cozinha sem corte e quase corta um dedo à frente de todos os convidados."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "winter_green_10",
+          "theme": "winter",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Prépare une alternative végétarienne ou sans gluten aussi gourmande que le plat principal pour les invités concernés.",
+            "en": "Prepares a festive vegetarian or gluten-free alternative just as delicious as the main roast for guests.",
+            "de": "Kocht für betroffene Gäste ein vegetarisches oder glutenfreies Festessen, das genauso köstlich ist wie der Braten.",
+            "es": "Prepara una opción vegetariana o sin gluten igual de rica que el plato principal para los invitados que lo necesitan.",
+            "nl": "Maakt een feestelijk vegetarisch of glutenvrij alternatief dat net zo lekker is als het hoofdgerecht.",
+            "pt": "Prepara uma opção vegetariana ou sem glúten tão saborosa quanto o prato principal para quem precisa."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "winter_red_11",
+          "theme": "winter",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Se plaint du froid toutes les 3 minutes alors qu'il est sorti en veste fine et sans chaussettes chaudes.",
+            "en": "Complains about freezing every 3 minutes despite going out in a thin jacket with no warm socks.",
+            "de": "Meckert alle 3 Minuten über die Kälte, obwohl er nur in dünner Jacke und ohne warme Socken rausgegangen ist.",
+            "es": "Se queja del frío cada 3 minutos a pesar de haber salido con chaqueta fina y sin calcetines abrigados.",
+            "nl": "Klaagt elke 3 minuten over de kou terwijl hij in een dun jasje en zonder warme sokken naar buiten is gegaan.",
+            "pt": "Queixa-se do frio de 3 em 3 minutos apesar de ter saído com um casaco fino e sem meias quentes."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "winter_green_11",
+          "theme": "winter",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Apporte une raclette d'appoint ou un appareil à fondue en renfort quand il y a plus d'invités que prévu.",
+            "en": "Brings a backup raclette or fondue machine when more guests unexpectedly show up.",
+            "de": "Bringt ein zusätzliches Raclette- oder Fonduegerät mit, falls überraschend mehr Gäste auftauchen.",
+            "es": "Trae una plancha o fondue de repuesto cuando aparecen más invitados de los esperados.",
+            "nl": "Neemt een extra gourmetstel of fondueset mee wanneer er onverwacht meer gasten aanschuiven.",
+            "pt": "Leva um aparelho de raclette ou fondue extra quando aparecem mais convidados do que o previsto."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "winter_red_12",
+          "theme": "winter",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Fait semblant d'adorer son cadeau en ouvrant le paquet, puis le laisse traîner sous le canapé en partant.",
+            "en": "Pretends to love their gift when opening it, then 'accidentally' abandons it under the couch when leaving.",
+            "de": "Tut beim Auspacken begeistert, 'vergisst' das Geschenk beim Gehen dann aber absichtlich unterm Sofa.",
+            "es": "Finge adorar su regalo al abrirlo y luego lo deja 'olvidado' debajo del sofá al marcharse.",
+            "nl": "Doet alsof hij dolblij is met het cadeau, maar laat het bij vertrek 'per ongeluk' onder de bank liggen.",
+            "pt": "Finge adorar o presente ao abrir e depois deixa-o 'esquecido' debaixo do sofá quando vai embora."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "winter_green_12",
+          "theme": "winter",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Prend le temps d'écrire un mot personnalisé et touchant sur chaque paquet cadeau au lieu d'une simple étiquette.",
+            "en": "Takes the time to handwrite a thoughtful, heartwarming note on every single gift tag.",
+            "de": "Schreibt eine persönliche, herzerwärmende Karte zu jedem einzelnen Geschenk statt nur eines Preisschilds.",
+            "es": "Se toma el tiempo de escribir una nota emotiva y personalizada en cada paquete de regalo.",
+            "nl": "Neemt de tijd om op elk pakje een persoonlijk en lief briefje te schrijven in plaats van een simpel labeltje.",
+            "pt": "Tira tempo para escrever uma mensagem pessoal e carinhosa em cada embrulho em vez de uma etiqueta simples."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "winter_red_13",
+          "theme": "winter",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Démarre un blind test musical de fin d'année et triche en utilisant Shazam sous la table.",
+            "en": "Starts a holiday music trivia game and shamelessly cheats with Shazam under the dining table.",
+            "de": "Startet ein Neujahrs-Musik-Quiz und schummelt schamlos mit Shazam unterm Tisch.",
+            "es": "Propone un trivial musical de fin de año y hace trampas con Shazam por debajo de la mesa.",
+            "nl": "Doet mee aan de oudejaars-muziekquiz en spiekt schaamteloos met Shazam onder de tafel.",
+            "pt": "Sugere um blind test musical de fim de ano e faz batota a usar o Shazam por baixo da mesa."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "winter_green_13",
+          "theme": "winter",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Participe spontanément à la bataille de boules de neige ou au concours du plus beau bonhomme de neige.",
+            "en": "Spontaneously jumps into the snowball fight or snowman building contest with child-like joy.",
+            "de": "Macht spontan mit kindlicher Freude bei der Schneeballschlacht oder beim Schneemann-Wettbewerb mit.",
+            "es": "Se suma al instante a una guerra de bolas de nieve o al concurso del mejor muñeco de nieve con ilusión.",
+            "nl": "Doet spontaan met kinderlijk enthousiasme mee aan een sneeuwballengevecht of sneeuwpoppenwedstrijd.",
+            "pt": "Alinha espontaneamente numa batalha de bolas de neve ou a fazer um boneco de neve com alegria contagiante."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "winter_red_14",
+          "theme": "winter",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Boit tout le champagne millésimé réservé pour minuit avant même l'arrivée des premiers invités.",
+            "en": "Drinks the vintage champagne meant for the midnight toast before guests even arrive.",
+            "de": "Trinkt den edlen Champagner für Mitternacht schon aus, bevor die ersten Gäste überhaupt ankommen.",
+            "es": "Se bebe el champán reservado para el brindis de medianoche antes de que lleguen los invitados.",
+            "nl": "Drinkt de dure champagne voor middernacht al leeg voordat de eerste gasten binnen zijn.",
+            "pt": "Bebe o champanhe especial da meia-noite antes sequer de chegarem os primeiros convidados."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "winter_green_14",
+          "theme": "winter",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Prévoit des cotillons et des boissons sans alcool pétillantes savoureuses pour ceux qui ne boivent pas d'alcool.",
+            "en": "Brings festive alcohol-free sparkling cider so non-drinkers can fully celebrate the midnight toast.",
+            "de": "Bringt festlichen alkoholfreien Sekt mit, damit alle beim Mitternachtstoast gemeinsam anstoßen können.",
+            "es": "Trae un espumoso sin alcohol riquísimo para que quienes no beben brinden igual a medianoche.",
+            "nl": "Heeft lekkere alcoholvrije bubbels meegebracht zodat iedereen gezellig mee kan proosten om middernacht.",
+            "pt": "Leva espumante sem álcool saboroso para quem não bebe poder brindar à meia-noite com todo o grupo."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "winter_red_15",
+          "theme": "winter",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Allume un gros pétard dans la cour à 2 centimètres des oreilles de tes potes pour « rigoler ».",
+            "en": "Lights a loud firecracker 2 inches from your friends' ears just 'for laughs'.",
+            "de": "Zündet einen lauten Böller direkt neben den Ohren deiner Freunde, um 'witzig' zu sein.",
+            "es": "Tira un petardo enorme a dos centímetros de los oídos de sus amigos solo 'para hacer la gracia'.",
+            "nl": "Steekt een keiharde knaller af vlak naast de oren van zijn vrienden 'voor de grap'.",
+            "pt": "Acende um petardo enorme a dois centímetros dos ouvidos dos amigos só 'pela piada'."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "winter_green_15",
+          "theme": "winter",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Ramène des viennoiseries chaudes de la boulangerie pour tout le monde le lendemain du réveillon à 11h.",
+            "en": "Brings fresh warm pastries from the bakery for everyone at 11 AM the morning after New Year's.",
+            "de": "Holt am Neujahrsmorgen um 11 Uhr frische warme Croissants vom Bäcker für die ganze Truppe.",
+            "es": "Trae bollería recién hecha de la panadería para todos al día siguiente de Nochevieja a las 11.",
+            "nl": "Haalt op nieuwjaarsochtend om 11u verse warme croissants bij de bakker voor het hele gezelschap.",
+            "pt": "Vai à padaria e traz croissants quentinhos para todos na manhã seguinte ao Réveillon às 11h."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "winter_red_16",
+          "theme": "winter",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Spolie le film de Noël culte à ceux qui ne l'avaient encore jamais vu.",
+            "en": "Spoils the ending of a classic holiday movie to friends who had never seen it before.",
+            "de": "Verrät das Ende eines Weihnachts-Kultfilms für alle, die ihn zum ersten Mal schauen wollten.",
+            "es": "Hace spoiler del final de una peli navideña mítica a quienes no la habían visto todavía.",
+            "nl": "Vespoilt het einde van een klassieke kerstfilm voor vrienden die hem voor het eerst keken.",
+            "pt": "Dá spoiler do final de um clássico filme de Natal a quem nunca o tinha visto."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "winter_green_16",
+          "theme": "winter",
+          "type": "green_flag",
+          "texts": {
+            "fr": "N'hésite pas à relancer la bûche glacée ou le gâteau pour que personne n'ait honte de se resservir.",
+            "en": "Takes a second slice of dessert first so nobody feels guilty about having seconds.",
+            "de": "Nimmt sich als Erster ein zweites Stück Torte, damit sich niemand fürs Nachnehmen schämen muss.",
+            "es": "Se sirve el primero un segundo trozo de postre para que nadie tenga vergüenza de repetir.",
+            "nl": "Pakt als eerste een tweede stuk dessert zodat niemand zich bezwaard voelt om nog wat te nemen.",
+            "pt": "Serve-se de uma segunda fatia de sobremesa primeiro para ninguém ter vergonha de repetir."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "winter_red_17",
+          "theme": "winter",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Te demande de lui rembourser sa part de bûche de Noël par virement pour 1€80.",
+            "en": "Requests a 1.80€ payment transfer for their fraction of the supermarket holiday dessert.",
+            "de": "Verlangt per PayPal 1,80€ für seinen Anteil an der Supermarkt-Eistorte zurück.",
+            "es": "Te pide un Bizum de 1,80€ por su parte del postre navideño comprado en el súper.",
+            "nl": "Stuurt een Tikkie van €1,80 voor zijn deel van het kerstdessert uit de supermarkt.",
+            "pt": "Pede uma transferência por MB Way de 1,80€ pela sua parte do tronco de Natal."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "winter_green_17",
+          "theme": "winter",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Envoie un vrai message chaleureux et personnalisé à chacun de ses proches pour le nouvel an.",
+            "en": "Sends a genuine, heartfelt, and personal message to every close friend for the New Year.",
+            "de": "Schreibt jedem engen Freund zum neuen Jahr eine ehrliche, persönliche und herzerwärmende Nachricht.",
+            "es": "Envía un mensaje sincero, cariñoso y personalizado a cada uno de sus seres queridos en Año Nuevo.",
+            "nl": "Stuurt een oprecht, warm en persoonlijk berichtje naar al zijn dierbaren voor het nieuwe jaar.",
+            "pt": "Envia uma mensagem sincera, carinhosa e personalizada a cada pessoa próxima no Ano Novo."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "winter_red_18",
+          "theme": "winter",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Dort tout habillé avec ses chaussures sur le canapé blanc du salon après le réveillon.",
+            "en": "Passes out fully dressed with dirty shoes on the host's white living room couch after New Year's.",
+            "de": "Schläft nach der Silvesterfeier voll angezogen mit schmutzigen Straßenschuhen auf dem weißen Sofa ein.",
+            "es": "Se queda frito vestido y con zapatos en el sofá blanco del salón tras la fiesta de Nochevieja.",
+            "nl": "Valt na oud en nieuw met vieze schoenen en al in slaap op de witte bank van de gastheer.",
+            "pt": "Adormece vestido e com sapatos no sofá branco da sala após a festa de Réveillon."
+          },
+          "difficulty": 2,
+          "enabled": true
+        }
+      ]
+    },
     "office_pack": {
       "id": "office_pack",
       "name": "OFFICE",
@@ -26483,6 +27645,636 @@
       "packId": "halloween_pack",
       "live_tier": "safe"
     },
+    "winter_red_1": {
+      "id": "winter_red_1",
+      "theme": "winter",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Offre à Noël un cadeau de pub reçu gratuitement avec le logo de son entreprise encore dessus.",
+        "en": "Gifts you free corporate merch for Christmas with their company logo still clearly visible.",
+        "de": "Schenkt dir zu Weihnachten ein kostenloses Firmen-Werbegeschenk mit Firmenlogo darauf.",
+        "es": "Te regala por Navidad un detalle corporativo gratis con el logo de su empresa bien visible.",
+        "nl": "Geeft je voor kerst een gratis relatiegeschenk waar het bedrijfslogo nog pontificaal op staat.",
+        "pt": "Dá-te de prenda de Natal um brinde da empresa onde trabalha com o logótipo bem visível."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    "winter_green_1": {
+      "id": "winter_green_1",
+      "theme": "winter",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Se porte volontaire pour s'asseoir à côté de l'oncle gênant au repas de Noël pour épargner tout le monde.",
+        "en": "Voluntarily sits next to the awkward uncle at Christmas dinner to spare everyone else.",
+        "de": "Setzt sich beim Weihnachtsessen freiwillig neben den peinlichen Onkel, um alle anderen zu verschonen.",
+        "es": "Se sienta voluntariamente al lado del tío pesado en la cena de Navidad para salvar a los demás.",
+        "nl": "Gaat tijdens het kerstdiner vrijwillig naast die ongemakkelijke oom zitten om de rest te sparen.",
+        "pt": "Senta-se voluntariamente ao lado do tio chato no jantar de Natal para poupar toda a gente."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    "winter_red_2": {
+      "id": "winter_red_2",
+      "theme": "winter",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Prend une résolution de Nouvel An en public, te force à la faire avec lui, et abandonne le 2 janvier à midi.",
+        "en": "Announces a New Year's resolution, forces you to join in, and gives up on January 2nd at noon.",
+        "de": "Verkündet einen Neujahrsvorsatz, zwingt dich mitzumachen und bricht ihn am 2. Januar mittags ab.",
+        "es": "Hace un propósito de Año Nuevo en público, te obliga a sumarte y lo abandona el 2 de enero a mediodía.",
+        "nl": "Kondigt een goed voornemen aan, dwingt je mee te doen en geeft op 2 januari om 12u 's middags al op.",
+        "pt": "Faz uma resolução de Ano Novo em público, obriga-te a alinhar e desiste no dia 2 de janeiro ao meio-dia."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    "winter_green_2": {
+      "id": "winter_green_2",
+      "theme": "winter",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Ramène des boîtes hermétiques au réveillon pour que chacun reparte avec des restes le lendemain sans gâchis.",
+        "en": "Brings Tupperware to New Year's Eve so everyone takes leftovers home without wasting food.",
+        "de": "Bringt Tupperdosen zur Silvesterparty mit, damit alle Reste mitnehmen und nichts weggeworfen wird.",
+        "es": "Trae fiambreras a Nochevieja para que todos se lleven sobras al día siguiente sin tirar nada.",
+        "nl": "Neemt bakjes mee naar oudejaarsavond zodat iedereen restjes mee kan nemen zonder eten te verspillen.",
+        "pt": "Leva caixas herméticas para o Réveillon para que todos levem sobras para casa sem desperdiçar nada."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    "winter_red_3": {
+      "id": "winter_red_3",
+      "theme": "winter",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Critique ouvertement la bûche de Noël préparée par ta grand-mère devant toute la tablée.",
+        "en": "Openly criticizes the homemade Christmas Yule log your grandma made in front of the whole table.",
+        "de": "Kritisiert die selbstgemachte Weihnachtstorte deiner Oma vor der versammelten Familie.",
+        "es": "Critica abiertamente el postre navideño que preparó tu abuela delante de toda la mesa.",
+        "nl": "Kritiseert openlijk het kerstdessert dat je oma heeft gemaakt voor de hele familie.",
+        "pt": "Critica abertamente o tronco de Natal feito pela tua avó à frente de toda a família."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    "winter_green_3": {
+      "id": "winter_green_3",
+      "theme": "winter",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Met une playlist de Noël moderne et entraînante qui réussit l'exploit d'ambiancer toutes les générations.",
+        "en": "Puts on an upbeat holiday playlist that miraculously gets every single generation dancing.",
+        "de": "Startet eine moderne Weihnachts-Playlist, die es schafft, Jung und Alt auf die Tanzfläche zu bringen.",
+        "es": "Pone una lista de música navideña animada que logra que bailen todas las generaciones a la vez.",
+        "nl": "Zet een vrolijke feestdagen-playlist op die zowaar alle generaties aan het dansen krijgt.",
+        "pt": "Põe uma playlist festiva animada que consegue o milagre de pôr todas as gerações a dançar."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    "winter_red_4": {
+      "id": "winter_red_4",
+      "theme": "winter",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Disparaît mystérieusement dans la salle de bain dès qu'il faut faire la vaisselle après un repas de 12 personnes.",
+        "en": "Mysteriously vanishes to the bathroom the exact moment dishes need to be washed after a 12-person dinner.",
+        "de": "Verschwindet spurlos im Bad, genau in der Sekunde, in der nach einem 12-Personen-Essen abgewaschen werden muss.",
+        "es": "Desaparece misteriosamente en el baño justo cuando toca fregar los platos tras una cena de 12 personas.",
+        "nl": "Verdwijnt plots naar het toilet op het exacte moment dat er moet worden afgewassen na een diner van 12 man.",
+        "pt": "Desaparece misteriosamente na casa de banho no momento exato em que é preciso lavar a loiça de 12 pessoas."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    "winter_green_4": {
+      "id": "winter_green_4",
+      "theme": "winter",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Prépare un chocolat chaud maison exceptionnel avec guimauves et cannelle pour tout le monde au réveil.",
+        "en": "Makes top-tier homemade hot chocolate with marshmallows and cinnamon for everyone the morning after.",
+        "de": "Kocht am nächsten Morgen für alle fantastische heiße Schokolade mit Marshmallows und Zimt.",
+        "es": "Prepara un chocolate caliente casero brutal con nubes y canela para todos al despertar.",
+        "nl": "Maakt 's ochtends voor iedereen waanzinnige warme chocolademelk met marshmallows en kaneel.",
+        "pt": "Prepara um chocolate quente caseiro incrível com marshmallows e canela para todos ao acordar."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    "winter_red_5": {
+      "id": "winter_red_5",
+      "theme": "winter",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Revend sur Vinted le pull tricoté avec amour par sa belle-mère dès le 26 décembre au matin.",
+        "en": "Lists the hand-knitted sweater from their in-laws on an online marketplace on December 26th morning.",
+        "de": "Stellt den liebevoll gestrickten Pullover der Schwiegermutter am 26. Dezember morgens auf Vinted ein.",
+        "es": "Vende en una app de segunda mano el jersey que le tejió su suegra el mismísimo 26 de diciembre por la mañana.",
+        "nl": "Zet de met liefde gebreide trui van schoonmoeder op 26 december 's ochtends meteen op Marktplaats.",
+        "pt": "Põe à venda no Vinted a camisola tricotada com carinho pela sogra logo na manhã de 26 de dezembro."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    "winter_green_5": {
+      "id": "winter_green_5",
+      "theme": "winter",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Participe au concours du pull de Noël moche avec un modèle clignotant et assume fièrement toute la soirée.",
+        "en": "Fully embraces the ugly Christmas sweater contest with flashing lights and rocks it with total pride.",
+        "de": "Macht beim Ugly-Christmas-Sweater-Wettbewerb mit Lichtern mit und trägt ihn den ganzen Abend voller Stolz.",
+        "es": "Se apunta al concurso de jerséis navideños feos con uno que tiene luces y lo luce con orgullo toda la noche.",
+        "nl": "Doet vol overgave mee aan de foute kersttruienwedstrijd met knipperlichtjes en draagt hem met trots.",
+        "pt": "Alinha no concurso de camisolas feias de Natal com luzes a piscar e usa-a com orgulho a noite toda."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    "winter_red_6": {
+      "id": "winter_red_6",
+      "theme": "winter",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Mange en cachette tous les meilleurs chocolats du calendrier de l'Avent avant le 10 décembre.",
+        "en": "Secretly eats all the best advent calendar chocolates before December 10th.",
+        "de": "Isst heimlich vor dem 10. Dezember alle besten Schokoladen aus dem Adventskalender auf.",
+        "es": "Se come a escondidas los mejores bombones del calendario de Adviento antes del 10 de diciembre.",
+        "nl": "Eet stiekem alle lekkerste chocolaatjes uit de adventskalender al vóór 10 december op.",
+        "pt": "Come às escondidas os melhores chocolates do calendário do Advento antes do dia 10 de dezembro."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    "winter_green_6": {
+      "id": "winter_green_6",
+      "theme": "winter",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Garde le secret absolu sur les surprises et cadeaux de tout le monde sans jamais laisser fuiter un indice.",
+        "en": "Guards everyone's gift surprises like state secrets without dropping a single spoiler.",
+        "de": "Hütet alle Geschenk-Überraschungen wie ein Staatsgeheimnis, ohne den kleinsten Hinweis zu verraten.",
+        "es": "Guarda el secreto de los regalos como si fuera seguridad nacional sin soltar ni una pista.",
+        "nl": "Bewaart alle cadeau-geheimen als een staatsgeheim zonder ook maar één hint te verklappen.",
+        "pt": "Guarda o segredo dos presentes de toda a gente como segredo de Estado sem dar uma única pista."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    "winter_red_7": {
+      "id": "winter_red_7",
+      "theme": "winter",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Balance le prix exact de chaque cadeau qu'il a offert au moment où les gens déballent leurs paquets.",
+        "en": "Announces the exact price tag of every gift they bought while people are unwrapping them.",
+        "de": "Posaunt beim Auspacken laut heraus, wie viel jeder einzelne von ihm gekaufte Gegenstand gekostet hat.",
+        "es": "Dice en voz alta el precio exacto de cada regalo que hizo mientras la gente abre sus paquetes.",
+        "nl": "Roept bij het uitpakken van cadeautjes meteen de exacte prijs die hij ervoor betaald heeft.",
+        "pt": "Diz o preço exato de cada presente que comprou no momento em que as pessoas estão a desembrulhar."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    "winter_green_7": {
+      "id": "winter_green_7",
+      "theme": "winter",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Propose un jeu de société délirant qui désamorce instantanément une dispute politique au réveillon.",
+        "en": "Pulls out a hilarious board game that instantly defuses a political argument at the holiday dinner.",
+        "de": "Zaubert ein witziges Partyspiel hervor, das einen politischen Streit bei Tisch sofort im Keim erstickt.",
+        "es": "Saca un juego de mesa divertidísimo que frena en seco una discusión de política en la cena.",
+        "nl": "Tovert een hilarisch partyspel tevoorschijn dat een politieke ruzie aan tafel meteen ontmijnt.",
+        "pt": "Tira um jogo de tabuleiro hilariante que desfaz instantaneamente uma discussão política à mesa."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    "winter_red_8": {
+      "id": "winter_red_8",
+      "theme": "winter",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Envoie un copier-coller impersonnel de « Bonne année » à tout son répertoire le 1er janvier à minuit une.",
+        "en": "Mass sends a generic copy-pasted 'Happy New Year' text to their entire contact list at 12:01 AM.",
+        "de": "Verschickt um 00:01 Uhr eine lieblose Copy-Paste-Neujahrsnachricht an alle Kontakte im Telefonbuch.",
+        "es": "Manda un mensaje copiado y pegado genérico de «Feliz Año» a toda su agenda a las 00:01.",
+        "nl": "Stuurt om 00:01 een generiek knip-en-plak 'Gelukkig Nieuwjaar' berichtje naar zijn hele contactenlijst.",
+        "pt": "Envia uma mensagem genérica de copiar e colar de «Bom Ano» a todos os contactos às 00h01."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    "winter_green_8": {
+      "id": "winter_green_8",
+      "theme": "winter",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Se désigne d'office capitaine de soirée sobre pour ramener tout le monde en sécurité après le réveillon.",
+        "en": "Voluntarily stays fully sober as designated driver to safely bring everyone home after New Year's Eve.",
+        "de": "Meldet sich freiwillig als nüchterner Fahrer, um an Silvester alle sicher nach Hause zu bringen.",
+        "es": "Se ofrece de conductor designado para llevar a todos a salvo a casa tras la fiesta de Nochevieja.",
+        "nl": "Is vrijwillig de nuchtere BOB om iedereen na oudejaarsavond veilig thuis af te zetten.",
+        "pt": "Oferece-se como condutor designado para levar toda a gente em segurança para casa após o Réveillon."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    "winter_red_9": {
+      "id": "winter_red_9",
+      "theme": "winter",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Lance un compte à rebours de minuit avec 40 secondes d'avance et fait crier tout le monde dans le vide.",
+        "en": "Starts the midnight countdown 40 seconds too early and has everyone shouting into thin air.",
+        "de": "Zählt den Silvester-Countdown 40 Sekunden zu früh an und lässt alle ins Leere jubeln.",
+        "es": "Empieza la cuenta atrás de medianoche con 40 segundos de adelanto y hace gritar a todos para nada.",
+        "nl": "Begint het aftellen om middernacht 40 seconden te vroeg waardoor iedereen voor niks staat te juichen.",
+        "pt": "Começa a contagem decrescente com 40 segundos de avanço e põe toda a gente a gritar para o nada."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    "winter_green_9": {
+      "id": "winter_green_9",
+      "theme": "winter",
+      "type": "green_flag",
+      "texts": {
+        "fr": "A pensé à acheter des cotillons, des confettis et des chapeaux ridicules pour que la photo de minuit soit mémorable.",
+        "en": "Thought to bring party poppers, confetti, and funny hats so the midnight group photo is legendary.",
+        "de": "Hat an Konfetti, Partyhüte und Tröten gedacht, damit das Gruppenfoto um Mitternacht legendär wird.",
+        "es": "Se acordó de traer cotillón, confeti y sombreros graciosos para que la foto de medianoche sea épica.",
+        "nl": "Heeft gedacht aan feesthoedjes, slingers en confetti zodat de middernachtfoto memorabel wordt.",
+        "pt": "Lembrou-se de levar serpentinas, confetes e chapéus cómicos para a foto da meia-noite ser inesquecível."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    "winter_red_10": {
+      "id": "winter_red_10",
+      "theme": "winter",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Ouvre les huîtres avec un couteau de cuisine émoussé en manquant de s'amputer devant tout le monde.",
+        "en": "Shucks oysters with a blunt kitchen knife, nearly amputating a finger in front of guests.",
+        "de": "Öffnet Austern mit einem stumpfen Küchenmesser und schneidet sich vor allen Gästen fast den Finger ab.",
+        "es": "Abre ostras con un cuchillo de cocina desafilado y casi se corta un dedo delante de los invitados.",
+        "nl": "Opent oesters met een bot keukenmes en hakt bijna in zijn eigen hand voor alle gasten.",
+        "pt": "Abre ostras com uma faca de cozinha sem corte e quase corta um dedo à frente de todos os convidados."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    "winter_green_10": {
+      "id": "winter_green_10",
+      "theme": "winter",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Prépare une alternative végétarienne ou sans gluten aussi gourmande que le plat principal pour les invités concernés.",
+        "en": "Prepares a festive vegetarian or gluten-free alternative just as delicious as the main roast for guests.",
+        "de": "Kocht für betroffene Gäste ein vegetarisches oder glutenfreies Festessen, das genauso köstlich ist wie der Braten.",
+        "es": "Prepara una opción vegetariana o sin gluten igual de rica que el plato principal para los invitados que lo necesitan.",
+        "nl": "Maakt een feestelijk vegetarisch of glutenvrij alternatief dat net zo lekker is als het hoofdgerecht.",
+        "pt": "Prepara uma opção vegetariana ou sem glúten tão saborosa quanto o prato principal para quem precisa."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    "winter_red_11": {
+      "id": "winter_red_11",
+      "theme": "winter",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Se plaint du froid toutes les 3 minutes alors qu'il est sorti en veste fine et sans chaussettes chaudes.",
+        "en": "Complains about freezing every 3 minutes despite going out in a thin jacket with no warm socks.",
+        "de": "Meckert alle 3 Minuten über die Kälte, obwohl er nur in dünner Jacke und ohne warme Socken rausgegangen ist.",
+        "es": "Se queja del frío cada 3 minutos a pesar de haber salido con chaqueta fina y sin calcetines abrigados.",
+        "nl": "Klaagt elke 3 minuten over de kou terwijl hij in een dun jasje en zonder warme sokken naar buiten is gegaan.",
+        "pt": "Queixa-se do frio de 3 em 3 minutos apesar de ter saído com um casaco fino e sem meias quentes."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    "winter_green_11": {
+      "id": "winter_green_11",
+      "theme": "winter",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Apporte une raclette d'appoint ou un appareil à fondue en renfort quand il y a plus d'invités que prévu.",
+        "en": "Brings a backup raclette or fondue machine when more guests unexpectedly show up.",
+        "de": "Bringt ein zusätzliches Raclette- oder Fonduegerät mit, falls überraschend mehr Gäste auftauchen.",
+        "es": "Trae una plancha o fondue de repuesto cuando aparecen más invitados de los esperados.",
+        "nl": "Neemt een extra gourmetstel of fondueset mee wanneer er onverwacht meer gasten aanschuiven.",
+        "pt": "Leva um aparelho de raclette ou fondue extra quando aparecem mais convidados do que o previsto."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    "winter_red_12": {
+      "id": "winter_red_12",
+      "theme": "winter",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Fait semblant d'adorer son cadeau en ouvrant le paquet, puis le laisse traîner sous le canapé en partant.",
+        "en": "Pretends to love their gift when opening it, then 'accidentally' abandons it under the couch when leaving.",
+        "de": "Tut beim Auspacken begeistert, 'vergisst' das Geschenk beim Gehen dann aber absichtlich unterm Sofa.",
+        "es": "Finge adorar su regalo al abrirlo y luego lo deja 'olvidado' debajo del sofá al marcharse.",
+        "nl": "Doet alsof hij dolblij is met het cadeau, maar laat het bij vertrek 'per ongeluk' onder de bank liggen.",
+        "pt": "Finge adorar o presente ao abrir e depois deixa-o 'esquecido' debaixo do sofá quando vai embora."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    "winter_green_12": {
+      "id": "winter_green_12",
+      "theme": "winter",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Prend le temps d'écrire un mot personnalisé et touchant sur chaque paquet cadeau au lieu d'une simple étiquette.",
+        "en": "Takes the time to handwrite a thoughtful, heartwarming note on every single gift tag.",
+        "de": "Schreibt eine persönliche, herzerwärmende Karte zu jedem einzelnen Geschenk statt nur eines Preisschilds.",
+        "es": "Se toma el tiempo de escribir una nota emotiva y personalizada en cada paquete de regalo.",
+        "nl": "Neemt de tijd om op elk pakje een persoonlijk en lief briefje te schrijven in plaats van een simpel labeltje.",
+        "pt": "Tira tempo para escrever uma mensagem pessoal e carinhosa em cada embrulho em vez de uma etiqueta simples."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    "winter_red_13": {
+      "id": "winter_red_13",
+      "theme": "winter",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Démarre un blind test musical de fin d'année et triche en utilisant Shazam sous la table.",
+        "en": "Starts a holiday music trivia game and shamelessly cheats with Shazam under the dining table.",
+        "de": "Startet ein Neujahrs-Musik-Quiz und schummelt schamlos mit Shazam unterm Tisch.",
+        "es": "Propone un trivial musical de fin de año y hace trampas con Shazam por debajo de la mesa.",
+        "nl": "Doet mee aan de oudejaars-muziekquiz en spiekt schaamteloos met Shazam onder de tafel.",
+        "pt": "Sugere um blind test musical de fim de ano e faz batota a usar o Shazam por baixo da mesa."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    "winter_green_13": {
+      "id": "winter_green_13",
+      "theme": "winter",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Participe spontanément à la bataille de boules de neige ou au concours du plus beau bonhomme de neige.",
+        "en": "Spontaneously jumps into the snowball fight or snowman building contest with child-like joy.",
+        "de": "Macht spontan mit kindlicher Freude bei der Schneeballschlacht oder beim Schneemann-Wettbewerb mit.",
+        "es": "Se suma al instante a una guerra de bolas de nieve o al concurso del mejor muñeco de nieve con ilusión.",
+        "nl": "Doet spontaan met kinderlijk enthousiasme mee aan een sneeuwballengevecht of sneeuwpoppenwedstrijd.",
+        "pt": "Alinha espontaneamente numa batalha de bolas de neve ou a fazer um boneco de neve com alegria contagiante."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    "winter_red_14": {
+      "id": "winter_red_14",
+      "theme": "winter",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Boit tout le champagne millésimé réservé pour minuit avant même l'arrivée des premiers invités.",
+        "en": "Drinks the vintage champagne meant for the midnight toast before guests even arrive.",
+        "de": "Trinkt den edlen Champagner für Mitternacht schon aus, bevor die ersten Gäste überhaupt ankommen.",
+        "es": "Se bebe el champán reservado para el brindis de medianoche antes de que lleguen los invitados.",
+        "nl": "Drinkt de dure champagne voor middernacht al leeg voordat de eerste gasten binnen zijn.",
+        "pt": "Bebe o champanhe especial da meia-noite antes sequer de chegarem os primeiros convidados."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    "winter_green_14": {
+      "id": "winter_green_14",
+      "theme": "winter",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Prévoit des cotillons et des boissons sans alcool pétillantes savoureuses pour ceux qui ne boivent pas d'alcool.",
+        "en": "Brings festive alcohol-free sparkling cider so non-drinkers can fully celebrate the midnight toast.",
+        "de": "Bringt festlichen alkoholfreien Sekt mit, damit alle beim Mitternachtstoast gemeinsam anstoßen können.",
+        "es": "Trae un espumoso sin alcohol riquísimo para que quienes no beben brinden igual a medianoche.",
+        "nl": "Heeft lekkere alcoholvrije bubbels meegebracht zodat iedereen gezellig mee kan proosten om middernacht.",
+        "pt": "Leva espumante sem álcool saboroso para quem não bebe poder brindar à meia-noite com todo o grupo."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    "winter_red_15": {
+      "id": "winter_red_15",
+      "theme": "winter",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Allume un gros pétard dans la cour à 2 centimètres des oreilles de tes potes pour « rigoler ».",
+        "en": "Lights a loud firecracker 2 inches from your friends' ears just 'for laughs'.",
+        "de": "Zündet einen lauten Böller direkt neben den Ohren deiner Freunde, um 'witzig' zu sein.",
+        "es": "Tira un petardo enorme a dos centímetros de los oídos de sus amigos solo 'para hacer la gracia'.",
+        "nl": "Steekt een keiharde knaller af vlak naast de oren van zijn vrienden 'voor de grap'.",
+        "pt": "Acende um petardo enorme a dois centímetros dos ouvidos dos amigos só 'pela piada'."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    "winter_green_15": {
+      "id": "winter_green_15",
+      "theme": "winter",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Ramène des viennoiseries chaudes de la boulangerie pour tout le monde le lendemain du réveillon à 11h.",
+        "en": "Brings fresh warm pastries from the bakery for everyone at 11 AM the morning after New Year's.",
+        "de": "Holt am Neujahrsmorgen um 11 Uhr frische warme Croissants vom Bäcker für die ganze Truppe.",
+        "es": "Trae bollería recién hecha de la panadería para todos al día siguiente de Nochevieja a las 11.",
+        "nl": "Haalt op nieuwjaarsochtend om 11u verse warme croissants bij de bakker voor het hele gezelschap.",
+        "pt": "Vai à padaria e traz croissants quentinhos para todos na manhã seguinte ao Réveillon às 11h."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    "winter_red_16": {
+      "id": "winter_red_16",
+      "theme": "winter",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Spolie le film de Noël culte à ceux qui ne l'avaient encore jamais vu.",
+        "en": "Spoils the ending of a classic holiday movie to friends who had never seen it before.",
+        "de": "Verrät das Ende eines Weihnachts-Kultfilms für alle, die ihn zum ersten Mal schauen wollten.",
+        "es": "Hace spoiler del final de una peli navideña mítica a quienes no la habían visto todavía.",
+        "nl": "Vespoilt het einde van een klassieke kerstfilm voor vrienden die hem voor het eerst keken.",
+        "pt": "Dá spoiler do final de um clássico filme de Natal a quem nunca o tinha visto."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    "winter_green_16": {
+      "id": "winter_green_16",
+      "theme": "winter",
+      "type": "green_flag",
+      "texts": {
+        "fr": "N'hésite pas à relancer la bûche glacée ou le gâteau pour que personne n'ait honte de se resservir.",
+        "en": "Takes a second slice of dessert first so nobody feels guilty about having seconds.",
+        "de": "Nimmt sich als Erster ein zweites Stück Torte, damit sich niemand fürs Nachnehmen schämen muss.",
+        "es": "Se sirve el primero un segundo trozo de postre para que nadie tenga vergüenza de repetir.",
+        "nl": "Pakt als eerste een tweede stuk dessert zodat niemand zich bezwaard voelt om nog wat te nemen.",
+        "pt": "Serve-se de uma segunda fatia de sobremesa primeiro para ninguém ter vergonha de repetir."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    "winter_red_17": {
+      "id": "winter_red_17",
+      "theme": "winter",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Te demande de lui rembourser sa part de bûche de Noël par virement pour 1€80.",
+        "en": "Requests a 1.80€ payment transfer for their fraction of the supermarket holiday dessert.",
+        "de": "Verlangt per PayPal 1,80€ für seinen Anteil an der Supermarkt-Eistorte zurück.",
+        "es": "Te pide un Bizum de 1,80€ por su parte del postre navideño comprado en el súper.",
+        "nl": "Stuurt een Tikkie van €1,80 voor zijn deel van het kerstdessert uit de supermarkt.",
+        "pt": "Pede uma transferência por MB Way de 1,80€ pela sua parte do tronco de Natal."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    "winter_green_17": {
+      "id": "winter_green_17",
+      "theme": "winter",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Envoie un vrai message chaleureux et personnalisé à chacun de ses proches pour le nouvel an.",
+        "en": "Sends a genuine, heartfelt, and personal message to every close friend for the New Year.",
+        "de": "Schreibt jedem engen Freund zum neuen Jahr eine ehrliche, persönliche und herzerwärmende Nachricht.",
+        "es": "Envía un mensaje sincero, cariñoso y personalizado a cada uno de sus seres queridos en Año Nuevo.",
+        "nl": "Stuurt een oprecht, warm en persoonlijk berichtje naar al zijn dierbaren voor het nieuwe jaar.",
+        "pt": "Envia uma mensagem sincera, carinhosa e personalizada a cada pessoa próxima no Ano Novo."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
+    "winter_red_18": {
+      "id": "winter_red_18",
+      "theme": "winter",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Dort tout habillé avec ses chaussures sur le canapé blanc du salon après le réveillon.",
+        "en": "Passes out fully dressed with dirty shoes on the host's white living room couch after New Year's.",
+        "de": "Schläft nach der Silvesterfeier voll angezogen mit schmutzigen Straßenschuhen auf dem weißen Sofa ein.",
+        "es": "Se queda frito vestido y con zapatos en el sofá blanco del salón tras la fiesta de Nochevieja.",
+        "nl": "Valt na oud en nieuw met vieze schoenen en al in slaap op de witte bank van de gastheer.",
+        "pt": "Adormece vestido e com sapatos no sofá branco da sala após a festa de Réveillon."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "winter_holidays_pack",
+      "live_tier": "safe"
+    },
     "office_red_1": {
       "id": "office_red_1",
       "theme": "office",
@@ -33684,5 +35476,5 @@
       "live_tier": "safe"
     }
   },
-  "card_count": 659
+  "card_count": 694
 }
