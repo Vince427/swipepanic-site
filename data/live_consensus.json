@@ -1787,11 +1787,25 @@
   "dating_red_39": {
     "accept": 69,
     "reject": 31,
-    "sample_size": 62,
-    "measured_at": "2026-10-06T06:33:00.285Z",
+    "sample_size": 95,
+    "measured_at": "2026-10-06T18:29:15.409Z",
     "source": "web_votes",
     "sources": {
-      "web_votes": 62
+      "web_votes": 95
     }
+  },
+  "dating_red_45": {
+    "accept": 63,
+    "reject": 37,
+    "sample_size": 30,
+    "measured_at": "2026-10-06T18:29:15.409Z",
+    "source": "web_votes"
+  },
+  "dating_red_4": {
+    "accept": 60,
+    "reject": 40,
+    "sample_size": 30,
+    "measured_at": "2026-10-06T18:29:15.409Z",
+    "source": "web_votes"
   }
 }
