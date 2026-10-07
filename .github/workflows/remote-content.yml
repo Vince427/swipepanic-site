@@ -38,6 +38,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
+      - run: node --check acquisition.js
+      - run: node --check site.js
       - run: node --check scripts/remote_content_rules.js
       - run: node --check scripts/validate_remote_content.js
       - run: node --check scripts/generate_daily.js
@@ -46,6 +48,7 @@ jobs:
       - run: node --test scripts/play_contract.test.js
       - run: node --test scripts/aggregate_web_votes.test.js
       - run: node --test scripts/live_consensus_validation.test.js
+      - run: node --test scripts/acquisition_links.test.js
       - run: node scripts/validate_remote_content.js
 
   generate-weekly:

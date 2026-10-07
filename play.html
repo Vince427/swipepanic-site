@@ -13,6 +13,12 @@
   <meta property="og:url" content="https://swipepanic.app/play.html">
   <meta property="og:image" content="https://swipepanic.app/assets/og_image.png">
 
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Swipe Panic — Jouer en Ligne">
+  <meta name="twitter:description" content="Green Flag 🟢 ou Red Flag 🚩 ? Vote sur les pires dilemmes et compare ton avis au monde entier !">
+  <meta name="twitter:image" content="https://swipepanic.app/assets/og_image.png">
+
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="assets/icon.png">
 
@@ -490,6 +496,79 @@
       transform-origin: left;
     }
 
+    .consensus-verdict-reaction {
+      font-size: 13px;
+      font-weight: 800;
+      padding: 8px 12px;
+      border-radius: 12px;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      text-align: center;
+    }
+    .verdict-majority {
+      background: rgba(0, 230, 118, 0.15);
+      color: #69f0ae;
+      border: 1px solid rgba(0, 230, 118, 0.35);
+    }
+    .verdict-minority {
+      background: rgba(255, 171, 0, 0.15);
+      color: #ffd740;
+      border: 1px solid rgba(255, 171, 0, 0.35);
+    }
+
+    .viral-app-callout {
+      background: linear-gradient(135deg, rgba(124, 77, 255, 0.18), rgba(0, 229, 255, 0.18));
+      border: 1.5px solid rgba(124, 77, 255, 0.45);
+      border-radius: 14px;
+      padding: 12px 14px;
+      margin-top: 10px;
+      margin-bottom: 12px;
+      text-align: center;
+    }
+    .viral-callout-badge {
+      font-size: 11px;
+      font-weight: 900;
+      color: #00e5ff;
+      letter-spacing: 0.8px;
+      margin-bottom: 4px;
+    }
+    .viral-callout-text {
+      font-size: 12px;
+      color: #e0e0e0;
+      line-height: 1.35;
+      margin-bottom: 10px;
+    }
+    .viral-callout-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      width: 100%;
+      height: 40px;
+      background: linear-gradient(135deg, #00e5ff, #7c4dff);
+      color: #0b0a1a;
+      font-size: 13px;
+      font-weight: 900;
+      border-radius: 10px;
+      text-decoration: none;
+      box-shadow: 0 4px 15px rgba(0, 229, 255, 0.3);
+      transition: transform 0.1s, opacity 0.2s;
+    }
+    .viral-callout-btn:active {
+      transform: scale(0.98);
+    }
+
+    .btn-store-sub {
+      font-size: 11px;
+      color: #b39ddb;
+      margin-top: 6px;
+      text-align: center;
+      font-weight: 600;
+    }
+
     /* Action Buttons */
     .controls {
       width: 100%;
@@ -742,6 +821,27 @@
       transform: scale(0.98);
     }
 
+    .btn-share {
+      background: linear-gradient(135deg, #00e676, #00b0ff);
+      color: #0c0b14;
+      border: none;
+      height: 52px;
+      border-radius: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      font-size: 15px;
+      font-weight: 800;
+      box-shadow: 0 8px 20px rgba(0, 230, 118, 0.35);
+      cursor: pointer;
+      transition: transform 0.1s;
+    }
+
+    .btn-share:active {
+      transform: scale(0.98);
+    }
+
     .btn-replay {
       background: rgba(255, 255, 255, 0.08);
       border: 1px solid rgba(255, 255, 255, 0.15);
@@ -821,12 +921,22 @@
         <div class="consensus-fill-red" id="consensusRed">50%</div>
         <div class="consensus-fill-green" id="consensusGreen">50%</div>
       </div>
+      <div id="consensusVerdictReaction" class="consensus-verdict-reaction" style="display:none;"></div>
 
       <div class="consensus-countries-box">
         <div style="font-size:11px; font-weight:800; color:#b39ddb; margin-bottom:6px;" id="countriesSectionLabel">
           🏳️ TENDANCES PAR PAYS :
         </div>
         <div class="consensus-flags-grid" id="consensusFlags"></div>
+      </div>
+
+      <!-- Viral App Download Callout on Web -->
+      <div class="viral-app-callout" id="viralAppCallout" style="display:none;">
+        <div class="viral-callout-badge" id="viralCalloutBadge">👑 ENVIE DE TESTER TES POTES ?</div>
+        <div class="viral-callout-text" id="viralCalloutText">Anime ta prochaine soirée avec 300+ dilemmes explosifs et le mode multijoueur hors-ligne.</div>
+        <a href="https://play.google.com/store/apps/details?id=com.swipepanic.swipe_panic" target="_blank" class="viral-callout-btn" id="viralCalloutBtn">
+          📲 Installer Swipe Panic gratuitement
+        </a>
       </div>
 
       <button class="btn-next-card" id="btnNextCard">
@@ -864,9 +974,13 @@
     <div class="cards-breakdown-list" id="cardsBreakdownList"></div>
 
     <div class="cta-container">
+      <button class="btn-share" id="btnShareRecap">
+        📤 Partager mon récap
+      </button>
       <a href="https://play.google.com/store/apps/details?id=com.swipepanic.swipe_panic" target="_blank" class="btn-store" id="ctaStore">
         📲 Télécharger l'App Gratuite
       </a>
+      <div class="btn-store-sub" id="ctaStoreSub">✨ 694 cartes officielles • 100% Hors-ligne • Modes Soirée Pass & Play & Wi-Fi local</div>
       <button class="btn-replay" id="btnReplay">🔄 Rejouer d'autres cartes</button>
       <a href="index.html" class="link-home" id="linkHome">Retour à l'accueil</a>
     </div>
@@ -1127,7 +1241,15 @@ quizScoreDesc: "Tu as obtenu {count} bonnes réponses sur cette session !",
         socialVerdictBalanced: "AMBIEUR ÉQUILIBRÉ 🎉",
                 socialAppPrompt: "📲 En soirée, fais tourner l'App avec tes potes pour les tester en direct !",
 socialScoreDesc: "Tes choix de soirée : {count} actions et vérités assumées !",
-        chaoticVerdict: "NEUTRE CHAOTIQUE ⚖️"
+        chaoticVerdict: "NEUTRE CHAOTIQUE ⚖️",
+        majorityReaction: "🔥 Tu penses comme la majorité ({pct}%) !",
+        minorityReaction: "⚡ Casseur de consensus ! Seuls {pct}% osent ce choix.",
+        viralCalloutBadge: "👑 ENVIE DE TESTER TES POTES ?",
+        viralCalloutText: "Anime ta prochaine soirée avec 300+ dilemmes explosifs et le mode multijoueur hors-ligne.",
+        viralCalloutBtn: "📲 Installer Swipe Panic gratuitement",
+        ctaStoreSub: "✨ 694 cartes officielles • 100% Hors-ligne • Modes Soirée Pass & Play & Wi-Fi local",
+        btnShareRecap: "📤 Partager mon récap",
+        shareToast: "Lien copié dans le presse-papier !"
       },
       en: {
         loading: "Loading cards...",
@@ -1221,7 +1343,15 @@ quizScoreDesc: "¡Obtuviste {count} respuestas correctas en esta sesión!",
         socialVerdictBalanced: "FIESTERO EQUILIBRADO 🎉",
                 socialAppPrompt: "📲 ¡Pasa la App en las fiestas para retar a tus amigos en directo!",
 socialScoreDesc: "Tus elecciones de fiesta: {count} retos y verdades asumidas.",
-        chaoticVerdict: "NEUTRAL CHAOTIC ⚖️"
+        chaoticVerdict: "NEUTRAL CHAOTIC ⚖️",
+        majorityReaction: "🔥 You agree with the majority ({pct}%)!",
+        minorityReaction: "⚡ Consensus breaker! Only {pct}% dare make this choice.",
+        viralCalloutBadge: "👑 WANT TO CHALLENGE YOUR CREW?",
+        viralCalloutText: "Spice up your next party with 300+ explosive dilemmas and offline party modes.",
+        viralCalloutBtn: "📲 Get Swipe Panic on Google Play",
+        ctaStoreSub: "✨ 694 official cards • 100% Offline • Pass & Play & Local Wi-Fi party modes",
+        btnShareRecap: "📤 Share my recap",
+        shareToast: "Link copied to clipboard!"
       },
       es: {
         loading: "Cargando cartas...",
@@ -1273,7 +1403,15 @@ socialScoreDesc: "Tus elecciones de fiesta: {count} retos y verdades asumidas.",
         packVacation: "✈️ Vacaciones y Viajes",
         packGym: "🏋️ Gimnasio y Fitness",
         packQuiz: "🧠 Quiz y Preguntas",
-        chaoticVerdict: "NEUTRO CAÓTICO ⚖️"
+        chaoticVerdict: "NEUTRO CAÓTICO ⚖️",
+        majorityReaction: "🔥 ¡Piensas como la mayoría ({pct}%)!",
+        minorityReaction: "⚡ ¡Rompe-consensos! Solo el {pct}% asume esta opción.",
+        viralCalloutBadge: "👑 ¿QUIERES RETAR A TUS AMIGOS?",
+        viralCalloutText: "¡Anima tu próxima fiesta con más de 300 dilemas explosivos y modos multijugador sin conexión!",
+        viralCalloutBtn: "📲 Descargar Swipe Panic gratis",
+        ctaStoreSub: "✨ 694 cartas oficiales • 100% Sin conexión • Modos Fiesta Pass & Play y Wi-Fi local",
+        btnShareRecap: "📤 Compartir mi resumen",
+        shareToast: "¡Enlace copiado al portapapeles!"
       },
       de: {
         loading: "Karten werden geladen...",
@@ -1346,7 +1484,15 @@ quizScoreDesc: "Du hast {count} richtige Antworten erzielt!",
         socialVerdictBalanced: "AUSGEGLICHENER PARTYGAST 🎉",
                 socialAppPrompt: "📲 Reiche die App auf Partys herum, um deine Freunde herauszufordern!",
 socialScoreDesc: "Deine Party-Auswahl: {count} angenommene Aufgaben und Wahrheiten!",
-        chaoticVerdict: "NEUTRAL CHAOTISCH ⚖️"
+        chaoticVerdict: "NEUTRAL CHAOTISCH ⚖️",
+        majorityReaction: "🔥 Du denkst wie die Mehrheit ({pct}%)!",
+        minorityReaction: "⚡ Konsens-Rebell! Nur {pct}% wagen diese Wahl.",
+        viralCalloutBadge: "👑 WILLST DU DEINE FREUNDE TESTEN?",
+        viralCalloutText: "Heize deiner nächsten Party mit 300+ explosiven Dilemmas und Offline-Partymodi ein!",
+        viralCalloutBtn: "📲 Swipe Panic kostenlos laden",
+        ctaStoreSub: "✨ 694 offizielle Karten • 100% Offline • Pass & Play & Lokale WLAN-Partymodi",
+        btnShareRecap: "📤 Mein Recap teilen",
+        shareToast: "Link in die Zwischenablage kopiert!"
       },
       nl: {
         loading: "Kaarten laden...",
@@ -1419,7 +1565,15 @@ quizScoreDesc: "Je behaalde {count} goede antwoorden in deze sessie!",
         socialVerdictBalanced: "EVENWICHTIGE FEESTGANGER 🎉",
                 socialAppPrompt: "📲 Geef de app door op feestjes om je vrienden live uit te dagen!",
 socialScoreDesc: "Jouw feestkeuzes: {count} voltooide acties en waarheden!",
-        chaoticVerdict: "NEUTRAAL CHAOTISCH ⚖️"
+        chaoticVerdict: "NEUTRAAL CHAOTISCH ⚖️",
+        majorityReaction: "🔥 Je denkt zoals de meerderheid ({pct}%)!",
+        minorityReaction: "⚡ Consensusbreker! Slechts {pct}% durft deze keuze te maken.",
+        viralCalloutBadge: "👑 WIL JE JE VRIENDEN TESTEN?",
+        viralCalloutText: "Maak je volgende feestje legendarisch met 300+ explosieve dilemma's en offline partymodi!",
+        viralCalloutBtn: "📲 Download Swipe Panic gratis",
+        ctaStoreSub: "✨ 694 officiële kaarten • 100% Offline • Pass & Play & Lokale Wi-Fi partymodi",
+        btnShareRecap: "📤 Deel mijn recap",
+        shareToast: "Link gekopieerd naar klembord!"
       },
       pt: {
         loading: "Carregando cartas...",
@@ -1492,7 +1646,15 @@ quizScoreDesc: "Conseguiste {count} respostas corretas nesta sessão!",
         socialVerdictBalanced: "FESTEIRO EQUILIBRADO 🎉",
                 socialAppPrompt: "📲 Passa a App nas festas para desafiares os teus amigos ao vivo!",
 socialScoreDesc: "As tuas escolhas de festa: {count} desafios e verdades assumidas!",
-        chaoticVerdict: "NEUTRO CAÓTICO ⚖️"
+        chaoticVerdict: "NEUTRO CAÓTICO ⚖️",
+        majorityReaction: "🔥 Você pensa como a maioria ({pct}%) !",
+        minorityReaction: "⚡ Quebrador de consenso! Apenas {pct}% assumem essa escolha.",
+        viralCalloutBadge: "👑 QUER DESAFIAR OS TEUS AMIGOS?",
+        viralCalloutText: "Anime a tua próxima festa com 300+ dilemas explosivos e modos multijogador offline!",
+        viralCalloutBtn: "📲 Baixar Swipe Panic grátis",
+        ctaStoreSub: "✨ 694 cartas oficiais • 100% Offline • Modos de festa Pass & Play e Wi-Fi local",
+        btnShareRecap: "📤 Partilhar o meu resumo",
+        shareToast: "Link copiado para a área de transferência!"
       }
     };
 
@@ -1533,6 +1695,12 @@ socialScoreDesc: "As tuas escolhas de festa: {count} desafios e verdades assumid
     const iconGreen = document.getElementById('iconGreen');
     const recapScreen = document.getElementById('recapScreen');
     const cardsBreakdownList = document.getElementById('cardsBreakdownList');
+    const consensusVerdictReaction = document.getElementById('consensusVerdictReaction');
+    const viralAppCallout = document.getElementById('viralAppCallout');
+    const viralCalloutBadge = document.getElementById('viralCalloutBadge');
+    const viralCalloutText = document.getElementById('viralCalloutText');
+    const viralCalloutBtn = document.getElementById('viralCalloutBtn');
+    const ctaStoreSub = document.getElementById('ctaStoreSub');
 
     function detectLocale() {
       let storedLanguage = null;
@@ -1564,6 +1732,13 @@ socialScoreDesc: "As tuas escolhas de festa: {count} desafios e verdades assumid
       document.documentElement.lang = currentLang;
       SwipePanicAcquisition.decorateStoreLinks(document, window.location, currentLang);
       document.getElementById('ctaStore').textContent = t.ctaStore;
+      if (document.getElementById('btnShareRecap')) {
+        document.getElementById('btnShareRecap').textContent = t.btnShareRecap || "📤 Partager mon récap";
+      }
+      if (ctaStoreSub && t.ctaStoreSub) ctaStoreSub.textContent = t.ctaStoreSub;
+      if (viralCalloutBadge && t.viralCalloutBadge) viralCalloutBadge.textContent = t.viralCalloutBadge;
+      if (viralCalloutText && t.viralCalloutText) viralCalloutText.textContent = t.viralCalloutText;
+      if (viralCalloutBtn && t.viralCalloutBtn) viralCalloutBtn.textContent = t.viralCalloutBtn;
       document.getElementById('btnReplay').textContent = t.btnReplay;
       document.getElementById('linkHome').textContent = t.linkHome;
       document.getElementById('packPill').textContent = t.packMini;
@@ -1710,6 +1885,8 @@ socialScoreDesc: "As tuas escolhas de festa: {count} desafios e verdades assumid
       playedHistory = [];
       recapScreen.classList.remove('active');
       consensusOverlay.classList.remove('visible');
+      if (consensusVerdictReaction) consensusVerdictReaction.style.display = 'none';
+      if (viralAppCallout) viralAppCallout.style.display = 'none';
       if (autoAdvanceTimer) clearTimeout(autoAdvanceTimer);
 
       const params = new URLSearchParams(window.location.search);
@@ -1897,6 +2074,8 @@ socialScoreDesc: "As tuas escolhas de festa: {count} desafios e verdades assumid
     function advanceToNextCard() {
       if (autoAdvanceTimer) clearTimeout(autoAdvanceTimer);
       consensusOverlay.classList.remove('visible');
+      if (consensusVerdictReaction) consensusVerdictReaction.style.display = 'none';
+      if (viralAppCallout) viralAppCallout.style.display = 'none';
       sessionQueue.shift();
       setTimeout(() => {
         renderTopCard();
@@ -1924,6 +2103,9 @@ socialScoreDesc: "As tuas escolhas de festa: {count} desafios e verdades assumid
       const t = i18n[currentLang] || i18n.fr;
       const stat = consensusData[cardId];
       const hasRealConsensus = stat && (stat.reject !== undefined) && (stat.accept !== undefined);
+
+      if (consensusVerdictReaction) consensusVerdictReaction.style.display = 'none';
+      if (viralAppCallout) viralAppCallout.style.display = 'none';
 
       const lastPlayed = playedHistory[playedHistory.length - 1];
       const cardData = lastPlayed ? lastPlayed.card : allCards.find(c => c.id === cardId);
@@ -2109,6 +2291,25 @@ socialScoreDesc: "As tuas escolhas de festa: {count} desafios e verdades assumid
         consensusRed.textContent = `🚩 ${rejectPct}%`;
         consensusGreen.style.width = `${acceptPct}%`;
         consensusGreen.textContent = `🟢 ${acceptPct}%`;
+
+        if (consensusVerdictReaction && t.majorityReaction && t.minorityReaction) {
+          const userPct = userChoice === 'green' ? acceptPct : rejectPct;
+          const isMajority = userPct >= 50;
+          consensusVerdictReaction.className = isMajority
+            ? 'consensus-verdict-reaction verdict-majority'
+            : 'consensus-verdict-reaction verdict-minority';
+          consensusVerdictReaction.textContent = isMajority
+            ? t.majorityReaction.replace('{pct}', userPct)
+            : t.minorityReaction.replace('{pct}', userPct);
+          consensusVerdictReaction.style.display = 'flex';
+        }
+
+        if (viralAppCallout) {
+          if (viralCalloutBadge && t.viralCalloutBadge) viralCalloutBadge.textContent = t.viralCalloutBadge;
+          if (viralCalloutText && t.viralCalloutText) viralCalloutText.textContent = t.viralCalloutText;
+          if (viralCalloutBtn && t.viralCalloutBtn) viralCalloutBtn.textContent = t.viralCalloutBtn;
+          viralAppCallout.style.display = 'block';
+        }
 
         const c = stat.countries || {};
         const present = Object.keys(c);
@@ -2377,6 +2578,55 @@ socialScoreDesc: "As tuas escolhas de festa: {count} desafios e verdades assumid
 
       flushVotes();
       recapScreen.classList.add('active');
+    }
+
+    function showToast(msg) {
+      let toast = document.getElementById('webToast');
+      if (!toast) {
+        toast = document.createElement('div');
+        toast.id = 'webToast';
+        toast.style.cssText = 'position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:#1f1c38;border:1px solid #00e676;color:#fff;padding:10px 20px;border-radius:24px;font-size:14px;font-weight:700;z-index:9999;box-shadow:0 8px 24px rgba(0,0,0,0.6);transition:opacity 0.3s ease;pointer-events:none;opacity:0;';
+        document.body.appendChild(toast);
+      }
+      toast.textContent = msg;
+      toast.style.opacity = '1';
+      clearTimeout(toast._timer);
+      toast._timer = setTimeout(() => {
+        toast.style.opacity = '0';
+      }, 2500);
+    }
+
+    const btnShareRecapEl = document.getElementById('btnShareRecap');
+    if (btnShareRecapEl) {
+      btnShareRecapEl.addEventListener('click', async () => {
+        const t = i18n[currentLang] || i18n.fr;
+        const personality = document.getElementById('personalityBadge')?.textContent || 'Swipe Panic';
+        const score = document.getElementById('recapScore')?.textContent || '';
+        const lang = currentLang || 'fr';
+        const shareUrl = `${window.location.origin}${window.location.pathname}?lang=${lang}&utm_source=web&utm_medium=share&utm_campaign=web_recap`;
+        const shareTitle = `Swipe Panic — ${personality} (${score})`;
+        const shareText = `Mon profil Swipe Panic : ${personality} (${score}) ! Tes potes auraient-ils fait les mêmes choix ? Viens tester :`;
+
+        if (navigator.share) {
+          try {
+            await navigator.share({
+              title: shareTitle,
+              text: shareText,
+              url: shareUrl,
+            });
+            return;
+          } catch (e) {
+            if (e.name === 'AbortError') return;
+          }
+        }
+
+        try {
+          await navigator.clipboard.writeText(`${shareText} ${shareUrl}`);
+          showToast(t.shareToast || 'Lien copié dans le presse-papier !');
+        } catch (_) {
+          window.prompt('Copie le lien pour partager :', shareUrl);
+        }
+      });
     }
 
     document.getElementById('btnReplay').addEventListener('click', () => {
