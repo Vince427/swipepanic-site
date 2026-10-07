@@ -561,3 +561,43 @@ footer {
   line-height: 1.6;
   color: var(--ink);
 }
+
+/* Seasonal & Thematic Packs */
+.seasonal-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.seasonal-card-halloween {
+  border-color: #ff7b00 !important;
+  background: linear-gradient(180deg, rgba(255, 123, 0, 0.10) 0%, var(--panel) 100%) !important;
+  box-shadow: 0 8px 0 rgba(180, 70, 0, 0.45) !important;
+}
+
+.seasonal-card-winter {
+  border-color: #00d4ff !important;
+  background: linear-gradient(180deg, rgba(0, 212, 255, 0.10) 0%, var(--panel) 100%) !important;
+  box-shadow: 0 8px 0 rgba(0, 150, 200, 0.45) !important;
+}
+
+.seasonal-card-school {
+  border-color: #ffd528 !important;
+  background: linear-gradient(180deg, rgba(255, 213, 40, 0.10) 0%, var(--panel) 100%) !important;
+  box-shadow: 0 8px 0 rgba(180, 140, 0, 0.45) !important;
+}
+
+.seasonal-card-btn {
+  margin-top: 18px;
+  width: 100%;
+  font-size: 16px;
+  min-height: 46px;
+  box-shadow: 0 4px 0 rgba(2, 6, 38, 0.5);
+}
+
