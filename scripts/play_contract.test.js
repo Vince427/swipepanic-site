@@ -143,6 +143,12 @@ test('every visible country string exists in all six languages', () => {
     'countryCompare',
     'countryPick',
     'votesLabel',
+    'btnShareRecap',
+    'shareToast',
+    'ctaStoreSub',
+    'packHalloween',
+    'packWinter',
+    'packSchool',
   ];
 
   for (const lang of ['fr', 'en', 'es', 'de', 'nl', 'pt']) {
@@ -151,3 +157,59 @@ test('every visible country string exists in all six languages', () => {
     }
   }
 });
+
+test('OpenGraph and Twitter metadata are present in index.html and play.html', () => {
+  const indexHtml = fs.readFileSync(path.join(ROOT, 'index.html'), 'utf8');
+  assert.ok(indexHtml.includes('property="og:title"'), 'index.html missing og:title');
+  assert.ok(indexHtml.includes('property="og:image"'), 'index.html missing og:image');
+  assert.ok(indexHtml.includes('property="og:description"'), 'index.html missing og:description');
+  assert.ok(indexHtml.includes('name="twitter:card"'), 'index.html missing twitter:card');
+
+  assert.ok(PLAY.includes('property="og:title"'), 'play.html missing og:title');
+  assert.ok(PLAY.includes('property="og:image"'), 'play.html missing og:image');
+  assert.ok(PLAY.includes('name="twitter:card"'), 'play.html missing twitter:card');
+});
+
+test('seasonal packs in daily_pool.json have 35 cards existing in official catalog', () => {
+  const catalog = JSON.parse(
+    fs.readFileSync(path.join(ROOT, 'official_card_catalog.json'), 'utf8'),
+  );
+  const catalogIds = new Set(catalog.cards.map((c) => c.id));
+  const poolFile = JSON.parse(
+    fs.readFileSync(path.join(ROOT, 'daily_pool.json'), 'utf8'),
+  );
+
+  const seasonalPoolIds = [
+    'classic_school_starter',
+    'classic_halloween_starter',
+    'classic_winter_starter',
+  ];
+
+  for (const poolId of seasonalPoolIds) {
+    const pool = poolFile.pools.find((p) => p.id === poolId);
+    assert.ok(pool, `missing pool ${poolId}`);
+    assert.equal(pool.cardIds.length, 35, `${poolId} does not have 35 cards`);
+    for (const cardId of pool.cardIds) {
+      assert.ok(catalogIds.has(cardId), `card ${cardId} in ${poolId} not found in catalog`);
+    }
+  }
+});
+
+test('daily.json is configured with valid cards and 6-language copy', () => {
+  const daily = JSON.parse(fs.readFileSync(path.join(ROOT, 'daily.json'), 'utf8'));
+  const catalog = JSON.parse(
+    fs.readFileSync(path.join(ROOT, 'official_card_catalog.json'), 'utf8'),
+  );
+  const catalogIds = new Set(catalog.cards.map((c) => c.id));
+
+  assert.ok(daily.cardIds && daily.cardIds.length >= 34, 'daily.json must have at least 34 cards');
+  for (const cardId of daily.cardIds) {
+    assert.ok(catalogIds.has(cardId), `daily.json card ${cardId} not found in catalog`);
+  }
+
+  for (const lang of ['fr', 'en', 'es', 'de', 'nl', 'pt']) {
+    assert.ok(daily.title[lang], `daily.json missing title.${lang}`);
+    assert.ok(daily.subtitle[lang], `daily.json missing subtitle.${lang}`);
+  }
+});
+
