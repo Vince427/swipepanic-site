@@ -28,6 +28,16 @@
     "packSchoolTitle": "🎒 La Rentrée & Campus",
     "packSchoolDesc": "35 dilemmes étudiants et vie active : réveil à 7h, amphis bondés, colocataires lunatiques et organisation en carton.",
     "playPackBtn": "⚡ Jouer ce pack",
+    "navDailyDilemma": "⚡ Dilemme",
+    "dailyDilemmaBadge": "⚡ Le Dilemme du Jour",
+    "dilemmaAccept": "J'accepte",
+    "dilemmaReject": "Je refuse",
+    "dailyYourVote": "Ton vote :",
+    "dailyConsensusAccept": "{pct}% Acceptent",
+    "dailyConsensusReject": "{pct}% Refusent",
+    "dailyConsensusSample": "Basé sur {sample} votes vérifiés",
+    "dailyDilemmaCtaSubtitle": "Chaque jour, 1 dilemme exclusif et tes stats de groupe sur l'app !",
+    "dailyDilemmaStoreCta": "⚡ Jouer sur l'application",
     "collectionTitle": "Construis ta collection légendaire",
     "collectionCopy": "Le Hall of Fame et le Hall of Shame gardent la mémoire des choix marquants, des débats et des cartes qui méritent une place au musée.",
     "reportContent": "Signaler un contenu",
@@ -214,6 +224,16 @@
     "packSchoolTitle": "🎒 Back to School & Campus",
     "packSchoolDesc": "35 campus and student dilemmas: 7 AM alarms, crowded lecture halls, quirky roommates, and chaotic study sessions.",
     "playPackBtn": "⚡ Play this pack",
+    "navDailyDilemma": "⚡ Dilemma",
+    "dailyDilemmaBadge": "⚡ Daily Dilemma",
+    "dilemmaAccept": "I accept",
+    "dilemmaReject": "I reject",
+    "dailyYourVote": "Your vote:",
+    "dailyConsensusAccept": "{pct}% Accept",
+    "dailyConsensusReject": "{pct}% Reject",
+    "dailyConsensusSample": "Based on {sample} verified votes",
+    "dailyDilemmaCtaSubtitle": "Every day, 1 exclusive dilemma and your party stats on the app!",
+    "dailyDilemmaStoreCta": "⚡ Play on the app",
     "collectionTitle": "Build your legendary collection",
     "collectionCopy": "Hall of Fame and Hall of Shame remember the bold choices, debates and museum-worthy cards.",
     "reportContent": "Report content",
@@ -401,6 +421,16 @@
     "packSchoolTitle": "🎒 Vuelta a Clases & Campus",
     "packSchoolDesc": "35 dilemas de campus y rutina: despertador a las 7h, clases llenas, compañeros caóticos y planes improvisados.",
     "playPackBtn": "⚡ Jugar este pack",
+    "navDailyDilemma": "⚡ Dilema",
+    "dailyDilemmaBadge": "⚡ El Dilema del Día",
+    "dilemmaAccept": "Acepto",
+    "dilemmaReject": "Rechazo",
+    "dailyYourVote": "Tu voto:",
+    "dailyConsensusAccept": "{pct}% Aceptan",
+    "dailyConsensusReject": "{pct}% Rechazan",
+    "dailyConsensusSample": "Basado en {sample} votos verificados",
+    "dailyDilemmaCtaSubtitle": "¡Cada día, 1 dilema exclusivo y tus estadísticas de grupo en la app!",
+    "dailyDilemmaStoreCta": "⚡ Jugar en la app",
     "collectionTitle": "Crea tu colección legendaria",
     "collectionCopy": "El Hall of Fame y el Hall of Shame guardan los momentos, debates y cartas que merecen museo.",
     "reportContent": "Reportar contenido",
@@ -586,6 +616,16 @@
     "packSchoolTitle": "🎒 Schulanfang & Campus",
     "packSchoolDesc": "35 Campus- und Studenten-Dilemmas: Wecker um 7 Uhr, überfüllte Hörsäle, chaotische WGs und verplante Tage.",
     "playPackBtn": "⚡ Dieses Pack spielen",
+    "navDailyDilemma": "⚡ Dilemma",
+    "dailyDilemmaBadge": "⚡ Das Dilemma des Tages",
+    "dilemmaAccept": "Ich akzeptiere",
+    "dilemmaReject": "Ich lehne ab",
+    "dailyYourVote": "Deine Stimme:",
+    "dailyConsensusAccept": "{pct}% Akzeptieren",
+    "dailyConsensusReject": "{pct}% Lehnen ab",
+    "dailyConsensusSample": "Basierend auf {sample} verifizierten Stimmen",
+    "dailyDilemmaCtaSubtitle": "Jeden Tag 1 exklusives Dilemma und deine Gruppen-Statistiken in der App!",
+    "dailyDilemmaStoreCta": "⚡ In der App spielen",
     "collectionTitle": "Baue deine legendäre Sammlung",
     "collectionCopy": "Hall of Fame und Hall of Shame merken sich mutige Entscheidungen, Debatten und Karten fürs Museum.",
     "reportContent": "Inhalt melden",
@@ -770,6 +810,16 @@
     "packSchoolTitle": "🎒 Terug naar School & Campus",
     "packSchoolDesc": "35 campus- en studentendilemma's: wekkers om 7 uur, overvolle collegezalen, chaotische huisgenoten en uitstelgedrag.",
     "playPackBtn": "⚡ Speel dit pack",
+    "navDailyDilemma": "⚡ Dilemma",
+    "dailyDilemmaBadge": "⚡ Het Dilemma van de Dag",
+    "dilemmaAccept": "Ik accepteer",
+    "dilemmaReject": "Ik weiger",
+    "dailyYourVote": "Jouw stem:",
+    "dailyConsensusAccept": "{pct}% Accepteert",
+    "dailyConsensusReject": "{pct}% Weigert",
+    "dailyConsensusSample": "Gebaseerd op {sample} geverifieerde stemmen",
+    "dailyDilemmaCtaSubtitle": "Elke dag 1 exclusief dilemma en je groepsstatistieken in de app!",
+    "dailyDilemmaStoreCta": "⚡ Speel in de app",
     "collectionTitle": "Bouw je legendarische collectie",
     "collectionCopy": "Hall of Fame en Hall of Shame onthouden opvallende keuzes, discussies en museumwaardige kaarten.",
     "reportContent": "Inhoud melden",
@@ -956,6 +1006,16 @@
     "packSchoolTitle": "🎒 Regresso às Aulas & Campus",
     "packSchoolDesc": "35 dilemas de vida estudantil: acordar às 7h, anfiteatros cheios, colegas de casa caóticos e rotinas improvisadas.",
     "playPackBtn": "⚡ Jogar este pack",
+    "navDailyDilemma": "⚡ Dilema",
+    "dailyDilemmaBadge": "⚡ O Dilema do Dia",
+    "dilemmaAccept": "Aceito",
+    "dilemmaReject": "Rejeito",
+    "dailyYourVote": "O teu voto:",
+    "dailyConsensusAccept": "{pct}% Aceitam",
+    "dailyConsensusReject": "{pct}% Rejeitam",
+    "dailyConsensusSample": "Com base em {sample} votos verificados",
+    "dailyDilemmaCtaSubtitle": "Todos os dias, 1 dilema exclusivo e as tuas estatísticas de grupo na app!",
+    "dailyDilemmaStoreCta": "⚡ Jogar na aplicação",
     "collectionTitle": "Constrói a tua coleção lendária",
     "collectionCopy": "Hall of Fame e Hall of Shame guardam escolhas marcantes, debates e cartas dignas de museu.",
     "reportContent": "Denunciar conteúdo",
@@ -1397,6 +1457,264 @@
     box.hidden = false;
   }
 
+  // --- Daily Dilemma --------------------------------------------------------
+  let _catalogPromise = null;
+  function loadOfficialCatalog() {
+    if (!_catalogPromise) {
+      _catalogPromise = fetch('./official_card_catalog.json')
+        .then((r) => (r.ok ? r.json() : null))
+        .catch(() => null);
+    }
+    return _catalogPromise;
+  }
+
+  function mixHash(hash, value) {
+    return (Math.imul(hash, 31) + value) & 0x7fffffff;
+  }
+
+  function stableHash(ids) {
+    let hash = 0x1fffffff;
+    for (let i = 0; i < ids.length; i++) {
+      const id = ids[i];
+      hash = mixHash(hash, id.length);
+      for (let j = 0; j < id.length; j++) {
+        hash = mixHash(hash, id.charCodeAt(j));
+      }
+    }
+    return hash;
+  }
+
+  function greatestCommonDivisor(left, right) {
+    while (right !== 0) {
+      const rem = left % right;
+      left = right;
+      right = rem;
+    }
+    return left;
+  }
+
+  function coprimeStep(length, seed) {
+    let candidate = (seed % (length - 1)) + 1;
+    while (greatestCommonDivisor(candidate, length) !== 1) {
+      candidate = (candidate % (length - 1)) + 1;
+    }
+    return candidate;
+  }
+
+  function positiveModulo(value, modulus) {
+    return ((value % modulus) + modulus) % modulus;
+  }
+
+  function selectCardForDate(entries, date) {
+    const sorted = entries.slice().sort((a, b) => a.id.localeCompare(b.id));
+    if (sorted.length === 0) return null;
+    if (sorted.length === 1) return sorted[0];
+    const ids = sorted.map((e) => e.id);
+    const seed = stableHash(ids);
+    const offset = seed % sorted.length;
+    const step = coprimeStep(sorted.length, mixHash(seed, sorted.length));
+    const epoch = Date.UTC(1970, 0, 1);
+    const dayDate = Date.UTC(date.getFullYear(), date.getMonth(), date.getDate());
+    const dayNumber = Math.floor((dayDate - epoch) / 86400000);
+    const cyclePosition = positiveModulo(dayNumber, sorted.length);
+    const selectedIndex = (offset + (cyclePosition * step)) % sorted.length;
+    return sorted[selectedIndex];
+  }
+
+  const DILEMMA_PACKS = new Set([
+    'dating_pack', 'clash_pack', 'office_pack', 'gym_pack_v1',
+    'vacation_pack', 'back_to_school_pack', 'halloween_pack',
+    'winter_holidays_pack', 'valentines_pack', 'summer_pack'
+  ]);
+
+  let _dilemmaVoteConfigPromise = null;
+  function loadVoteConfig() {
+    if (!_dilemmaVoteConfigPromise) {
+      _dilemmaVoteConfigPromise = fetch('./vote_config.json', { cache: 'no-store' })
+        .then((r) => (r.ok ? r.json() : null))
+        .catch(() => null);
+    }
+    return _dilemmaVoteConfigPromise;
+  }
+
+  async function submitDilemmaVote(cardId, choice, lang) {
+    const config = await loadVoteConfig();
+    if (!config || !config.formId || !config.entries) return;
+    try {
+      const url = `https://docs.google.com/forms/d/e/${config.formId}/formResponse`;
+      const body = new URLSearchParams();
+      if (config.entries.card_id) body.append(config.entries.card_id, cardId);
+      if (config.entries.choice) body.append(config.entries.choice, choice);
+      if (config.entries.lang) body.append(config.entries.lang, lang);
+      fetch(url, { method: 'POST', mode: 'no-cors', body: body }).catch(() => {});
+    } catch (_) {}
+  }
+
+  let _dailyDilemmaWired = false;
+  let _activeDailyCard = null;
+  let _activeDailyConsensus = null;
+
+  async function renderDailyDilemma(lang) {
+    const section = document.getElementById('daily-dilemma');
+    if (!section) return;
+
+    const copy = copyFor(lang);
+    const now = new Date();
+    const dateStr = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`;
+    const dateNode = document.getElementById('daily-dilemma-date');
+    if (dateNode) {
+      try {
+        dateNode.textContent = new Intl.DateTimeFormat(lang, { day: 'numeric', month: 'long', year: 'numeric' }).format(now);
+      } catch (_) {
+        dateNode.textContent = dateStr;
+      }
+    }
+
+    if (!_activeDailyCard) {
+      const [catalog, consensus] = await Promise.all([loadOfficialCatalog(), loadLiveStats()]);
+      if (!catalog || !catalog.cards || !consensus) return;
+
+      const qualified = new Set(
+        Object.keys(consensus).filter((id) => {
+          const c = consensus[id];
+          return c && c.measured_at && (c.sample_size || 0) >= 100 && (c.source === 'live_votes' || c.source === 'web_votes');
+        })
+      );
+
+      const eligible = catalog.cards.filter((card) => {
+        if (!DILEMMA_PACKS.has(card.packId)) return false;
+        if (card.enabled === false) return false;
+        if (card.live_tier === 'risky' || card.live_tier === 'forbidden') return false;
+        return qualified.has(card.id);
+      });
+
+      if (!eligible.length) return;
+      _activeDailyCard = selectCardForDate(eligible, now);
+      _activeDailyConsensus = _activeDailyCard ? consensus[_activeDailyCard.id] : null;
+    }
+
+    const card = _activeDailyCard;
+    const stats = _activeDailyConsensus;
+    if (!card) return;
+
+    // Set Theme
+    const tagNode = document.getElementById('daily-dilemma-tag');
+    if (tagNode) {
+      const label = (SITE_PACK_LABELS[card.packId] || {})[lang] || (SITE_PACK_LABELS[card.packId] || {}).en || card.theme;
+      tagNode.textContent = label;
+    }
+
+    // Set Text
+    const textNode = document.getElementById('daily-dilemma-text');
+    if (textNode) {
+      textNode.textContent = (card.texts || {})[lang] || (card.texts || {}).fr || (card.texts || {}).en || '';
+    }
+
+    // Check existing vote
+    const storageKey = 'sp_daily_vote_' + dateStr;
+    const existingVote = localStorage.getItem(storageKey);
+
+    const actionsRow = document.getElementById('daily-dilemma-actions');
+    const verdictBox = document.getElementById('daily-dilemma-verdict');
+
+    function showVerdict(choice) {
+      if (actionsRow) actionsRow.style.display = 'none';
+      if (verdictBox) verdictBox.style.display = 'block';
+
+      // Your vote tag
+      const voteTag = document.getElementById('daily-your-vote-tag');
+      if (voteTag) {
+        const isAccept = choice === 'accept';
+        voteTag.className = 'vote-tag ' + (isAccept ? 'accepted' : 'rejected');
+        voteTag.textContent = `${copy.dailyYourVote || 'Ton vote :'} ${isAccept ? '👍 ' + (copy.dilemmaAccept || "J'accepte") : '👎 ' + (copy.dilemmaReject || 'Je refuse')}`;
+      }
+
+      // Consensus percentages
+      const acceptPct = stats ? stats.accept : 50;
+      const rejectPct = stats ? stats.reject : 50;
+      const pctAcceptNode = document.getElementById('daily-pct-accept');
+      const pctRejectNode = document.getElementById('daily-pct-reject');
+      if (pctAcceptNode) {
+        pctAcceptNode.textContent = (copy.dailyConsensusAccept || '{pct}% Acceptent').replace('{pct}', acceptPct);
+      }
+      if (pctRejectNode) {
+        pctRejectNode.textContent = (copy.dailyConsensusReject || '{pct}% Refusent').replace('{pct}', rejectPct);
+      }
+
+      // Progress bars
+      const barAccept = document.getElementById('daily-bar-accept');
+      const barReject = document.getElementById('daily-bar-reject');
+      if (barAccept) barAccept.style.width = acceptPct + '%';
+      if (barReject) barReject.style.width = rejectPct + '%';
+
+      // Sample size
+      const sampleNode = document.getElementById('daily-consensus-sample');
+      if (sampleNode) {
+        const sample = stats?.sample_size || 0;
+        sampleNode.textContent = (copy.dailyConsensusSample || 'Basé sur {sample} votes vérifiés').replace('{sample}', sample);
+      }
+
+      // Country chips
+      const countryGrid = document.getElementById('daily-country-breakdown');
+      if (countryGrid && stats && stats.countries) {
+        countryGrid.innerHTML = '';
+        const flags = Object.keys(stats.countries).slice(0, 8);
+        flags.forEach((flag) => {
+          const c = stats.countries[flag];
+          if (!c) return;
+          const chip = document.createElement('div');
+          chip.className = 'daily-country-chip';
+          chip.innerHTML = `<span>${flag}</span> <span class="pct-green">${c.accept}%</span> / <span class="pct-red">${c.reject}%</span>`;
+          countryGrid.appendChild(chip);
+        });
+      }
+
+      // Store CTA link with UTM
+      const storeBtn = document.getElementById('daily-dilemma-store-btn');
+      if (storeBtn && window.SwipePanicAcquisition) {
+        const campaign = new URLSearchParams({
+          utm_source: 'site',
+          utm_medium: 'daily_dilemma',
+          utm_campaign: 'daily_dilemma',
+          utm_content: card.id,
+        });
+        storeBtn.href = SwipePanicAcquisition.playStoreUrl({
+          baseUrl: STORE_URL,
+          search: `?${campaign.toString()}`,
+          language: lang,
+        });
+      }
+    }
+
+    if (existingVote) {
+      showVerdict(existingVote);
+    } else {
+      if (actionsRow) actionsRow.style.display = 'flex';
+      if (verdictBox) verdictBox.style.display = 'none';
+    }
+
+    if (!_dailyDilemmaWired) {
+      _dailyDilemmaWired = true;
+      const btnAccept = document.getElementById('daily-vote-accept');
+      const btnReject = document.getElementById('daily-vote-reject');
+
+      if (btnAccept) {
+        btnAccept.addEventListener('click', () => {
+          localStorage.setItem(storageKey, 'accept');
+          submitDilemmaVote(card.id, 'accept', lang);
+          showVerdict('accept');
+        });
+      }
+      if (btnReject) {
+        btnReject.addEventListener('click', () => {
+          localStorage.setItem(storageKey, 'reject');
+          submitDilemmaVote(card.id, 'reject', lang);
+          showVerdict('reject');
+        });
+      }
+    }
+  }
+
   function setText(lang) {
     const copy = copyFor(lang);
     document.documentElement.lang = lang;
@@ -1432,6 +1750,7 @@
     updateFormatHelp(lang);
     renderRandomCardPreview(lang);
     renderLiveFeatured(lang);
+    renderDailyDilemma(lang);
   }
 
   const blockedKeywords = [

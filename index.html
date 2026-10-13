@@ -40,6 +40,7 @@
       <nav aria-label="Navigation principale">
         <a class="active" href="./" data-i18n="navHome">Home</a>
         <a href="./play.html" style="color: #00e676; font-weight: 700;">🎮 Jouer en ligne</a>
+        <a href="#daily-dilemma" data-i18n="navDailyDilemma">⚡ Dilemme</a>
         <a href="#features" data-i18n="navFeatures">Features</a>
         <a href="#seasonal-packs" data-i18n="navPacks">Packs</a>
         <a href="./ugc.html" data-i18n="navHowToPlay">Comment jouer</a>
@@ -69,6 +70,62 @@
           <a class="button" href="./play.html" style="background: linear-gradient(135deg, #00e676, #00c853); color: #0c2010; font-weight: 800;">⚡ Jouer en ligne</a>
           <a class="button" href="https://play.google.com/store/apps/details?id=com.swipepanic.swipe_panic" data-i18n="download">Télécharger</a>
           <a class="button secondary" href="./suggest.html" data-i18n="suggestCta">Suggérer une carte</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="daily-dilemma" class="band shell daily-dilemma-section" aria-live="polite">
+      <div class="daily-dilemma-card">
+        <div class="daily-dilemma-header">
+          <div class="daily-dilemma-badge-wrap">
+            <span class="daily-dilemma-badge" data-i18n="dailyDilemmaBadge">⚡ Le Dilemme du Jour</span>
+            <span class="daily-dilemma-tag" id="daily-dilemma-tag">Vacances</span>
+          </div>
+          <span class="daily-dilemma-date" id="daily-dilemma-date"></span>
+        </div>
+        <div class="daily-dilemma-body">
+          <blockquote class="daily-dilemma-quote">
+            <span id="daily-dilemma-text">Chargement du dilemme du jour...</span>
+          </blockquote>
+
+          <div class="daily-dilemma-vote-row" id="daily-dilemma-actions">
+            <button class="dilemma-vote-btn accept" id="daily-vote-accept" type="button">
+              <span class="dilemma-vote-icon">👍</span>
+              <span class="dilemma-vote-label" data-i18n="dilemmaAccept">J'accepte</span>
+            </button>
+            <button class="dilemma-vote-btn reject" id="daily-vote-reject" type="button">
+              <span class="dilemma-vote-icon">👎</span>
+              <span class="dilemma-vote-label" data-i18n="dilemmaReject">Je refuse</span>
+            </button>
+          </div>
+
+          <div class="daily-dilemma-verdict" id="daily-dilemma-verdict" style="display: none;">
+            <div class="daily-your-vote" id="daily-your-vote">
+              <span class="vote-tag" id="daily-your-vote-tag"></span>
+            </div>
+
+            <div class="daily-consensus-display">
+              <div class="daily-consensus-labels">
+                <span class="pct-accept" id="daily-pct-accept">--%</span>
+                <span class="pct-reject" id="daily-pct-reject">--%</span>
+              </div>
+              <div class="daily-progress-track">
+                <div class="daily-progress-fill-accept" id="daily-bar-accept" style="width: 50%;"></div>
+                <div class="daily-progress-fill-reject" id="daily-bar-reject" style="width: 50%;"></div>
+              </div>
+            </div>
+
+            <div class="daily-countries-wrap" id="daily-countries-wrap">
+              <div class="daily-countries-grid" id="daily-country-breakdown"></div>
+            </div>
+
+            <p class="daily-sample-copy" id="daily-consensus-sample"></p>
+
+            <div class="daily-store-nudge">
+              <p class="nudge-text" data-i18n="dailyDilemmaCtaSubtitle">Chaque jour, 1 dilemme exclusif et tes stats de groupe sur l'app !</p>
+              <a class="button daily-app-btn" id="daily-dilemma-store-btn" href="https://play.google.com/store/apps/details?id=com.swipepanic.swipe_panic" target="_blank" rel="noopener noreferrer" data-i18n="dailyDilemmaStoreCta">⚡ Jouer sur l'application</a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
