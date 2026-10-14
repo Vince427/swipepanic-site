@@ -49,13 +49,20 @@
         <a href="./changelog.html" data-i18n="navChangelog">Versions</a>
         <a href="https://play.google.com/store/apps/details?id=com.swipepanic.swipe_panic" target="_blank" rel="noopener noreferrer" data-i18n="download">Télécharger</a>
       </nav>
-      <div class="language-switch" aria-label="Language">
-        <button type="button" data-lang="fr">FR</button>
-        <button type="button" data-lang="en">EN</button>
-        <button type="button" data-lang="es">ES</button>
-        <button type="button" data-lang="de">DE</button>
-        <button type="button" data-lang="nl">NL</button>
-        <button type="button" data-lang="pt">PT</button>
+      <div class="header-actions">
+        <div class="theme-switch" aria-label="Thème visuel" title="Changer d'ambiance">
+          <button type="button" data-theme="classic" title="Ambiance Classique" aria-label="Classique">✨</button>
+          <button type="button" data-theme="halloween" title="Ambiance Halloween" aria-label="Halloween">🎃</button>
+          <button type="button" data-theme="winter" title="Ambiance Fêtes d'Hiver" aria-label="Hiver">❄️</button>
+        </div>
+        <div class="language-switch" aria-label="Language">
+          <button type="button" data-lang="fr">FR</button>
+          <button type="button" data-lang="en">EN</button>
+          <button type="button" data-lang="es">ES</button>
+          <button type="button" data-lang="de">DE</button>
+          <button type="button" data-lang="nl">NL</button>
+          <button type="button" data-lang="pt">PT</button>
+        </div>
       </div>
     </div>
   </header>
@@ -63,6 +70,13 @@
   <main>
     <section class="hero">
       <div class="hero-content">
+        <div class="hero-theme-picker" aria-label="Choisir une ambiance">
+          <span class="hero-theme-label" data-i18n="themePickerLabel">🎨 Ambiance :</span>
+          <button type="button" class="hero-theme-chip active" data-theme="classic"><span class="theme-chip-icon">✨</span> <span data-i18n="themeClassic">Classique</span></button>
+          <button type="button" class="hero-theme-chip" data-theme="halloween"><span class="theme-chip-icon">🎃</span> <span data-i18n="themeHalloween">Halloween</span></button>
+          <button type="button" class="hero-theme-chip" data-theme="winter"><span class="theme-chip-icon">❄️</span> <span data-i18n="themeWinter">Fêtes d'Hiver</span></button>
+        </div>
+        <div id="seasonal-event-banner" class="seasonal-event-banner" style="display: none;"></div>
         <span class="kicker" data-i18n="heroKicker">Jouez partout, même hors ligne</span>
         <h1>Swipe Panic</h1>
         <p class="hero-copy" data-i18n="heroCopy">Le party game qui revele ton groupe en 5 minutes : red flags, quiz, Action ou Verite, packs amis et recaps prives.</p>
@@ -134,6 +148,11 @@
       <h2 class="section-title" data-i18n="featuresTitle">Des choix qui lancent le debat</h2>
       <p class="section-copy" data-i18n="featuresCopy">Swipe Panic reste jouable sans compte cloud : solo, pass-and-play et Wi-Fi local sont pensés pour les soirées où tout doit aller vite.</p>
       <div class="feature-grid">
+        <article class="feature-card feature-card-duel">
+          <span class="feature-badge" data-i18n="duelBadge">⚡ 1 TÉLÉPHONE · 2 JOUEURS</span>
+          <h3 data-i18n="modeDuel">Duel Flash</h3>
+          <p data-i18n="duelCopy">Jouez face-à-face sur le même écran : chacun vote en secret, révélation instantanée d'accord ou de clash et score de complicité !</p>
+        </article>
         <article class="feature-card">
           <h3 data-i18n="modeClassic">Classic</h3>
           <p data-i18n="classicCopy">Swipe les red flags et green flags, puis decouvre le profil de la partie.</p>

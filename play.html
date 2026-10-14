@@ -80,6 +80,97 @@
       pointer-events: none;
     }
 
+    /* Seasonal Visual Themes */
+    body.theme-halloween {
+      --bg: #0e0517;
+      --card-bg: #1c0a2e;
+      --card-border: #ff7b00;
+      --text-dim: #d1b3f5;
+      --purple: #9c27b0;
+      --accent: #ff7b00;
+    }
+    body.theme-halloween .glow-left {
+      background: radial-gradient(circle, rgba(255, 123, 0, 0.22) 0%, rgba(0,0,0,0) 70%);
+    }
+    body.theme-halloween .glow-right {
+      background: radial-gradient(circle, rgba(156, 39, 176, 0.22) 0%, rgba(0,0,0,0) 70%);
+    }
+    body.theme-halloween .card {
+      box-shadow: 0 20px 50px rgba(0,0,0,0.85), 0 0 24px rgba(255, 123, 0, 0.35);
+      border-color: #ff7b00;
+    }
+    body.theme-halloween .pack-pill {
+      border-color: #ff7b00;
+      color: #ff9d42;
+      background: rgba(255, 123, 0, 0.15);
+    }
+
+    body.theme-winter {
+      --bg: #030d1d;
+      --card-bg: #091a38;
+      --card-border: #00d4ff;
+      --text-dim: #94d3f5;
+      --purple: #0284c7;
+      --accent: #00d4ff;
+    }
+    body.theme-winter .glow-left {
+      background: radial-gradient(circle, rgba(0, 212, 255, 0.22) 0%, rgba(0,0,0,0) 70%);
+    }
+    body.theme-winter .glow-right {
+      background: radial-gradient(circle, rgba(56, 189, 248, 0.20) 0%, rgba(0,0,0,0) 70%);
+    }
+    body.theme-winter .card {
+      box-shadow: 0 20px 50px rgba(0,0,0,0.85), 0 0 24px rgba(0, 212, 255, 0.35);
+      border-color: #00d4ff;
+    }
+    body.theme-winter .pack-pill {
+      border-color: #00d4ff;
+      color: #7dd3fc;
+      background: rgba(0, 212, 255, 0.15);
+    }
+
+    .theme-switch-inline {
+      display: inline-flex;
+      gap: 3px;
+      padding: 3px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(8px);
+    }
+
+    .theme-switch-inline .theme-btn {
+      width: 28px;
+      height: 28px;
+      border: 0;
+      border-radius: 7px;
+      background: transparent;
+      font-size: 14px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.15s, background 0.2s;
+    }
+
+    .theme-switch-inline .theme-btn:hover {
+      transform: scale(1.15);
+    }
+
+    .theme-switch-inline .theme-btn.active {
+      background: rgba(255, 255, 255, 0.25);
+    }
+
+    body.theme-halloween .theme-switch-inline .theme-btn[data-theme="halloween"].active {
+      background: #ff7b00;
+      box-shadow: 0 0 10px rgba(255, 123, 0, 0.6);
+    }
+
+    body.theme-winter .theme-switch-inline .theme-btn[data-theme="winter"].active {
+      background: #00d4ff;
+      box-shadow: 0 0 10px rgba(0, 212, 255, 0.6);
+    }
+
     /* Header */
     header {
       width: 100%;
@@ -876,14 +967,21 @@
         <div class="logo-badge">🔥</div>
         <div class="brand-title">SWIPE PANIC</div>
       </a>
-      <select id="langSelect" class="select-dropdown" aria-label="Langue">
-        <option value="fr">🇫🇷 FR</option>
-        <option value="en">🇬🇧 EN</option>
-        <option value="es">🇪🇸 ES</option>
-        <option value="de">🇩🇪 DE</option>
-        <option value="nl">🇳🇱 NL</option>
-        <option value="pt">🇧🇷 PT</option>
-      </select>
+      <div style="display:flex;align-items:center;gap:6px;">
+        <div class="theme-switch-inline" id="themeSwitchInline" aria-label="Thème saisonnier">
+          <button type="button" class="theme-btn" data-theme="classic" title="Ambiance Classique" aria-label="Classique">✨</button>
+          <button type="button" class="theme-btn" data-theme="halloween" title="Ambiance Halloween" aria-label="Halloween">🎃</button>
+          <button type="button" class="theme-btn" data-theme="winter" title="Ambiance Fêtes d'Hiver" aria-label="Hiver">❄️</button>
+        </div>
+        <select id="langSelect" class="select-dropdown" aria-label="Langue">
+          <option value="fr">🇫🇷 FR</option>
+          <option value="en">🇬🇧 EN</option>
+          <option value="es">🇪🇸 ES</option>
+          <option value="de">🇩🇪 DE</option>
+          <option value="nl">🇳🇱 NL</option>
+          <option value="pt">🇧🇷 PT</option>
+        </select>
+      </div>
     </div>
 
     <div class="header-controls">
@@ -891,6 +989,8 @@
         <option value="all">🎲 Tous les packs</option>
         <option value="halloween_pack">🎃 Spécial Halloween</option>
         <option value="winter_holidays_pack">❄️ Fêtes d'Hiver</option>
+        <option value="valentines_pack">💘 Saint-Valentin</option>
+        <option value="summer_pack">☀️ Soirées d'Été</option>
         <option value="back_to_school_pack">🎒 Rentrée & Campus</option>
         <option value="clash_pack">🔥 Clash Hommes vs Femmes</option>
         <option value="dating_pack">❤️ Dating & Séduction</option>
@@ -1127,6 +1227,7 @@
         country: currentCountry || '',
         lang: currentLang,
       });
+      flushVotes();
     }
 
     function flushVotes() {
@@ -1213,6 +1314,8 @@
                 packAll: "🎲 Tous les packs",
         packHalloween: "🎃 Spécial Halloween",
         packWinter: "❄️ Fêtes d'Hiver",
+        packValentines: "💘 Saint-Valentin",
+        packSummer: "☀️ Soirées d'Été",
         packSchool: "🎒 Rentrée & Campus",
         packClash: "🔥 Clash Hommes vs Femmes",
         packDating: "❤️ Dating & Séduction",
@@ -1294,6 +1397,8 @@ socialScoreDesc: "Tes choix de soirée : {count} actions et vérités assumées 
                 packAll: "🎲 All Packs",
         packHalloween: "🎃 Halloween Special",
         packWinter: "❄️ Winter Holidays",
+        packValentines: "💘 Valentine's Day",
+        packSummer: "☀️ Summer Party",
         packSchool: "🎒 Back to School",
         packClash: "🔥 Men vs Women Clash",
         packDating: "❤️ Dating & Red Flags",
@@ -1396,6 +1501,8 @@ socialScoreDesc: "Tus elecciones de fiesta: {count} retos y verdades asumidas.",
                 packAll: "🎲 Todos los packs",
         packHalloween: "🎃 Especial Halloween",
         packWinter: "❄️ Fiestas de Invierno",
+        packValentines: "💘 San Valentín",
+        packSummer: "☀️ Fiestas de Verano",
         packSchool: "🎒 Vuelta a Clases",
         packClash: "🔥 Choque Hombres vs Mujeres",
         packDating: "❤️ Citas y Red Flags",
@@ -1456,6 +1563,8 @@ socialScoreDesc: "Tus elecciones de fiesta: {count} retos y verdades asumidas.",
                 packAll: "🎲 Alle Packs",
         packHalloween: "🎃 Halloween Spezial",
         packWinter: "❄️ Winter & Festtage",
+        packValentines: "💘 Valentinstag",
+        packSummer: "☀️ Sommer-Party",
         packSchool: "🎒 Schulanfang & Campus",
         packClash: "🔥 Männer vs. Frauen Clash",
         packDating: "❤️ Dating & Red Flags",
@@ -1537,6 +1646,8 @@ socialScoreDesc: "Deine Party-Auswahl: {count} angenommene Aufgaben und Wahrheit
                 packAll: "🎲 Alle packs",
         packHalloween: "🎃 Halloween Special",
         packWinter: "❄️ Winter & Feestdagen",
+        packValentines: "💘 Valentijnsdag",
+        packSummer: "☀️ Zomer & Feest",
         packSchool: "🎒 Terug naar School",
         packClash: "🔥 Mannen vs Vrouwen Clash",
         packDating: "❤️ Daten & Red Flags",
@@ -1618,6 +1729,8 @@ socialScoreDesc: "Jouw feestkeuzes: {count} voltooide acties en waarheden!",
                 packAll: "🎲 Todos os packs",
         packHalloween: "🎃 Especial Halloween",
         packWinter: "❄️ Festas de Inverno",
+        packValentines: "💘 Dia dos Namorados",
+        packSummer: "☀️ Festas de Verão",
         packSchool: "🎒 Regresso às Aulas",
         packClash: "🔥 Confronto Homens vs Mulheres",
         packDating: "❤️ Encontros & Red Flags",
@@ -1727,6 +1840,7 @@ socialScoreDesc: "As tuas escolhas de festa: {count} desafios e verdades assumid
     }
     buildCountrySelect(currentLang);
     applyTranslations();
+    initSeasonalTheme();
 
     function applyTranslations() {
       const t = i18n[currentLang] || i18n.fr;
@@ -1754,6 +1868,8 @@ socialScoreDesc: "As tuas escolhas de festa: {count} desafios e verdades assumid
           <option value="all">${t.packAll || "🎲 Tous les packs"}</option>
           <option value="halloween_pack">${t.packHalloween || "🎃 Spécial Halloween"}</option>
           <option value="winter_holidays_pack">${t.packWinter || "❄️ Fêtes d'Hiver"}</option>
+          <option value="valentines_pack">${t.packValentines || "💘 Saint-Valentin"}</option>
+          <option value="summer_pack">${t.packSummer || "☀️ Soirées d'Été"}</option>
           <option value="back_to_school_pack">${t.packSchool || "🎒 Rentrée & Campus"}</option>
           <option value="clash_pack">${t.packClash || "🔥 Clash Hommes vs Femmes"}</option>
           <option value="dating_pack">${t.packDating || "❤️ Dating & Séduction"}</option>
@@ -1818,10 +1934,61 @@ socialScoreDesc: "As tuas escolhas de festa: {count} desafios e verdades assumid
       }
     }
 
+    function getAutoTheme() {
+      const month = new Date().getMonth();
+      if (month === 9) return 'halloween'; // Octobre
+      if (month === 11 || month === 0) return 'winter'; // Décembre / Janvier
+      return 'classic';
+    }
+
+    function applyTheme(theme) {
+      document.body.classList.remove('theme-halloween', 'theme-winter');
+      if (theme === 'halloween') {
+        document.body.classList.add('theme-halloween');
+      } else if (theme === 'winter') {
+        document.body.classList.add('theme-winter');
+      }
+      localStorage.setItem('sp_theme', theme);
+      document.querySelectorAll('#themeSwitchInline .theme-btn').forEach((btn) => {
+        btn.classList.toggle('active', btn.getAttribute('data-theme') === theme);
+      });
+    }
+
+    function initSeasonalTheme() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const packParam = urlParams.get('pack');
+      let initialTheme = 'classic';
+      if (packParam === 'halloween_pack') {
+        initialTheme = 'halloween';
+      } else if (packParam === 'winter_holidays_pack') {
+        initialTheme = 'winter';
+      } else {
+        const saved = localStorage.getItem('sp_theme');
+        initialTheme = saved || getAutoTheme();
+      }
+      applyTheme(initialTheme);
+
+      document.querySelectorAll('#themeSwitchInline .theme-btn').forEach((btn) => {
+        btn.addEventListener('click', () => {
+          const t = btn.getAttribute('data-theme') || 'classic';
+          applyTheme(t);
+        });
+      });
+    }
+
     const packSelectEl = document.getElementById('packSelect');
     if (packSelectEl) {
       packSelectEl.addEventListener('change', () => {
         packSelectEl._userChanged = true;
+        const val = packSelectEl.value;
+        if (val === 'halloween_pack') {
+          applyTheme('halloween');
+        } else if (val === 'winter_holidays_pack') {
+          applyTheme('winter');
+        } else {
+          const saved = localStorage.getItem('sp_theme') || getAutoTheme();
+          applyTheme(saved);
+        }
         prepareSession();
       });
     }
@@ -1899,6 +2066,8 @@ socialScoreDesc: "As tuas escolhas de festa: {count} desafios e verdades assumid
       if (paramPack && packSelectEl && !packSelectEl._userChanged) {
         packSelectEl.value = paramPack;
         targetPack = paramPack;
+        if (paramPack === 'halloween_pack') applyTheme('halloween');
+        if (paramPack === 'winter_holidays_pack') applyTheme('winter');
       }
 
       sessionQueue = [];
@@ -2272,10 +2441,10 @@ socialScoreDesc: "As tuas escolhas de festa: {count} desafios e verdades assumid
       // MODE 3: CLASSIC (Red Flag vs Green Flag live country opinion consensus)
       if (userChoice === 'green') {
         consensusYourVote.className = 'consensus-your-vote vote-badge-green';
-        consensusYourVote.textContent = `👤 ${t.yourVoteIs} 🟢 ${t.greenFlag}`;
+        consensusYourVote.textContent = `👤 ${t.yourVoteIs} 🟢 ${t.greenFlag}${currentCountry ? ' · ' + currentCountry + ' ✓' : ''}`;
       } else {
         consensusYourVote.className = 'consensus-your-vote vote-badge-red';
-        consensusYourVote.textContent = `👤 ${t.yourVoteIs} 🚩 ${t.redFlag}`;
+        consensusYourVote.textContent = `👤 ${t.yourVoteIs} 🚩 ${t.redFlag}${currentCountry ? ' · ' + currentCountry + ' ✓' : ''}`;
       }
 
       if (hasRealConsensus) {

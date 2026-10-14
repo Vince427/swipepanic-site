@@ -13,6 +13,13 @@
     "heroCopy": "Le party game qui révèle ton groupe en 5 minutes : red flags, quiz, Action ou Vérité, packs amis et récaps privés.",
     "download": "Télécharger",
     "suggestCta": "Suggérer une carte",
+    "themePickerLabel": "🎨 Ambiance :",
+    "themeClassic": "Classique",
+    "themeHalloween": "Halloween",
+    "themeWinter": "Fêtes d'Hiver",
+    "modeDuel": "Duel Flash",
+    "duelBadge": "⚡ 1 TÉLÉPHONE · 2 JOUEURS",
+    "duelCopy": "Jouez face-à-face sur le même écran : chacun vote en secret, révélation instantanée d'accord ou de clash et score de complicité !",
     "featuresTitle": "Des choix qui lancent le débat",
     "featuresCopy": "Swipe Panic reste jouable sans compte cloud : solo, pass-and-play et Wi-Fi local sont pensés pour les soirées où tout doit aller vite.",
     "classicCopy": "Swipe les red flags et green flags, puis découvre le profil de la partie.",
@@ -20,7 +27,10 @@
     "partyCopy": "Action ou Vérité, packs amis, votes locaux et récap clair.",
     "navPacks": "Packs",
     "seasonalTitle": "Packs Saisonniers & Thématiques",
-    "seasonalCopy": "Découvre les packs phares de la saison : disponibles dans l'application mobile et jouables directement sur le web !",
+    "seasonalBannerHalloween": "🎃 SPÉCIAL HALLOWEEN · 35 dilemmes frissons et fous rires entre potes !",
+    "seasonalBannerHalloweenCta": "⚡ Jouer ce pack",
+    "seasonalBannerWinter": "❄️ FÊTES D'HIVER · 35 dilemmes de réveillon, cadeaux gênants et raclette !",
+    "seasonalBannerWinterCta": "⚡ Jouer ce pack",
     "packHalloweenTitle": "🎃 Spécial Halloween",
     "packHalloweenDesc": "35 dilemmes frissons et fous rires entre potes : maisons hantées, déguisements douteux, films d'horreur et bonbons volés.",
     "packWinterTitle": "❄️ Fêtes d'Hiver",
@@ -36,6 +46,7 @@
     "dailyConsensusAccept": "{pct}% Acceptent",
     "dailyConsensusReject": "{pct}% Refusent",
     "dailyConsensusSample": "Basé sur {sample} votes vérifiés",
+    "countryThresholdHint": "✓ Vote comptabilisé pour {flag} ! Les statistiques par pays apparaissent dès 15 votes.",
     "dailyDilemmaCtaSubtitle": "Chaque jour, 1 dilemme exclusif et tes stats de groupe sur l'app !",
     "dailyDilemmaStoreCta": "⚡ Jouer sur l'application",
     "collectionTitle": "Construis ta collection légendaire",
@@ -108,6 +119,9 @@
     "ugcStep1Classic": "<strong>En mode Classic (Flags) 🚩/✅</strong> : Le téléphone affiche un écran masqué pour que le joueur suivant ne voie pas la carte. Prenez le téléphone, tapez pour révéler la situation, swippez votre choix en cachette, puis passez-le au suivant !",
     "ugcStep1Quiz": "<strong>En mode Quiz (Vrai/Faux) 🧠</strong> : Le fonctionnement est le même avec un écran masqué pour éviter le spoil. Le chronomètre individuel ne démarre que lorsque vous tapez pour révéler la question !",
     "ugcStep1Social": "<strong>En mode Party (Action/Vérité) 😈</strong> : Pas de carte masquée ici ! Le joueur actif lit la carte à voix haute et doit réaliser le gage ou répondre à la question devant tout le monde.",
+    "ugcStepDuelTitle": "⚡ Le Mode Face-à-Face (Duel Flash) : 1 Téléphone, 2 Joueurs",
+    "ugcStepDuelIntro": "Le mode ultime pour tester votre complicité en couple ou entre potes sans attendre :",
+    "ugcStepDuelDetails": "<strong>Comment ça marche ?</strong> Posez le smartphone à plat entre vous deux sur la table. L'écran se sépare en deux (la moitié haute pivote à 180° pour le joueur d'en face). Les 2 joueurs votent simultanément en secret. Dès que les deux ont voté : flash et révélation instantanée ! <em>Accord Parfait 🎉</em> ou <em>Clash 💥</em>. À la fin des 10 dilemmes, découvrez votre pourcentage de complicité et votre titre humoristique (Âmes Sœurs, Terrain d'entente ou Zone de guerre) !",
     "ugcStep2Title": "2. Créer ses propres packs de cartes 🎨",
     "ugcStep2Intro": "Ajoutez vos propres blagues ou anecdotes directement depuis l'application dans l'onglet de création de pack :",
     "ugcStep2Classic": "<strong>Créer du Classic</strong> : Écrivez des comportements de dating (ex: <em>Il met du ketchup sur sa pizza</em>). Le jeu les affichera en vous demandant si c'est un Green Flag ou un Red Flag.",
@@ -180,6 +194,8 @@
     "liveModerationCopy": "Les cartes officielles sont relues et validées par l'équipe — elles ne viennent pas d'inconnus sur Internet. Les packs créés par les joueurs restent privés dans leur groupe : personne d'autre ne les voit ni ne les reçoit.",
     "changelogTitle": "Évolutions et corrections",
     "changelogIntro": "Historique des mises à jour de Swipe Panic.",
+    "cl180changes": "<li>Nouveau mode « Face-à-Face / Duel Flash » (1 Téléphone, 2 Joueurs) : écran scindé à 180°, votes simultanés masqués, révélation Accord Parfait ou Clash et calcul de votre score de complicité.</li><li>Widget Natif Android d'Écran d'Accueil : retrouvez et votez sur le Dilemme du Jour directement depuis le bureau de votre smartphone avec épinglage en 1 tap.</li><li>Ambiance et packs saisonniers officiels : thèmes immersifs Halloween et Fêtes d'Hiver, packs Saint-Valentin (35 cartes) et Soirées d'Été (35 cartes).</li><li>Partage anonyme et confort : respect strict du mode anonyme sur les images et textes partagés, détection multilingue du « Doigt pointé ».</li>",
+    "cl170changes": "<li>Rôles et profils psychologiques de soirée : Inquisiteur, Cœur d'Artichaut, Petit Démon ou Ange Pur calculés selon les votes réels du groupe.</li><li>Images de partage HD au format 9:16 : partagez les dilemmes et moments les plus fous directement en Story Instagram, TikTok et WhatsApp.</li><li>Nouveaux thèmes Cyberpunk et Doré déblocables dans la collection.</li><li>Filtres de modération locale renforcés et protection de la vie privée 100% hors-ligne.</li>",
     "cl161changes": "<li>Correctif des notifications locales sur tous les appareils Android (activation fiable et rappels de dilemme à 18h30).</li><li>Accès direct au Dilemme du Jour dès l'écran d'accueil avec flamme de série et comparaison mondiale en 10 secondes.</li><li>Suppression des messages et étiquettes Live lorsqu'aucun événement n'est en cours.</li><li>Pack officiel Fêtes d'Hiver (35 cartes), profil psychologique de soirée et confort haptique amélioré.</li>",
     "cl150changes": "<li>Nouveau pack « Spécial Halloween » : 35 dilemmes inédits frissons et fous rires entre potes.</li><li>Thème visuel immersif Halloween : ambiance nuit d'Halloween et orange citrouille néon.</li><li>Dilemme Express du Jour : Bouclier anti-rupture de série hebdomadaire et 4 badges collectors à débloquer.</li><li>Pack Apéro du Week-End : sélection festive automatique chaque vendredi et macaron sur l'accueil.</li><li>Clarté des votes du Dilemme : boutons et jauges de consensus 100% lisibles et punchy.</li>",
     "cl140changes": "<li>Nouveau pack « Spécial Rentrée » : 35 dilemmes inédits sur la vie étudiante, les amphis, la colocation et le réveil à 7h.</li><li>Manches rapides de 10 cartes : lancez le débat et les rires en moins de 2 minutes par défaut.</li><li>Accueil et relance immédiate : bouton de lancement principal accessible sans scroller et bouton express pour rejouer avec votre dernier groupe d'amis.</li><li>Écran de résultat épuré : mise en avant du moment le plus marquant et bouton instantané « Encore 10 cartes » ou « Partager le résumé ».</li><li>Confort de jeu et publicité apaisée : zéro coupure publicitaire sur la première partie, affichage calme et respect du rythme de jeu.</li>",
@@ -209,6 +225,13 @@
     "heroCopy": "The party game that reveals your group in 5 minutes: red flags, quiz, Truth or Dare, friends packs and private recaps.",
     "download": "Download",
     "suggestCta": "Suggest a card",
+    "themePickerLabel": "🎨 Theme:",
+    "themeClassic": "Classic",
+    "themeHalloween": "Halloween",
+    "themeWinter": "Winter Holidays",
+    "modeDuel": "Flash Duel",
+    "duelBadge": "⚡ 1 PHONE · 2 PLAYERS",
+    "duelCopy": "Play head-to-head on the same screen: vote simultaneously in secret, instant reveal of harmony or clash and compatibility score!",
     "featuresTitle": "Choices that start the debate",
     "featuresCopy": "Swipe Panic works without a cloud account: solo, pass-and-play and local Wi-Fi are built for fast party sessions.",
     "classicCopy": "Swipe red flags and green flags, then discover the session profile.",
@@ -216,7 +239,10 @@
     "partyCopy": "Truth or Dare, friends packs, local votes and a clean recap.",
     "navPacks": "Packs",
     "seasonalTitle": "Seasonal & Thematic Packs",
-    "seasonalCopy": "Discover our hit seasonal packs: available in the mobile app and playable instantly in your browser!",
+    "seasonalBannerHalloween": "🎃 HALLOWEEN SPECIAL · 35 spooky & hilarious party dilemmas with friends!",
+    "seasonalBannerHalloweenCta": "⚡ Play this pack",
+    "seasonalBannerWinter": "❄️ WINTER HOLIDAYS · 35 festive dilemmas: awkward dinners, gifts & fun!",
+    "seasonalBannerWinterCta": "⚡ Play this pack",
     "packHalloweenTitle": "🎃 Halloween Special",
     "packHalloweenDesc": "35 spooky and hilarious party dilemmas: haunted houses, questionable costumes, horror movies, and stolen candy.",
     "packWinterTitle": "❄️ Winter Holidays",
@@ -232,6 +258,7 @@
     "dailyConsensusAccept": "{pct}% Accept",
     "dailyConsensusReject": "{pct}% Reject",
     "dailyConsensusSample": "Based on {sample} verified votes",
+    "countryThresholdHint": "✓ Vote recorded for {flag}! Country stats appear once 15 votes are reached.",
     "dailyDilemmaCtaSubtitle": "Every day, 1 exclusive dilemma and your party stats on the app!",
     "dailyDilemmaStoreCta": "⚡ Play on the app",
     "collectionTitle": "Build your legendary collection",
@@ -304,6 +331,9 @@
     "ugcStep1Classic": "<strong>In Classic Mode (Flags) 🚩/✅</strong>: The phone displays a hidden transition screen so the next player cannot peek. Take the phone, tap to reveal the situation, swipe your choice in secret, then pass it to the next player!",
     "ugcStep1Quiz": "<strong>In Quiz Mode (True/False) 🧠</strong>: It works the same way with a masked screen to avoid spoilers. The individual timer only starts when you tap to reveal the question!",
     "ugcStep1Social": "<strong>In Party Mode (Truth/Dare) 😈</strong>: No hidden card here! The active player reads the card out loud and must perform the dare or answer the truth question in front of everyone.",
+    "ugcStepDuelTitle": "⚡ Face-to-Face Mode (Flash Duel): 1 Phone, 2 Players",
+    "ugcStepDuelIntro": "The ultimate mode to test your compatibility as a couple or with friends on the spot:",
+    "ugcStepDuelDetails": "<strong>How it works:</strong> Place the phone flat between both players on the table. The screen splits in half (the top half rotates 180° for the player facing you). Both players vote in secret at the same time. As soon as both have voted: instant flash and reveal! <em>Perfect Match 🎉</em> or <em>Clash 💥</em>. After 10 cards, get your compatibility percentage and funny title (Soulmates, Common Ground, or War Zone)!",
     "ugcStep2Title": "2. Create your own custom card packs 🎨",
     "ugcStep2Intro": "Add your own jokes or inside stories directly in the app inside the pack creator tab:",
     "ugcStep2Classic": "<strong>Create Classic cards</strong>: Write dating behaviors (e.g., <em>They put ketchup on their pizza</em>). The game will display them, asking players if it is a Green Flag or a Red Flag.",
@@ -376,6 +406,8 @@
     "liveModerationCopy": "Official cards are reviewed and approved by the team — they don't come from random strangers on the Internet. Packs created by players stay private within their group: no one else sees or receives them.",
     "changelogTitle": "Updates & fixes",
     "changelogIntro": "Swipe Panic version history.",
+    "cl180changes": "<li>New 'Face-to-Face / Flash Duel' mode (1 Phone, 2 Players): 180° split-screen, simultaneous secret votes, Perfect Match or Clash reveal, and chemistry score.</li><li>Native Android Home Screen Widget: view and vote on the Daily Dilemma directly from your desktop with one-tap pinning.</li><li>Seasonal themes &amp; official packs: immersive Halloween and Winter vibes, Valentine's Day (35 cards) and Summer Vibes (35 cards) packs.</li><li>Anonymous sharing &amp; comfort: strict pseudonym privacy in shared recap images, multi-language detection for finger-pointing cards.</li>",
+    "cl170changes": "<li>Party personality roles: Inquisitor, Soft Heart, Little Demon, or Pure Angel computed from group votes.</li><li>HD 9:16 Story sharing images: export key recap highlights straight to Instagram, TikTok, and WhatsApp Stories.</li><li>Unlockable Cyberpunk and Golden cosmetic themes.</li><li>Enhanced local moderation filters and 100% offline privacy.</li>",
     "cl161changes": "<li>Fixed local notifications on all Android devices (reliable toggle and daily 6:30 PM dilemma reminders).</li><li>Direct access to Dilemma of the Day right on the home screen with streak counter and 10-second global comparison.</li><li>Removed ghost Live banners and badges when no real stream is scheduled.</li><li>Official Winter Holidays pack (35 cards), local party psychological profile and enhanced haptics.</li>",
     "cl150changes": "<li>Official “Halloween Special” pack: 35 brand new hilarious spooky dilemmas with friends.</li><li>Immersive Halloween visual theme: spooky night vibes and neon pumpkin accents.</li><li>Daily Express Dilemma: Weekly streak shield to protect your progress and 4 collector badges to unlock.</li><li>Rotating Weekend Party Pack: automatic festive featured pack every Friday.</li><li>Crystal clear Dilemma UX: intuitive first-person voting and detailed consensus breakdown.</li>",
     "cl140changes": "<li>New “Back to School” pack: 35 fresh dilemmas on campus life, lecture halls, roommates, and 7 AM alarms.</li><li>Fast 10-card rounds: spark debates and laughter in under 2 minutes by default.</li><li>Instant launch &amp; crew replay: prominent start button above the fold and 1-tap replay with your last squad.</li><li>Refined recap screen: highlights the round's most memorable moment with instant “10 more cards” and share buttons.</li><li>Smooth ad experience: zero ads on your first completed game, with capped, quiet transitions respecting gameplay pace.</li>",
@@ -406,6 +438,13 @@
     "heroCopy": "El party game que revela a tu grupo en 5 minutos: red flags, quiz, Verdad o Reto, packs de amigos y resúmenes privados.",
     "download": "Descargar",
     "suggestCta": "Sugerir una carta",
+    "themePickerLabel": "🎨 Tema:",
+    "themeClassic": "Clásico",
+    "themeHalloween": "Halloween",
+    "themeWinter": "Fiestas de Invierno",
+    "modeDuel": "Duelo Flash",
+    "duelBadge": "⚡ 1 TELÉFONO · 2 JUGADORES",
+    "duelCopy": "Juega cara a cara en la misma pantalla: votad simultáneamente en secreto, ¡revelación instantánea de acuerdo o choque y puntuación de complicidad!",
     "featuresTitle": "Decisiones que abren debate",
     "featuresCopy": "Swipe Panic funciona sin cuenta cloud: solo, teléfono compartido y Wi-Fi local están pensados para partidas rápidas.",
     "classicCopy": "Desliza red flags y green flags, y descubre el perfil de la partida.",
@@ -413,7 +452,10 @@
     "partyCopy": "Verdad o Reto, packs de amigos, votos locales y resumen claro.",
     "navPacks": "Packs",
     "seasonalTitle": "Packs de Temporada y Temáticos",
-    "seasonalCopy": "Descubre los packs estrella de la temporada: disponibles en la app móvil y jugables al instante en la web.",
+    "seasonalBannerHalloween": "🎃 ESPECIAL HALLOWEEN · ¡35 dilemas de risas y sustos con amigos!",
+    "seasonalBannerHalloweenCta": "⚡ Jugar este pack",
+    "seasonalBannerWinter": "❄️ FIESTAS DE INVIERNO · ¡35 dilemas navideños y de fin de año!",
+    "seasonalBannerWinterCta": "⚡ Jugar este pack",
     "packHalloweenTitle": "🎃 Especial Halloween",
     "packHalloweenDesc": "35 dilemas divertidos de terror con amigos: casas encantadas, disfraces dudosos, pelis de miedo y chuches.",
     "packWinterTitle": "❄️ Fiestas de Invierno",
@@ -429,6 +471,7 @@
     "dailyConsensusAccept": "{pct}% Aceptan",
     "dailyConsensusReject": "{pct}% Rechazan",
     "dailyConsensusSample": "Basado en {sample} votos verificados",
+    "countryThresholdHint": "✓ ¡Voto registrado para {flag}! Las estadísticas por país aparecen a partir de 15 votos.",
     "dailyDilemmaCtaSubtitle": "¡Cada día, 1 dilema exclusivo y tus estadísticas de grupo en la app!",
     "dailyDilemmaStoreCta": "⚡ Jugar en la app",
     "collectionTitle": "Crea tu colección legendaria",
@@ -506,6 +549,9 @@
     "ugcStep1Classic": "<strong>En el modo Classic (Banderas) 🚩/✅</strong>: El teléfono muestra una pantalla oculta para que el siguiente jugador no vea la carta. ¡Toma el teléfono, toca para revelar la situación, desliza tu elección en secreto y pásalo al siguiente!",
     "ugcStep1Quiz": "<strong>En el modo Quiz (Verdadero/Falso) 🧠</strong>: Funciona de la misma manera con una pantalla oculta para evitar spoilers. ¡El cronómetro individual no comienza hasta que tocas para revelar la pregunta!",
     "ugcStep1Social": "<strong>En el modo Party (Verdad o Reto) 😈</strong>: ¡Aquí no hay cartas ocultas! El jugador activo lee la carta en voz alta y debe realizar el reto o responder a la verdad delante de todos.",
+    "ugcStepDuelTitle": "⚡ Modo Cara a Cara (Duelo Flash): 1 Teléfono, 2 Jugadores",
+    "ugcStepDuelIntro": "El modo definitivo para poner a prueba vuestra complicidad en pareja o entre amigos al instante:",
+    "ugcStepDuelDetails": "<strong>¿Cómo funciona?</strong> Pon el smartphone plano entre los dos sobre la mesa. La pantalla se divide en dos (la mitad superior gira 180° para el jugador de enfrente). Ambos votan en secreto a la vez. En cuanto los dos votan: ¡flash y revelación inmediata! <em>¡Acuerdo Perfecto! 🎉</em> o <em>¡Choque! 💥</em>. Tras 10 dilemas, descubre tu porcentaje de complicidad y tu título divertido (Almas Gemelas, Terreno Común o Zona de Guerra).",
     "ugcStep2Title": "2. Crear tus propios paquetes de cartas 🎨",
     "ugcStep2Intro": "Añade tus propios chistes o anécdotas directamente desde la aplicación en la pestaña de creación de paquetes:",
     "ugcStep2Classic": "<strong>Crear cartas Classic</strong>: Escribe comportamientos de citas (ej.: <em>Le echa kétchup a la pizza</em>). El juego las mostrará preguntando si es una Green Flag o una Red Flag.",
@@ -571,6 +617,8 @@
     "liveModerationCopy": "Las cartas oficiales son revisadas y aprobadas por el equipo — no vienen de desconocidos en Internet. Los packs creados por jugadores se quedan privados dentro de su grupo: nadie más los ve ni los recibe.",
     "changelogTitle": "Evoluciones y correcciones",
     "changelogIntro": "Historial de versiones de Swipe Panic.",
+    "cl180changes": "<li>Nuevo modo «Cara a Cara / Duelo Flash» (1 Teléfono, 2 Jugadores): pantalla dividida a 180°, votos simultáneos ocultos, revelación de Acuerdo Perfecto o Choque y puntuación de química.</li><li>Widget Nativo de Pantalla de Inicio en Android: consulta y vota en el Dilema del Día directamente desde tu escritorio con anclaje en 1 toque.</li><li>Temas y packs de temporada oficiales: atmósfera envolvente de Halloween y Fiestas de Invierno, packs San Valentín (35 cartas) y Noches de Verano (35 cartas).</li><li>Compartir anónimo y comodidad: privacidad estricta de apodos en imágenes compartidas, detección multilingüe de cartas de señalar con el dedo.</li>",
+    "cl170changes": "<li>Roles psicológicos de fiesta: Inquisidor, Corazón Blando, Pequeño Demonio o Ángel Puro calculados según los votos del grupo.</li><li>Imágenes de compartir HD en formato 9:16: exporta los momentos clave de tu resumen directo a Stories de Instagram, TikTok y WhatsApp.</li><li>Nuevos temas cosméticos desbloqueables Ciberpunk y Dorado.</li><li>Filtros de moderación local reforzados y privacidad 100% sin conexión.</li>",
     "cl161changes": "<li>Corrección de notificaciones locales en todos los dispositivos Android (activación fiable y recordatorios diarios a las 18:30).</li><li>Acceso directo al Dilema del Día en la pantalla de inicio con racha y comparación mundial en 10 segundos.</li><li>Eliminación de carteles y etiquetas Live cuando no hay evento activo.</li><li>Pack oficial Fiestas de Invierno (35 cartas), perfil psicológico de fiesta y mejor respuesta háptica.</li>",
     "cl150changes": "<li>Pack oficial «Especial Halloween»: 35 dilemas inéditos de risas y sustos con amigos.</li><li>Tema visual inmersivo de Halloween: noche terrorífica y naranja calabaza neón.</li><li>Dilema Express diario: escudo de racha semanal y 4 medallas de coleccionista.</li><li>Pack de Fin de Semana rotativo: selección festiva cada viernes.</li><li>Votación y resultados claros: interfaz de dilema más fluida y expresiva.</li>",
     "cl140changes": "<li>Nuevo pack «Vuelta a Clases»: 35 dilemas inéditos sobre la vida de campus, compañeros de piso y la alarma de las 7.</li><li>Rondas rápidas de 10 cartas: inicia debates y risas en menos de 2 minutos por defecto.</li><li>Inicio instantáneo y revancha de grupo: botón principal accesible sin scroll y revancha en 1 toque con tu último grupo.</li><li>Resumen de fin de ronda optimizado: destaca el momento más memorable con botones rápidos de revancha y compartir.</li><li>Publicidad no intrusiva: sin anuncios forzados en la primera partida y transiciones respetuosas.</li>",
@@ -601,6 +649,13 @@
     "heroCopy": "Das Partyspiel, das deine Gruppe in 5 Minuten enthüllt: Red Flags, Quiz, Wahrheit oder Pflicht, Freunde-Packs und private Recaps.",
     "download": "Herunterladen",
     "suggestCta": "Karte vorschlagen",
+    "themePickerLabel": "🎨 Design:",
+    "themeClassic": "Klassisch",
+    "themeHalloween": "Halloween",
+    "themeWinter": "Winter & Festtage",
+    "modeDuel": "Blitz-Duell",
+    "duelBadge": "⚡ 1 SMARTPHONE · 2 SPIELER",
+    "duelCopy": "Spielt Kopf-an-Kopf auf demselben Bildschirm: stimmt gleichzeitig geheim ab, sofortige Enthüllung von Harmonie oder Clash und Kompatibilitäts-Score!",
     "featuresTitle": "Entscheidungen, die Diskussionen starten",
     "featuresCopy": "Swipe Panic funktioniert ohne Cloud-Konto: Solo, geteiltes Telefon und lokales Wi-Fi sind für schnelle Partys gemacht.",
     "classicCopy": "Swipe Red Flags und Green Flags und entdecke das Profil der Runde.",
@@ -608,7 +663,10 @@
     "partyCopy": "Wahrheit oder Pflicht, Freunde-Packs, lokale Stimmen und ein klarer Recap.",
     "navPacks": "Packs",
     "seasonalTitle": "Saisonale & Thematische Packs",
-    "seasonalCopy": "Entdecke die beliebtesten Packs der Saison: verfügbar in der App und direkt im Web spielbar!",
+    "seasonalBannerHalloween": "🎃 HALLOWEEN-SPEZIAL · 35 gruselig-witzige Dilemmata für Partys!",
+    "seasonalBannerHalloweenCta": "⚡ Dieses Pack spielen",
+    "seasonalBannerWinter": "❄️ WINTER & FESTTAGE · 35 festliche Dilemmas zum Jahresende!",
+    "seasonalBannerWinterCta": "⚡ Dieses Pack spielen",
     "packHalloweenTitle": "🎃 Halloween Spezial",
     "packHalloweenDesc": "35 gruselig-lustige Party-Dilemmas: Spukhäuser, fragwürdige Kostüme, Horrorfilme und geklaute Süßigkeiten.",
     "packWinterTitle": "❄️ Winter & Festtage",
@@ -624,6 +682,7 @@
     "dailyConsensusAccept": "{pct}% Akzeptieren",
     "dailyConsensusReject": "{pct}% Lehnen ab",
     "dailyConsensusSample": "Basierend auf {sample} verifizierten Stimmen",
+    "countryThresholdHint": "✓ Stimme für {flag} gezählt! Länderstatistiken erscheinen ab 15 Stimmen.",
     "dailyDilemmaCtaSubtitle": "Jeden Tag 1 exklusives Dilemma und deine Gruppen-Statistiken in der App!",
     "dailyDilemmaStoreCta": "⚡ In der App spielen",
     "collectionTitle": "Baue deine legendäre Sammlung",
@@ -701,6 +760,9 @@
     "ugcStep1Classic": "<strong>Im Classic-Modus (Flags) 🚩/✅</strong>: Das Handy zeigt einen verdeckten Übergangsbildschirm, damit der nächste Spieler die Karte nicht sieht. Nimm das Handy, tippe, um die Situation zu enthüllen, wische heimlich deine Wahl und gib es an den Nächsten weiter!",
     "ugcStep1Quiz": "<strong>Im Quiz-Modus (Richtig/Falsch) 🧠</strong>: Das funktioniert genauso mit verdecktem Bildschirm, um Spoiler zu vermeiden. Der Timer startet erst, wenn du tippst, um die Frage zu enthüllen!",
     "ugcStep1Social": "<strong>Im Party-Modus (Wahrheit/Pflicht) 😈</strong>: Hier gibt es keine verdeckten Karten! Der aktive Spieler liest die Karte laut vor und muss die Pflicht erfüllen oder die Wahrheit vor allen beantworten.",
+    "ugcStepDuelTitle": "⚡ Face-to-Face-Modus (Blitz-Duell): 1 Smartphone, 2 Spieler",
+    "ugcStepDuelIntro": "Der ultimative Modus, um eure Verbundenheit als Paar oder unter Freunden direkt auf die Probe zu stellen:",
+    "ugcStepDuelDetails": "<strong>Wie funktioniert es?</strong> Legt das Smartphone flach zwischen euch auf den Tisch. Der Bildschirm teilt sich in zwei Hälften (die obere Hälfte dreht sich um 180° für den Mitspieler gegenüber). Beide Spieler stimmen gleichzeitig geheim ab. Sobald beide gestimmt haben: Sofortiger Flash und Enthüllung! <em>Perfektes Match 🎉</em> oder <em>Clash 💥</em>. Nach 10 Dilemmas seht ihr euren Kompatibilitäts-Prozentsatz und lustigen Titel (Seelenverwandte, Goldene Mitte oder Kriegsgebiet)!",
     "ugcStep2Title": "2. Eigene Kartensets erstellen 🎨",
     "ugcStep2Intro": "Füge deine eigenen Insider-Witze oder Anekdoten direkt in der App im Bereich 'Karten erstellen' hinzu:",
     "ugcStep2Classic": "<strong>Classic erstellen</strong>: Schreibe Dating-Verhaltensweisen auf (z.B. <em>Er/Sie macht Ketchup auf die Pizza</em>). Das Spiel fragt dann, ob das ein Green Flag oder Red Flag ist.",
@@ -766,6 +828,8 @@
     "liveModerationCopy": "Offizielle Karten werden vom Team geprüft und freigegeben — sie stammen nicht von Fremden aus dem Internet. Von Spielern erstellte Packs bleiben privat in ihrer Gruppe: niemand sonst sieht oder erhält sie.",
     "changelogTitle": "Entwicklungen und Korrekturen",
     "changelogIntro": "Versionsverlauf von Swipe Panic.",
+    "cl180changes": "<li>Neuer Modus «Face-to-Face / Blitz-Duell» (1 Smartphone, 2 Spieler): 180°-Split-Screen, gleichzeitige verdeckte Abstimmung, Enthüllung von Perfektem Match oder Clash und Chemie-Score.</li><li>Natives Android-Startbildschirm-Widget: Sieh und stimme über das Dilemma des Tages direkt von deinem Desktop ab, mit 1-Tap-Anheften.</li><li>Saisonale Themes &amp; offizielle Packs: Immersive Halloween- und Winter-Atmosphäre, Valentinstag- (35 Karten) und Sommernächte-Packs (35 Karten).</li><li>Anonymes Teilen &amp; Komfort: Strikter Datenschutz für Spielernamen in geteilten Bildern, mehrsprachige Erkennung von Zeigefinger-Karten.</li>",
+    "cl170changes": "<li>Party-Persönlichkeitsrollen: Inquisitor, Weiches Herz, Kleiner Dämon oder Reiner Engel berechnet aus den Gruppenstimmen.</li><li>HD 9:16 Story-Bilder zum Teilen: Exportiere Highlights direkt in Instagram-, TikTok- und WhatsApp-Stories.</li><li>Freischaltbare Cyberpunk- und Gold-Designs.</li><li>Verstärkte lokale Moderationsfilter und 100% Offline-Datenschutz.</li>",
     "cl161changes": "<li>Behebung lokaler Benachrichtigungen auf allen Android-Geräten (zuverlässige Aktivierung und Dilemma-Erinnerungen um 18:30 Uhr).</li><li>Direkter Zugriff auf das Dilemma des Tages auf dem Startbildschirm mit Streak und weltweitem Vergleich in 10 Sekunden.</li><li>Entfernung von Live-Bannern und -Badges, wenn kein Stream aktiv ist.</li><li>Offizielles Winter- &amp; Festtags-Pack (35 Karten), lokales Party-Profil und verfeinerte Haptik.</li>",
     "cl150changes": "<li>Offizielles „Halloween-Special“-Pack: 35 brandneue gruselige und witzige Dilemmata für Partys.</li><li>Immersives Halloween-Theme: schaurig-schöne Nachtatmosphäre und Kürbis-Neon.</li><li>Tägliches Express-Dilemma: Wöchentlicher Streak-Schild und 4 Sammler-Abzeichen.</li><li>Rotierendes Wochenend-Party-Pack: jeden Freitag automatisch im Rampenlicht.</li><li>Klarere Dilemma-Abstimmung: intuitive Buttons und detaillierte Konsens-Anzeige.</li>",
     "cl140changes": "<li>Neues „Schulanfang“-Pack: 35 frische Dilemmas über Campus-Alltag, WG-Chaos und den Wecker um 7 Uhr.</li><li>Schnelle 10-Karten-Runden: Startet die Diskussionen und Lacher standardmäßig in unter 2 Minuten.</li><li>Direkter Start &amp; Gruppen-Replay: Haupt-Button sofort sichtbar und 1-Klick-Replay mit deiner letzten Gruppe.</li><li>Optimierter Rundenrückblick: Hebt den denkwürdigsten Moment hervor mit direktem „Noch 10 Karten“- und Teilen-Button.</li><li>Angenehmes Werbeerlebnis: Garantiert keine Werbung nach der ersten Runde und ruhige Übergänge.</li>",
@@ -795,6 +859,13 @@
     "heroCopy": "De partygame die je groep in 5 minuten onthult: red flags, quiz, Truth or Dare, vriendenpacks en privé-samenvattingen.",
     "download": "Downloaden",
     "suggestCta": "Kaart voorstellen",
+    "themePickerLabel": "🎨 Thema:",
+    "themeClassic": "Klassiek",
+    "themeHalloween": "Halloween",
+    "themeWinter": "Winter & Feestdagen",
+    "modeDuel": "Flitsduel",
+    "duelBadge": "⚡ 1 TELEFOON · 2 SPELERS",
+    "duelCopy": "Speel oog in oog op hetzelfde scherm: stem tegelijk in het geheim, directe onthulling van harmonie of clash en compatibiliteitsscore!",
     "featuresTitle": "Keuzes die discussie starten",
     "featuresCopy": "Swipe Panic werkt zonder cloudaccount: solo, telefoon delen en lokale Wi-Fi zijn gemaakt voor snelle feestjes.",
     "classicCopy": "Swipe red flags en green flags en ontdek het profiel van de ronde.",
@@ -802,7 +873,10 @@
     "partyCopy": "Truth or Dare, vriendenpacks, lokale stemmen en een heldere samenvatting.",
     "navPacks": "Packs",
     "seasonalTitle": "Seizoens- & Themapacks",
-    "seasonalCopy": "Ontdek onze seizoenspacks: beschikbaar in de mobiele app en direct speelbaar in je browser!",
+    "seasonalBannerHalloween": "🎃 HALLOWEEN SPECIAL · 35 hilarische griezeldilemma's met vrienden!",
+    "seasonalBannerHalloweenCta": "⚡ Speel dit pack",
+    "seasonalBannerWinter": "❄️ WINTER & FEESTDAGEN · 35 eindejaarsdilemma's en gezelligheid!",
+    "seasonalBannerWinterCta": "⚡ Speel dit pack",
     "packHalloweenTitle": "🎃 Halloween Special",
     "packHalloweenDesc": "35 griezelige en hilarische partydilemma's: spookhuizen, foute kostuums, horrorfilms en snoep pikken.",
     "packWinterTitle": "❄️ Winter & Feestdagen",
@@ -818,6 +892,7 @@
     "dailyConsensusAccept": "{pct}% Accepteert",
     "dailyConsensusReject": "{pct}% Weigert",
     "dailyConsensusSample": "Gebaseerd op {sample} geverifieerde stemmen",
+    "countryThresholdHint": "✓ Stem geregistreerd voor {flag}! Landstatistieken verschijnen vanaf 15 stemmen.",
     "dailyDilemmaCtaSubtitle": "Elke dag 1 exclusief dilemma en je groepsstatistieken in de app!",
     "dailyDilemmaStoreCta": "⚡ Speel in de app",
     "collectionTitle": "Bouw je legendarische collectie",
@@ -890,6 +965,9 @@
     "ugcStep1Classic": "<strong>In Classic-modus (Flags) 🚩/✅</strong>: De telefoon toont een verborgen tussenscherm zodat de volgende speler de kaart niet kan zien. Pak de telefoon, tik om de situatie te onthullen, swipe je keuze in het geheim en geef hem door aan de volgende!",
     "ugcStep1Quiz": "<strong>In Quiz-modus (Waar/Niet waar) 🧠</strong>: Dit werkt hetzelfde met een verborgen scherm om spoilers te voorkomen. De individuele timer start pas wanneer je tikt om de vraag te onthullen!",
     "ugcStep1Social": "<strong>In Party-modus (Truth/Dare) 😈</strong>: Geen verborgen kaarten hier! De actieve speler leest de kaart hardop voor en moet de opdracht uitvoeren of de waarheidsvraag beantwoorden voor iedereen.",
+    "ugcStepDuelTitle": "⚡ Oog-in-Oog-modus (Flitsduel): 1 Telefoon, 2 Spelers",
+    "ugcStepDuelIntro": "De ultieme modus om jullie chemie als koppel of tussen vrienden direct te testen:",
+    "ugcStepDuelDetails": "<strong>Hoe werkt het?</strong> Leg de smartphone plat tussen jullie beiden op tafel. Het scherm splitst in tweeën (de bovenste helft draait 180° voor de tegenoverzittende speler). Beide spelers stemmen tegelijk in het geheim. Zodra beiden gestemd hebben: flits en directe onthulling! <em>Perfecte Match 🎉</em> of <em>Clash 💥</em>. Na 10 dilemma's ontdek je jullie chemiepercentage en grappige titel (Zielsverwanten, Middenweg of Oorlogsgebied)!",
     "ugcStep2Title": "2. Je eigen kaartenpacks maken 🎨",
     "ugcStep2Intro": "Voeg je eigen grappen of insider-verhalen toe direct in de app via het tabblad kaarten maken:",
     "ugcStep2Classic": "<strong>Classic maken</strong>: Schrijf datinggedrag op (bijv. <em>Zet ketchup op pizza</em>). De game toont ze en vraagt spelers of het een Green Flag of Red Flag is.",
@@ -962,6 +1040,8 @@
     "liveModerationCopy": "Officiële kaarten worden door het team beoordeeld en goedgekeurd — ze komen niet van vreemden op internet. Packs gemaakt door spelers blijven privé binnen hun groep: niemand anders ziet of ontvangt ze.",
     "changelogTitle": "Updates en verbeteringen",
     "changelogIntro": "Versiegeschiedenis van Swipe Panic.",
+    "cl180changes": "<li>Nieuwe modus «Oog-in-Oog / Flitsduel» (1 Telefoon, 2 Spelers): 180° gesplitst scherm, gelijktijdige geheime stemmen, onthulling van Perfecte Match of Clash en chemiescore.</li><li>Native Android-startschermwidget: bekijk en stem op het Dilemma van de Dag direct vanaf je startscherm met 1-tik-vastmaken.</li><li>Seizoensthema's &amp; officiële packs: meeslepende Halloween- en Winterfeestsferen, Valentijnsdag- (35 kaarten) en Zomeravondpacks (35 kaarten).</li><li>Anoniem delen &amp; comfort: strikte pseudoniemprivacy in gedeelde afbeeldingen, meertalige detectie van wijzende vinger-kaarten.</li>",
+    "cl170changes": "<li>Party-persoonlijkheidsrollen: Inquisiteur, Zacht Hart, Klein Duiveltje of Pure Engel berekend op basis van groepsstemmen.</li><li>HD 9:16 Story-deelafbeeldingen: exporteer hoogtepunten direct naar Instagram, TikTok en WhatsApp Stories.</li><li>Ontgrendelbare Cyberpunk- en Goudthema's.</li><li>Versterkte lokale moderatiefilters en 100% offline privacy.</li>",
     "cl161changes": "<li>Lokale meldingen gerepareerd op alle Android-apparaten (betrouwbare activering en dagelijkse herinneringen om 18:30).</li><li>Directe toegang tot het Dilemma van de Dag op het startscherm met streak en wereldwijde vergelijking in 10 seconden.</li><li>Verwijdering van Live-banners en badges wanneer er geen live-evenement plaatsvindt.</li><li>Officieel Winterfeestdagen-pack (35 kaarten), psychologisch partyprofiel en verfijnde haptiek.</li>",
     "cl150changes": "<li>Officieel „Halloween Special”-pack: 35 gloednieuwe hilarische griezeldilemma's met vrienden.</li><li>Meeslepend Halloween-thema: sfeervolle nachtkleuren en neon-pompoenaccenten.</li><li>Dagelijks Express-dilemma: Wekelijks streak-schild en 4 verzamelbadges om vrij te spelen.</li><li>Roterend Weekend Party Pack: elke vrijdag automatisch feestelijk uitgelicht.</li><li>Kristalheldere dilemma-ervaring: duidelijke stemknoppen en gedetailleerde consensus.</li>",
     "cl140changes": "<li>Nieuw „Terug naar School”-pack: 35 nieuwe dilemma's over campusleven, studentenhuizen en de wekker om 7 uur.</li><li>Snelle rondes van 10 kaarten: start binnen 2 minuten het debat en het lachen.</li><li>Direct starten &amp; groep-replay: startknop direct zichtbaar en 1-klik-replay met je laatste vriendengroep.</li><li>Gestroomlijnd overzicht: zet het meest memorabele moment centraal met directe knoppen voor nog 10 kaarten of delen.</li><li>Rustige advertentie-ervaring: geen verplichte advertenties na het eerste spel en respect voor het speltempo.</li>",
@@ -991,6 +1071,13 @@
     "heroCopy": "O party game que revela o teu grupo em 5 minutos: red flags, quiz, Verdade ou Desafio, packs de amigos e resumos privados.",
     "download": "Transferir",
     "suggestCta": "Sugerir uma carta",
+    "themePickerLabel": "🎨 Tema:",
+    "themeClassic": "Clássico",
+    "themeHalloween": "Halloween",
+    "themeWinter": "Festas de Inverno",
+    "modeDuel": "Duelo Flash",
+    "duelBadge": "⚡ 1 TELEMÓVEL · 2 JOGADORES",
+    "duelCopy": "Joguem frente a frente no mesmo ecrã: votem simultaneamente em segredo, revelação instantânea de sintonia ou choque e pontuação de cumplicidade!",
     "featuresTitle": "Escolhas que puxam conversa",
     "featuresCopy": "Swipe Panic funciona sem conta cloud: solo, telemóvel partilhado e Wi-Fi local foram feitos para sessões rápidas.",
     "classicCopy": "Faz swipe em red flags e green flags, depois descobre o perfil da partida.",
@@ -998,7 +1085,10 @@
     "partyCopy": "Verdade ou Desafio, packs de amigos, votos locais e resumo claro.",
     "navPacks": "Packs",
     "seasonalTitle": "Packs Sazonais e Temáticos",
-    "seasonalCopy": "Descobre os packs de destaque da temporada: disponíveis na app móvel e jogáveis diretamente no navegador!",
+    "seasonalBannerHalloween": "🎃 ESPECIAL HALLOWEEN · 35 dilemas de risos e sustos com amigos!",
+    "seasonalBannerHalloweenCta": "⚡ Jogar este pack",
+    "seasonalBannerWinter": "❄️ FESTAS DE INVERNO · 35 dilemas de fim de ano e celebração!",
+    "seasonalBannerWinterCta": "⚡ Jogar este pack",
     "packHalloweenTitle": "🎃 Especial Halloween",
     "packHalloweenDesc": "35 dilemas assustadores e cómicos com amigos: casas assombradas, disfarces duvidosos, filmes de terror e doces roubados.",
     "packWinterTitle": "❄️ Festas de Inverno",
@@ -1014,6 +1104,7 @@
     "dailyConsensusAccept": "{pct}% Aceitam",
     "dailyConsensusReject": "{pct}% Rejeitam",
     "dailyConsensusSample": "Com base em {sample} votos verificados",
+    "countryThresholdHint": "✓ Voto registado para {flag}! As estatísticas por país aparecem a partir de 15 votos.",
     "dailyDilemmaCtaSubtitle": "Todos os dias, 1 dilema exclusivo e as tuas estatísticas de grupo na app!",
     "dailyDilemmaStoreCta": "⚡ Jogar na aplicação",
     "collectionTitle": "Constrói a tua coleção lendária",
@@ -1086,6 +1177,9 @@
     "ugcStep1Classic": "<strong>No modo Classic (Bandeiras) 🚩/✅</strong>: O telemóvel mostra um ecrã oculto para que o jogador seguinte não veja a carta. Pega no telemóvel, toca para revelar a situação, faz swipe na tua escolha em segredo e passa ao seguinte!",
     "ugcStep1Quiz": "<strong>No modo Quiz (Verdadeiro/Falso) 🧠</strong>: Funciona da mesma forma com um ecrã oculto para evitar spoilers. O cronómetro individual só começa quando tocas para revelar a pergunta!",
     "ugcStep1Social": "<strong>No modo Party (Verdade ou Desafio) 😈</strong>: Aqui não há ecrãs ocultos! O jogador ativo lê a carta em voz alta e deve cumprir o desafio ou responder à verdade em frente de todos.",
+    "ugcStepDuelTitle": "⚡ Modo Frente a Frente (Duelo Flash): 1 Telemóvel, 2 Jogadores",
+    "ugcStepDuelIntro": "O modo definitivo para testarem a vossa cumplicidade em casal ou entre amigos no momento:",
+    "ugcStepDuelDetails": "<strong>Como funciona?</strong> Coloquem o telemóvel na mesa entre os dois. O ecrã divide-se ao meio (a metade superior roda 180° para o jogador da frente). Ambos votam em segredo ao mesmo tempo. Assim que ambos votarem: flash e revelação instantânea! <em>Sintonia Perfeita 🎉</em> ou <em>Choque 💥</em>. Após 10 dilemas, vejam a vossa percentagem de cumplicidade e título divertido (Almas Gémeas, Meio-Termo ou Zona de Guerra)!",
     "ugcStep2Title": "2. Criar os teus próprios pacotes de cartas 🎨",
     "ugcStep2Intro": "Adiciona as tuas próprias piadas ou anedotas diretamente na app, no separador de criação de pacotes:",
     "ugcStep2Classic": "<strong>Criar cartas Classic</strong>: Escreve comportamentos de namoro (ex: <em>Põe ketchup na pizza</em>). O jogo irá mostrá-los perguntando se é Green Flag ou Red Flag.",
@@ -1158,6 +1252,8 @@
     "liveModerationCopy": "As cartas oficiais são revistas e aprovadas pela equipa — não vêm de desconhecidos na Internet. Os packs criados por jogadores ficam privados dentro do seu grupo: mais ninguém os vê ou recebe.",
     "changelogTitle": "Evoluções e correções",
     "changelogIntro": "Histórico de versões do Swipe Panic.",
+    "cl180changes": "<li>Novo modo «Frente a Frente / Duelo Flash» (1 Telemóvel, 2 Jogadores): ecrã dividido a 180°, votos simultâneos ocultos, revelação de Sintonia Perfeita ou Choque e pontuação de química.</li><li>Widget Nativo de Ecrã Principal Android: vê e vota no Dilema do Dia diretamente do ambiente de trabalho com fixação em 1 toque.</li><li>Temas sazonais e packs oficiais: ambiente imersivo de Halloween e Festas de Inverno, packs Dia dos Namorados (35 cartas) e Noites de Verão (35 cartas).</li><li>Partilha anónima e conforto: privacidade estrita de pseudónimos em imagens partilhadas, deteção multilingue de cartas de apontar o dedo.</li>",
+    "cl170changes": "<li>Papéis psicológicos de festa: Inquisidor, Coração Mole, Pequeno Demónio ou Anjo Puro calculados a partir dos votos do grupo.</li><li>Imagens de partilha HD em formato 9:16: exporta os momentos altos diretamente para Stories de Instagram, TikTok e WhatsApp.</li><li>Novos temas cosméticos desbloqueáveis Cyberpunk e Dourado.</li><li>Filtros de moderação local reforçados e privacidade 100% offline.</li>",
     "cl161changes": "<li>Correção de notificações locais em todos os dispositivos Android (ativação fiável e lembretes diários às 18:30).</li><li>Acesso direto ao Dilema do Dia no ecrã inicial com sequência e comparação mundial em 10 segundos.</li><li>Remoção de banners e etiquetas Live quando não há evento em direto.</li><li>Pack oficial Festas de Inverno (35 cartas), perfil psicológico de festa e resposta háptica aprimorada.</li>",
     "cl150changes": "<li>Pack oficial «Especial Halloween»: 35 dilemas inéditos de risos e sustos com amigos.</li><li>Tema visual imersivo de Halloween: atmosfera noturna e laranja abóbora néon.</li><li>Dilema Diário Expresso: escudo de sequência semanal e 4 emblemas de colecionador.</li><li>Pack de Fim de Semana rotativo: seleção festiva automática todas as sextas-feiras.</li><li>Votação e consenso mais claros: interface intuitiva e resultados expressivos.</li>",
     "cl140changes": "<li>Novo pack «Regresso às Aulas»: 35 dilemas inéditos sobre vida de campus, colegas de casa e o despertador das 7h.</li><li>Rondas rápidas de 10 cartas: começa o debate e as gargalhadas em menos de 2 minutos por padrão.</li><li>Início instantâneo e desforra de grupo: botão principal visível sem deslizar e desforra em 1 toque com o último grupo.</li><li>Resumo de final de ronda aperfeiçoado: destaque para o momento mais marcante com botões imediatos de desforra e partilha.</li><li>Experiência de anúncios tranquila: zero anúncios forçados no primeiro jogo e transições suaves.</li>",
@@ -1537,6 +1633,23 @@
     return _dilemmaVoteConfigPromise;
   }
 
+  const LANG_TO_DEFAULT_FLAG = {
+    fr: '🇫🇷',
+    en: '🇺🇸',
+    es: '🇪🇸',
+    de: '🇩🇪',
+    nl: '🇳🇱',
+    pt: '🇧🇷'
+  };
+
+  function getPlayerCountryFlag(lang) {
+    try {
+      const stored = localStorage.getItem('sp_country');
+      if (stored) return stored;
+    } catch (_) {}
+    return LANG_TO_DEFAULT_FLAG[lang] || '🇫🇷';
+  }
+
   async function submitDilemmaVote(cardId, choice, lang) {
     const config = await loadVoteConfig();
     if (!config || !config.formId || !config.entries) return;
@@ -1546,6 +1659,8 @@
       if (config.entries.card_id) body.append(config.entries.card_id, cardId);
       if (config.entries.choice) body.append(config.entries.choice, choice);
       if (config.entries.lang) body.append(config.entries.lang, lang);
+      const flag = getPlayerCountryFlag(lang);
+      if (config.entries.country && flag) body.append(config.entries.country, flag);
       fetch(url, { method: 'POST', mode: 'no-cors', body: body }).catch(() => {});
     } catch (_) {}
   }
@@ -1650,23 +1765,30 @@
       // Sample size
       const sampleNode = document.getElementById('daily-consensus-sample');
       if (sampleNode) {
-        const sample = stats?.sample_size || 0;
+        const sample = (stats?.sample_size || 0) + (existingVote ? 0 : 1);
         sampleNode.textContent = (copy.dailyConsensusSample || 'Basé sur {sample} votes vérifiés').replace('{sample}', sample);
       }
 
-      // Country chips
+      // Country chips & feedback
       const countryGrid = document.getElementById('daily-country-breakdown');
-      if (countryGrid && stats && stats.countries) {
+      if (countryGrid) {
         countryGrid.innerHTML = '';
-        const flags = Object.keys(stats.countries).slice(0, 8);
-        flags.forEach((flag) => {
-          const c = stats.countries[flag];
-          if (!c) return;
-          const chip = document.createElement('div');
-          chip.className = 'daily-country-chip';
-          chip.innerHTML = `<span>${flag}</span> <span class="pct-green">${c.accept}%</span> / <span class="pct-red">${c.reject}%</span>`;
-          countryGrid.appendChild(chip);
-        });
+        if (stats && stats.countries) {
+          const flags = Object.keys(stats.countries).slice(0, 8);
+          flags.forEach((flag) => {
+            const c = stats.countries[flag];
+            if (!c) return;
+            const chip = document.createElement('div');
+            chip.className = 'daily-country-chip';
+            chip.innerHTML = `<span>${flag}</span> <span class="pct-green">${c.accept}%</span> / <span class="pct-red">${c.reject}%</span>`;
+            countryGrid.appendChild(chip);
+          });
+        }
+        const playerFlag = getPlayerCountryFlag(lang);
+        const hintDiv = document.createElement('div');
+        hintDiv.className = 'daily-country-hint';
+        hintDiv.textContent = (copy.countryThresholdHint || '✓ Vote comptabilisé pour {flag} ! Les statistiques par pays apparaissent dès 15 votes.').replace('{flag}', playerFlag);
+        countryGrid.appendChild(hintDiv);
       }
 
       // Store CTA link with UTM
@@ -1751,6 +1873,7 @@
     renderRandomCardPreview(lang);
     renderLiveFeatured(lang);
     renderDailyDilemma(lang);
+    updateSeasonalBanner(lang);
   }
 
   const blockedKeywords = [
@@ -1962,8 +2085,68 @@
     copyButton?.addEventListener('click', () => copySuggestion(getLang()));
   }
 
+  function getAutoTheme() {
+    const month = new Date().getMonth(); // 9 = October, 11 = December, 0 = January
+    if (month === 9) return 'halloween';
+    if (month === 11 || month === 0) return 'winter';
+    return 'classic';
+  }
+
+  function updateSeasonalBanner(currentLang) {
+    const theme = localStorage.getItem('sp_theme') || getAutoTheme();
+    const banner = document.getElementById('seasonal-event-banner');
+    if (!banner) return;
+    const dict = dictionary[currentLang] || dictionary.fr;
+    if (theme === 'halloween') {
+      banner.className = 'seasonal-event-banner halloween-banner';
+      banner.style.display = 'inline-flex';
+      banner.innerHTML = `<span>${dict.seasonalBannerHalloween || "🎃 SPÉCIAL HALLOWEEN · 35 dilemmes frissons et fous rires entre potes !"}</span> <a href="./play.html?pack=halloween_pack" class="seasonal-banner-btn">${dict.seasonalBannerHalloweenCta || "⚡ Jouer ce pack"}</a>`;
+    } else if (theme === 'winter') {
+      banner.className = 'seasonal-event-banner winter-banner';
+      banner.style.display = 'inline-flex';
+      banner.innerHTML = `<span>${dict.seasonalBannerWinter || "❄️ FÊTES D'HIVER · 35 dilemmes de réveillon, cadeaux gênants et raclette !"}</span> <a href="./play.html?pack=winter_holidays_pack" class="seasonal-banner-btn">${dict.seasonalBannerWinterCta || "⚡ Jouer ce pack"}</a>`;
+    } else {
+      banner.style.display = 'none';
+      banner.innerHTML = '';
+    }
+  }
+
+  function applyTheme(theme, currentLang) {
+    document.body.classList.remove('theme-halloween', 'theme-winter');
+    if (theme === 'halloween') {
+      document.body.classList.add('theme-halloween');
+    } else if (theme === 'winter') {
+      document.body.classList.add('theme-winter');
+    }
+    localStorage.setItem('sp_theme', theme);
+
+    // Update active state on theme buttons
+    document.querySelectorAll('[data-theme]').forEach((btn) => {
+      btn.classList.toggle('active', btn.getAttribute('data-theme') === theme);
+    });
+
+    updateSeasonalBanner(currentLang || getLang());
+  }
+
+  function initSeasonalTheme(currentLang) {
+    const savedTheme = localStorage.getItem('sp_theme');
+    const activeTheme = savedTheme || getAutoTheme();
+    applyTheme(activeTheme, currentLang);
+  }
+
+  function wireThemeSwitcher() {
+    document.querySelectorAll('[data-theme]').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const theme = btn.getAttribute('data-theme') || 'classic';
+        applyTheme(theme, getLang());
+      });
+    });
+  }
+
   const lang = getLang();
   setText(lang);
+  initSeasonalTheme(lang);
+  wireThemeSwitcher();
   wireSuggestion(lang);
   const randomCardButton = document.getElementById('random-card-button');
   if (randomCardButton) {

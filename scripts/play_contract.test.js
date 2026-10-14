@@ -213,3 +213,117 @@ test('daily.json is configured with valid cards and 6-language copy', () => {
   }
 });
 
+test('seasonal themes and banners are present across index.html, play.html and styles.css', () => {
+  const indexHtml = fs.readFileSync(path.join(ROOT, 'index.html'), 'utf8');
+  const playHtml = fs.readFileSync(path.join(ROOT, 'play.html'), 'utf8');
+  const stylesCss = fs.readFileSync(path.join(ROOT, 'styles.css'), 'utf8');
+  const siteJs = fs.readFileSync(path.join(ROOT, 'site.js'), 'utf8');
+
+  // CSS theme classes
+  assert.ok(stylesCss.includes('body.theme-halloween'), 'styles.css missing body.theme-halloween');
+  assert.ok(stylesCss.includes('body.theme-winter'), 'styles.css missing body.theme-winter');
+  assert.ok(stylesCss.includes('.seasonal-event-banner'), 'styles.css missing .seasonal-event-banner');
+
+  // index.html theme switch & seasonal banner
+  assert.ok(indexHtml.includes('class="theme-switch"'), 'index.html missing .theme-switch');
+  assert.ok(indexHtml.includes('data-theme="halloween"'), 'index.html missing halloween button');
+  assert.ok(indexHtml.includes('data-theme="winter"'), 'index.html missing winter button');
+  assert.ok(indexHtml.includes('id="seasonal-event-banner"'), 'index.html missing #seasonal-event-banner');
+
+  // play.html theme switch inline & seasonal packs
+  assert.ok(playHtml.includes('id="themeSwitchInline"'), 'play.html missing #themeSwitchInline');
+  assert.ok(playHtml.includes('data-theme="halloween"'), 'play.html missing halloween button');
+  assert.ok(playHtml.includes('data-theme="winter"'), 'play.html missing winter button');
+  assert.ok(playHtml.includes('value="halloween_pack"'), 'play.html missing halloween_pack');
+  assert.ok(playHtml.includes('value="winter_holidays_pack"'), 'play.html missing winter_holidays_pack');
+  assert.ok(playHtml.includes('value="valentines_pack"'), 'play.html missing valentines_pack');
+  assert.ok(playHtml.includes('value="summer_pack"'), 'play.html missing summer_pack');
+
+  // site.js seasonal banners in all 6 languages
+  for (const lang of ['fr', 'en', 'es', 'de', 'nl', 'pt']) {
+    assert.ok(siteJs.includes(`"seasonalBannerHalloween"`), 'site.js missing seasonalBannerHalloween');
+    assert.ok(siteJs.includes(`"seasonalBannerWinter"`), 'site.js missing seasonalBannerWinter');
+  }
+});
+
+test('Flash Duel (Face-to-Face) mode is integrated across index, ugc, changelog and site.js (all 6 languages)', () => {
+  const indexHtml = fs.readFileSync(path.join(ROOT, 'index.html'), 'utf8');
+  const ugcHtml = fs.readFileSync(path.join(ROOT, 'ugc.html'), 'utf8');
+  const changelogHtml = fs.readFileSync(path.join(ROOT, 'changelog.html'), 'utf8');
+  const siteJs = fs.readFileSync(path.join(ROOT, 'site.js'), 'utf8');
+
+  // index.html features section contains the Duel Flash card
+  assert.ok(indexHtml.includes('data-i18n="modeDuel"'), 'index.html missing modeDuel');
+  assert.ok(indexHtml.includes('data-i18n="duelBadge"'), 'index.html missing duelBadge');
+  assert.ok(indexHtml.includes('data-i18n="duelCopy"'), 'index.html missing duelCopy');
+
+  // ugc.html contains the Face-to-Face step
+  assert.ok(ugcHtml.includes('data-i18n="ugcStepDuelTitle"'), 'ugc.html missing ugcStepDuelTitle');
+  assert.ok(ugcHtml.includes('data-i18n="ugcStepDuelIntro"'), 'ugc.html missing ugcStepDuelIntro');
+  assert.ok(ugcHtml.includes('data-i18n="ugcStepDuelDetails"'), 'ugc.html missing ugcStepDuelDetails');
+
+  // changelog.html contains v1.8.0 and v1.7.0
+  assert.ok(changelogHtml.includes('1.8.0'), 'changelog.html missing v1.8.0');
+  assert.ok(changelogHtml.includes('1.7.0'), 'changelog.html missing v1.7.0');
+  assert.ok(changelogHtml.includes('data-i18n="cl180changes"'), 'changelog.html missing cl180changes');
+  assert.ok(changelogHtml.includes('data-i18n="cl170changes"'), 'changelog.html missing cl170changes');
+
+  // Extract site.js dictionary
+  const dictMatch = siteJs.match(/const dictionary = (\{[\s\S]*?\n  \});/);
+  assert.ok(dictMatch, 'site.js dictionary block not found');
+  // eslint-disable-next-line no-new-func
+  const dictionary = new Function(`return ${dictMatch[1]}`)();
+
+  const requiredDuelKeys = [
+    'themePickerLabel',
+    'themeClassic',
+    'themeHalloween',
+    'themeWinter',
+    'modeDuel',
+    'duelBadge',
+    'duelCopy',
+    'ugcStepDuelTitle',
+    'ugcStepDuelIntro',
+    'ugcStepDuelDetails',
+    'cl180changes',
+    'cl170changes',
+  ];
+
+  for (const lang of ['fr', 'en', 'es', 'de', 'nl', 'pt']) {
+    for (const key of requiredDuelKeys) {
+      assert.ok(
+        dictionary[lang] && dictionary[lang][key],
+        `missing ${lang}.${key} in site.js dictionary`,
+      );
+    }
+  }
+});
+
+test('theme switchers and hero picker are present on all public HTML pages', () => {
+  const pages = [
+    'index.html',
+    'play.html',
+    'changelog.html',
+    'ugc.html',
+    'support.html',
+    'live.html',
+    'suggest.html',
+  ];
+
+  for (const page of pages) {
+    const html = fs.readFileSync(path.join(ROOT, page), 'utf8');
+    assert.ok(
+      html.includes('theme-switch') || html.includes('themeSwitchInline'),
+      `${page} missing theme switcher`,
+    );
+    assert.ok(html.includes('data-theme="classic"'), `${page} missing classic theme button`);
+    assert.ok(html.includes('data-theme="halloween"'), `${page} missing halloween theme button`);
+    assert.ok(html.includes('data-theme="winter"'), `${page} missing winter theme button`);
+  }
+
+  // index.html hero picker
+  const indexHtml = fs.readFileSync(path.join(ROOT, 'index.html'), 'utf8');
+  assert.ok(indexHtml.includes('hero-theme-picker'), 'index.html missing hero-theme-picker');
+});
+
+
