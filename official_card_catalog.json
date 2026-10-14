@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-14T08:35:30.941Z",
+  "updated_at": "2026-10-14T09:11:16.072Z",
   "cards": [
     {
       "id": "dating_red_1",
@@ -14383,6 +14383,636 @@
       "mode": "classic",
       "packId": "genz_pack",
       "live_tier": "safe"
+    },
+    {
+      "id": "toxic_red_1",
+      "theme": "toxic",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Refuser de donner le code de son téléphone à son partenaire après 2 ans de relation.",
+        "en": "Refusing to share your phone passcode with your partner after 2 years together.",
+        "de": "Sich weigern, dem Partner nach 2 Jahren Beziehung den Handy-Code zu geben.",
+        "es": "Negarse a darle la contraseña del móvil a tu pareja tras 2 años de relación.",
+        "nl": "Weigeren je telefooncode aan je partner te geven na 2 jaar relatie.",
+        "pt": "Recusar dar a senha do telemóvel ao parceiro após 2 anos de namoro."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "toxic_green_1",
+      "theme": "toxic",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Poser son téléphone écran vers le bas et ne pas le toucher du tout pendant un date.",
+        "en": "Keeping your phone face down and never checking it once during a date.",
+        "de": "Das Handy mit dem Display nach unten legen und während des Dates nie anfassen.",
+        "es": "Dejar el móvil boca abajo y no mirarlo ni una sola vez durante una cita.",
+        "nl": "Je telefoon met het scherm omlaag leggen en er tijdens de date niet op kijken.",
+        "pt": "Pôr o telemóvel virado para baixo e não mexer nele durante todo o encontro."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "toxic_red_2",
+      "theme": "toxic",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Suivre la position GPS de son partenaire en temps réel sous prétexte de 'sécurité'.",
+        "en": "Tracking your partner's live GPS location 24/7 under the excuse of 'safety'.",
+        "de": "Den GPS-Standort des Partners rund um die Uhr aus 'Sicherheitsgründen' tracken.",
+        "es": "Seguir la ubicación GPS de tu pareja en tiempo real con la excusa de la 'seguridad'.",
+        "nl": "De live gps-locatie van je partner volgen onder het mom van 'veiligheid'.",
+        "pt": "Seguir a localização GPS do parceiro em tempo real com a desculpa da 'segurança'."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "toxic_green_2",
+      "theme": "toxic",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Dire sincèrement 'Je suis trop fatigué ce soir, on remet ça ?' sans inventer d'excuse.",
+        "en": "Honestly saying 'I'm exhausted tonight, can we reschedule?' with zero fake excuses.",
+        "de": "Ehrlich sagen: 'Ich bin zu müde heute, verschieben wir es?' ohne faule Ausreden.",
+        "es": "Decir con total sinceridad: 'Estoy agotado, ¿lo dejamos para otro día?' sin inventos.",
+        "nl": "Eerlijk zeggen 'Ik ben echt te moe vanavond, zullen we verzetten?' zonder smoesjes.",
+        "pt": "Dizer honestamente 'Estou exausto hoje, podemos adiar?' sem inventar desculpas."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "toxic_red_3",
+      "theme": "toxic",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Garder toutes les photos de son ex sur Instagram parce que 'ça fait partie de mon passé'.",
+        "en": "Keeping all photos of your ex on Instagram because 'it's part of my past'.",
+        "de": "Alle Fotos des Ex auf Instagram behalten, weil 'es Teil meiner Vergangenheit ist'.",
+        "es": "Dejar todas las fotos con tu ex en Instagram porque 'es parte de mi pasado'.",
+        "nl": "Alle foto's van je ex op Instagram laten staan omdat 'het bij je verleden hoort'.",
+        "pt": "Manter todas as fotos do ex no Instagram porque 'faz parte do meu passado'."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "toxic_green_3",
+      "theme": "toxic",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Encourager son partenaire à partir en vacances seul avec ses propres amis.",
+        "en": "Cheering on your partner to go on vacation alone with their own friend group.",
+        "de": "Den Partner ermutigen, ganz entspannt allein mit seinen Freunden zu verreisen.",
+        "es": "Animar a tu pareja a irse de vacaciones a solas con su grupo de amigos.",
+        "nl": "Je partner aanmoedigen om lekker alleen met vrienden op vakantie te gaan.",
+        "pt": "Incentivar o parceiro a ir de férias sozinho com o próprio grupo de amigos."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "toxic_red_4",
+      "theme": "toxic",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Partir en week-end en tête-à-tête avec son meilleur ami du sexe opposé.",
+        "en": "Going on a weekend getaway alone with your best friend of the opposite gender.",
+        "de": "Ein ganzes Wochenende allein mit dem besten Freund des anderen Geschlechts verreisen.",
+        "es": "Irte de escapada de fin de semana a solas con tu mejor amigo del sexo opuesto.",
+        "nl": "Een weekendje weg gaan alleen met je beste vriend(in) van het andere geslacht.",
+        "pt": "Ir passar um fim de semana sozinho com o teu melhor amigo do sexo oposto."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "toxic_green_4",
+      "theme": "toxic",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Présenter des excuses spontanées et claires dès qu'on réalise qu'on a blessé l'autre.",
+        "en": "Apologizing promptly and sincerely the moment you realize you hurt them.",
+        "de": "Sich sofort aufrichtig entschuldigen, sobald man merkt, dass man wehgetan hat.",
+        "es": "Pedir disculpas sinceras en cuanto te das cuenta de que has herido a tu pareja.",
+        "nl": "Meteen oprecht sorry zeggen zodra je beseft dat je de ander gekwetst hebt.",
+        "pt": "Pedir desculpa de forma sincera logo que percebes que magoaste o outro."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "toxic_red_5",
+      "theme": "toxic",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Faire la tête pendant 48 heures au lieu d'expliquer ce qui ne va pas.",
+        "en": "Giving the silent treatment for 48 hours instead of explaining what's wrong.",
+        "de": "48 Stunden lang schmollen, anstatt einfach zu sagen, was nicht stimmt.",
+        "es": "Aplicar la ley del hielo durante 48 horas en vez de decir qué pasa.",
+        "nl": "48 uur lang zwijgen en mokken in plaats van uit te leggen wat er mis is.",
+        "pt": "Fazer birra durante 48 horas em vez de explicar o que se passa."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "toxic_green_5",
+      "theme": "toxic",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Se souvenir du café préféré ou du plat réconfortant de l'autre sans qu'il le demande.",
+        "en": "Remembering their favorite coffee or comfort meal without being asked.",
+        "de": "An das Lieblingsgetränk oder Soulfood des Partners denken, ohne gefragt zu werden.",
+        "es": "Recordar su café o comida favorita y traérsela de sorpresa sin que lo pida.",
+        "nl": "Precies weten wat iemands favoriete koffie of troosteten is zonder te vragen.",
+        "pt": "Lembrar o café preferido ou a comida de conforto do outro sem ele pedir."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "toxic_red_6",
+      "theme": "toxic",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Liker les photos sexy d'inconnus sur Instagram quand on est en couple.",
+        "en": "Liking spicy photos of random strangers on Instagram while in a relationship.",
+        "de": "Hot-Pics von fremden Leuten auf Instagram liken, obwohl man vergeben ist.",
+        "es": "Dar me gusta a fotos provocativas de desconocidos en Instagram teniendo pareja.",
+        "nl": "Sexy foto's van vreemden op Instagram liken terwijl je een relatie hebt.",
+        "pt": "Pôr gosto em fotos ousadas de desconhecidos no Instagram estando numa relação."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "toxic_green_6",
+      "theme": "toxic",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Laisser son partenaire dans sa bulle quand il a besoin de décompresser en silence.",
+        "en": "Giving your partner complete space when they need to recharge in silence.",
+        "de": "Dem Partner Raum lassen, wenn er einfach mal in Ruhe runterfahren muss.",
+        "es": "Darle su espacio a tu pareja cuando necesita desconectar en total silencio.",
+        "nl": "Je partner rustig in zijn eigen bubbel laten als die even stilte nodig heeft.",
+        "pt": "Dar espaço ao parceiro quando ele precisa de descontrair em silêncio."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "toxic_red_7",
+      "theme": "toxic",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Exiger de savoir exactement qui sera présent à chaque soirée où sort son partenaire.",
+        "en": "Demanding a complete guest list for every single night out your partner attends.",
+        "de": "Eine genaue Gästeliste für jeden Abend verlangen, an dem der Partner ausgeht.",
+        "es": "Exigir saber exactamente quién estará en cada fiesta a la que vaya tu pareja.",
+        "nl": "Precies willen weten wie er allemaal aanwezig is bij elk feestje van je partner.",
+        "pt": "Exigir saber exatamente quem vai estar em cada saída do teu parceiro."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "toxic_green_7",
+      "theme": "toxic",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Prendre la défense de son partenaire en public, même en cas de désaccord en privé.",
+        "en": "Backing your partner in public, even if you discuss differences in private.",
+        "de": "Den Partner in der Öffentlichkeit verteidigen und Kritik erst privat besprechen.",
+        "es": "Defender a tu pareja en público aunque luego lo habléis en privado.",
+        "nl": "Het in het openbaar altijd voor je partner opnemen en twijfels privé bespreken.",
+        "pt": "Defender o parceiro em público, mesmo que discordem em privado."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "toxic_red_8",
+      "theme": "toxic",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Rester en contact régulier avec la famille de son ex sans que son partenaire actuel le sache.",
+        "en": "Regularly chatting with your ex's family without your current partner knowing.",
+        "de": "Regelmäßig mit der Familie des Ex schreiben, ohne dass der Partner es weiß.",
+        "es": "Seguir hablando con la familia de tu ex a espaldas de tu pareja actual.",
+        "nl": "Stiekem regelmatig contact houden met de familie van je ex.",
+        "pt": "Manter contacto regular com a família do ex sem o parceiro atual saber."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "toxic_green_8",
+      "theme": "toxic",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Proposer de diviser les dépenses équitablement selon les revenus de chacun.",
+        "en": "Suggesting to split household expenses proportionally based on each one's income.",
+        "de": "Vorschlagen, gemeinsame Kosten fair nach dem jeweiligen Einkommen aufzuteilen.",
+        "es": "Proponer repartir los gastos comunes de forma proporcional al sueldo de cada uno.",
+        "nl": "Voorstellen om gezamenlijke kosten naar verhouding van inkomen te verdelen.",
+        "pt": "Propor dividir as despesas comuns de forma proporcional aos rendimentos de cada um."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "toxic_red_9",
+      "theme": "toxic",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Dire 'Tu es trop sensible' dès que son partenaire exprime une blessure ou un doute.",
+        "en": "Saying 'You're too sensitive' whenever your partner expresses hurt or doubt.",
+        "de": "Sagen 'Du bist zu empfindlich', sobald der Partner Zweifel oder Schmerz äußert.",
+        "es": "Soltar un 'Eres demasiado sensible' cada vez que tu pareja expresa una molestia.",
+        "nl": "'Je bent veel te gevoelig' zeggen zodra je partner ergens mee zit.",
+        "pt": "Dizer 'És sensível demais' sempre que o parceiro expressa uma mágoa."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "toxic_green_9",
+      "theme": "toxic",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Célébrer sincèrement une réussite professionnelle de son partenaire sans jalousie.",
+        "en": "Genuinely hyping up your partner's career win with zero secret jealousy.",
+        "de": "Den beruflichen Erfolg des Partners aufrichtig und ohne Neid feiern.",
+        "es": "Alegrarse de corazón por los éxitos laborales de tu pareja sin ninguna envidia.",
+        "nl": "Oprecht trots zijn op het carrièresucces van je partner zonder jaloezie.",
+        "pt": "Celebrar sinceramente uma conquista profissional do parceiro sem inveja."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "toxic_red_10",
+      "theme": "toxic",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Regarder discrètement l'écran du téléphone de son partenaire par-dessus son épaule.",
+        "en": "Discreetly snooping at your partner's phone screen over their shoulder.",
+        "de": "Heimlich über die Schulter auf das Handy des Partners linsen.",
+        "es": "Mirar discretamente la pantalla del móvil de tu pareja por encima del hombro.",
+        "nl": "Stiekem over de schouder van je partner meelezen op zijn of haar telefoon.",
+        "pt": "Espreitar discretamente o ecrã do telemóvel do parceiro por cima do ombro."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "toxic_green_10",
+      "theme": "toxic",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Communiquer calmement un malaise avant que la rancœur ne s'accumule.",
+        "en": "Calmly bringing up an issue right away before resentment starts building.",
+        "de": "Ein mulmiges Gefühl sofort ruhig ansprechen, bevor sich Frust anstaut.",
+        "es": "Hablar de algo que te incomoda con calma antes de que se acumule el rencor.",
+        "nl": "Meteen rustig over irritaties praten voordat frustratie zich opstapelt.",
+        "pt": "Conversar calmamente sobre um incómodo antes que se acumule ressentimento."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "toxic_red_11",
+      "theme": "toxic",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Comparer son partenaire actuel aux qualités de son ex pendant une dispute.",
+        "en": "Comparing your current partner to your ex's best traits during an argument.",
+        "de": "Den aktuellen Partner im Streit mit den Vorzügen des Ex vergleichen.",
+        "es": "Comparar a tu pareja actual con las virtudes de tu ex durante una discusión.",
+        "nl": "Je partner tijdens een ruzie vergelijken met de goede kanten van je ex.",
+        "pt": "Comparar o parceiro atual com as qualidades do ex durante uma discussão."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "toxic_green_11",
+      "theme": "toxic",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Accepter avec le sourire que son partenaire passe une soirée 'off' sans soi.",
+        "en": "Smiling and being totally cool when your partner takes an evening off alone.",
+        "de": "Entspannt lächeln, wenn der Partner mal einen Abend ganz für sich braucht.",
+        "es": "Aceptar con la mejor actitud que tu pareja quiera pasar una tarde a su aire.",
+        "nl": "Met een glimlach accepteren dat je partner een avondje lekker voor zichzelf wil.",
+        "pt": "Aceitar com um sorriso que o parceiro passe uma noite sozinho para descontrair."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "toxic_red_12",
+      "theme": "toxic",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Créer un faux profil pour tester la fidélité de son partenaire sur les réseaux.",
+        "en": "Creating a fake profile to test your partner's loyalty on social media.",
+        "de": "Einen Fake-Account erstellen, um die Treue des Partners im Netz zu testen.",
+        "es": "Crear un perfil falso para poner a prueba la fidelidad de tu pareja.",
+        "nl": "Een nepaccount aanmaken om de trouw van je partner online te testen.",
+        "pt": "Criar um perfil falso para testar a fidelidade do parceiro nas redes."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "toxic_green_12",
+      "theme": "toxic",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Envoyer un petit message pour savoir si l'autre est bien rentré sans insister.",
+        "en": "Sending a quick 'Did you get home safe?' text with zero pushiness.",
+        "de": "Eine kurze Nachricht schicken 'Gut heimgekommen?', ohne aufdringlich zu sein.",
+        "es": "Mandar un mensaje corto de '¿Llegaste bien?' sin agobiar.",
+        "nl": "Een lief appje sturen om te checken of iemand veilig thuis is, zonder gedoe.",
+        "pt": "Mandar uma mensagem rápida a saber se o outro chegou bem a casa, sem pressão."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "toxic_red_13",
+      "theme": "toxic",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Menacer de rompre à chaque désaccord pour obtenir gain de cause.",
+        "en": "Threatening a breakup during every petty argument to get your way.",
+        "de": "Bei jedem kleinen Streit mit Trennung drohen, um Recht zu bekommen.",
+        "es": "Amenazar con cortar en cada discusión tonta para salirte con la tuya.",
+        "nl": "Bij elk wissewasje dreigen met uitmaken om je zin door te drijven.",
+        "pt": "Ameaçar acabar a relação a cada pequena discussão para ganhar o debate."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "toxic_green_13",
+      "theme": "toxic",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Faire des compliments spontanés sur la personnalité et pas seulement sur le physique.",
+        "en": "Giving spontaneous compliments about their mind and character, not just looks.",
+        "de": "Spontane Komplimente über den Charakter und Humor machen, nicht nur aufs Aussehen.",
+        "es": "Hacer cumplidos espontáneos sobre su personalidad y no solo sobre su físico.",
+        "nl": "Spontane complimenten geven over iemands karakter en niet alleen het uiterlijk.",
+        "pt": "Fazer elogios espontâneos à personalidade e não apenas ao aspeto físico."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "toxic_red_14",
+      "theme": "toxic",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Interdire à son partenaire d'avoir des amis avec qui il a déjà flirté dans le passé.",
+        "en": "Forbidding your partner from being friends with anyone they once hooked up with.",
+        "de": "Dem Partner verbieten, mit Ex-Flirts befreundet zu sein.",
+        "es": "Prohibir a tu pareja ser amiga de alguien con quien se haya liado en el pasado.",
+        "nl": "Je partner verbieden bevriend te zijn met mensen met wie hij/zij ooit heeft geflirt.",
+        "pt": "Proibir o parceiro de ser amigo de alguém com quem já teve um caso no passado."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "toxic_green_14",
+      "theme": "toxic",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Ne jamais utiliser les confidences intimes de l'autre comme arme lors d'un conflit.",
+        "en": "Never weaponizing their deepest vulnerabilities during a heated argument.",
+        "de": "Im Streit niemals intime Geheimnisse oder Schwächen als Waffe benutzen.",
+        "es": "Jamás usar confidencias íntimas como arma arrojadiza en una discusión.",
+        "nl": "Nooit elkaars geheimen of kwetsbaarheden tegen elkaar gebruiken bij ruzie.",
+        "pt": "Nunca usar confidências íntimas como arma durante uma discussão acalorada."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "toxic_red_15",
+      "theme": "toxic",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Attendre que son partenaire devine tout seul pourquoi on est en colère.",
+        "en": "Expecting your partner to read your mind and guess why you're mad.",
+        "de": "Erwarten, dass der Partner hellsieht und errät, warum man sauer ist.",
+        "es": "Esperar que tu pareja adivine mágicamente por qué estás enfadado.",
+        "nl": "Verwachten dat je partner gedachten kan lezen en snapt waarom je boos bent.",
+        "pt": "Esperar que o parceiro adivinhe sozinho a razão pela qual estás chateado."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "toxic_green_15",
+      "theme": "toxic",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Proposer de cuisiner ou de commander le dîner quand l'autre a eu une journée infernale.",
+        "en": "Cooking dinner or ordering takeout when you know they had a brutal day.",
+        "de": "Kochen oder Essen bestellen, wenn der Partner einen knallharten Tag hatte.",
+        "es": "Cocinar o pedir la cena cuando sabes que tu pareja ha tenido un día horrible.",
+        "nl": "Koken of eten bestellen als je weet dat je partner een slopende dag had.",
+        "pt": "Cozinhar ou encomendar jantar quando sabes que o outro teve um dia terrível."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "toxic_red_16",
+      "theme": "toxic",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Vérifier l'heure de dernière connexion WhatsApp de son partenaire au réveil.",
+        "en": "Checking your partner's WhatsApp last seen timestamp the minute you wake up.",
+        "de": "Gleich morgens als Erstes den WhatsApp-Zuletzt-online-Status des Partners prüfen.",
+        "es": "Mirar la última hora de conexión de WhatsApp de tu pareja nada más levantarte.",
+        "nl": "Meteen bij het ontwaken checken hoe laat je partner nog online was op WhatsApp.",
+        "pt": "Ver a última hora online do WhatsApp do parceiro assim que acordas."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "toxic_green_16",
+      "theme": "toxic",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Savoir rire ensemble de ses propres maladresses au lieu d'en faire un drame.",
+        "en": "Being able to laugh together at clumsy mistakes instead of turning it into drama.",
+        "de": "Gemeinsam über Missgeschicke lachen, statt daraus ein Drama zu machen.",
+        "es": "Saber reíros juntos de las torpezas cotidianas en vez de montar un drama.",
+        "nl": "Samen kunnen lachen om stomme foutjes in plaats van er een drama van te maken.",
+        "pt": "Saber rir juntos de pequenas trapalhices em vez de fazer um drama."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "toxic_red_17",
+      "theme": "toxic",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Critiquer les tenues vestimentaires de son partenaire en disant 'c'est pour ton bien'.",
+        "en": "Criticizing your partner's outfits saying 'I'm only telling you for your own good'.",
+        "de": "Die Kleidung des Partners kritisieren mit der Ausrede 'Ich mein's nur gut'.",
+        "es": "Criticar cómo viste tu pareja soltando un 'te lo digo por tu propio bien'.",
+        "nl": "De kleding van je partner afkraken onder het mom van 'ik bedoel het goed'.",
+        "pt": "Criticar a roupa do parceiro dizendo 'só estou a dizer para o teu bem'."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "toxic_green_17",
+      "theme": "toxic",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Garder son indépendance et ses propres passions sans culpabiliser l'autre.",
+        "en": "Keeping your own hobbies and passions alive without making the other feel guilty.",
+        "de": "Eigene Hobbys und Interessen pflegen, ohne dem Partner Schuldgefühle zu machen.",
+        "es": "Mantener tus propias aficiones e independencia sin hacer sentir culpable al otro.",
+        "nl": "Je eigen hobby's blijven doen zonder de ander een schuldgevoel aan te praten.",
+        "pt": "Manter os próprios passatempos e independência sem fazer o outro sentir culpa."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "toxic_red_18",
+      "theme": "toxic",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Rappeler une erreur vieille de 3 ans lors d'une simple dispute du quotidien.",
+        "en": "Bringing up a 3-year-old mistake during a casual everyday argument.",
+        "de": "Einen 3 Jahre alten Fehler in einem banalen Alltagsstreit wieder aufwärmen.",
+        "es": "Sacar un error de hace 3 años en mitad de una discusión cotidiana.",
+        "nl": "Een fout van 3 jaar geleden weer oprakelen tijdens een gewone discussie.",
+        "pt": "Trazer à tona um erro de há 3 anos numa discussão banal do dia a dia."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
     }
   ],
   "packs": {
@@ -26461,6 +27091,538 @@
             "es": "Juzgar a alguien por su signo del zodíaco antes de haberle dicho ni hola.",
             "nl": "Iemand veroordelen op basis van diens sterrenbeeld nog voor je hallo hebt gezegd.",
             "pt": "Julgar alguém pelo signo do zodíaco antes sequer de dizer olá."
+          },
+          "difficulty": 1,
+          "enabled": true
+        }
+      ]
+    },
+    "toxic_pack": {
+      "id": "toxic_pack",
+      "name": "TOXIC",
+      "card_count": 35,
+      "cards": [
+        {
+          "id": "toxic_red_1",
+          "theme": "toxic",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Refuser de donner le code de son téléphone à son partenaire après 2 ans de relation.",
+            "en": "Refusing to share your phone passcode with your partner after 2 years together.",
+            "de": "Sich weigern, dem Partner nach 2 Jahren Beziehung den Handy-Code zu geben.",
+            "es": "Negarse a darle la contraseña del móvil a tu pareja tras 2 años de relación.",
+            "nl": "Weigeren je telefooncode aan je partner te geven na 2 jaar relatie.",
+            "pt": "Recusar dar a senha do telemóvel ao parceiro após 2 anos de namoro."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "toxic_green_1",
+          "theme": "toxic",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Poser son téléphone écran vers le bas et ne pas le toucher du tout pendant un date.",
+            "en": "Keeping your phone face down and never checking it once during a date.",
+            "de": "Das Handy mit dem Display nach unten legen und während des Dates nie anfassen.",
+            "es": "Dejar el móvil boca abajo y no mirarlo ni una sola vez durante una cita.",
+            "nl": "Je telefoon met het scherm omlaag leggen en er tijdens de date niet op kijken.",
+            "pt": "Pôr o telemóvel virado para baixo e não mexer nele durante todo o encontro."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "toxic_red_2",
+          "theme": "toxic",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Suivre la position GPS de son partenaire en temps réel sous prétexte de 'sécurité'.",
+            "en": "Tracking your partner's live GPS location 24/7 under the excuse of 'safety'.",
+            "de": "Den GPS-Standort des Partners rund um die Uhr aus 'Sicherheitsgründen' tracken.",
+            "es": "Seguir la ubicación GPS de tu pareja en tiempo real con la excusa de la 'seguridad'.",
+            "nl": "De live gps-locatie van je partner volgen onder het mom van 'veiligheid'.",
+            "pt": "Seguir a localização GPS do parceiro em tempo real com a desculpa da 'segurança'."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "toxic_green_2",
+          "theme": "toxic",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Dire sincèrement 'Je suis trop fatigué ce soir, on remet ça ?' sans inventer d'excuse.",
+            "en": "Honestly saying 'I'm exhausted tonight, can we reschedule?' with zero fake excuses.",
+            "de": "Ehrlich sagen: 'Ich bin zu müde heute, verschieben wir es?' ohne faule Ausreden.",
+            "es": "Decir con total sinceridad: 'Estoy agotado, ¿lo dejamos para otro día?' sin inventos.",
+            "nl": "Eerlijk zeggen 'Ik ben echt te moe vanavond, zullen we verzetten?' zonder smoesjes.",
+            "pt": "Dizer honestamente 'Estou exausto hoje, podemos adiar?' sem inventar desculpas."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "toxic_red_3",
+          "theme": "toxic",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Garder toutes les photos de son ex sur Instagram parce que 'ça fait partie de mon passé'.",
+            "en": "Keeping all photos of your ex on Instagram because 'it's part of my past'.",
+            "de": "Alle Fotos des Ex auf Instagram behalten, weil 'es Teil meiner Vergangenheit ist'.",
+            "es": "Dejar todas las fotos con tu ex en Instagram porque 'es parte de mi pasado'.",
+            "nl": "Alle foto's van je ex op Instagram laten staan omdat 'het bij je verleden hoort'.",
+            "pt": "Manter todas as fotos do ex no Instagram porque 'faz parte do meu passado'."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "toxic_green_3",
+          "theme": "toxic",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Encourager son partenaire à partir en vacances seul avec ses propres amis.",
+            "en": "Cheering on your partner to go on vacation alone with their own friend group.",
+            "de": "Den Partner ermutigen, ganz entspannt allein mit seinen Freunden zu verreisen.",
+            "es": "Animar a tu pareja a irse de vacaciones a solas con su grupo de amigos.",
+            "nl": "Je partner aanmoedigen om lekker alleen met vrienden op vakantie te gaan.",
+            "pt": "Incentivar o parceiro a ir de férias sozinho com o próprio grupo de amigos."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "toxic_red_4",
+          "theme": "toxic",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Partir en week-end en tête-à-tête avec son meilleur ami du sexe opposé.",
+            "en": "Going on a weekend getaway alone with your best friend of the opposite gender.",
+            "de": "Ein ganzes Wochenende allein mit dem besten Freund des anderen Geschlechts verreisen.",
+            "es": "Irte de escapada de fin de semana a solas con tu mejor amigo del sexo opuesto.",
+            "nl": "Een weekendje weg gaan alleen met je beste vriend(in) van het andere geslacht.",
+            "pt": "Ir passar um fim de semana sozinho com o teu melhor amigo do sexo oposto."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "toxic_green_4",
+          "theme": "toxic",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Présenter des excuses spontanées et claires dès qu'on réalise qu'on a blessé l'autre.",
+            "en": "Apologizing promptly and sincerely the moment you realize you hurt them.",
+            "de": "Sich sofort aufrichtig entschuldigen, sobald man merkt, dass man wehgetan hat.",
+            "es": "Pedir disculpas sinceras en cuanto te das cuenta de que has herido a tu pareja.",
+            "nl": "Meteen oprecht sorry zeggen zodra je beseft dat je de ander gekwetst hebt.",
+            "pt": "Pedir desculpa de forma sincera logo que percebes que magoaste o outro."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "toxic_red_5",
+          "theme": "toxic",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Faire la tête pendant 48 heures au lieu d'expliquer ce qui ne va pas.",
+            "en": "Giving the silent treatment for 48 hours instead of explaining what's wrong.",
+            "de": "48 Stunden lang schmollen, anstatt einfach zu sagen, was nicht stimmt.",
+            "es": "Aplicar la ley del hielo durante 48 horas en vez de decir qué pasa.",
+            "nl": "48 uur lang zwijgen en mokken in plaats van uit te leggen wat er mis is.",
+            "pt": "Fazer birra durante 48 horas em vez de explicar o que se passa."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "toxic_green_5",
+          "theme": "toxic",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Se souvenir du café préféré ou du plat réconfortant de l'autre sans qu'il le demande.",
+            "en": "Remembering their favorite coffee or comfort meal without being asked.",
+            "de": "An das Lieblingsgetränk oder Soulfood des Partners denken, ohne gefragt zu werden.",
+            "es": "Recordar su café o comida favorita y traérsela de sorpresa sin que lo pida.",
+            "nl": "Precies weten wat iemands favoriete koffie of troosteten is zonder te vragen.",
+            "pt": "Lembrar o café preferido ou a comida de conforto do outro sem ele pedir."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "toxic_red_6",
+          "theme": "toxic",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Liker les photos sexy d'inconnus sur Instagram quand on est en couple.",
+            "en": "Liking spicy photos of random strangers on Instagram while in a relationship.",
+            "de": "Hot-Pics von fremden Leuten auf Instagram liken, obwohl man vergeben ist.",
+            "es": "Dar me gusta a fotos provocativas de desconocidos en Instagram teniendo pareja.",
+            "nl": "Sexy foto's van vreemden op Instagram liken terwijl je een relatie hebt.",
+            "pt": "Pôr gosto em fotos ousadas de desconhecidos no Instagram estando numa relação."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "toxic_green_6",
+          "theme": "toxic",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Laisser son partenaire dans sa bulle quand il a besoin de décompresser en silence.",
+            "en": "Giving your partner complete space when they need to recharge in silence.",
+            "de": "Dem Partner Raum lassen, wenn er einfach mal in Ruhe runterfahren muss.",
+            "es": "Darle su espacio a tu pareja cuando necesita desconectar en total silencio.",
+            "nl": "Je partner rustig in zijn eigen bubbel laten als die even stilte nodig heeft.",
+            "pt": "Dar espaço ao parceiro quando ele precisa de descontrair em silêncio."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "toxic_red_7",
+          "theme": "toxic",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Exiger de savoir exactement qui sera présent à chaque soirée où sort son partenaire.",
+            "en": "Demanding a complete guest list for every single night out your partner attends.",
+            "de": "Eine genaue Gästeliste für jeden Abend verlangen, an dem der Partner ausgeht.",
+            "es": "Exigir saber exactamente quién estará en cada fiesta a la que vaya tu pareja.",
+            "nl": "Precies willen weten wie er allemaal aanwezig is bij elk feestje van je partner.",
+            "pt": "Exigir saber exatamente quem vai estar em cada saída do teu parceiro."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "toxic_green_7",
+          "theme": "toxic",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Prendre la défense de son partenaire en public, même en cas de désaccord en privé.",
+            "en": "Backing your partner in public, even if you discuss differences in private.",
+            "de": "Den Partner in der Öffentlichkeit verteidigen und Kritik erst privat besprechen.",
+            "es": "Defender a tu pareja en público aunque luego lo habléis en privado.",
+            "nl": "Het in het openbaar altijd voor je partner opnemen en twijfels privé bespreken.",
+            "pt": "Defender o parceiro em público, mesmo que discordem em privado."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "toxic_red_8",
+          "theme": "toxic",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Rester en contact régulier avec la famille de son ex sans que son partenaire actuel le sache.",
+            "en": "Regularly chatting with your ex's family without your current partner knowing.",
+            "de": "Regelmäßig mit der Familie des Ex schreiben, ohne dass der Partner es weiß.",
+            "es": "Seguir hablando con la familia de tu ex a espaldas de tu pareja actual.",
+            "nl": "Stiekem regelmatig contact houden met de familie van je ex.",
+            "pt": "Manter contacto regular com a família do ex sem o parceiro atual saber."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "toxic_green_8",
+          "theme": "toxic",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Proposer de diviser les dépenses équitablement selon les revenus de chacun.",
+            "en": "Suggesting to split household expenses proportionally based on each one's income.",
+            "de": "Vorschlagen, gemeinsame Kosten fair nach dem jeweiligen Einkommen aufzuteilen.",
+            "es": "Proponer repartir los gastos comunes de forma proporcional al sueldo de cada uno.",
+            "nl": "Voorstellen om gezamenlijke kosten naar verhouding van inkomen te verdelen.",
+            "pt": "Propor dividir as despesas comuns de forma proporcional aos rendimentos de cada um."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "toxic_red_9",
+          "theme": "toxic",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Dire 'Tu es trop sensible' dès que son partenaire exprime une blessure ou un doute.",
+            "en": "Saying 'You're too sensitive' whenever your partner expresses hurt or doubt.",
+            "de": "Sagen 'Du bist zu empfindlich', sobald der Partner Zweifel oder Schmerz äußert.",
+            "es": "Soltar un 'Eres demasiado sensible' cada vez que tu pareja expresa una molestia.",
+            "nl": "'Je bent veel te gevoelig' zeggen zodra je partner ergens mee zit.",
+            "pt": "Dizer 'És sensível demais' sempre que o parceiro expressa uma mágoa."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "toxic_green_9",
+          "theme": "toxic",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Célébrer sincèrement une réussite professionnelle de son partenaire sans jalousie.",
+            "en": "Genuinely hyping up your partner's career win with zero secret jealousy.",
+            "de": "Den beruflichen Erfolg des Partners aufrichtig und ohne Neid feiern.",
+            "es": "Alegrarse de corazón por los éxitos laborales de tu pareja sin ninguna envidia.",
+            "nl": "Oprecht trots zijn op het carrièresucces van je partner zonder jaloezie.",
+            "pt": "Celebrar sinceramente uma conquista profissional do parceiro sem inveja."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "toxic_red_10",
+          "theme": "toxic",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Regarder discrètement l'écran du téléphone de son partenaire par-dessus son épaule.",
+            "en": "Discreetly snooping at your partner's phone screen over their shoulder.",
+            "de": "Heimlich über die Schulter auf das Handy des Partners linsen.",
+            "es": "Mirar discretamente la pantalla del móvil de tu pareja por encima del hombro.",
+            "nl": "Stiekem over de schouder van je partner meelezen op zijn of haar telefoon.",
+            "pt": "Espreitar discretamente o ecrã do telemóvel do parceiro por cima do ombro."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "toxic_green_10",
+          "theme": "toxic",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Communiquer calmement un malaise avant que la rancœur ne s'accumule.",
+            "en": "Calmly bringing up an issue right away before resentment starts building.",
+            "de": "Ein mulmiges Gefühl sofort ruhig ansprechen, bevor sich Frust anstaut.",
+            "es": "Hablar de algo que te incomoda con calma antes de que se acumule el rencor.",
+            "nl": "Meteen rustig over irritaties praten voordat frustratie zich opstapelt.",
+            "pt": "Conversar calmamente sobre um incómodo antes que se acumule ressentimento."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "toxic_red_11",
+          "theme": "toxic",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Comparer son partenaire actuel aux qualités de son ex pendant une dispute.",
+            "en": "Comparing your current partner to your ex's best traits during an argument.",
+            "de": "Den aktuellen Partner im Streit mit den Vorzügen des Ex vergleichen.",
+            "es": "Comparar a tu pareja actual con las virtudes de tu ex durante una discusión.",
+            "nl": "Je partner tijdens een ruzie vergelijken met de goede kanten van je ex.",
+            "pt": "Comparar o parceiro atual com as qualidades do ex durante uma discussão."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "toxic_green_11",
+          "theme": "toxic",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Accepter avec le sourire que son partenaire passe une soirée 'off' sans soi.",
+            "en": "Smiling and being totally cool when your partner takes an evening off alone.",
+            "de": "Entspannt lächeln, wenn der Partner mal einen Abend ganz für sich braucht.",
+            "es": "Aceptar con la mejor actitud que tu pareja quiera pasar una tarde a su aire.",
+            "nl": "Met een glimlach accepteren dat je partner een avondje lekker voor zichzelf wil.",
+            "pt": "Aceitar com um sorriso que o parceiro passe uma noite sozinho para descontrair."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "toxic_red_12",
+          "theme": "toxic",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Créer un faux profil pour tester la fidélité de son partenaire sur les réseaux.",
+            "en": "Creating a fake profile to test your partner's loyalty on social media.",
+            "de": "Einen Fake-Account erstellen, um die Treue des Partners im Netz zu testen.",
+            "es": "Crear un perfil falso para poner a prueba la fidelidad de tu pareja.",
+            "nl": "Een nepaccount aanmaken om de trouw van je partner online te testen.",
+            "pt": "Criar um perfil falso para testar a fidelidade do parceiro nas redes."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "toxic_green_12",
+          "theme": "toxic",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Envoyer un petit message pour savoir si l'autre est bien rentré sans insister.",
+            "en": "Sending a quick 'Did you get home safe?' text with zero pushiness.",
+            "de": "Eine kurze Nachricht schicken 'Gut heimgekommen?', ohne aufdringlich zu sein.",
+            "es": "Mandar un mensaje corto de '¿Llegaste bien?' sin agobiar.",
+            "nl": "Een lief appje sturen om te checken of iemand veilig thuis is, zonder gedoe.",
+            "pt": "Mandar uma mensagem rápida a saber se o outro chegou bem a casa, sem pressão."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "toxic_red_13",
+          "theme": "toxic",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Menacer de rompre à chaque désaccord pour obtenir gain de cause.",
+            "en": "Threatening a breakup during every petty argument to get your way.",
+            "de": "Bei jedem kleinen Streit mit Trennung drohen, um Recht zu bekommen.",
+            "es": "Amenazar con cortar en cada discusión tonta para salirte con la tuya.",
+            "nl": "Bij elk wissewasje dreigen met uitmaken om je zin door te drijven.",
+            "pt": "Ameaçar acabar a relação a cada pequena discussão para ganhar o debate."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "toxic_green_13",
+          "theme": "toxic",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Faire des compliments spontanés sur la personnalité et pas seulement sur le physique.",
+            "en": "Giving spontaneous compliments about their mind and character, not just looks.",
+            "de": "Spontane Komplimente über den Charakter und Humor machen, nicht nur aufs Aussehen.",
+            "es": "Hacer cumplidos espontáneos sobre su personalidad y no solo sobre su físico.",
+            "nl": "Spontane complimenten geven over iemands karakter en niet alleen het uiterlijk.",
+            "pt": "Fazer elogios espontâneos à personalidade e não apenas ao aspeto físico."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "toxic_red_14",
+          "theme": "toxic",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Interdire à son partenaire d'avoir des amis avec qui il a déjà flirté dans le passé.",
+            "en": "Forbidding your partner from being friends with anyone they once hooked up with.",
+            "de": "Dem Partner verbieten, mit Ex-Flirts befreundet zu sein.",
+            "es": "Prohibir a tu pareja ser amiga de alguien con quien se haya liado en el pasado.",
+            "nl": "Je partner verbieden bevriend te zijn met mensen met wie hij/zij ooit heeft geflirt.",
+            "pt": "Proibir o parceiro de ser amigo de alguém com quem já teve um caso no passado."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "toxic_green_14",
+          "theme": "toxic",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Ne jamais utiliser les confidences intimes de l'autre comme arme lors d'un conflit.",
+            "en": "Never weaponizing their deepest vulnerabilities during a heated argument.",
+            "de": "Im Streit niemals intime Geheimnisse oder Schwächen als Waffe benutzen.",
+            "es": "Jamás usar confidencias íntimas como arma arrojadiza en una discusión.",
+            "nl": "Nooit elkaars geheimen of kwetsbaarheden tegen elkaar gebruiken bij ruzie.",
+            "pt": "Nunca usar confidências íntimas como arma durante uma discussão acalorada."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "toxic_red_15",
+          "theme": "toxic",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Attendre que son partenaire devine tout seul pourquoi on est en colère.",
+            "en": "Expecting your partner to read your mind and guess why you're mad.",
+            "de": "Erwarten, dass der Partner hellsieht und errät, warum man sauer ist.",
+            "es": "Esperar que tu pareja adivine mágicamente por qué estás enfadado.",
+            "nl": "Verwachten dat je partner gedachten kan lezen en snapt waarom je boos bent.",
+            "pt": "Esperar que o parceiro adivinhe sozinho a razão pela qual estás chateado."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "toxic_green_15",
+          "theme": "toxic",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Proposer de cuisiner ou de commander le dîner quand l'autre a eu une journée infernale.",
+            "en": "Cooking dinner or ordering takeout when you know they had a brutal day.",
+            "de": "Kochen oder Essen bestellen, wenn der Partner einen knallharten Tag hatte.",
+            "es": "Cocinar o pedir la cena cuando sabes que tu pareja ha tenido un día horrible.",
+            "nl": "Koken of eten bestellen als je weet dat je partner een slopende dag had.",
+            "pt": "Cozinhar ou encomendar jantar quando sabes que o outro teve um dia terrível."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "toxic_red_16",
+          "theme": "toxic",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Vérifier l'heure de dernière connexion WhatsApp de son partenaire au réveil.",
+            "en": "Checking your partner's WhatsApp last seen timestamp the minute you wake up.",
+            "de": "Gleich morgens als Erstes den WhatsApp-Zuletzt-online-Status des Partners prüfen.",
+            "es": "Mirar la última hora de conexión de WhatsApp de tu pareja nada más levantarte.",
+            "nl": "Meteen bij het ontwaken checken hoe laat je partner nog online was op WhatsApp.",
+            "pt": "Ver a última hora online do WhatsApp do parceiro assim que acordas."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "toxic_green_16",
+          "theme": "toxic",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Savoir rire ensemble de ses propres maladresses au lieu d'en faire un drame.",
+            "en": "Being able to laugh together at clumsy mistakes instead of turning it into drama.",
+            "de": "Gemeinsam über Missgeschicke lachen, statt daraus ein Drama zu machen.",
+            "es": "Saber reíros juntos de las torpezas cotidianas en vez de montar un drama.",
+            "nl": "Samen kunnen lachen om stomme foutjes in plaats van er een drama van te maken.",
+            "pt": "Saber rir juntos de pequenas trapalhices em vez de fazer um drama."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "toxic_red_17",
+          "theme": "toxic",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Critiquer les tenues vestimentaires de son partenaire en disant 'c'est pour ton bien'.",
+            "en": "Criticizing your partner's outfits saying 'I'm only telling you for your own good'.",
+            "de": "Die Kleidung des Partners kritisieren mit der Ausrede 'Ich mein's nur gut'.",
+            "es": "Criticar cómo viste tu pareja soltando un 'te lo digo por tu propio bien'.",
+            "nl": "De kleding van je partner afkraken onder het mom van 'ik bedoel het goed'.",
+            "pt": "Criticar a roupa do parceiro dizendo 'só estou a dizer para o teu bem'."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "toxic_green_17",
+          "theme": "toxic",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Garder son indépendance et ses propres passions sans culpabiliser l'autre.",
+            "en": "Keeping your own hobbies and passions alive without making the other feel guilty.",
+            "de": "Eigene Hobbys und Interessen pflegen, ohne dem Partner Schuldgefühle zu machen.",
+            "es": "Mantener tus propias aficiones e independencia sin hacer sentir culpable al otro.",
+            "nl": "Je eigen hobby's blijven doen zonder de ander een schuldgevoel aan te praten.",
+            "pt": "Manter os próprios passatempos e independência sem fazer o outro sentir culpa."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "toxic_red_18",
+          "theme": "toxic",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Rappeler une erreur vieille de 3 ans lors d'une simple dispute du quotidien.",
+            "en": "Bringing up a 3-year-old mistake during a casual everyday argument.",
+            "de": "Einen 3 Jahre alten Fehler in einem banalen Alltagsstreit wieder aufwärmen.",
+            "es": "Sacar un error de hace 3 años en mitad de una discusión cotidiana.",
+            "nl": "Een fout van 3 jaar geleden weer oprakelen tijdens een gewone discussie.",
+            "pt": "Trazer à tona um erro de há 3 anos numa discussão banal do dia a dia."
           },
           "difficulty": 1,
           "enabled": true
@@ -40850,7 +42012,637 @@
       "mode": "classic",
       "packId": "genz_pack",
       "live_tier": "safe"
+    },
+    "toxic_red_1": {
+      "id": "toxic_red_1",
+      "theme": "toxic",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Refuser de donner le code de son téléphone à son partenaire après 2 ans de relation.",
+        "en": "Refusing to share your phone passcode with your partner after 2 years together.",
+        "de": "Sich weigern, dem Partner nach 2 Jahren Beziehung den Handy-Code zu geben.",
+        "es": "Negarse a darle la contraseña del móvil a tu pareja tras 2 años de relación.",
+        "nl": "Weigeren je telefooncode aan je partner te geven na 2 jaar relatie.",
+        "pt": "Recusar dar a senha do telemóvel ao parceiro após 2 anos de namoro."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    "toxic_green_1": {
+      "id": "toxic_green_1",
+      "theme": "toxic",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Poser son téléphone écran vers le bas et ne pas le toucher du tout pendant un date.",
+        "en": "Keeping your phone face down and never checking it once during a date.",
+        "de": "Das Handy mit dem Display nach unten legen und während des Dates nie anfassen.",
+        "es": "Dejar el móvil boca abajo y no mirarlo ni una sola vez durante una cita.",
+        "nl": "Je telefoon met het scherm omlaag leggen en er tijdens de date niet op kijken.",
+        "pt": "Pôr o telemóvel virado para baixo e não mexer nele durante todo o encontro."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    "toxic_red_2": {
+      "id": "toxic_red_2",
+      "theme": "toxic",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Suivre la position GPS de son partenaire en temps réel sous prétexte de 'sécurité'.",
+        "en": "Tracking your partner's live GPS location 24/7 under the excuse of 'safety'.",
+        "de": "Den GPS-Standort des Partners rund um die Uhr aus 'Sicherheitsgründen' tracken.",
+        "es": "Seguir la ubicación GPS de tu pareja en tiempo real con la excusa de la 'seguridad'.",
+        "nl": "De live gps-locatie van je partner volgen onder het mom van 'veiligheid'.",
+        "pt": "Seguir a localização GPS do parceiro em tempo real com a desculpa da 'segurança'."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    "toxic_green_2": {
+      "id": "toxic_green_2",
+      "theme": "toxic",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Dire sincèrement 'Je suis trop fatigué ce soir, on remet ça ?' sans inventer d'excuse.",
+        "en": "Honestly saying 'I'm exhausted tonight, can we reschedule?' with zero fake excuses.",
+        "de": "Ehrlich sagen: 'Ich bin zu müde heute, verschieben wir es?' ohne faule Ausreden.",
+        "es": "Decir con total sinceridad: 'Estoy agotado, ¿lo dejamos para otro día?' sin inventos.",
+        "nl": "Eerlijk zeggen 'Ik ben echt te moe vanavond, zullen we verzetten?' zonder smoesjes.",
+        "pt": "Dizer honestamente 'Estou exausto hoje, podemos adiar?' sem inventar desculpas."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    "toxic_red_3": {
+      "id": "toxic_red_3",
+      "theme": "toxic",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Garder toutes les photos de son ex sur Instagram parce que 'ça fait partie de mon passé'.",
+        "en": "Keeping all photos of your ex on Instagram because 'it's part of my past'.",
+        "de": "Alle Fotos des Ex auf Instagram behalten, weil 'es Teil meiner Vergangenheit ist'.",
+        "es": "Dejar todas las fotos con tu ex en Instagram porque 'es parte de mi pasado'.",
+        "nl": "Alle foto's van je ex op Instagram laten staan omdat 'het bij je verleden hoort'.",
+        "pt": "Manter todas as fotos do ex no Instagram porque 'faz parte do meu passado'."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    "toxic_green_3": {
+      "id": "toxic_green_3",
+      "theme": "toxic",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Encourager son partenaire à partir en vacances seul avec ses propres amis.",
+        "en": "Cheering on your partner to go on vacation alone with their own friend group.",
+        "de": "Den Partner ermutigen, ganz entspannt allein mit seinen Freunden zu verreisen.",
+        "es": "Animar a tu pareja a irse de vacaciones a solas con su grupo de amigos.",
+        "nl": "Je partner aanmoedigen om lekker alleen met vrienden op vakantie te gaan.",
+        "pt": "Incentivar o parceiro a ir de férias sozinho com o próprio grupo de amigos."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    "toxic_red_4": {
+      "id": "toxic_red_4",
+      "theme": "toxic",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Partir en week-end en tête-à-tête avec son meilleur ami du sexe opposé.",
+        "en": "Going on a weekend getaway alone with your best friend of the opposite gender.",
+        "de": "Ein ganzes Wochenende allein mit dem besten Freund des anderen Geschlechts verreisen.",
+        "es": "Irte de escapada de fin de semana a solas con tu mejor amigo del sexo opuesto.",
+        "nl": "Een weekendje weg gaan alleen met je beste vriend(in) van het andere geslacht.",
+        "pt": "Ir passar um fim de semana sozinho com o teu melhor amigo do sexo oposto."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    "toxic_green_4": {
+      "id": "toxic_green_4",
+      "theme": "toxic",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Présenter des excuses spontanées et claires dès qu'on réalise qu'on a blessé l'autre.",
+        "en": "Apologizing promptly and sincerely the moment you realize you hurt them.",
+        "de": "Sich sofort aufrichtig entschuldigen, sobald man merkt, dass man wehgetan hat.",
+        "es": "Pedir disculpas sinceras en cuanto te das cuenta de que has herido a tu pareja.",
+        "nl": "Meteen oprecht sorry zeggen zodra je beseft dat je de ander gekwetst hebt.",
+        "pt": "Pedir desculpa de forma sincera logo que percebes que magoaste o outro."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    "toxic_red_5": {
+      "id": "toxic_red_5",
+      "theme": "toxic",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Faire la tête pendant 48 heures au lieu d'expliquer ce qui ne va pas.",
+        "en": "Giving the silent treatment for 48 hours instead of explaining what's wrong.",
+        "de": "48 Stunden lang schmollen, anstatt einfach zu sagen, was nicht stimmt.",
+        "es": "Aplicar la ley del hielo durante 48 horas en vez de decir qué pasa.",
+        "nl": "48 uur lang zwijgen en mokken in plaats van uit te leggen wat er mis is.",
+        "pt": "Fazer birra durante 48 horas em vez de explicar o que se passa."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    "toxic_green_5": {
+      "id": "toxic_green_5",
+      "theme": "toxic",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Se souvenir du café préféré ou du plat réconfortant de l'autre sans qu'il le demande.",
+        "en": "Remembering their favorite coffee or comfort meal without being asked.",
+        "de": "An das Lieblingsgetränk oder Soulfood des Partners denken, ohne gefragt zu werden.",
+        "es": "Recordar su café o comida favorita y traérsela de sorpresa sin que lo pida.",
+        "nl": "Precies weten wat iemands favoriete koffie of troosteten is zonder te vragen.",
+        "pt": "Lembrar o café preferido ou a comida de conforto do outro sem ele pedir."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    "toxic_red_6": {
+      "id": "toxic_red_6",
+      "theme": "toxic",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Liker les photos sexy d'inconnus sur Instagram quand on est en couple.",
+        "en": "Liking spicy photos of random strangers on Instagram while in a relationship.",
+        "de": "Hot-Pics von fremden Leuten auf Instagram liken, obwohl man vergeben ist.",
+        "es": "Dar me gusta a fotos provocativas de desconocidos en Instagram teniendo pareja.",
+        "nl": "Sexy foto's van vreemden op Instagram liken terwijl je een relatie hebt.",
+        "pt": "Pôr gosto em fotos ousadas de desconhecidos no Instagram estando numa relação."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    "toxic_green_6": {
+      "id": "toxic_green_6",
+      "theme": "toxic",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Laisser son partenaire dans sa bulle quand il a besoin de décompresser en silence.",
+        "en": "Giving your partner complete space when they need to recharge in silence.",
+        "de": "Dem Partner Raum lassen, wenn er einfach mal in Ruhe runterfahren muss.",
+        "es": "Darle su espacio a tu pareja cuando necesita desconectar en total silencio.",
+        "nl": "Je partner rustig in zijn eigen bubbel laten als die even stilte nodig heeft.",
+        "pt": "Dar espaço ao parceiro quando ele precisa de descontrair em silêncio."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    "toxic_red_7": {
+      "id": "toxic_red_7",
+      "theme": "toxic",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Exiger de savoir exactement qui sera présent à chaque soirée où sort son partenaire.",
+        "en": "Demanding a complete guest list for every single night out your partner attends.",
+        "de": "Eine genaue Gästeliste für jeden Abend verlangen, an dem der Partner ausgeht.",
+        "es": "Exigir saber exactamente quién estará en cada fiesta a la que vaya tu pareja.",
+        "nl": "Precies willen weten wie er allemaal aanwezig is bij elk feestje van je partner.",
+        "pt": "Exigir saber exatamente quem vai estar em cada saída do teu parceiro."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    "toxic_green_7": {
+      "id": "toxic_green_7",
+      "theme": "toxic",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Prendre la défense de son partenaire en public, même en cas de désaccord en privé.",
+        "en": "Backing your partner in public, even if you discuss differences in private.",
+        "de": "Den Partner in der Öffentlichkeit verteidigen und Kritik erst privat besprechen.",
+        "es": "Defender a tu pareja en público aunque luego lo habléis en privado.",
+        "nl": "Het in het openbaar altijd voor je partner opnemen en twijfels privé bespreken.",
+        "pt": "Defender o parceiro em público, mesmo que discordem em privado."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    "toxic_red_8": {
+      "id": "toxic_red_8",
+      "theme": "toxic",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Rester en contact régulier avec la famille de son ex sans que son partenaire actuel le sache.",
+        "en": "Regularly chatting with your ex's family without your current partner knowing.",
+        "de": "Regelmäßig mit der Familie des Ex schreiben, ohne dass der Partner es weiß.",
+        "es": "Seguir hablando con la familia de tu ex a espaldas de tu pareja actual.",
+        "nl": "Stiekem regelmatig contact houden met de familie van je ex.",
+        "pt": "Manter contacto regular com a família do ex sem o parceiro atual saber."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    "toxic_green_8": {
+      "id": "toxic_green_8",
+      "theme": "toxic",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Proposer de diviser les dépenses équitablement selon les revenus de chacun.",
+        "en": "Suggesting to split household expenses proportionally based on each one's income.",
+        "de": "Vorschlagen, gemeinsame Kosten fair nach dem jeweiligen Einkommen aufzuteilen.",
+        "es": "Proponer repartir los gastos comunes de forma proporcional al sueldo de cada uno.",
+        "nl": "Voorstellen om gezamenlijke kosten naar verhouding van inkomen te verdelen.",
+        "pt": "Propor dividir as despesas comuns de forma proporcional aos rendimentos de cada um."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    "toxic_red_9": {
+      "id": "toxic_red_9",
+      "theme": "toxic",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Dire 'Tu es trop sensible' dès que son partenaire exprime une blessure ou un doute.",
+        "en": "Saying 'You're too sensitive' whenever your partner expresses hurt or doubt.",
+        "de": "Sagen 'Du bist zu empfindlich', sobald der Partner Zweifel oder Schmerz äußert.",
+        "es": "Soltar un 'Eres demasiado sensible' cada vez que tu pareja expresa una molestia.",
+        "nl": "'Je bent veel te gevoelig' zeggen zodra je partner ergens mee zit.",
+        "pt": "Dizer 'És sensível demais' sempre que o parceiro expressa uma mágoa."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    "toxic_green_9": {
+      "id": "toxic_green_9",
+      "theme": "toxic",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Célébrer sincèrement une réussite professionnelle de son partenaire sans jalousie.",
+        "en": "Genuinely hyping up your partner's career win with zero secret jealousy.",
+        "de": "Den beruflichen Erfolg des Partners aufrichtig und ohne Neid feiern.",
+        "es": "Alegrarse de corazón por los éxitos laborales de tu pareja sin ninguna envidia.",
+        "nl": "Oprecht trots zijn op het carrièresucces van je partner zonder jaloezie.",
+        "pt": "Celebrar sinceramente uma conquista profissional do parceiro sem inveja."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    "toxic_red_10": {
+      "id": "toxic_red_10",
+      "theme": "toxic",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Regarder discrètement l'écran du téléphone de son partenaire par-dessus son épaule.",
+        "en": "Discreetly snooping at your partner's phone screen over their shoulder.",
+        "de": "Heimlich über die Schulter auf das Handy des Partners linsen.",
+        "es": "Mirar discretamente la pantalla del móvil de tu pareja por encima del hombro.",
+        "nl": "Stiekem over de schouder van je partner meelezen op zijn of haar telefoon.",
+        "pt": "Espreitar discretamente o ecrã do telemóvel do parceiro por cima do ombro."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    "toxic_green_10": {
+      "id": "toxic_green_10",
+      "theme": "toxic",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Communiquer calmement un malaise avant que la rancœur ne s'accumule.",
+        "en": "Calmly bringing up an issue right away before resentment starts building.",
+        "de": "Ein mulmiges Gefühl sofort ruhig ansprechen, bevor sich Frust anstaut.",
+        "es": "Hablar de algo que te incomoda con calma antes de que se acumule el rencor.",
+        "nl": "Meteen rustig over irritaties praten voordat frustratie zich opstapelt.",
+        "pt": "Conversar calmamente sobre um incómodo antes que se acumule ressentimento."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    "toxic_red_11": {
+      "id": "toxic_red_11",
+      "theme": "toxic",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Comparer son partenaire actuel aux qualités de son ex pendant une dispute.",
+        "en": "Comparing your current partner to your ex's best traits during an argument.",
+        "de": "Den aktuellen Partner im Streit mit den Vorzügen des Ex vergleichen.",
+        "es": "Comparar a tu pareja actual con las virtudes de tu ex durante una discusión.",
+        "nl": "Je partner tijdens een ruzie vergelijken met de goede kanten van je ex.",
+        "pt": "Comparar o parceiro atual com as qualidades do ex durante uma discussão."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    "toxic_green_11": {
+      "id": "toxic_green_11",
+      "theme": "toxic",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Accepter avec le sourire que son partenaire passe une soirée 'off' sans soi.",
+        "en": "Smiling and being totally cool when your partner takes an evening off alone.",
+        "de": "Entspannt lächeln, wenn der Partner mal einen Abend ganz für sich braucht.",
+        "es": "Aceptar con la mejor actitud que tu pareja quiera pasar una tarde a su aire.",
+        "nl": "Met een glimlach accepteren dat je partner een avondje lekker voor zichzelf wil.",
+        "pt": "Aceitar com um sorriso que o parceiro passe uma noite sozinho para descontrair."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    "toxic_red_12": {
+      "id": "toxic_red_12",
+      "theme": "toxic",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Créer un faux profil pour tester la fidélité de son partenaire sur les réseaux.",
+        "en": "Creating a fake profile to test your partner's loyalty on social media.",
+        "de": "Einen Fake-Account erstellen, um die Treue des Partners im Netz zu testen.",
+        "es": "Crear un perfil falso para poner a prueba la fidelidad de tu pareja.",
+        "nl": "Een nepaccount aanmaken om de trouw van je partner online te testen.",
+        "pt": "Criar um perfil falso para testar a fidelidade do parceiro nas redes."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    "toxic_green_12": {
+      "id": "toxic_green_12",
+      "theme": "toxic",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Envoyer un petit message pour savoir si l'autre est bien rentré sans insister.",
+        "en": "Sending a quick 'Did you get home safe?' text with zero pushiness.",
+        "de": "Eine kurze Nachricht schicken 'Gut heimgekommen?', ohne aufdringlich zu sein.",
+        "es": "Mandar un mensaje corto de '¿Llegaste bien?' sin agobiar.",
+        "nl": "Een lief appje sturen om te checken of iemand veilig thuis is, zonder gedoe.",
+        "pt": "Mandar uma mensagem rápida a saber se o outro chegou bem a casa, sem pressão."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    "toxic_red_13": {
+      "id": "toxic_red_13",
+      "theme": "toxic",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Menacer de rompre à chaque désaccord pour obtenir gain de cause.",
+        "en": "Threatening a breakup during every petty argument to get your way.",
+        "de": "Bei jedem kleinen Streit mit Trennung drohen, um Recht zu bekommen.",
+        "es": "Amenazar con cortar en cada discusión tonta para salirte con la tuya.",
+        "nl": "Bij elk wissewasje dreigen met uitmaken om je zin door te drijven.",
+        "pt": "Ameaçar acabar a relação a cada pequena discussão para ganhar o debate."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    "toxic_green_13": {
+      "id": "toxic_green_13",
+      "theme": "toxic",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Faire des compliments spontanés sur la personnalité et pas seulement sur le physique.",
+        "en": "Giving spontaneous compliments about their mind and character, not just looks.",
+        "de": "Spontane Komplimente über den Charakter und Humor machen, nicht nur aufs Aussehen.",
+        "es": "Hacer cumplidos espontáneos sobre su personalidad y no solo sobre su físico.",
+        "nl": "Spontane complimenten geven over iemands karakter en niet alleen het uiterlijk.",
+        "pt": "Fazer elogios espontâneos à personalidade e não apenas ao aspeto físico."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    "toxic_red_14": {
+      "id": "toxic_red_14",
+      "theme": "toxic",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Interdire à son partenaire d'avoir des amis avec qui il a déjà flirté dans le passé.",
+        "en": "Forbidding your partner from being friends with anyone they once hooked up with.",
+        "de": "Dem Partner verbieten, mit Ex-Flirts befreundet zu sein.",
+        "es": "Prohibir a tu pareja ser amiga de alguien con quien se haya liado en el pasado.",
+        "nl": "Je partner verbieden bevriend te zijn met mensen met wie hij/zij ooit heeft geflirt.",
+        "pt": "Proibir o parceiro de ser amigo de alguém com quem já teve um caso no passado."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    "toxic_green_14": {
+      "id": "toxic_green_14",
+      "theme": "toxic",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Ne jamais utiliser les confidences intimes de l'autre comme arme lors d'un conflit.",
+        "en": "Never weaponizing their deepest vulnerabilities during a heated argument.",
+        "de": "Im Streit niemals intime Geheimnisse oder Schwächen als Waffe benutzen.",
+        "es": "Jamás usar confidencias íntimas como arma arrojadiza en una discusión.",
+        "nl": "Nooit elkaars geheimen of kwetsbaarheden tegen elkaar gebruiken bij ruzie.",
+        "pt": "Nunca usar confidências íntimas como arma durante uma discussão acalorada."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    "toxic_red_15": {
+      "id": "toxic_red_15",
+      "theme": "toxic",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Attendre que son partenaire devine tout seul pourquoi on est en colère.",
+        "en": "Expecting your partner to read your mind and guess why you're mad.",
+        "de": "Erwarten, dass der Partner hellsieht und errät, warum man sauer ist.",
+        "es": "Esperar que tu pareja adivine mágicamente por qué estás enfadado.",
+        "nl": "Verwachten dat je partner gedachten kan lezen en snapt waarom je boos bent.",
+        "pt": "Esperar que o parceiro adivinhe sozinho a razão pela qual estás chateado."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    "toxic_green_15": {
+      "id": "toxic_green_15",
+      "theme": "toxic",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Proposer de cuisiner ou de commander le dîner quand l'autre a eu une journée infernale.",
+        "en": "Cooking dinner or ordering takeout when you know they had a brutal day.",
+        "de": "Kochen oder Essen bestellen, wenn der Partner einen knallharten Tag hatte.",
+        "es": "Cocinar o pedir la cena cuando sabes que tu pareja ha tenido un día horrible.",
+        "nl": "Koken of eten bestellen als je weet dat je partner een slopende dag had.",
+        "pt": "Cozinhar ou encomendar jantar quando sabes que o outro teve um dia terrível."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    "toxic_red_16": {
+      "id": "toxic_red_16",
+      "theme": "toxic",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Vérifier l'heure de dernière connexion WhatsApp de son partenaire au réveil.",
+        "en": "Checking your partner's WhatsApp last seen timestamp the minute you wake up.",
+        "de": "Gleich morgens als Erstes den WhatsApp-Zuletzt-online-Status des Partners prüfen.",
+        "es": "Mirar la última hora de conexión de WhatsApp de tu pareja nada más levantarte.",
+        "nl": "Meteen bij het ontwaken checken hoe laat je partner nog online was op WhatsApp.",
+        "pt": "Ver a última hora online do WhatsApp do parceiro assim que acordas."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    "toxic_green_16": {
+      "id": "toxic_green_16",
+      "theme": "toxic",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Savoir rire ensemble de ses propres maladresses au lieu d'en faire un drame.",
+        "en": "Being able to laugh together at clumsy mistakes instead of turning it into drama.",
+        "de": "Gemeinsam über Missgeschicke lachen, statt daraus ein Drama zu machen.",
+        "es": "Saber reíros juntos de las torpezas cotidianas en vez de montar un drama.",
+        "nl": "Samen kunnen lachen om stomme foutjes in plaats van er een drama van te maken.",
+        "pt": "Saber rir juntos de pequenas trapalhices em vez de fazer um drama."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    "toxic_red_17": {
+      "id": "toxic_red_17",
+      "theme": "toxic",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Critiquer les tenues vestimentaires de son partenaire en disant 'c'est pour ton bien'.",
+        "en": "Criticizing your partner's outfits saying 'I'm only telling you for your own good'.",
+        "de": "Die Kleidung des Partners kritisieren mit der Ausrede 'Ich mein's nur gut'.",
+        "es": "Criticar cómo viste tu pareja soltando un 'te lo digo por tu propio bien'.",
+        "nl": "De kleding van je partner afkraken onder het mom van 'ik bedoel het goed'.",
+        "pt": "Criticar a roupa do parceiro dizendo 'só estou a dizer para o teu bem'."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    "toxic_green_17": {
+      "id": "toxic_green_17",
+      "theme": "toxic",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Garder son indépendance et ses propres passions sans culpabiliser l'autre.",
+        "en": "Keeping your own hobbies and passions alive without making the other feel guilty.",
+        "de": "Eigene Hobbys und Interessen pflegen, ohne dem Partner Schuldgefühle zu machen.",
+        "es": "Mantener tus propias aficiones e independencia sin hacer sentir culpable al otro.",
+        "nl": "Je eigen hobby's blijven doen zonder de ander een schuldgevoel aan te praten.",
+        "pt": "Manter os próprios passatempos e independência sem fazer o outro sentir culpa."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
+    },
+    "toxic_red_18": {
+      "id": "toxic_red_18",
+      "theme": "toxic",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Rappeler une erreur vieille de 3 ans lors d'une simple dispute du quotidien.",
+        "en": "Bringing up a 3-year-old mistake during a casual everyday argument.",
+        "de": "Einen 3 Jahre alten Fehler in einem banalen Alltagsstreit wieder aufwärmen.",
+        "es": "Sacar un error de hace 3 años en mitad de una discusión cotidiana.",
+        "nl": "Een fout van 3 jaar geleden weer oprakelen tijdens een gewone discussie.",
+        "pt": "Trazer à tona um erro de há 3 anos numa discussão banal do dia a dia."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "toxic_pack",
+      "live_tier": "safe"
     }
   },
-  "card_count": 799
+  "card_count": 834
 }

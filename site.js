@@ -1621,7 +1621,7 @@
     'dating_pack', 'clash_pack', 'office_pack', 'gym_pack_v1',
     'vacation_pack', 'back_to_school_pack', 'halloween_pack',
     'winter_holidays_pack', 'valentines_pack', 'summer_pack',
-    'genz_pack'
+    'genz_pack', 'toxic_pack'
   ]);
 
   let _dilemmaVoteConfigPromise = null;
