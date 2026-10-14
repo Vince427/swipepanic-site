@@ -20,6 +20,17 @@ test('daily dilemma translation keys exist in all six supported languages', () =
     'dailyConsensusSample',
     'dailyDilemmaCtaSubtitle',
     'dailyDilemmaStoreCta',
+    'almanacTitle',
+    'almanacSubtitle',
+    'almanacLegendGreen',
+    'almanacLegendRed',
+    'almanacLegendMissed',
+    'almanacMoodBenevolent',
+    'almanacMoodUncompromising',
+    'almanacMoodBalanced',
+    'almanacMoodUnknown',
+    'almanacStreakCount',
+    'cl184changes',
   ];
   const languages = ['fr', 'en', 'es', 'de', 'nl', 'pt'];
 
@@ -44,6 +55,10 @@ test('index.html contains the daily dilemma section and accessibility attributes
   assert.ok(html.includes('id="daily-bar-accept"'), 'Missing #daily-bar-accept');
   assert.ok(html.includes('id="daily-bar-reject"'), 'Missing #daily-bar-reject');
   assert.ok(html.includes('id="daily-country-breakdown"'), 'Missing #daily-country-breakdown');
+  assert.ok(html.includes('id="daily-almanac-container"'), 'Missing #daily-almanac-container');
+  assert.ok(html.includes('id="daily-almanac-grid"'), 'Missing #daily-almanac-grid');
+  assert.ok(html.includes('id="daily-almanac-mood"'), 'Missing #daily-almanac-mood');
+  assert.ok(html.includes('id="daily-almanac-streak"'), 'Missing #daily-almanac-streak');
   assert.ok(html.includes('data-i18n="navDailyDilemma"'), 'Missing navDailyDilemma link');
 });
 

@@ -49,6 +49,16 @@
     "countryThresholdHint": "✓ Vote comptabilisé pour {flag} ! Les statistiques par pays apparaissent dès 15 votes.",
     "dailyDilemmaCtaSubtitle": "Chaque jour, 1 dilemme exclusif et tes stats de groupe sur l'app !",
     "dailyDilemmaStoreCta": "⚡ Jouer sur l'application",
+    "almanacTitle": "📅 Almanach des 30 derniers jours",
+    "almanacSubtitle": "Ton historique de votes et l'évolution de ton humeur.",
+    "almanacLegendGreen": "Accepté",
+    "almanacLegendRed": "Refusé",
+    "almanacLegendMissed": "Non voté",
+    "almanacMoodBenevolent": "Humeur : Bienveillant 😇",
+    "almanacMoodUncompromising": "Humeur : Intraitable ⚖️",
+    "almanacMoodBalanced": "Humeur : Équilibré ⚖️",
+    "almanacMoodUnknown": "Humeur : En observation... ⏳",
+    "almanacStreakCount": "🔥 Série : {count} jour(s)",
     "collectionTitle": "Construis ta collection légendaire",
     "collectionCopy": "Le Hall of Fame et le Hall of Shame gardent la mémoire des choix marquants, des débats et des cartes qui méritent une place au musée.",
     "reportContent": "Signaler un contenu",
@@ -194,6 +204,7 @@
     "liveModerationCopy": "Les cartes officielles sont relues et validées par l'équipe — elles ne viennent pas d'inconnus sur Internet. Les packs créés par les joueurs restent privés dans leur groupe : personne d'autre ne les voit ni ne les reçoit.",
     "changelogTitle": "Évolutions et corrections",
     "changelogIntro": "Historique des mises à jour de Swipe Panic.",
+    "cl184changes": "<li>Almanach Mensuel du Dilemme Quotidien : calendrier visuel 30 jours (grille 10x3) avec pastilles vert/rouge/bouclier, suivi de votre humeur mensuelle (Bienveillant, Intraitable ou Équilibré) et de votre série de jours.</li><li>Tour du monde des avis &amp; votes en direct : animation fluide du consensus mondial et découverte des pays les plus clivés sous forme de capsules tactiles.</li><li>Nouveaux packs officiels : « Toxique ou Légitime ? » et « Gen Z vs Millennials » (70 cartes clivantes en 6 langues).</li><li>Ambiance Party Juice &amp; Carte Story : décompte sonore 3-2-1 Buzz, pluie de confettis et carte profil façon « Spotify Wrapped » en 9:16.</li>",
     "cl180changes": "<li>Nouveau mode « Face-à-Face / Duel Flash » (1 Téléphone, 2 Joueurs) : écran scindé à 180°, votes simultanés masqués, révélation Accord Parfait ou Clash et calcul de votre score de complicité.</li><li>Widget Natif Android d'Écran d'Accueil : retrouvez et votez sur le Dilemme du Jour directement depuis le bureau de votre smartphone avec épinglage en 1 tap.</li><li>Ambiance et packs saisonniers officiels : thèmes immersifs Halloween et Fêtes d'Hiver, packs Saint-Valentin (35 cartes) et Soirées d'Été (35 cartes).</li><li>Partage anonyme et confort : respect strict du mode anonyme sur les images et textes partagés, détection multilingue du « Doigt pointé ».</li>",
     "cl170changes": "<li>Rôles et profils psychologiques de soirée : Inquisiteur, Cœur d'Artichaut, Petit Démon ou Ange Pur calculés selon les votes réels du groupe.</li><li>Images de partage HD au format 9:16 : partagez les dilemmes et moments les plus fous directement en Story Instagram, TikTok et WhatsApp.</li><li>Nouveaux thèmes Cyberpunk et Doré déblocables dans la collection.</li><li>Filtres de modération locale renforcés et protection de la vie privée 100% hors-ligne.</li>",
     "cl161changes": "<li>Correctif des notifications locales sur tous les appareils Android (activation fiable et rappels de dilemme à 18h30).</li><li>Accès direct au Dilemme du Jour dès l'écran d'accueil avec flamme de série et comparaison mondiale en 10 secondes.</li><li>Suppression des messages et étiquettes Live lorsqu'aucun événement n'est en cours.</li><li>Pack officiel Fêtes d'Hiver (35 cartes), profil psychologique de soirée et confort haptique amélioré.</li>",
@@ -261,6 +272,16 @@
     "countryThresholdHint": "✓ Vote recorded for {flag}! Country stats appear once 15 votes are reached.",
     "dailyDilemmaCtaSubtitle": "Every day, 1 exclusive dilemma and your party stats on the app!",
     "dailyDilemmaStoreCta": "⚡ Play on the app",
+    "almanacTitle": "📅 30-Day Dilemma Almanac",
+    "almanacSubtitle": "Your voting history and mood evolution.",
+    "almanacLegendGreen": "Accepted",
+    "almanacLegendRed": "Rejected",
+    "almanacLegendMissed": "Missed",
+    "almanacMoodBenevolent": "Mood: Benevolent 😇",
+    "almanacMoodUncompromising": "Mood: Uncompromising ⚖️",
+    "almanacMoodBalanced": "Mood: Balanced ⚖️",
+    "almanacMoodUnknown": "Mood: Observing... ⏳",
+    "almanacStreakCount": "🔥 Streak: {count} day(s)",
     "collectionTitle": "Build your legendary collection",
     "collectionCopy": "Hall of Fame and Hall of Shame remember the bold choices, debates and museum-worthy cards.",
     "reportContent": "Report content",
@@ -406,6 +427,7 @@
     "liveModerationCopy": "Official cards are reviewed and approved by the team — they don't come from random strangers on the Internet. Packs created by players stay private within their group: no one else sees or receives them.",
     "changelogTitle": "Updates & fixes",
     "changelogIntro": "Swipe Panic version history.",
+    "cl184changes": "<li>Monthly Daily Dilemma Almanac: visual 30-day calendar (10x3 grid) with green/red/shield dots, tracking your monthly mood (Benevolent, Uncompromising, or Balanced) and streak.</li><li>Live World Opinions Tour &amp; smooth votes: smooth animated consensus gauge and tap-to-discover breakdown of the most divided countries.</li><li>New official packs: 'Toxic or Valid?' and 'Gen Z vs Millennials' (70 sharp cards in 6 languages).</li><li>Party Juice Vibes &amp; Story Card: dramatic 3-2-1 Buzz countdown, confetti celebrations, and 9:16 'Spotify Wrapped' personality story card.</li>",
     "cl180changes": "<li>New 'Face-to-Face / Flash Duel' mode (1 Phone, 2 Players): 180° split-screen, simultaneous secret votes, Perfect Match or Clash reveal, and chemistry score.</li><li>Native Android Home Screen Widget: view and vote on the Daily Dilemma directly from your desktop with one-tap pinning.</li><li>Seasonal themes &amp; official packs: immersive Halloween and Winter vibes, Valentine's Day (35 cards) and Summer Vibes (35 cards) packs.</li><li>Anonymous sharing &amp; comfort: strict pseudonym privacy in shared recap images, multi-language detection for finger-pointing cards.</li>",
     "cl170changes": "<li>Party personality roles: Inquisitor, Soft Heart, Little Demon, or Pure Angel computed from group votes.</li><li>HD 9:16 Story sharing images: export key recap highlights straight to Instagram, TikTok, and WhatsApp Stories.</li><li>Unlockable Cyberpunk and Golden cosmetic themes.</li><li>Enhanced local moderation filters and 100% offline privacy.</li>",
     "cl161changes": "<li>Fixed local notifications on all Android devices (reliable toggle and daily 6:30 PM dilemma reminders).</li><li>Direct access to Dilemma of the Day right on the home screen with streak counter and 10-second global comparison.</li><li>Removed ghost Live banners and badges when no real stream is scheduled.</li><li>Official Winter Holidays pack (35 cards), local party psychological profile and enhanced haptics.</li>",
@@ -474,6 +496,16 @@
     "countryThresholdHint": "✓ ¡Voto registrado para {flag}! Las estadísticas por país aparecen a partir de 15 votos.",
     "dailyDilemmaCtaSubtitle": "¡Cada día, 1 dilema exclusivo y tus estadísticas de grupo en la app!",
     "dailyDilemmaStoreCta": "⚡ Jugar en la app",
+    "almanacTitle": "📅 Almanaque de los últimos 30 días",
+    "almanacSubtitle": "Tu historial de votos y la evolución de tu humor.",
+    "almanacLegendGreen": "Aceptado",
+    "almanacLegendRed": "Rechazado",
+    "almanacLegendMissed": "No votado",
+    "almanacMoodBenevolent": "Humor: Benevolente 😇",
+    "almanacMoodUncompromising": "Humor: Implacable ⚖️",
+    "almanacMoodBalanced": "Humor: Equilibrado ⚖️",
+    "almanacMoodUnknown": "Humor: En observación... ⏳",
+    "almanacStreakCount": "🔥 Racha: {count} día(s)",
     "collectionTitle": "Crea tu colección legendaria",
     "collectionCopy": "El Hall of Fame y el Hall of Shame guardan los momentos, debates y cartas que merecen museo.",
     "reportContent": "Reportar contenido",
@@ -617,6 +649,7 @@
     "liveModerationCopy": "Las cartas oficiales son revisadas y aprobadas por el equipo — no vienen de desconocidos en Internet. Los packs creados por jugadores se quedan privados dentro de su grupo: nadie más los ve ni los recibe.",
     "changelogTitle": "Evoluciones y correcciones",
     "changelogIntro": "Historial de versiones de Swipe Panic.",
+    "cl184changes": "<li>Almanaque Mensual del Dilema Diario: calendario visual de 30 días (cuadrícula 10x3) con puntos de humor verde/rojo/escudo, seguimiento de tu humor mensual (Benevolente, Implacable o Equilibrado) y tu racha.</li><li>Gira Mundial de Opiniones y votos en vivo: medidor animado suave de consenso y cápsulas táctiles de los países más divididos.</li><li>Nuevos packs oficiales: «¿Tóxico o Válido?» y «Gen Z vs Millennials» (70 cartas afiladas en 6 idiomas).</li><li>Ambiente de fiesta Party Juice y Tarjeta Story: cuenta atrás 3-2-1 Buzz, lluvia de confeti y tarjeta de perfil 9:16 al estilo «Spotify Wrapped».</li>",
     "cl180changes": "<li>Nuevo modo «Cara a Cara / Duelo Flash» (1 Teléfono, 2 Jugadores): pantalla dividida a 180°, votos simultáneos ocultos, revelación de Acuerdo Perfecto o Choque y puntuación de química.</li><li>Widget Nativo de Pantalla de Inicio en Android: consulta y vota en el Dilema del Día directamente desde tu escritorio con anclaje en 1 toque.</li><li>Temas y packs de temporada oficiales: atmósfera envolvente de Halloween y Fiestas de Invierno, packs San Valentín (35 cartas) y Noches de Verano (35 cartas).</li><li>Compartir anónimo y comodidad: privacidad estricta de apodos en imágenes compartidas, detección multilingüe de cartas de señalar con el dedo.</li>",
     "cl170changes": "<li>Roles psicológicos de fiesta: Inquisidor, Corazón Blando, Pequeño Demonio o Ángel Puro calculados según los votos del grupo.</li><li>Imágenes de compartir HD en formato 9:16: exporta los momentos clave de tu resumen directo a Stories de Instagram, TikTok y WhatsApp.</li><li>Nuevos temas cosméticos desbloqueables Ciberpunk y Dorado.</li><li>Filtros de moderación local reforzados y privacidad 100% sin conexión.</li>",
     "cl161changes": "<li>Corrección de notificaciones locales en todos los dispositivos Android (activación fiable y recordatorios diarios a las 18:30).</li><li>Acceso directo al Dilema del Día en la pantalla de inicio con racha y comparación mundial en 10 segundos.</li><li>Eliminación de carteles y etiquetas Live cuando no hay evento activo.</li><li>Pack oficial Fiestas de Invierno (35 cartas), perfil psicológico de fiesta y mejor respuesta háptica.</li>",
@@ -685,6 +718,16 @@
     "countryThresholdHint": "✓ Stimme für {flag} gezählt! Länderstatistiken erscheinen ab 15 Stimmen.",
     "dailyDilemmaCtaSubtitle": "Jeden Tag 1 exklusives Dilemma und deine Gruppen-Statistiken in der App!",
     "dailyDilemmaStoreCta": "⚡ In der App spielen",
+    "almanacTitle": "📅 30-Tage-Dilemma-Almanach",
+    "almanacSubtitle": "Dein Abstimmungsverlauf und deine Stimmung.",
+    "almanacLegendGreen": "Angenommen",
+    "almanacLegendRed": "Abgelehnt",
+    "almanacLegendMissed": "Verpasst",
+    "almanacMoodBenevolent": "Stimmung: Wohlwollend 😇",
+    "almanacMoodUncompromising": "Stimmung: Unnachgiebig ⚖️",
+    "almanacMoodBalanced": "Stimmung: Ausgeglichen ⚖️",
+    "almanacMoodUnknown": "Stimmung: In Beobachtung... ⏳",
+    "almanacStreakCount": "🔥 Serie: {count} Tag(e)",
     "collectionTitle": "Baue deine legendäre Sammlung",
     "collectionCopy": "Hall of Fame und Hall of Shame merken sich mutige Entscheidungen, Debatten und Karten fürs Museum.",
     "reportContent": "Inhalt melden",
@@ -828,6 +871,7 @@
     "liveModerationCopy": "Offizielle Karten werden vom Team geprüft und freigegeben — sie stammen nicht von Fremden aus dem Internet. Von Spielern erstellte Packs bleiben privat in ihrer Gruppe: niemand sonst sieht oder erhält sie.",
     "changelogTitle": "Entwicklungen und Korrekturen",
     "changelogIntro": "Versionsverlauf von Swipe Panic.",
+    "cl184changes": "<li>Monatlicher Tages-Dilemma-Almanach: Visueller 30-Tage-Kalender (10x3-Raster) mit grünen/roten/Schild-Punkten, monatlicher Stimmungsanzeige (Wohlwollend, Unnachgiebig oder Ausgeglichen) und Streak-Verfolgung.</li><li>Weltreise der Meinungen &amp; Live-Votings: Sanft animierte Konsens-Anzeige und Entdeckung der am stärksten gespaltenen Länder als interaktive Chips.</li><li>Neue offizielle Packs: „Toxisch oder Legitim?“ und „Gen Z vs Millennials“ (70 pointierte Karten in 6 Sprachen).</li><li>Party Juice Vibes &amp; Story-Karte: Dramatischer 3-2-1 Buzz-Countdown, Konfetti-Feiern und 9:16-Profilkarte im „Spotify Wrapped“-Stil.</li>",
     "cl180changes": "<li>Neuer Modus «Face-to-Face / Blitz-Duell» (1 Smartphone, 2 Spieler): 180°-Split-Screen, gleichzeitige verdeckte Abstimmung, Enthüllung von Perfektem Match oder Clash und Chemie-Score.</li><li>Natives Android-Startbildschirm-Widget: Sieh und stimme über das Dilemma des Tages direkt von deinem Desktop ab, mit 1-Tap-Anheften.</li><li>Saisonale Themes &amp; offizielle Packs: Immersive Halloween- und Winter-Atmosphäre, Valentinstag- (35 Karten) und Sommernächte-Packs (35 Karten).</li><li>Anonymes Teilen &amp; Komfort: Strikter Datenschutz für Spielernamen in geteilten Bildern, mehrsprachige Erkennung von Zeigefinger-Karten.</li>",
     "cl170changes": "<li>Party-Persönlichkeitsrollen: Inquisitor, Weiches Herz, Kleiner Dämon oder Reiner Engel berechnet aus den Gruppenstimmen.</li><li>HD 9:16 Story-Bilder zum Teilen: Exportiere Highlights direkt in Instagram-, TikTok- und WhatsApp-Stories.</li><li>Freischaltbare Cyberpunk- und Gold-Designs.</li><li>Verstärkte lokale Moderationsfilter und 100% Offline-Datenschutz.</li>",
     "cl161changes": "<li>Behebung lokaler Benachrichtigungen auf allen Android-Geräten (zuverlässige Aktivierung und Dilemma-Erinnerungen um 18:30 Uhr).</li><li>Direkter Zugriff auf das Dilemma des Tages auf dem Startbildschirm mit Streak und weltweitem Vergleich in 10 Sekunden.</li><li>Entfernung von Live-Bannern und -Badges, wenn kein Stream aktiv ist.</li><li>Offizielles Winter- &amp; Festtags-Pack (35 Karten), lokales Party-Profil und verfeinerte Haptik.</li>",
@@ -895,6 +939,16 @@
     "countryThresholdHint": "✓ Stem geregistreerd voor {flag}! Landstatistieken verschijnen vanaf 15 stemmen.",
     "dailyDilemmaCtaSubtitle": "Elke dag 1 exclusief dilemma en je groepsstatistieken in de app!",
     "dailyDilemmaStoreCta": "⚡ Speel in de app",
+    "almanacTitle": "📅 30-Dagen Dilemma-Almanak",
+    "almanacSubtitle": "Je stemgeschiedenis en stemmingsverloop.",
+    "almanacLegendGreen": "Geaccepteerd",
+    "almanacLegendRed": "Geweigerd",
+    "almanacLegendMissed": "Gemist",
+    "almanacMoodBenevolent": "Stemming: Welwillend 😇",
+    "almanacMoodUncompromising": "Stemming: Onvermurwbaar ⚖️",
+    "almanacMoodBalanced": "Stemming: Evenwichtig ⚖️",
+    "almanacMoodUnknown": "Stemming: In observatie... ⏳",
+    "almanacStreakCount": "🔥 Serie: {count} dag(en)",
     "collectionTitle": "Bouw je legendarische collectie",
     "collectionCopy": "Hall of Fame en Hall of Shame onthouden opvallende keuzes, discussies en museumwaardige kaarten.",
     "reportContent": "Inhoud melden",
@@ -1040,6 +1094,7 @@
     "liveModerationCopy": "Officiële kaarten worden door het team beoordeeld en goedgekeurd — ze komen niet van vreemden op internet. Packs gemaakt door spelers blijven privé binnen hun groep: niemand anders ziet of ontvangt ze.",
     "changelogTitle": "Updates en verbeteringen",
     "changelogIntro": "Versiegeschiedenis van Swipe Panic.",
+    "cl184changes": "<li>Maandelijkse Dagelijks Dilemma-Almanak: visuele 30-dagenkalender (10x3-raster) met groen/rood/schild-stippen, opvolging van je maandelijkse stemming (Welwillend, Onvermurwbaar of Evenwichtig) en streak.</li><li>Wereldreis van Meningen &amp; live stemmen: soepel geanimeerde consensusmeter en interactieve capsules van de meest verdeelde landen.</li><li>Nieuwe officiële packs: «Toxisch of Legitiem?» en «Gen Z vs Millennials» (70 scherpe kaarten in 6 talen).</li><li>Party Juice-sfeer &amp; Story-kaart: 3-2-1 Buzz-aftelling, confetti-explosies en 9:16-persoonlijkheidskaart in «Spotify Wrapped»-stijl.</li>",
     "cl180changes": "<li>Nieuwe modus «Oog-in-Oog / Flitsduel» (1 Telefoon, 2 Spelers): 180° gesplitst scherm, gelijktijdige geheime stemmen, onthulling van Perfecte Match of Clash en chemiescore.</li><li>Native Android-startschermwidget: bekijk en stem op het Dilemma van de Dag direct vanaf je startscherm met 1-tik-vastmaken.</li><li>Seizoensthema's &amp; officiële packs: meeslepende Halloween- en Winterfeestsferen, Valentijnsdag- (35 kaarten) en Zomeravondpacks (35 kaarten).</li><li>Anoniem delen &amp; comfort: strikte pseudoniemprivacy in gedeelde afbeeldingen, meertalige detectie van wijzende vinger-kaarten.</li>",
     "cl170changes": "<li>Party-persoonlijkheidsrollen: Inquisiteur, Zacht Hart, Klein Duiveltje of Pure Engel berekend op basis van groepsstemmen.</li><li>HD 9:16 Story-deelafbeeldingen: exporteer hoogtepunten direct naar Instagram, TikTok en WhatsApp Stories.</li><li>Ontgrendelbare Cyberpunk- en Goudthema's.</li><li>Versterkte lokale moderatiefilters en 100% offline privacy.</li>",
     "cl161changes": "<li>Lokale meldingen gerepareerd op alle Android-apparaten (betrouwbare activering en dagelijkse herinneringen om 18:30).</li><li>Directe toegang tot het Dilemma van de Dag op het startscherm met streak en wereldwijde vergelijking in 10 seconden.</li><li>Verwijdering van Live-banners en badges wanneer er geen live-evenement plaatsvindt.</li><li>Officieel Winterfeestdagen-pack (35 kaarten), psychologisch partyprofiel en verfijnde haptiek.</li>",
@@ -1107,6 +1162,16 @@
     "countryThresholdHint": "✓ Voto registado para {flag}! As estatísticas por país aparecem a partir de 15 votos.",
     "dailyDilemmaCtaSubtitle": "Todos os dias, 1 dilema exclusivo e as tuas estatísticas de grupo na app!",
     "dailyDilemmaStoreCta": "⚡ Jogar na aplicação",
+    "almanacTitle": "📅 Almanaque dos últimos 30 dias",
+    "almanacSubtitle": "O teu histórico de votos e a evolução do teu humor.",
+    "almanacLegendGreen": "Aceite",
+    "almanacLegendRed": "Recusado",
+    "almanacLegendMissed": "Não votado",
+    "almanacMoodBenevolent": "Humor: Benevolente 😇",
+    "almanacMoodUncompromising": "Humor: Implacável ⚖️",
+    "almanacMoodBalanced": "Humor: Equilibrado ⚖️",
+    "almanacMoodUnknown": "Humor: Em observação... ⏳",
+    "almanacStreakCount": "🔥 Sequência: {count} dia(s)",
     "collectionTitle": "Constrói a tua coleção lendária",
     "collectionCopy": "Hall of Fame e Hall of Shame guardam escolhas marcantes, debates e cartas dignas de museu.",
     "reportContent": "Denunciar conteúdo",
@@ -1252,6 +1317,7 @@
     "liveModerationCopy": "As cartas oficiais são revistas e aprovadas pela equipa — não vêm de desconhecidos na Internet. Os packs criados por jogadores ficam privados dentro do seu grupo: mais ninguém os vê ou recebe.",
     "changelogTitle": "Evoluções e correções",
     "changelogIntro": "Histórico de versões do Swipe Panic.",
+    "cl184changes": "<li>Almanaque Mensual do Dilema Diário: calendário visual de 30 dias (grelha 10x3) com pontos verde/vermelho/escudo, acompanhamento do teu humor mensal (Benevolente, Implacável ou Equilibrado) e sequência diária.</li><li>Volta ao Mundo das Opiniões &amp; votos em direto: medidor animado suave do consenso mundial e cápsulas táteis dos países mais divididos.</li><li>Novos packs oficiais: «Tóxico ou Legítimo?» e «Gen Z vs Millennials» (70 cartas afiadas em 6 línguas).</li><li>Vibrações Party Juice &amp; Cartão Story: contagem decrescente dramática 3-2-1 Buzz, chuva de confetes e cartão de perfil 9:16 ao estilo «Spotify Wrapped».</li>",
     "cl180changes": "<li>Novo modo «Frente a Frente / Duelo Flash» (1 Telemóvel, 2 Jogadores): ecrã dividido a 180°, votos simultâneos ocultos, revelação de Sintonia Perfeita ou Choque e pontuação de química.</li><li>Widget Nativo de Ecrã Principal Android: vê e vota no Dilema do Dia diretamente do ambiente de trabalho com fixação em 1 toque.</li><li>Temas sazonais e packs oficiais: ambiente imersivo de Halloween e Festas de Inverno, packs Dia dos Namorados (35 cartas) e Noites de Verão (35 cartas).</li><li>Partilha anónima e conforto: privacidade estrita de pseudónimos em imagens partilhadas, deteção multilingue de cartas de apontar o dedo.</li>",
     "cl170changes": "<li>Papéis psicológicos de festa: Inquisidor, Coração Mole, Pequeno Demónio ou Anjo Puro calculados a partir dos votos do grupo.</li><li>Imagens de partilha HD em formato 9:16: exporta os momentos altos diretamente para Stories de Instagram, TikTok e WhatsApp.</li><li>Novos temas cosméticos desbloqueáveis Cyberpunk e Dourado.</li><li>Filtros de moderação local reforçados e privacidade 100% offline.</li>",
     "cl161changes": "<li>Correção de notificações locais em todos os dispositivos Android (ativação fiável e lembretes diários às 18:30).</li><li>Acesso direto ao Dilema do Dia no ecrã inicial com sequência e comparação mundial em 10 segundos.</li><li>Remoção de banners e etiquetas Live quando não há evento em direto.</li><li>Pack oficial Festas de Inverno (35 cartas), perfil psicológico de festa e resposta háptica aprimorada.</li>",
@@ -1790,6 +1856,100 @@
         hintDiv.className = 'daily-country-hint';
         hintDiv.textContent = (copy.countryThresholdHint || '✓ Vote comptabilisé pour {flag} ! Les statistiques par pays apparaissent dès 15 votes.').replace('{flag}', playerFlag);
         countryGrid.appendChild(hintDiv);
+      }
+
+      // 30-Day Almanac
+      const gridNode = document.getElementById('daily-almanac-grid');
+      const moodNode = document.getElementById('daily-almanac-mood');
+      const streakNode = document.getElementById('daily-almanac-streak');
+      if (gridNode) {
+        let history = {};
+        try {
+          const raw = localStorage.getItem('sp_daily_almanac_history');
+          if (raw) history = JSON.parse(raw);
+        } catch (_) {}
+
+        if (choice) {
+          history[dateStr] = choice;
+          try {
+            localStorage.setItem('sp_daily_almanac_history', JSON.stringify(history));
+          } catch (_) {}
+        }
+
+        const todayMs = now.getTime();
+        const oneDayMs = 24 * 60 * 60 * 1000;
+        gridNode.innerHTML = '';
+
+        let totalAnswered = 0;
+        let acceptCount = 0;
+
+        for (let i = 29; i >= 0; i--) {
+          const d = new Date(todayMs - i * oneDayMs);
+          const y = d.getFullYear();
+          const m = String(d.getMonth() + 1).padStart(2, '0');
+          const day = String(d.getDate()).padStart(2, '0');
+          const dKey = `${y}-${m}-${day}`;
+          const isToday = (i === 0);
+
+          const vote = history[dKey] || (isToday ? choice : localStorage.getItem('sp_daily_vote_' + dKey));
+
+          const dot = document.createElement('div');
+          dot.className = 'almanac-dot';
+          if (isToday) dot.classList.add('dot-today');
+
+          if (vote === 'accept') {
+            dot.classList.add('dot-green');
+            dot.title = `${dKey}: ${copy.almanacLegendGreen || 'Accepté'}`;
+            totalAnswered++;
+            acceptCount++;
+          } else if (vote === 'reject') {
+            dot.classList.add('dot-red');
+            dot.title = `${dKey}: ${copy.almanacLegendRed || 'Refusé'}`;
+            totalAnswered++;
+          } else {
+            dot.classList.add('dot-empty');
+            dot.title = `${dKey}: ${copy.almanacLegendMissed || 'Non voté'}`;
+          }
+
+          gridNode.appendChild(dot);
+        }
+
+        if (moodNode) {
+          if (totalAnswered < 5) {
+            moodNode.textContent = copy.almanacMoodUnknown || "Humeur : En observation... ⏳";
+            moodNode.className = 'almanac-mood-badge mood-unknown';
+          } else {
+            const ratio = acceptCount / totalAnswered;
+            if (ratio >= 0.6) {
+              moodNode.textContent = copy.almanacMoodBenevolent || "Humeur : Bienveillant 😇";
+              moodNode.className = 'almanac-mood-badge mood-benevolent';
+            } else if (ratio <= 0.4) {
+              moodNode.textContent = copy.almanacMoodUncompromising || "Humeur : Intraitable ⚖️";
+              moodNode.className = 'almanac-mood-badge mood-uncompromising';
+            } else {
+              moodNode.textContent = copy.almanacMoodBalanced || "Humeur : Équilibré ⚖️";
+              moodNode.className = 'almanac-mood-badge mood-balanced';
+            }
+          }
+        }
+
+        if (streakNode) {
+          let streak = 0;
+          for (let i = 0; i < 30; i++) {
+            const d = new Date(todayMs - i * oneDayMs);
+            const y = d.getFullYear();
+            const m = String(d.getMonth() + 1).padStart(2, '0');
+            const day = String(d.getDate()).padStart(2, '0');
+            const dKey = `${y}-${m}-${day}`;
+            const vote = history[dKey] || (i === 0 ? choice : localStorage.getItem('sp_daily_vote_' + dKey));
+            if (vote) {
+              streak++;
+            } else if (i > 0) {
+              break;
+            }
+          }
+          streakNode.textContent = (copy.almanacStreakCount || '🔥 Série : {count} jour(s)').replace('{count}', Math.max(1, streak));
+        }
       }
 
       // Store CTA link with UTM

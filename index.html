@@ -135,6 +135,23 @@
 
             <p class="daily-sample-copy" id="daily-consensus-sample"></p>
 
+            <div class="daily-almanac-container" id="daily-almanac-container">
+              <div class="daily-almanac-header">
+                <span class="almanac-title" data-i18n="almanacTitle">📅 Almanach des 30 derniers jours</span>
+                <span class="almanac-mood-badge" id="daily-almanac-mood">Humeur : En observation... ⏳</span>
+              </div>
+              <p class="almanac-subtitle" data-i18n="almanacSubtitle">Ton historique de votes et l'évolution de ton humeur.</p>
+              <div class="daily-almanac-grid" id="daily-almanac-grid"></div>
+              <div class="daily-almanac-footer">
+                <div class="almanac-legends">
+                  <span class="legend-item"><span class="dot-sample dot-green"></span> <span data-i18n="almanacLegendGreen">Accepté</span></span>
+                  <span class="legend-item"><span class="dot-sample dot-red"></span> <span data-i18n="almanacLegendRed">Refusé</span></span>
+                  <span class="legend-item"><span class="dot-sample dot-empty"></span> <span data-i18n="almanacLegendMissed">Non voté</span></span>
+                </div>
+                <div class="almanac-streak-info" id="daily-almanac-streak">🔥 Série : 1 jour(s)</div>
+              </div>
+            </div>
+
             <div class="daily-store-nudge">
               <p class="nudge-text" data-i18n="dailyDilemmaCtaSubtitle">Chaque jour, 1 dilemme exclusif et tes stats de groupe sur l'app !</p>
               <a class="button daily-app-btn" id="daily-dilemma-store-btn" href="https://play.google.com/store/apps/details?id=com.swipepanic.swipe_panic" target="_blank" rel="noopener noreferrer" data-i18n="dailyDilemmaStoreCta">⚡ Jouer sur l'application</a>
