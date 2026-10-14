@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-14T10:21:10.640Z",
+  "updated_at": "2026-10-14T14:28:52.003Z",
   "cards": [
     {
       "id": "dating_red_1",
@@ -15013,6 +15013,1266 @@
       "mode": "classic",
       "packId": "toxic_pack",
       "live_tier": "safe"
+    },
+    {
+      "id": "coloc_red_1",
+      "theme": "coloc",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Laisser la vaisselle sale tremper 3 jours dans l'évier sous prétexte qu'elle doit ramollir.",
+        "en": "Leaving dirty dishes soaking in the sink for 3 days claiming they need to 'soak'.",
+        "de": "Dreckiges Geschirr 3 Tage in der Spüle einweichen lassen, weil es angeblich 'einweichen muss'.",
+        "es": "Dejar los platos sucios en remojo 3 días en el fregadero diciendo que 'se tienen que ablandar'.",
+        "nl": "Vuile vaat 3 dagen in de gootsteen laten weken onder het mom dat het 'moet losweken'.",
+        "pt": "Deixar a louça suja de molho no lava-louça 3 dias dizendo que precisa 'amolecer'."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "coloc_red_2",
+      "theme": "coloc",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Coller un mot anonyme passif-agressif sur le frigo au lieu d'en parler calmement.",
+        "en": "Taping an anonymous passive-aggressive sticky note on the fridge instead of talking.",
+        "de": "Einen passiv-aggressiven Zettel an den Kühlschrank kleben, statt normal zu reden.",
+        "es": "Pegar una nota anónima pasivo-agresiva en la nevera en vez de hablar las cosas.",
+        "nl": "Een passief-agressief anoniem briefje op de koelkast plakken in plaats van te praten.",
+        "pt": "Colar um bilhete anónimo passivo-agressivo no frigorífico em vez de falar diretamente."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "coloc_red_3",
+      "theme": "coloc",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Passer la perceuse ou l'aspirateur le dimanche matin à 8h tapantes.",
+        "en": "Drilling into walls or vacuuming at exactly 8 AM on a Sunday morning.",
+        "de": "Am Sonntagmorgen um Punkt 8 Uhr bohren oder laut Staub saugen.",
+        "es": "Ponerse a taladrar o pasar la aspiradora un domingo a las 8 de la mañana en punto.",
+        "nl": "Om stipt 8 uur 's ochtends boren of stofzuigen op zondag.",
+        "pt": "Começar a furar as paredes ou aspirar às 8h em ponto num domingo de manhã."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "coloc_red_4",
+      "theme": "coloc",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Inviter son crush ou de la famille à squatter la coloc deux semaines sans prévenir.",
+        "en": "Having a crush or family sleep over for two weeks without giving roommates any notice.",
+        "de": "Den Schwarm oder Familie zwei Wochen in der WG wohnen lassen, ohne Bescheid zu sagen.",
+        "es": "Meter al ligue o a la familia a dormir en el piso durante dos semanas sin avisar.",
+        "nl": "Je date of familie twee weken in huis laten slapen zonder je huisgenoten in te lichten.",
+        "pt": "Levar o crush ou a família para dormir no apartamento duas semanas sem avisar ninguém."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "coloc_red_5",
+      "theme": "coloc",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Boire la dernière goutte de lait ou piquer du fromage et laisser le paquet vide au frigo.",
+        "en": "Finishing the milk or stealing cheese and leaving the empty package in the fridge.",
+        "de": "Die letzte Milch austrinken oder Käse klauen und die leere Packung im Kühlschrank lassen.",
+        "es": "Terminarse la leche o robar queso y dejar el envase vacío dentro de la nevera.",
+        "nl": "De laatste melk opdrinken of kaas jatten en het lege pak in de koelkast laten staan.",
+        "pt": "Beber o resto do leite ou tirar queijo alheio e deixar a embalagem vazia no frigorífico."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "coloc_red_6",
+      "theme": "coloc",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Organiser un after techno improvisé un mardi soir jusqu'à 5h du matin sans demander l'avis.",
+        "en": "Hosting a loud techno afterparty until 5 AM on a Tuesday night without asking anyone.",
+        "de": "Dienstagnacht ohne Absprache eine improvisierte Techno-Party bis 5 Uhr morgens feiern.",
+        "es": "Montar un after techno improvisado un martes por la noche hasta las 5 de la mañana sin avisar.",
+        "nl": "Op dinsdagnacht zonder overleg een illegale techno-afterparty houden tot 5 uur 's ochtends.",
+        "pt": "Organizar um after de techno às 5h da manhã numa terça-feira sem avisar os colegas de casa."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "coloc_red_7",
+      "theme": "coloc",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Laisser régulièrement la porte d'entrée non verrouillée ou entrouverte en partant.",
+        "en": "Regularly leaving the apartment front door unlocked or cracked open when leaving.",
+        "de": "Die Wohnungstür beim Verlassen regelmäßig unabgeschlossen oder angelehnt lassen.",
+        "es": "Dejar con frecuencia la puerta de entrada sin cerrar con llave o entreabierta al salir.",
+        "nl": "De voordeur regelmatig van het slot laten of op een kier laten staan bij vertrek.",
+        "pt": "Deixar frequentemente a porta de entrada destrancada ou encostada ao sair de casa."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "coloc_red_8",
+      "theme": "coloc",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Finir le rouleau de papier toilette et laisser le carton vide sur le dévidoir.",
+        "en": "Using the last square of toilet paper and leaving the empty cardboard roll behind.",
+        "de": "Das Klopapier aufbrauchen und die leere Papprolle einfach auf dem Halter hängen lassen.",
+        "es": "Gastar el último pedazo de papel higiénico y dejar el cartón vacío en el soporte.",
+        "nl": "Het laatste wc-papier opmaken en het lege kartonnen rolletje op de houder laten zitten.",
+        "pt": "Acabar o papel higiénico e deixar o rolo de cartão vazio no suporte da casa de banho."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "coloc_red_9",
+      "theme": "coloc",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Emprunter des fringues ou des chaussures dans le dressing de son coloc sans lui demander.",
+        "en": "Borrowing clothes or sneakers from your roommate's wardrobe without asking permission.",
+        "de": "Klamotten oder Schuhe aus dem Schrank des Mitbewohners nehmen, ohne vorher zu fragen.",
+        "es": "Cogerle ropa o zapatillas del armario a tu compañero de piso sin pedirle permiso.",
+        "nl": "Kleren of schoenen uit de kast van je huisgenoot pakken zonder eerst toestemming te vragen.",
+        "pt": "Pedir emprestada roupa ou ténis do armário do colega de casa sem lhe pedir autorização."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "coloc_red_10",
+      "theme": "coloc",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Squatter la salle de bain 45 minutes à 8h du matin alors que tout le monde doit partir bosser.",
+        "en": "Hogging the only bathroom for 45 minutes at 8 AM when everyone is rushing to get to work.",
+        "de": "Morgens um 8 Uhr das einzige Bad 45 Minuten blockieren, während alle zur Arbeit müssen.",
+        "es": "Acaparar el único baño durante 45 minutos a las 8 de la mañana cuando todos van con prisa.",
+        "nl": "Om 8 uur 's ochtends de badkamer 45 minuten bezet houden terwijl iedereen naar werk moet.",
+        "pt": "Ficar 45 minutos na única casa de banho às 8h da manhã quando todos têm de ir trabalhar."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "coloc_red_11",
+      "theme": "coloc",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Regarder des TikTok ou écouter de la musique sur haut-parleur dans le salon commun sans écouteurs.",
+        "en": "Watching TikToks or blasting music on full speaker in the shared living room without headphones.",
+        "de": "TikToks schauen oder laut Musik hören im gemeinsamen Wohnzimmer ohne Kopfhörer.",
+        "es": "Ver TikToks o escuchar música con el altavoz al máximo en el salón común sin auriculares.",
+        "nl": "TikToks kijken of muziek luisteren op speaker in de gezamenlijke woonkamer zonder oordopjes.",
+        "pt": "Ver TikToks ou ouvir música no altifalante na sala comum sem utilizar auriculares."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "coloc_red_12",
+      "theme": "coloc",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Frapper furieusement au plafond avec un balai dès qu'on marche dans son appart après 22h.",
+        "en": "Banging furiously on the ceiling with a broom the second someone takes a step after 10 PM.",
+        "de": "Mit dem Besenstil gegen die Decke hämmern, sobald oben nach 22 Uhr jemand leise durch den Raum geht.",
+        "es": "Dar golpes salvajes al techo con la escoba en cuanto alguien da un paso después de las 22h.",
+        "nl": "Woedend met een bezemsteel tegen het plafond bonken zodra iemand na 22.00 uur zachtjes rondloopt.",
+        "pt": "Bater com a vassoura no teto com fúria assim que alguém dá um passo no chão depois das 22h."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "coloc_red_13",
+      "theme": "coloc",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Laisser ses poubelles dégoulinantes sur le palier commun pendant deux jours au lieu de descendre.",
+        "en": "Leaving leaking trash bags in the shared hallway for two days instead of taking them down.",
+        "de": "Triefende Müllbeutel zwei Tage lang im Hausflur stehen lassen, statt sie runterzubringen.",
+        "es": "Dejar bolsas de basura goteando en el rellano común durante dos días en lugar de bajarlas.",
+        "nl": "Lekkende vuilniszakken twee dagen op de gezamenlijke gang laten staan in plaats van weggooien.",
+        "pt": "Deixar sacos de lixo a pingar no corredor comum durante dois dias em vez de os levar para fora."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "coloc_red_14",
+      "theme": "coloc",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Cuisiner du poisson frit bien gras à minuit en laissant toutes les portes des chambres grandes ouvertes.",
+        "en": "Frying smelly greasy fish at midnight with all bedroom doors wide open and zero ventilation.",
+        "de": "Um Mitternacht stinkenden Fisch braten, während alle Zimmertüren weit geöffnet sind.",
+        "es": "Cocinar pescado grasiento a medianoche dejando todas las puertas de las habitaciones abiertas.",
+        "nl": "Om middernacht stinkende vis bakken terwijl alle slaapkamerdeuren wagenwijd openstaan.",
+        "pt": "Fritar peixe gorduroso à meia-noite com as portas de todos os quartos escancaradas."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "coloc_red_15",
+      "theme": "coloc",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Programmer une alarme stridente à 6h du matin, la laisser sonner 8 fois et continuer à dormir.",
+        "en": "Setting a blasting alarm at 6 AM, hitting snooze 8 times, and peacefully staying asleep.",
+        "de": "Den schrillen Wecker um 6 Uhr stellen, 8 Mal schlummern lassen und einfach weiterschlafen.",
+        "es": "Poner una alarma ruidosa a las 6 de la mañana, posponerla 8 veces y seguir durmiendo plácidamente.",
+        "nl": "Om 6 uur 's ochtends een keihard alarm zetten, hem 8 keer laten snoozen en lekker doorslapen.",
+        "pt": "Pôr um alarme aos berros às 6h da manhã, carregar no snooze 8 vezes e continuar a dormir."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "coloc_red_16",
+      "theme": "coloc",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Créer une dépense Tricount de 42 centimes pour avoir partagé trois feuilles d'essuie-tout.",
+        "en": "Adding an expense of 42 cents on Splitwise for sharing three sheets of paper towel.",
+        "de": "Auf Splitwise 42 Cent einfordern, weil man drei Blatt Küchenrolle abgegeben hat.",
+        "es": "Reclamar 42 céntimos en Splitwise por haber compartido tres hojas de papel de cocina.",
+        "nl": "Een Tikkie van 42 cent sturen voor het delen van drie velletjes keukenpapier.",
+        "pt": "Pedir 42 cêntimos no Splitwise por ter partilhado três folhas de papel de cozinha."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "coloc_red_17",
+      "theme": "coloc",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Prendre les affaires des autres sans prévenir en disant toujours : « C'est bon, on partage non ? »",
+        "en": "Taking other people's stuff without asking and saying: 'Come on, we share everything, right?'",
+        "de": "Sachen anderer ohne Erlaubnis nehmen und sagen: 'Ist doch egal, wir teilen doch alles!'.",
+        "es": "Coger las cosas de los demás sin avisar diciendo: 'Venga, total, aquí lo compartimos todo'.",
+        "nl": "Spullen van anderen pakken zonder te vragen en roepen: 'We delen toch alles met elkaar?'.",
+        "pt": "Usar as coisas dos outros sem pedir e responder: 'Qual é o problema, nós partilhamos tudo!'."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "coloc_red_18",
+      "theme": "coloc",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Laisser la lunette des toilettes souillée ou relevée et nier effrontément en accusant les autres.",
+        "en": "Leaving the toilet seat dirty or up, then shamelessly denying it and blaming roommates.",
+        "de": "Die Klobrille dreckig oder hochgeklappt lassen und danach dreist die Mitbewohner beschuldigen.",
+        "es": "Dejar la tapa del váter sucia o levantada y negar la culpa descaradamente acusando al resto.",
+        "nl": "De wc-bril smerig of omhoog achterlaten en schaamteloos je huisgenoten de schuld geven.",
+        "pt": "Deixar o tampo da sanita sujo ou levantado e negar descaradamente acusando os outros."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "coloc_green_1",
+      "theme": "coloc",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Faire le ménage de la cuisine et de la salle de bain à fond sans jamais rien reprocher à personne.",
+        "en": "Deep cleaning the kitchen and bathroom thoroughly without complaining or guilt-tripping anyone.",
+        "de": "Küche und Bad gründlich putzen, ohne jemandem Vorwürfe zu machen oder passiv-aggressiv zu sein.",
+        "es": "Limpiar a fondo la cocina y el baño sin reprocharle nada a nadie ni dárselas de héroe.",
+        "nl": "De keuken en badkamer grondig schoonmaken zonder ooit iemand ook maar iets te verwijten.",
+        "pt": "Fazer uma limpeza a fundo na cozinha e na casa de banho sem mandar bocas nem cobrar nada."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "coloc_green_2",
+      "theme": "coloc",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Remplacer immédiatement un objet cassé par un neuf sans qu'on ait besoin de lui demander.",
+        "en": "Immediately replacing something broken with a brand-new one before anyone even has to ask.",
+        "de": "Einen zerbrochenen Gegenstand sofort durch einen neuen ersetzen, ohne dass jemand nachfragen muss.",
+        "es": "Reemplazar al instante cualquier cosa rota por una nueva sin que nadie tenga que pedirlo.",
+        "nl": "Iets wat kapot is gegaan meteen vervangen door een nieuw exemplaar zonder dat iemand erom vraagt.",
+        "pt": "Substituir imediatamente qualquer objeto partido por um novo em folha sem ninguém ter de pedir."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "coloc_green_3",
+      "theme": "coloc",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Prévenir au moins 48 heures à l'avance sur le groupe avant d'inviter des potes à la maison.",
+        "en": "Giving everyone at least 48 hours notice in the group chat before inviting friends over.",
+        "de": "Mindestens 48 Stunden vorher in der WG-Gruppe Bescheid geben, bevor Freunde eingeladen werden.",
+        "es": "Avisar con al menos 48 horas de antelación en el grupo antes de invitar a colegas al piso.",
+        "nl": "Minstens 48 uur van tevoren een appje sturen in de groep voordat er vrienden over de vloer komen.",
+        "pt": "Avisar no grupo com pelo menos 48 horas de antecedência antes de convidar amigos para casa."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "coloc_green_4",
+      "theme": "coloc",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Rentrer de soirée à 4h du matin sur la pointe des pieds en fermant les portes sans bruit.",
+        "en": "Coming home from a party at 4 AM on tiptoe and gently closing every door without a sound.",
+        "de": "Um 4 Uhr morgens auf Zehenspitzen nach Hause kommen und jede Tür absolut lautlos schließen.",
+        "es": "Volver de fiesta a las 4 de la mañana de puntillas cerrando todas las puertas sin hacer ruido.",
+        "nl": "Om 4 uur 's nachts op kousenvoeten thuiskomen en geruisloos alle deuren zachtjes dichtdoen.",
+        "pt": "Chegar a casa de uma festa às 4h da manhã em bicos de pés a fechar as portas em silêncio absoluto."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "coloc_green_5",
+      "theme": "coloc",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Racheter spontanément du papier toilette, du sel ou de l'huile dès que le stock baisse.",
+        "en": "Spontaneously buying toilet paper, salt, or cooking oil as soon as supplies run low.",
+        "de": "Spontan Klopapier, Salz oder Öl nachkaufen, sobald die gemeinsamen Vorräte knapp werden.",
+        "es": "Comprar papel higiénico, sal o aceite en cuanto ve que se está acabando sin esperar turnos.",
+        "nl": "Spontaan wc-papier, zout of bakolie bijkopen zodra de voorraad bijna op is.",
+        "pt": "Comprar logo papel higiénico, sal ou azeite mal repara que o stock comum está a acabar."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "coloc_green_6",
+      "theme": "coloc",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Cuisiner un bon plat chaud et en laisser généreusement une part dans une boîte pour son coloc.",
+        "en": "Cooking a great homemade meal and thoughtfully leaving a warm portion in a container for roommates.",
+        "de": "Ein leckeres Gericht kochen und den Mitbewohnern eine großzügige Portion in einer Box hinterlassen.",
+        "es": "Cocinar un plato delicioso y dejar una ración generosa en un táper para su compañero de piso.",
+        "nl": "Heerlijk koken en een flinke portie in een bakje achterlaten voor je huisgenoten.",
+        "pt": "Cozinhar um prato delicioso e deixar uma porção generosa numa caixa para o colega de casa."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "coloc_green_7",
+      "theme": "coloc",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Descendre les poubelles communes et remettre un sac propre sans attendre que ça déborde.",
+        "en": "Taking out the shared trash and putting in a fresh bag before it starts overflowing.",
+        "de": "Den gemeinsamen Müll runterbringen und eine neue Tüte einsetzen, bevor er überquillt.",
+        "es": "Bajar la basura común y colocar una bolsa limpia antes de que empiece a desbordarse.",
+        "nl": "De volle vuilniszak weggooien en direct een nieuwe zak plaatsen voordat het overstroomt.",
+        "pt": "Levar o lixo comum para fora e colocar logo um saco limpo antes de transbordar."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "coloc_green_8",
+      "theme": "coloc",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Réceptionner gentiment les colis des voisins absents et leur envoyer un message bienveillant.",
+        "en": "Gladly accepting packages for absent neighbors and sending them a friendly text right away.",
+        "de": "Freundlich Pakete für Nachbarn annehmen und ihnen direkt eine nette Nachricht schreiben.",
+        "es": "Recoger con amabilidad los paquetes de los vecinos ausentes y avisarles con un mensaje atento.",
+        "nl": "Vriendelijk pakketjes aannemen voor de buren en meteen een lief berichtje sturen.",
+        "pt": "Receber gentilmente as encomendas dos vizinhos ausentes e mandar-lhes uma mensagem amigável."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "coloc_green_9",
+      "theme": "coloc",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Baisser spontanément le volume de la musique dès 22h pile sans avoir besoin de rappel.",
+        "en": "Spontaneously lowering the music volume at 10 PM sharp without needing any reminder.",
+        "de": "Die Musik um Punkt 22 Uhr ganz von allein leiser drehen, ohne dass jemand klopfen muss.",
+        "es": "Bajar el volumen de la música puntualmente a las 22h por iniciativa propia y sin avisos.",
+        "nl": "Om stipt 22.00 uur uit jezelf de muziek zachter zetten zonder dat iemand hoeft te klagen.",
+        "pt": "Baixar o volume da música logo às 22h em ponto por iniciativa própria sem ser preciso pedir."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "coloc_green_10",
+      "theme": "coloc",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Proposer de lancer une lessive groupée quand le tambour n'est pas plein pour ne pas gaspiller.",
+        "en": "Offering to combine laundry loads when the washing machine isn't full to save water and energy.",
+        "de": "Anbieten, Wäsche zusammen zu waschen, wenn die Trommel noch nicht voll ist, um Strom zu sparen.",
+        "es": "Proponer poner una lavadora conjunta si no está llena para ahorrar agua y electricidad.",
+        "nl": "Voorstellen om was samen te draaien als de wasmachine halfvol is om energie te besparen.",
+        "pt": "Propor juntar roupa na máquina de lavar quando ainda há espaço para poupar água e energia."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "coloc_green_11",
+      "theme": "coloc",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Ramener des croissants ou des viennoiseries fraîches le dimanche matin pour toute la coloc.",
+        "en": "Bringing fresh croissants and pastries on Sunday morning for the whole apartment to enjoy.",
+        "de": "Am Sonntagmorgen frische Brötchen und Croissants für die gesamte WG vom Bäcker mitbringen.",
+        "es": "Traer cruasanes o bollería fresca el domingo por la mañana para todos los del piso.",
+        "nl": "Op zondagochtend verse croissants en broodjes meenemen van de bakker voor het hele huis.",
+        "pt": "Trazer croissants ou pão fresco no domingo de manhã para partilhar com a casa inteira."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "coloc_green_12",
+      "theme": "coloc",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Glisser un petit mot poli et des chocolats aux voisins de palier avant une fête d'anniversaire.",
+        "en": "Leaving a polite note and chocolates for neighbors before throwing a birthday party.",
+        "de": "Vor einer Geburtstagsfeier den Nachbarn einen netten Zettel und Pralinen in den Flur legen.",
+        "es": "Dejar una nota amable y unos bombones a los vecinos del descansillo antes de celebrar un cumpleaños.",
+        "nl": "Een vriendelijk briefje en wat chocolaatjes bij de buren achterlaten voor een verjaardagsfeest.",
+        "pt": "Deixar um bilhete simpático e chocolates aos vizinhos do prédio antes de fazer uma festa de anos."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "coloc_green_13",
+      "theme": "coloc",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Retirer systématiquement ses cheveux du siphon de douche et laisser le carrelage nickel.",
+        "en": "Always removing hair from the shower drain and leaving the bathroom spotless after every shower.",
+        "de": "Nach dem Duschen immer die Haare aus dem Abfluss entfernen und das Bad sauber hinterlassen.",
+        "es": "Quitar siempre los pelos del desagüe de la ducha y dejar el suelo completamente seco e impecable.",
+        "nl": "Altijd je haren uit het doucheputje halen en de badkamervloer netjes en droog achterlaten.",
+        "pt": "Tirar sempre os cabelos do ralo do chuveiro e deixar a casa de banho impecável a seguir."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "coloc_green_14",
+      "theme": "coloc",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Proposer spontanément de prêter sa voiture, son vélo ou ses outils avec un grand sourire.",
+        "en": "Spontaneously offering to lend a car, bike, or toolbox with a big smile whenever needed.",
+        "de": "Bereitwillig das eigene Auto, Fahrrad oder Werkzeug mit einem Lächeln an Mitbewohner ausleihen.",
+        "es": "Ofrecerse a prestar el coche, la bici o las herramientas con una sonrisa si alguien lo necesita.",
+        "nl": "Spontaan je auto, fiets of gereedschap uitlenen met een grote glimlach als iemand het nodig heeft.",
+        "pt": "Oferecer com um sorriso o carro, a bicicleta ou as ferramentas sempre que o colega precisa."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "coloc_green_15",
+      "theme": "coloc",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Payer son loyer et sa part des factures dès le 1er du mois sans jamais avoir besoin de relance.",
+        "en": "Paying rent and shared bills on the 1st of the month without ever needing a single reminder.",
+        "de": "Die Miete und Nebenkosten pünktlich am 1. des Monats überweisen, ohne jede Mahnung.",
+        "es": "Pagar el alquiler y los gastos comunes el primer día del mes sin tener que recordárselo nunca.",
+        "nl": "De huur en vaste lasten op de eerste dag van de maand betalen zonder dat iemand erom hoeft te vragen.",
+        "pt": "Pagar a renda e as despesas comuns no primeiro dia do mês sem precisar de qualquer lembrete."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "coloc_green_16",
+      "theme": "coloc",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Arroser les plantes et s'occuper gentiment du chat du coloc quand il part en week-end.",
+        "en": "Watering houseplants and lovingly feeding the roommate's cat whenever they go away for the weekend.",
+        "de": "Zuverlässig die Pflanzen gießen und die Katze des Mitbewohners füttern, wenn er verreist.",
+        "es": "Regar las plantas y cuidar con cariño del gato de su compañero cuando se va de fin de semana.",
+        "nl": "Planten water geven en met liefde op de kat passen als je huisgenoot een weekendje weg is.",
+        "pt": "Regar as plantas e cuidar com carinho do gato do colega de casa quando ele vai passar o fim de semana fora."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "coloc_green_17",
+      "theme": "coloc",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Nettoyer directement la plaque de cuisson et le plan de travail juste après avoir cuisiné.",
+        "en": "Wiping down the stove and kitchen counter immediately after cooking without leaving grease.",
+        "de": "Den Herd und die Küchenzeile direkt nach dem Kochen gründlich abwischen, statt Fett antrocknen zu lassen.",
+        "es": "Limpiar la vitrocerámica y la encimera justo después de cocinar sin dejar restos de grasa.",
+        "nl": "Het fornuis en het aanrecht direct na het koken schoonmaken zonder vetvlekken te laten aankoeken.",
+        "pt": "Limpar o fogão e a bancada logo a seguir a cozinhar sem deixar gordura nem migalhas."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "money_red_1",
+      "theme": "money",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Réclamer un virement Lydia ou Tricount de 0,80 € pour un simple café partagé.",
+        "en": "Demanding a payment request of 0.80€ for a quick coffee shared together.",
+        "de": "Eine Zahlungsaufforderung von 0,80 € für einen gemeinsamen Kaffee schicken.",
+        "es": "Pedir una transferencia de 0,80 € por un café compartido entre amigos.",
+        "nl": "Een Tikkie van 0,80 € sturen voor een gezamenlijk gedronken koffietje.",
+        "pt": "Pedir uma transferência de 0,80 € por um café partilhado entre amigos."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "money_green_1",
+      "theme": "money",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Régler spontanément une tournée de verres pour tout le groupe sans jamais chercher à tenir les comptes.",
+        "en": "Spontaneously buying a round of drinks for the whole group without ever keeping track of scores.",
+        "de": "Spontan eine Runde Drinks für die ganze Gruppe zahlen, ohne jemals mitzurechnen, wer dran ist.",
+        "es": "Pagar espontáneamente una ronda para todo el grupo sin llevar la cuenta de quién debe qué.",
+        "nl": "Spontaan een rondje halen voor de hele groep zonder ooit de score bij te houden wie aan de beurt is.",
+        "pt": "Pagar espontaneamente uma rodada para o grupo todo sem nunca andar a fazer contas de cabeça."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "money_red_2",
+      "theme": "money",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Proposer de diviser l'addition en deux après avoir pris cocktail et entrecôte face à une salade.",
+        "en": "Suggesting splitting the bill equally after having steak and cocktails while others had a salad.",
+        "de": "Vorgeschlagen, die Rechnung zu teilen, nachdem man Steak und Cocktails hatte und der andere Salat.",
+        "es": "Proponer dividir la cuenta a medias tras pedir entrecot y cócteles frente a una ensalada.",
+        "nl": "Voorstellen de rekening te splitten na biefstuk en cocktails terwijl de ander salade at.",
+        "pt": "Propor dividir a conta a meias após pedir bife e cocktails enquanto o outro comeu salada."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "money_green_2",
+      "theme": "money",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Prendre discrètement en charge l'addition d'un ami qui galère financièrement sans jamais le gêner.",
+        "en": "Discreetly covering the bill for a friend having a tough month without ever putting them on the spot.",
+        "de": "Diskret die Rechnung für einen klammen Freund übernehmen, ohne ihn vor anderen bloßzustellen.",
+        "es": "Pagar discretamente la cuenta de un amigo en apuros económicos sin hacerle pasar vergüenza jamás.",
+        "nl": "Discreet de rekening betalen van een vriend die krap zit, zonder hem ooit voor schut te zetten.",
+        "pt": "Pagar discretamente a conta de um amigo em aperto financeiro sem o deixar envergonhado."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "money_red_3",
+      "theme": "money",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Avoir mystérieusement 'oublié sa carte' ou 'plus de batterie' pile au moment de régler l'addition.",
+        "en": "Mysteriously 'forgetting your card' or having a 'dead phone battery' right when the bill arrives.",
+        "de": "Mysteriös 'die Karte vergessen' oder 'Akku leer' haben, genau wenn die Rechnung kommt.",
+        "es": "Tener misteriosamente 'la tarjeta olvidada' o 'sin batería' justo cuando traen la cuenta.",
+        "nl": "Mysterieus 'je pasje vergeten' of een 'lege batterij' hebben zodra de rekening komt.",
+        "pt": "Ter misteriosamente 'esquecido o cartão' ou 'ficado sem bateria' na hora de pagar a conta."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "money_green_3",
+      "theme": "money",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Rembourser sa dette le jour même en quelques secondes par virement sans qu'on ait besoin de demander.",
+        "en": "Repaying borrowed money on the exact same day in seconds without ever needing a friendly reminder.",
+        "de": "Geliehenes Geld noch am selben Tag per Sofortüberweisung zurückzahlen, ohne dass man nachfragt.",
+        "es": "Devolver el dinero prestado el mismo día al instante por transferencia sin que tengan que pedirlo.",
+        "nl": "Geleend geld nog dezelfde dag binnen enkele seconden terugbetalen zonder herinnering.",
+        "pt": "Devolver o dinheiro emprestado no próprio dia por transferência sem ninguém ter de pedir."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "money_red_4",
+      "theme": "money",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Commander le plat le plus cher du menu et du vin millésimé dès qu'on sait que quelqu'un régale.",
+        "en": "Ordering the most expensive steak and vintage wine the second someone offers to treat.",
+        "de": "Das teuerste Gericht und Spitzenwein bestellen, sobald jemand anderes einlädt.",
+        "es": "Pedir el plato más caro y vino caro en cuanto sabes que otra persona invita hoy.",
+        "nl": "Het allerduurste gerecht en vintage wijn kiezen zodra je hoort dat iemand trakteert.",
+        "pt": "Pedir o prato mais caro do menu e vinho caro logo que alguém diz que vai pagar."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "money_green_4",
+      "theme": "money",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Toujours arrondir sa part à la dizaine supérieure pour laisser un beau pourboire collectif à la table.",
+        "en": "Always rounding up your share generously to leave a solid team tip for the restaurant staff.",
+        "de": "Seinen Anteil immer großzügig aufrunden, damit das gesamte Team ein schönes Trinkgeld da lässt.",
+        "es": "Redondear siempre al alza tu parte para asegurar una buena propina conjunta para los camareros.",
+        "nl": "Je eigen aandeel altijd royaal naar boven afronden zodat de tafel een mooie fooi achterlaat.",
+        "pt": "Arredondar sempre para cima generosamente para garantir uma boa gorjeta de grupo na mesa."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "money_red_5",
+      "theme": "money",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Sortir la calculatrice du téléphone au restaurant pour recompter la part de chacun au centime près.",
+        "en": "Pulling out your phone calculator at dinner to recalculate everyone's share down to the cent.",
+        "de": "Am Tisch den Handy-Taschenrechner zücken, um den Anteil jedes Einzelnen auf den Cent zu prüfen.",
+        "es": "Sacar la calculadora del móvil en el restaurante para recalcular la parte de cada uno al céntimo.",
+        "nl": "Je rekenmachine openen in het restaurant om ieders deel tot op de cent nauwkeurig na te rekenen.",
+        "pt": "Tirar a calculadora do telemóvel no restaurante para recalcular a conta de cada um ao cêntimo."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "money_green_5",
+      "theme": "money",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Glisser un grand sourire en disant 'Le café c'est pour moi !' et aller régler directement au comptoir.",
+        "en": "Smiling warmly, saying 'Coffees are on me!', and stepping right up to the counter to pay.",
+        "de": "Herzlich lächeln, 'Kaffee geht auf mich!' sagen und direkt am Tresen für alle bezahlen.",
+        "es": "Sonreír diciendo '¡El café corre por mi cuenta!' e ir directamente a la barra a pagarlo.",
+        "nl": "Met een warme glimlach zeggen 'Koffie is van mij!' en direct naar de bar lopen om te betalen.",
+        "pt": "Dizer com um grande sorriso 'O café é por minha conta!' e ir pagar logo ao balcão."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "money_red_6",
+      "theme": "money",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Refuser catégoriquement de laisser le moindre pourboire alors que le serveur s'est plié en quatre.",
+        "en": "Strictly refusing to leave any tip at all even though the server went above and beyond for you.",
+        "de": "Jedem Trinkgeld verweigern, obwohl die Bedienung den ganzen Abend absolut großartig war.",
+        "es": "Negarse en rotundo a dejar propina aunque el camarero haya dado un servicio de diez.",
+        "nl": "Pertinent weigeren fooi te geven, ook al heeft de ober de hele avond keihard gerend voor je.",
+        "pt": "Recusar terminantemente deixar gorjeta mesmo quando o empregado foi absolutamente incrível."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "money_green_6",
+      "theme": "money",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Assumer calmement que le restaurant proposé dépasse son budget du moment sans le moindre complexe.",
+        "en": "Calmly and openly saying a venue is outside your current budget with zero shame or awkwardness.",
+        "de": "Ganz entspannt und offen sagen, dass ein Restaurant über dem eigenen Budget liegt, ohne Scham.",
+        "es": "Decir con total naturalidad que un sitio se sale de tu presupuesto sin vergüenza ni complejos.",
+        "nl": "Kalm en eerlijk aangeven dat een restaurant boven je budget ligt, zonder enige schaamte.",
+        "pt": "Dizer com naturalidade que um restaurante está fora do orçamento sem vergonha nem drama."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "money_red_7",
+      "theme": "money",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Négocier sans honte sur Vinted ou LeBonCoin pour gratter 50 centimes sur un tee-shirt à 3 euros.",
+        "en": "Shamelessly bargaining on second-hand apps to shave off 50 cents on a 3-dollar T-shirt.",
+        "de": "Schamlos auf Kleinanzeigen verhandeln, um 50 Cent von einem 3-Euro-Shirt runterzufeilschen.",
+        "es": "Regatear sin vergüenza en apps de segunda mano para rascar 50 céntimos en algo de 3 euros.",
+        "nl": "Schaamteloos afdingen op Vinted om 50 cent korting te krijgen op een T-shirt van 3 euro.",
+        "pt": "Regatear sem vergonha em apps em segunda mão para poupar 50 cêntimos numa t-shirt de 3 euros."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "money_green_7",
+      "theme": "money",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Gérer les courses du week-end entre amis et offrir de bon cœur les encas et boissons du premier soir.",
+        "en": "Buying the weekend groceries for friends and gladly gifting the first night's snacks and drinks.",
+        "de": "Den Wochenend-Einkauf für Freunde machen und Snacks sowie Drinks des ersten Abends gern schenken.",
+        "es": "Hacer la compra del fin de semana con amigos e invitar con gusto a los aperitivos de la primera noche.",
+        "nl": "De weekendboodschappen voor vrienden doen en met plezier de snacks voor de eerste avond trakteren.",
+        "pt": "Fazer as compras do fim de semana entre amigos e oferecer com gosto os snacks da primeira noite."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "money_red_8",
+      "theme": "money",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Offrir un vieux bibelot poussiéreux récupéré chez ses parents emballé dans du journal gratuit.",
+        "en": "Gifting a dusty trinket taken from your parents' attic wrapped in crumpled free newspapers.",
+        "de": "Einen staubigen Dachbodenfund der Eltern schenken, eingepackt in altes Zeitungspapier.",
+        "es": "Regalar un trasto viejo cogido de casa de tus padres envuelto en papel de periódico usado.",
+        "nl": "Een stoffig zolderprulletje van je ouders cadeau doen, ingepakt in een oude krant.",
+        "pt": "Oferecer uma tralha empoeirada da casa dos pais embrulhada em papel de jornal usado."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "money_green_8",
+      "theme": "money",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Proposer spontanément de mettre 10 € de plus dans la cagnotte parce qu'on a commandé des cocktails chers.",
+        "en": "Spontaneously offering extra cash on the bill because you ordered fancy cocktails and extras.",
+        "de": "Freiwillig extra Geld auf den Tisch legen, weil man teure Cocktails und Spezialitäten hatte.",
+        "es": "Poner espontáneamente más dinero en la cuenta porque pediste cócteles caros o platos especiales.",
+        "nl": "Spontaan extra geld bijleggen omdat je dure cocktails of extra gerechten hebt besteld.",
+        "pt": "Pôr espontaneamente mais dinheiro na conta porque pediste cocktails caros ou pratos extra."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "money_red_9",
+      "theme": "money",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Disparaître mystérieusement aux toilettes ou 'passer un appel urgent' à chaque arrivée de note.",
+        "en": "Mysteriously disappearing to the bathroom or taking an 'urgent call' the moment the check lands.",
+        "de": "Plötzlich aufs Klo verschwinden oder 'dringend telefonieren', sobald die Rechnung auf den Tisch kommt.",
+        "es": "Desaparecer al baño o fingir una 'llamada urgente' cada vez que llega la cuenta a la mesa.",
+        "nl": "Plotseling naar het toilet verdwijnen of 'dringend bellen' zodra de rekening op tafel belandt.",
+        "pt": "Desaparecer na casa de banho ou fingir uma 'chamada urgente' sempre que a conta chega à mesa."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "money_green_9",
+      "theme": "money",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Inviter fièrement ses proches au restaurant avec son tout premier salaire sans les laisser toucher l'addition.",
+        "en": "Proudly taking your family out to a great restaurant with your first paycheck and picking up the tab.",
+        "de": "Die Familie stolz vom allerersten Gehalt zum Essen einladen, ohne dass sie an die Rechnung dürfen.",
+        "es": "Invitar con orgullo a tu familia a comer con tu primer sueldo sin dejar que toquen la cuenta.",
+        "nl": "Trots je familie meenemen uit eten van je allereerste salaris en weigeren dat zij betalen.",
+        "pt": "Levar orgulhosamente a família a jantar fora com o primeiro salário sem os deixar pagar nada."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "money_red_10",
+      "theme": "money",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Ajouter sur le Tricount des vacances 0,15 € pour un sac plastique acheté au supermarché.",
+        "en": "Adding a 15-cent plastic shopping bag to the shared vacation expense tracker.",
+        "de": "Auf die Urlaubs-Ausgabenliste 0,15 € für eine Supermarkt-Plastiktüte eintragen.",
+        "es": "Meter en el grupo de gastos compartidos 0,15 € por una bolsa de plástico del súper.",
+        "nl": "Een plastic supermarkttasje van 15 cent toevoegen aan de gezamenlijke vakantiepot.",
+        "pt": "Lançar na app de despesas do grupo 0,15 € por um saco de plástico do supermercado."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "money_green_10",
+      "theme": "money",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Trouver le cadeau parfait qui correspond exactement aux passions d'un ami plutôt qu'un objet cher et sans âme.",
+        "en": "Picking a thoughtful gift tailored to your friend's passions instead of something pricey and generic.",
+        "de": "Ein liebevolles Geschenk wählen, das perfekt zu den Hobbys passt, statt etwas Teures ohne Seele.",
+        "es": "Elegir un regalo pensado con cariño según los gustos de un amigo en vez de algo caro e impersonal.",
+        "nl": "Een attent cadeau kiezen dat perfect past bij iemands passies in plaats van iets duurs zonder ziel.",
+        "pt": "Escolher um presente com significado feito à medida dos gostos de um amigo em vez de algo impessoal."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "money_red_11",
+      "theme": "money",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Vider entièrement le stock de savons, thés et dosettes de café de l'hôtel dans sa valise avant de partir.",
+        "en": "Raiding every single hotel soap, tea bag, and coffee pod into your luggage before checking out.",
+        "de": "Alle Shampoos, Tees und Kaffeekapseln im Hotelzimmer vor der Abreise in den Koffer packen.",
+        "es": "Arrasar con todos los jabones, tés y cápsulas de café del hotel metiéndolos en tu maleta al salir.",
+        "nl": "Alle zeepjes, theezakjes en koffiecups van het hotel in je koffer stoppen voor je uitcheckt.",
+        "pt": "Limpar todos os sabonetes, chás e cápsulas de café do quarto de hotel para levar na mala."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "money_green_11",
+      "theme": "money",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Partager généreusement ses vrais bons plans de voyage et réductions pour faire faire des économies à tous.",
+        "en": "Generously sharing authentic travel hacks and discounts to help your friends save real money.",
+        "de": "Großzügig echte Spartipps und Reisedeals teilen, damit die ganze Clique bares Geld spart.",
+        "es": "Compartir buenos chollos y descuentos de viajes para ayudar a tus amigos a ahorrar dinero.",
+        "nl": "Royale bespaartips en reiskortingen delen om al je vrienden te helpen echt geld te besparen.",
+        "pt": "Partilhar boas dicas de poupança e viagens para ajudar todo o grupo a poupar dinheiro a sério."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "money_red_12",
+      "theme": "money",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Boire dans les pintes des potes toute la soirée au bar sans jamais commander une seule boisson soi-même.",
+        "en": "Sipping from everyone else's pints all night long without ever buying a single drink yourself.",
+        "de": "Den ganzen Abend an den Gläsern der Freunde nippen, ohne jemals selbst einen Drink zu bestellen.",
+        "es": "Beber del vaso de los amigos toda la noche en el bar sin pedir ni pagar una sola consumición propia.",
+        "nl": "De hele avond uit andermans glazen drinken zonder ooit zelf ook maar één drankje te bestellen.",
+        "pt": "Beber dos copos dos amigos a noite toda no bar sem nunca pagar uma única bebida própria."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "money_green_12",
+      "theme": "money",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Glisser un pourboire chaleureux au livreur de repas trempé par l'orage un soir de tempête.",
+        "en": "Handing a generous cash tip to a drenched food delivery rider on a freezing rainy evening.",
+        "de": "Dem durchnässten Essenslieferanten an einem stürmischen Regentag ein fettes Trinkgeld geben.",
+        "es": "Dejar una buena propina en efectivo al repartidor empapado bajo un chaparrón un domingo por la noche.",
+        "nl": "Een royale fooi geven aan de kletsnatte maaltijdbezorger op een ijskoude regenachtige avond.",
+        "pt": "Dar uma boa gorjeta ao estafeta que entrega o jantar ensopado debaixo de uma chuva torrencial."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "money_red_13",
+      "theme": "money",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Demander 2 € d'essence à un ami après l'avoir déposé en voiture à 3 kilomètres de chez lui.",
+        "en": "Asking a friend for 2€ in gas money after dropping them off just a mile down the road.",
+        "de": "2 € Spritgeld von einem Kumpel verlangen, nachdem man ihn nur 2 Kilometer mitgenommen hat.",
+        "es": "Pedirle 2 € de gasolina a un amigo tras acercarlo en coche a tres calles de su casa.",
+        "nl": "2 € benzinegeld vragen aan een vriend nadat je hem twee kilometer hebt meegenomen in de auto.",
+        "pt": "Pedir 2 € de combustível a um amigo depois de lhe dar boleia por apenas três quilómetros."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "money_green_13",
+      "theme": "money",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Rendre immédiatement la monnaie exacte et remercier chaleureusement la personne qui a avancé les fonds.",
+        "en": "Immediately returning the exact change with a warm 'thank you' to the person who fronted cash.",
+        "de": "Das Wechselgeld sofort centgenau zurückgeben und sich herzlich fürs Vorstrecken bedanken.",
+        "es": "Devolver el cambio exacto de inmediato y dar las gracias de corazón a quien te adelantó el dinero.",
+        "nl": "Direct het exacte wisselgeld teruggeven en hartelijk bedanken voor het voorschieten.",
+        "pt": "Devolver o troco exato no momento e agradecer com simpatia a quem adiantou o dinheiro."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "money_red_14",
+      "theme": "money",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Afficher son gros salaire sur les réseaux mais râler quand le supplément sauce est facturé 30 centimes.",
+        "en": "Bragging about your huge salary online but arguing over a 30-cent extra ketchup packet at lunch.",
+        "de": "Im Netz mit hohem Gehalt prahlen, sich aber über 30 Cent für eine extra Ketchup-Packung aufregen.",
+        "es": "Fardar de buen sueldo en redes pero montar un drama por pagar 30 céntimos por una salsa extra.",
+        "nl": "Opscheppen over je topsalaris, maar zeuren als een extra portie mayonaise 30 cent kost.",
+        "pt": "Vangloriar-se do salário alto mas reclamar por ter de pagar 30 cêntimos por um molho extra."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "money_green_14",
+      "theme": "money",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Préparer un somptueux dîner maison pour ses amis toute l'après-midi juste pour le plaisir de les régaler.",
+        "en": "Spending the whole afternoon cooking an epic homemade feast for friends just to treat them.",
+        "de": "Den ganzen Nachmittag ein Festmahl für Freunde kochen, einfach aus Freude am gemeinsamen Schlemmen.",
+        "es": "Pasar la tarde cocinando una cena casera increíble para los amigos solo por el gusto de mimarlos.",
+        "nl": "De hele middag een heerlijk diner koken voor vrienden, puur voor het plezier van samen eten.",
+        "pt": "Passar a tarde a cozinhar um banquete caseiro para os amigos só pelo prazer de os receber bem."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "money_red_15",
+      "theme": "money",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Remettre dans son sac la bouteille de vin entamée qu'on avait apportée à l'apéro avant de rentrer.",
+        "en": "Packing the half-empty wine bottle you brought back into your bag before leaving your host's party.",
+        "de": "Die angebrochene Weinflasche, die man zur Party mitbrachte, vor dem Gehen wieder einstecken.",
+        "es": "Guardarte de nuevo en la mochila la botella de vino abierta que trajiste antes de marcharte.",
+        "nl": "De aangebroken fles wijn die je meebracht stiekem weer in je tas stoppen voor je weggaat.",
+        "pt": "Voltar a meter na mochila a garrafa de vinho aberta que levaste para o jantar antes de sair."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "money_green_15",
+      "theme": "money",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Remplacer immédiatement à ses frais un verre ou un vêtement abîmé chez un ami sans attendre qu'on le dise.",
+        "en": "Immediately replacing at your own expense anything you accidentally broke or stained at a friend's place.",
+        "de": "Einen versehentlich beschädigten Gegenstand bei Freunden sofort auf eigene Kosten ersetzen.",
+        "es": "Reemplazar de inmediato y de tu bolsillo cualquier cosa que hayas roto o manchado en casa de un amigo.",
+        "nl": "Iets wat je per ongeluk hebt beschadigd bij een vriend direct op eigen kosten vervangen.",
+        "pt": "Substituir de imediato e do teu bolso qualquer coisa que tenhas estragado em casa de um amigo."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "money_red_16",
+      "theme": "money",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Affirmer 'Je t'ai fait le virement hier, ça doit être le délai bancaire !' alors qu'on n'a rien envoyé.",
+        "en": "Claiming 'I wired the money yesterday, must be bank delays!' when you haven't sent a dime.",
+        "de": "Sagen 'Hab's gestern überwiesen, liegt an der Bank!', obwohl man noch keinen Cent gesendet hat.",
+        "es": "Decir '¡Te hice la transferencia ayer, tardará el banco!' cuando ni siquiera has abierto la app.",
+        "nl": "Zeggen 'Ik heb het gisteren overgemaakt, ligt aan de bank!' terwijl je niks verstuurd hebt.",
+        "pt": "Dizer 'Fiz a transferência ontem, deve ser atraso do banco!' quando nem abriste a app."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "money_green_16",
+      "theme": "money",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Rendre la voiture empruntée avec le réservoir plein et lavée pour remercier son propriétaire du service.",
+        "en": "Returning a borrowed car with a full tank of gas and freshly washed to thank the owner.",
+        "de": "Ein geliehenes Auto mit vollgetanktem Tank und frisch gewaschen zurückgeben als Dankeschön.",
+        "es": "Devolver el coche que te prestaron con el depósito lleno y limpio para agradecer el favor.",
+        "nl": "Een geleende auto met een volle tank en netjes gewassen terugbrengen als bedankje.",
+        "pt": "Devolver o carro emprestado com o depósito cheio e lavado para agradecer o favor ao dono."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "money_red_17",
+      "theme": "money",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Imposer au groupe un boui-boui suspect pour économiser 2 € sur un repas quitte à risquer l'indigestion.",
+        "en": "Forcing the group into a sketchy diner to save 2 bucks, risking food poisoning for everyone.",
+        "de": "Der Gruppe ein zweifelhaftes Lokal aufzwingen, um 2 Euro zu sparen, trotz Magenverstimmungsgefahr.",
+        "es": "Obligar al grupo a ir a un sitio cutre para ahorrar 2 € arriesgando una intoxicación alimentaria.",
+        "nl": "De groep meesleuren naar een dubieuze snackbar om 2 euro te besparen met maagpijn als risico.",
+        "pt": "Forçar o grupo a ir a um sítio duvidoso para poupar 2 € arriscando uma intoxicação alimentar."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "money_green_17",
+      "theme": "money",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Soutenir un ami qui économise pour un projet important en proposant des activités gratuites et sympas.",
+        "en": "Supporting a friend saving up for a big dream by suggesting fun, completely free hangouts.",
+        "de": "Einen Freund beim Sparen für einen Lebenstraum unterstützen, indem man coole Gratis-Aktivitäten vorschlägt.",
+        "es": "Apoyar a un amigo que está ahorrando para un gran proyecto proponiendo planes divertidos y gratis.",
+        "nl": "Een vriend steunen die spaart voor een grote droom door gezellige gratis activiteiten te bedenken.",
+        "pt": "Apoiar um amigo que está a poupar para um sonho propondo planos divertidos e totalmente gratuitos."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "money_red_18",
+      "theme": "money",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Réclamer pendant dix minutes qu'on fouille sous le siège de la voiture pour retrouver sa pièce de 1 euro.",
+        "en": "Spending ten minutes demanding everyone search under the car seat to recover a 1-euro coin.",
+        "de": "Zehn Minuten verlangen, dass alle unterm Autositz suchen, um eine 1-Euro-Münze wiederzufinden.",
+        "es": "Exigir durante diez minutos buscar debajo del asiento del coche para recuperar una moneda de 1 euro.",
+        "nl": "Tien minuten lang eisen dat iedereen onder de autostoel zoekt om een euromunt terug te vinden.",
+        "pt": "Exigir durante dez minutos procurar debaixo do banco do carro para recuperar uma moeda de 1 euro."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
     }
   ],
   "packs": {
@@ -27623,6 +28883,1070 @@
             "es": "Sacar un error de hace 3 años en mitad de una discusión cotidiana.",
             "nl": "Een fout van 3 jaar geleden weer oprakelen tijdens een gewone discussie.",
             "pt": "Trazer à tona um erro de há 3 anos numa discussão banal do dia a dia."
+          },
+          "difficulty": 1,
+          "enabled": true
+        }
+      ]
+    },
+    "coloc_pack": {
+      "id": "coloc_pack",
+      "name": "COLOC",
+      "card_count": 35,
+      "cards": [
+        {
+          "id": "coloc_red_1",
+          "theme": "coloc",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Laisser la vaisselle sale tremper 3 jours dans l'évier sous prétexte qu'elle doit ramollir.",
+            "en": "Leaving dirty dishes soaking in the sink for 3 days claiming they need to 'soak'.",
+            "de": "Dreckiges Geschirr 3 Tage in der Spüle einweichen lassen, weil es angeblich 'einweichen muss'.",
+            "es": "Dejar los platos sucios en remojo 3 días en el fregadero diciendo que 'se tienen que ablandar'.",
+            "nl": "Vuile vaat 3 dagen in de gootsteen laten weken onder het mom dat het 'moet losweken'.",
+            "pt": "Deixar a louça suja de molho no lava-louça 3 dias dizendo que precisa 'amolecer'."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "coloc_red_2",
+          "theme": "coloc",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Coller un mot anonyme passif-agressif sur le frigo au lieu d'en parler calmement.",
+            "en": "Taping an anonymous passive-aggressive sticky note on the fridge instead of talking.",
+            "de": "Einen passiv-aggressiven Zettel an den Kühlschrank kleben, statt normal zu reden.",
+            "es": "Pegar una nota anónima pasivo-agresiva en la nevera en vez de hablar las cosas.",
+            "nl": "Een passief-agressief anoniem briefje op de koelkast plakken in plaats van te praten.",
+            "pt": "Colar um bilhete anónimo passivo-agressivo no frigorífico em vez de falar diretamente."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "coloc_red_3",
+          "theme": "coloc",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Passer la perceuse ou l'aspirateur le dimanche matin à 8h tapantes.",
+            "en": "Drilling into walls or vacuuming at exactly 8 AM on a Sunday morning.",
+            "de": "Am Sonntagmorgen um Punkt 8 Uhr bohren oder laut Staub saugen.",
+            "es": "Ponerse a taladrar o pasar la aspiradora un domingo a las 8 de la mañana en punto.",
+            "nl": "Om stipt 8 uur 's ochtends boren of stofzuigen op zondag.",
+            "pt": "Começar a furar as paredes ou aspirar às 8h em ponto num domingo de manhã."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "coloc_red_4",
+          "theme": "coloc",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Inviter son crush ou de la famille à squatter la coloc deux semaines sans prévenir.",
+            "en": "Having a crush or family sleep over for two weeks without giving roommates any notice.",
+            "de": "Den Schwarm oder Familie zwei Wochen in der WG wohnen lassen, ohne Bescheid zu sagen.",
+            "es": "Meter al ligue o a la familia a dormir en el piso durante dos semanas sin avisar.",
+            "nl": "Je date of familie twee weken in huis laten slapen zonder je huisgenoten in te lichten.",
+            "pt": "Levar o crush ou a família para dormir no apartamento duas semanas sem avisar ninguém."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "coloc_red_5",
+          "theme": "coloc",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Boire la dernière goutte de lait ou piquer du fromage et laisser le paquet vide au frigo.",
+            "en": "Finishing the milk or stealing cheese and leaving the empty package in the fridge.",
+            "de": "Die letzte Milch austrinken oder Käse klauen und die leere Packung im Kühlschrank lassen.",
+            "es": "Terminarse la leche o robar queso y dejar el envase vacío dentro de la nevera.",
+            "nl": "De laatste melk opdrinken of kaas jatten en het lege pak in de koelkast laten staan.",
+            "pt": "Beber o resto do leite ou tirar queijo alheio e deixar a embalagem vazia no frigorífico."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "coloc_red_6",
+          "theme": "coloc",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Organiser un after techno improvisé un mardi soir jusqu'à 5h du matin sans demander l'avis.",
+            "en": "Hosting a loud techno afterparty until 5 AM on a Tuesday night without asking anyone.",
+            "de": "Dienstagnacht ohne Absprache eine improvisierte Techno-Party bis 5 Uhr morgens feiern.",
+            "es": "Montar un after techno improvisado un martes por la noche hasta las 5 de la mañana sin avisar.",
+            "nl": "Op dinsdagnacht zonder overleg een illegale techno-afterparty houden tot 5 uur 's ochtends.",
+            "pt": "Organizar um after de techno às 5h da manhã numa terça-feira sem avisar os colegas de casa."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "coloc_red_7",
+          "theme": "coloc",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Laisser régulièrement la porte d'entrée non verrouillée ou entrouverte en partant.",
+            "en": "Regularly leaving the apartment front door unlocked or cracked open when leaving.",
+            "de": "Die Wohnungstür beim Verlassen regelmäßig unabgeschlossen oder angelehnt lassen.",
+            "es": "Dejar con frecuencia la puerta de entrada sin cerrar con llave o entreabierta al salir.",
+            "nl": "De voordeur regelmatig van het slot laten of op een kier laten staan bij vertrek.",
+            "pt": "Deixar frequentemente a porta de entrada destrancada ou encostada ao sair de casa."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "coloc_red_8",
+          "theme": "coloc",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Finir le rouleau de papier toilette et laisser le carton vide sur le dévidoir.",
+            "en": "Using the last square of toilet paper and leaving the empty cardboard roll behind.",
+            "de": "Das Klopapier aufbrauchen und die leere Papprolle einfach auf dem Halter hängen lassen.",
+            "es": "Gastar el último pedazo de papel higiénico y dejar el cartón vacío en el soporte.",
+            "nl": "Het laatste wc-papier opmaken en het lege kartonnen rolletje op de houder laten zitten.",
+            "pt": "Acabar o papel higiénico e deixar o rolo de cartão vazio no suporte da casa de banho."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "coloc_red_9",
+          "theme": "coloc",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Emprunter des fringues ou des chaussures dans le dressing de son coloc sans lui demander.",
+            "en": "Borrowing clothes or sneakers from your roommate's wardrobe without asking permission.",
+            "de": "Klamotten oder Schuhe aus dem Schrank des Mitbewohners nehmen, ohne vorher zu fragen.",
+            "es": "Cogerle ropa o zapatillas del armario a tu compañero de piso sin pedirle permiso.",
+            "nl": "Kleren of schoenen uit de kast van je huisgenoot pakken zonder eerst toestemming te vragen.",
+            "pt": "Pedir emprestada roupa ou ténis do armário do colega de casa sem lhe pedir autorização."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "coloc_red_10",
+          "theme": "coloc",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Squatter la salle de bain 45 minutes à 8h du matin alors que tout le monde doit partir bosser.",
+            "en": "Hogging the only bathroom for 45 minutes at 8 AM when everyone is rushing to get to work.",
+            "de": "Morgens um 8 Uhr das einzige Bad 45 Minuten blockieren, während alle zur Arbeit müssen.",
+            "es": "Acaparar el único baño durante 45 minutos a las 8 de la mañana cuando todos van con prisa.",
+            "nl": "Om 8 uur 's ochtends de badkamer 45 minuten bezet houden terwijl iedereen naar werk moet.",
+            "pt": "Ficar 45 minutos na única casa de banho às 8h da manhã quando todos têm de ir trabalhar."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "coloc_red_11",
+          "theme": "coloc",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Regarder des TikTok ou écouter de la musique sur haut-parleur dans le salon commun sans écouteurs.",
+            "en": "Watching TikToks or blasting music on full speaker in the shared living room without headphones.",
+            "de": "TikToks schauen oder laut Musik hören im gemeinsamen Wohnzimmer ohne Kopfhörer.",
+            "es": "Ver TikToks o escuchar música con el altavoz al máximo en el salón común sin auriculares.",
+            "nl": "TikToks kijken of muziek luisteren op speaker in de gezamenlijke woonkamer zonder oordopjes.",
+            "pt": "Ver TikToks ou ouvir música no altifalante na sala comum sem utilizar auriculares."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "coloc_red_12",
+          "theme": "coloc",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Frapper furieusement au plafond avec un balai dès qu'on marche dans son appart après 22h.",
+            "en": "Banging furiously on the ceiling with a broom the second someone takes a step after 10 PM.",
+            "de": "Mit dem Besenstil gegen die Decke hämmern, sobald oben nach 22 Uhr jemand leise durch den Raum geht.",
+            "es": "Dar golpes salvajes al techo con la escoba en cuanto alguien da un paso después de las 22h.",
+            "nl": "Woedend met een bezemsteel tegen het plafond bonken zodra iemand na 22.00 uur zachtjes rondloopt.",
+            "pt": "Bater com a vassoura no teto com fúria assim que alguém dá um passo no chão depois das 22h."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "coloc_red_13",
+          "theme": "coloc",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Laisser ses poubelles dégoulinantes sur le palier commun pendant deux jours au lieu de descendre.",
+            "en": "Leaving leaking trash bags in the shared hallway for two days instead of taking them down.",
+            "de": "Triefende Müllbeutel zwei Tage lang im Hausflur stehen lassen, statt sie runterzubringen.",
+            "es": "Dejar bolsas de basura goteando en el rellano común durante dos días en lugar de bajarlas.",
+            "nl": "Lekkende vuilniszakken twee dagen op de gezamenlijke gang laten staan in plaats van weggooien.",
+            "pt": "Deixar sacos de lixo a pingar no corredor comum durante dois dias em vez de os levar para fora."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "coloc_red_14",
+          "theme": "coloc",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Cuisiner du poisson frit bien gras à minuit en laissant toutes les portes des chambres grandes ouvertes.",
+            "en": "Frying smelly greasy fish at midnight with all bedroom doors wide open and zero ventilation.",
+            "de": "Um Mitternacht stinkenden Fisch braten, während alle Zimmertüren weit geöffnet sind.",
+            "es": "Cocinar pescado grasiento a medianoche dejando todas las puertas de las habitaciones abiertas.",
+            "nl": "Om middernacht stinkende vis bakken terwijl alle slaapkamerdeuren wagenwijd openstaan.",
+            "pt": "Fritar peixe gorduroso à meia-noite com as portas de todos os quartos escancaradas."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "coloc_red_15",
+          "theme": "coloc",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Programmer une alarme stridente à 6h du matin, la laisser sonner 8 fois et continuer à dormir.",
+            "en": "Setting a blasting alarm at 6 AM, hitting snooze 8 times, and peacefully staying asleep.",
+            "de": "Den schrillen Wecker um 6 Uhr stellen, 8 Mal schlummern lassen und einfach weiterschlafen.",
+            "es": "Poner una alarma ruidosa a las 6 de la mañana, posponerla 8 veces y seguir durmiendo plácidamente.",
+            "nl": "Om 6 uur 's ochtends een keihard alarm zetten, hem 8 keer laten snoozen en lekker doorslapen.",
+            "pt": "Pôr um alarme aos berros às 6h da manhã, carregar no snooze 8 vezes e continuar a dormir."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "coloc_red_16",
+          "theme": "coloc",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Créer une dépense Tricount de 42 centimes pour avoir partagé trois feuilles d'essuie-tout.",
+            "en": "Adding an expense of 42 cents on Splitwise for sharing three sheets of paper towel.",
+            "de": "Auf Splitwise 42 Cent einfordern, weil man drei Blatt Küchenrolle abgegeben hat.",
+            "es": "Reclamar 42 céntimos en Splitwise por haber compartido tres hojas de papel de cocina.",
+            "nl": "Een Tikkie van 42 cent sturen voor het delen van drie velletjes keukenpapier.",
+            "pt": "Pedir 42 cêntimos no Splitwise por ter partilhado três folhas de papel de cozinha."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "coloc_red_17",
+          "theme": "coloc",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Prendre les affaires des autres sans prévenir en disant toujours : « C'est bon, on partage non ? »",
+            "en": "Taking other people's stuff without asking and saying: 'Come on, we share everything, right?'",
+            "de": "Sachen anderer ohne Erlaubnis nehmen und sagen: 'Ist doch egal, wir teilen doch alles!'.",
+            "es": "Coger las cosas de los demás sin avisar diciendo: 'Venga, total, aquí lo compartimos todo'.",
+            "nl": "Spullen van anderen pakken zonder te vragen en roepen: 'We delen toch alles met elkaar?'.",
+            "pt": "Usar as coisas dos outros sem pedir e responder: 'Qual é o problema, nós partilhamos tudo!'."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "coloc_red_18",
+          "theme": "coloc",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Laisser la lunette des toilettes souillée ou relevée et nier effrontément en accusant les autres.",
+            "en": "Leaving the toilet seat dirty or up, then shamelessly denying it and blaming roommates.",
+            "de": "Die Klobrille dreckig oder hochgeklappt lassen und danach dreist die Mitbewohner beschuldigen.",
+            "es": "Dejar la tapa del váter sucia o levantada y negar la culpa descaradamente acusando al resto.",
+            "nl": "De wc-bril smerig of omhoog achterlaten en schaamteloos je huisgenoten de schuld geven.",
+            "pt": "Deixar o tampo da sanita sujo ou levantado e negar descaradamente acusando os outros."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "coloc_green_1",
+          "theme": "coloc",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Faire le ménage de la cuisine et de la salle de bain à fond sans jamais rien reprocher à personne.",
+            "en": "Deep cleaning the kitchen and bathroom thoroughly without complaining or guilt-tripping anyone.",
+            "de": "Küche und Bad gründlich putzen, ohne jemandem Vorwürfe zu machen oder passiv-aggressiv zu sein.",
+            "es": "Limpiar a fondo la cocina y el baño sin reprocharle nada a nadie ni dárselas de héroe.",
+            "nl": "De keuken en badkamer grondig schoonmaken zonder ooit iemand ook maar iets te verwijten.",
+            "pt": "Fazer uma limpeza a fundo na cozinha e na casa de banho sem mandar bocas nem cobrar nada."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "coloc_green_2",
+          "theme": "coloc",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Remplacer immédiatement un objet cassé par un neuf sans qu'on ait besoin de lui demander.",
+            "en": "Immediately replacing something broken with a brand-new one before anyone even has to ask.",
+            "de": "Einen zerbrochenen Gegenstand sofort durch einen neuen ersetzen, ohne dass jemand nachfragen muss.",
+            "es": "Reemplazar al instante cualquier cosa rota por una nueva sin que nadie tenga que pedirlo.",
+            "nl": "Iets wat kapot is gegaan meteen vervangen door een nieuw exemplaar zonder dat iemand erom vraagt.",
+            "pt": "Substituir imediatamente qualquer objeto partido por um novo em folha sem ninguém ter de pedir."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "coloc_green_3",
+          "theme": "coloc",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Prévenir au moins 48 heures à l'avance sur le groupe avant d'inviter des potes à la maison.",
+            "en": "Giving everyone at least 48 hours notice in the group chat before inviting friends over.",
+            "de": "Mindestens 48 Stunden vorher in der WG-Gruppe Bescheid geben, bevor Freunde eingeladen werden.",
+            "es": "Avisar con al menos 48 horas de antelación en el grupo antes de invitar a colegas al piso.",
+            "nl": "Minstens 48 uur van tevoren een appje sturen in de groep voordat er vrienden over de vloer komen.",
+            "pt": "Avisar no grupo com pelo menos 48 horas de antecedência antes de convidar amigos para casa."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "coloc_green_4",
+          "theme": "coloc",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Rentrer de soirée à 4h du matin sur la pointe des pieds en fermant les portes sans bruit.",
+            "en": "Coming home from a party at 4 AM on tiptoe and gently closing every door without a sound.",
+            "de": "Um 4 Uhr morgens auf Zehenspitzen nach Hause kommen und jede Tür absolut lautlos schließen.",
+            "es": "Volver de fiesta a las 4 de la mañana de puntillas cerrando todas las puertas sin hacer ruido.",
+            "nl": "Om 4 uur 's nachts op kousenvoeten thuiskomen en geruisloos alle deuren zachtjes dichtdoen.",
+            "pt": "Chegar a casa de uma festa às 4h da manhã em bicos de pés a fechar as portas em silêncio absoluto."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "coloc_green_5",
+          "theme": "coloc",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Racheter spontanément du papier toilette, du sel ou de l'huile dès que le stock baisse.",
+            "en": "Spontaneously buying toilet paper, salt, or cooking oil as soon as supplies run low.",
+            "de": "Spontan Klopapier, Salz oder Öl nachkaufen, sobald die gemeinsamen Vorräte knapp werden.",
+            "es": "Comprar papel higiénico, sal o aceite en cuanto ve que se está acabando sin esperar turnos.",
+            "nl": "Spontaan wc-papier, zout of bakolie bijkopen zodra de voorraad bijna op is.",
+            "pt": "Comprar logo papel higiénico, sal ou azeite mal repara que o stock comum está a acabar."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "coloc_green_6",
+          "theme": "coloc",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Cuisiner un bon plat chaud et en laisser généreusement une part dans une boîte pour son coloc.",
+            "en": "Cooking a great homemade meal and thoughtfully leaving a warm portion in a container for roommates.",
+            "de": "Ein leckeres Gericht kochen und den Mitbewohnern eine großzügige Portion in einer Box hinterlassen.",
+            "es": "Cocinar un plato delicioso y dejar una ración generosa en un táper para su compañero de piso.",
+            "nl": "Heerlijk koken en een flinke portie in een bakje achterlaten voor je huisgenoten.",
+            "pt": "Cozinhar um prato delicioso e deixar uma porção generosa numa caixa para o colega de casa."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "coloc_green_7",
+          "theme": "coloc",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Descendre les poubelles communes et remettre un sac propre sans attendre que ça déborde.",
+            "en": "Taking out the shared trash and putting in a fresh bag before it starts overflowing.",
+            "de": "Den gemeinsamen Müll runterbringen und eine neue Tüte einsetzen, bevor er überquillt.",
+            "es": "Bajar la basura común y colocar una bolsa limpia antes de que empiece a desbordarse.",
+            "nl": "De volle vuilniszak weggooien en direct een nieuwe zak plaatsen voordat het overstroomt.",
+            "pt": "Levar o lixo comum para fora e colocar logo um saco limpo antes de transbordar."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "coloc_green_8",
+          "theme": "coloc",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Réceptionner gentiment les colis des voisins absents et leur envoyer un message bienveillant.",
+            "en": "Gladly accepting packages for absent neighbors and sending them a friendly text right away.",
+            "de": "Freundlich Pakete für Nachbarn annehmen und ihnen direkt eine nette Nachricht schreiben.",
+            "es": "Recoger con amabilidad los paquetes de los vecinos ausentes y avisarles con un mensaje atento.",
+            "nl": "Vriendelijk pakketjes aannemen voor de buren en meteen een lief berichtje sturen.",
+            "pt": "Receber gentilmente as encomendas dos vizinhos ausentes e mandar-lhes uma mensagem amigável."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "coloc_green_9",
+          "theme": "coloc",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Baisser spontanément le volume de la musique dès 22h pile sans avoir besoin de rappel.",
+            "en": "Spontaneously lowering the music volume at 10 PM sharp without needing any reminder.",
+            "de": "Die Musik um Punkt 22 Uhr ganz von allein leiser drehen, ohne dass jemand klopfen muss.",
+            "es": "Bajar el volumen de la música puntualmente a las 22h por iniciativa propia y sin avisos.",
+            "nl": "Om stipt 22.00 uur uit jezelf de muziek zachter zetten zonder dat iemand hoeft te klagen.",
+            "pt": "Baixar o volume da música logo às 22h em ponto por iniciativa própria sem ser preciso pedir."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "coloc_green_10",
+          "theme": "coloc",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Proposer de lancer une lessive groupée quand le tambour n'est pas plein pour ne pas gaspiller.",
+            "en": "Offering to combine laundry loads when the washing machine isn't full to save water and energy.",
+            "de": "Anbieten, Wäsche zusammen zu waschen, wenn die Trommel noch nicht voll ist, um Strom zu sparen.",
+            "es": "Proponer poner una lavadora conjunta si no está llena para ahorrar agua y electricidad.",
+            "nl": "Voorstellen om was samen te draaien als de wasmachine halfvol is om energie te besparen.",
+            "pt": "Propor juntar roupa na máquina de lavar quando ainda há espaço para poupar água e energia."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "coloc_green_11",
+          "theme": "coloc",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Ramener des croissants ou des viennoiseries fraîches le dimanche matin pour toute la coloc.",
+            "en": "Bringing fresh croissants and pastries on Sunday morning for the whole apartment to enjoy.",
+            "de": "Am Sonntagmorgen frische Brötchen und Croissants für die gesamte WG vom Bäcker mitbringen.",
+            "es": "Traer cruasanes o bollería fresca el domingo por la mañana para todos los del piso.",
+            "nl": "Op zondagochtend verse croissants en broodjes meenemen van de bakker voor het hele huis.",
+            "pt": "Trazer croissants ou pão fresco no domingo de manhã para partilhar com a casa inteira."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "coloc_green_12",
+          "theme": "coloc",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Glisser un petit mot poli et des chocolats aux voisins de palier avant une fête d'anniversaire.",
+            "en": "Leaving a polite note and chocolates for neighbors before throwing a birthday party.",
+            "de": "Vor einer Geburtstagsfeier den Nachbarn einen netten Zettel und Pralinen in den Flur legen.",
+            "es": "Dejar una nota amable y unos bombones a los vecinos del descansillo antes de celebrar un cumpleaños.",
+            "nl": "Een vriendelijk briefje en wat chocolaatjes bij de buren achterlaten voor een verjaardagsfeest.",
+            "pt": "Deixar um bilhete simpático e chocolates aos vizinhos do prédio antes de fazer uma festa de anos."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "coloc_green_13",
+          "theme": "coloc",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Retirer systématiquement ses cheveux du siphon de douche et laisser le carrelage nickel.",
+            "en": "Always removing hair from the shower drain and leaving the bathroom spotless after every shower.",
+            "de": "Nach dem Duschen immer die Haare aus dem Abfluss entfernen und das Bad sauber hinterlassen.",
+            "es": "Quitar siempre los pelos del desagüe de la ducha y dejar el suelo completamente seco e impecable.",
+            "nl": "Altijd je haren uit het doucheputje halen en de badkamervloer netjes en droog achterlaten.",
+            "pt": "Tirar sempre os cabelos do ralo do chuveiro e deixar a casa de banho impecável a seguir."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "coloc_green_14",
+          "theme": "coloc",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Proposer spontanément de prêter sa voiture, son vélo ou ses outils avec un grand sourire.",
+            "en": "Spontaneously offering to lend a car, bike, or toolbox with a big smile whenever needed.",
+            "de": "Bereitwillig das eigene Auto, Fahrrad oder Werkzeug mit einem Lächeln an Mitbewohner ausleihen.",
+            "es": "Ofrecerse a prestar el coche, la bici o las herramientas con una sonrisa si alguien lo necesita.",
+            "nl": "Spontaan je auto, fiets of gereedschap uitlenen met een grote glimlach als iemand het nodig heeft.",
+            "pt": "Oferecer com um sorriso o carro, a bicicleta ou as ferramentas sempre que o colega precisa."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "coloc_green_15",
+          "theme": "coloc",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Payer son loyer et sa part des factures dès le 1er du mois sans jamais avoir besoin de relance.",
+            "en": "Paying rent and shared bills on the 1st of the month without ever needing a single reminder.",
+            "de": "Die Miete und Nebenkosten pünktlich am 1. des Monats überweisen, ohne jede Mahnung.",
+            "es": "Pagar el alquiler y los gastos comunes el primer día del mes sin tener que recordárselo nunca.",
+            "nl": "De huur en vaste lasten op de eerste dag van de maand betalen zonder dat iemand erom hoeft te vragen.",
+            "pt": "Pagar a renda e as despesas comuns no primeiro dia do mês sem precisar de qualquer lembrete."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "coloc_green_16",
+          "theme": "coloc",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Arroser les plantes et s'occuper gentiment du chat du coloc quand il part en week-end.",
+            "en": "Watering houseplants and lovingly feeding the roommate's cat whenever they go away for the weekend.",
+            "de": "Zuverlässig die Pflanzen gießen und die Katze des Mitbewohners füttern, wenn er verreist.",
+            "es": "Regar las plantas y cuidar con cariño del gato de su compañero cuando se va de fin de semana.",
+            "nl": "Planten water geven en met liefde op de kat passen als je huisgenoot een weekendje weg is.",
+            "pt": "Regar as plantas e cuidar com carinho do gato do colega de casa quando ele vai passar o fim de semana fora."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "coloc_green_17",
+          "theme": "coloc",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Nettoyer directement la plaque de cuisson et le plan de travail juste après avoir cuisiné.",
+            "en": "Wiping down the stove and kitchen counter immediately after cooking without leaving grease.",
+            "de": "Den Herd und die Küchenzeile direkt nach dem Kochen gründlich abwischen, statt Fett antrocknen zu lassen.",
+            "es": "Limpiar la vitrocerámica y la encimera justo después de cocinar sin dejar restos de grasa.",
+            "nl": "Het fornuis en het aanrecht direct na het koken schoonmaken zonder vetvlekken te laten aankoeken.",
+            "pt": "Limpar o fogão e a bancada logo a seguir a cozinhar sem deixar gordura nem migalhas."
+          },
+          "difficulty": 1,
+          "enabled": true
+        }
+      ]
+    },
+    "money_pack": {
+      "id": "money_pack",
+      "name": "MONEY",
+      "card_count": 35,
+      "cards": [
+        {
+          "id": "money_red_1",
+          "theme": "money",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Réclamer un virement Lydia ou Tricount de 0,80 € pour un simple café partagé.",
+            "en": "Demanding a payment request of 0.80€ for a quick coffee shared together.",
+            "de": "Eine Zahlungsaufforderung von 0,80 € für einen gemeinsamen Kaffee schicken.",
+            "es": "Pedir una transferencia de 0,80 € por un café compartido entre amigos.",
+            "nl": "Een Tikkie van 0,80 € sturen voor een gezamenlijk gedronken koffietje.",
+            "pt": "Pedir uma transferência de 0,80 € por um café partilhado entre amigos."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "money_green_1",
+          "theme": "money",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Régler spontanément une tournée de verres pour tout le groupe sans jamais chercher à tenir les comptes.",
+            "en": "Spontaneously buying a round of drinks for the whole group without ever keeping track of scores.",
+            "de": "Spontan eine Runde Drinks für die ganze Gruppe zahlen, ohne jemals mitzurechnen, wer dran ist.",
+            "es": "Pagar espontáneamente una ronda para todo el grupo sin llevar la cuenta de quién debe qué.",
+            "nl": "Spontaan een rondje halen voor de hele groep zonder ooit de score bij te houden wie aan de beurt is.",
+            "pt": "Pagar espontaneamente uma rodada para o grupo todo sem nunca andar a fazer contas de cabeça."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "money_red_2",
+          "theme": "money",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Proposer de diviser l'addition en deux après avoir pris cocktail et entrecôte face à une salade.",
+            "en": "Suggesting splitting the bill equally after having steak and cocktails while others had a salad.",
+            "de": "Vorgeschlagen, die Rechnung zu teilen, nachdem man Steak und Cocktails hatte und der andere Salat.",
+            "es": "Proponer dividir la cuenta a medias tras pedir entrecot y cócteles frente a una ensalada.",
+            "nl": "Voorstellen de rekening te splitten na biefstuk en cocktails terwijl de ander salade at.",
+            "pt": "Propor dividir a conta a meias após pedir bife e cocktails enquanto o outro comeu salada."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "money_green_2",
+          "theme": "money",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Prendre discrètement en charge l'addition d'un ami qui galère financièrement sans jamais le gêner.",
+            "en": "Discreetly covering the bill for a friend having a tough month without ever putting them on the spot.",
+            "de": "Diskret die Rechnung für einen klammen Freund übernehmen, ohne ihn vor anderen bloßzustellen.",
+            "es": "Pagar discretamente la cuenta de un amigo en apuros económicos sin hacerle pasar vergüenza jamás.",
+            "nl": "Discreet de rekening betalen van een vriend die krap zit, zonder hem ooit voor schut te zetten.",
+            "pt": "Pagar discretamente a conta de um amigo em aperto financeiro sem o deixar envergonhado."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "money_red_3",
+          "theme": "money",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Avoir mystérieusement 'oublié sa carte' ou 'plus de batterie' pile au moment de régler l'addition.",
+            "en": "Mysteriously 'forgetting your card' or having a 'dead phone battery' right when the bill arrives.",
+            "de": "Mysteriös 'die Karte vergessen' oder 'Akku leer' haben, genau wenn die Rechnung kommt.",
+            "es": "Tener misteriosamente 'la tarjeta olvidada' o 'sin batería' justo cuando traen la cuenta.",
+            "nl": "Mysterieus 'je pasje vergeten' of een 'lege batterij' hebben zodra de rekening komt.",
+            "pt": "Ter misteriosamente 'esquecido o cartão' ou 'ficado sem bateria' na hora de pagar a conta."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "money_green_3",
+          "theme": "money",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Rembourser sa dette le jour même en quelques secondes par virement sans qu'on ait besoin de demander.",
+            "en": "Repaying borrowed money on the exact same day in seconds without ever needing a friendly reminder.",
+            "de": "Geliehenes Geld noch am selben Tag per Sofortüberweisung zurückzahlen, ohne dass man nachfragt.",
+            "es": "Devolver el dinero prestado el mismo día al instante por transferencia sin que tengan que pedirlo.",
+            "nl": "Geleend geld nog dezelfde dag binnen enkele seconden terugbetalen zonder herinnering.",
+            "pt": "Devolver o dinheiro emprestado no próprio dia por transferência sem ninguém ter de pedir."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "money_red_4",
+          "theme": "money",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Commander le plat le plus cher du menu et du vin millésimé dès qu'on sait que quelqu'un régale.",
+            "en": "Ordering the most expensive steak and vintage wine the second someone offers to treat.",
+            "de": "Das teuerste Gericht und Spitzenwein bestellen, sobald jemand anderes einlädt.",
+            "es": "Pedir el plato más caro y vino caro en cuanto sabes que otra persona invita hoy.",
+            "nl": "Het allerduurste gerecht en vintage wijn kiezen zodra je hoort dat iemand trakteert.",
+            "pt": "Pedir o prato mais caro do menu e vinho caro logo que alguém diz que vai pagar."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "money_green_4",
+          "theme": "money",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Toujours arrondir sa part à la dizaine supérieure pour laisser un beau pourboire collectif à la table.",
+            "en": "Always rounding up your share generously to leave a solid team tip for the restaurant staff.",
+            "de": "Seinen Anteil immer großzügig aufrunden, damit das gesamte Team ein schönes Trinkgeld da lässt.",
+            "es": "Redondear siempre al alza tu parte para asegurar una buena propina conjunta para los camareros.",
+            "nl": "Je eigen aandeel altijd royaal naar boven afronden zodat de tafel een mooie fooi achterlaat.",
+            "pt": "Arredondar sempre para cima generosamente para garantir uma boa gorjeta de grupo na mesa."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "money_red_5",
+          "theme": "money",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Sortir la calculatrice du téléphone au restaurant pour recompter la part de chacun au centime près.",
+            "en": "Pulling out your phone calculator at dinner to recalculate everyone's share down to the cent.",
+            "de": "Am Tisch den Handy-Taschenrechner zücken, um den Anteil jedes Einzelnen auf den Cent zu prüfen.",
+            "es": "Sacar la calculadora del móvil en el restaurante para recalcular la parte de cada uno al céntimo.",
+            "nl": "Je rekenmachine openen in het restaurant om ieders deel tot op de cent nauwkeurig na te rekenen.",
+            "pt": "Tirar a calculadora do telemóvel no restaurante para recalcular a conta de cada um ao cêntimo."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "money_green_5",
+          "theme": "money",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Glisser un grand sourire en disant 'Le café c'est pour moi !' et aller régler directement au comptoir.",
+            "en": "Smiling warmly, saying 'Coffees are on me!', and stepping right up to the counter to pay.",
+            "de": "Herzlich lächeln, 'Kaffee geht auf mich!' sagen und direkt am Tresen für alle bezahlen.",
+            "es": "Sonreír diciendo '¡El café corre por mi cuenta!' e ir directamente a la barra a pagarlo.",
+            "nl": "Met een warme glimlach zeggen 'Koffie is van mij!' en direct naar de bar lopen om te betalen.",
+            "pt": "Dizer com um grande sorriso 'O café é por minha conta!' e ir pagar logo ao balcão."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "money_red_6",
+          "theme": "money",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Refuser catégoriquement de laisser le moindre pourboire alors que le serveur s'est plié en quatre.",
+            "en": "Strictly refusing to leave any tip at all even though the server went above and beyond for you.",
+            "de": "Jedem Trinkgeld verweigern, obwohl die Bedienung den ganzen Abend absolut großartig war.",
+            "es": "Negarse en rotundo a dejar propina aunque el camarero haya dado un servicio de diez.",
+            "nl": "Pertinent weigeren fooi te geven, ook al heeft de ober de hele avond keihard gerend voor je.",
+            "pt": "Recusar terminantemente deixar gorjeta mesmo quando o empregado foi absolutamente incrível."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "money_green_6",
+          "theme": "money",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Assumer calmement que le restaurant proposé dépasse son budget du moment sans le moindre complexe.",
+            "en": "Calmly and openly saying a venue is outside your current budget with zero shame or awkwardness.",
+            "de": "Ganz entspannt und offen sagen, dass ein Restaurant über dem eigenen Budget liegt, ohne Scham.",
+            "es": "Decir con total naturalidad que un sitio se sale de tu presupuesto sin vergüenza ni complejos.",
+            "nl": "Kalm en eerlijk aangeven dat een restaurant boven je budget ligt, zonder enige schaamte.",
+            "pt": "Dizer com naturalidade que um restaurante está fora do orçamento sem vergonha nem drama."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "money_red_7",
+          "theme": "money",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Négocier sans honte sur Vinted ou LeBonCoin pour gratter 50 centimes sur un tee-shirt à 3 euros.",
+            "en": "Shamelessly bargaining on second-hand apps to shave off 50 cents on a 3-dollar T-shirt.",
+            "de": "Schamlos auf Kleinanzeigen verhandeln, um 50 Cent von einem 3-Euro-Shirt runterzufeilschen.",
+            "es": "Regatear sin vergüenza en apps de segunda mano para rascar 50 céntimos en algo de 3 euros.",
+            "nl": "Schaamteloos afdingen op Vinted om 50 cent korting te krijgen op een T-shirt van 3 euro.",
+            "pt": "Regatear sem vergonha em apps em segunda mão para poupar 50 cêntimos numa t-shirt de 3 euros."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "money_green_7",
+          "theme": "money",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Gérer les courses du week-end entre amis et offrir de bon cœur les encas et boissons du premier soir.",
+            "en": "Buying the weekend groceries for friends and gladly gifting the first night's snacks and drinks.",
+            "de": "Den Wochenend-Einkauf für Freunde machen und Snacks sowie Drinks des ersten Abends gern schenken.",
+            "es": "Hacer la compra del fin de semana con amigos e invitar con gusto a los aperitivos de la primera noche.",
+            "nl": "De weekendboodschappen voor vrienden doen en met plezier de snacks voor de eerste avond trakteren.",
+            "pt": "Fazer as compras do fim de semana entre amigos e oferecer com gosto os snacks da primeira noite."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "money_red_8",
+          "theme": "money",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Offrir un vieux bibelot poussiéreux récupéré chez ses parents emballé dans du journal gratuit.",
+            "en": "Gifting a dusty trinket taken from your parents' attic wrapped in crumpled free newspapers.",
+            "de": "Einen staubigen Dachbodenfund der Eltern schenken, eingepackt in altes Zeitungspapier.",
+            "es": "Regalar un trasto viejo cogido de casa de tus padres envuelto en papel de periódico usado.",
+            "nl": "Een stoffig zolderprulletje van je ouders cadeau doen, ingepakt in een oude krant.",
+            "pt": "Oferecer uma tralha empoeirada da casa dos pais embrulhada em papel de jornal usado."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "money_green_8",
+          "theme": "money",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Proposer spontanément de mettre 10 € de plus dans la cagnotte parce qu'on a commandé des cocktails chers.",
+            "en": "Spontaneously offering extra cash on the bill because you ordered fancy cocktails and extras.",
+            "de": "Freiwillig extra Geld auf den Tisch legen, weil man teure Cocktails und Spezialitäten hatte.",
+            "es": "Poner espontáneamente más dinero en la cuenta porque pediste cócteles caros o platos especiales.",
+            "nl": "Spontaan extra geld bijleggen omdat je dure cocktails of extra gerechten hebt besteld.",
+            "pt": "Pôr espontaneamente mais dinheiro na conta porque pediste cocktails caros ou pratos extra."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "money_red_9",
+          "theme": "money",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Disparaître mystérieusement aux toilettes ou 'passer un appel urgent' à chaque arrivée de note.",
+            "en": "Mysteriously disappearing to the bathroom or taking an 'urgent call' the moment the check lands.",
+            "de": "Plötzlich aufs Klo verschwinden oder 'dringend telefonieren', sobald die Rechnung auf den Tisch kommt.",
+            "es": "Desaparecer al baño o fingir una 'llamada urgente' cada vez que llega la cuenta a la mesa.",
+            "nl": "Plotseling naar het toilet verdwijnen of 'dringend bellen' zodra de rekening op tafel belandt.",
+            "pt": "Desaparecer na casa de banho ou fingir uma 'chamada urgente' sempre que a conta chega à mesa."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "money_green_9",
+          "theme": "money",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Inviter fièrement ses proches au restaurant avec son tout premier salaire sans les laisser toucher l'addition.",
+            "en": "Proudly taking your family out to a great restaurant with your first paycheck and picking up the tab.",
+            "de": "Die Familie stolz vom allerersten Gehalt zum Essen einladen, ohne dass sie an die Rechnung dürfen.",
+            "es": "Invitar con orgullo a tu familia a comer con tu primer sueldo sin dejar que toquen la cuenta.",
+            "nl": "Trots je familie meenemen uit eten van je allereerste salaris en weigeren dat zij betalen.",
+            "pt": "Levar orgulhosamente a família a jantar fora com o primeiro salário sem os deixar pagar nada."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "money_red_10",
+          "theme": "money",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Ajouter sur le Tricount des vacances 0,15 € pour un sac plastique acheté au supermarché.",
+            "en": "Adding a 15-cent plastic shopping bag to the shared vacation expense tracker.",
+            "de": "Auf die Urlaubs-Ausgabenliste 0,15 € für eine Supermarkt-Plastiktüte eintragen.",
+            "es": "Meter en el grupo de gastos compartidos 0,15 € por una bolsa de plástico del súper.",
+            "nl": "Een plastic supermarkttasje van 15 cent toevoegen aan de gezamenlijke vakantiepot.",
+            "pt": "Lançar na app de despesas do grupo 0,15 € por um saco de plástico do supermercado."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "money_green_10",
+          "theme": "money",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Trouver le cadeau parfait qui correspond exactement aux passions d'un ami plutôt qu'un objet cher et sans âme.",
+            "en": "Picking a thoughtful gift tailored to your friend's passions instead of something pricey and generic.",
+            "de": "Ein liebevolles Geschenk wählen, das perfekt zu den Hobbys passt, statt etwas Teures ohne Seele.",
+            "es": "Elegir un regalo pensado con cariño según los gustos de un amigo en vez de algo caro e impersonal.",
+            "nl": "Een attent cadeau kiezen dat perfect past bij iemands passies in plaats van iets duurs zonder ziel.",
+            "pt": "Escolher um presente com significado feito à medida dos gostos de um amigo em vez de algo impessoal."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "money_red_11",
+          "theme": "money",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Vider entièrement le stock de savons, thés et dosettes de café de l'hôtel dans sa valise avant de partir.",
+            "en": "Raiding every single hotel soap, tea bag, and coffee pod into your luggage before checking out.",
+            "de": "Alle Shampoos, Tees und Kaffeekapseln im Hotelzimmer vor der Abreise in den Koffer packen.",
+            "es": "Arrasar con todos los jabones, tés y cápsulas de café del hotel metiéndolos en tu maleta al salir.",
+            "nl": "Alle zeepjes, theezakjes en koffiecups van het hotel in je koffer stoppen voor je uitcheckt.",
+            "pt": "Limpar todos os sabonetes, chás e cápsulas de café do quarto de hotel para levar na mala."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "money_green_11",
+          "theme": "money",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Partager généreusement ses vrais bons plans de voyage et réductions pour faire faire des économies à tous.",
+            "en": "Generously sharing authentic travel hacks and discounts to help your friends save real money.",
+            "de": "Großzügig echte Spartipps und Reisedeals teilen, damit die ganze Clique bares Geld spart.",
+            "es": "Compartir buenos chollos y descuentos de viajes para ayudar a tus amigos a ahorrar dinero.",
+            "nl": "Royale bespaartips en reiskortingen delen om al je vrienden te helpen echt geld te besparen.",
+            "pt": "Partilhar boas dicas de poupança e viagens para ajudar todo o grupo a poupar dinheiro a sério."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "money_red_12",
+          "theme": "money",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Boire dans les pintes des potes toute la soirée au bar sans jamais commander une seule boisson soi-même.",
+            "en": "Sipping from everyone else's pints all night long without ever buying a single drink yourself.",
+            "de": "Den ganzen Abend an den Gläsern der Freunde nippen, ohne jemals selbst einen Drink zu bestellen.",
+            "es": "Beber del vaso de los amigos toda la noche en el bar sin pedir ni pagar una sola consumición propia.",
+            "nl": "De hele avond uit andermans glazen drinken zonder ooit zelf ook maar één drankje te bestellen.",
+            "pt": "Beber dos copos dos amigos a noite toda no bar sem nunca pagar uma única bebida própria."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "money_green_12",
+          "theme": "money",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Glisser un pourboire chaleureux au livreur de repas trempé par l'orage un soir de tempête.",
+            "en": "Handing a generous cash tip to a drenched food delivery rider on a freezing rainy evening.",
+            "de": "Dem durchnässten Essenslieferanten an einem stürmischen Regentag ein fettes Trinkgeld geben.",
+            "es": "Dejar una buena propina en efectivo al repartidor empapado bajo un chaparrón un domingo por la noche.",
+            "nl": "Een royale fooi geven aan de kletsnatte maaltijdbezorger op een ijskoude regenachtige avond.",
+            "pt": "Dar uma boa gorjeta ao estafeta que entrega o jantar ensopado debaixo de uma chuva torrencial."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "money_red_13",
+          "theme": "money",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Demander 2 € d'essence à un ami après l'avoir déposé en voiture à 3 kilomètres de chez lui.",
+            "en": "Asking a friend for 2€ in gas money after dropping them off just a mile down the road.",
+            "de": "2 € Spritgeld von einem Kumpel verlangen, nachdem man ihn nur 2 Kilometer mitgenommen hat.",
+            "es": "Pedirle 2 € de gasolina a un amigo tras acercarlo en coche a tres calles de su casa.",
+            "nl": "2 € benzinegeld vragen aan een vriend nadat je hem twee kilometer hebt meegenomen in de auto.",
+            "pt": "Pedir 2 € de combustível a um amigo depois de lhe dar boleia por apenas três quilómetros."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "money_green_13",
+          "theme": "money",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Rendre immédiatement la monnaie exacte et remercier chaleureusement la personne qui a avancé les fonds.",
+            "en": "Immediately returning the exact change with a warm 'thank you' to the person who fronted cash.",
+            "de": "Das Wechselgeld sofort centgenau zurückgeben und sich herzlich fürs Vorstrecken bedanken.",
+            "es": "Devolver el cambio exacto de inmediato y dar las gracias de corazón a quien te adelantó el dinero.",
+            "nl": "Direct het exacte wisselgeld teruggeven en hartelijk bedanken voor het voorschieten.",
+            "pt": "Devolver o troco exato no momento e agradecer com simpatia a quem adiantou o dinheiro."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "money_red_14",
+          "theme": "money",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Afficher son gros salaire sur les réseaux mais râler quand le supplément sauce est facturé 30 centimes.",
+            "en": "Bragging about your huge salary online but arguing over a 30-cent extra ketchup packet at lunch.",
+            "de": "Im Netz mit hohem Gehalt prahlen, sich aber über 30 Cent für eine extra Ketchup-Packung aufregen.",
+            "es": "Fardar de buen sueldo en redes pero montar un drama por pagar 30 céntimos por una salsa extra.",
+            "nl": "Opscheppen over je topsalaris, maar zeuren als een extra portie mayonaise 30 cent kost.",
+            "pt": "Vangloriar-se do salário alto mas reclamar por ter de pagar 30 cêntimos por um molho extra."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "money_green_14",
+          "theme": "money",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Préparer un somptueux dîner maison pour ses amis toute l'après-midi juste pour le plaisir de les régaler.",
+            "en": "Spending the whole afternoon cooking an epic homemade feast for friends just to treat them.",
+            "de": "Den ganzen Nachmittag ein Festmahl für Freunde kochen, einfach aus Freude am gemeinsamen Schlemmen.",
+            "es": "Pasar la tarde cocinando una cena casera increíble para los amigos solo por el gusto de mimarlos.",
+            "nl": "De hele middag een heerlijk diner koken voor vrienden, puur voor het plezier van samen eten.",
+            "pt": "Passar a tarde a cozinhar um banquete caseiro para os amigos só pelo prazer de os receber bem."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "money_red_15",
+          "theme": "money",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Remettre dans son sac la bouteille de vin entamée qu'on avait apportée à l'apéro avant de rentrer.",
+            "en": "Packing the half-empty wine bottle you brought back into your bag before leaving your host's party.",
+            "de": "Die angebrochene Weinflasche, die man zur Party mitbrachte, vor dem Gehen wieder einstecken.",
+            "es": "Guardarte de nuevo en la mochila la botella de vino abierta que trajiste antes de marcharte.",
+            "nl": "De aangebroken fles wijn die je meebracht stiekem weer in je tas stoppen voor je weggaat.",
+            "pt": "Voltar a meter na mochila a garrafa de vinho aberta que levaste para o jantar antes de sair."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "money_green_15",
+          "theme": "money",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Remplacer immédiatement à ses frais un verre ou un vêtement abîmé chez un ami sans attendre qu'on le dise.",
+            "en": "Immediately replacing at your own expense anything you accidentally broke or stained at a friend's place.",
+            "de": "Einen versehentlich beschädigten Gegenstand bei Freunden sofort auf eigene Kosten ersetzen.",
+            "es": "Reemplazar de inmediato y de tu bolsillo cualquier cosa que hayas roto o manchado en casa de un amigo.",
+            "nl": "Iets wat je per ongeluk hebt beschadigd bij een vriend direct op eigen kosten vervangen.",
+            "pt": "Substituir de imediato e do teu bolso qualquer coisa que tenhas estragado em casa de um amigo."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "money_red_16",
+          "theme": "money",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Affirmer 'Je t'ai fait le virement hier, ça doit être le délai bancaire !' alors qu'on n'a rien envoyé.",
+            "en": "Claiming 'I wired the money yesterday, must be bank delays!' when you haven't sent a dime.",
+            "de": "Sagen 'Hab's gestern überwiesen, liegt an der Bank!', obwohl man noch keinen Cent gesendet hat.",
+            "es": "Decir '¡Te hice la transferencia ayer, tardará el banco!' cuando ni siquiera has abierto la app.",
+            "nl": "Zeggen 'Ik heb het gisteren overgemaakt, ligt aan de bank!' terwijl je niks verstuurd hebt.",
+            "pt": "Dizer 'Fiz a transferência ontem, deve ser atraso do banco!' quando nem abriste a app."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "money_green_16",
+          "theme": "money",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Rendre la voiture empruntée avec le réservoir plein et lavée pour remercier son propriétaire du service.",
+            "en": "Returning a borrowed car with a full tank of gas and freshly washed to thank the owner.",
+            "de": "Ein geliehenes Auto mit vollgetanktem Tank und frisch gewaschen zurückgeben als Dankeschön.",
+            "es": "Devolver el coche que te prestaron con el depósito lleno y limpio para agradecer el favor.",
+            "nl": "Een geleende auto met een volle tank en netjes gewassen terugbrengen als bedankje.",
+            "pt": "Devolver o carro emprestado com o depósito cheio e lavado para agradecer o favor ao dono."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "money_red_17",
+          "theme": "money",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Imposer au groupe un boui-boui suspect pour économiser 2 € sur un repas quitte à risquer l'indigestion.",
+            "en": "Forcing the group into a sketchy diner to save 2 bucks, risking food poisoning for everyone.",
+            "de": "Der Gruppe ein zweifelhaftes Lokal aufzwingen, um 2 Euro zu sparen, trotz Magenverstimmungsgefahr.",
+            "es": "Obligar al grupo a ir a un sitio cutre para ahorrar 2 € arriesgando una intoxicación alimentaria.",
+            "nl": "De groep meesleuren naar een dubieuze snackbar om 2 euro te besparen met maagpijn als risico.",
+            "pt": "Forçar o grupo a ir a um sítio duvidoso para poupar 2 € arriscando uma intoxicação alimentar."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "money_green_17",
+          "theme": "money",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Soutenir un ami qui économise pour un projet important en proposant des activités gratuites et sympas.",
+            "en": "Supporting a friend saving up for a big dream by suggesting fun, completely free hangouts.",
+            "de": "Einen Freund beim Sparen für einen Lebenstraum unterstützen, indem man coole Gratis-Aktivitäten vorschlägt.",
+            "es": "Apoyar a un amigo que está ahorrando para un gran proyecto proponiendo planes divertidos y gratis.",
+            "nl": "Een vriend steunen die spaart voor een grote droom door gezellige gratis activiteiten te bedenken.",
+            "pt": "Apoiar um amigo que está a poupar para um sonho propondo planos divertidos e totalmente gratuitos."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "money_red_18",
+          "theme": "money",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Réclamer pendant dix minutes qu'on fouille sous le siège de la voiture pour retrouver sa pièce de 1 euro.",
+            "en": "Spending ten minutes demanding everyone search under the car seat to recover a 1-euro coin.",
+            "de": "Zehn Minuten verlangen, dass alle unterm Autositz suchen, um eine 1-Euro-Münze wiederzufinden.",
+            "es": "Exigir durante diez minutos buscar debajo del asiento del coche para recuperar una moneda de 1 euro.",
+            "nl": "Tien minuten lang eisen dat iedereen onder de autostoel zoekt om een euromunt terug te vinden.",
+            "pt": "Exigir durante dez minutos procurar debaixo do banco do carro para recuperar uma moeda de 1 euro."
           },
           "difficulty": 1,
           "enabled": true
@@ -42642,7 +44966,1267 @@
       "mode": "classic",
       "packId": "toxic_pack",
       "live_tier": "safe"
+    },
+    "coloc_red_1": {
+      "id": "coloc_red_1",
+      "theme": "coloc",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Laisser la vaisselle sale tremper 3 jours dans l'évier sous prétexte qu'elle doit ramollir.",
+        "en": "Leaving dirty dishes soaking in the sink for 3 days claiming they need to 'soak'.",
+        "de": "Dreckiges Geschirr 3 Tage in der Spüle einweichen lassen, weil es angeblich 'einweichen muss'.",
+        "es": "Dejar los platos sucios en remojo 3 días en el fregadero diciendo que 'se tienen que ablandar'.",
+        "nl": "Vuile vaat 3 dagen in de gootsteen laten weken onder het mom dat het 'moet losweken'.",
+        "pt": "Deixar a louça suja de molho no lava-louça 3 dias dizendo que precisa 'amolecer'."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    "coloc_red_2": {
+      "id": "coloc_red_2",
+      "theme": "coloc",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Coller un mot anonyme passif-agressif sur le frigo au lieu d'en parler calmement.",
+        "en": "Taping an anonymous passive-aggressive sticky note on the fridge instead of talking.",
+        "de": "Einen passiv-aggressiven Zettel an den Kühlschrank kleben, statt normal zu reden.",
+        "es": "Pegar una nota anónima pasivo-agresiva en la nevera en vez de hablar las cosas.",
+        "nl": "Een passief-agressief anoniem briefje op de koelkast plakken in plaats van te praten.",
+        "pt": "Colar um bilhete anónimo passivo-agressivo no frigorífico em vez de falar diretamente."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    "coloc_red_3": {
+      "id": "coloc_red_3",
+      "theme": "coloc",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Passer la perceuse ou l'aspirateur le dimanche matin à 8h tapantes.",
+        "en": "Drilling into walls or vacuuming at exactly 8 AM on a Sunday morning.",
+        "de": "Am Sonntagmorgen um Punkt 8 Uhr bohren oder laut Staub saugen.",
+        "es": "Ponerse a taladrar o pasar la aspiradora un domingo a las 8 de la mañana en punto.",
+        "nl": "Om stipt 8 uur 's ochtends boren of stofzuigen op zondag.",
+        "pt": "Começar a furar as paredes ou aspirar às 8h em ponto num domingo de manhã."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    "coloc_red_4": {
+      "id": "coloc_red_4",
+      "theme": "coloc",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Inviter son crush ou de la famille à squatter la coloc deux semaines sans prévenir.",
+        "en": "Having a crush or family sleep over for two weeks without giving roommates any notice.",
+        "de": "Den Schwarm oder Familie zwei Wochen in der WG wohnen lassen, ohne Bescheid zu sagen.",
+        "es": "Meter al ligue o a la familia a dormir en el piso durante dos semanas sin avisar.",
+        "nl": "Je date of familie twee weken in huis laten slapen zonder je huisgenoten in te lichten.",
+        "pt": "Levar o crush ou a família para dormir no apartamento duas semanas sem avisar ninguém."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    "coloc_red_5": {
+      "id": "coloc_red_5",
+      "theme": "coloc",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Boire la dernière goutte de lait ou piquer du fromage et laisser le paquet vide au frigo.",
+        "en": "Finishing the milk or stealing cheese and leaving the empty package in the fridge.",
+        "de": "Die letzte Milch austrinken oder Käse klauen und die leere Packung im Kühlschrank lassen.",
+        "es": "Terminarse la leche o robar queso y dejar el envase vacío dentro de la nevera.",
+        "nl": "De laatste melk opdrinken of kaas jatten en het lege pak in de koelkast laten staan.",
+        "pt": "Beber o resto do leite ou tirar queijo alheio e deixar a embalagem vazia no frigorífico."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    "coloc_red_6": {
+      "id": "coloc_red_6",
+      "theme": "coloc",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Organiser un after techno improvisé un mardi soir jusqu'à 5h du matin sans demander l'avis.",
+        "en": "Hosting a loud techno afterparty until 5 AM on a Tuesday night without asking anyone.",
+        "de": "Dienstagnacht ohne Absprache eine improvisierte Techno-Party bis 5 Uhr morgens feiern.",
+        "es": "Montar un after techno improvisado un martes por la noche hasta las 5 de la mañana sin avisar.",
+        "nl": "Op dinsdagnacht zonder overleg een illegale techno-afterparty houden tot 5 uur 's ochtends.",
+        "pt": "Organizar um after de techno às 5h da manhã numa terça-feira sem avisar os colegas de casa."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    "coloc_red_7": {
+      "id": "coloc_red_7",
+      "theme": "coloc",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Laisser régulièrement la porte d'entrée non verrouillée ou entrouverte en partant.",
+        "en": "Regularly leaving the apartment front door unlocked or cracked open when leaving.",
+        "de": "Die Wohnungstür beim Verlassen regelmäßig unabgeschlossen oder angelehnt lassen.",
+        "es": "Dejar con frecuencia la puerta de entrada sin cerrar con llave o entreabierta al salir.",
+        "nl": "De voordeur regelmatig van het slot laten of op een kier laten staan bij vertrek.",
+        "pt": "Deixar frequentemente a porta de entrada destrancada ou encostada ao sair de casa."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    "coloc_red_8": {
+      "id": "coloc_red_8",
+      "theme": "coloc",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Finir le rouleau de papier toilette et laisser le carton vide sur le dévidoir.",
+        "en": "Using the last square of toilet paper and leaving the empty cardboard roll behind.",
+        "de": "Das Klopapier aufbrauchen und die leere Papprolle einfach auf dem Halter hängen lassen.",
+        "es": "Gastar el último pedazo de papel higiénico y dejar el cartón vacío en el soporte.",
+        "nl": "Het laatste wc-papier opmaken en het lege kartonnen rolletje op de houder laten zitten.",
+        "pt": "Acabar o papel higiénico e deixar o rolo de cartão vazio no suporte da casa de banho."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    "coloc_red_9": {
+      "id": "coloc_red_9",
+      "theme": "coloc",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Emprunter des fringues ou des chaussures dans le dressing de son coloc sans lui demander.",
+        "en": "Borrowing clothes or sneakers from your roommate's wardrobe without asking permission.",
+        "de": "Klamotten oder Schuhe aus dem Schrank des Mitbewohners nehmen, ohne vorher zu fragen.",
+        "es": "Cogerle ropa o zapatillas del armario a tu compañero de piso sin pedirle permiso.",
+        "nl": "Kleren of schoenen uit de kast van je huisgenoot pakken zonder eerst toestemming te vragen.",
+        "pt": "Pedir emprestada roupa ou ténis do armário do colega de casa sem lhe pedir autorização."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    "coloc_red_10": {
+      "id": "coloc_red_10",
+      "theme": "coloc",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Squatter la salle de bain 45 minutes à 8h du matin alors que tout le monde doit partir bosser.",
+        "en": "Hogging the only bathroom for 45 minutes at 8 AM when everyone is rushing to get to work.",
+        "de": "Morgens um 8 Uhr das einzige Bad 45 Minuten blockieren, während alle zur Arbeit müssen.",
+        "es": "Acaparar el único baño durante 45 minutos a las 8 de la mañana cuando todos van con prisa.",
+        "nl": "Om 8 uur 's ochtends de badkamer 45 minuten bezet houden terwijl iedereen naar werk moet.",
+        "pt": "Ficar 45 minutos na única casa de banho às 8h da manhã quando todos têm de ir trabalhar."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    "coloc_red_11": {
+      "id": "coloc_red_11",
+      "theme": "coloc",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Regarder des TikTok ou écouter de la musique sur haut-parleur dans le salon commun sans écouteurs.",
+        "en": "Watching TikToks or blasting music on full speaker in the shared living room without headphones.",
+        "de": "TikToks schauen oder laut Musik hören im gemeinsamen Wohnzimmer ohne Kopfhörer.",
+        "es": "Ver TikToks o escuchar música con el altavoz al máximo en el salón común sin auriculares.",
+        "nl": "TikToks kijken of muziek luisteren op speaker in de gezamenlijke woonkamer zonder oordopjes.",
+        "pt": "Ver TikToks ou ouvir música no altifalante na sala comum sem utilizar auriculares."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    "coloc_red_12": {
+      "id": "coloc_red_12",
+      "theme": "coloc",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Frapper furieusement au plafond avec un balai dès qu'on marche dans son appart après 22h.",
+        "en": "Banging furiously on the ceiling with a broom the second someone takes a step after 10 PM.",
+        "de": "Mit dem Besenstil gegen die Decke hämmern, sobald oben nach 22 Uhr jemand leise durch den Raum geht.",
+        "es": "Dar golpes salvajes al techo con la escoba en cuanto alguien da un paso después de las 22h.",
+        "nl": "Woedend met een bezemsteel tegen het plafond bonken zodra iemand na 22.00 uur zachtjes rondloopt.",
+        "pt": "Bater com a vassoura no teto com fúria assim que alguém dá um passo no chão depois das 22h."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    "coloc_red_13": {
+      "id": "coloc_red_13",
+      "theme": "coloc",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Laisser ses poubelles dégoulinantes sur le palier commun pendant deux jours au lieu de descendre.",
+        "en": "Leaving leaking trash bags in the shared hallway for two days instead of taking them down.",
+        "de": "Triefende Müllbeutel zwei Tage lang im Hausflur stehen lassen, statt sie runterzubringen.",
+        "es": "Dejar bolsas de basura goteando en el rellano común durante dos días en lugar de bajarlas.",
+        "nl": "Lekkende vuilniszakken twee dagen op de gezamenlijke gang laten staan in plaats van weggooien.",
+        "pt": "Deixar sacos de lixo a pingar no corredor comum durante dois dias em vez de os levar para fora."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    "coloc_red_14": {
+      "id": "coloc_red_14",
+      "theme": "coloc",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Cuisiner du poisson frit bien gras à minuit en laissant toutes les portes des chambres grandes ouvertes.",
+        "en": "Frying smelly greasy fish at midnight with all bedroom doors wide open and zero ventilation.",
+        "de": "Um Mitternacht stinkenden Fisch braten, während alle Zimmertüren weit geöffnet sind.",
+        "es": "Cocinar pescado grasiento a medianoche dejando todas las puertas de las habitaciones abiertas.",
+        "nl": "Om middernacht stinkende vis bakken terwijl alle slaapkamerdeuren wagenwijd openstaan.",
+        "pt": "Fritar peixe gorduroso à meia-noite com as portas de todos os quartos escancaradas."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    "coloc_red_15": {
+      "id": "coloc_red_15",
+      "theme": "coloc",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Programmer une alarme stridente à 6h du matin, la laisser sonner 8 fois et continuer à dormir.",
+        "en": "Setting a blasting alarm at 6 AM, hitting snooze 8 times, and peacefully staying asleep.",
+        "de": "Den schrillen Wecker um 6 Uhr stellen, 8 Mal schlummern lassen und einfach weiterschlafen.",
+        "es": "Poner una alarma ruidosa a las 6 de la mañana, posponerla 8 veces y seguir durmiendo plácidamente.",
+        "nl": "Om 6 uur 's ochtends een keihard alarm zetten, hem 8 keer laten snoozen en lekker doorslapen.",
+        "pt": "Pôr um alarme aos berros às 6h da manhã, carregar no snooze 8 vezes e continuar a dormir."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    "coloc_red_16": {
+      "id": "coloc_red_16",
+      "theme": "coloc",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Créer une dépense Tricount de 42 centimes pour avoir partagé trois feuilles d'essuie-tout.",
+        "en": "Adding an expense of 42 cents on Splitwise for sharing three sheets of paper towel.",
+        "de": "Auf Splitwise 42 Cent einfordern, weil man drei Blatt Küchenrolle abgegeben hat.",
+        "es": "Reclamar 42 céntimos en Splitwise por haber compartido tres hojas de papel de cocina.",
+        "nl": "Een Tikkie van 42 cent sturen voor het delen van drie velletjes keukenpapier.",
+        "pt": "Pedir 42 cêntimos no Splitwise por ter partilhado três folhas de papel de cozinha."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    "coloc_red_17": {
+      "id": "coloc_red_17",
+      "theme": "coloc",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Prendre les affaires des autres sans prévenir en disant toujours : « C'est bon, on partage non ? »",
+        "en": "Taking other people's stuff without asking and saying: 'Come on, we share everything, right?'",
+        "de": "Sachen anderer ohne Erlaubnis nehmen und sagen: 'Ist doch egal, wir teilen doch alles!'.",
+        "es": "Coger las cosas de los demás sin avisar diciendo: 'Venga, total, aquí lo compartimos todo'.",
+        "nl": "Spullen van anderen pakken zonder te vragen en roepen: 'We delen toch alles met elkaar?'.",
+        "pt": "Usar as coisas dos outros sem pedir e responder: 'Qual é o problema, nós partilhamos tudo!'."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    "coloc_red_18": {
+      "id": "coloc_red_18",
+      "theme": "coloc",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Laisser la lunette des toilettes souillée ou relevée et nier effrontément en accusant les autres.",
+        "en": "Leaving the toilet seat dirty or up, then shamelessly denying it and blaming roommates.",
+        "de": "Die Klobrille dreckig oder hochgeklappt lassen und danach dreist die Mitbewohner beschuldigen.",
+        "es": "Dejar la tapa del váter sucia o levantada y negar la culpa descaradamente acusando al resto.",
+        "nl": "De wc-bril smerig of omhoog achterlaten en schaamteloos je huisgenoten de schuld geven.",
+        "pt": "Deixar o tampo da sanita sujo ou levantado e negar descaradamente acusando os outros."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    "coloc_green_1": {
+      "id": "coloc_green_1",
+      "theme": "coloc",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Faire le ménage de la cuisine et de la salle de bain à fond sans jamais rien reprocher à personne.",
+        "en": "Deep cleaning the kitchen and bathroom thoroughly without complaining or guilt-tripping anyone.",
+        "de": "Küche und Bad gründlich putzen, ohne jemandem Vorwürfe zu machen oder passiv-aggressiv zu sein.",
+        "es": "Limpiar a fondo la cocina y el baño sin reprocharle nada a nadie ni dárselas de héroe.",
+        "nl": "De keuken en badkamer grondig schoonmaken zonder ooit iemand ook maar iets te verwijten.",
+        "pt": "Fazer uma limpeza a fundo na cozinha e na casa de banho sem mandar bocas nem cobrar nada."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    "coloc_green_2": {
+      "id": "coloc_green_2",
+      "theme": "coloc",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Remplacer immédiatement un objet cassé par un neuf sans qu'on ait besoin de lui demander.",
+        "en": "Immediately replacing something broken with a brand-new one before anyone even has to ask.",
+        "de": "Einen zerbrochenen Gegenstand sofort durch einen neuen ersetzen, ohne dass jemand nachfragen muss.",
+        "es": "Reemplazar al instante cualquier cosa rota por una nueva sin que nadie tenga que pedirlo.",
+        "nl": "Iets wat kapot is gegaan meteen vervangen door een nieuw exemplaar zonder dat iemand erom vraagt.",
+        "pt": "Substituir imediatamente qualquer objeto partido por um novo em folha sem ninguém ter de pedir."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    "coloc_green_3": {
+      "id": "coloc_green_3",
+      "theme": "coloc",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Prévenir au moins 48 heures à l'avance sur le groupe avant d'inviter des potes à la maison.",
+        "en": "Giving everyone at least 48 hours notice in the group chat before inviting friends over.",
+        "de": "Mindestens 48 Stunden vorher in der WG-Gruppe Bescheid geben, bevor Freunde eingeladen werden.",
+        "es": "Avisar con al menos 48 horas de antelación en el grupo antes de invitar a colegas al piso.",
+        "nl": "Minstens 48 uur van tevoren een appje sturen in de groep voordat er vrienden over de vloer komen.",
+        "pt": "Avisar no grupo com pelo menos 48 horas de antecedência antes de convidar amigos para casa."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    "coloc_green_4": {
+      "id": "coloc_green_4",
+      "theme": "coloc",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Rentrer de soirée à 4h du matin sur la pointe des pieds en fermant les portes sans bruit.",
+        "en": "Coming home from a party at 4 AM on tiptoe and gently closing every door without a sound.",
+        "de": "Um 4 Uhr morgens auf Zehenspitzen nach Hause kommen und jede Tür absolut lautlos schließen.",
+        "es": "Volver de fiesta a las 4 de la mañana de puntillas cerrando todas las puertas sin hacer ruido.",
+        "nl": "Om 4 uur 's nachts op kousenvoeten thuiskomen en geruisloos alle deuren zachtjes dichtdoen.",
+        "pt": "Chegar a casa de uma festa às 4h da manhã em bicos de pés a fechar as portas em silêncio absoluto."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    "coloc_green_5": {
+      "id": "coloc_green_5",
+      "theme": "coloc",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Racheter spontanément du papier toilette, du sel ou de l'huile dès que le stock baisse.",
+        "en": "Spontaneously buying toilet paper, salt, or cooking oil as soon as supplies run low.",
+        "de": "Spontan Klopapier, Salz oder Öl nachkaufen, sobald die gemeinsamen Vorräte knapp werden.",
+        "es": "Comprar papel higiénico, sal o aceite en cuanto ve que se está acabando sin esperar turnos.",
+        "nl": "Spontaan wc-papier, zout of bakolie bijkopen zodra de voorraad bijna op is.",
+        "pt": "Comprar logo papel higiénico, sal ou azeite mal repara que o stock comum está a acabar."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    "coloc_green_6": {
+      "id": "coloc_green_6",
+      "theme": "coloc",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Cuisiner un bon plat chaud et en laisser généreusement une part dans une boîte pour son coloc.",
+        "en": "Cooking a great homemade meal and thoughtfully leaving a warm portion in a container for roommates.",
+        "de": "Ein leckeres Gericht kochen und den Mitbewohnern eine großzügige Portion in einer Box hinterlassen.",
+        "es": "Cocinar un plato delicioso y dejar una ración generosa en un táper para su compañero de piso.",
+        "nl": "Heerlijk koken en een flinke portie in een bakje achterlaten voor je huisgenoten.",
+        "pt": "Cozinhar um prato delicioso e deixar uma porção generosa numa caixa para o colega de casa."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    "coloc_green_7": {
+      "id": "coloc_green_7",
+      "theme": "coloc",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Descendre les poubelles communes et remettre un sac propre sans attendre que ça déborde.",
+        "en": "Taking out the shared trash and putting in a fresh bag before it starts overflowing.",
+        "de": "Den gemeinsamen Müll runterbringen und eine neue Tüte einsetzen, bevor er überquillt.",
+        "es": "Bajar la basura común y colocar una bolsa limpia antes de que empiece a desbordarse.",
+        "nl": "De volle vuilniszak weggooien en direct een nieuwe zak plaatsen voordat het overstroomt.",
+        "pt": "Levar o lixo comum para fora e colocar logo um saco limpo antes de transbordar."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    "coloc_green_8": {
+      "id": "coloc_green_8",
+      "theme": "coloc",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Réceptionner gentiment les colis des voisins absents et leur envoyer un message bienveillant.",
+        "en": "Gladly accepting packages for absent neighbors and sending them a friendly text right away.",
+        "de": "Freundlich Pakete für Nachbarn annehmen und ihnen direkt eine nette Nachricht schreiben.",
+        "es": "Recoger con amabilidad los paquetes de los vecinos ausentes y avisarles con un mensaje atento.",
+        "nl": "Vriendelijk pakketjes aannemen voor de buren en meteen een lief berichtje sturen.",
+        "pt": "Receber gentilmente as encomendas dos vizinhos ausentes e mandar-lhes uma mensagem amigável."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    "coloc_green_9": {
+      "id": "coloc_green_9",
+      "theme": "coloc",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Baisser spontanément le volume de la musique dès 22h pile sans avoir besoin de rappel.",
+        "en": "Spontaneously lowering the music volume at 10 PM sharp without needing any reminder.",
+        "de": "Die Musik um Punkt 22 Uhr ganz von allein leiser drehen, ohne dass jemand klopfen muss.",
+        "es": "Bajar el volumen de la música puntualmente a las 22h por iniciativa propia y sin avisos.",
+        "nl": "Om stipt 22.00 uur uit jezelf de muziek zachter zetten zonder dat iemand hoeft te klagen.",
+        "pt": "Baixar o volume da música logo às 22h em ponto por iniciativa própria sem ser preciso pedir."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    "coloc_green_10": {
+      "id": "coloc_green_10",
+      "theme": "coloc",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Proposer de lancer une lessive groupée quand le tambour n'est pas plein pour ne pas gaspiller.",
+        "en": "Offering to combine laundry loads when the washing machine isn't full to save water and energy.",
+        "de": "Anbieten, Wäsche zusammen zu waschen, wenn die Trommel noch nicht voll ist, um Strom zu sparen.",
+        "es": "Proponer poner una lavadora conjunta si no está llena para ahorrar agua y electricidad.",
+        "nl": "Voorstellen om was samen te draaien als de wasmachine halfvol is om energie te besparen.",
+        "pt": "Propor juntar roupa na máquina de lavar quando ainda há espaço para poupar água e energia."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    "coloc_green_11": {
+      "id": "coloc_green_11",
+      "theme": "coloc",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Ramener des croissants ou des viennoiseries fraîches le dimanche matin pour toute la coloc.",
+        "en": "Bringing fresh croissants and pastries on Sunday morning for the whole apartment to enjoy.",
+        "de": "Am Sonntagmorgen frische Brötchen und Croissants für die gesamte WG vom Bäcker mitbringen.",
+        "es": "Traer cruasanes o bollería fresca el domingo por la mañana para todos los del piso.",
+        "nl": "Op zondagochtend verse croissants en broodjes meenemen van de bakker voor het hele huis.",
+        "pt": "Trazer croissants ou pão fresco no domingo de manhã para partilhar com a casa inteira."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    "coloc_green_12": {
+      "id": "coloc_green_12",
+      "theme": "coloc",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Glisser un petit mot poli et des chocolats aux voisins de palier avant une fête d'anniversaire.",
+        "en": "Leaving a polite note and chocolates for neighbors before throwing a birthday party.",
+        "de": "Vor einer Geburtstagsfeier den Nachbarn einen netten Zettel und Pralinen in den Flur legen.",
+        "es": "Dejar una nota amable y unos bombones a los vecinos del descansillo antes de celebrar un cumpleaños.",
+        "nl": "Een vriendelijk briefje en wat chocolaatjes bij de buren achterlaten voor een verjaardagsfeest.",
+        "pt": "Deixar um bilhete simpático e chocolates aos vizinhos do prédio antes de fazer uma festa de anos."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    "coloc_green_13": {
+      "id": "coloc_green_13",
+      "theme": "coloc",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Retirer systématiquement ses cheveux du siphon de douche et laisser le carrelage nickel.",
+        "en": "Always removing hair from the shower drain and leaving the bathroom spotless after every shower.",
+        "de": "Nach dem Duschen immer die Haare aus dem Abfluss entfernen und das Bad sauber hinterlassen.",
+        "es": "Quitar siempre los pelos del desagüe de la ducha y dejar el suelo completamente seco e impecable.",
+        "nl": "Altijd je haren uit het doucheputje halen en de badkamervloer netjes en droog achterlaten.",
+        "pt": "Tirar sempre os cabelos do ralo do chuveiro e deixar a casa de banho impecável a seguir."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    "coloc_green_14": {
+      "id": "coloc_green_14",
+      "theme": "coloc",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Proposer spontanément de prêter sa voiture, son vélo ou ses outils avec un grand sourire.",
+        "en": "Spontaneously offering to lend a car, bike, or toolbox with a big smile whenever needed.",
+        "de": "Bereitwillig das eigene Auto, Fahrrad oder Werkzeug mit einem Lächeln an Mitbewohner ausleihen.",
+        "es": "Ofrecerse a prestar el coche, la bici o las herramientas con una sonrisa si alguien lo necesita.",
+        "nl": "Spontaan je auto, fiets of gereedschap uitlenen met een grote glimlach als iemand het nodig heeft.",
+        "pt": "Oferecer com um sorriso o carro, a bicicleta ou as ferramentas sempre que o colega precisa."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    "coloc_green_15": {
+      "id": "coloc_green_15",
+      "theme": "coloc",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Payer son loyer et sa part des factures dès le 1er du mois sans jamais avoir besoin de relance.",
+        "en": "Paying rent and shared bills on the 1st of the month without ever needing a single reminder.",
+        "de": "Die Miete und Nebenkosten pünktlich am 1. des Monats überweisen, ohne jede Mahnung.",
+        "es": "Pagar el alquiler y los gastos comunes el primer día del mes sin tener que recordárselo nunca.",
+        "nl": "De huur en vaste lasten op de eerste dag van de maand betalen zonder dat iemand erom hoeft te vragen.",
+        "pt": "Pagar a renda e as despesas comuns no primeiro dia do mês sem precisar de qualquer lembrete."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    "coloc_green_16": {
+      "id": "coloc_green_16",
+      "theme": "coloc",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Arroser les plantes et s'occuper gentiment du chat du coloc quand il part en week-end.",
+        "en": "Watering houseplants and lovingly feeding the roommate's cat whenever they go away for the weekend.",
+        "de": "Zuverlässig die Pflanzen gießen und die Katze des Mitbewohners füttern, wenn er verreist.",
+        "es": "Regar las plantas y cuidar con cariño del gato de su compañero cuando se va de fin de semana.",
+        "nl": "Planten water geven en met liefde op de kat passen als je huisgenoot een weekendje weg is.",
+        "pt": "Regar as plantas e cuidar com carinho do gato do colega de casa quando ele vai passar o fim de semana fora."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    "coloc_green_17": {
+      "id": "coloc_green_17",
+      "theme": "coloc",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Nettoyer directement la plaque de cuisson et le plan de travail juste après avoir cuisiné.",
+        "en": "Wiping down the stove and kitchen counter immediately after cooking without leaving grease.",
+        "de": "Den Herd und die Küchenzeile direkt nach dem Kochen gründlich abwischen, statt Fett antrocknen zu lassen.",
+        "es": "Limpiar la vitrocerámica y la encimera justo después de cocinar sin dejar restos de grasa.",
+        "nl": "Het fornuis en het aanrecht direct na het koken schoonmaken zonder vetvlekken te laten aankoeken.",
+        "pt": "Limpar o fogão e a bancada logo a seguir a cozinhar sem deixar gordura nem migalhas."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "coloc_pack",
+      "live_tier": "safe"
+    },
+    "money_red_1": {
+      "id": "money_red_1",
+      "theme": "money",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Réclamer un virement Lydia ou Tricount de 0,80 € pour un simple café partagé.",
+        "en": "Demanding a payment request of 0.80€ for a quick coffee shared together.",
+        "de": "Eine Zahlungsaufforderung von 0,80 € für einen gemeinsamen Kaffee schicken.",
+        "es": "Pedir una transferencia de 0,80 € por un café compartido entre amigos.",
+        "nl": "Een Tikkie van 0,80 € sturen voor een gezamenlijk gedronken koffietje.",
+        "pt": "Pedir uma transferência de 0,80 € por um café partilhado entre amigos."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    "money_green_1": {
+      "id": "money_green_1",
+      "theme": "money",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Régler spontanément une tournée de verres pour tout le groupe sans jamais chercher à tenir les comptes.",
+        "en": "Spontaneously buying a round of drinks for the whole group without ever keeping track of scores.",
+        "de": "Spontan eine Runde Drinks für die ganze Gruppe zahlen, ohne jemals mitzurechnen, wer dran ist.",
+        "es": "Pagar espontáneamente una ronda para todo el grupo sin llevar la cuenta de quién debe qué.",
+        "nl": "Spontaan een rondje halen voor de hele groep zonder ooit de score bij te houden wie aan de beurt is.",
+        "pt": "Pagar espontaneamente uma rodada para o grupo todo sem nunca andar a fazer contas de cabeça."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    "money_red_2": {
+      "id": "money_red_2",
+      "theme": "money",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Proposer de diviser l'addition en deux après avoir pris cocktail et entrecôte face à une salade.",
+        "en": "Suggesting splitting the bill equally after having steak and cocktails while others had a salad.",
+        "de": "Vorgeschlagen, die Rechnung zu teilen, nachdem man Steak und Cocktails hatte und der andere Salat.",
+        "es": "Proponer dividir la cuenta a medias tras pedir entrecot y cócteles frente a una ensalada.",
+        "nl": "Voorstellen de rekening te splitten na biefstuk en cocktails terwijl de ander salade at.",
+        "pt": "Propor dividir a conta a meias após pedir bife e cocktails enquanto o outro comeu salada."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    "money_green_2": {
+      "id": "money_green_2",
+      "theme": "money",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Prendre discrètement en charge l'addition d'un ami qui galère financièrement sans jamais le gêner.",
+        "en": "Discreetly covering the bill for a friend having a tough month without ever putting them on the spot.",
+        "de": "Diskret die Rechnung für einen klammen Freund übernehmen, ohne ihn vor anderen bloßzustellen.",
+        "es": "Pagar discretamente la cuenta de un amigo en apuros económicos sin hacerle pasar vergüenza jamás.",
+        "nl": "Discreet de rekening betalen van een vriend die krap zit, zonder hem ooit voor schut te zetten.",
+        "pt": "Pagar discretamente a conta de um amigo em aperto financeiro sem o deixar envergonhado."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    "money_red_3": {
+      "id": "money_red_3",
+      "theme": "money",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Avoir mystérieusement 'oublié sa carte' ou 'plus de batterie' pile au moment de régler l'addition.",
+        "en": "Mysteriously 'forgetting your card' or having a 'dead phone battery' right when the bill arrives.",
+        "de": "Mysteriös 'die Karte vergessen' oder 'Akku leer' haben, genau wenn die Rechnung kommt.",
+        "es": "Tener misteriosamente 'la tarjeta olvidada' o 'sin batería' justo cuando traen la cuenta.",
+        "nl": "Mysterieus 'je pasje vergeten' of een 'lege batterij' hebben zodra de rekening komt.",
+        "pt": "Ter misteriosamente 'esquecido o cartão' ou 'ficado sem bateria' na hora de pagar a conta."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    "money_green_3": {
+      "id": "money_green_3",
+      "theme": "money",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Rembourser sa dette le jour même en quelques secondes par virement sans qu'on ait besoin de demander.",
+        "en": "Repaying borrowed money on the exact same day in seconds without ever needing a friendly reminder.",
+        "de": "Geliehenes Geld noch am selben Tag per Sofortüberweisung zurückzahlen, ohne dass man nachfragt.",
+        "es": "Devolver el dinero prestado el mismo día al instante por transferencia sin que tengan que pedirlo.",
+        "nl": "Geleend geld nog dezelfde dag binnen enkele seconden terugbetalen zonder herinnering.",
+        "pt": "Devolver o dinheiro emprestado no próprio dia por transferência sem ninguém ter de pedir."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    "money_red_4": {
+      "id": "money_red_4",
+      "theme": "money",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Commander le plat le plus cher du menu et du vin millésimé dès qu'on sait que quelqu'un régale.",
+        "en": "Ordering the most expensive steak and vintage wine the second someone offers to treat.",
+        "de": "Das teuerste Gericht und Spitzenwein bestellen, sobald jemand anderes einlädt.",
+        "es": "Pedir el plato más caro y vino caro en cuanto sabes que otra persona invita hoy.",
+        "nl": "Het allerduurste gerecht en vintage wijn kiezen zodra je hoort dat iemand trakteert.",
+        "pt": "Pedir o prato mais caro do menu e vinho caro logo que alguém diz que vai pagar."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    "money_green_4": {
+      "id": "money_green_4",
+      "theme": "money",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Toujours arrondir sa part à la dizaine supérieure pour laisser un beau pourboire collectif à la table.",
+        "en": "Always rounding up your share generously to leave a solid team tip for the restaurant staff.",
+        "de": "Seinen Anteil immer großzügig aufrunden, damit das gesamte Team ein schönes Trinkgeld da lässt.",
+        "es": "Redondear siempre al alza tu parte para asegurar una buena propina conjunta para los camareros.",
+        "nl": "Je eigen aandeel altijd royaal naar boven afronden zodat de tafel een mooie fooi achterlaat.",
+        "pt": "Arredondar sempre para cima generosamente para garantir uma boa gorjeta de grupo na mesa."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    "money_red_5": {
+      "id": "money_red_5",
+      "theme": "money",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Sortir la calculatrice du téléphone au restaurant pour recompter la part de chacun au centime près.",
+        "en": "Pulling out your phone calculator at dinner to recalculate everyone's share down to the cent.",
+        "de": "Am Tisch den Handy-Taschenrechner zücken, um den Anteil jedes Einzelnen auf den Cent zu prüfen.",
+        "es": "Sacar la calculadora del móvil en el restaurante para recalcular la parte de cada uno al céntimo.",
+        "nl": "Je rekenmachine openen in het restaurant om ieders deel tot op de cent nauwkeurig na te rekenen.",
+        "pt": "Tirar a calculadora do telemóvel no restaurante para recalcular a conta de cada um ao cêntimo."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    "money_green_5": {
+      "id": "money_green_5",
+      "theme": "money",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Glisser un grand sourire en disant 'Le café c'est pour moi !' et aller régler directement au comptoir.",
+        "en": "Smiling warmly, saying 'Coffees are on me!', and stepping right up to the counter to pay.",
+        "de": "Herzlich lächeln, 'Kaffee geht auf mich!' sagen und direkt am Tresen für alle bezahlen.",
+        "es": "Sonreír diciendo '¡El café corre por mi cuenta!' e ir directamente a la barra a pagarlo.",
+        "nl": "Met een warme glimlach zeggen 'Koffie is van mij!' en direct naar de bar lopen om te betalen.",
+        "pt": "Dizer com um grande sorriso 'O café é por minha conta!' e ir pagar logo ao balcão."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    "money_red_6": {
+      "id": "money_red_6",
+      "theme": "money",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Refuser catégoriquement de laisser le moindre pourboire alors que le serveur s'est plié en quatre.",
+        "en": "Strictly refusing to leave any tip at all even though the server went above and beyond for you.",
+        "de": "Jedem Trinkgeld verweigern, obwohl die Bedienung den ganzen Abend absolut großartig war.",
+        "es": "Negarse en rotundo a dejar propina aunque el camarero haya dado un servicio de diez.",
+        "nl": "Pertinent weigeren fooi te geven, ook al heeft de ober de hele avond keihard gerend voor je.",
+        "pt": "Recusar terminantemente deixar gorjeta mesmo quando o empregado foi absolutamente incrível."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    "money_green_6": {
+      "id": "money_green_6",
+      "theme": "money",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Assumer calmement que le restaurant proposé dépasse son budget du moment sans le moindre complexe.",
+        "en": "Calmly and openly saying a venue is outside your current budget with zero shame or awkwardness.",
+        "de": "Ganz entspannt und offen sagen, dass ein Restaurant über dem eigenen Budget liegt, ohne Scham.",
+        "es": "Decir con total naturalidad que un sitio se sale de tu presupuesto sin vergüenza ni complejos.",
+        "nl": "Kalm en eerlijk aangeven dat een restaurant boven je budget ligt, zonder enige schaamte.",
+        "pt": "Dizer com naturalidade que um restaurante está fora do orçamento sem vergonha nem drama."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    "money_red_7": {
+      "id": "money_red_7",
+      "theme": "money",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Négocier sans honte sur Vinted ou LeBonCoin pour gratter 50 centimes sur un tee-shirt à 3 euros.",
+        "en": "Shamelessly bargaining on second-hand apps to shave off 50 cents on a 3-dollar T-shirt.",
+        "de": "Schamlos auf Kleinanzeigen verhandeln, um 50 Cent von einem 3-Euro-Shirt runterzufeilschen.",
+        "es": "Regatear sin vergüenza en apps de segunda mano para rascar 50 céntimos en algo de 3 euros.",
+        "nl": "Schaamteloos afdingen op Vinted om 50 cent korting te krijgen op een T-shirt van 3 euro.",
+        "pt": "Regatear sem vergonha em apps em segunda mão para poupar 50 cêntimos numa t-shirt de 3 euros."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    "money_green_7": {
+      "id": "money_green_7",
+      "theme": "money",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Gérer les courses du week-end entre amis et offrir de bon cœur les encas et boissons du premier soir.",
+        "en": "Buying the weekend groceries for friends and gladly gifting the first night's snacks and drinks.",
+        "de": "Den Wochenend-Einkauf für Freunde machen und Snacks sowie Drinks des ersten Abends gern schenken.",
+        "es": "Hacer la compra del fin de semana con amigos e invitar con gusto a los aperitivos de la primera noche.",
+        "nl": "De weekendboodschappen voor vrienden doen en met plezier de snacks voor de eerste avond trakteren.",
+        "pt": "Fazer as compras do fim de semana entre amigos e oferecer com gosto os snacks da primeira noite."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    "money_red_8": {
+      "id": "money_red_8",
+      "theme": "money",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Offrir un vieux bibelot poussiéreux récupéré chez ses parents emballé dans du journal gratuit.",
+        "en": "Gifting a dusty trinket taken from your parents' attic wrapped in crumpled free newspapers.",
+        "de": "Einen staubigen Dachbodenfund der Eltern schenken, eingepackt in altes Zeitungspapier.",
+        "es": "Regalar un trasto viejo cogido de casa de tus padres envuelto en papel de periódico usado.",
+        "nl": "Een stoffig zolderprulletje van je ouders cadeau doen, ingepakt in een oude krant.",
+        "pt": "Oferecer uma tralha empoeirada da casa dos pais embrulhada em papel de jornal usado."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    "money_green_8": {
+      "id": "money_green_8",
+      "theme": "money",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Proposer spontanément de mettre 10 € de plus dans la cagnotte parce qu'on a commandé des cocktails chers.",
+        "en": "Spontaneously offering extra cash on the bill because you ordered fancy cocktails and extras.",
+        "de": "Freiwillig extra Geld auf den Tisch legen, weil man teure Cocktails und Spezialitäten hatte.",
+        "es": "Poner espontáneamente más dinero en la cuenta porque pediste cócteles caros o platos especiales.",
+        "nl": "Spontaan extra geld bijleggen omdat je dure cocktails of extra gerechten hebt besteld.",
+        "pt": "Pôr espontaneamente mais dinheiro na conta porque pediste cocktails caros ou pratos extra."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    "money_red_9": {
+      "id": "money_red_9",
+      "theme": "money",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Disparaître mystérieusement aux toilettes ou 'passer un appel urgent' à chaque arrivée de note.",
+        "en": "Mysteriously disappearing to the bathroom or taking an 'urgent call' the moment the check lands.",
+        "de": "Plötzlich aufs Klo verschwinden oder 'dringend telefonieren', sobald die Rechnung auf den Tisch kommt.",
+        "es": "Desaparecer al baño o fingir una 'llamada urgente' cada vez que llega la cuenta a la mesa.",
+        "nl": "Plotseling naar het toilet verdwijnen of 'dringend bellen' zodra de rekening op tafel belandt.",
+        "pt": "Desaparecer na casa de banho ou fingir uma 'chamada urgente' sempre que a conta chega à mesa."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    "money_green_9": {
+      "id": "money_green_9",
+      "theme": "money",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Inviter fièrement ses proches au restaurant avec son tout premier salaire sans les laisser toucher l'addition.",
+        "en": "Proudly taking your family out to a great restaurant with your first paycheck and picking up the tab.",
+        "de": "Die Familie stolz vom allerersten Gehalt zum Essen einladen, ohne dass sie an die Rechnung dürfen.",
+        "es": "Invitar con orgullo a tu familia a comer con tu primer sueldo sin dejar que toquen la cuenta.",
+        "nl": "Trots je familie meenemen uit eten van je allereerste salaris en weigeren dat zij betalen.",
+        "pt": "Levar orgulhosamente a família a jantar fora com o primeiro salário sem os deixar pagar nada."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    "money_red_10": {
+      "id": "money_red_10",
+      "theme": "money",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Ajouter sur le Tricount des vacances 0,15 € pour un sac plastique acheté au supermarché.",
+        "en": "Adding a 15-cent plastic shopping bag to the shared vacation expense tracker.",
+        "de": "Auf die Urlaubs-Ausgabenliste 0,15 € für eine Supermarkt-Plastiktüte eintragen.",
+        "es": "Meter en el grupo de gastos compartidos 0,15 € por una bolsa de plástico del súper.",
+        "nl": "Een plastic supermarkttasje van 15 cent toevoegen aan de gezamenlijke vakantiepot.",
+        "pt": "Lançar na app de despesas do grupo 0,15 € por um saco de plástico do supermercado."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    "money_green_10": {
+      "id": "money_green_10",
+      "theme": "money",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Trouver le cadeau parfait qui correspond exactement aux passions d'un ami plutôt qu'un objet cher et sans âme.",
+        "en": "Picking a thoughtful gift tailored to your friend's passions instead of something pricey and generic.",
+        "de": "Ein liebevolles Geschenk wählen, das perfekt zu den Hobbys passt, statt etwas Teures ohne Seele.",
+        "es": "Elegir un regalo pensado con cariño según los gustos de un amigo en vez de algo caro e impersonal.",
+        "nl": "Een attent cadeau kiezen dat perfect past bij iemands passies in plaats van iets duurs zonder ziel.",
+        "pt": "Escolher um presente com significado feito à medida dos gostos de um amigo em vez de algo impessoal."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    "money_red_11": {
+      "id": "money_red_11",
+      "theme": "money",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Vider entièrement le stock de savons, thés et dosettes de café de l'hôtel dans sa valise avant de partir.",
+        "en": "Raiding every single hotel soap, tea bag, and coffee pod into your luggage before checking out.",
+        "de": "Alle Shampoos, Tees und Kaffeekapseln im Hotelzimmer vor der Abreise in den Koffer packen.",
+        "es": "Arrasar con todos los jabones, tés y cápsulas de café del hotel metiéndolos en tu maleta al salir.",
+        "nl": "Alle zeepjes, theezakjes en koffiecups van het hotel in je koffer stoppen voor je uitcheckt.",
+        "pt": "Limpar todos os sabonetes, chás e cápsulas de café do quarto de hotel para levar na mala."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    "money_green_11": {
+      "id": "money_green_11",
+      "theme": "money",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Partager généreusement ses vrais bons plans de voyage et réductions pour faire faire des économies à tous.",
+        "en": "Generously sharing authentic travel hacks and discounts to help your friends save real money.",
+        "de": "Großzügig echte Spartipps und Reisedeals teilen, damit die ganze Clique bares Geld spart.",
+        "es": "Compartir buenos chollos y descuentos de viajes para ayudar a tus amigos a ahorrar dinero.",
+        "nl": "Royale bespaartips en reiskortingen delen om al je vrienden te helpen echt geld te besparen.",
+        "pt": "Partilhar boas dicas de poupança e viagens para ajudar todo o grupo a poupar dinheiro a sério."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    "money_red_12": {
+      "id": "money_red_12",
+      "theme": "money",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Boire dans les pintes des potes toute la soirée au bar sans jamais commander une seule boisson soi-même.",
+        "en": "Sipping from everyone else's pints all night long without ever buying a single drink yourself.",
+        "de": "Den ganzen Abend an den Gläsern der Freunde nippen, ohne jemals selbst einen Drink zu bestellen.",
+        "es": "Beber del vaso de los amigos toda la noche en el bar sin pedir ni pagar una sola consumición propia.",
+        "nl": "De hele avond uit andermans glazen drinken zonder ooit zelf ook maar één drankje te bestellen.",
+        "pt": "Beber dos copos dos amigos a noite toda no bar sem nunca pagar uma única bebida própria."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    "money_green_12": {
+      "id": "money_green_12",
+      "theme": "money",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Glisser un pourboire chaleureux au livreur de repas trempé par l'orage un soir de tempête.",
+        "en": "Handing a generous cash tip to a drenched food delivery rider on a freezing rainy evening.",
+        "de": "Dem durchnässten Essenslieferanten an einem stürmischen Regentag ein fettes Trinkgeld geben.",
+        "es": "Dejar una buena propina en efectivo al repartidor empapado bajo un chaparrón un domingo por la noche.",
+        "nl": "Een royale fooi geven aan de kletsnatte maaltijdbezorger op een ijskoude regenachtige avond.",
+        "pt": "Dar uma boa gorjeta ao estafeta que entrega o jantar ensopado debaixo de uma chuva torrencial."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    "money_red_13": {
+      "id": "money_red_13",
+      "theme": "money",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Demander 2 € d'essence à un ami après l'avoir déposé en voiture à 3 kilomètres de chez lui.",
+        "en": "Asking a friend for 2€ in gas money after dropping them off just a mile down the road.",
+        "de": "2 € Spritgeld von einem Kumpel verlangen, nachdem man ihn nur 2 Kilometer mitgenommen hat.",
+        "es": "Pedirle 2 € de gasolina a un amigo tras acercarlo en coche a tres calles de su casa.",
+        "nl": "2 € benzinegeld vragen aan een vriend nadat je hem twee kilometer hebt meegenomen in de auto.",
+        "pt": "Pedir 2 € de combustível a um amigo depois de lhe dar boleia por apenas três quilómetros."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    "money_green_13": {
+      "id": "money_green_13",
+      "theme": "money",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Rendre immédiatement la monnaie exacte et remercier chaleureusement la personne qui a avancé les fonds.",
+        "en": "Immediately returning the exact change with a warm 'thank you' to the person who fronted cash.",
+        "de": "Das Wechselgeld sofort centgenau zurückgeben und sich herzlich fürs Vorstrecken bedanken.",
+        "es": "Devolver el cambio exacto de inmediato y dar las gracias de corazón a quien te adelantó el dinero.",
+        "nl": "Direct het exacte wisselgeld teruggeven en hartelijk bedanken voor het voorschieten.",
+        "pt": "Devolver o troco exato no momento e agradecer com simpatia a quem adiantou o dinheiro."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    "money_red_14": {
+      "id": "money_red_14",
+      "theme": "money",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Afficher son gros salaire sur les réseaux mais râler quand le supplément sauce est facturé 30 centimes.",
+        "en": "Bragging about your huge salary online but arguing over a 30-cent extra ketchup packet at lunch.",
+        "de": "Im Netz mit hohem Gehalt prahlen, sich aber über 30 Cent für eine extra Ketchup-Packung aufregen.",
+        "es": "Fardar de buen sueldo en redes pero montar un drama por pagar 30 céntimos por una salsa extra.",
+        "nl": "Opscheppen over je topsalaris, maar zeuren als een extra portie mayonaise 30 cent kost.",
+        "pt": "Vangloriar-se do salário alto mas reclamar por ter de pagar 30 cêntimos por um molho extra."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    "money_green_14": {
+      "id": "money_green_14",
+      "theme": "money",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Préparer un somptueux dîner maison pour ses amis toute l'après-midi juste pour le plaisir de les régaler.",
+        "en": "Spending the whole afternoon cooking an epic homemade feast for friends just to treat them.",
+        "de": "Den ganzen Nachmittag ein Festmahl für Freunde kochen, einfach aus Freude am gemeinsamen Schlemmen.",
+        "es": "Pasar la tarde cocinando una cena casera increíble para los amigos solo por el gusto de mimarlos.",
+        "nl": "De hele middag een heerlijk diner koken voor vrienden, puur voor het plezier van samen eten.",
+        "pt": "Passar a tarde a cozinhar um banquete caseiro para os amigos só pelo prazer de os receber bem."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    "money_red_15": {
+      "id": "money_red_15",
+      "theme": "money",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Remettre dans son sac la bouteille de vin entamée qu'on avait apportée à l'apéro avant de rentrer.",
+        "en": "Packing the half-empty wine bottle you brought back into your bag before leaving your host's party.",
+        "de": "Die angebrochene Weinflasche, die man zur Party mitbrachte, vor dem Gehen wieder einstecken.",
+        "es": "Guardarte de nuevo en la mochila la botella de vino abierta que trajiste antes de marcharte.",
+        "nl": "De aangebroken fles wijn die je meebracht stiekem weer in je tas stoppen voor je weggaat.",
+        "pt": "Voltar a meter na mochila a garrafa de vinho aberta que levaste para o jantar antes de sair."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    "money_green_15": {
+      "id": "money_green_15",
+      "theme": "money",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Remplacer immédiatement à ses frais un verre ou un vêtement abîmé chez un ami sans attendre qu'on le dise.",
+        "en": "Immediately replacing at your own expense anything you accidentally broke or stained at a friend's place.",
+        "de": "Einen versehentlich beschädigten Gegenstand bei Freunden sofort auf eigene Kosten ersetzen.",
+        "es": "Reemplazar de inmediato y de tu bolsillo cualquier cosa que hayas roto o manchado en casa de un amigo.",
+        "nl": "Iets wat je per ongeluk hebt beschadigd bij een vriend direct op eigen kosten vervangen.",
+        "pt": "Substituir de imediato e do teu bolso qualquer coisa que tenhas estragado em casa de um amigo."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    "money_red_16": {
+      "id": "money_red_16",
+      "theme": "money",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Affirmer 'Je t'ai fait le virement hier, ça doit être le délai bancaire !' alors qu'on n'a rien envoyé.",
+        "en": "Claiming 'I wired the money yesterday, must be bank delays!' when you haven't sent a dime.",
+        "de": "Sagen 'Hab's gestern überwiesen, liegt an der Bank!', obwohl man noch keinen Cent gesendet hat.",
+        "es": "Decir '¡Te hice la transferencia ayer, tardará el banco!' cuando ni siquiera has abierto la app.",
+        "nl": "Zeggen 'Ik heb het gisteren overgemaakt, ligt aan de bank!' terwijl je niks verstuurd hebt.",
+        "pt": "Dizer 'Fiz a transferência ontem, deve ser atraso do banco!' quando nem abriste a app."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    "money_green_16": {
+      "id": "money_green_16",
+      "theme": "money",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Rendre la voiture empruntée avec le réservoir plein et lavée pour remercier son propriétaire du service.",
+        "en": "Returning a borrowed car with a full tank of gas and freshly washed to thank the owner.",
+        "de": "Ein geliehenes Auto mit vollgetanktem Tank und frisch gewaschen zurückgeben als Dankeschön.",
+        "es": "Devolver el coche que te prestaron con el depósito lleno y limpio para agradecer el favor.",
+        "nl": "Een geleende auto met een volle tank en netjes gewassen terugbrengen als bedankje.",
+        "pt": "Devolver o carro emprestado com o depósito cheio e lavado para agradecer o favor ao dono."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    "money_red_17": {
+      "id": "money_red_17",
+      "theme": "money",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Imposer au groupe un boui-boui suspect pour économiser 2 € sur un repas quitte à risquer l'indigestion.",
+        "en": "Forcing the group into a sketchy diner to save 2 bucks, risking food poisoning for everyone.",
+        "de": "Der Gruppe ein zweifelhaftes Lokal aufzwingen, um 2 Euro zu sparen, trotz Magenverstimmungsgefahr.",
+        "es": "Obligar al grupo a ir a un sitio cutre para ahorrar 2 € arriesgando una intoxicación alimentaria.",
+        "nl": "De groep meesleuren naar een dubieuze snackbar om 2 euro te besparen met maagpijn als risico.",
+        "pt": "Forçar o grupo a ir a um sítio duvidoso para poupar 2 € arriscando uma intoxicação alimentar."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    "money_green_17": {
+      "id": "money_green_17",
+      "theme": "money",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Soutenir un ami qui économise pour un projet important en proposant des activités gratuites et sympas.",
+        "en": "Supporting a friend saving up for a big dream by suggesting fun, completely free hangouts.",
+        "de": "Einen Freund beim Sparen für einen Lebenstraum unterstützen, indem man coole Gratis-Aktivitäten vorschlägt.",
+        "es": "Apoyar a un amigo que está ahorrando para un gran proyecto proponiendo planes divertidos y gratis.",
+        "nl": "Een vriend steunen die spaart voor een grote droom door gezellige gratis activiteiten te bedenken.",
+        "pt": "Apoiar um amigo que está a poupar para um sonho propondo planos divertidos e totalmente gratuitos."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
+    },
+    "money_red_18": {
+      "id": "money_red_18",
+      "theme": "money",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Réclamer pendant dix minutes qu'on fouille sous le siège de la voiture pour retrouver sa pièce de 1 euro.",
+        "en": "Spending ten minutes demanding everyone search under the car seat to recover a 1-euro coin.",
+        "de": "Zehn Minuten verlangen, dass alle unterm Autositz suchen, um eine 1-Euro-Münze wiederzufinden.",
+        "es": "Exigir durante diez minutos buscar debajo del asiento del coche para recuperar una moneda de 1 euro.",
+        "nl": "Tien minuten lang eisen dat iedereen onder de autostoel zoekt om een euromunt terug te vinden.",
+        "pt": "Exigir durante dez minutos procurar debaixo do banco do carro para recuperar uma moeda de 1 euro."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "money_pack",
+      "live_tier": "safe"
     }
   },
-  "card_count": 834
+  "card_count": 904
 }
