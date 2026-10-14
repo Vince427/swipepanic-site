@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-09T15:14:58.415Z",
+  "updated_at": "2026-10-14T08:35:30.941Z",
   "cards": [
     {
       "id": "dating_red_1",
@@ -43,12 +43,12 @@
       "theme": "dating",
       "type": "red_flag",
       "texts": {
-        "fr": "Son profil promet la vérité, ses messages font du brouillard.",
-        "en": "Their profile promises honesty; their messages bring fog.",
-        "de": "Das Profil verspricht Ehrlichkeit, die Nachrichten liefern Nebel.",
-        "es": "Su perfil promete honestidad; sus mensajes traen niebla.",
-        "nl": "Het profiel belooft eerlijkheid, de berichten brengen mist.",
-        "pt": "O perfil promete honestidade; as mensagens trazem nevoeiro."
+        "fr": "Son profil promet de la sincérité, mais ses réponses restent vagues.",
+        "en": "Their profile promises honesty, but their answers stay vague.",
+        "de": "Das Profil verspricht Ehrlichkeit, aber die Antworten bleiben vage.",
+        "es": "Su perfil promete sinceridad, pero sus respuestas siguen siendo vagas.",
+        "nl": "Het profiel belooft eerlijkheid, maar de antwoorden blijven vaag.",
+        "pt": "O perfil promete sinceridade, mas as respostas continuam vagas."
       },
       "difficulty": 2,
       "enabled": true,
@@ -65,7 +65,7 @@
         "en": "Monologues through the date and calls it a real connection.",
         "de": "Hält beim Date Monologe und nennt das echte Verbindung.",
         "es": "Monologa durante la cita y lo llama conexión real.",
-        "nl": "Houdt een monoloog tijdens de date en noemt dat klik.",
+        "nl": "Praat tijdens de date alleen over zichzelf en noemt dat een echte klik.",
         "pt": "Faz monólogo no encontro e chama isso de ligação real."
       },
       "difficulty": 2,
@@ -13753,6 +13753,636 @@
       "mode": "classic",
       "packId": "summer_pack",
       "live_tier": "safe"
+    },
+    {
+      "id": "genz_red_1",
+      "theme": "genz",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Mettre un point à la fin d'un message court : politesse normale ou agression passive ?",
+        "en": "Putting a period at the end of a one-word text: normal punctuation or passive aggression?",
+        "de": "Ein Punkt am Ende einer kurzen Nachricht: normale Höflichkeit oder passive Aggression?",
+        "es": "Poner un punto al final de un mensaje corto: ¿buena educación o pasivo-agresividad?",
+        "nl": "Een punt zetten aan het einde van een kort appje: beleefd of passief-agressief?",
+        "pt": "Pôr um ponto final numa mensagem curta: boa educação ou agressão passiva?"
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "genz_green_1",
+      "theme": "genz",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Mettre son téléphone sur silencieux et écran vers le bas dès qu'on s'assoit avec des amis.",
+        "en": "Turning your phone face down on silent the moment you sit down with friends.",
+        "de": "Das Handy sofort stummschalten und umdrehen, sobald man sich mit Freunden hinsetzt.",
+        "es": "Poner el móvil en silencio y boca abajo nada más sentarse a tomar algo con amigos.",
+        "nl": "Je telefoon meteen op stil en met het scherm omlaag leggen zodra je met vrienden zit.",
+        "pt": "Pôr o telemóvel em silêncio e virado para baixo assim que te sentas com amigos."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "genz_red_2",
+      "theme": "genz",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Envoyer des notes vocales de plus de 4 minutes au lieu de passer un appel de 30 secondes.",
+        "en": "Sending 4-minute voice notes instead of making a 30-second phone call.",
+        "de": "Sprachnachrichten von über 4 Minuten schicken statt kurz 30 Sekunden anzurufen.",
+        "es": "Mandar audios de más de 4 minutos en vez de hacer una llamada de 30 segundos.",
+        "nl": "Spraakberichten van 4 minuten sturen in plaats van even 30 seconden te bellen.",
+        "pt": "Mandar áudios de mais de 4 minutos em vez de fazer uma chamada de 30 segundos."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "genz_green_2",
+      "theme": "genz",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Envoyer un meme ultra-précis qui résume exactement la situation sans ajouter un seul mot.",
+        "en": "Sending the exact hyper-specific meme that sums up the whole situation without a word.",
+        "de": "Genau das eine hyper-präzise Meme schicken, das die Situation perfekt ohne Worte trifft.",
+        "es": "Mandar un meme tan preciso que resume la situación entera sin tener que añadir ni una palabra.",
+        "nl": "Een meme sturen die zo bizar raak is dat er geen woord uitleg meer nodig is.",
+        "pt": "Mandar um meme tão perfeito que resume toda a situação sem precisar de uma única palavra."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "genz_red_3",
+      "theme": "genz",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Regarder un film ou une série en vitesse x1.5 avec les sous-titres activés en faisant du scrolling.",
+        "en": "Watching movies at 1.5x speed with subtitles while doomscrolling on another screen.",
+        "de": "Filme auf 1,5x-Geschwindigkeit mit Untertiteln schauen und nebenbei doomscrollen.",
+        "es": "Ver películas a velocidad 1.5x con subtítulos mientras miras TikTok en otra pantalla.",
+        "nl": "Films kijken op 1,5x snelheid met ondertitels terwijl je doelloos op je telefoon scrolt.",
+        "pt": "Ver filmes a velocidade 1.5x com legendas enquanto fazes scroll noutro ecrã."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "genz_green_3",
+      "theme": "genz",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Débunker instantanément une fake news sur le groupe familial avec un lien fiable en 30 secondes.",
+        "en": "Fact-checking and debunking a fake news story in the family group chat within 30 seconds.",
+        "de": "Eine Fake-News im Familienchat innerhalb von 30 Sekunden mit solider Quelle entlarven.",
+        "es": "Desmentir un bulo en el grupo de WhatsApp familiar con una fuente fiable en 30 segundos.",
+        "nl": "Een broodjeaapverhaal in de familie-app binnen 30 seconden ontkrachten met een betrouwbare link.",
+        "pt": "Desmentir uma notícia falsa no grupo de família do WhatsApp com um link fiável em 30 segundos."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "genz_red_4",
+      "theme": "genz",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Laisser 47 000 emails et 800 pastilles de notifications non lus sur son téléphone sans aucun stress.",
+        "en": "Keeping 47,000 unread emails and 800 notification badges on their phone without stress.",
+        "de": "Über 47.000 ungelesene E-Mails und 800 rote Badges auf dem Handy haben ohne jeden Stress.",
+        "es": "Tener 47.000 emails y 800 notificaciones sin leer en el móvil sin ningún estrés.",
+        "nl": "47.000 ongelezen mails en 800 rode meldingen op de telefoon hebben zonder stress.",
+        "pt": "Ter 47.000 e-mails e 800 notificações não lidas no telemóvel sem qualquer stress."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "genz_green_4",
+      "theme": "genz",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Assumer totalement de refuser une sortie pour rester chez soi en pyjama à regarder un bon film.",
+        "en": "Honestly declining an invitation to stay home in pajamas watching a comfort movie.",
+        "de": "Ehrlich absagen, um einfach im Schlafanzug daheim zu bleiben und einen Film zu schauen.",
+        "es": "Decir la verdad y rechazar un plan para quedarse en pijama en el sofá viendo una peli.",
+        "nl": "Eerlijk een feestje afzeggen om lekker in je pyjama thuis een film te kijken.",
+        "pt": "Recusar um plano com total honestidade para ficar em casa de pijama a ver um bom filme."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "genz_red_5",
+      "theme": "genz",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Utiliser l'émoji qui pleure de rire 😂 au premier degré dans une conversation de groupe.",
+        "en": "Unironically using the crying-laughing emoji 😂 in a group chat.",
+        "de": "Das Tränen-lach-Emoji 😂 unironisch im Gruppenchat benutzen.",
+        "es": "Usar el emoji de llorar de risa 😂 totalmente en serio en un grupo.",
+        "nl": "De lachend-huilen emoji 😂 bloedserieus gebruiken in een groepsapp.",
+        "pt": "Usar o emoji a chorar de rir 😂 totalmente a sério no chat de grupo."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "genz_green_5",
+      "theme": "genz",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Partager ses playlists Spotify secrètes sans faire de manières ni gatekeeper les artistes.",
+        "en": "Sharing secret music playlists openly without gatekeeping obscure artists.",
+        "de": "Die geheimen Playlists ohne Gehabe teilen, statt unbekannte Künstler zu gatekeepen.",
+        "es": "Compartir tus playlists secretas de música sin dárselas de exclusivo ni ocultar artistas.",
+        "nl": "Je geheime afspeellijsten open delen zonder artiesten geheimzinnig voor jezelf te houden.",
+        "pt": "Partilhar as tuas playlists secretas sem complexos e sem esconder os artistas que ouves."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "genz_red_6",
+      "theme": "genz",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Porter des chaussettes invisibles courtes avec des baskets en croyant que c'est encore tendance.",
+        "en": "Wearing no-show ankle socks with sneakers thinking it's still trendy.",
+        "de": "Füßlinge in Sneakern tragen und glauben, dass das noch voll im Trend liegt.",
+        "es": "Llevar calcetines invisibles tobilleros pensando que todavía están de moda.",
+        "nl": "Onzichtbare enkelsokken dragen en denken dat het nog steeds hip is.",
+        "pt": "Usar meias invisíveis pelo tornozelo a achar que ainda estão na moda."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "genz_green_6",
+      "theme": "genz",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Rembourser sa part de l'addition au centime près par virement instantané avant même de quitter la table.",
+        "en": "Splitting and paying your exact restaurant share via instant transfer before leaving the table.",
+        "de": "Den genauen Anteil der Rechnung per Echtzeitüberweisung zahlen noch bevor man aufsteht.",
+        "es": "Pagar tu parte exacta de la cuenta por transferencia o Bizum antes de levantarse de la mesa.",
+        "nl": "Je exacte aandeel van de rekening via Tikkie betalen nog voor je de tafel verlaat.",
+        "pt": "Pagar a tua parte da conta por transferência imediata antes sequer de sair da mesa."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "genz_red_7",
+      "theme": "genz",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Paniquer et fixer son téléphone sonner en attendant le répondeur plutôt que de décrocher.",
+        "en": "Panicking and staring at a ringing phone until it stops instead of answering.",
+        "de": "In Panik geraten und das Handy anstarren bis es aufhört zu klingeln statt abzuheben.",
+        "es": "Entrar en pánico y quedarse mirando cómo suena el móvil hasta que cuelguen.",
+        "nl": "In paniek naar je rinkelende telefoon staren tot hij stopt in plaats van opnemen.",
+        "pt": "Entrar em pânico e ficar a olhar para o telemóvel a tocar até cair no voicemail."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "genz_green_7",
+      "theme": "genz",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Savoir réparer ou reconfigurer la box Wi-Fi de ses parents en moins de 3 minutes chrono.",
+        "en": "Fixing and rebooting your parents' Wi-Fi setup in under three minutes flat.",
+        "de": "Das WLAN der Eltern in weniger als drei Minuten wieder zum Laufen bringen.",
+        "es": "Arreglar el router Wi-Fi de tus padres en menos de tres minutos de reloj.",
+        "nl": "De wifi van je ouders binnen drie minuten weer helemaal aan de praat krijgen.",
+        "pt": "Resolver os problemas do Wi-Fi dos teus pais em menos de três minutos cronometrados."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "genz_red_8",
+      "theme": "genz",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Dire 'je suis vieux' à 26 ans parce qu'on ne connaît pas la dernière trend TikTok.",
+        "en": "Saying 'I feel so old' at 26 just because you missed the latest TikTok trend.",
+        "de": "Mit 26 Jahren sagen 'Ich bin so alt', weil man den neuesten TikTok-Trend verpasst hat.",
+        "es": "Decir 'estoy viejo' con 26 años solo por no pillar el último trend de TikTok.",
+        "nl": "Op je 26e roepen 'ik word echt oud' omdat je de nieuwste TikTok-trend niet kent.",
+        "pt": "Dizer 'estou tão velho' aos 26 anos só porque não conheces a última trend do TikTok."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "genz_green_8",
+      "theme": "genz",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Écouter de la musique au casque dans les transports sans jamais faire profiter toute la rame de son son.",
+        "en": "Listening to music through headphones in public transit without leaking a single decibel.",
+        "de": "Musik in der Bahn über Kopfhörer hören, ohne dass der ganze Waggon mithören muss.",
+        "es": "Escuchar música con auriculares en el metro sin que todo el vagón tenga que escucharla.",
+        "nl": "Muziek luisteren met een koptelefoon in de trein zonder dat de hele coupé mee moet genieten.",
+        "pt": "Ouvir música com auscultadores nos transportes públicos sem incomodar ninguém à volta."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "genz_red_9",
+      "theme": "genz",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Acheter un plat uniquement pour faire une story Instagram esthétique et ne manger que la moitié.",
+        "en": "Ordering aesthetic food just for an Instagram story and barely eating half of it.",
+        "de": "Essen nur für die Ästhetik der Instagram-Story bestellen und die Hälfte stehen lassen.",
+        "es": "Pedir un plato solo por la foto para la historia de Instagram y comerse la mitad.",
+        "nl": "Eten bestellen puur voor een mooie Instagram-story en maar de helft opeten.",
+        "pt": "Pedir um prato só para a foto do Instagram e deixar metade no prato."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "genz_green_9",
+      "theme": "genz",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Savoir faire rire tout le monde avec une référence culte sans jamais être lourd ni blessant.",
+        "en": "Making the whole room laugh with a classic pop culture reference without being mean.",
+        "de": "Die ganze Runde mit einer kultigen Referenz zum Lachen bringen, ohne verletzend zu sein.",
+        "es": "Hacer reír a todo el grupo con una referencia mítica sin resultar pesado ni faltar al respeto.",
+        "nl": "Iedereen aan het lachen maken met een goede popcultuur-verwijzing zonder kwetsend te zijn.",
+        "pt": "Fazer toda a gente rir com uma referência icónica sem nunca ser ofensivo nem chato."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "genz_red_10",
+      "theme": "genz",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Répondre 'vu' à une question ouverte avec un simple émoji pouce en l'air 👍.",
+        "en": "Replying to an open question with nothing but a thumbs-up emoji 👍.",
+        "de": "Auf eine offene Frage einfach nur mit einem Daumen-hoch-Emoji 👍 antworten.",
+        "es": "Contestar a una pregunta abierta con un simple emoji de pulgar hacia arriba 👍.",
+        "nl": "Op een open vraag reageren met alleen een duimpje omhoog 👍.",
+        "pt": "Responder a uma pergunta aberta apenas com um emoji de polegar para cima 👍."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "genz_green_10",
+      "theme": "genz",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Prévenir quand on arrive en retard au lieu d'inventer une excuse bidon avec le trafic.",
+        "en": "Messaging ahead when running late instead of inventing a wild traffic excuse.",
+        "de": "Rechtzeitig Bescheid geben, wenn man zu spät kommt, statt eine Ausrede zu erfinden.",
+        "es": "Avisar con tiempo si vas a llegar tarde en vez de inventarte una excusa con el tráfico.",
+        "nl": "Netjes van tevoren appen als je te laat bent in plaats van een smoes over verkeer te verzinnen.",
+        "pt": "Avisar com antecedência quando vais chegar atrasado em vez de inventar desculpas de trânsito."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "genz_red_11",
+      "theme": "genz",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Utiliser des termes corporate comme 'synergie' et 'point d'étape' dans une discussion entre potes.",
+        "en": "Using corporate buzzwords like 'synergy' and 'bandwidth' in a casual chat with friends.",
+        "de": "Corporate-Floskeln wie 'Synergie' und 'Kurzschließen' im Freundeskreis benutzen.",
+        "es": "Usar palabras corporativas como 'sinergia' y 'feedback' hablando con amigos de fiesta.",
+        "nl": "Kantoorjargon zoals 'schakelen' en 'inpluggen' gebruiken tijdens een borrel met vrienden.",
+        "pt": "Usar jargão de escritório como 'sinergia' e 'briefing' numa conversa informal com amigos."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "genz_green_11",
+      "theme": "genz",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Laisser les gens kiffer leurs plaisirs coupables sans jamais juger leurs goûts musicaux ou séries.",
+        "en": "Letting people enjoy their guilty pleasures without judging their music or TV taste.",
+        "de": "Anderen ihre Guilty Pleasures gönnen, ohne deren Musik- oder Seriengeschmack abzuwerten.",
+        "es": "Dejar que la gente disfrute de sus placeres culpables sin juzgar sus gustos musicales o series.",
+        "nl": "Mensen gewoon van hun guilty pleasures laten genieten zonder commentaar op hun smaak.",
+        "pt": "Deixar as pessoas desfrutarem dos seus guilty pleasures sem julgar as suas músicas ou séries."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "genz_red_12",
+      "theme": "genz",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Se faire livrer un café glacé par Uber Eats pour 14 € parce qu'on a la flemme de descendre.",
+        "en": "Ordering a $14 iced coffee on delivery apps because walking downstairs feels too hard.",
+        "de": "Sich einen Eiskaffee für 14 € liefern lassen, weil man zu faul ist kurz vor die Tür zu gehen.",
+        "es": "Pedirse un café helado por delivery pagando 14 € solo por la pereza de bajar a la calle.",
+        "nl": "Een ijskoffie laten bezorgen voor 14 euro puur uit luiheid om naar buiten te lopen.",
+        "pt": "Pedir um café gelado por delivery por 14 € só por preguiça de descer à rua."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "genz_green_12",
+      "theme": "genz",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Prendre une photo de groupe spontanée où tout le monde est à son avantage du premier coup.",
+        "en": "Taking a candid group photo on the first try where everyone actually looks great.",
+        "de": "Auf Anhieb ein spontanes Gruppenfoto machen, auf dem wirklich alle gut aussehen.",
+        "es": "Hacer una foto de grupo a la primera donde todo el mundo sale favorecido.",
+        "nl": "In één keer een spontane groepsfoto maken waarop iedereen er daadwerkelijk leuk op staat.",
+        "pt": "Tirar uma foto de grupo à primeira tentativa em que todos saem bem."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "genz_red_13",
+      "theme": "genz",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Mettre un son de réveil angoissant au volume maximum avec 12 alarmes espacées de 5 minutes.",
+        "en": "Setting 12 alarms every 5 minutes with the most anxiety-inducing default ringtone.",
+        "de": "Zwölf Wecker im 5-Minuten-Takt mit dem schrillsten Standard-Alarmton stellen.",
+        "es": "Ponerse 12 alarmas cada 5 minutos con el tono estridente que viene por defecto.",
+        "nl": "Twaalf wekkers zetten om de 5 minuten met het meest stressvolle standaardsignaal.",
+        "pt": "Pôr 12 alarmes a cada 5 minutos com o toque padrão mais irritante possível."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "genz_green_13",
+      "theme": "genz",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Proposer spontanément de tester un nouveau restau sympa sans imposer ses choix à tout le monde.",
+        "en": "Suggesting a great new local restaurant without forcing your choice onto the group.",
+        "de": "Ein neues Restaurant vorschlagen, ohne der Gruppe die eigene Wahl aufzuzwingen.",
+        "es": "Proponer un restaurante chulo nuevo sin imponerle tus preferencias a todo el grupo.",
+        "nl": "Een leuk nieuw eettentje voorstellen zonder je zin door te drukken bij de groep.",
+        "pt": "Sugerir um restaurante novo e giro sem forçar a tua escolha a todo o grupo."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "genz_red_14",
+      "theme": "genz",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Dire 'à mon époque' pour parler de 2016.",
+        "en": "Saying 'back in my day' when talking about 2016.",
+        "de": "'Zu meiner Zeit' sagen und damit das Jahr 2016 meinen.",
+        "es": "Decir 'en mis tiempos' refiriéndose al año 2016.",
+        "nl": "'Vroeger in mijn tijd' zeggen als je het over 2016 hebt.",
+        "pt": "Dizer 'no meu tempo' para falar de 2016."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "genz_green_14",
+      "theme": "genz",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Savoir couper court à un débat stérile sur WhatsApp avant que ça ne parte en clash inutile.",
+        "en": "De-escalating a heated group chat debate before it turns into toxic drama.",
+        "de": "Eine hitzige Diskussion im Gruppenchat entschärfen, bevor sie in Streit ausartet.",
+        "es": "Cortar una discusión absurda en el grupo de WhatsApp antes de que acabe en drama.",
+        "nl": "Een verhitte discussie in de groepsapp op tijd sussen voordat het uit de hand loopt.",
+        "pt": "Desarmar uma discussão inútil no grupo do WhatsApp antes de virar um drama desnecessário."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "genz_red_15",
+      "theme": "genz",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Poster une vidéo de concert floue et inaudible de 45 secondes en story que personne ne regardera.",
+        "en": "Posting 45-second shaky, blown-out concert videos to your story that nobody will watch.",
+        "de": "Wackelige, übersteuerte 45-Sekunden-Konzertvideos in der Story posten, die eh keiner schaut.",
+        "es": "Subir vídeos de conciertos movidos y con sonido saturado a las historias de Instagram.",
+        "nl": "Schokkerige concertfilmpjes van 45 seconden met krakend geluid in je story zetten.",
+        "pt": "Publicar vídeos tremidos de concertos de 45 segundos com som distorcido nos stories."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "genz_green_15",
+      "theme": "genz",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Avoir le bon réflexe de baisser la musique quand les voisins toquent ou qu'il se fait tard.",
+        "en": "Naturally turning down the music when it gets late without waiting for neighbors to complain.",
+        "de": "Die Musik spät abends leiser drehen, ohne dass sich die Nachbarn erst beschweren müssen.",
+        "es": "Bajar la música por iniciativa propia cuando se hace tarde sin esperar quejas de vecinos.",
+        "nl": "Uit jezelf de muziek zachter zetten als het laat wordt zonder te wachten op de buren.",
+        "pt": "Baixar a música espontaneamente quando se faz tarde sem esperar por queixas dos vizinhos."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "genz_red_16",
+      "theme": "genz",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Dire qu'on est 'débordé' alors qu'on a passé 6 heures de temps d'écran sur son canapé.",
+        "en": "Claiming to be 'overwhelmed' after spending 6 hours of screen time on the couch.",
+        "de": "Jammern, dass man 'im Stress' ist, nach 6 Stunden Screen-Time auf dem Sofa.",
+        "es": "Quejarse de no tener tiempo después de pasar 6 horas pegado a la pantalla en el sofá.",
+        "nl": "Zeggen dat je het 'zoveel te druk' hebt na 6 uur schermtijd op de bank.",
+        "pt": "Dizer que está 'sem tempo para nada' depois de passar 6 horas no telemóvel no sofá."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "genz_green_16",
+      "theme": "genz",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Savoir faire des compliments sincères sur un détail subtil plutôt qu'une formule bateau.",
+        "en": "Giving genuine, thoughtful compliments on subtle details rather than generic praise.",
+        "de": "Ehrliche, aufmerksame Komplimente machen statt bloß oberflächliche Standardfloskeln.",
+        "es": "Hacer cumplidos sinceros y detallados en vez de soltar la típica frase hecha.",
+        "nl": "Oprechte, attente complimenten geven in plaats van een standaard oppervlakkig praatje.",
+        "pt": "Fazer elogios sinceros e atentos a pormenores em vez de frases feitas e banais."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "genz_red_17",
+      "theme": "genz",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Garder les yeux rivés sur son téléphone pendant qu'un ami raconte une histoire importante.",
+        "en": "Scrolling on your phone while a friend is in the middle of telling an emotional story.",
+        "de": "Aufs Handy starren während ein Freund gerade eine wichtige persönliche Geschichte erzählt.",
+        "es": "Estar mirando la pantalla del móvil mientras un amigo te cuenta algo importante.",
+        "nl": "Op je scherm blijven kijken terwijl een vriend een belangrijk verhaal vertelt.",
+        "pt": "Ficar a olhar para o telemóvel enquanto um amigo te está a contar uma história séria."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "genz_green_17",
+      "theme": "genz",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Savoir rire de ses propres bourdes en soirée sans chercher à se justifier pendant une heure.",
+        "en": "Laughing off your own awkward blunders during party nights without getting defensive.",
+        "de": "Über eigene Missgeschicke beim Feiern lachen können, ohne sich ewig zu rechtfertigen.",
+        "es": "Saber reírse de las propias meteduras de pata de fiesta sin ponerse a la defensiva.",
+        "nl": "Kunnen lachen om je eigen blunder op een feestje zonder in de verdediging te schieten.",
+        "pt": "Saber rir dos teus próprios disparates numa festa sem ficar logo à defesa."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "genz_red_18",
+      "theme": "genz",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Juger quelqu'un sur son signe astrologique avant même de lui avoir dit bonjour.",
+        "en": "Judging someone based on their zodiac sign before even saying hello.",
+        "de": "Jemanden nach seinem Sternzeichen verurteilen noch bevor man Hallo gesagt hat.",
+        "es": "Juzgar a alguien por su signo del zodíaco antes de haberle dicho ni hola.",
+        "nl": "Iemand veroordelen op basis van diens sterrenbeeld nog voor je hallo hebt gezegd.",
+        "pt": "Julgar alguém pelo signo do zodíaco antes sequer de dizer olá."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
     }
   ],
   "packs": {
@@ -13796,12 +14426,12 @@
           "theme": "dating",
           "type": "red_flag",
           "texts": {
-            "fr": "Son profil promet la vérité, ses messages font du brouillard.",
-            "en": "Their profile promises honesty; their messages bring fog.",
-            "de": "Das Profil verspricht Ehrlichkeit, die Nachrichten liefern Nebel.",
-            "es": "Su perfil promete honestidad; sus mensajes traen niebla.",
-            "nl": "Het profiel belooft eerlijkheid, de berichten brengen mist.",
-            "pt": "O perfil promete honestidade; as mensagens trazem nevoeiro."
+            "fr": "Son profil promet de la sincérité, mais ses réponses restent vagues.",
+            "en": "Their profile promises honesty, but their answers stay vague.",
+            "de": "Das Profil verspricht Ehrlichkeit, aber die Antworten bleiben vage.",
+            "es": "Su perfil promete sinceridad, pero sus respuestas siguen siendo vagas.",
+            "nl": "Het profiel belooft eerlijkheid, maar de antwoorden blijven vaag.",
+            "pt": "O perfil promete sinceridade, mas as respostas continuam vagas."
           },
           "difficulty": 2,
           "enabled": true
@@ -13815,7 +14445,7 @@
             "en": "Monologues through the date and calls it a real connection.",
             "de": "Hält beim Date Monologe und nennt das echte Verbindung.",
             "es": "Monologa durante la cita y lo llama conexión real.",
-            "nl": "Houdt een monoloog tijdens de date en noemt dat klik.",
+            "nl": "Praat tijdens de date alleen over zichzelf en noemt dat een echte klik.",
             "pt": "Faz monólogo no encontro e chama isso de ligação real."
           },
           "difficulty": 2,
@@ -25304,6 +25934,538 @@
           "enabled": true
         }
       ]
+    },
+    "genz_pack": {
+      "id": "genz_pack",
+      "name": "GENZ",
+      "card_count": 35,
+      "cards": [
+        {
+          "id": "genz_red_1",
+          "theme": "genz",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Mettre un point à la fin d'un message court : politesse normale ou agression passive ?",
+            "en": "Putting a period at the end of a one-word text: normal punctuation or passive aggression?",
+            "de": "Ein Punkt am Ende einer kurzen Nachricht: normale Höflichkeit oder passive Aggression?",
+            "es": "Poner un punto al final de un mensaje corto: ¿buena educación o pasivo-agresividad?",
+            "nl": "Een punt zetten aan het einde van een kort appje: beleefd of passief-agressief?",
+            "pt": "Pôr um ponto final numa mensagem curta: boa educação ou agressão passiva?"
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "genz_green_1",
+          "theme": "genz",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Mettre son téléphone sur silencieux et écran vers le bas dès qu'on s'assoit avec des amis.",
+            "en": "Turning your phone face down on silent the moment you sit down with friends.",
+            "de": "Das Handy sofort stummschalten und umdrehen, sobald man sich mit Freunden hinsetzt.",
+            "es": "Poner el móvil en silencio y boca abajo nada más sentarse a tomar algo con amigos.",
+            "nl": "Je telefoon meteen op stil en met het scherm omlaag leggen zodra je met vrienden zit.",
+            "pt": "Pôr o telemóvel em silêncio e virado para baixo assim que te sentas com amigos."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "genz_red_2",
+          "theme": "genz",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Envoyer des notes vocales de plus de 4 minutes au lieu de passer un appel de 30 secondes.",
+            "en": "Sending 4-minute voice notes instead of making a 30-second phone call.",
+            "de": "Sprachnachrichten von über 4 Minuten schicken statt kurz 30 Sekunden anzurufen.",
+            "es": "Mandar audios de más de 4 minutos en vez de hacer una llamada de 30 segundos.",
+            "nl": "Spraakberichten van 4 minuten sturen in plaats van even 30 seconden te bellen.",
+            "pt": "Mandar áudios de mais de 4 minutos em vez de fazer uma chamada de 30 segundos."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "genz_green_2",
+          "theme": "genz",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Envoyer un meme ultra-précis qui résume exactement la situation sans ajouter un seul mot.",
+            "en": "Sending the exact hyper-specific meme that sums up the whole situation without a word.",
+            "de": "Genau das eine hyper-präzise Meme schicken, das die Situation perfekt ohne Worte trifft.",
+            "es": "Mandar un meme tan preciso que resume la situación entera sin tener que añadir ni una palabra.",
+            "nl": "Een meme sturen die zo bizar raak is dat er geen woord uitleg meer nodig is.",
+            "pt": "Mandar um meme tão perfeito que resume toda a situação sem precisar de uma única palavra."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "genz_red_3",
+          "theme": "genz",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Regarder un film ou une série en vitesse x1.5 avec les sous-titres activés en faisant du scrolling.",
+            "en": "Watching movies at 1.5x speed with subtitles while doomscrolling on another screen.",
+            "de": "Filme auf 1,5x-Geschwindigkeit mit Untertiteln schauen und nebenbei doomscrollen.",
+            "es": "Ver películas a velocidad 1.5x con subtítulos mientras miras TikTok en otra pantalla.",
+            "nl": "Films kijken op 1,5x snelheid met ondertitels terwijl je doelloos op je telefoon scrolt.",
+            "pt": "Ver filmes a velocidade 1.5x com legendas enquanto fazes scroll noutro ecrã."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "genz_green_3",
+          "theme": "genz",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Débunker instantanément une fake news sur le groupe familial avec un lien fiable en 30 secondes.",
+            "en": "Fact-checking and debunking a fake news story in the family group chat within 30 seconds.",
+            "de": "Eine Fake-News im Familienchat innerhalb von 30 Sekunden mit solider Quelle entlarven.",
+            "es": "Desmentir un bulo en el grupo de WhatsApp familiar con una fuente fiable en 30 segundos.",
+            "nl": "Een broodjeaapverhaal in de familie-app binnen 30 seconden ontkrachten met een betrouwbare link.",
+            "pt": "Desmentir uma notícia falsa no grupo de família do WhatsApp com um link fiável em 30 segundos."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "genz_red_4",
+          "theme": "genz",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Laisser 47 000 emails et 800 pastilles de notifications non lus sur son téléphone sans aucun stress.",
+            "en": "Keeping 47,000 unread emails and 800 notification badges on their phone without stress.",
+            "de": "Über 47.000 ungelesene E-Mails und 800 rote Badges auf dem Handy haben ohne jeden Stress.",
+            "es": "Tener 47.000 emails y 800 notificaciones sin leer en el móvil sin ningún estrés.",
+            "nl": "47.000 ongelezen mails en 800 rode meldingen op de telefoon hebben zonder stress.",
+            "pt": "Ter 47.000 e-mails e 800 notificações não lidas no telemóvel sem qualquer stress."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "genz_green_4",
+          "theme": "genz",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Assumer totalement de refuser une sortie pour rester chez soi en pyjama à regarder un bon film.",
+            "en": "Honestly declining an invitation to stay home in pajamas watching a comfort movie.",
+            "de": "Ehrlich absagen, um einfach im Schlafanzug daheim zu bleiben und einen Film zu schauen.",
+            "es": "Decir la verdad y rechazar un plan para quedarse en pijama en el sofá viendo una peli.",
+            "nl": "Eerlijk een feestje afzeggen om lekker in je pyjama thuis een film te kijken.",
+            "pt": "Recusar um plano com total honestidade para ficar em casa de pijama a ver um bom filme."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "genz_red_5",
+          "theme": "genz",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Utiliser l'émoji qui pleure de rire 😂 au premier degré dans une conversation de groupe.",
+            "en": "Unironically using the crying-laughing emoji 😂 in a group chat.",
+            "de": "Das Tränen-lach-Emoji 😂 unironisch im Gruppenchat benutzen.",
+            "es": "Usar el emoji de llorar de risa 😂 totalmente en serio en un grupo.",
+            "nl": "De lachend-huilen emoji 😂 bloedserieus gebruiken in een groepsapp.",
+            "pt": "Usar o emoji a chorar de rir 😂 totalmente a sério no chat de grupo."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "genz_green_5",
+          "theme": "genz",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Partager ses playlists Spotify secrètes sans faire de manières ni gatekeeper les artistes.",
+            "en": "Sharing secret music playlists openly without gatekeeping obscure artists.",
+            "de": "Die geheimen Playlists ohne Gehabe teilen, statt unbekannte Künstler zu gatekeepen.",
+            "es": "Compartir tus playlists secretas de música sin dárselas de exclusivo ni ocultar artistas.",
+            "nl": "Je geheime afspeellijsten open delen zonder artiesten geheimzinnig voor jezelf te houden.",
+            "pt": "Partilhar as tuas playlists secretas sem complexos e sem esconder os artistas que ouves."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "genz_red_6",
+          "theme": "genz",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Porter des chaussettes invisibles courtes avec des baskets en croyant que c'est encore tendance.",
+            "en": "Wearing no-show ankle socks with sneakers thinking it's still trendy.",
+            "de": "Füßlinge in Sneakern tragen und glauben, dass das noch voll im Trend liegt.",
+            "es": "Llevar calcetines invisibles tobilleros pensando que todavía están de moda.",
+            "nl": "Onzichtbare enkelsokken dragen en denken dat het nog steeds hip is.",
+            "pt": "Usar meias invisíveis pelo tornozelo a achar que ainda estão na moda."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "genz_green_6",
+          "theme": "genz",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Rembourser sa part de l'addition au centime près par virement instantané avant même de quitter la table.",
+            "en": "Splitting and paying your exact restaurant share via instant transfer before leaving the table.",
+            "de": "Den genauen Anteil der Rechnung per Echtzeitüberweisung zahlen noch bevor man aufsteht.",
+            "es": "Pagar tu parte exacta de la cuenta por transferencia o Bizum antes de levantarse de la mesa.",
+            "nl": "Je exacte aandeel van de rekening via Tikkie betalen nog voor je de tafel verlaat.",
+            "pt": "Pagar a tua parte da conta por transferência imediata antes sequer de sair da mesa."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "genz_red_7",
+          "theme": "genz",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Paniquer et fixer son téléphone sonner en attendant le répondeur plutôt que de décrocher.",
+            "en": "Panicking and staring at a ringing phone until it stops instead of answering.",
+            "de": "In Panik geraten und das Handy anstarren bis es aufhört zu klingeln statt abzuheben.",
+            "es": "Entrar en pánico y quedarse mirando cómo suena el móvil hasta que cuelguen.",
+            "nl": "In paniek naar je rinkelende telefoon staren tot hij stopt in plaats van opnemen.",
+            "pt": "Entrar em pânico e ficar a olhar para o telemóvel a tocar até cair no voicemail."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "genz_green_7",
+          "theme": "genz",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Savoir réparer ou reconfigurer la box Wi-Fi de ses parents en moins de 3 minutes chrono.",
+            "en": "Fixing and rebooting your parents' Wi-Fi setup in under three minutes flat.",
+            "de": "Das WLAN der Eltern in weniger als drei Minuten wieder zum Laufen bringen.",
+            "es": "Arreglar el router Wi-Fi de tus padres en menos de tres minutos de reloj.",
+            "nl": "De wifi van je ouders binnen drie minuten weer helemaal aan de praat krijgen.",
+            "pt": "Resolver os problemas do Wi-Fi dos teus pais em menos de três minutos cronometrados."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "genz_red_8",
+          "theme": "genz",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Dire 'je suis vieux' à 26 ans parce qu'on ne connaît pas la dernière trend TikTok.",
+            "en": "Saying 'I feel so old' at 26 just because you missed the latest TikTok trend.",
+            "de": "Mit 26 Jahren sagen 'Ich bin so alt', weil man den neuesten TikTok-Trend verpasst hat.",
+            "es": "Decir 'estoy viejo' con 26 años solo por no pillar el último trend de TikTok.",
+            "nl": "Op je 26e roepen 'ik word echt oud' omdat je de nieuwste TikTok-trend niet kent.",
+            "pt": "Dizer 'estou tão velho' aos 26 anos só porque não conheces a última trend do TikTok."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "genz_green_8",
+          "theme": "genz",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Écouter de la musique au casque dans les transports sans jamais faire profiter toute la rame de son son.",
+            "en": "Listening to music through headphones in public transit without leaking a single decibel.",
+            "de": "Musik in der Bahn über Kopfhörer hören, ohne dass der ganze Waggon mithören muss.",
+            "es": "Escuchar música con auriculares en el metro sin que todo el vagón tenga que escucharla.",
+            "nl": "Muziek luisteren met een koptelefoon in de trein zonder dat de hele coupé mee moet genieten.",
+            "pt": "Ouvir música com auscultadores nos transportes públicos sem incomodar ninguém à volta."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "genz_red_9",
+          "theme": "genz",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Acheter un plat uniquement pour faire une story Instagram esthétique et ne manger que la moitié.",
+            "en": "Ordering aesthetic food just for an Instagram story and barely eating half of it.",
+            "de": "Essen nur für die Ästhetik der Instagram-Story bestellen und die Hälfte stehen lassen.",
+            "es": "Pedir un plato solo por la foto para la historia de Instagram y comerse la mitad.",
+            "nl": "Eten bestellen puur voor een mooie Instagram-story en maar de helft opeten.",
+            "pt": "Pedir um prato só para a foto do Instagram e deixar metade no prato."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "genz_green_9",
+          "theme": "genz",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Savoir faire rire tout le monde avec une référence culte sans jamais être lourd ni blessant.",
+            "en": "Making the whole room laugh with a classic pop culture reference without being mean.",
+            "de": "Die ganze Runde mit einer kultigen Referenz zum Lachen bringen, ohne verletzend zu sein.",
+            "es": "Hacer reír a todo el grupo con una referencia mítica sin resultar pesado ni faltar al respeto.",
+            "nl": "Iedereen aan het lachen maken met een goede popcultuur-verwijzing zonder kwetsend te zijn.",
+            "pt": "Fazer toda a gente rir com uma referência icónica sem nunca ser ofensivo nem chato."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "genz_red_10",
+          "theme": "genz",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Répondre 'vu' à une question ouverte avec un simple émoji pouce en l'air 👍.",
+            "en": "Replying to an open question with nothing but a thumbs-up emoji 👍.",
+            "de": "Auf eine offene Frage einfach nur mit einem Daumen-hoch-Emoji 👍 antworten.",
+            "es": "Contestar a una pregunta abierta con un simple emoji de pulgar hacia arriba 👍.",
+            "nl": "Op een open vraag reageren met alleen een duimpje omhoog 👍.",
+            "pt": "Responder a uma pergunta aberta apenas com um emoji de polegar para cima 👍."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "genz_green_10",
+          "theme": "genz",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Prévenir quand on arrive en retard au lieu d'inventer une excuse bidon avec le trafic.",
+            "en": "Messaging ahead when running late instead of inventing a wild traffic excuse.",
+            "de": "Rechtzeitig Bescheid geben, wenn man zu spät kommt, statt eine Ausrede zu erfinden.",
+            "es": "Avisar con tiempo si vas a llegar tarde en vez de inventarte una excusa con el tráfico.",
+            "nl": "Netjes van tevoren appen als je te laat bent in plaats van een smoes over verkeer te verzinnen.",
+            "pt": "Avisar com antecedência quando vais chegar atrasado em vez de inventar desculpas de trânsito."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "genz_red_11",
+          "theme": "genz",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Utiliser des termes corporate comme 'synergie' et 'point d'étape' dans une discussion entre potes.",
+            "en": "Using corporate buzzwords like 'synergy' and 'bandwidth' in a casual chat with friends.",
+            "de": "Corporate-Floskeln wie 'Synergie' und 'Kurzschließen' im Freundeskreis benutzen.",
+            "es": "Usar palabras corporativas como 'sinergia' y 'feedback' hablando con amigos de fiesta.",
+            "nl": "Kantoorjargon zoals 'schakelen' en 'inpluggen' gebruiken tijdens een borrel met vrienden.",
+            "pt": "Usar jargão de escritório como 'sinergia' e 'briefing' numa conversa informal com amigos."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "genz_green_11",
+          "theme": "genz",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Laisser les gens kiffer leurs plaisirs coupables sans jamais juger leurs goûts musicaux ou séries.",
+            "en": "Letting people enjoy their guilty pleasures without judging their music or TV taste.",
+            "de": "Anderen ihre Guilty Pleasures gönnen, ohne deren Musik- oder Seriengeschmack abzuwerten.",
+            "es": "Dejar que la gente disfrute de sus placeres culpables sin juzgar sus gustos musicales o series.",
+            "nl": "Mensen gewoon van hun guilty pleasures laten genieten zonder commentaar op hun smaak.",
+            "pt": "Deixar as pessoas desfrutarem dos seus guilty pleasures sem julgar as suas músicas ou séries."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "genz_red_12",
+          "theme": "genz",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Se faire livrer un café glacé par Uber Eats pour 14 € parce qu'on a la flemme de descendre.",
+            "en": "Ordering a $14 iced coffee on delivery apps because walking downstairs feels too hard.",
+            "de": "Sich einen Eiskaffee für 14 € liefern lassen, weil man zu faul ist kurz vor die Tür zu gehen.",
+            "es": "Pedirse un café helado por delivery pagando 14 € solo por la pereza de bajar a la calle.",
+            "nl": "Een ijskoffie laten bezorgen voor 14 euro puur uit luiheid om naar buiten te lopen.",
+            "pt": "Pedir um café gelado por delivery por 14 € só por preguiça de descer à rua."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "genz_green_12",
+          "theme": "genz",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Prendre une photo de groupe spontanée où tout le monde est à son avantage du premier coup.",
+            "en": "Taking a candid group photo on the first try where everyone actually looks great.",
+            "de": "Auf Anhieb ein spontanes Gruppenfoto machen, auf dem wirklich alle gut aussehen.",
+            "es": "Hacer una foto de grupo a la primera donde todo el mundo sale favorecido.",
+            "nl": "In één keer een spontane groepsfoto maken waarop iedereen er daadwerkelijk leuk op staat.",
+            "pt": "Tirar uma foto de grupo à primeira tentativa em que todos saem bem."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "genz_red_13",
+          "theme": "genz",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Mettre un son de réveil angoissant au volume maximum avec 12 alarmes espacées de 5 minutes.",
+            "en": "Setting 12 alarms every 5 minutes with the most anxiety-inducing default ringtone.",
+            "de": "Zwölf Wecker im 5-Minuten-Takt mit dem schrillsten Standard-Alarmton stellen.",
+            "es": "Ponerse 12 alarmas cada 5 minutos con el tono estridente que viene por defecto.",
+            "nl": "Twaalf wekkers zetten om de 5 minuten met het meest stressvolle standaardsignaal.",
+            "pt": "Pôr 12 alarmes a cada 5 minutos com o toque padrão mais irritante possível."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "genz_green_13",
+          "theme": "genz",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Proposer spontanément de tester un nouveau restau sympa sans imposer ses choix à tout le monde.",
+            "en": "Suggesting a great new local restaurant without forcing your choice onto the group.",
+            "de": "Ein neues Restaurant vorschlagen, ohne der Gruppe die eigene Wahl aufzuzwingen.",
+            "es": "Proponer un restaurante chulo nuevo sin imponerle tus preferencias a todo el grupo.",
+            "nl": "Een leuk nieuw eettentje voorstellen zonder je zin door te drukken bij de groep.",
+            "pt": "Sugerir um restaurante novo e giro sem forçar a tua escolha a todo o grupo."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "genz_red_14",
+          "theme": "genz",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Dire 'à mon époque' pour parler de 2016.",
+            "en": "Saying 'back in my day' when talking about 2016.",
+            "de": "'Zu meiner Zeit' sagen und damit das Jahr 2016 meinen.",
+            "es": "Decir 'en mis tiempos' refiriéndose al año 2016.",
+            "nl": "'Vroeger in mijn tijd' zeggen als je het over 2016 hebt.",
+            "pt": "Dizer 'no meu tempo' para falar de 2016."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "genz_green_14",
+          "theme": "genz",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Savoir couper court à un débat stérile sur WhatsApp avant que ça ne parte en clash inutile.",
+            "en": "De-escalating a heated group chat debate before it turns into toxic drama.",
+            "de": "Eine hitzige Diskussion im Gruppenchat entschärfen, bevor sie in Streit ausartet.",
+            "es": "Cortar una discusión absurda en el grupo de WhatsApp antes de que acabe en drama.",
+            "nl": "Een verhitte discussie in de groepsapp op tijd sussen voordat het uit de hand loopt.",
+            "pt": "Desarmar uma discussão inútil no grupo do WhatsApp antes de virar um drama desnecessário."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "genz_red_15",
+          "theme": "genz",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Poster une vidéo de concert floue et inaudible de 45 secondes en story que personne ne regardera.",
+            "en": "Posting 45-second shaky, blown-out concert videos to your story that nobody will watch.",
+            "de": "Wackelige, übersteuerte 45-Sekunden-Konzertvideos in der Story posten, die eh keiner schaut.",
+            "es": "Subir vídeos de conciertos movidos y con sonido saturado a las historias de Instagram.",
+            "nl": "Schokkerige concertfilmpjes van 45 seconden met krakend geluid in je story zetten.",
+            "pt": "Publicar vídeos tremidos de concertos de 45 segundos com som distorcido nos stories."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "genz_green_15",
+          "theme": "genz",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Avoir le bon réflexe de baisser la musique quand les voisins toquent ou qu'il se fait tard.",
+            "en": "Naturally turning down the music when it gets late without waiting for neighbors to complain.",
+            "de": "Die Musik spät abends leiser drehen, ohne dass sich die Nachbarn erst beschweren müssen.",
+            "es": "Bajar la música por iniciativa propia cuando se hace tarde sin esperar quejas de vecinos.",
+            "nl": "Uit jezelf de muziek zachter zetten als het laat wordt zonder te wachten op de buren.",
+            "pt": "Baixar a música espontaneamente quando se faz tarde sem esperar por queixas dos vizinhos."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "genz_red_16",
+          "theme": "genz",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Dire qu'on est 'débordé' alors qu'on a passé 6 heures de temps d'écran sur son canapé.",
+            "en": "Claiming to be 'overwhelmed' after spending 6 hours of screen time on the couch.",
+            "de": "Jammern, dass man 'im Stress' ist, nach 6 Stunden Screen-Time auf dem Sofa.",
+            "es": "Quejarse de no tener tiempo después de pasar 6 horas pegado a la pantalla en el sofá.",
+            "nl": "Zeggen dat je het 'zoveel te druk' hebt na 6 uur schermtijd op de bank.",
+            "pt": "Dizer que está 'sem tempo para nada' depois de passar 6 horas no telemóvel no sofá."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "genz_green_16",
+          "theme": "genz",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Savoir faire des compliments sincères sur un détail subtil plutôt qu'une formule bateau.",
+            "en": "Giving genuine, thoughtful compliments on subtle details rather than generic praise.",
+            "de": "Ehrliche, aufmerksame Komplimente machen statt bloß oberflächliche Standardfloskeln.",
+            "es": "Hacer cumplidos sinceros y detallados en vez de soltar la típica frase hecha.",
+            "nl": "Oprechte, attente complimenten geven in plaats van een standaard oppervlakkig praatje.",
+            "pt": "Fazer elogios sinceros e atentos a pormenores em vez de frases feitas e banais."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "genz_red_17",
+          "theme": "genz",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Garder les yeux rivés sur son téléphone pendant qu'un ami raconte une histoire importante.",
+            "en": "Scrolling on your phone while a friend is in the middle of telling an emotional story.",
+            "de": "Aufs Handy starren während ein Freund gerade eine wichtige persönliche Geschichte erzählt.",
+            "es": "Estar mirando la pantalla del móvil mientras un amigo te cuenta algo importante.",
+            "nl": "Op je scherm blijven kijken terwijl een vriend een belangrijk verhaal vertelt.",
+            "pt": "Ficar a olhar para o telemóvel enquanto um amigo te está a contar uma história séria."
+          },
+          "difficulty": 2,
+          "enabled": true
+        },
+        {
+          "id": "genz_green_17",
+          "theme": "genz",
+          "type": "green_flag",
+          "texts": {
+            "fr": "Savoir rire de ses propres bourdes en soirée sans chercher à se justifier pendant une heure.",
+            "en": "Laughing off your own awkward blunders during party nights without getting defensive.",
+            "de": "Über eigene Missgeschicke beim Feiern lachen können, ohne sich ewig zu rechtfertigen.",
+            "es": "Saber reírse de las propias meteduras de pata de fiesta sin ponerse a la defensiva.",
+            "nl": "Kunnen lachen om je eigen blunder op een feestje zonder in de verdediging te schieten.",
+            "pt": "Saber rir dos teus próprios disparates numa festa sem ficar logo à defesa."
+          },
+          "difficulty": 1,
+          "enabled": true
+        },
+        {
+          "id": "genz_red_18",
+          "theme": "genz",
+          "type": "red_flag",
+          "texts": {
+            "fr": "Juger quelqu'un sur son signe astrologique avant même de lui avoir dit bonjour.",
+            "en": "Judging someone based on their zodiac sign before even saying hello.",
+            "de": "Jemanden nach seinem Sternzeichen verurteilen noch bevor man Hallo gesagt hat.",
+            "es": "Juzgar a alguien por su signo del zodíaco antes de haberle dicho ni hola.",
+            "nl": "Iemand veroordelen op basis van diens sterrenbeeld nog voor je hallo hebt gezegd.",
+            "pt": "Julgar alguém pelo signo do zodíaco antes sequer de dizer olá."
+          },
+          "difficulty": 1,
+          "enabled": true
+        }
+      ]
     }
   },
   "cards_by_id": {
@@ -25348,12 +26510,12 @@
       "theme": "dating",
       "type": "red_flag",
       "texts": {
-        "fr": "Son profil promet la vérité, ses messages font du brouillard.",
-        "en": "Their profile promises honesty; their messages bring fog.",
-        "de": "Das Profil verspricht Ehrlichkeit, die Nachrichten liefern Nebel.",
-        "es": "Su perfil promete honestidad; sus mensajes traen niebla.",
-        "nl": "Het profiel belooft eerlijkheid, de berichten brengen mist.",
-        "pt": "O perfil promete honestidade; as mensagens trazem nevoeiro."
+        "fr": "Son profil promet de la sincérité, mais ses réponses restent vagues.",
+        "en": "Their profile promises honesty, but their answers stay vague.",
+        "de": "Das Profil verspricht Ehrlichkeit, aber die Antworten bleiben vage.",
+        "es": "Su perfil promete sinceridad, pero sus respuestas siguen siendo vagas.",
+        "nl": "Het profiel belooft eerlijkheid, maar de antwoorden blijven vaag.",
+        "pt": "O perfil promete sinceridade, mas as respostas continuam vagas."
       },
       "difficulty": 2,
       "enabled": true,
@@ -25370,7 +26532,7 @@
         "en": "Monologues through the date and calls it a real connection.",
         "de": "Hält beim Date Monologe und nennt das echte Verbindung.",
         "es": "Monologa durante la cita y lo llama conexión real.",
-        "nl": "Houdt een monoloog tijdens de date en noemt dat klik.",
+        "nl": "Praat tijdens de date alleen over zichzelf en noemt dat een echte klik.",
         "pt": "Faz monólogo no encontro e chama isso de ligação real."
       },
       "difficulty": 2,
@@ -39058,7 +40220,637 @@
       "mode": "classic",
       "packId": "summer_pack",
       "live_tier": "safe"
+    },
+    "genz_red_1": {
+      "id": "genz_red_1",
+      "theme": "genz",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Mettre un point à la fin d'un message court : politesse normale ou agression passive ?",
+        "en": "Putting a period at the end of a one-word text: normal punctuation or passive aggression?",
+        "de": "Ein Punkt am Ende einer kurzen Nachricht: normale Höflichkeit oder passive Aggression?",
+        "es": "Poner un punto al final de un mensaje corto: ¿buena educación o pasivo-agresividad?",
+        "nl": "Een punt zetten aan het einde van een kort appje: beleefd of passief-agressief?",
+        "pt": "Pôr um ponto final numa mensagem curta: boa educação ou agressão passiva?"
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    "genz_green_1": {
+      "id": "genz_green_1",
+      "theme": "genz",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Mettre son téléphone sur silencieux et écran vers le bas dès qu'on s'assoit avec des amis.",
+        "en": "Turning your phone face down on silent the moment you sit down with friends.",
+        "de": "Das Handy sofort stummschalten und umdrehen, sobald man sich mit Freunden hinsetzt.",
+        "es": "Poner el móvil en silencio y boca abajo nada más sentarse a tomar algo con amigos.",
+        "nl": "Je telefoon meteen op stil en met het scherm omlaag leggen zodra je met vrienden zit.",
+        "pt": "Pôr o telemóvel em silêncio e virado para baixo assim que te sentas com amigos."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    "genz_red_2": {
+      "id": "genz_red_2",
+      "theme": "genz",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Envoyer des notes vocales de plus de 4 minutes au lieu de passer un appel de 30 secondes.",
+        "en": "Sending 4-minute voice notes instead of making a 30-second phone call.",
+        "de": "Sprachnachrichten von über 4 Minuten schicken statt kurz 30 Sekunden anzurufen.",
+        "es": "Mandar audios de más de 4 minutos en vez de hacer una llamada de 30 segundos.",
+        "nl": "Spraakberichten van 4 minuten sturen in plaats van even 30 seconden te bellen.",
+        "pt": "Mandar áudios de mais de 4 minutos em vez de fazer uma chamada de 30 segundos."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    "genz_green_2": {
+      "id": "genz_green_2",
+      "theme": "genz",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Envoyer un meme ultra-précis qui résume exactement la situation sans ajouter un seul mot.",
+        "en": "Sending the exact hyper-specific meme that sums up the whole situation without a word.",
+        "de": "Genau das eine hyper-präzise Meme schicken, das die Situation perfekt ohne Worte trifft.",
+        "es": "Mandar un meme tan preciso que resume la situación entera sin tener que añadir ni una palabra.",
+        "nl": "Een meme sturen die zo bizar raak is dat er geen woord uitleg meer nodig is.",
+        "pt": "Mandar um meme tão perfeito que resume toda a situação sem precisar de uma única palavra."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    "genz_red_3": {
+      "id": "genz_red_3",
+      "theme": "genz",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Regarder un film ou une série en vitesse x1.5 avec les sous-titres activés en faisant du scrolling.",
+        "en": "Watching movies at 1.5x speed with subtitles while doomscrolling on another screen.",
+        "de": "Filme auf 1,5x-Geschwindigkeit mit Untertiteln schauen und nebenbei doomscrollen.",
+        "es": "Ver películas a velocidad 1.5x con subtítulos mientras miras TikTok en otra pantalla.",
+        "nl": "Films kijken op 1,5x snelheid met ondertitels terwijl je doelloos op je telefoon scrolt.",
+        "pt": "Ver filmes a velocidade 1.5x com legendas enquanto fazes scroll noutro ecrã."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    "genz_green_3": {
+      "id": "genz_green_3",
+      "theme": "genz",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Débunker instantanément une fake news sur le groupe familial avec un lien fiable en 30 secondes.",
+        "en": "Fact-checking and debunking a fake news story in the family group chat within 30 seconds.",
+        "de": "Eine Fake-News im Familienchat innerhalb von 30 Sekunden mit solider Quelle entlarven.",
+        "es": "Desmentir un bulo en el grupo de WhatsApp familiar con una fuente fiable en 30 segundos.",
+        "nl": "Een broodjeaapverhaal in de familie-app binnen 30 seconden ontkrachten met een betrouwbare link.",
+        "pt": "Desmentir uma notícia falsa no grupo de família do WhatsApp com um link fiável em 30 segundos."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    "genz_red_4": {
+      "id": "genz_red_4",
+      "theme": "genz",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Laisser 47 000 emails et 800 pastilles de notifications non lus sur son téléphone sans aucun stress.",
+        "en": "Keeping 47,000 unread emails and 800 notification badges on their phone without stress.",
+        "de": "Über 47.000 ungelesene E-Mails und 800 rote Badges auf dem Handy haben ohne jeden Stress.",
+        "es": "Tener 47.000 emails y 800 notificaciones sin leer en el móvil sin ningún estrés.",
+        "nl": "47.000 ongelezen mails en 800 rode meldingen op de telefoon hebben zonder stress.",
+        "pt": "Ter 47.000 e-mails e 800 notificações não lidas no telemóvel sem qualquer stress."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    "genz_green_4": {
+      "id": "genz_green_4",
+      "theme": "genz",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Assumer totalement de refuser une sortie pour rester chez soi en pyjama à regarder un bon film.",
+        "en": "Honestly declining an invitation to stay home in pajamas watching a comfort movie.",
+        "de": "Ehrlich absagen, um einfach im Schlafanzug daheim zu bleiben und einen Film zu schauen.",
+        "es": "Decir la verdad y rechazar un plan para quedarse en pijama en el sofá viendo una peli.",
+        "nl": "Eerlijk een feestje afzeggen om lekker in je pyjama thuis een film te kijken.",
+        "pt": "Recusar um plano com total honestidade para ficar em casa de pijama a ver um bom filme."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    "genz_red_5": {
+      "id": "genz_red_5",
+      "theme": "genz",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Utiliser l'émoji qui pleure de rire 😂 au premier degré dans une conversation de groupe.",
+        "en": "Unironically using the crying-laughing emoji 😂 in a group chat.",
+        "de": "Das Tränen-lach-Emoji 😂 unironisch im Gruppenchat benutzen.",
+        "es": "Usar el emoji de llorar de risa 😂 totalmente en serio en un grupo.",
+        "nl": "De lachend-huilen emoji 😂 bloedserieus gebruiken in een groepsapp.",
+        "pt": "Usar o emoji a chorar de rir 😂 totalmente a sério no chat de grupo."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    "genz_green_5": {
+      "id": "genz_green_5",
+      "theme": "genz",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Partager ses playlists Spotify secrètes sans faire de manières ni gatekeeper les artistes.",
+        "en": "Sharing secret music playlists openly without gatekeeping obscure artists.",
+        "de": "Die geheimen Playlists ohne Gehabe teilen, statt unbekannte Künstler zu gatekeepen.",
+        "es": "Compartir tus playlists secretas de música sin dárselas de exclusivo ni ocultar artistas.",
+        "nl": "Je geheime afspeellijsten open delen zonder artiesten geheimzinnig voor jezelf te houden.",
+        "pt": "Partilhar as tuas playlists secretas sem complexos e sem esconder os artistas que ouves."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    "genz_red_6": {
+      "id": "genz_red_6",
+      "theme": "genz",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Porter des chaussettes invisibles courtes avec des baskets en croyant que c'est encore tendance.",
+        "en": "Wearing no-show ankle socks with sneakers thinking it's still trendy.",
+        "de": "Füßlinge in Sneakern tragen und glauben, dass das noch voll im Trend liegt.",
+        "es": "Llevar calcetines invisibles tobilleros pensando que todavía están de moda.",
+        "nl": "Onzichtbare enkelsokken dragen en denken dat het nog steeds hip is.",
+        "pt": "Usar meias invisíveis pelo tornozelo a achar que ainda estão na moda."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    "genz_green_6": {
+      "id": "genz_green_6",
+      "theme": "genz",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Rembourser sa part de l'addition au centime près par virement instantané avant même de quitter la table.",
+        "en": "Splitting and paying your exact restaurant share via instant transfer before leaving the table.",
+        "de": "Den genauen Anteil der Rechnung per Echtzeitüberweisung zahlen noch bevor man aufsteht.",
+        "es": "Pagar tu parte exacta de la cuenta por transferencia o Bizum antes de levantarse de la mesa.",
+        "nl": "Je exacte aandeel van de rekening via Tikkie betalen nog voor je de tafel verlaat.",
+        "pt": "Pagar a tua parte da conta por transferência imediata antes sequer de sair da mesa."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    "genz_red_7": {
+      "id": "genz_red_7",
+      "theme": "genz",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Paniquer et fixer son téléphone sonner en attendant le répondeur plutôt que de décrocher.",
+        "en": "Panicking and staring at a ringing phone until it stops instead of answering.",
+        "de": "In Panik geraten und das Handy anstarren bis es aufhört zu klingeln statt abzuheben.",
+        "es": "Entrar en pánico y quedarse mirando cómo suena el móvil hasta que cuelguen.",
+        "nl": "In paniek naar je rinkelende telefoon staren tot hij stopt in plaats van opnemen.",
+        "pt": "Entrar em pânico e ficar a olhar para o telemóvel a tocar até cair no voicemail."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    "genz_green_7": {
+      "id": "genz_green_7",
+      "theme": "genz",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Savoir réparer ou reconfigurer la box Wi-Fi de ses parents en moins de 3 minutes chrono.",
+        "en": "Fixing and rebooting your parents' Wi-Fi setup in under three minutes flat.",
+        "de": "Das WLAN der Eltern in weniger als drei Minuten wieder zum Laufen bringen.",
+        "es": "Arreglar el router Wi-Fi de tus padres en menos de tres minutos de reloj.",
+        "nl": "De wifi van je ouders binnen drie minuten weer helemaal aan de praat krijgen.",
+        "pt": "Resolver os problemas do Wi-Fi dos teus pais em menos de três minutos cronometrados."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    "genz_red_8": {
+      "id": "genz_red_8",
+      "theme": "genz",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Dire 'je suis vieux' à 26 ans parce qu'on ne connaît pas la dernière trend TikTok.",
+        "en": "Saying 'I feel so old' at 26 just because you missed the latest TikTok trend.",
+        "de": "Mit 26 Jahren sagen 'Ich bin so alt', weil man den neuesten TikTok-Trend verpasst hat.",
+        "es": "Decir 'estoy viejo' con 26 años solo por no pillar el último trend de TikTok.",
+        "nl": "Op je 26e roepen 'ik word echt oud' omdat je de nieuwste TikTok-trend niet kent.",
+        "pt": "Dizer 'estou tão velho' aos 26 anos só porque não conheces a última trend do TikTok."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    "genz_green_8": {
+      "id": "genz_green_8",
+      "theme": "genz",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Écouter de la musique au casque dans les transports sans jamais faire profiter toute la rame de son son.",
+        "en": "Listening to music through headphones in public transit without leaking a single decibel.",
+        "de": "Musik in der Bahn über Kopfhörer hören, ohne dass der ganze Waggon mithören muss.",
+        "es": "Escuchar música con auriculares en el metro sin que todo el vagón tenga que escucharla.",
+        "nl": "Muziek luisteren met een koptelefoon in de trein zonder dat de hele coupé mee moet genieten.",
+        "pt": "Ouvir música com auscultadores nos transportes públicos sem incomodar ninguém à volta."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    "genz_red_9": {
+      "id": "genz_red_9",
+      "theme": "genz",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Acheter un plat uniquement pour faire une story Instagram esthétique et ne manger que la moitié.",
+        "en": "Ordering aesthetic food just for an Instagram story and barely eating half of it.",
+        "de": "Essen nur für die Ästhetik der Instagram-Story bestellen und die Hälfte stehen lassen.",
+        "es": "Pedir un plato solo por la foto para la historia de Instagram y comerse la mitad.",
+        "nl": "Eten bestellen puur voor een mooie Instagram-story en maar de helft opeten.",
+        "pt": "Pedir um prato só para a foto do Instagram e deixar metade no prato."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    "genz_green_9": {
+      "id": "genz_green_9",
+      "theme": "genz",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Savoir faire rire tout le monde avec une référence culte sans jamais être lourd ni blessant.",
+        "en": "Making the whole room laugh with a classic pop culture reference without being mean.",
+        "de": "Die ganze Runde mit einer kultigen Referenz zum Lachen bringen, ohne verletzend zu sein.",
+        "es": "Hacer reír a todo el grupo con una referencia mítica sin resultar pesado ni faltar al respeto.",
+        "nl": "Iedereen aan het lachen maken met een goede popcultuur-verwijzing zonder kwetsend te zijn.",
+        "pt": "Fazer toda a gente rir com uma referência icónica sem nunca ser ofensivo nem chato."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    "genz_red_10": {
+      "id": "genz_red_10",
+      "theme": "genz",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Répondre 'vu' à une question ouverte avec un simple émoji pouce en l'air 👍.",
+        "en": "Replying to an open question with nothing but a thumbs-up emoji 👍.",
+        "de": "Auf eine offene Frage einfach nur mit einem Daumen-hoch-Emoji 👍 antworten.",
+        "es": "Contestar a una pregunta abierta con un simple emoji de pulgar hacia arriba 👍.",
+        "nl": "Op een open vraag reageren met alleen een duimpje omhoog 👍.",
+        "pt": "Responder a uma pergunta aberta apenas com um emoji de polegar para cima 👍."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    "genz_green_10": {
+      "id": "genz_green_10",
+      "theme": "genz",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Prévenir quand on arrive en retard au lieu d'inventer une excuse bidon avec le trafic.",
+        "en": "Messaging ahead when running late instead of inventing a wild traffic excuse.",
+        "de": "Rechtzeitig Bescheid geben, wenn man zu spät kommt, statt eine Ausrede zu erfinden.",
+        "es": "Avisar con tiempo si vas a llegar tarde en vez de inventarte una excusa con el tráfico.",
+        "nl": "Netjes van tevoren appen als je te laat bent in plaats van een smoes over verkeer te verzinnen.",
+        "pt": "Avisar com antecedência quando vais chegar atrasado em vez de inventar desculpas de trânsito."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    "genz_red_11": {
+      "id": "genz_red_11",
+      "theme": "genz",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Utiliser des termes corporate comme 'synergie' et 'point d'étape' dans une discussion entre potes.",
+        "en": "Using corporate buzzwords like 'synergy' and 'bandwidth' in a casual chat with friends.",
+        "de": "Corporate-Floskeln wie 'Synergie' und 'Kurzschließen' im Freundeskreis benutzen.",
+        "es": "Usar palabras corporativas como 'sinergia' y 'feedback' hablando con amigos de fiesta.",
+        "nl": "Kantoorjargon zoals 'schakelen' en 'inpluggen' gebruiken tijdens een borrel met vrienden.",
+        "pt": "Usar jargão de escritório como 'sinergia' e 'briefing' numa conversa informal com amigos."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    "genz_green_11": {
+      "id": "genz_green_11",
+      "theme": "genz",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Laisser les gens kiffer leurs plaisirs coupables sans jamais juger leurs goûts musicaux ou séries.",
+        "en": "Letting people enjoy their guilty pleasures without judging their music or TV taste.",
+        "de": "Anderen ihre Guilty Pleasures gönnen, ohne deren Musik- oder Seriengeschmack abzuwerten.",
+        "es": "Dejar que la gente disfrute de sus placeres culpables sin juzgar sus gustos musicales o series.",
+        "nl": "Mensen gewoon van hun guilty pleasures laten genieten zonder commentaar op hun smaak.",
+        "pt": "Deixar as pessoas desfrutarem dos seus guilty pleasures sem julgar as suas músicas ou séries."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    "genz_red_12": {
+      "id": "genz_red_12",
+      "theme": "genz",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Se faire livrer un café glacé par Uber Eats pour 14 € parce qu'on a la flemme de descendre.",
+        "en": "Ordering a $14 iced coffee on delivery apps because walking downstairs feels too hard.",
+        "de": "Sich einen Eiskaffee für 14 € liefern lassen, weil man zu faul ist kurz vor die Tür zu gehen.",
+        "es": "Pedirse un café helado por delivery pagando 14 € solo por la pereza de bajar a la calle.",
+        "nl": "Een ijskoffie laten bezorgen voor 14 euro puur uit luiheid om naar buiten te lopen.",
+        "pt": "Pedir um café gelado por delivery por 14 € só por preguiça de descer à rua."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    "genz_green_12": {
+      "id": "genz_green_12",
+      "theme": "genz",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Prendre une photo de groupe spontanée où tout le monde est à son avantage du premier coup.",
+        "en": "Taking a candid group photo on the first try where everyone actually looks great.",
+        "de": "Auf Anhieb ein spontanes Gruppenfoto machen, auf dem wirklich alle gut aussehen.",
+        "es": "Hacer una foto de grupo a la primera donde todo el mundo sale favorecido.",
+        "nl": "In één keer een spontane groepsfoto maken waarop iedereen er daadwerkelijk leuk op staat.",
+        "pt": "Tirar uma foto de grupo à primeira tentativa em que todos saem bem."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    "genz_red_13": {
+      "id": "genz_red_13",
+      "theme": "genz",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Mettre un son de réveil angoissant au volume maximum avec 12 alarmes espacées de 5 minutes.",
+        "en": "Setting 12 alarms every 5 minutes with the most anxiety-inducing default ringtone.",
+        "de": "Zwölf Wecker im 5-Minuten-Takt mit dem schrillsten Standard-Alarmton stellen.",
+        "es": "Ponerse 12 alarmas cada 5 minutos con el tono estridente que viene por defecto.",
+        "nl": "Twaalf wekkers zetten om de 5 minuten met het meest stressvolle standaardsignaal.",
+        "pt": "Pôr 12 alarmes a cada 5 minutos com o toque padrão mais irritante possível."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    "genz_green_13": {
+      "id": "genz_green_13",
+      "theme": "genz",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Proposer spontanément de tester un nouveau restau sympa sans imposer ses choix à tout le monde.",
+        "en": "Suggesting a great new local restaurant without forcing your choice onto the group.",
+        "de": "Ein neues Restaurant vorschlagen, ohne der Gruppe die eigene Wahl aufzuzwingen.",
+        "es": "Proponer un restaurante chulo nuevo sin imponerle tus preferencias a todo el grupo.",
+        "nl": "Een leuk nieuw eettentje voorstellen zonder je zin door te drukken bij de groep.",
+        "pt": "Sugerir um restaurante novo e giro sem forçar a tua escolha a todo o grupo."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    "genz_red_14": {
+      "id": "genz_red_14",
+      "theme": "genz",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Dire 'à mon époque' pour parler de 2016.",
+        "en": "Saying 'back in my day' when talking about 2016.",
+        "de": "'Zu meiner Zeit' sagen und damit das Jahr 2016 meinen.",
+        "es": "Decir 'en mis tiempos' refiriéndose al año 2016.",
+        "nl": "'Vroeger in mijn tijd' zeggen als je het over 2016 hebt.",
+        "pt": "Dizer 'no meu tempo' para falar de 2016."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    "genz_green_14": {
+      "id": "genz_green_14",
+      "theme": "genz",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Savoir couper court à un débat stérile sur WhatsApp avant que ça ne parte en clash inutile.",
+        "en": "De-escalating a heated group chat debate before it turns into toxic drama.",
+        "de": "Eine hitzige Diskussion im Gruppenchat entschärfen, bevor sie in Streit ausartet.",
+        "es": "Cortar una discusión absurda en el grupo de WhatsApp antes de que acabe en drama.",
+        "nl": "Een verhitte discussie in de groepsapp op tijd sussen voordat het uit de hand loopt.",
+        "pt": "Desarmar uma discussão inútil no grupo do WhatsApp antes de virar um drama desnecessário."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    "genz_red_15": {
+      "id": "genz_red_15",
+      "theme": "genz",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Poster une vidéo de concert floue et inaudible de 45 secondes en story que personne ne regardera.",
+        "en": "Posting 45-second shaky, blown-out concert videos to your story that nobody will watch.",
+        "de": "Wackelige, übersteuerte 45-Sekunden-Konzertvideos in der Story posten, die eh keiner schaut.",
+        "es": "Subir vídeos de conciertos movidos y con sonido saturado a las historias de Instagram.",
+        "nl": "Schokkerige concertfilmpjes van 45 seconden met krakend geluid in je story zetten.",
+        "pt": "Publicar vídeos tremidos de concertos de 45 segundos com som distorcido nos stories."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    "genz_green_15": {
+      "id": "genz_green_15",
+      "theme": "genz",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Avoir le bon réflexe de baisser la musique quand les voisins toquent ou qu'il se fait tard.",
+        "en": "Naturally turning down the music when it gets late without waiting for neighbors to complain.",
+        "de": "Die Musik spät abends leiser drehen, ohne dass sich die Nachbarn erst beschweren müssen.",
+        "es": "Bajar la música por iniciativa propia cuando se hace tarde sin esperar quejas de vecinos.",
+        "nl": "Uit jezelf de muziek zachter zetten als het laat wordt zonder te wachten op de buren.",
+        "pt": "Baixar a música espontaneamente quando se faz tarde sem esperar por queixas dos vizinhos."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    "genz_red_16": {
+      "id": "genz_red_16",
+      "theme": "genz",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Dire qu'on est 'débordé' alors qu'on a passé 6 heures de temps d'écran sur son canapé.",
+        "en": "Claiming to be 'overwhelmed' after spending 6 hours of screen time on the couch.",
+        "de": "Jammern, dass man 'im Stress' ist, nach 6 Stunden Screen-Time auf dem Sofa.",
+        "es": "Quejarse de no tener tiempo después de pasar 6 horas pegado a la pantalla en el sofá.",
+        "nl": "Zeggen dat je het 'zoveel te druk' hebt na 6 uur schermtijd op de bank.",
+        "pt": "Dizer que está 'sem tempo para nada' depois de passar 6 horas no telemóvel no sofá."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    "genz_green_16": {
+      "id": "genz_green_16",
+      "theme": "genz",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Savoir faire des compliments sincères sur un détail subtil plutôt qu'une formule bateau.",
+        "en": "Giving genuine, thoughtful compliments on subtle details rather than generic praise.",
+        "de": "Ehrliche, aufmerksame Komplimente machen statt bloß oberflächliche Standardfloskeln.",
+        "es": "Hacer cumplidos sinceros y detallados en vez de soltar la típica frase hecha.",
+        "nl": "Oprechte, attente complimenten geven in plaats van een standaard oppervlakkig praatje.",
+        "pt": "Fazer elogios sinceros e atentos a pormenores em vez de frases feitas e banais."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    "genz_red_17": {
+      "id": "genz_red_17",
+      "theme": "genz",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Garder les yeux rivés sur son téléphone pendant qu'un ami raconte une histoire importante.",
+        "en": "Scrolling on your phone while a friend is in the middle of telling an emotional story.",
+        "de": "Aufs Handy starren während ein Freund gerade eine wichtige persönliche Geschichte erzählt.",
+        "es": "Estar mirando la pantalla del móvil mientras un amigo te cuenta algo importante.",
+        "nl": "Op je scherm blijven kijken terwijl een vriend een belangrijk verhaal vertelt.",
+        "pt": "Ficar a olhar para o telemóvel enquanto um amigo te está a contar uma história séria."
+      },
+      "difficulty": 2,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    "genz_green_17": {
+      "id": "genz_green_17",
+      "theme": "genz",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Savoir rire de ses propres bourdes en soirée sans chercher à se justifier pendant une heure.",
+        "en": "Laughing off your own awkward blunders during party nights without getting defensive.",
+        "de": "Über eigene Missgeschicke beim Feiern lachen können, ohne sich ewig zu rechtfertigen.",
+        "es": "Saber reírse de las propias meteduras de pata de fiesta sin ponerse a la defensiva.",
+        "nl": "Kunnen lachen om je eigen blunder op een feestje zonder in de verdediging te schieten.",
+        "pt": "Saber rir dos teus próprios disparates numa festa sem ficar logo à defesa."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
+    },
+    "genz_red_18": {
+      "id": "genz_red_18",
+      "theme": "genz",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Juger quelqu'un sur son signe astrologique avant même de lui avoir dit bonjour.",
+        "en": "Judging someone based on their zodiac sign before even saying hello.",
+        "de": "Jemanden nach seinem Sternzeichen verurteilen noch bevor man Hallo gesagt hat.",
+        "es": "Juzgar a alguien por su signo del zodíaco antes de haberle dicho ni hola.",
+        "nl": "Iemand veroordelen op basis van diens sterrenbeeld nog voor je hallo hebt gezegd.",
+        "pt": "Julgar alguém pelo signo do zodíaco antes sequer de dizer olá."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "genz_pack",
+      "live_tier": "safe"
     }
   },
-  "card_count": 764
+  "card_count": 799
 }

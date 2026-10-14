@@ -82,7 +82,8 @@ header {
   height: 46px;
   border: 3px solid white;
   border-radius: 8px;
-  color: var(--yellow);
+  color: #ffffff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
   background: linear-gradient(160deg, var(--red), var(--orange));
   box-shadow: 0 4px 0 #061047;
   transform: rotate(-5deg);
@@ -827,10 +828,10 @@ footer {
   align-items: center;
   padding: 5px 14px;
   border-radius: 999px;
-  background: rgba(255, 213, 40, 0.18);
-  border: 1px solid var(--yellow);
+  background: rgba(0, 0, 0, 0.55);
+  border: 1.5px solid var(--yellow);
   color: var(--yellow);
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 800;
   letter-spacing: 0.5px;
   text-transform: uppercase;
@@ -841,9 +842,9 @@ footer {
   align-items: center;
   padding: 4px 12px;
   border-radius: 999px;
-  background: rgba(18, 200, 255, 0.15);
-  border: 1px solid var(--blue);
-  color: var(--blue);
+  background: rgba(0, 0, 0, 0.5);
+  border: 1.5px solid var(--blue);
+  color: #67e8f9;
   font-size: 13px;
   font-weight: 700;
 }
@@ -1086,17 +1087,17 @@ footer {
 }
 
 .seasonal-event-banner.halloween-banner {
-  background: rgba(255, 123, 0, 0.18);
-  border: 1px solid #ff7b00;
-  color: #ffb870;
-  box-shadow: 0 0 20px rgba(255, 123, 0, 0.35);
+  background: rgba(20, 8, 2, 0.85);
+  border: 1.5px solid #ff7b00;
+  color: #fff3e0;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.4), 0 0 14px rgba(255, 123, 0, 0.3);
 }
 
 .seasonal-event-banner.winter-banner {
-  background: rgba(0, 212, 255, 0.18);
-  border: 1px solid #00d4ff;
-  color: #a5f3fc;
-  box-shadow: 0 0 20px rgba(0, 212, 255, 0.35);
+  background: rgba(4, 18, 38, 0.85);
+  border: 1.5px solid #00d4ff;
+  color: #f0f9ff;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.4), 0 0 14px rgba(0, 212, 255, 0.3);
 }
 
 .seasonal-banner-btn {
