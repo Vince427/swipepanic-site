@@ -1,11 +1,11 @@
 :root {
   color-scheme: dark;
-  --ink: #ffffff;
-  --muted: #e4ecff;
-  --text-sub: #c0d1fc;
+  --ink: #f8fafc;
+  --muted: #cbd5e1;
+  --text-sub: #94a3b8;
   --panel: rgba(14, 20, 64, 0.92);
   --panel-strong: rgba(24, 18, 78, 0.96);
-  --line: rgba(255, 255, 255, 0.22);
+  --line: rgba(255, 255, 255, 0.16);
   --blue: #12c8ff;
   --yellow: #ffd528;
   --orange: #ff7a18;
@@ -24,25 +24,16 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
-  font-family: Impact, Haettenschweiler, "Arial Black", system-ui, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   color: var(--ink);
   background:
-    radial-gradient(circle at 22% 8%, rgba(18, 200, 255, 0.32), transparent 28rem),
-    radial-gradient(circle at 82% 14%, rgba(255, 46, 85, 0.28), transparent 24rem),
-    linear-gradient(135deg, #071a80 0%, #1b0b7a 46%, #4a0785 100%);
-  line-height: 1.45;
-}
-
-body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  pointer-events: none;
-  background-image:
-    linear-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
-  background-size: 44px 44px;
-  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.75), transparent);
+    radial-gradient(circle at 22% 8%, rgba(18, 200, 255, 0.20), transparent 28rem),
+    radial-gradient(circle at 82% 14%, rgba(255, 46, 85, 0.18), transparent 24rem),
+    linear-gradient(135deg, #07144e 0%, #120954 46%, #280452 100%);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 a {
@@ -75,11 +66,12 @@ header {
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  color: white;
+  color: #f8fafc;
+  font-family: Impact, Haettenschweiler, "Arial Black", system-ui, sans-serif;
   text-decoration: none;
   text-transform: uppercase;
-  letter-spacing: 0;
-  text-shadow: 0 3px 0 #061047, 0 0 18px rgba(255, 213, 40, 0.5);
+  letter-spacing: 0.5px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.45);
   flex-shrink: 0;
 }
 
@@ -304,6 +296,7 @@ body.theme-winter .hero-theme-chip[data-theme="winter"].active {
 h1,
 h2,
 h3 {
+  font-family: Impact, Haettenschweiler, "Arial Black", system-ui, sans-serif;
   margin: 0;
   text-transform: uppercase;
   letter-spacing: 0;
@@ -313,22 +306,22 @@ h1 {
   max-width: 720px;
   margin-top: 18px;
   font-size: clamp(48px, 8vw, 104px);
-  line-height: 0.88;
+  line-height: 0.92;
   color: var(--yellow);
   text-shadow:
-    0 5px 0 #061047,
-    4px 8px 0 rgba(255, 46, 85, 0.7),
-    0 0 26px rgba(18, 200, 255, 0.6);
+    0 4px 0 #061047,
+    0 8px 24px rgba(0, 0, 0, 0.45);
 }
 
 .hero-copy {
   max-width: 620px;
   margin: 22px 0 0;
-  color: white;
-  font-family: system-ui, sans-serif;
-  font-size: clamp(18px, 2vw, 22px);
-  font-weight: 800;
-  text-shadow: 0 2px 0 #061047;
+  color: #f1f5f9;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: clamp(17px, 2vw, 21px);
+  font-weight: 500;
+  line-height: 1.55;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.65);
 }
 
 .actions {
@@ -344,14 +337,15 @@ h1 {
   justify-content: center;
   min-height: 54px;
   padding: 12px 22px;
-  border: 3px solid white;
+  border: 2px solid rgba(255, 255, 255, 0.85);
   border-radius: 10px;
   color: white;
   background: linear-gradient(#23d7ff, #0d71d9);
-  box-shadow: 0 6px 0 #061047;
+  box-shadow: 0 5px 0 #061047;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 20px;
+  font-family: Impact, Haettenschweiler, "Arial Black", system-ui, sans-serif;
 }
 
 .button.secondary {
@@ -364,12 +358,13 @@ h1 {
 }
 
 .section-title {
+  font-family: Impact, Haettenschweiler, "Arial Black", system-ui, sans-serif;
   max-width: 860px;
   margin-bottom: 24px;
-  font-size: clamp(34px, 5vw, 62px);
-  line-height: 0.95;
-  color: white;
-  text-shadow: 0 4px 0 #061047;
+  font-size: clamp(32px, 5vw, 56px);
+  line-height: 1.05;
+  color: #f8fafc;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .section-copy,
@@ -421,9 +416,9 @@ strong, b {
 
 .feature-card h3 {
   color: var(--yellow);
-  font-size: 26px;
+  font-size: 24px;
   margin-bottom: 8px;
-  text-shadow: 0 2px 0 #061047;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 .feature-card p {
@@ -861,14 +856,14 @@ footer {
 
 .daily-dilemma-quote {
   margin: 16px 0 22px 0;
-  padding: 16px 20px;
-  background: rgba(0, 0, 0, 0.25);
+  padding: 18px 22px;
+  background: rgba(0, 0, 0, 0.35);
   border-left: 4px solid var(--yellow);
   border-radius: 0 12px 12px 0;
-  font-size: clamp(18px, 2.5vw, 24px);
-  font-weight: 700;
-  color: #ffffff;
-  line-height: 1.45;
+  font-size: clamp(18px, 2.3vw, 22px);
+  font-weight: 600;
+  color: #f8fafc;
+  line-height: 1.5;
 }
 
 .daily-dilemma-vote-row {
@@ -1156,14 +1151,13 @@ body.theme-halloween .hero {
 body.theme-halloween h1 {
   color: #ff9d42;
   text-shadow:
-    0 5px 0 #1f0830,
-    4px 8px 0 rgba(255, 46, 85, 0.7),
-    0 0 26px rgba(255, 123, 0, 0.65);
+    0 4px 0 #1f0830,
+    0 8px 24px rgba(0, 0, 0, 0.45);
 }
 
 body.theme-halloween .button:not(.secondary):not(.seasonal-card-btn) {
   background: linear-gradient(#ff9d42, #d94e00);
-  box-shadow: 0 6px 0 #1f0830;
+  box-shadow: 0 5px 0 #1f0830;
 }
 
 body.theme-halloween .daily-dilemma-card {
@@ -1174,14 +1168,14 @@ body.theme-halloween .daily-dilemma-card {
 /* Winter Theme Active */
 body.theme-winter {
   background:
-    radial-gradient(circle at 20% 8%, rgba(0, 212, 255, 0.36), transparent 28rem),
-    radial-gradient(circle at 82% 14%, rgba(165, 243, 252, 0.22), transparent 25rem),
+    radial-gradient(circle at 20% 8%, rgba(0, 212, 255, 0.26), transparent 28rem),
+    radial-gradient(circle at 82% 14%, rgba(165, 243, 252, 0.16), transparent 25rem),
     linear-gradient(135deg, #030d1e 0%, #081938 46%, #0e2a56 100%);
-  --ink: #ffffff;
-  --muted: #f0f9ff;
-  --text-sub: #bae6fd;
+  --ink: #f8fafc;
+  --muted: #cbd5e1;
+  --text-sub: #94a3b8;
   --yellow: #67e8f9;
-  --line: rgba(0, 212, 255, 0.35);
+  --line: rgba(0, 212, 255, 0.25);
   --panel: rgba(12, 30, 60, 0.94);
   --panel-strong: rgba(16, 40, 80, 0.97);
 }
@@ -1196,14 +1190,13 @@ body.theme-winter .hero {
 body.theme-winter h1 {
   color: #67e8f9;
   text-shadow:
-    0 5px 0 #05152e,
-    4px 8px 0 rgba(14, 165, 233, 0.7),
-    0 0 26px rgba(0, 212, 255, 0.65);
+    0 4px 0 #05152e,
+    0 8px 24px rgba(0, 0, 0, 0.45);
 }
 
 body.theme-winter .button:not(.secondary):not(.seasonal-card-btn) {
   background: linear-gradient(#38bdf8, #0284c7);
-  box-shadow: 0 6px 0 #05152e;
+  box-shadow: 0 5px 0 #05152e;
 }
 
 body.theme-winter .daily-dilemma-card {
