@@ -50,7 +50,7 @@
     "dailyDilemmaCtaSubtitle": "Chaque jour, 1 dilemme exclusif et tes stats de groupe sur l'app !",
     "dailyDilemmaStoreCta": "⚡ Jouer sur l'application",
     "almanacTitle": "📅 Almanach des 30 derniers jours",
-    "almanacSubtitle": "Ton historique de votes et l'évolution de ton humeur.",
+    "almanacSubtitle": "Tes votes sur ce navigateur uniquement. L'app garde son propre historique sur ton téléphone.",
     "almanacLegendGreen": "Accepté",
     "almanacLegendRed": "Refusé",
     "almanacLegendMissed": "Non voté",
@@ -273,7 +273,7 @@
     "dailyDilemmaCtaSubtitle": "Every day, 1 exclusive dilemma and your party stats on the app!",
     "dailyDilemmaStoreCta": "⚡ Play on the app",
     "almanacTitle": "📅 30-Day Dilemma Almanac",
-    "almanacSubtitle": "Your voting history and mood evolution.",
+    "almanacSubtitle": "Votes on this browser only. The app keeps its own history on your phone.",
     "almanacLegendGreen": "Accepted",
     "almanacLegendRed": "Rejected",
     "almanacLegendMissed": "Missed",
@@ -497,7 +497,7 @@
     "dailyDilemmaCtaSubtitle": "¡Cada día, 1 dilema exclusivo y tus estadísticas de grupo en la app!",
     "dailyDilemmaStoreCta": "⚡ Jugar en la app",
     "almanacTitle": "📅 Almanaque de los últimos 30 días",
-    "almanacSubtitle": "Tu historial de votos y la evolución de tu humor.",
+    "almanacSubtitle": "Votos solo de este navegador. La app guarda su propio historial en tu teléfono.",
     "almanacLegendGreen": "Aceptado",
     "almanacLegendRed": "Rechazado",
     "almanacLegendMissed": "No votado",
@@ -719,7 +719,7 @@
     "dailyDilemmaCtaSubtitle": "Jeden Tag 1 exklusives Dilemma und deine Gruppen-Statistiken in der App!",
     "dailyDilemmaStoreCta": "⚡ In der App spielen",
     "almanacTitle": "📅 30-Tage-Dilemma-Almanach",
-    "almanacSubtitle": "Dein Abstimmungsverlauf und deine Stimmung.",
+    "almanacSubtitle": "Nur Stimmen aus diesem Browser. Die App speichert ihren eigenen Verlauf auf deinem Handy.",
     "almanacLegendGreen": "Angenommen",
     "almanacLegendRed": "Abgelehnt",
     "almanacLegendMissed": "Verpasst",
@@ -940,7 +940,7 @@
     "dailyDilemmaCtaSubtitle": "Elke dag 1 exclusief dilemma en je groepsstatistieken in de app!",
     "dailyDilemmaStoreCta": "⚡ Speel in de app",
     "almanacTitle": "📅 30-Dagen Dilemma-Almanak",
-    "almanacSubtitle": "Je stemgeschiedenis en stemmingsverloop.",
+    "almanacSubtitle": "Alleen stemmen in deze browser. De app bewaart haar eigen geschiedenis op je telefoon.",
     "almanacLegendGreen": "Geaccepteerd",
     "almanacLegendRed": "Geweigerd",
     "almanacLegendMissed": "Gemist",
@@ -1163,7 +1163,7 @@
     "dailyDilemmaCtaSubtitle": "Todos os dias, 1 dilema exclusivo e as tuas estatísticas de grupo na app!",
     "dailyDilemmaStoreCta": "⚡ Jogar na aplicação",
     "almanacTitle": "📅 Almanaque dos últimos 30 dias",
-    "almanacSubtitle": "O teu histórico de votos e a evolução do teu humor.",
+    "almanacSubtitle": "Votos apenas neste navegador. A app guarda o seu próprio histórico no telemóvel.",
     "almanacLegendGreen": "Aceite",
     "almanacLegendRed": "Recusado",
     "almanacLegendMissed": "Não votado",
@@ -1866,7 +1866,10 @@
         let history = {};
         try {
           const raw = localStorage.getItem('sp_daily_almanac_history');
-          if (raw) history = JSON.parse(raw);
+          if (raw) {
+            const parsed = JSON.parse(raw);
+            if (parsed && typeof parsed === 'object' && !Array.isArray(parsed)) history = parsed;
+          }
         } catch (_) {}
 
         if (choice) {
@@ -1876,15 +1879,13 @@
           } catch (_) {}
         }
 
-        const todayMs = now.getTime();
-        const oneDayMs = 24 * 60 * 60 * 1000;
         gridNode.innerHTML = '';
 
         let totalAnswered = 0;
         let acceptCount = 0;
 
         for (let i = 29; i >= 0; i--) {
-          const d = new Date(todayMs - i * oneDayMs);
+          const d = new Date(now.getFullYear(), now.getMonth(), now.getDate() - i);
           const y = d.getFullYear();
           const m = String(d.getMonth() + 1).padStart(2, '0');
           const day = String(d.getDate()).padStart(2, '0');
@@ -1936,7 +1937,7 @@
         if (streakNode) {
           let streak = 0;
           for (let i = 0; i < 30; i++) {
-            const d = new Date(todayMs - i * oneDayMs);
+            const d = new Date(now.getFullYear(), now.getMonth(), now.getDate() - i);
             const y = d.getFullYear();
             const m = String(d.getMonth() + 1).padStart(2, '0');
             const day = String(d.getDate()).padStart(2, '0');
@@ -1948,7 +1949,7 @@
               break;
             }
           }
-          streakNode.textContent = (copy.almanacStreakCount || '🔥 Série : {count} jour(s)').replace('{count}', Math.max(1, streak));
+          streakNode.textContent = (copy.almanacStreakCount || '🔥 Série : {count} jour(s)').replace('{count}', streak);
         }
       }
 

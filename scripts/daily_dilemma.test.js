@@ -62,6 +62,13 @@ test('index.html contains the daily dilemma section and accessibility attributes
   assert.ok(html.includes('data-i18n="navDailyDilemma"'), 'Missing navDailyDilemma link');
 });
 
+test('almanac never fabricates a streak and walks calendar days across DST', () => {
+  const source = fs.readFileSync(path.join(ROOT, 'site.js'), 'utf8');
+  assert.ok(source.includes(".replace('{count}', streak)"));
+  assert.ok(!source.includes('Math.max(1, streak)'));
+  assert.ok(source.includes('new Date(now.getFullYear(), now.getMonth(), now.getDate() - i)'));
+});
+
 test('daily dilemma deterministic rotation is consistent across dates', () => {
   function mixHash(hash, value) {
     return (Math.imul(hash, 31) + value) & 0x7fffffff;
