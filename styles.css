@@ -496,10 +496,10 @@ strong, b {
 
 .notice {
   padding: 16px;
-  border: 2px solid rgba(255, 213, 40, 0.7);
+  border: 2px solid rgba(255, 213, 40, 0.75);
   border-radius: 8px;
-  color: #fff7bb;
-  background: rgba(255, 213, 40, 0.12);
+  color: #ffd740;
+  background: rgba(18, 14, 2, 0.85);
   font-family: system-ui, sans-serif;
   font-weight: 800;
 }
