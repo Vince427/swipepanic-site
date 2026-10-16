@@ -1872,7 +1872,6 @@ socialScoreDesc: "As tuas escolhas de festa: {count} desafios e verdades assumid
       typeof localStorage === 'undefined' ? null : localStorage;
     SwipePanicAcquisition.persistLanguage(browserStorage, currentLang);
     document.documentElement.lang = currentLang;
-      document.title = t.pageTitle || "Swipe Panic — Jouer en Ligne";
     if (document.getElementById('langSelect')) {
       document.getElementById('langSelect').value = currentLang;
     }
@@ -1883,6 +1882,7 @@ socialScoreDesc: "As tuas escolhas de festa: {count} desafios e verdades assumid
     function applyTranslations() {
       const t = i18n[currentLang] || i18n.fr;
       document.documentElement.lang = currentLang;
+      document.title = t.pageTitle || "Swipe Panic — Jouer en Ligne";
       SwipePanicAcquisition.decorateStoreLinks(document, window.location, currentLang);
       document.getElementById('ctaStore').textContent = t.ctaStore;
       if (document.getElementById('btnShareRecap')) {
@@ -1990,7 +1990,9 @@ socialScoreDesc: "As tuas escolhas de festa: {count} desafios e verdades assumid
       } else if (theme === 'winter') {
         document.body.classList.add('theme-winter');
       }
-      localStorage.setItem('sp_theme', theme);
+      try {
+        localStorage.setItem('sp_theme', theme);
+      } catch (_) {}
       document.querySelectorAll('#themeSwitchInline .theme-btn').forEach((btn) => {
         btn.classList.toggle('active', btn.getAttribute('data-theme') === theme);
       });
@@ -2005,7 +2007,10 @@ socialScoreDesc: "As tuas escolhas de festa: {count} desafios e verdades assumid
       } else if (packParam === 'winter_holidays_pack') {
         initialTheme = 'winter';
       } else {
-        const saved = localStorage.getItem('sp_theme');
+        let saved = null;
+        try {
+          saved = localStorage.getItem('sp_theme');
+        } catch (_) {}
         initialTheme = saved || getAutoTheme();
       }
       applyTheme(initialTheme);
@@ -2028,8 +2033,11 @@ socialScoreDesc: "As tuas escolhas de festa: {count} desafios e verdades assumid
         } else if (val === 'winter_holidays_pack') {
           applyTheme('winter');
         } else {
-          const saved = localStorage.getItem('sp_theme') || getAutoTheme();
-          applyTheme(saved);
+          let saved = null;
+          try {
+            saved = localStorage.getItem('sp_theme');
+          } catch (_) {}
+          applyTheme(saved || getAutoTheme());
         }
         prepareSession();
       });
