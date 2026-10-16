@@ -1,0 +1,926 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Swipe Panic — Studio Trailer & Vidéo Promo</title>
+  <link rel="icon" type="image/png" href="./assets/logo-source.png">
+  <link rel="stylesheet" href="./styles.css">
+  <style>
+    body {
+      background: #0d0a21;
+      color: #fff;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .studio-header {
+      width: 100%;
+      max-width: 1200px;
+      padding: 18px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-sizing: border-box;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .studio-title {
+      font-size: 20px;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .studio-title span {
+      color: #00e5ff;
+    }
+
+    .controls-panel {
+      width: 100%;
+      max-width: 1200px;
+      padding: 16px 24px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      align-items: center;
+      justify-content: space-between;
+      box-sizing: border-box;
+      background: rgba(23, 19, 74, 0.6);
+      border-radius: 12px;
+      margin-top: 14px;
+    }
+
+    .control-group {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .btn {
+      padding: 10px 18px;
+      border-radius: 10px;
+      border: none;
+      font-weight: 800;
+      font-size: 14px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.2s ease;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #00e5ff 0%, #00b0ff 100%);
+      color: #0d0a21;
+    }
+
+    .btn-primary:hover {
+      box-shadow: 0 0 16px rgba(0, 229, 255, 0.6);
+      transform: translateY(-1px);
+    }
+
+    .btn-record {
+      background: linear-gradient(135deg, #ff1744 0%, #d50000 100%);
+      color: #fff;
+    }
+
+    .btn-record:hover {
+      box-shadow: 0 0 16px rgba(255, 23, 68, 0.6);
+      transform: translateY(-1px);
+    }
+
+    .btn-record.recording {
+      animation: pulseRecord 1s infinite alternate;
+    }
+
+    @keyframes pulseRecord {
+      from { transform: scale(1); box-shadow: 0 0 10px rgba(255, 23, 68, 0.4); }
+      to { transform: scale(1.04); box-shadow: 0 0 24px rgba(255, 23, 68, 0.9); }
+    }
+
+    .btn-secondary {
+      background: rgba(255, 255, 255, 0.12);
+      color: #fff;
+    }
+
+    .btn-secondary:hover {
+      background: rgba(255, 255, 255, 0.2);
+    }
+
+    select {
+      background: #17134a;
+      color: #fff;
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      border-radius: 8px;
+      padding: 8px 12px;
+      font-weight: 700;
+      font-size: 13px;
+      outline: none;
+      cursor: pointer;
+    }
+
+    .canvas-container {
+      margin: 20px auto;
+      max-width: 95vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+    }
+
+    #trailerCanvas {
+      background: #000;
+      border-radius: 16px;
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.7), 0 0 20px rgba(0, 229, 255, 0.2);
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .timeline-bar {
+      width: 100%;
+      height: 6px;
+      background: rgba(255, 255, 255, 0.15);
+      border-radius: 3px;
+      margin-top: 12px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .timeline-progress {
+      height: 100%;
+      width: 0%;
+      background: linear-gradient(90deg, #ff007f, #00e5ff);
+      transition: width 0.05s linear;
+    }
+
+    .status-badge {
+      font-size: 13px;
+      font-weight: 700;
+      color: #00e5ff;
+      margin-top: 8px;
+    }
+
+    .guide-card {
+      width: 100%;
+      max-width: 1200px;
+      padding: 20px 24px;
+      background: rgba(23, 19, 74, 0.4);
+      border-radius: 12px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      box-sizing: border-box;
+      margin: 20px 0 40px 0;
+    }
+
+    .guide-card h3 {
+      margin-top: 0;
+      color: #ff7a93;
+    }
+
+    .guide-card ol {
+      padding-left: 20px;
+      line-height: 1.6;
+      color: #e0e0e0;
+    }
+  </style>
+</head>
+<body>
+  <div class="studio-header">
+    <div class="studio-title">
+      🎬 Swipe Panic <span>· Studio Trailer 20s</span>
+    </div>
+    <a href="./" style="color: #00e5ff; text-decoration: none; font-weight: 700;">← Retour au site</a>
+  </div>
+
+  <div class="controls-panel">
+    <div class="control-group">
+      <button id="btnPlay" class="btn btn-primary">▶ Lancer la Démo</button>
+      <button id="btnRecord" class="btn btn-record">🔴 Enregistrer la Vidéo (HD 1080p)</button>
+    </div>
+
+    <div class="control-group">
+      <label for="selectRatio" style="font-size: 13px; font-weight: 700;">Format :</label>
+      <select id="selectRatio">
+        <option value="16:9">16:9 Paysage (1920x1080) — Google Play & YouTube</option>
+        <option value="9:16">9:16 Vertical (1080x1920) — TikTok, Shorts & Reels</option>
+      </select>
+
+      <label for="selectLang" style="font-size: 13px; font-weight: 700; margin-left: 10px;">Langue :</label>
+      <select id="selectLang">
+        <option value="fr">🇫🇷 Français</option>
+        <option value="en">🇬🇧 English</option>
+        <option value="es">🇪🇸 Español</option>
+        <option value="de">🇩🇪 Deutsch</option>
+        <option value="nl">🇳🇱 Nederlands</option>
+        <option value="pt">🇵🇹 Português</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="canvas-container">
+    <canvas id="trailerCanvas" width="1920" height="1080"></canvas>
+    <div class="timeline-bar">
+      <div id="timelineProgress" class="timeline-progress"></div>
+    </div>
+    <div id="statusBadge" class="status-badge">Prêt · Durée : 20.0 secondes</div>
+  </div>
+
+  <div class="guide-card">
+    <h3>💡 Comment utiliser cette vidéo pour Google Play & TikTok</h3>
+    <ol>
+      <li><strong>Format 16:9 (Google Play) :</strong> Cliquez sur <strong>« 🔴 Enregistrer la Vidéo »</strong>. Le navigateur enregistre automatiquement les 20 secondes à 60 FPS en 1080p et télécharge le fichier vidéo <code>swipe_panic_trailer_1080p.webm</code>.</li>
+      <li>Uploadez la vidéo sur votre chaîne YouTube (titre : <em>Swipe Panic - Jeu de Soirée & Couple (Trailer Officiel)</em>).</li>
+      <li>Dans la <strong>Google Play Console</strong>, sous <em>Fiche principale du magasin > Vidéo promotionnelle</em>, collez simplement le lien YouTube.</li>
+      <li><strong>Format 9:16 (TikTok / Reels) :</strong> Basculez sur le format 9:16 pour générer la vidéo verticale prête à poster sur <code>@swipepanicapp</code> !</li>
+    </ol>
+  </div>
+
+  <script>
+    // Audio synthesizer via Web Audio API (zero external assets needed)
+    let audioCtx = null;
+    function getAudioCtx() {
+      if (!audioCtx) {
+        audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      }
+      if (audioCtx.state === 'suspended') {
+        audioCtx.resume();
+      }
+      return audioCtx;
+    }
+
+    function playSfx(type) {
+      const ctx = getAudioCtx();
+      if (!ctx) return;
+      const t = ctx.currentTime;
+
+      if (type === 'tick') {
+        const osc = ctx.createOscillator();
+        const g = ctx.createGain();
+        osc.type = 'sine';
+        osc.frequency.setValueAtTime(800, t);
+        osc.frequency.exponentialRampToValueAtTime(400, t + 0.05);
+        g.gain.setValueAtTime(0.3, t);
+        g.gain.exponentialRampToValueAtTime(0.001, t + 0.05);
+        osc.connect(g);
+        g.connect(ctx.destination);
+        osc.start(t);
+        osc.stop(t + 0.06);
+      } else if (type === 'buzzer') {
+        const osc = ctx.createOscillator();
+        const g = ctx.createGain();
+        osc.type = 'sawtooth';
+        osc.frequency.setValueAtTime(140, t);
+        osc.frequency.linearRampToValueAtTime(90, t + 0.28);
+        g.gain.setValueAtTime(0.4, t);
+        g.gain.exponentialRampToValueAtTime(0.001, t + 0.3);
+        osc.connect(g);
+        g.connect(ctx.destination);
+        osc.start(t);
+        osc.stop(t + 0.32);
+      } else if (type === 'gong') {
+        const osc = ctx.createOscillator();
+        const osc2 = ctx.createOscillator();
+        const g = ctx.createGain();
+        osc.type = 'sine';
+        osc2.type = 'triangle';
+        osc.frequency.setValueAtTime(110, t);
+        osc2.frequency.setValueAtTime(114, t);
+        g.gain.setValueAtTime(0.6, t);
+        g.gain.exponentialRampToValueAtTime(0.001, t + 1.2);
+        osc.connect(g);
+        osc2.connect(g);
+        g.connect(ctx.destination);
+        osc.start(t);
+        osc2.start(t);
+        osc.stop(t + 1.3);
+        osc2.stop(t + 1.3);
+      } else if (type === 'fanfare') {
+        [440, 554, 659, 880].forEach((freq, i) => {
+          const osc = ctx.createOscillator();
+          const g = ctx.createGain();
+          osc.type = 'triangle';
+          osc.frequency.setValueAtTime(freq, t + i * 0.08);
+          g.gain.setValueAtTime(0.3, t + i * 0.08);
+          g.gain.exponentialRampToValueAtTime(0.001, t + i * 0.08 + 0.3);
+          osc.connect(g);
+          g.connect(ctx.destination);
+          osc.start(t + i * 0.08);
+          osc.stop(t + i * 0.08 + 0.32);
+        });
+      } else if (type === 'whoosh') {
+        const osc = ctx.createOscillator();
+        const g = ctx.createGain();
+        osc.type = 'sine';
+        osc.frequency.setValueAtTime(250, t);
+        osc.frequency.exponentialRampToValueAtTime(750, t + 0.15);
+        g.gain.setValueAtTime(0.2, t);
+        g.gain.exponentialRampToValueAtTime(0.001, t + 0.18);
+        osc.connect(g);
+        g.connect(ctx.destination);
+        osc.start(t);
+        osc.stop(t + 0.2);
+      }
+    }
+
+    // Texts for all 6 languages
+    const I18N = {
+      fr: {
+        hook1: "L'APÉRO ALLAIT TROP BIEN...",
+        hook2: "Puis quelqu'un a sorti Swipe Panic. 😈",
+        card1Title: "🚩 RED FLAG OU GREEN FLAG ?",
+        card1Text: "« Avoir le code du téléphone de son/sa partenaire après 2 ans de relation. »",
+        card1ChoiceLeft: "REJETÉ ❌",
+        card1ChoiceRight: "ACCEPTÉ 🟢",
+        card1Consensus: "82% DU MONDE A DIT REJETÉ !",
+        duelTitle: "⚔️ MODE DUEL FLASH (1 TÉLÉPHONE)",
+        duelText: "« Passer la nuit chez son ex 'juste pour parler' »",
+        duelClash: "💥 CLASH EXPLOSIF !",
+        duelCompatibility: "35% DE COMPLICITÉ · DANGER !",
+        packsTitle: "900+ DILEMMES CLIVANTS",
+        packsSub: "16 PACKS OFFICIELS · DUEL · SOIRÉE · SOLO",
+        ctaTitle: "SWIPE PANIC",
+        ctaSub: "Télécharge gratuitement sur Google Play",
+        ctaFeatures: "✨ 100% Hors-ligne · Sans compte · Rires garantis"
+      },
+      en: {
+        hook1: "THE PARTY WAS GOING GREAT...",
+        hook2: "Then someone pulled out Swipe Panic. 😈",
+        card1Title: "🚩 RED FLAG OR GREEN FLAG?",
+        card1Text: "“Having your partner's phone passcode after 2 years of dating.”",
+        card1ChoiceLeft: "REJECTED ❌",
+        card1ChoiceRight: "ACCEPTED 🟢",
+        card1Consensus: "82% OF THE WORLD REJECTED THIS!",
+        duelTitle: "⚔️ FLASH DUEL MODE (1 PHONE)",
+        duelText: "“Sleeping over at your ex's place 'just to talk'”",
+        duelClash: "💥 EXPLOSIVE CLASH!",
+        duelCompatibility: "35% COMPATIBILITY · DANGER!",
+        packsTitle: "900+ SHARP DILEMMAS",
+        packsSub: "16 OFFICIAL PACKS · DUEL · PARTY · SOLO",
+        ctaTitle: "SWIPE PANIC",
+        ctaSub: "Download free on Google Play",
+        ctaFeatures: "✨ 100% Offline · No account · Pure fun"
+      },
+      es: {
+        hook1: "LA FIESTA IBA DE MARAVILLA...",
+        hook2: "Hasta que alguien sacó Swipe Panic. 😈",
+        card1Title: "🚩 ¿RED FLAG O GREEN FLAG?",
+        card1Text: "«Tener la contraseña del móvil de tu pareja tras 2 años juntos.»",
+        card1ChoiceLeft: "RECHAZADO ❌",
+        card1ChoiceRight: "ACEPTADO 🟢",
+        card1Consensus: "¡EL 82% DEL MUNDO DIJO QUE NO!",
+        duelTitle: "⚔️ MODO DUELO FLASH (1 MÓVIL)",
+        duelText: "«Dormir en casa de tu ex 'solo para hablar'»",
+        duelClash: "💥 ¡CHOQUE EXPLOSIVO!",
+        duelCompatibility: "35% DE COMPATIBILIDAD · ¡PELIGRO!",
+        packsTitle: "MÁS DE 900 DILEMAS",
+        packsSub: "16 PACKS OFICIALES · DUELO · FIESTA · SOLO",
+        ctaTitle: "SWIPE PANIC",
+        ctaSub: "Descarga gratis en Google Play",
+        ctaFeatures: "✨ 100% Sin conexión · Sin cuenta · Risas aseguradas"
+      },
+      de: {
+        hook1: "DIE PARTY WAR SO ENTSPANNT...",
+        hook2: "Bis jemand Swipe Panic öffnete. 😈",
+        card1Title: "🚩 RED FLAG ODER GREEN FLAG?",
+        card1Text: "„Den Handy-Pin des Partners nach 2 Jahren Beziehung kennen.“",
+        card1ChoiceLeft: "ABGELEHNT ❌",
+        card1ChoiceRight: "AKZEPTIERT 🟢",
+        card1Consensus: "82% DER WELT SAGT: ABLEHNEN!",
+        duelTitle: "⚔️ FLASH-DUELL-MODUS (1 SMARTPHONE)",
+        duelText: "„Beim Ex übernachten 'nur zum Reden'“",
+        duelClash: "💥 EXPLOSIVER CLASH!",
+        duelCompatibility: "35% ÜBEREINSTIMMUNG · GEFAHR!",
+        packsTitle: "900+ HEISSE DILEMMATA",
+        packsSub: "16 OFFIZIELLE PACKS · DUELL · PARTY · SOLO",
+        ctaTitle: "SWIPE PANIC",
+        ctaSub: "Kostenlos bei Google Play laden",
+        ctaFeatures: "✨ 100% Offline · Ohne Account · Lachanfälle garantiert"
+      },
+      nl: {
+        hook1: "HET WAS ZO'N GEZELLIGE AVOND...",
+        hook2: "Tot iemand Swipe Panic opstartte. 😈",
+        card1Title: "🚩 RED FLAG OF GREEN FLAG?",
+        card1Text: "„De toegangscode van je partner kennen na 2 jaar relatie.”",
+        card1ChoiceLeft: "GEWEIGERD ❌",
+        card1ChoiceRight: "GEACCEPTEERD 🟢",
+        card1Consensus: "82% VAN DE WERELD WEIGERT DIT!",
+        duelTitle: "⚔️ FLASH DUEL MODUS (1 TELEFOON)",
+        duelText: "„Blijven slapen bij je ex 'gewoon om te praten'”",
+        duelClash: "💥 EXPLOSIEVE CLASH!",
+        duelCompatibility: "35% COMPATIBILITEIT · GEVAARLIJK!",
+        packsTitle: "900+ HILARISCHE DILEMMA'S",
+        packsSub: "16 OFFICIËLE PACKS · DUEL · PARTY · SOLO",
+        ctaTitle: "SWIPE PANIC",
+        ctaSub: "Gratis downloaden op Google Play",
+        ctaFeatures: "✨ 100% Offline · Zonder account · Gegarandeerd lachen"
+      },
+      pt: {
+        hook1: "A NOITE ESTAVA TÃO BOA...",
+        hook2: "Até alguém abrir o Swipe Panic. 😈",
+        card1Title: "🚩 RED FLAG OU GREEN FLAG?",
+        card1Text: "«Ter a palavra-passe do telemóvel do parceiro após 2 anos de namoro.»",
+        card1ChoiceLeft: "REJEITADO ❌",
+        card1ChoiceRight: "ACEITE 🟢",
+        card1Consensus: "82% DO MUNDO REJEITOU!",
+        duelTitle: "⚔️ MODO DUELO FLASH (1 TELEMÓVEL)",
+        duelText: "«Passar a noite em casa do ex 'só para conversar'»",
+        duelClash: "💥 CLASH EXPLOSIVO!",
+        duelCompatibility: "35% DE COMPATIBILIDADE · PERIGO!",
+        packsTitle: "900+ DILEMAS POLÉMICOS",
+        packsSub: "16 PACKS OFICIAIS · DUELO · FESTA · SOLO",
+        ctaTitle: "SWIPE PANIC",
+        ctaSub: "Descarrega grátis no Google Play",
+        ctaFeatures: "✨ 100% Offline · Sem conta · Risos garantidos"
+      }
+    };
+
+    const canvas = document.getElementById('trailerCanvas');
+    const ctx = canvas.getContext('2d');
+    const btnPlay = document.getElementById('btnPlay');
+    const btnRecord = document.getElementById('btnRecord');
+    const selectRatio = document.getElementById('selectRatio');
+    const selectLang = document.getElementById('selectLang');
+    const timelineProgress = document.getElementById('timelineProgress');
+    const statusBadge = document.getElementById('statusBadge');
+
+    let isPlaying = false;
+    let isRecording = false;
+    let startTime = 0;
+    const DURATION = 20.0; // 20 seconds
+    let sfxPlayed = {};
+
+    // Mascot images
+    const imgShock = new Image(); imgShock.src = './assets/mascot_shock.png';
+    const imgLaugh = new Image(); imgLaugh.src = './assets/mascot_laugh.png';
+    const imgLogo = new Image(); imgLogo.src = './assets/logo-source.png';
+
+    function setDimensions() {
+      if (selectRatio.value === '9:16') {
+        canvas.width = 1080;
+        canvas.height = 1920;
+      } else {
+        canvas.width = 1920;
+        canvas.height = 1080;
+      }
+    }
+
+    selectRatio.addEventListener('change', () => {
+      setDimensions();
+      renderFrame(0);
+    });
+
+    selectLang.addEventListener('change', () => {
+      renderFrame(0);
+    });
+
+    function triggerSfx(id, type) {
+      if (!sfxPlayed[id]) {
+        sfxPlayed[id] = true;
+        playSfx(type);
+      }
+    }
+
+    function renderFrame(timeSec) {
+      const W = canvas.width;
+      const H = canvas.height;
+      const lang = selectLang.value || 'fr';
+      const text = I18N[lang] || I18N.fr;
+      const isVertical = H > W;
+
+      // Dark futuristic background gradient
+      const bgGrad = ctx.createRadialGradient(W / 2, H / 2, 50, W / 2, H / 2, W * 0.8);
+      bgGrad.addColorStop(0, '#1c144a');
+      bgGrad.addColorStop(0.6, '#0f0b29');
+      bgGrad.addColorStop(1, '#050312');
+      ctx.fillStyle = bgGrad;
+      ctx.fillRect(0, 0, W, H);
+
+      // Subtle cyber grid
+      ctx.strokeStyle = 'rgba(0, 229, 255, 0.05)';
+      ctx.lineWidth = 1;
+      const gridSize = 60;
+      for (let x = 0; x < W; x += gridSize) {
+        ctx.beginPath(); ctx.moveTo(x, 0); ctx.lineTo(x, H); ctx.stroke();
+      }
+      for (let y = 0; y < H; y += gridSize) {
+        ctx.beginPath(); ctx.moveTo(0, y); ctx.lineTo(W, y); ctx.stroke();
+      }
+
+      // ==========================================
+      // SCENE 1: 0.0s - 4.2s (THE HOOK)
+      // ==========================================
+      if (timeSec >= 0 && timeSec < 4.2) {
+        const p = timeSec / 4.2;
+        if (timeSec > 0.1) triggerSfx('s1_tick', 'tick');
+        if (timeSec > 1.8) triggerSfx('s1_alarm', 'buzzer');
+
+        ctx.save();
+        ctx.textAlign = 'center';
+
+        // Title 1
+        ctx.font = `900 ${isVertical ? 58 : 68}px sans-serif`;
+        ctx.fillStyle = '#ffffff';
+        ctx.shadowColor = '#00e5ff';
+        ctx.shadowBlur = 20;
+        ctx.fillText(text.hook1, W / 2, H * 0.3);
+        ctx.shadowBlur = 0;
+
+        // Mascot Shock pop-in
+        if (imgShock.complete && imgShock.naturalWidth) {
+          const mascotScale = Math.min(1, p * 3);
+          const mw = (isVertical ? 360 : 420) * mascotScale;
+          const mh = (isVertical ? 360 : 420) * mascotScale;
+          ctx.drawImage(imgShock, (W - mw) / 2, (H - mh) / 2, mw, mh);
+        }
+
+        // Title 2 (After 1.8s)
+        if (timeSec > 1.8) {
+          ctx.font = `800 ${isVertical ? 46 : 54}px sans-serif`;
+          ctx.fillStyle = '#ff7a93';
+          ctx.fillText(text.hook2, W / 2, H * 0.78);
+        }
+
+        ctx.restore();
+      }
+
+      // ==========================================
+      // SCENE 2: 4.2s - 9.5s (CARD SWIPE & CONSENSUS)
+      // ==========================================
+      else if (timeSec >= 4.2 && timeSec < 9.5) {
+        const p = (timeSec - 4.2) / 5.3;
+        if (timeSec > 4.4) triggerSfx('s2_tick', 'tick');
+        if (timeSec > 6.8) triggerSfx('s2_whoosh', 'whoosh');
+        if (timeSec > 7.1) triggerSfx('s2_buzz', 'buzzer');
+
+        ctx.save();
+        ctx.textAlign = 'center';
+
+        // Header
+        ctx.font = `900 ${isVertical ? 50 : 54}px sans-serif`;
+        ctx.fillStyle = '#ff1744';
+        ctx.fillText(text.card1Title, W / 2, H * 0.16);
+
+        // Dilemma Card
+        let cardX = W / 2;
+        let cardRot = 0;
+        if (timeSec > 6.8) {
+          const swipeT = (timeSec - 6.8) / 0.8;
+          cardX = (W / 2) - Math.min(1, swipeT) * (W * 0.65);
+          cardRot = -0.22 * Math.min(1, swipeT);
+        }
+
+        const cardW = isVertical ? W * 0.82 : 720;
+        const cardH = isVertical ? 560 : 400;
+
+        ctx.save();
+        ctx.translate(cardX, H * 0.46);
+        ctx.rotate(cardRot);
+
+        // Card Glow
+        ctx.shadowColor = timeSec > 6.8 ? '#ff1744' : '#00e5ff';
+        ctx.shadowBlur = 30;
+        ctx.fillStyle = '#1e1648';
+        ctx.strokeStyle = timeSec > 6.8 ? '#ff1744' : '#00e5ff';
+        ctx.lineWidth = 4;
+        ctx.beginPath();
+        ctx.roundRect(-cardW / 2, -cardH / 2, cardW, cardH, 24);
+        ctx.fill();
+        ctx.stroke();
+        ctx.shadowBlur = 0;
+
+        // Card text
+        ctx.fillStyle = '#ffffff';
+        ctx.font = `700 ${isVertical ? 38 : 36}px sans-serif`;
+        const lines = [
+          text.card1Text.slice(0, 32),
+          text.card1Text.slice(32, 68),
+          text.card1Text.slice(68)
+        ];
+        lines.forEach((l, i) => {
+          ctx.fillText(l.trim(), 0, -cardH * 0.12 + i * 46);
+        });
+
+        // Swipe indicators
+        ctx.font = '800 28px sans-serif';
+        ctx.fillStyle = 'rgba(255, 23, 68, 0.9)';
+        ctx.fillText(text.card1ChoiceLeft, -cardW * 0.3, cardH * 0.35);
+        ctx.fillStyle = 'rgba(0, 230, 118, 0.9)';
+        ctx.fillText(text.card1ChoiceRight, cardW * 0.3, cardH * 0.35);
+
+        ctx.restore();
+
+        // Consensus verdict bar (After 7.3s)
+        if (timeSec > 7.3) {
+          ctx.font = `900 ${isVertical ? 42 : 46}px sans-serif`;
+          ctx.fillStyle = '#00e5ff';
+          ctx.fillText(text.card1Consensus, W / 2, H * 0.84);
+
+          // Consensus bar
+          const barW = Math.min(W * 0.75, 600);
+          const barH = 26;
+          ctx.fillStyle = 'rgba(255, 255, 255, 0.15)';
+          ctx.roundRect((W - barW) / 2, H * 0.88, barW, barH, 13);
+          ctx.fill();
+
+          ctx.fillStyle = '#ff1744';
+          ctx.roundRect((W - barW) / 2, H * 0.88, barW * 0.82, barH, 13);
+          ctx.fill();
+        }
+
+        ctx.restore();
+      }
+
+      // ==========================================
+      // SCENE 3: 9.5s - 14.5s (FACE-TO-FACE DUEL)
+      // ==========================================
+      else if (timeSec >= 9.5 && timeSec < 14.5) {
+        if (timeSec > 9.7) triggerSfx('s3_tick', 'tick');
+        if (timeSec > 11.8) triggerSfx('s3_gong', 'gong');
+
+        ctx.save();
+        ctx.textAlign = 'center';
+
+        // Title
+        ctx.font = `900 ${isVertical ? 48 : 52}px sans-serif`;
+        ctx.fillStyle = '#00e5ff';
+        ctx.fillText(text.duelTitle, W / 2, H * 0.15);
+
+        // Split Phone Screen
+        const phoneW = isVertical ? W * 0.85 : 540;
+        const phoneH = isVertical ? 720 : 540;
+        const px = (W - phoneW) / 2;
+        const py = H * 0.24;
+
+        ctx.fillStyle = '#150f38';
+        ctx.strokeStyle = '#9d4edd';
+        ctx.lineWidth = 4;
+        ctx.beginPath();
+        ctx.roundRect(px, py, phoneW, phoneH, 32);
+        ctx.fill();
+        ctx.stroke();
+
+        // Player 2 (Top inverted)
+        ctx.save();
+        ctx.translate(W / 2, py + phoneH * 0.25);
+        ctx.rotate(Math.PI);
+        ctx.font = '700 24px sans-serif';
+        ctx.fillStyle = '#ff7a93';
+        ctx.fillText('JOUEUR 2 (FACE-À-FACE)', 0, -40);
+        ctx.fillStyle = '#ff1744';
+        ctx.fillText('NON ❌', 0, 10);
+        ctx.restore();
+
+        // Divider
+        ctx.strokeStyle = 'rgba(255, 255, 255, 0.2)';
+        ctx.lineWidth = 2;
+        ctx.beginPath();
+        ctx.moveTo(px + 20, py + phoneH / 2);
+        ctx.lineTo(px + phoneW - 20, py + phoneH / 2);
+        ctx.stroke();
+
+        // Player 1 (Bottom)
+        ctx.font = '700 24px sans-serif';
+        ctx.fillStyle = '#00e5ff';
+        ctx.fillText('JOUEUR 1', W / 2, py + phoneH * 0.68);
+        ctx.fillStyle = '#00e676';
+        ctx.fillText('OUI 🟢', W / 2, py + phoneH * 0.82);
+
+        // Clash explosion overlay (After 11.8s)
+        if (timeSec > 11.8) {
+          ctx.fillStyle = 'rgba(255, 23, 68, 0.88)';
+          ctx.font = `900 ${isVertical ? 54 : 64}px sans-serif`;
+          ctx.shadowColor = '#ff1744';
+          ctx.shadowBlur = 24;
+          ctx.fillText(text.duelClash, W / 2, H * 0.52);
+          ctx.shadowBlur = 0;
+
+          ctx.font = `800 ${isVertical ? 38 : 42}px sans-serif`;
+          ctx.fillStyle = '#ffffff';
+          ctx.fillText(text.duelCompatibility, W / 2, H * 0.88);
+        }
+
+        ctx.restore();
+      }
+
+      // ==========================================
+      // SCENE 4: 14.5s - 17.5s (16 PACKS & DEPTH)
+      // ==========================================
+      else if (timeSec >= 14.5 && timeSec < 17.5) {
+        if (timeSec > 14.7) triggerSfx('s4_whoosh', 'whoosh');
+
+        ctx.save();
+        ctx.textAlign = 'center';
+
+        ctx.font = `900 ${isVertical ? 58 : 64}px sans-serif`;
+        ctx.fillStyle = '#00e5ff';
+        ctx.shadowColor = '#00e5ff';
+        ctx.shadowBlur = 20;
+        ctx.fillText(text.packsTitle, W / 2, H * 0.22);
+        ctx.shadowBlur = 0;
+
+        ctx.font = `700 ${isVertical ? 32 : 36}px sans-serif`;
+        ctx.fillStyle = '#e0e0e0';
+        ctx.fillText(text.packsSub, W / 2, H * 0.32);
+
+        // Pack badges cloud
+        const packs = [
+          '🚩 Toxique ou Légitime ?', '💸 Argent & Radins',
+          '🏠 Colocs de l\'Enfer', '⚡ Gen Z vs Millennials',
+          '🔥 Action ou Vérité', '🧠 Quiz Pop-Culture',
+          '🎃 Spécial Halloween', '❄️ Fêtes d\'Hiver'
+        ];
+
+        const cols = isVertical ? 2 : 4;
+        const itemW = isVertical ? W * 0.42 : 360;
+        const itemH = 68;
+
+        packs.forEach((p, idx) => {
+          const col = idx % cols;
+          const row = Math.floor(idx / cols);
+          const startX = (W - (cols * itemW + (cols - 1) * 16)) / 2;
+          const x = startX + col * (itemW + 16);
+          const y = H * 0.42 + row * (itemH + 16);
+
+          ctx.fillStyle = 'rgba(23, 19, 74, 0.85)';
+          ctx.strokeStyle = idx % 2 === 0 ? '#00e5ff' : '#ff7a93';
+          ctx.lineWidth = 2;
+          ctx.beginPath();
+          ctx.roundRect(x, y, itemW, itemH, 16);
+          ctx.fill();
+          ctx.stroke();
+
+          ctx.font = '800 20px sans-serif';
+          ctx.fillStyle = '#ffffff';
+          ctx.fillText(p, x + itemW / 2, y + itemH / 2 + 7);
+        });
+
+        ctx.restore();
+      }
+
+      // ==========================================
+      // SCENE 5: 17.5s - 20.0s (CALL TO ACTION)
+      // ==========================================
+      else if (timeSec >= 17.5) {
+        if (timeSec > 17.6) triggerSfx('s5_fanfare', 'fanfare');
+
+        ctx.save();
+        ctx.textAlign = 'center';
+
+        // Logo pop
+        if (imgLogo.complete && imgLogo.naturalWidth) {
+          const logoS = isVertical ? 160 : 180;
+          ctx.drawImage(imgLogo, (W - logoS) / 2, H * 0.16, logoS, logoS);
+        }
+
+        // Title
+        ctx.font = `900 ${isVertical ? 64 : 72}px sans-serif`;
+        ctx.fillStyle = '#ffffff';
+        ctx.shadowColor = '#ff007f';
+        ctx.shadowBlur = 24;
+        ctx.fillText(text.ctaTitle, W / 2, H * 0.45);
+        ctx.shadowBlur = 0;
+
+        // Subtitle
+        ctx.font = `800 ${isVertical ? 38 : 42}px sans-serif`;
+        ctx.fillStyle = '#00e5ff';
+        ctx.fillText(text.ctaSub, W / 2, H * 0.58);
+
+        // Features
+        ctx.font = `600 ${isVertical ? 26 : 30}px sans-serif`;
+        ctx.fillStyle = 'rgba(255, 255, 255, 0.85)';
+        ctx.fillText(text.ctaFeatures, W / 2, H * 0.70);
+
+        // Play Store Badge Mockup
+        const badgeW = isVertical ? 420 : 480;
+        const badgeH = 72;
+        ctx.fillStyle = '#000000';
+        ctx.strokeStyle = '#00e5ff';
+        ctx.lineWidth = 3;
+        ctx.beginPath();
+        ctx.roundRect((W - badgeW) / 2, H * 0.78, badgeW, badgeH, 16);
+        ctx.fill();
+        ctx.stroke();
+
+        ctx.font = '900 26px sans-serif';
+        ctx.fillStyle = '#ffffff';
+        ctx.fillText('▶ GOOGLE PLAY · 100% GRATUIT', W / 2, H * 0.78 + badgeH / 2 + 9);
+
+        ctx.restore();
+      }
+    }
+
+    // Main Animation Loop
+    let animId = null;
+    function loop() {
+      if (!isPlaying) return;
+      const now = performance.now();
+      const elapsed = (now - startTime) / 1000;
+
+      if (elapsed >= DURATION) {
+        isPlaying = false;
+        timelineProgress.style.width = '100%';
+        statusBadge.textContent = 'Terminé ! 20.0s écoulées';
+        btnPlay.textContent = '▶ Rejouer la Démo';
+        if (isRecording) stopRecording();
+        return;
+      }
+
+      const progressPct = (elapsed / DURATION) * 100;
+      timelineProgress.style.width = progressPct + '%';
+      statusBadge.textContent = `Lecture en cours : ${elapsed.toFixed(1)}s / ${DURATION}s`;
+
+      renderFrame(elapsed);
+      animId = requestAnimationFrame(loop);
+    }
+
+    function startPlay() {
+      isPlaying = true;
+      startTime = performance.now();
+      sfxPlayed = {};
+      btnPlay.textContent = '⏸ Pause';
+      loop();
+    }
+
+    btnPlay.addEventListener('click', () => {
+      if (isPlaying) {
+        isPlaying = false;
+        cancelAnimationFrame(animId);
+        btnPlay.textContent = '▶ Reprendre';
+      } else {
+        startPlay();
+      }
+    });
+
+    // Recording logic (MediaRecorder directly from Canvas)
+    let mediaRecorder = null;
+    let recordedChunks = [];
+
+    function startRecording() {
+      setDimensions();
+      const stream = canvas.captureStream(60); // 60 FPS
+      recordedChunks = [];
+
+      try {
+        mediaRecorder = new MediaRecorder(stream, {
+          mimeType: 'video/webm;codecs=vp9',
+          videoBitsPerSecond: 10000000 // 10 Mbps crisp HD
+        });
+      } catch (e) {
+        mediaRecorder = new MediaRecorder(stream);
+      }
+
+      mediaRecorder.ondataavailable = (e) => {
+        if (e.data.size > 0) recordedChunks.push(e.data);
+      };
+
+      mediaRecorder.onstop = () => {
+        const blob = new Blob(recordedChunks, { type: 'video/webm' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        const ratioTag = selectRatio.value === '9:16' ? 'vertical_9_16' : 'landscape_16_9';
+        a.download = `swipe_panic_trailer_20s_${ratioTag}_${selectLang.value}.webm`;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+        isRecording = false;
+        btnRecord.classList.remove('recording');
+        btnRecord.textContent = '🔴 Enregistrer la Vidéo (HD 1080p)';
+        statusBadge.textContent = '✅ Fichier vidéo exporté et téléchargé avec succès !';
+      };
+
+      isRecording = true;
+      btnRecord.classList.add('recording');
+      btnRecord.textContent = '⏹ Enregistrement en cours (20s)...';
+      mediaRecorder.start();
+      startPlay();
+    }
+
+    function stopRecording() {
+      if (mediaRecorder && mediaRecorder.state !== 'inactive') {
+        mediaRecorder.stop();
+      }
+    }
+
+    btnRecord.addEventListener('click', () => {
+      if (isRecording) {
+        stopRecording();
+      } else {
+        startRecording();
+      }
+    });
+
+    // Initial render
+    setDimensions();
+    renderFrame(0);
+  </script>
+</body>
+</html>
