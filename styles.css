@@ -273,10 +273,9 @@ body.theme-winter .hero-theme-chip[data-theme="winter"].active {
   overflow: hidden;
   border-bottom: 1px solid var(--line);
   background:
-    radial-gradient(circle at 85% 30%, rgba(255, 0, 85, 0.24), transparent 45rem),
-    radial-gradient(circle at 15% 70%, rgba(0, 229, 255, 0.20), transparent 40rem),
-    radial-gradient(circle at 50% 15%, rgba(124, 77, 255, 0.28), transparent 35rem),
-    linear-gradient(135deg, #07091e 0%, #0d1238 46%, #17134a 100%);
+    linear-gradient(90deg, rgba(5, 10, 45, 0.90) 0%, rgba(5, 10, 45, 0.54) 44%, rgba(5, 10, 45, 0.16) 100%),
+    linear-gradient(180deg, rgba(5, 10, 45, 0.22) 0%, rgba(5, 10, 45, 0.85) 100%),
+    url("./assets/hero-characters.jpg") center / cover no-repeat;
 }
 
 .hero-content {
@@ -575,9 +574,8 @@ footer {
   .hero {
     min-height: 680px;
     background:
-      radial-gradient(circle at 85% 25%, rgba(255, 0, 85, 0.25), transparent 30rem),
-      radial-gradient(circle at 15% 75%, rgba(0, 229, 255, 0.22), transparent 28rem),
-      linear-gradient(180deg, #07091e 0%, #0d1238 54%, #17134a 100%);
+      linear-gradient(180deg, rgba(5, 10, 45, 0.35) 0%, rgba(5, 10, 45, 0.92) 72%),
+      url("./assets/hero-characters.jpg") 68% center / cover no-repeat;
   }
 
   .feature-grid,
@@ -1396,9 +1394,9 @@ body.theme-halloween {
 
 body.theme-halloween .hero {
   background:
-    radial-gradient(circle at 85% 30%, rgba(255, 123, 0, 0.28), transparent 45rem),
-    radial-gradient(circle at 15% 70%, rgba(147, 51, 234, 0.25), transparent 40rem),
-    linear-gradient(135deg, #10061a 0%, #1a082c 46%, #280a3c 100%);
+    linear-gradient(90deg, rgba(16, 6, 26, 0.92) 0%, rgba(28, 10, 45, 0.62) 45%, rgba(45, 12, 68, 0.25) 100%),
+    linear-gradient(180deg, rgba(255, 123, 0, 0.14) 0%, rgba(16, 6, 26, 0.90) 100%),
+    url("./assets/hero-characters.jpg") center / cover no-repeat;
   border-bottom-color: rgba(255, 123, 0, 0.35);
 }
 
@@ -1436,9 +1434,9 @@ body.theme-winter {
 
 body.theme-winter .hero {
   background:
-    radial-gradient(circle at 85% 30%, rgba(0, 212, 255, 0.28), transparent 45rem),
-    radial-gradient(circle at 15% 70%, rgba(165, 243, 252, 0.20), transparent 40rem),
-    linear-gradient(135deg, #030d1e 0%, #081938 46%, #0e2a56 100%);
+    linear-gradient(90deg, rgba(3, 13, 30, 0.92) 0%, rgba(8, 25, 56, 0.62) 45%, rgba(14, 42, 86, 0.25) 100%),
+    linear-gradient(180deg, rgba(0, 212, 255, 0.14) 0%, rgba(3, 13, 30, 0.90) 100%),
+    url("./assets/hero-characters.jpg") center / cover no-repeat;
   border-bottom-color: rgba(0, 212, 255, 0.35);
 }
 
@@ -1782,4 +1780,80 @@ body.theme-winter .daily-dilemma-card {
   .store-cta-visual {
     order: -1;
   }
+}
+
+
+/* Character artwork banners & mascot avatars (100% text-free artwork) */
+.phone-cast-banner {
+  margin-bottom: 12px;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 2px solid rgba(255, 255, 255, 0.22);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.45);
+}
+
+.phone-cast-banner img {
+  width: 100%;
+  height: 155px;
+  object-fit: cover;
+  object-position: center 25%;
+  display: block;
+}
+
+.phone-card-top-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.phone-card-TopMascot {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: #0d1238;
+  border: 2px solid #00e676;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.phone-card-top-row .phone-card-type {
+  margin-bottom: 0;
+}
+
+.store-characters-art {
+  border-radius: 18px;
+  overflow: hidden;
+  border: 2px solid rgba(255, 213, 40, 0.45);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.5);
+}
+
+.store-characters-art img {
+  width: 100%;
+  height: 168px;
+  object-fit: cover;
+  object-position: right center;
+  display: block;
+}
+
+.floating-card-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.floating-card-header .floating-card-tag {
+  margin-bottom: 0;
+}
+
+.floating-mascot-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: #14183d;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  flex-shrink: 0;
 }
