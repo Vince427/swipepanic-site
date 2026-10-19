@@ -2853,7 +2853,239 @@ socialScoreDesc: "As tuas escolhas de festa: {count} desafios e verdades assumid
       prepareSession();
     });
 
-    initGame();
+    // === 50/50 ASYNCHRONOUS FRIEND DUEL (?duel=12A-15B-...) ===
+    async function maybeStart5050Duel() {
+      const params = new URLSearchParams(window.location.search);
+      const duelParam = params.get('duel');
+      if (!duelParam) return false;
+
+      const langParam = (params.get('lang') || currentLang || 'fr').toLowerCase();
+      const lang = ['fr', 'en', 'es', 'de', 'nl', 'pt'].includes(langParam) ? langParam : 'fr';
+
+      const tokens = duelParam.split('-').map(s => s.trim()).filter(Boolean);
+      const parsed = [];
+      for (const tok of tokens) {
+        const m = tok.match(/^(\d+)([ABab])$/);
+        if (m) {
+          parsed.push({ id: 'impossible_' + m[1], friendChoice: m[2].toUpperCase() });
+        }
+      }
+      if (parsed.length === 0) return false;
+
+      let list = [];
+      try {
+        const res = await fetch('./daily_impossible.json');
+        if (res.ok) list = await res.json();
+      } catch (_) {}
+      if (!Array.isArray(list) || list.length === 0) return false;
+
+      const byId = {};
+      for (const item of list) byId[item.id] = item;
+
+      // Pad up to 5 cards if the sender only voted on 1-2 cards, or use exact voted cards
+      const duelItems = parsed.filter(p => byId[p.id]).map(p => ({
+        dilemma: byId[p.id],
+        friendChoice: p.friendChoice,
+      }));
+      if (duelItems.length === 0) return false;
+
+      const duelI18n = {
+        fr: {
+          badge: '⚔️ DUEL 50/50 ENTRE AMIS',
+          subtitle: 'Ton ami(e) t\'a défié ! Choisis A ou B pour voir si vous êtes d\'accord :',
+          choiceA: 'CHOIX A',
+          choiceB: 'CHOIX B',
+          agree: '✅ D\'ACCORD AVEC TON AMI(E) !',
+          disagree: '💥 DÉSACCORD TOTAL !',
+          friendVoted: 'Ton ami(e) a choisi',
+          nextBtn: 'Question suivante ➔',
+          seeResultBtn: 'Voir notre % de compatibilité 🏆',
+          resultTitle: 'COMPATIBILITÉ 50/50',
+          resultDescHigh: 'Vous avez presque le même cerveau ! 🔥',
+          resultDescMid: 'Moitié d\'accord, moitié débat explosif ! ⚡',
+          resultDescLow: 'Tout vous oppose, débat garanti au prochain apéro ! 💥',
+          downloadBtn: '📲 Télécharger Swipe Panic (Gratuit)',
+          playMoreBtn: '🎲 Jouer aux 365 Dilemmes 50/50',
+        },
+        en: {
+          badge: '⚔️ 50/50 FRIEND DUEL',
+          subtitle: 'Your friend challenged you! Pick A or B to see if you agree:',
+          choiceA: 'CHOICE A',
+          choiceB: 'CHOICE B',
+          agree: '✅ YOU AGREE WITH YOUR FRIEND!',
+          disagree: '💥 TOTAL DISAGREEMENT!',
+          friendVoted: 'Your friend picked',
+          nextBtn: 'Next dilemma ➔',
+          seeResultBtn: 'See our % compatibility 🏆',
+          resultTitle: '50/50 COMPATIBILITY',
+          resultDescHigh: 'You two share the exact same brain! 🔥',
+          resultDescMid: 'Half agreement, half explosive debate! ⚡',
+          resultDescLow: 'Complete opposites — guaranteed debate tonight! 💥',
+          downloadBtn: '📲 Download Swipe Panic (Free)',
+          playMoreBtn: '🎲 Play more 50/50 Dilemmas',
+        },
+        es: {
+          badge: '⚔️ DUELO 50/50 ENTRE AMIGOS',
+          subtitle: '¡Tu amigo/a te ha retado! Elige A o B para ver si coincidís:',
+          choiceA: 'OPCIÓN A',
+          choiceB: 'OPCIÓN B',
+          agree: '✅ ¡COINCIDES CON TU AMIGO/A!',
+          disagree: '💥 ¡DESACUERDO TOTAL!',
+          friendVoted: 'Tu amigo/a eligió',
+          nextBtn: 'Siguiente dilema ➔',
+          seeResultBtn: 'Ver nuestra compatibilidad 🏆',
+          resultTitle: 'COMPATIBILIDAD 50/50',
+          resultDescHigh: '¡Pensáis casi exactamente igual! 🔥',
+          resultDescMid: '¡Mitad acuerdo, mitad debate explosivo! ⚡',
+          resultDescLow: '¡Polos opuestos, debate garantizado! 💥',
+          downloadBtn: '📲 Descargar Swipe Panic (Gratis)',
+          playMoreBtn: '🎲 Jugar más Dilemas 50/50',
+        },
+        de: {
+          badge: '⚔️ 50/50 FREUNDES-DUELL',
+          subtitle: 'Dein Freund hat dich herausgefordert! Wähle A oder B:',
+          choiceA: 'WAHL A',
+          choiceB: 'WAHL B',
+          agree: '✅ GLEICHE MEINUNG!',
+          disagree: '💥 KOMPLETT ANDERER MEINUNG!',
+          friendVoted: 'Dein Freund wählte',
+          nextBtn: 'Nächstes Dilemma ➔',
+          seeResultBtn: 'Unsere Kompatibilität ansehen 🏆',
+          resultTitle: '50/50 KOMPATIBILITÄT',
+          resultDescHigh: 'Ihr tickt fast zu 100 % gleich! 🔥',
+          resultDescMid: 'Halb einig, halb explosiver Diskussionsstoff! ⚡',
+          resultDescLow: 'Komplette Gegensätze — Diskussion garantiert! 💥',
+          downloadBtn: '📲 Swipe Panic kostenlos laden',
+          playMoreBtn: '🎲 Weitere 50/50-Dilemmas spielen',
+        },
+        nl: {
+          badge: '⚔️ 50/50 VRIENDENDUEL',
+          subtitle: 'Je vriend daagt je uit! Kies A of B om te zien of jullie matchen:',
+          choiceA: 'KEUZE A',
+          choiceB: 'KEUZE B',
+          agree: '✅ EENS MET JE VRIEND!',
+          disagree: '💥 TOTAAL ONEENS!',
+          friendVoted: 'Je vriend koos',
+          nextBtn: 'Volgende dilemma ➔',
+          seeResultBtn: 'Bekijk onze match-% 🏆',
+          resultTitle: '50/50 MATCH',
+          resultDescHigh: 'Jullie denken bijna precies hetzelfde! 🔥',
+          resultDescMid: 'Half eens, half vurige discussie! ⚡',
+          resultDescLow: 'Tegenpolen — gegarandeerd discussie! 💥',
+          downloadBtn: '📲 Download Swipe Panic (Gratis)',
+          playMoreBtn: '🎲 Speel meer 50/50-Dilemma\'s',
+        },
+        pt: {
+          badge: '⚔️ DUELO 50/50 ENTRE AMIGOS',
+          subtitle: 'Seu amigo(a) desafiou você! Escolha A ou B para comparar:',
+          choiceA: 'OPÇÃO A',
+          choiceB: 'OPÇÃO B',
+          agree: '✅ VOCÊS CONCORDAM!',
+          disagree: '💥 DISCORDÂNCIA TOTAL!',
+          friendVoted: 'Seu amigo(a) escolheu',
+          nextBtn: 'Próximo dilema ➔',
+          seeResultBtn: 'Ver nossa % de compatibilidade 🏆',
+          resultTitle: 'COMPATIBILIDADE 50/50',
+          resultDescHigh: 'Vocês pensam quase igualzinho! 🔥',
+          resultDescMid: 'Metade acordo, metade debate explosivo! ⚡',
+          resultDescLow: 'Opostos totais — debate garantido! 💥',
+          downloadBtn: '📲 Baixar Swipe Panic (Grátis)',
+          playMoreBtn: '🎲 Jogar mais Dilemas 50/50',
+        }
+      };
+
+      const dText = duelI18n[lang] || duelI18n.fr;
+      let idx = 0;
+      let matches = 0;
+
+      const modal = document.createElement('div');
+      modal.id = 'duel5050Modal';
+      modal.style.cssText = 'position:fixed;inset:0;background:radial-gradient(circle at top,#1a103c,#090712);z-index:9000;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:20px;overflow-y:auto;color:#fff;font-family:inherit;';
+      document.body.appendChild(modal);
+
+      function renderStep() {
+        if (idx >= duelItems.length) {
+          const pct = Math.round((matches / duelItems.length) * 100);
+          const desc = pct >= 70 ? dText.resultDescHigh : (pct >= 40 ? dText.resultDescMid : dText.resultDescLow);
+          modal.innerHTML = `
+            <div style="max-width:420px;width:100%;text-align:center;background:rgba(255,255,255,0.06);border:1px solid rgba(0,229,255,0.35);border-radius:24px;padding:28px 20px;box-shadow:0 20px 50px rgba(0,0,0,0.6);">
+              <div style="display:inline-block;padding:6px 14px;border-radius:999px;background:rgba(0,229,255,0.18);color:#00e5ff;font-weight:900;font-size:12px;margin-bottom:12px;">${dText.badge}</div>
+              <div style="font-size:16px;font-weight:800;opacity:0.85;">${dText.resultTitle}</div>
+              <div style="font-size:64px;font-weight:900;margin:10px 0;background:linear-gradient(135deg,#00e5ff,#ff2a6d);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">${pct}%</div>
+              <div style="font-size:15px;color:#e0d8ff;margin-bottom:24px;line-height:1.4;">${desc} (${matches}/${duelItems.length})</div>
+              <a href="https://play.google.com/store/apps/details?id=com.vince.swipepanic" target="_blank" style="display:flex;align-items:center;justify-content:center;height:54px;border-radius:16px;background:linear-gradient(135deg,#00e5ff,#ff2a6d);color:#000;font-weight:900;font-size:15px;text-decoration:none;margin-bottom:12px;">${dText.downloadBtn}</a>
+              <button id="closeDuelBtn" style="width:100%;height:46px;border-radius:14px;background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.2);color:#fff;font-weight:800;cursor:pointer;">${dText.playMoreBtn}</button>
+            </div>
+          `;
+          document.getElementById('closeDuelBtn').onclick = () => {
+            modal.remove();
+            initGame();
+          };
+          return;
+        }
+
+        const item = duelItems[idx];
+        const textA = (item.dilemma.choiceA && (item.dilemma.choiceA[lang] || item.dilemma.choiceA.fr)) || '';
+        const textB = (item.dilemma.choiceB && (item.dilemma.choiceB[lang] || item.dilemma.choiceB.fr)) || '';
+        const rateA = item.dilemma.initialRateA || 50;
+        const rateB = item.dilemma.initialRateB || 50;
+
+        modal.innerHTML = `
+          <div style="max-width:440px;width:100%;display:flex;flex-direction:column;gap:12px;">
+            <div style="display:flex;justify-content:space-between;align-items:center;">
+              <span style="padding:5px 12px;border-radius:999px;background:rgba(0,229,255,0.18);color:#00e5ff;font-weight:900;font-size:11px;">${dText.badge}</span>
+              <span style="font-weight:800;font-size:13px;color:#b39ddb;">${idx + 1} / ${duelItems.length}</span>
+            </div>
+            <div style="font-size:13px;color:#d1c4e9;text-align:center;margin-bottom:4px;">${dText.subtitle}</div>
+            <button id="duelBtnA" style="padding:22px 18px;border-radius:20px;border:2px solid rgba(0,229,255,0.6);background:rgba(0,229,255,0.12);color:#fff;cursor:pointer;text-align:center;font-size:16px;font-weight:800;line-height:1.35;">
+              <div style="color:#00e5ff;font-size:11px;font-weight:900;margin-bottom:6px;">🅰️ ${dText.choiceA}</div>
+              <div>${textA}</div>
+              <div id="duelStatA" style="display:none;margin-top:8px;font-size:18px;color:#00e5ff;font-weight:900;">${rateA}%</div>
+            </button>
+            <div style="text-align:center;font-weight:900;font-size:15px;color:#ff2a6d;">⚡ VS ⚡</div>
+            <button id="duelBtnB" style="padding:22px 18px;border-radius:20px;border:2px solid rgba(255,42,109,0.6);background:rgba(255,42,109,0.12);color:#fff;cursor:pointer;text-align:center;font-size:16px;font-weight:800;line-height:1.35;">
+              <div style="color:#ff2a6d;font-size:11px;font-weight:900;margin-bottom:6px;">🅱️ ${dText.choiceB}</div>
+              <div>${textB}</div>
+              <div id="duelStatB" style="display:none;margin-top:8px;font-size:18px;color:#ff2a6d;font-weight:900;">${rateB}%</div>
+            </button>
+            <div id="duelFeedback" style="display:none;text-align:center;padding:12px;border-radius:14px;font-weight:900;font-size:14px;"></div>
+            <button id="duelNextBtn" style="display:none;height:50px;border-radius:16px;background:#fff;color:#000;font-weight:900;font-size:15px;border:none;cursor:pointer;">
+              ${idx + 1 < duelItems.length ? dText.nextBtn : dText.seeResultBtn}
+            </button>
+          </div>
+        `;
+
+        function pick(choice) {
+          document.getElementById('duelBtnA').disabled = true;
+          document.getElementById('duelBtnB').disabled = true;
+          document.getElementById('duelStatA').style.display = 'block';
+          document.getElementById('duelStatB').style.display = 'block';
+          const agreed = choice === item.friendChoice;
+          if (agreed) matches++;
+          const fb = document.getElementById('duelFeedback');
+          fb.style.display = 'block';
+          fb.style.background = agreed ? 'rgba(0,230,118,0.18)' : 'rgba(255,42,109,0.18)';
+          fb.style.color = agreed ? '#00e676' : '#ff6090';
+          fb.textContent = `${agreed ? dText.agree : dText.disagree} (${dText.friendVoted} ${item.friendChoice})`;
+          const nextBtn = document.getElementById('duelNextBtn');
+          nextBtn.style.display = 'block';
+          nextBtn.onclick = () => {
+            idx++;
+            renderStep();
+          };
+        }
+
+        document.getElementById('duelBtnA').onclick = () => pick('A');
+        document.getElementById('duelBtnB').onclick = () => pick('B');
+      }
+
+      renderStep();
+      return true;
+    }
+
+    maybeStart5050Duel().then((started) => {
+      if (!started) initGame();
+    });
   </script>
 </body>
 </html>
