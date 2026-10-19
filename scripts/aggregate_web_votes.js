@@ -332,12 +332,55 @@ if (require.main === module) {
       return response.text();
     })
     .then((csv) => {
-      const result = aggregateWebVotes(toRecords(csv), knownCardIds);
+      const allRecords = toRecords(csv);
+      const catalogRecords = allRecords.filter(
+        (r) => !String(r.card_id || '').startsWith('impossible_'),
+      );
+      const impossibleRecords = allRecords.filter((r) =>
+        String(r.card_id || '').startsWith('impossible_'),
+      );
+
+      const result = aggregateWebVotes(catalogRecords, knownCardIds);
       console.log(formatReport(result));
 
       const merged = mergeConsensus(existing, result.consensus);
       fs.writeFileSync(consensusPath, `${JSON.stringify(merged, null, 2)}\n`, 'utf8');
       console.log(`[web-votes] wrote ${Object.keys(merged).length} entries.`);
+
+      // Also update 50/50 dilemma percentages in daily_impossible.json
+      const impossiblePath = path.join(root, 'daily_impossible.json');
+      if (fs.existsSync(impossiblePath) && impossibleRecords.length > 0) {
+        const impossibleList = JSON.parse(fs.readFileSync(impossiblePath, 'utf8'));
+        const tally5050 = new Map();
+        for (const rec of impossibleRecords) {
+          const cid = rec.card_id;
+          const ch = rec.choice;
+          if (ch !== 'accept' && ch !== 'reject') continue;
+          if (!tally5050.has(cid)) tally5050.set(cid, { a: 0, b: 0 });
+          if (ch === 'accept') tally5050.get(cid).a++;
+          else tally5050.get(cid).b++;
+        }
+        let updated5050 = 0;
+        for (const item of impossibleList) {
+          const counts = tally5050.get(item.id);
+          if (!counts || counts.a + counts.b < 5) continue;
+          const baseTotal = 20;
+          const baseA = Math.round(((item.initialRateA || 50) / 100) * baseTotal);
+          const baseB = baseTotal - baseA;
+          const total = baseTotal + counts.a + counts.b;
+          const newRateA = Math.max(1, Math.min(99, Math.round(((baseA + counts.a) / total) * 100)));
+          const newRateB = 100 - newRateA;
+          if (item.initialRateA !== newRateA || item.initialRateB !== newRateB) {
+            item.initialRateA = newRateA;
+            item.initialRateB = newRateB;
+            updated5050++;
+          }
+        }
+        if (updated5050 > 0) {
+          fs.writeFileSync(impossiblePath, `${JSON.stringify(impossibleList, null, 2)}\n`, 'utf8');
+          console.log(`[web-votes] updated ${updated5050} 50/50 dilemmas in daily_impossible.json.`);
+        }
+      }
     })
     .catch((error) => {
       // A collector outage must not fail the whole workflow: the previous

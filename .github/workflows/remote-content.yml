@@ -105,12 +105,12 @@ jobs:
 
       - name: Commit aggregated votes
         run: |
-          if git diff --quiet -- data/live_consensus.json; then
+          if git diff --quiet -- data/live_consensus.json daily_impossible.json; then
             echo "no new web votes"
           else
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add data/live_consensus.json
+            git add data/live_consensus.json daily_impossible.json
             git commit -m "Aggregate web votes"
             git pull --rebase
             git push

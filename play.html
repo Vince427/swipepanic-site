@@ -2859,6 +2859,8 @@ socialScoreDesc: "As tuas escolhas de festa: {count} desafios e verdades assumid
       const duelParam = params.get('duel');
       if (!duelParam) return false;
 
+      await loadVoteConfig();
+
       const langParam = (params.get('lang') || currentLang || 'fr').toLowerCase();
       const lang = ['fr', 'en', 'es', 'de', 'nl', 'pt'].includes(langParam) ? langParam : 'fr';
 
@@ -2882,7 +2884,7 @@ socialScoreDesc: "As tuas escolhas de festa: {count} desafios e verdades assumid
       const byId = {};
       for (const item of list) byId[item.id] = item;
 
-      // Pad up to 5 cards if the sender only voted on 1-2 cards, or use exact voted cards
+      // Use exact voted cards from the challenge link
       const duelItems = parsed.filter(p => byId[p.id]).map(p => ({
         dilemma: byId[p.id],
         friendChoice: p.friendChoice,
@@ -3005,15 +3007,27 @@ socialScoreDesc: "As tuas escolhas de festa: {count} desafios e verdades assumid
 
       function renderStep() {
         if (idx >= duelItems.length) {
+          flushVotes();
           const pct = Math.round((matches / duelItems.length) * 100);
           const desc = pct >= 70 ? dText.resultDescHigh : (pct >= 40 ? dText.resultDescMid : dText.resultDescLow);
+          const breakdownHtml = duelItems.map((it, qIdx) => {
+            const qA = (it.dilemma.choiceA && (it.dilemma.choiceA[lang] || it.dilemma.choiceA.fr)) || '';
+            const qB = (it.dilemma.choiceB && (it.dilemma.choiceB[lang] || it.dilemma.choiceB.fr)) || '';
+            const myText = it.myChoice === 'A' ? qA : qB;
+            const icon = it.agreed ? '✅' : '💥';
+            const borderCol = it.agreed ? 'rgba(0,230,118,0.35)' : 'rgba(255,42,109,0.4)';
+            return `<div style="text-align:left;padding:8px 12px;border-radius:12px;background:rgba(255,255,255,0.04);border:1px solid ${borderCol};font-size:12px;margin-bottom:6px;">
+              <strong>${icon} Q${qIdx + 1} (${it.myChoice} vs ${it.friendChoice})</strong> : ${myText}
+            </div>`;
+          }).join('');
           modal.innerHTML = `
             <div style="max-width:420px;width:100%;text-align:center;background:rgba(255,255,255,0.06);border:1px solid rgba(0,229,255,0.35);border-radius:24px;padding:28px 20px;box-shadow:0 20px 50px rgba(0,0,0,0.6);">
               <div style="display:inline-block;padding:6px 14px;border-radius:999px;background:rgba(0,229,255,0.18);color:#00e5ff;font-weight:900;font-size:12px;margin-bottom:12px;">${dText.badge}</div>
               <div style="font-size:16px;font-weight:800;opacity:0.85;">${dText.resultTitle}</div>
               <div style="font-size:64px;font-weight:900;margin:10px 0;background:linear-gradient(135deg,#00e5ff,#ff2a6d);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">${pct}%</div>
-              <div style="font-size:15px;color:#e0d8ff;margin-bottom:24px;line-height:1.4;">${desc} (${matches}/${duelItems.length})</div>
-              <a href="https://play.google.com/store/apps/details?id=com.vince.swipepanic" target="_blank" style="display:flex;align-items:center;justify-content:center;height:54px;border-radius:16px;background:linear-gradient(135deg,#00e5ff,#ff2a6d);color:#000;font-weight:900;font-size:15px;text-decoration:none;margin-bottom:12px;">${dText.downloadBtn}</a>
+              <div style="font-size:15px;color:#e0d8ff;margin-bottom:14px;line-height:1.4;">${desc} (${matches}/${duelItems.length})</div>
+              <div style="margin-bottom:18px;max-height:180px;overflow-y:auto;">${breakdownHtml}</div>
+              <a href="https://play.google.com/store/apps/details?id=com.swipepanic.swipe_panic" target="_blank" style="display:flex;align-items:center;justify-content:center;height:54px;border-radius:16px;background:linear-gradient(135deg,#00e5ff,#ff2a6d);color:#000;font-weight:900;font-size:15px;text-decoration:none;margin-bottom:12px;">${dText.downloadBtn}</a>
               <button id="closeDuelBtn" style="width:100%;height:46px;border-radius:14px;background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.2);color:#fff;font-weight:800;cursor:pointer;">${dText.playMoreBtn}</button>
             </div>
           `;
@@ -3061,7 +3075,13 @@ socialScoreDesc: "As tuas escolhas de festa: {count} desafios e verdades assumid
           document.getElementById('duelStatA').style.display = 'block';
           document.getElementById('duelStatB').style.display = 'block';
           const agreed = choice === item.friendChoice;
+          item.myChoice = choice;
+          item.agreed = agreed;
           if (agreed) matches++;
+          submitVote(item.dilemma.id, choice === 'A' ? 'green' : 'red');
+          try {
+            localStorage.setItem('sp_imp_vote_' + item.dilemma.id, choice);
+          } catch (_) {}
           const fb = document.getElementById('duelFeedback');
           fb.style.display = 'block';
           fb.style.background = agreed ? 'rgba(0,230,118,0.18)' : 'rgba(255,42,109,0.18)';
