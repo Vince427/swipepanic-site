@@ -2823,9 +2823,15 @@ socialScoreDesc: "As tuas escolhas de festa: {count} desafios e verdades assumid
         const personality = document.getElementById('personalityBadge')?.textContent || 'Swipe Panic';
         const score = document.getElementById('recapScore')?.textContent || '';
         const lang = currentLang || 'fr';
-        const shareUrl = `${window.location.origin}${window.location.pathname}?lang=${lang}&utm_source=web&utm_medium=share&utm_campaign=web_recap`;
+        const firstPlayed = playedHistory && playedHistory.length > 0 ? playedHistory[0] : null;
+        const cardParam = firstPlayed && firstPlayed.card && firstPlayed.card.id ? `&card=${encodeURIComponent(firstPlayed.card.id)}` : '';
+        const cardQuote = firstPlayed && firstPlayed.card && firstPlayed.card.texts
+          ? (firstPlayed.card.texts[lang] || firstPlayed.card.texts.fr || firstPlayed.card.texts.en || '')
+          : '';
+        const shareUrl = `${window.location.origin}${window.location.pathname}?lang=${lang}${cardParam}&utm_source=web&utm_medium=share&utm_campaign=web_recap`;
         const shareTitle = `Swipe Panic — ${personality} (${score})`;
-        const shareText = `Mon profil Swipe Panic : ${personality} (${score}) ! Tes potes auraient-ils fait les mêmes choix ? Viens tester :`;
+        const quoteLine = cardQuote ? `\n\n👉 Dilemme : « ${cardQuote} »\n🚩 Red Flag ou 🟢 Green Flag ?` : '';
+        const shareText = `🎮 Mon profil Swipe Panic : ${personality} (${score}) !${quoteLine}\n\n🔥 Viens voter en 10 secondes :`;
 
         if (navigator.share) {
           try {
