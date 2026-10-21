@@ -217,6 +217,13 @@ function validateManifest(manifest, errors = []) {
         'manifest.min_app_version: invalid_semver'
       );
     }
+    if (manifest.dilemma_epoch_date !== undefined) {
+      assert(
+        typeof manifest.dilemma_epoch_date === 'string' &&
+          /^\d{4}-\d{2}-\d{2}$/.test(manifest.dilemma_epoch_date),
+        'manifest.dilemma_epoch_date: invalid_date_format_YYYY-MM-DD'
+      );
+    }
     const paths = {
       daily_url: ['.json'],
       cards_patch_url: ['.json'],

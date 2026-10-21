@@ -2222,7 +2222,27 @@
     submitDilemmaVote(cardId, choice, lang);
   }
 
-  const EPOCH_DATE = new Date(Date.UTC(2026, 9, 20)); // Oct 20, 2026
+  let EPOCH_DATE = new Date(Date.UTC(2026, 9, 21)); // Oct 21, 2026 fallback
+
+function fetchEpochFromManifest() {
+  fetch('manifest.json')
+    .then(function(res) { return res.json(); })
+    .then(function(manifest) {
+      if (manifest && manifest.dilemma_epoch_date) {
+        var parts = manifest.dilemma_epoch_date.split('-');
+        if (parts.length === 3) {
+          EPOCH_DATE = new Date(Date.UTC(Number(parts[0]), Number(parts[1]) - 1, Number(parts[2])));
+          if (typeof loadDailyDilemma === 'function') {
+            loadDailyDilemma();
+          }
+        }
+      }
+    })
+    .catch(function() {});
+}
+if (typeof window !== 'undefined') {
+  fetchEpochFromManifest();
+}
   function getDayIndex(now = new Date()) {
     const utcNow = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()));
     const diff = Math.floor((utcNow - EPOCH_DATE) / 86400000);

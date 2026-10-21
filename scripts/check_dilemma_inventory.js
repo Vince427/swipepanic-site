@@ -3,7 +3,19 @@
 const fs = require('fs');
 const path = require('path');
 
-const EPOCH_DATE = new Date(Date.UTC(2026, 9, 20)); // Oct 20, 2026
+function getEpochDate() {
+  try {
+    const manifest = JSON.parse(fs.readFileSync(path.join(__dirname, '../manifest.json'), 'utf8'));
+    if (manifest.dilemma_epoch_date) {
+      const parts = manifest.dilemma_epoch_date.split('-');
+      if (parts.length === 3) {
+        return new Date(Date.UTC(Number(parts[0]), Number(parts[1]) - 1, Number(parts[2])));
+      }
+    }
+  } catch (_) {}
+  return new Date(Date.UTC(2026, 9, 21)); // Oct 21, 2026 fallback
+}
+const EPOCH_DATE = getEpochDate();
 
 function checkInventory(now = new Date()) {
   const utcNow = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()));

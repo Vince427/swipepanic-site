@@ -5,5 +5,6 @@
   "cards_patch_url": "cards_patch.json",
   "blacklist_url": "blacklist.txt",
   "blacklist_json_url": "blacklist.json",
-  "live_consensus_url": "data/live_consensus.json"
+  "live_consensus_url": "data/live_consensus.json",
+  "dilemma_epoch_date": "2026-10-21"
 }
