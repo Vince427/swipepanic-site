@@ -49,6 +49,8 @@ jobs:
       - run: node --test scripts/aggregate_web_votes.test.js
       - run: node --test scripts/live_consensus_validation.test.js
       - run: node --test scripts/acquisition_links.test.js
+      - run: node --test scripts/daily_dilemma.test.js
+      - run: node --check scripts/check_dilemma_inventory.js
       - run: node scripts/validate_remote_content.js
 
   generate-weekly:
@@ -57,6 +59,7 @@ jobs:
     needs: validate
     permissions:
       contents: write
+      issues: write
     steps:
       - uses: actions/checkout@v4
         with:
@@ -66,6 +69,32 @@ jobs:
           node-version: '20'
       - run: node scripts/generate_daily.js
       - run: node scripts/validate_remote_content.js
+      - name: Check dilemma inventory & stock
+        id: dilemma_inventory
+        run: node scripts/check_dilemma_inventory.js
+      - name: Alert via GitHub Issue if stock <= 60 days
+        if: steps.dilemma_inventory.outputs.alert_needed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          EXISTING_ISSUE=$(gh issue list --search "⚠️ [Swipe Panic] Stock Dilemmes : Fin de cycle proche" --json number -q '.[0].number')
+          if [ -z "$EXISTING_ISSUE" ]; then
+            gh issue create \
+              --title "⚠️ [Swipe Panic] Stock Dilemmes : Fin de cycle proche (${{ steps.dilemma_inventory.outputs.days_remaining }} jours restants)" \
+              --body "Bonjour Vince ! 👋
+
+Le stock de dilemmes 50/50 arrive bientôt à la fin de son cycle annuel (365 jours).
+
+- **Cycle en cours** : Année ${{ steps.dilemma_inventory.outputs.current_cycle }}
+- **Jour actuel** : ${{ steps.dilemma_inventory.outputs.current_day }} / 365
+- **Jours restants avant boucle** : **${{ steps.dilemma_inventory.outputs.days_remaining }} jours**
+
+Il est temps de générer ou préparer les nouvelles cartes pour l'année suivante dans `daily_impossible.json` et dans l'app !
+*(Note : Même si aucune carte n'est ajoutée, l'algorithme est conçu pour reboucler sans aucun bug ni crash sur l'année 1).*
+"
+          else
+            echo "An alert issue already exists (#$EXISTING_ISSUE), skipping duplicate creation."
+          fi
       - name: Commit weekly content
         run: |
           if git diff --quiet -- daily.json; then

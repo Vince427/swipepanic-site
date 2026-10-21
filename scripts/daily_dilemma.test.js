@@ -133,3 +133,46 @@ test('daily dilemma deterministic rotation is consistent across dates', () => {
   }
   assert.equal(seen.size, entries.length);
 });
+
+
+test('check_dilemma_inventory computes day index, year, remaining days and alerts accurately', () => {
+  const { checkInventory } = require('./check_dilemma_inventory');
+
+  // Day 1 (Epoch: Oct 20, 2026)
+  const day1 = checkInventory(new Date(Date.UTC(2026, 9, 20)));
+  assert.equal(day1.currentYear, 1);
+  assert.equal(day1.currentDayInCycle, 1);
+  assert.equal(day1.currentCardId, 'impossible_1');
+  assert.equal(day1.daysRemaining, 364);
+  assert.equal(day1.alertNeeded, false);
+
+  // Day 2 (Oct 21, 2026)
+  const day2 = checkInventory(new Date(Date.UTC(2026, 9, 21)));
+  assert.equal(day2.currentYear, 1);
+  assert.equal(day2.currentDayInCycle, 2);
+  assert.equal(day2.currentCardId, 'impossible_2');
+  assert.equal(day2.daysRemaining, 363);
+  assert.equal(day2.alertNeeded, false);
+
+  // Day 310 (August 26, 2027) -> 55 days remaining (< 60) -> alertNeeded should be true
+  const day310 = checkInventory(new Date(Date.UTC(2026, 9, 20 + 309)));
+  assert.equal(day310.currentDayInCycle, 310);
+  assert.equal(day310.daysRemaining, 55);
+  assert.equal(day310.alertNeeded, true);
+
+  // Day 365 (Last day of cycle)
+  const day365 = checkInventory(new Date(Date.UTC(2026, 9, 20 + 364)));
+  assert.equal(day365.currentYear, 1);
+  assert.equal(day365.currentDayInCycle, 365);
+  assert.equal(day365.currentCardId, 'impossible_365');
+  assert.equal(day365.daysRemaining, 0);
+  assert.equal(day365.alertNeeded, true);
+
+  // Year 2 Day 1 (Graceful wrap around)
+  const year2Day1 = checkInventory(new Date(Date.UTC(2026, 9, 20 + 365)));
+  assert.equal(year2Day1.currentYear, 2);
+  assert.equal(year2Day1.currentDayInCycle, 1);
+  assert.equal(year2Day1.currentCardId, 'impossible_1');
+  assert.equal(year2Day1.daysRemaining, 364);
+  assert.equal(year2Day1.alertNeeded, false);
+});
