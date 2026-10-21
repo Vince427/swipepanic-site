@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-19T22:53:05.423Z",
+  "updated_at": "2026-10-21T19:06:15.338Z",
   "cards": [
     {
       "id": "dating_red_1",
@@ -16273,6 +16273,1896 @@
       "mode": "classic",
       "packId": "money_pack",
       "live_tier": "safe"
+    },
+    {
+      "id": "spring_red_1",
+      "theme": "spring",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Réserver une table de huit en terrasse alors qu'on n'est que deux pour être au large.",
+        "en": "Reserving an eight-person terrace table when you're only two just to spread out.",
+        "es": "Reservar una mesa de ocho en la terraza cuando solo son dos para estar anchos.",
+        "de": "Einen Achtertisch auf der Terrasse reservieren, obwohl man nur zu zweit ist.",
+        "nl": "Een tafel voor acht reserveren op het terras terwijl je maar met z'n tweeën bent.",
+        "pt": "Reservar uma mesa de oito na esplanada quando são apenas dois para estarem à vontade."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "spring_green_1",
+      "theme": "spring",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Apporter un grand tube de crème solaire indice cinquante et en proposer à tout le groupe.",
+        "en": "Bringing a big bottle of SPF 50 sunscreen and generously offering it to the entire group.",
+        "es": "Llevar un bote grande de crema solar SPF 50 y ofrecer generosamente a todo el grupo.",
+        "de": "Eine große Flasche Sonnencreme LSF 50 mitbringen und sie der ganzen Gruppe anbieten.",
+        "nl": "Een grote fles zonnebrandcrème factor 50 meenemen en royaal aanbieden aan de groep.",
+        "pt": "Trazer um protetor solar fator 50 e oferecer generosamente a toda a gente do grupo."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "spring_red_2",
+      "theme": "spring",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Sortir en t-shirt et lunettes de soleil dès douze degrés et grelotter tout l'après-midi.",
+        "en": "Going out in a t-shirt and sunglasses at twelve degrees and shivering all afternoon.",
+        "es": "Salir en camiseta y gafas de sol a doce grados y tiritar durante toda la tarde.",
+        "de": "Bei zwölf Grad im T-Shirt und Sonnenbrille rausgehen und den ganzen Nachmittag zittern.",
+        "nl": "In T-shirt en zonnebril naar buiten gaan bij twaalf graden en de hele middag rillen.",
+        "pt": "Sair de t-shirt e óculos de sol com doze graus e tremer de frio a tarde inteira."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "spring_green_2",
+      "theme": "spring",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Prêter spontanément son gilet ou sa veste à la personne qui grelotte en terrasse.",
+        "en": "Spontaneously lending your jacket or cardigan to someone shivering on the patio.",
+        "es": "Prestar espontáneamente tu chaqueta o cárdigan a quien tirita de frío en la terraza.",
+        "de": "Spontan die eigene Jacke der Person leihen, die auf der Terrasse friert.",
+        "nl": "Spontaan je jas of vest uitlenen aan degene die zit te rillen op het terras.",
+        "pt": "Emprestar espontaneamente o casaco à pessoa que está a tremer de frio na esplanada."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "spring_red_3",
+      "theme": "spring",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Annuler un projet prévu depuis un mois juste parce qu'il fait un beau soleil dehors.",
+        "en": "Cancelling plans made a month ago just because the sun unexpectedly came out.",
+        "es": "Cancelar un plan previsto hace un mes solo porque hace un día soleado fuera.",
+        "de": "Verabredungen von vor einem Monat absagen, nur weil draußen schön die Sonne scheint.",
+        "nl": "Plannen van een maand geleden afzeggen puur omdat het zonnetje ineens schijnt.",
+        "pt": "Cancelar planos combinados há um mês só porque está um lindo dia de sol na rua."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "spring_green_3",
+      "theme": "spring",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Dérouler une grande nappe de pique-nique et inviter les gens assis dans l'herbe.",
+        "en": "Unrolling a large picnic blanket and inviting friends sitting on damp grass to join.",
+        "es": "Extender una manta grande de picnic e invitar a unirse a quienes están en la hierba.",
+        "de": "Eine große Picknickdecke ausbreiten und Freunde einladen, die im Gras sitzen.",
+        "nl": "Een groot picknickkleed uitrollen en vrienden uitnodigen die op het gras zitten.",
+        "pt": "Estender uma toalha grande de piquenique e convidar quem está na relva a sentar-se."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "spring_red_4",
+      "theme": "spring",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Bloquer la seule chaise au soleil de la terrasse avec son sac à dos encombrant.",
+        "en": "Blocking the only sunny terrace chair with a bulky backpack so no one sits there.",
+        "es": "Bloquear la única silla al sol de la terraza con una mochila enorme sin usarla.",
+        "de": "Den einzigen sonnigen Stuhl auf der Terrasse mit einem großen Rucksack blockieren.",
+        "nl": "De enige zonnige stoel op het terras bezet houden met een logge rugzak.",
+        "pt": "Bloquear a única cadeira ao sol na esplanada com uma mochila enorme sem necessidade."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "spring_green_4",
+      "theme": "spring",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Nettoyer avec soin la grille du barbecue avant et après la cuisson sans rechigner.",
+        "en": "Carefully scrubbing the barbecue grill before and after cooking without complaining.",
+        "es": "Limpiar a fondo la parrilla de la barbacoa antes y después de cocinar sin quejarse.",
+        "de": "Den Grillrost vor und nach dem Grillen gründlich und ohne Murren sauber schrubben.",
+        "nl": "Het barbecuerooster voor en na het bakken grondig schoonmaken zonder te zeuren.",
+        "pt": "Limpar com cuidado a grelha do churrasco antes e depois de cozinhar sem refilar."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "spring_red_5",
+      "theme": "spring",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Débarquer au barbecue chez des amis sans apporter la moindre boisson ni grillade.",
+        "en": "Showing up at a friend's barbecue completely empty-handed without drinks or food.",
+        "es": "Llegar a la barbacoa en casa de amigos sin traer ni una bebida ni nada para la parrilla.",
+        "de": "Mit leeren Händen zur Grillparty bei Freunden kommen, ohne Drinks oder Grillgut.",
+        "nl": "Met lege handen op de barbecue bij vrienden verschijnen zonder drank of hapjes.",
+        "pt": "Aparecer no churrasco em casa de amigos de mãos a abanar sem bebidas nem comida."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "spring_green_5",
+      "theme": "spring",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Ramasser tous les déchets du pique-nique dans un sac poubelle sans qu'on le demande.",
+        "en": "Packing all the picnic trash into a garbage bag without needing to be asked.",
+        "es": "Recoger toda la basura del picnic en una bolsa sin necesidad de que se lo pidan.",
+        "de": "Den gesamten Müll des Picknicks ohne Aufforderung in einen Müllsack packen.",
+        "nl": "Al het afval van de picknick uit eigen beweging in een vuilniszak verzamelen.",
+        "pt": "Apanhar todo o lixo do piquenique num saco do lixo sem ninguém ter de pedir."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "spring_red_6",
+      "theme": "spring",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Se plaindre de ses allergies au pollen en continu pendant tout le repas en plein air.",
+        "en": "Complaining about pollen allergies non-stop during the entire outdoor lunch.",
+        "es": "Quejarse de su alergia al polen sin parar durante toda la comida al aire libre.",
+        "de": "Sich während des gesamten Essens im Freien pausenlos über Pollenallergie beschweren.",
+        "nl": "De hele buitenlunch lang onafgebroken klagen over hooikoorts en stuifmeel.",
+        "pt": "Passar o almoço inteiro ao ar livre a queixar-se sem parar das alergias ao pólen."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "spring_green_6",
+      "theme": "spring",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Préparer une grande carafe d'eau fraîche avec menthe et citron pour tout le monde.",
+        "en": "Prepping a large pitcher of ice-cold water with fresh mint and lemon for everyone.",
+        "es": "Preparar una jarra grande de agua fresca con menta y limón para toda la mesa.",
+        "de": "Eine große Karaffe eiskaltes Wasser mit frischer Minze und Zitrone bereitstellen.",
+        "nl": "Een grote karaf ijskoud water met verse munt en citroen neerzetten voor iedereen.",
+        "pt": "Preparar um jarro grande de água fresca com hortelã e limão para todo o grupo."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "spring_red_7",
+      "theme": "spring",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Sortir les tongs dès le premier rayon de mars avec les pieds d'une blancheur aveuglante.",
+        "en": "Wearing flip-flops at the first March sunbeam with blindingly pale winter feet.",
+        "es": "Ponerse chanclas con el primer rayo de sol de marzo luciendo pies blanquísimos.",
+        "de": "Beim ersten Sonnenstrahl im März Flip-Flops tragen und schneeweiße Füße zeigen.",
+        "nl": "Bij het eerste streepje maartse zon op slippers lopen met spierwitte wintervoeten.",
+        "pt": "Usar chinelos de dedo ao primeiro raio de sol de março com os pés brancos do inverno."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "spring_green_7",
+      "theme": "spring",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Céder spontanément la place la plus ensoleillée de la table au dernier arrivé.",
+        "en": "Spontaneously offering the sunniest seat at the table to the friend arriving last.",
+        "es": "Ceder espontáneamente el asiento más soleado de la mesa al último en llegar.",
+        "de": "Dem zuletzt eintreffenden Freund spontan den sonnigsten Platz am Tisch überlassen.",
+        "nl": "Spontaan de zonnigste plek aan tafel afstaan aan de vriend die als laatste arriveert.",
+        "pt": "Ceder espontaneamente o lugar mais ensolarado da mesa ao amigo que chegou por último."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "spring_red_8",
+      "theme": "spring",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Manger en cachette la moitié des chocolats de Pâques destinés aux enfants.",
+        "en": "Secretly eating half of the Easter chocolate meant for the kids in the household.",
+        "es": "Comerse a escondidas la mitad de los chocolates de Pascua destinados a los niños.",
+        "de": "Heimlich die Hälfte der Osterschokolade aufessen, die für die Kinder gedacht war.",
+        "nl": "Stiekem de helft van de paaseitjes opeten die voor de kinderen bedoeld waren.",
+        "pt": "Comer às escondidas metade dos chocolates da Páscoa reservados para as crianças."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "spring_green_8",
+      "theme": "spring",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Apporter une barquette de fraises sucrées bien fraîches pour le dessert partagé.",
+        "en": "Bringing a fresh basket of sweet local strawberries for the shared outdoor dessert.",
+        "es": "Traer una bandeja de fresas dulces y frescas para compartir en el postre al sol.",
+        "de": "Eine Schale frische, süße Erdbeeren als Nachtisch für alle draußen mitbringen.",
+        "nl": "Een bakje zoete verse aardbeien meenemen om te delen als dessert in de zon.",
+        "pt": "Trazer uma cesta de morangos doces e frescos para partilhar na sobremesa ao sol."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "spring_red_9",
+      "theme": "spring",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Mettre son enceinte Bluetooth à fond au milieu du parc plein de familles en balade.",
+        "en": "Blasting your Bluetooth speaker on full blast in a quiet park full of families.",
+        "es": "Poner el altavoz Bluetooth a todo volumen en un parque lleno de familias paseando.",
+        "de": "Die Bluetooth-Box im ruhigen Park voller Spaziergänger auf maximale Lautstärke drehen.",
+        "nl": "Een bluetoothbox op standje maximaal zetten in een druk park vol wandelende gezinnen.",
+        "pt": "Meter uma coluna Bluetooth no volume máximo num parque sossegado cheio de famílias."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "spring_green_9",
+      "theme": "spring",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Prêter une deuxième paire de lunettes de soleil à un ami qui plisse les yeux.",
+        "en": "Lending a spare pair of sunglasses to a friend squinting in the bright glare.",
+        "es": "Prestar unas gafas de sol de repuesto al amigo que está cegado por el sol.",
+        "de": "Eine zweite Sonnenbrille an den Freund verleihen, der geblendet die Augen zukneift.",
+        "nl": "Een reservezonnebril uitlenen aan een vriend die tegen het felle licht in knijpt.",
+        "pt": "Emprestar uns óculos de sol suplentes ao amigo que está encandeado pela luz forte."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "spring_red_10",
+      "theme": "spring",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Refuser de décaler sa chaise de dix centimètres pour laisser passer un landau.",
+        "en": "Refusing to scoot your chair back four inches to let a baby stroller pass by.",
+        "es": "Negarse a mover la silla unos centímetros para dejar pasar un carrito de bebé.",
+        "de": "Sich weigern, den Stuhl zehn Zentimeter zu rücken, um einen Kinderwagen durchzulassen.",
+        "nl": "Weigeren je stoel tien centimeter op te schuiven om een kinderwagen door te laten.",
+        "pt": "Recusar afastar a cadeira dez centímetros para deixar passar um carrinho de bebé."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "spring_green_10",
+      "theme": "spring",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Apporter un jeu de boules de pétanque ou un frisbee pour animer l'après-midi au parc.",
+        "en": "Bringing boules or a frisbee to liven up a lazy sunny afternoon in the park.",
+        "es": "Llevar un juego de petanca o un frisbee para animar la tarde soleada en el parque.",
+        "de": "Ein Boule-Set oder eine Frisbee mitbringen, um den sonnigen Nachmittag aufzulockern.",
+        "nl": "Jeu de boules of een frisbee meenemen om de zonnige middag in het park op te vrolijken.",
+        "pt": "Trazer um jogo de petanca ou um frisbee para animar a tarde soalheira no parque."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "spring_red_11",
+      "theme": "spring",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Parler de son régime avant l'été à chaque bouchée d'apéro partagée entre amis.",
+        "en": "Talking about summer diet goals at literally every single bite of shared snacks.",
+        "es": "Hablar de la dieta para el verano en cada bocado de picoteo compartido con amigos.",
+        "de": "Bei jedem Bissen Aperitif-Snack ungefragt über die Diät für den Sommer reden.",
+        "nl": "Bij elk borrelhapje ongevraagd over het afvaldieet voor de zomer beginnen te praten.",
+        "pt": "Falar da dieta para o verão a cada petisco partilhado na esplanada com amigos."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "spring_green_11",
+      "theme": "spring",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Préparer une citronnade maison bien fraîche et acidulée pour désaltérer la bande.",
+        "en": "Making fresh tart homemade lemonade to quench everyone's thirst in the heat.",
+        "es": "Preparar limonada casera fresca y chispeante para calmar la sed de toda la pandilla.",
+        "de": "Frische hausgemachte Limonade zubereiten, um den Durst der Gruppe zu stillen.",
+        "nl": "Zelfgemaakte friszure limonade maken om de dorst van de groep te lessen.",
+        "pt": "Fazer uma limonada caseira fresca e ácida para saciar a sede de todo o grupo."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "spring_red_12",
+      "theme": "spring",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Faire une blague cruelle du premier avril en annonçant une fausse démission urgente.",
+        "en": "Pulling a cruel April Fools prank by falsely announcing a sudden job resignation.",
+        "es": "Hacer una broma cruel de inocentes anunciando una dimisión inventada de urgencia.",
+        "de": "Einen gemeinen Aprilscherz machen und eine gefälschte Kündigung im Job vortäuschen.",
+        "nl": "Een nare 1-aprilgrap uithalen door een zogenaamd dringend ontslag aan te kondigen.",
+        "pt": "Fazer uma partida maldosa de 1 de abril fingindo um despedimento dramático do trabalho."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "spring_green_12",
+      "theme": "spring",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Laisser la place face au soleil à celui qui n'a pas pu prendre de congés récents.",
+        "en": "Leaving the prime sun-facing chair to the friend who hasn't had time off in months.",
+        "es": "Dejar el sitio orientado al sol al amigo que lleva meses sin tomarse vacaciones.",
+        "de": "Den Platz in der Sonne dem Freund überlassen, der lange keinen Urlaub hatte.",
+        "nl": "De lekkerste zonneplek overlaten aan de vriend die al maanden niet vrij heeft gehad.",
+        "pt": "Deixar o lugar de frente para o sol ao amigo que não tira férias há meses."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "spring_red_13",
+      "theme": "spring",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Laisser ses canettes et emballages gras traîner sur la pelouse après le pique-nique.",
+        "en": "Leaving greasy fast-food wrappers and empty cans scattered on the park lawn.",
+        "es": "Dejar latas vacías y envases grasientos tirados en el césped tras el picnic.",
+        "de": "Dosen und fettige Verpackungen nach dem Picknick einfach auf der Wiese liegenlassen.",
+        "nl": "Lege blikjes en vette verpakkingen na de picknick zomaar op het gras laten liggen.",
+        "pt": "Deixar latas vazias e embalagens de comida espalhadas na relva após o piquenique."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "spring_green_13",
+      "theme": "spring",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Avoir pensé aux serviettes en papier et au gel lavant pour les mains au pique-nique.",
+        "en": "Remembering to pack napkins and hand sanitizing gel for the outdoor picnic.",
+        "es": "Haber llevado servilletas de papel y gel higienizante para las manos al picnic.",
+        "de": "An Papierservietten und Handdesinfektionsmittel beim Parkpicknick gedacht haben.",
+        "nl": "Aan servetjes en handontsmettingsgel gedacht hebben voor de picknick buiten.",
+        "pt": "Lembrar-se de trazer guardanapos de papel e gel desinfetante para o piquenique."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "spring_red_14",
+      "theme": "spring",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Exiger de changer de bar dès que l'ombre d'un immeuble touche un coin de la table.",
+        "en": "Demanding to switch bars the very instant a building shadow touches the table corner.",
+        "es": "Exigir cambiar de bar en cuanto la sombra de un edificio roza una esquina de la mesa.",
+        "de": "Sofort Bar wechseln wollen, sobald der Schatten eines Hauses den Tisch berührt.",
+        "nl": "Meteen willen verkassen naar een ander café zodra een schaduw de tafel raakt.",
+        "pt": "Exigir mudar logo de bar assim que a sombra de um prédio toca na esquina da mesa."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "spring_green_14",
+      "theme": "spring",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Proposer de garder les vélos de tout le groupe pendant que les autres commandent.",
+        "en": "Offering to watch everyone's bicycles while the rest of the crew orders drinks.",
+        "es": "Ofrecerse a vigilar las bicicletas del grupo mientras los demás van a pedir.",
+        "de": "Freiwillig auf alle Fahrräder aufpassen, während die anderen Drinks bestellen gehen.",
+        "nl": "Aanbieden op alle fietsen te passen terwijl de rest van de groep drankjes bestelt.",
+        "pt": "Oferecer-se para guardar as bicicletas de todos enquanto os outros vão pedir."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "spring_red_15",
+      "theme": "spring",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Boire les trois quarts du rosé bien frais sans jamais en avoir racheté une bouteille.",
+        "en": "Gulping down most of the chilled rosé wine without ever contributing a single bottle.",
+        "es": "Beberse casi todo el vino rosado bien frío sin aportar nunca una sola botella.",
+        "de": "Den Großteil des kühlen Roséweins austrinken, ohne je eine Flasche beizusteuern.",
+        "nl": "Het leeuwendeel van de koude rosé opdrinken zonder ooit zelf een fles mee te nemen.",
+        "pt": "Beber quase todo o vinho rosé bem fresco sem nunca ter trazido uma garrafa."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "spring_green_15",
+      "theme": "spring",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Prévoir un plaid doux et chaud pour continuer à discuter sur le balcon à la nuit tombée.",
+        "en": "Providing a soft fleece blanket so everyone can keep chatting on the balcony at dusk.",
+        "es": "Llevar una manta suave y abrigada para seguir charlando en el balcón al anochecer.",
+        "de": "Eine weiche Kuscheldecke mitbringen, um bei Dämmerung auf dem Balkon weiterzureden.",
+        "nl": "Een lekker zacht dekentje neerleggen om 's avonds lang op het balkon te kletsen.",
+        "pt": "Trazer uma manta macia e quente para continuar a conversar na varanda ao anoitecer."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "spring_red_16",
+      "theme": "spring",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Confisquer le seul terrain de pétanque du parc pendant deux heures sans tourner.",
+        "en": "Hogging the park's only pétanque court for over two hours without sharing with others.",
+        "es": "Monopolizar la única pista de petanca del parque durante dos horas sin rotar.",
+        "de": "Den einzigen Bouleplatz im Park zwei Stunden besetzen, ohne andere mitspielen zu lassen.",
+        "nl": "De enige jeu-de-boulesbaan in het park urenlang claimen zonder anderen een beurt te gunnen.",
+        "pt": "Monopolizar o único campo de petanca do parque durante duas horas sem deixar jogar."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "spring_green_16",
+      "theme": "spring",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Mettre une playlist solaire et chaleureuse à un volume parfait pour bavarder au calme.",
+        "en": "Curating a warm sunny playlist at just the right volume to chat comfortably outdoors.",
+        "es": "Poner una lista de música alegre al volumen ideal para poder charlar tranquilamente.",
+        "de": "Eine sonnige Playlist in perfekter Lautstärke abspielen, sodass man sich unterhalten kann.",
+        "nl": "Een heerlijke zonnige afspeellijst aanzetten op een zacht volume zodat iedereen praat.",
+        "pt": "Colocar uma lista de música solarenga no volume perfeito para conversar com calma."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "spring_red_17",
+      "theme": "spring",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Enclencher la climatisation à fond dans l'habitacle dès qu'il fait dix-huit degrés dehors.",
+        "en": "Cranking the car air conditioning to freezing blast as soon as it hits eighteen outside.",
+        "es": "Encender el aire acondicionado a tope en el coche en cuanto hace dieciocho grados fuera.",
+        "de": "Die Autoklimaanlage voll aufdrehen, sobald es draußen gerade mal achtzehn Grad hat.",
+        "nl": "De airco in de auto loeihard aanzetten zodra het buiten amper achttien graden is.",
+        "pt": "Ligar o ar condicionado no máximo no carro assim que estão dezoito graus lá fora."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "spring_green_17",
+      "theme": "spring",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Offrir un bouquet de tulipes fraîches du marché du matin à l'hôte qui reçoit l'apéro.",
+        "en": "Gifting a bunch of fresh morning market tulips to the host organizing the patio drinks.",
+        "es": "Regalar un ramo de tulipanes frescos del mercado al anfitrión que organiza el picoteo.",
+        "de": "Dem Gastgeber der Terrassenrunde einen Strauß frische Tulpen vom Markt mitbringen.",
+        "nl": "Een bos verse tulpen van de ochtendmarkt meenemen voor wie de borrel organiseert.",
+        "pt": "Oferecer um ramo de tulipas frescas do mercado matinal a quem recebe o convívio."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "spring_red_18",
+      "theme": "spring",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Faire quarante poses devant les cerisiers en fleurs en bloquant le passage aux promeneurs.",
+        "en": "Striking forty poses in front of blooming cherry trees while blocking all pedestrian paths.",
+        "es": "Hacerse cuarenta fotos frente a los cerezos en flor bloqueando el paso a la gente.",
+        "de": "Vierzig Posen vor den Kirschblüten einnehmen und dabei den ganzen Weg blockieren.",
+        "nl": "Veertig poses aannemen voor de bloesembomen en het hele pad blokkeren voor wandelaars.",
+        "pt": "Fazer quarenta poses em frente às cerejeiras em flor bloqueando o caminho a todos."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "festival_red_1",
+      "theme": "festival",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Filmer l'intégralité du concert bras tendus avec son flash en cachant la vue aux gens derrière.",
+        "en": "Filming the entire concert with outstretched arms and flash on, blocking everyone behind.",
+        "es": "Grabar todo el concierto con los brazos en alto y flash, tapando la vista a los de atrás.",
+        "de": "Das gesamte Konzert mit gestreckten Armen und Blitz filmen und allen die Sicht nehmen.",
+        "nl": "Het hele concert filmen met gestrekte armen en flits, waardoor niemand erachter iets ziet.",
+        "pt": "Filmar o concerto inteiro de braços no ar com flash, tapando a vista a quem está atrás."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "festival_green_1",
+      "theme": "festival",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Avoir toujours une boîte de bouchons d'oreilles neufs à distribuer aux amis dans la fosse.",
+        "en": "Always carrying a fresh box of earplugs to share with friends in the loud concert crowd.",
+        "es": "Llevar siempre una caja de tapones nuevos para los oídos y repartir a los amigos.",
+        "de": "Immer eine Schachtel frische Ohrstöpsel dabeihaben und an Freunde im Konzert verteilen.",
+        "nl": "Altijd een doosje nieuwe oordopjes bij je hebben om uit te delen aan vrienden in de zaal.",
+        "pt": "Trazer sempre uma caixa de tampões para os ouvidos e distribuir pelos amigos no recinto."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "festival_red_2",
+      "theme": "festival",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Partir chercher une tournée de boissons au bar et disparaître mystérieusement trois heures.",
+        "en": "Going to grab a round of drinks at the festival bar and disappearing for three solid hours.",
+        "es": "Ir a pedir una ronda de bebidas a la barra del festival y desaparecer tres horas enteras.",
+        "de": "Eine Runde Getränke an der Festivalbar holen wollen und drei Stunden lang verschwinden.",
+        "nl": "Een rondje drinken gaan halen aan de festivalbar en drie uur lang spoorloos verdwijnen.",
+        "pt": "Ir buscar uma rodada de bebidas ao bar do festival e desaparecer durante três horas."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "festival_green_2",
+      "theme": "festival",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Avoir une batterie externe chargée à cent pour cent et la prêter gentiment sans hésiter.",
+        "en": "Carrying a fully charged power bank and kindly lending it around without hesitation.",
+        "es": "Tener una batería externa al cien por cien y prestarla amablemente a quien la necesite.",
+        "de": "Eine voll geladene Powerbank dabeihaben und sie Freunden jederzeit gerne ausleihen.",
+        "nl": "Een volle powerbank bij je hebben en die zonder aarzelen uitlenen aan vrienden met lege accu.",
+        "pt": "Ter uma bateria externa carregada a cem por cento e emprestá-la logo a quem precisa."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "festival_red_3",
+      "theme": "festival",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Abandonner sa tente cassée et ses détritus sur le terrain de camping le dimanche soir.",
+        "en": "Abandoning your broken tent and trash piles on the festival campsite on Sunday night.",
+        "es": "Abandonar la tienda rota y montones de basura en el camping del festival el domingo.",
+        "de": "Das kaputte Zelt und Müllberge am Sonntagabend einfach auf dem Campingplatz zurücklassen.",
+        "nl": "Je kapotte tent en stapels afval op zondagavond zomaar achterlaten op de festivalcamping.",
+        "pt": "Abandonar a tenda estragada e o lixo no parque de campismo do festival no domingo à noite."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "festival_green_3",
+      "theme": "festival",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Distribuer des gorgées d'eau fraîche à ses voisins dans la fosse surchauffée par l'ambiance.",
+        "en": "Offering refreshing sips of cool water to surrounding neighbors in the sweltering pit.",
+        "es": "Ofrecer tragos de agua fresca a la gente cercana en el foso recalentado por el concierto.",
+        "de": "Den Nachbarn im überhitzten Konzertkessel frische Schlucke Wasser anbieten.",
+        "nl": "Frisse slokken water aanbieden aan mensen om je heen in het oververhitte publiek.",
+        "pt": "Oferecer goles de água fresca aos vizinhos no meio da multidão abafada pelo calor."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "festival_red_4",
+      "theme": "festival",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Monter sur les épaules de quelqu'un au premier rang et bloquer la scène à cent personnes.",
+        "en": "Hopping onto someone's shoulders in the front row, blocking the stage for a hundred fans.",
+        "es": "Subirse a hombros en primera fila tapando la visión del escenario a cien personas.",
+        "de": "In der ersten Reihe auf fremde Schultern steigen und hundert Leuten die Sicht versperren.",
+        "nl": "Op iemands schouders gaan zitten op de eerste rij en het zicht voor honderd man blokkeren.",
+        "pt": "Subir para os ombros de alguém na primeira fila tapando o palco a cem pessoas atrás."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "festival_green_4",
+      "theme": "festival",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Former spontanément un cercle protecteur pour aider quelqu'un à retrouver ses lunettes tombées.",
+        "en": "Forming a quick human circle to help a fellow concertgoer safely find fallen glasses.",
+        "es": "Hacer un círculo protector para ayudar a alguien a buscar sus gafas caídas en el suelo.",
+        "de": "Einen schützenden Kreis bilden, um jemandem zu helfen, seine Brille im Gedränge zu finden.",
+        "nl": "Een beschermende cirkel vormen om iemand te helpen die zijn bril kwijt is in de menigte.",
+        "pt": "Fazer uma roda protetora para ajudar alguém a encontrar os óculos que caíram no chão."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "festival_red_5",
+      "theme": "festival",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Jouer des coudes agressivement dans la foule pour gratter des places en disant pardon pour rire.",
+        "en": "Shoving aggressively through the crowd while fake-apologizing just to sneak to the front.",
+        "es": "Abrirse paso a empujones agresivos entre el público fingiendo pedir disculpas.",
+        "de": "Sich rücksichtslos mit Ellbogen nach vorne drängeln und scheinheilig Entschuldigung sagen.",
+        "nl": "Agressief met ellebogen naar voren dringen en schijnheilig sorry roepen om vooraan te komen.",
+        "pt": "Empurrar toda a gente com os cotovelos na multidão enquanto diz com licença a rir."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "festival_green_5",
+      "theme": "festival",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Savoir replier la fameuse tente pop-up du groupe en moins de deux minutes chrono.",
+        "en": "Knowing how to pack up the notorious pop-up tent in under two minutes for the crew.",
+        "es": "Saber doblar la tienda de campaña plegable del grupo en menos de dos minutos cronometrados.",
+        "de": "Das widerspenstige Wurfzelt der Gruppe in unter zwei Minuten mühelos zusammenfalten.",
+        "nl": "De beruchte pop-up tent van de groep binnen twee minuten soepel weten op te vouwen.",
+        "pt": "Saber dobrar a famosa tenda que abre em dois segundos em menos de dois minutos sem stress."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "festival_red_6",
+      "theme": "festival",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Piquer discrètement le gobelet consigné du voisin de tente pour récupérer deux euros.",
+        "en": "Sneakily pocketing a camping neighbor's deposit cup just to claim back two euros.",
+        "es": "Mangarse disimuladamente el vaso retornable del vecino de tienda para cobrar dos euros.",
+        "de": "Heimlich den Pfandbecher des Zeltnachbarn einstecken, um zwei Euro Pfand zu kassieren.",
+        "nl": "Stiekem de statiegeldbeker van de buurman op de camping meenemen voor twee euro.",
+        "pt": "Ficar disfarçadamente com o copo reutilizável do vizinho de tenda para ganhar dois euros."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "festival_green_6",
+      "theme": "festival",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Avoir toujours des paquets de mouchoirs et du gel nettoyant pour l'étape des toilettes.",
+        "en": "Stocking plenty of tissues and sanitizing gel for the dreaded festival toilet lines.",
+        "es": "Tener siempre pañuelos de papel y gel higienizante para el turno de los aseos.",
+        "de": "Immer Papiertaschentücher und Handgel für den Gang zu den Festival-Toiletten bereitstellen.",
+        "nl": "Altijd zakdoekjes en ontsmettende handgel bij je hebben voor de beruchte festivaltoiletten.",
+        "pt": "Ter sempre pacotes de lenços de papel e gel higiénico à mão para a fila dos banhos e casas de banho."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "festival_red_7",
+      "theme": "festival",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Mettre de la grosse musique techno sur son enceinte à six heures du matin au camping.",
+        "en": "Blasting heavy techno on a portable speaker at six in the morning in the tent area.",
+        "es": "Poner techno atronador en el altavoz a las seis de la mañana en el camping del festival.",
+        "de": "Um sechs Uhr morgens auf dem Campingplatz laute Techno-Beats über die Box ballern.",
+        "nl": "Om zes uur 's ochtends keiharde techno over de camping laten knallen met een soundbox.",
+        "pt": "Pôr música tecno aos berros na coluna portátil às seis da manhã no meio do campismo."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "festival_green_7",
+      "theme": "festival",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Fixer un point de repère infaillible et une heure de rendez-vous dès l'entrée sur le site.",
+        "en": "Picking a foolproof meeting landmark and clear backup time upon entering the venue.",
+        "es": "Fijar un punto de encuentro clarísimo y una hora acordada nada más entrar al recinto.",
+        "de": "Direkt beim Betreten des Geländes einen unverwechselbaren Treffpunkt vereinbaren.",
+        "nl": "Bij binnenkomst meteen een onmiskenbaar herkenningspunt en ontmoetingstijd afspreken.",
+        "pt": "Definir logo à entrada do recinto um ponto de encontro evidente e uma hora certa para todos."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "festival_red_8",
+      "theme": "festival",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Critiquer la performance de tous les groupes sur scène sans en connaître aucun titre.",
+        "en": "Mocking every band's live set despite not knowing a single track on the entire lineup.",
+        "es": "Criticar la actuación de cada grupo del cartel sin conocer ni una sola de sus canciones.",
+        "de": "Jede Band auf der Bühne schlechtreden, obwohl man keinen einzigen Song von ihnen kennt.",
+        "nl": "Elke band op het podium afkraken terwijl je geen enkel nummer uit het oeuvre kent.",
+        "pt": "Criticar a atuação de todas as bandas no palco sem conhecer uma única canção do cartaz."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "festival_green_8",
+      "theme": "festival",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Porter sur ses épaules un ami plus petit pendant son morceau favori pour qu'il voie tout.",
+        "en": "Hoisting a shorter friend onto your shoulders for their favorite song so they see clearly.",
+        "es": "Subir a hombros al amigo más bajito durante su tema preferido para que lo disfrute bien.",
+        "de": "Einen kleineren Freund beim Lieblingslied auf die Schultern heben, damit er gut sieht.",
+        "nl": "Een kleinere vriend op je schouders nemen tijdens zijn lievelingsnummer om alles te zien.",
+        "pt": "Pôr aos ombros o amigo mais baixinho durante a canção favorita para que veja o palco todo."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "festival_red_9",
+      "theme": "festival",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Vider toute la batterie du téléphone d'un ami en multipliant les vidéos ratées de concerts.",
+        "en": "Draining a friend's battery filming endless shaky, muffled concert clips on their phone.",
+        "es": "Agotar la batería del móvil de un amigo grabando vídeos borrosos del concierto sin permiso.",
+        "de": "Den Handyakku des Freundes mit unzähligen verwackelten Konzertaufnahmen leeren.",
+        "nl": "De telefoonbatterij van een vriend leegtrekken met eindeloze mislukte concertfilmpjes.",
+        "pt": "Gastar a bateria do telemóvel de um amigo a gravar dezenas de vídeos desfocados de concertos."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "festival_green_9",
+      "theme": "festival",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Rapporter plusieurs gobelets d'eau fraîche pour le groupe pendant la fin du spectacle.",
+        "en": "Bringing back multiple cups of cold water for the thirsty squad right before encores.",
+        "es": "Volver con varios vasos de agua fría para toda la pandilla antes de los bises finales.",
+        "de": "Vor den Zugaben mehrere Becher frisches Wasser für die durstige Gruppe besorgen.",
+        "nl": "Vlak voor de toegift bekers koel water halen voor de hele dorstige vriendengroep.",
+        "pt": "Trazer vários copos de água fresca para a malta toda antes do encore final."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "festival_red_10",
+      "theme": "festival",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Garder égoïstement sa bouteille d'eau scellée dans la fosse alors que tout le monde suffoque.",
+        "en": "Selfishly hoarding a sealed water bottle in the packed crowd while everyone swelters.",
+        "es": "Guardarse egoístamente una botella de agua precintada mientras todos sufren de calor.",
+        "de": "Die eigene Wasserflasche geizig für sich behalten, während alle um einen herum schwitzen.",
+        "nl": "Egoïstisch een gesloten flesje water bewaren terwijl iedereen eromheen staat te puffen.",
+        "pt": "Guardar a garrafa de água só para si na multidão enquanto toda a gente sufoca com o calor."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "festival_green_10",
+      "theme": "festival",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Aider spontanément des inconnus en galère à monter leur abri sous la pluie battante.",
+        "en": "Spontaneously helping struggling strangers pitch their camp shelter in pouring rain.",
+        "es": "Ayudar amablemente a desconocidos en apuros a montar su tienda bajo una lluvia intensa.",
+        "de": "Fremden Campern im strömenden Regen spontan beim Zeltaufbau zur Seite stehen.",
+        "nl": "Wildvreemden in de stromende regen spontaan helpen om hun tent op te zetten.",
+        "pt": "Ajudar desconhecidos em apuros a montar a tenda de campismo debaixo de chuva intensa."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "festival_red_11",
+      "theme": "festival",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Parler de ses anecdotes de bureau à voix forte pendant le solo de guitare le plus émouvant.",
+        "en": "Loudly chatting about boring office gossip right during the most emotional guitar solo.",
+        "es": "Contar cotilleos de oficina a viva voz durante el solo de guitarra más emotivo de la noche.",
+        "de": "Beim emotionalsten Gitarrensolo des Abends lautstark über Bürogeschichten labern.",
+        "nl": "Luidkeels over kantoorverhalen kletsen tijdens de meest emotionele gitaarsolo van de avond.",
+        "pt": "Falar alto de fofocas do escritório durante o solo de guitarra mais emotivo da noite."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "festival_green_11",
+      "theme": "festival",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Prêter un poncho de pluie étanche à un voisin trempé jusqu'aux os par l'orage.",
+        "en": "Lending an extra waterproof rain poncho to a neighbor soaked to the bone by the storm.",
+        "es": "Prestar un chubasquero impermeable de repuesto a alguien empapado por el chaparrón.",
+        "de": "Einem vom Gewitter durchnässten Nachbarn ein wasserdichtes Regenponcho leihen.",
+        "nl": "Een waterdichte regenponcho uitlenen aan een buurman die kletsnat is geregend.",
+        "pt": "Emprestar um impermeável suplente a um desconhecido encharcado até aos ossos pela chuvada."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "festival_red_12",
+      "theme": "festival",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Perdre la bande dès le premier concert et envoyer cinquante textos inaudibles en panique.",
+        "en": "Losing the crew at the very first stage and sending fifty unintelligible panic texts.",
+        "es": "Perder al grupo en el primer escenario y mandar cincuenta mensajes ilegibles en pánico.",
+        "de": "Die Gruppe beim ersten Konzert verlieren und fünfzig unverständliche Panik-Texte schicken.",
+        "nl": "De groep kwijtraken bij het eerste optreden en vijftig onbegrijpelijke paniekappjes sturen.",
+        "pt": "Perder os amigos logo no primeiro concerto e enviar cinquenta mensagens em pânico."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "festival_green_12",
+      "theme": "festival",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Prendre soin avec calme et bienveillance du copain qui a un coup de fatigue en festival.",
+        "en": "Calmly taking caring watch over a fatigued friend who needs rest and hydration in camp.",
+        "es": "Cuidar con calma y paciencia del amigo agotado que necesita descansar y beber agua.",
+        "de": "Sich ruhig und fürsorglich um den Freund kümmern, der eine Pause und Wasser braucht.",
+        "nl": "Rustig en attent zorgen voor de vriend die oververmoeid is en even rust nodig heeft.",
+        "pt": "Cuidar com carinho e paciência do amigo que teve uma quebra de energia e precisa de repouso."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "festival_red_13",
+      "theme": "festival",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Ramasser les verres pleins de terre par terre pour encaisser la monnaie sans rien payer.",
+        "en": "Grabbing mud-caked cups off the floor to pocket deposit coins without buying anything.",
+        "es": "Recoger vasos embarrados del suelo para cobrar las monedas sin haber pagado un euro.",
+        "de": "Dreckige Becher vom Boden aufsammeln, um Pfandgeld zu kassieren, ohne etwas zu kaufen.",
+        "nl": "Viezige bekers van de grond rapen om het statiegeld in je eigen zak te steken.",
+        "pt": "Apanhar copos cheios de lama do chão para levantar as moedas do depósito sem pagar nada."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "festival_green_13",
+      "theme": "festival",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Sortir des barres de céréales énergétiques pour tout le groupe au creux de la nuit.",
+        "en": "Pulling out tasty energy cereal bars for the whole squad when midnight hunger strikes.",
+        "es": "Sacar barritas de cereales energéticas para todo el grupo en mitad de la madrugada.",
+        "de": "Mitten in der Nacht Müsliriegel für die hungrige Truppe aus dem Rucksack zaubern.",
+        "nl": "Midden in de nacht energierepen uitdelen aan de hele groep wanneer de honger toeslaat.",
+        "pt": "Tirar barritas de cereais da mochila para o grupo todo quando a fome aperta a meio da noite."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "festival_red_14",
+      "theme": "festival",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Prendre une douche de vingt minutes au camping alors qu'il y a cent mètres de file d'attente.",
+        "en": "Taking a twenty-minute hot shower at camp while a huge line forms in the morning cold.",
+        "es": "Darse una ducha de veinte minutos en el camping con una cola kilométrica de gente.",
+        "de": "Zwanzig Minuten lang duschen, obwohl eine riesige Schlange frierend davor wartet.",
+        "nl": "Twintig minuten douchen op de camping terwijl er een gigantische rij staat te wachten.",
+        "pt": "Demorar vinte minutos no duche do campismo com uma fila enorme de pessoas à espera ao frio."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "festival_green_14",
+      "theme": "festival",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Rapporter tous les gobelets du campement au stand sans rien exiger en échange.",
+        "en": "Returning all the campsite's collected deposit cups without asking for anything in return.",
+        "es": "Llevar todos los vasos acumulados del campamento a la devolución sin pedir nada a cambio.",
+        "de": "Alle Pfandbecher des Camps gesammelt zurückbringen, ohne etwas dafür zu verlangen.",
+        "nl": "Alle verzamelde bekers van het kamp netjes terugbrengen naar de inname zonder gedoe.",
+        "pt": "Levar todos os copos usados do acampamento de volta ao balcão sem pedir nada em troca."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "festival_red_15",
+      "theme": "festival",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Débrancher le câble d'un festivalier sur la borne de recharge pour brancher son portable.",
+        "en": "Unplugging someone else's cable at the charging hub to charge your own smartphone.",
+        "es": "Desconectar el cable de otro asistente en el punto de carga para poner el móvil propio.",
+        "de": "Das Ladekabel eines anderen an der Ladestation abziehen, um das eigene Handy zu laden.",
+        "nl": "De stekker van een ander uit het laadstation trekken om je eigen telefoon op te laden.",
+        "pt": "Desligar o cabo de alguém no posto de carregamento para pôr o próprio telemóvel à carga."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "festival_green_15",
+      "theme": "festival",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Retrouver un téléphone égaré dans la pelouse et le déposer au bureau des objets perdus.",
+        "en": "Finding a lost smartphone on the festival lawn and bringing it to the lost and found.",
+        "es": "Encontrar un teléfono extraviado en la hierba y llevarlo al punto de objetos perdidos.",
+        "de": "Ein verlorenes Smartphone auf dem Gelände finden und bei der Fundstelle abgeben.",
+        "nl": "Een gevonden smartphone in het gras direct naar de balie met gevonden voorwerpen brengen.",
+        "pt": "Encontrar um telemóvel perdido no recinto e levá-lo diretamente à receção de perdidos."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "festival_red_16",
+      "theme": "festival",
+      "type": "red_flag",
+      "texts": {
+        "fr": "S'allonger sur le matelas d'un copain avec des bottes pleines de boue sans faire attention.",
+        "en": "Lying down on a friend's sleeping mat with muddy festival boots still on your feet.",
+        "es": "Tumbarse en la colchoneta de un compañero con las botas llenas de barro sin cuidado.",
+        "de": "Sich mit matschigen Festivalstiefeln unachtsam auf die Luftmatratze des Kumpels legen.",
+        "nl": "Met modderige festivalboots op het luchtbed van een vriend gaan liggen zonder op te letten.",
+        "pt": "Deitar-se no colchão de um amigo com as botas cheias de lama sem ter o mínimo cuidado."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "festival_green_16",
+      "theme": "festival",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Partager ses paillettes biodégradables avec tout le campement au réveil du matin.",
+        "en": "Sharing biodegradable face glitter with everyone in the camping area upon waking up.",
+        "es": "Compartir purpurina biodegradable con todos los vecinos de acampada al despertarse.",
+        "de": "Morgens biologisch abbaubaren Glitzer mit dem ganzen Camp für den Tag teilen.",
+        "nl": "Biologisch afbreekbare glitters uitdelen aan de hele camping om de festivaldag te starten.",
+        "pt": "Partilhar brilhantes biodegradáveis com todo o acampamento ao acordar de manhã."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "festival_red_17",
+      "theme": "festival",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Bloquer l'accès aux miroirs collectifs pour parfaire sa coiffure pendant un quart d'heure.",
+        "en": "Blocking the public bathroom mirrors for fifteen minutes just to redo your festival hair.",
+        "es": "Tapar los espejos colectivos quince minutos para retocarse el pelo antes del concierto.",
+        "de": "Die Waschbecken-Spiegel fünfzehn Minuten blockieren, um die Festivalfrisur zu stylen.",
+        "nl": "De spiegels bij de wasbakken een kwartier lang bezet houden voor je festivalkapsel.",
+        "pt": "Ocupar os espelhos partilhados durante quinze minutos só para arranjar o penteado."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "festival_green_17",
+      "theme": "festival",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Aider toute l'équipe à ranger les affaires et nettoyer le camp avant de partir.",
+        "en": "Helping the entire crew pack gear and thoroughly clean the campsite before heading home.",
+        "es": "Ayudar a todo el grupo a recoger trastos y limpiar la zona de acampada antes de irse.",
+        "de": "Der ganzen Truppe helfen, das Gepäck zu packen und den Zeltplatz blitzblank zu hinterlassen.",
+        "nl": "Het hele team helpen met inpakken en de kampeerplek brandschoon achterlaten.",
+        "pt": "Ajudar a equipa toda a arrumar as coisas e limpar o acampamento antes de regressar."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "festival_red_18",
+      "theme": "festival",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Lancer son gobelet en plastique plein de liquide dans la foule pour manifester sa joie.",
+        "en": "Tossing a liquid-filled plastic cup high into the crowd to celebrate during the chorus.",
+        "es": "Lanzar un vaso de plástico lleno de líquido por encima del público para festejar.",
+        "de": "Einen vollen Plastikbecher mit Getränk in die feiernde Menge werfen, um zu jubeln.",
+        "nl": "Een volle plastic beker drank over het publiek gooien om mee te feesten.",
+        "pt": "Atirar um copo de plástico cheio de bebida para cima da multidão durante o refrão."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "autumn_red_1",
+      "theme": "autumn",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Prendre les quatre plus grosses pommes de terre chaudes du plat dès le début de la raclette.",
+        "en": "Grabbing the four largest steaming potatoes from the bowl right as raclette starts.",
+        "es": "Coger las cuatro patatas más grandes del plato nada más empezar la noche de raclette.",
+        "de": "Zu Beginn des Raclette-Abends direkt die vier größten Kartoffeln aus der Schüssel nehmen.",
+        "nl": "Bij aanvang van het gourmetten meteen de vier grootste aardappels van de schaal pakken.",
+        "pt": "Tirar logo as quatro maiores batatas da travessa mal começa o jantar de raclette."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "autumn_green_1",
+      "theme": "autumn",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Prévoir un demi-kilo de fromage à raclette en réserve au cas où de gros mangeurs ont faim.",
+        "en": "Stocking an extra pound of raclette cheese just in case hungry guests want seconds.",
+        "es": "Comprar medio kilo extra de queso por si los invitados más comilones tienen apetito.",
+        "de": "Ein halbes Kilo extra Raclettekäse besorgen, falls hungrige Gäste Nachschlag möchten.",
+        "nl": "Een pond extra kaas inslaan voor het geval grote eters nog trek hebben.",
+        "pt": "Comprar meio quilo extra de queijo raclette caso os mais gulosos queiram repetir."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "autumn_red_2",
+      "theme": "autumn",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Laisser son poêlon vide griller sous la résistance chauffante et enfumer tout le salon.",
+        "en": "Leaving an empty raclette pan sizzling under the grill element and smoking up the room.",
+        "es": "Dejar la paleta vacía quemándose bajo la resistencia llenando el salón de humo.",
+        "de": "Das leere Raclette-Pfännchen unter den Heizstäben brutzeln lassen und Rauch erzeugen.",
+        "nl": "Je lege gourmetpannetje onder het gloeiende element laten bakken tot de kamer blauw staat.",
+        "pt": "Deixar a pá vazia a queimar sob a resistência aquecida enchendo a sala de fumo."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "autumn_green_2",
+      "theme": "autumn",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Allumer une bougie parfumée ou un feu de cheminée pour réchauffer l'ambiance automnale.",
+        "en": "Lighting a cozy scented candle or crackling fireplace to warm the autumn evening vibe.",
+        "es": "Encender una vela aromática o la chimenea para dar calidez a la velada de otoño.",
+        "de": "Eine duftende Kerze oder den Kamin anzünden, um gemütliche Herbststimmung zu schaffen.",
+        "nl": "Een geurkaarsje of de open haard aansteken om voor warme herfstsfeer te zorgen.",
+        "pt": "Acender uma vela aromática ou a lareira para dar aconchego ao serão de outono."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "autumn_red_3",
+      "theme": "autumn",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Annuler une sortie entre amis à la dernière minute sous prétexte qu'il tombe trois gouttes.",
+        "en": "Cancelling an outing at the last minute just because a few raindrops started falling.",
+        "es": "Cancelar una salida con amigos a última hora con la excusa de que caen cuatro gotas.",
+        "de": "Ein Treffen in letzter Sekunde absagen, nur weil draußen ein paar Regentropfen fallen.",
+        "nl": "Een afspraak op het laatste moment afblazen omdat er drie druppels regen vallen.",
+        "pt": "Desmarcar um convívio à última hora com a desculpa de que caem umas gotas de chuva."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "autumn_green_3",
+      "theme": "autumn",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Proposer de gros chaussons chauds et douillets aux invités qui ont froid aux pieds.",
+        "en": "Offering fluffy warm guest slippers to friends whose feet are cold from the drizzle.",
+        "es": "Ofrecer zapatillas de casa cálidas y cómodas a los invitados con los pies fríos.",
+        "de": "Den Gästen, die kalte Füße vom Regen haben, kuschelig warme Hausschuhe anbieten.",
+        "nl": "Warme en zachte pantoffels aanbieden aan gasten die koude voeten hebben van de regen.",
+        "pt": "Oferecer pantufas bem quentes e confortáveis aos convidados que chegam com pés frios."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "autumn_red_4",
+      "theme": "autumn",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Pousser le chauffage à vingt-quatre degrés chez soi puis ouvrir les fenêtres en grand.",
+        "en": "Blasting home heating to twenty-four degrees only to open the windows wide ten minutes later.",
+        "es": "Poner la calefacción a veinticuatro grados para luego abrir de par en par las ventanas.",
+        "de": "Die Heizung auf vierundzwanzig Grad hochdrehen und kurz darauf alle Fenster aufreißen.",
+        "nl": "De kachel op vierentwintig graden zetten en vervolgens de ramen wagenwijd openzetten.",
+        "pt": "Ligar o aquecimento a vinte e quatro graus e logo a seguir escancarar as janelas de casa."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "autumn_green_4",
+      "theme": "autumn",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Préparer un grand velouté de potimarron maison fumant pour régaler tout le monde au dîner.",
+        "en": "Cooking a big pot of steaming homemade pumpkin soup to treat everyone for dinner.",
+        "es": "Cocinar una crema casera de calabaza humeante y deliciosa para cenar entre amigos.",
+        "de": "Eine große Schüssel dampfende Kürbissuppe kochen, um alle beim Abendessen zu wärmen.",
+        "nl": "Een grote pan dampende pompoensoep maken om iedereen bij het avondeten te verwennen.",
+        "pt": "Fazer um creme de abóbora caseiro a fumegar para aquecer toda a gente ao jantar."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "autumn_red_5",
+      "theme": "autumn",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Acheter dix gadgets inutiles lors du Black Friday uniquement parce qu'ils étaient soldés.",
+        "en": "Buying ten useless gadgets during Black Friday sales purely because they had discount tags.",
+        "es": "Comprar diez artilugios inútiles el Black Friday solo porque tenían descuento atractivo.",
+        "de": "Am Black Friday zehn unnütze Gadgets kaufen, nur weil sie scheinbar reduziert waren.",
+        "nl": "Tien nutteloze gadgets kopen tijdens Black Friday enkel en alleen omdat ze in de aanbieding waren.",
+        "pt": "Comprar dez coisas inúteis na Black Friday só porque estavam com desconto apelativo."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "autumn_green_5",
+      "theme": "autumn",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Sortir un second plaid moelleux du placard pour son invité qui frissonne sur le canapé.",
+        "en": "Pulling a second fluffy blanket from the closet for a guest shivering on the couch.",
+        "es": "Sacar una segunda manta suave del armario para el invitado que tiene frío en el sofá.",
+        "de": "Eine zweite weiche Kuscheldecke für den Gast holen, der auf dem Sofa fröstelt.",
+        "nl": "Een tweede zacht fleecedekentje pakken voor de gast die zit te rillen op de bank.",
+        "pt": "Tirar uma segunda manta aconchegante do armário para o convidado que tem frio no sofá."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "autumn_red_6",
+      "theme": "autumn",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Prendre le dernier morceau de fromage fondant dans le plat sans consulter les autres convives.",
+        "en": "Snatching the very last slice of melted cheese without asking the rest of the table.",
+        "es": "Quedarse con la última loncha de queso de la fuente sin consultar al resto de la mesa.",
+        "de": "Das allerletzte Stück Käse aus der Schale nehmen, ohne vorher am Tisch nachzufragen.",
+        "nl": "Het allerlaatste plakje kaas van de schotel pakken zonder even rond te vragen aan tafel.",
+        "pt": "Tirar a última fatia de queijo da travessa sem perguntar aos outros convivas da mesa."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "autumn_green_6",
+      "theme": "autumn",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Émincer à l'avance des cornichons et petits oignons pour garnir la table de raclette.",
+        "en": "Slicing plenty of pickles and baby onions ahead of time to garnish the raclette feast.",
+        "es": "Picar con antelación pepinillos y cebolletas para completar la mesa de raclette.",
+        "de": "Vorab reichlich Gewürzgurken und Silberzwiebeln für das Raclette-Essen schneiden.",
+        "nl": "Vooraf augurkjes en zilveruitjes fijnsnijden om de gezellige maaltijd compleet te maken.",
+        "pt": "Cortar previamente pickles e cebolinhas de conserva para enriquecer a mesa de raclette."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "autumn_red_7",
+      "theme": "autumn",
+      "type": "red_flag",
+      "texts": {
+        "fr": "S'enrouler dans le meilleur plaid du salon tel un burrito et refuser de partager l'espace.",
+        "en": "Wrapping yourself like a burrito in the couch's best blanket and refusing to share an inch.",
+        "es": "Enrollarse como una croqueta en la manta más suave del sofá y negarse a compartirla.",
+        "de": "Sich wie ein Burrito in die beste Sofadecke wickeln und niemanden heranlassen.",
+        "nl": "Jezelf als een burrito in het fijnste dekentje wikkelen en weigeren een stukje te delen.",
+        "pt": "Enrolar-se como um casulo na melhor manta do sofá e recusar partilhar um cantinho."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "autumn_green_7",
+      "theme": "autumn",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Préparer un grand chocolat chaud à l'ancienne avec crème fouettée par temps de bruine.",
+        "en": "Whipping up rich homemade hot cocoa with fresh whipped cream on a chilly drizzle day.",
+        "es": "Preparar un chocolate caliente tradicional con nata montada en una tarde gris y fría.",
+        "de": "Echte heiße Schokolade mit Schlagsahne zubereiten, wenn es draußen trüb und nass ist.",
+        "nl": "Warme chocolademelk met een toef slagroom maken wanneer het buiten guur en grijs is.",
+        "pt": "Preparar um chocolate quente caseiro com chantilly numa tarde fria de chuva miudinha."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "autumn_red_8",
+      "theme": "autumn",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Passer des chansons de fête de Noël en boucle dès le premier novembre au matin.",
+        "en": "Looping holiday jingles on high volume the literal morning of November first.",
+        "es": "Poner villancicos navideños en bucle desde la misma mañana del uno de noviembre.",
+        "de": "Schon am ersten Novembermorgen Weihnachtslieder in Dauerschleife laufen lassen.",
+        "nl": "Vanaf 1 november 's ochtends vroeg non-stop kerstliedjes op herhaling zetten.",
+        "pt": "Pôr canções de Natal a tocar em repetição logo na manhã do primeiro de novembro."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "autumn_green_8",
+      "theme": "autumn",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Lever haut son grand parapluie dans la rue pour ne pas éborgner les passants plus petits.",
+        "en": "Lifting your umbrella up high on busy sidewalks to avoid poking shorter pedestrians.",
+        "es": "Levantar el paraguas alto en la acera para no tropezar con viandantes más bajitos.",
+        "de": "Den Regenschirm auf dem Gehweg anheben, um kleineren Passanten nicht zu nahe zu kommen.",
+        "nl": "Je paraplu op straat hoog optillen om kleinere voorbijgangers niet te raken.",
+        "pt": "Erguer o guarda-chuva no passeio para não bater nos olhos dos transeuntes mais baixos."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "autumn_red_9",
+      "theme": "autumn",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Entrer chez son hôte sans retirer ses bottes trempées et maculées de boue automnale.",
+        "en": "Walking right into someone's home without taking off soggy, mud-crusted autumn boots.",
+        "es": "Entrar en casa del anfitrión sin quitarse las botas empapadas y llenas de barro.",
+        "de": "Mit nassen, matschigen Herbststiefeln ungeniert in die Wohnung des Gastgebers stapfen.",
+        "nl": "Met drijfnatte en modderige herfstlaarzen zo de woonkamer van de gastheer binnenlopen.",
+        "pt": "Entrar em casa do anfitrião sem descalçar as botas encharcadas e cheias de lama."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "autumn_green_9",
+      "theme": "autumn",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Sortir un jeu de plateau captivant pour sauver un après-midi pluvieux et morose.",
+        "en": "Bringing out a gripping board game to rescue a gloomy, rain-drenched Sunday afternoon.",
+        "es": "Sacar un juego de mesa divertido para amenizar una tarde gris y lluviosa de domingo.",
+        "de": "Ein fesselndes Brettspiel hervorholen, um einen verregneten Sonntagnachmittag zu retten.",
+        "nl": "Een spannend bordspel op tafel zetten om een saaie en regenachtige middag te redden.",
+        "pt": "Tirar um jogo de tabuleiro divertido para animar uma tarde de domingo cinzenta e chuvosa."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "autumn_red_10",
+      "theme": "autumn",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Cuisiner du chou ou du poisson dans un studio calfeutré sans jamais ouvrir pour aérer.",
+        "en": "Cooking pungent cabbage or fish in a sealed apartment without opening a single window.",
+        "es": "Cocinar coliflor o pescado en un piso cerrado sin abrir ni una ventana para ventilar.",
+        "de": "Kohl oder Fisch in einer geschlossenen Wohnung kochen, ohne je zu lüften.",
+        "nl": "Kool of vis bakken in een dichte flat zonder ooit een raampje open te zetten.",
+        "pt": "Cozinhar couve ou peixe num apartamento fechado sem nunca abrir para arejar."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "autumn_green_10",
+      "theme": "autumn",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Arriver avec une tarte aux pommes et cannelle encore tiède pour le goûter partagé.",
+        "en": "Arriving with a freshly baked, warm cinnamon apple pie for the cozy afternoon tea.",
+        "es": "Llegar con una tarta de manzana y canela aún tibia para merendar entre todos.",
+        "de": "Mit einem ofenwarmen Apfel-Zimt-Kuchen zum gemütlichen Nachmittagstee aufkreuzen.",
+        "nl": "Aankomen met een nog warme appel-kaneeltaart voor het gezellige theemoment.",
+        "pt": "Chegar com uma tarte de maçã e canela ainda morna para o lanche partilhado."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "autumn_red_11",
+      "theme": "autumn",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Bousculer les passants sur le trottoir avec les baleines acérées de son grand parapluie.",
+        "en": "Carelessly bumping into street passersby with the sharp ribs of a wide golf umbrella.",
+        "es": "Golpear a los peatones en la acera con las varillas afiladas de un paraguas grande.",
+        "de": "Passanten auf dem Gehweg rücksichtslos mit den Metallspitzen des Schirms anstoßen.",
+        "nl": "Voetgangers op de stoep hinderen met de scherpe baleinen van een grote paraplu.",
+        "pt": "Empurrar as pessoas no passeio com as varetas pontiagudas de um guarda-chuva enorme."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "autumn_green_11",
+      "theme": "autumn",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Proposer spontanément de raccompagner des amis en voiture pour leur éviter l'averse.",
+        "en": "Spontaneously offering friends a ride home to spare them from the freezing downpour.",
+        "es": "Ofrecerse amablemente a llevar a los amigos en coche para ahorrarles el aguacero.",
+        "de": "Freunden spontan eine Mitfahrgelegenheit anbieten, um ihnen den Platzregen zu ersparen.",
+        "nl": "Vrienden spontaan een lift naar huis aanbieden om ze de plensbui te besparen.",
+        "pt": "Oferecer-se de bom grado para levar os amigos a casa e poupá-los à chuva torrencial."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "autumn_red_12",
+      "theme": "autumn",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Perdre son morceau de pain dans le caquelon de fondue et prétendre que ce n'est pas à soi.",
+        "en": "Dropping your bread cube into the fondue pot and brazenly denying it belongs to you.",
+        "es": "Perder el trozo de pan en la cazuela de fondue y fingir que no era el suyo.",
+        "de": "Das Brotstück im Fondue-Topf verlieren und dreist behaupten, es gehöre einem nicht.",
+        "nl": "Je stukje brood in de kaasfonduepan verliezen en stellig beweren dat het niet van jou was.",
+        "pt": "Deixar cair o pedaço de pão na panela de fondue e jurar a pés juntos que não era seu."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "autumn_green_12",
+      "theme": "autumn",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Régler le thermostat du salon sur une température douce qui convient à tout le monde.",
+        "en": "Setting the living room thermostat to a balanced temperature that suits everybody.",
+        "es": "Poner el termostato de la sala a una temperatura agradable que agrade a todos.",
+        "de": "Den Thermostat im Wohnzimmer auf eine angenehme Temperatur für alle einstellen.",
+        "nl": "De thermostaat in de woonkamer op een fijne temperatuur zetten die voor ieder prettig is.",
+        "pt": "Ajustar o termóstato da sala para uma temperatura suave e confortável para todos."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "autumn_red_13",
+      "theme": "autumn",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Refuser d'allumer le chauffage en colocation quand le salon affiche douze degrés au compteur.",
+        "en": "Refusing to turn on radiators in a shared flat when the thermostat shows twelve degrees.",
+        "es": "Negarse a poner la calefacción en el piso compartido cuando hace doce grados en el salón.",
+        "de": "Sich weigern, die Heizung in der WG anzuschalten, obwohl das Thermometer zwölf Grad anzeigt.",
+        "nl": "Weigeren de verwarming aan te zetten in het studentenhuis terwijl het twaalf graden is.",
+        "pt": "Recusar ligar o aquecimento na casa partilhada quando estão doze graus na sala."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "autumn_green_13",
+      "theme": "autumn",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Faire sécher le manteau trempé de son visiteur sur un cintre près d'un radiateur tiède.",
+        "en": "Hanging a guest's soaking wet coat on a hanger near a gentle radiator to dry off.",
+        "es": "Colgar el abrigo empapado del invitado en una percha cerca del radiador para secarlo.",
+        "de": "Den durchnässten Mantel des Gastes auf einem Bügel nahe der Heizung trocknen lassen.",
+        "nl": "De kletsnatte jas van de bezoeker netjes op een hanger bij de verwarming laten drogen.",
+        "pt": "Pendurar o casaco encharcado do convidado num cabide perto do radiador para secar."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "autumn_red_14",
+      "theme": "autumn",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Regarder tous les épisodes de la série commune en cachette un dimanche après-midi pluvieux.",
+        "en": "Secretly bingeing all episodes of a shared TV series alone on a rainy Sunday afternoon.",
+        "es": "Verse todos los capítulos de la serie compartida a escondidas una tarde de lluvia.",
+        "de": "Alle Folgen der gemeinsamen Serie heimlich an einem regnerischen Nachmittag wegbingen.",
+        "nl": "Stiekem alle afleveringen van de gezamenlijke serie bingen op een regenachtige zondag.",
+        "pt": "Ver todos os episódios da série conjunta às escondidas numa tarde de chuva."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "autumn_green_14",
+      "theme": "autumn",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Prévoir de généreuses garnitures végétariennes pour les amis lors de la soirée raclette.",
+        "en": "Providing delicious vegetarian toppings and veggies for friends at the raclette dinner.",
+        "es": "Ofrecer ricas opciones vegetarianas para los amigos en la velada de raclette.",
+        "de": "Köstliche vegetarische Beilagen für Freunde beim gemeinsamen Raclette bereitstellen.",
+        "nl": "Heerlijke vegetarische opties en groenten klaarmaken voor vrienden bij het gourmetten.",
+        "pt": "Preparar opções vegetarianas apetitosas para os amigos na noite de raclette."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "autumn_red_15",
+      "theme": "autumn",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Venir les mains vides à une soirée raclette et se jeter sur le fromage le plus cher.",
+        "en": "Showing up empty-handed to a raclette party and instantly grabbing the priciest cheese.",
+        "es": "Venir con las manos vacías a una raclette y lanzarse a por el queso más gourmet.",
+        "de": "Mit leeren Händen zum Raclette-Abend kommen und sich auf den teuersten Käse stürzen.",
+        "nl": "Zonder iets mee te nemen op de gourmetavond komen en meteen de duurste kaas pakken.",
+        "pt": "Aparecer de mãos vazias num jantar de raclette e atirar-se logo ao queijo mais caro."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "autumn_green_15",
+      "theme": "autumn",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Ouvrir brièvement la fenêtre après le repas pour aérer sans faire grelotter la pièce.",
+        "en": "Briefly cracking a window after eating to freshen the room air without cooling it down.",
+        "es": "Abrir brevemente la ventana tras cenar para ventilar el ambiente sin enfriar el salón.",
+        "de": "Nach dem Essen kurz stoßlüften, um für frische Luft zu sorgen, ohne dass alle frieren.",
+        "nl": "Na het eten kort ventileren zodat de geur verdwijnt zonder dat de kamer koud wordt.",
+        "pt": "Abrir um pouco a janela após a refeição para arejar o ambiente sem arrefecer a sala."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "autumn_red_16",
+      "theme": "autumn",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Secouer énergiquement son parapluie ruisselant à l'intérieur du salon sur le parquet.",
+        "en": "Vigorously shaking a dripping wet umbrella right inside the living room onto wood floors.",
+        "es": "Sacudir con fuerza el paraguas chorreando agua en el salón mojando el suelo de madera.",
+        "de": "Den tropfnassen Regenschirm mitten im Wohnzimmer kräftig auf dem Parkett ausschütteln.",
+        "nl": "Een kletsnatte paraplu midden in de woonkamer op de houten vloer uitschudden.",
+        "pt": "Sacudir o guarda-chuva a pingar água dentro da sala molhando o chão de madeira."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "autumn_green_16",
+      "theme": "autumn",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Préparer une tisane bienfaisante au miel et thym pour un ami qui commence à tousser.",
+        "en": "Brewing a soothing thyme and honey herbal tea for a friend starting to catch a chill.",
+        "es": "Preparar una infusión caliente de tomillo y miel para un amigo que empieza a toser.",
+        "de": "Einen wohltuenden Kräutertee mit Thymian und Honig für den erkälteten Freund kochen.",
+        "nl": "Een verzachtende kruidenthee met honing en tijm zetten voor een vriend die hoest.",
+        "pt": "Fazer uma infusão reconfortante de tomilho e mel para um amigo que começa a tossir."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "autumn_red_17",
+      "theme": "autumn",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Manger des marrons chauds dans la rue et jeter les écorces brûlées sur le trottoir mouillé.",
+        "en": "Snacking on roasted chestnuts in the street and tossing the shells onto wet pavements.",
+        "es": "Comer castañas asadas por la calle y tirar las cáscaras quemadas a la acera mojada.",
+        "de": "Heiße Maronen auf der Straße essen und die verbrannten Schalen auf den Gehweg werfen.",
+        "nl": "Geroosterde tamme kastanjes eten en de schillen achteloos op de natte stoep gooien.",
+        "pt": "Comer castanhas assadas na rua e atirar as cascas queimadas para o passeio molhado."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "autumn_green_17",
+      "theme": "autumn",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Offrir un cornet de marrons chauds tout juste grillés à partager pendant une promenade.",
+        "en": "Sharing a paper cone of freshly roasted warm chestnuts during a brisk autumn walk.",
+        "es": "Comprar un cucurucho de castañas asadas bien calientes para compartir en el paseo.",
+        "de": "Eine Tüte ofenfrische Maronen spendieren und beim Herbstspaziergang teilen.",
+        "nl": "Een puntzak hete geroosterde kastanjes halen om te delen tijdens een frisse wandeling.",
+        "pt": "Oferecer um cartucho de castanhas bem quentinhas para partilhar durante o passeio."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    {
+      "id": "autumn_red_18",
+      "theme": "autumn",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Râler quotidiennement sur le changement d'heure et la nuit qui tombe à dix-sept heures.",
+        "en": "Whining every single evening about the clock change and darkness falling at five PM.",
+        "es": "Quejarse a diario del cambio de hora y de que sea noche cerrada a las cinco de la tarde.",
+        "de": "Jeden Tag lautstark über die Zeitumstellung und die Dunkelheit um siebzehn Uhr jammern.",
+        "nl": "Elke avond steen en been klagen over het verzetten van de klok en het vroege donker.",
+        "pt": "Queixar-se todos os dias da mudança da hora e da noite que cai às cinco da tarde."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
     }
   ],
   "packs": {
@@ -17290,6 +19180,132 @@
         "money_red_17",
         "money_green_17",
         "money_red_18"
+      ]
+    },
+    "spring_pack": {
+      "id": "spring_pack",
+      "name": "SPRING",
+      "card_count": 35,
+      "card_ids": [
+        "spring_red_1",
+        "spring_green_1",
+        "spring_red_2",
+        "spring_green_2",
+        "spring_red_3",
+        "spring_green_3",
+        "spring_red_4",
+        "spring_green_4",
+        "spring_red_5",
+        "spring_green_5",
+        "spring_red_6",
+        "spring_green_6",
+        "spring_red_7",
+        "spring_green_7",
+        "spring_red_8",
+        "spring_green_8",
+        "spring_red_9",
+        "spring_green_9",
+        "spring_red_10",
+        "spring_green_10",
+        "spring_red_11",
+        "spring_green_11",
+        "spring_red_12",
+        "spring_green_12",
+        "spring_red_13",
+        "spring_green_13",
+        "spring_red_14",
+        "spring_green_14",
+        "spring_red_15",
+        "spring_green_15",
+        "spring_red_16",
+        "spring_green_16",
+        "spring_red_17",
+        "spring_green_17",
+        "spring_red_18"
+      ]
+    },
+    "festival_pack": {
+      "id": "festival_pack",
+      "name": "FESTIVAL",
+      "card_count": 35,
+      "card_ids": [
+        "festival_red_1",
+        "festival_green_1",
+        "festival_red_2",
+        "festival_green_2",
+        "festival_red_3",
+        "festival_green_3",
+        "festival_red_4",
+        "festival_green_4",
+        "festival_red_5",
+        "festival_green_5",
+        "festival_red_6",
+        "festival_green_6",
+        "festival_red_7",
+        "festival_green_7",
+        "festival_red_8",
+        "festival_green_8",
+        "festival_red_9",
+        "festival_green_9",
+        "festival_red_10",
+        "festival_green_10",
+        "festival_red_11",
+        "festival_green_11",
+        "festival_red_12",
+        "festival_green_12",
+        "festival_red_13",
+        "festival_green_13",
+        "festival_red_14",
+        "festival_green_14",
+        "festival_red_15",
+        "festival_green_15",
+        "festival_red_16",
+        "festival_green_16",
+        "festival_red_17",
+        "festival_green_17",
+        "festival_red_18"
+      ]
+    },
+    "autumn_pack": {
+      "id": "autumn_pack",
+      "name": "AUTUMN",
+      "card_count": 35,
+      "card_ids": [
+        "autumn_red_1",
+        "autumn_green_1",
+        "autumn_red_2",
+        "autumn_green_2",
+        "autumn_red_3",
+        "autumn_green_3",
+        "autumn_red_4",
+        "autumn_green_4",
+        "autumn_red_5",
+        "autumn_green_5",
+        "autumn_red_6",
+        "autumn_green_6",
+        "autumn_red_7",
+        "autumn_green_7",
+        "autumn_red_8",
+        "autumn_green_8",
+        "autumn_red_9",
+        "autumn_green_9",
+        "autumn_red_10",
+        "autumn_green_10",
+        "autumn_red_11",
+        "autumn_green_11",
+        "autumn_red_12",
+        "autumn_green_12",
+        "autumn_red_13",
+        "autumn_green_13",
+        "autumn_red_14",
+        "autumn_green_14",
+        "autumn_red_15",
+        "autumn_green_15",
+        "autumn_red_16",
+        "autumn_green_16",
+        "autumn_red_17",
+        "autumn_green_17",
+        "autumn_red_18"
       ]
     }
   },
@@ -33565,7 +35581,1897 @@
       "mode": "classic",
       "packId": "money_pack",
       "live_tier": "safe"
+    },
+    "spring_red_1": {
+      "id": "spring_red_1",
+      "theme": "spring",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Réserver une table de huit en terrasse alors qu'on n'est que deux pour être au large.",
+        "en": "Reserving an eight-person terrace table when you're only two just to spread out.",
+        "es": "Reservar una mesa de ocho en la terraza cuando solo son dos para estar anchos.",
+        "de": "Einen Achtertisch auf der Terrasse reservieren, obwohl man nur zu zweit ist.",
+        "nl": "Een tafel voor acht reserveren op het terras terwijl je maar met z'n tweeën bent.",
+        "pt": "Reservar uma mesa de oito na esplanada quando são apenas dois para estarem à vontade."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    "spring_green_1": {
+      "id": "spring_green_1",
+      "theme": "spring",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Apporter un grand tube de crème solaire indice cinquante et en proposer à tout le groupe.",
+        "en": "Bringing a big bottle of SPF 50 sunscreen and generously offering it to the entire group.",
+        "es": "Llevar un bote grande de crema solar SPF 50 y ofrecer generosamente a todo el grupo.",
+        "de": "Eine große Flasche Sonnencreme LSF 50 mitbringen und sie der ganzen Gruppe anbieten.",
+        "nl": "Een grote fles zonnebrandcrème factor 50 meenemen en royaal aanbieden aan de groep.",
+        "pt": "Trazer um protetor solar fator 50 e oferecer generosamente a toda a gente do grupo."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    "spring_red_2": {
+      "id": "spring_red_2",
+      "theme": "spring",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Sortir en t-shirt et lunettes de soleil dès douze degrés et grelotter tout l'après-midi.",
+        "en": "Going out in a t-shirt and sunglasses at twelve degrees and shivering all afternoon.",
+        "es": "Salir en camiseta y gafas de sol a doce grados y tiritar durante toda la tarde.",
+        "de": "Bei zwölf Grad im T-Shirt und Sonnenbrille rausgehen und den ganzen Nachmittag zittern.",
+        "nl": "In T-shirt en zonnebril naar buiten gaan bij twaalf graden en de hele middag rillen.",
+        "pt": "Sair de t-shirt e óculos de sol com doze graus e tremer de frio a tarde inteira."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    "spring_green_2": {
+      "id": "spring_green_2",
+      "theme": "spring",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Prêter spontanément son gilet ou sa veste à la personne qui grelotte en terrasse.",
+        "en": "Spontaneously lending your jacket or cardigan to someone shivering on the patio.",
+        "es": "Prestar espontáneamente tu chaqueta o cárdigan a quien tirita de frío en la terraza.",
+        "de": "Spontan die eigene Jacke der Person leihen, die auf der Terrasse friert.",
+        "nl": "Spontaan je jas of vest uitlenen aan degene die zit te rillen op het terras.",
+        "pt": "Emprestar espontaneamente o casaco à pessoa que está a tremer de frio na esplanada."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    "spring_red_3": {
+      "id": "spring_red_3",
+      "theme": "spring",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Annuler un projet prévu depuis un mois juste parce qu'il fait un beau soleil dehors.",
+        "en": "Cancelling plans made a month ago just because the sun unexpectedly came out.",
+        "es": "Cancelar un plan previsto hace un mes solo porque hace un día soleado fuera.",
+        "de": "Verabredungen von vor einem Monat absagen, nur weil draußen schön die Sonne scheint.",
+        "nl": "Plannen van een maand geleden afzeggen puur omdat het zonnetje ineens schijnt.",
+        "pt": "Cancelar planos combinados há um mês só porque está um lindo dia de sol na rua."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    "spring_green_3": {
+      "id": "spring_green_3",
+      "theme": "spring",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Dérouler une grande nappe de pique-nique et inviter les gens assis dans l'herbe.",
+        "en": "Unrolling a large picnic blanket and inviting friends sitting on damp grass to join.",
+        "es": "Extender una manta grande de picnic e invitar a unirse a quienes están en la hierba.",
+        "de": "Eine große Picknickdecke ausbreiten und Freunde einladen, die im Gras sitzen.",
+        "nl": "Een groot picknickkleed uitrollen en vrienden uitnodigen die op het gras zitten.",
+        "pt": "Estender uma toalha grande de piquenique e convidar quem está na relva a sentar-se."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    "spring_red_4": {
+      "id": "spring_red_4",
+      "theme": "spring",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Bloquer la seule chaise au soleil de la terrasse avec son sac à dos encombrant.",
+        "en": "Blocking the only sunny terrace chair with a bulky backpack so no one sits there.",
+        "es": "Bloquear la única silla al sol de la terraza con una mochila enorme sin usarla.",
+        "de": "Den einzigen sonnigen Stuhl auf der Terrasse mit einem großen Rucksack blockieren.",
+        "nl": "De enige zonnige stoel op het terras bezet houden met een logge rugzak.",
+        "pt": "Bloquear a única cadeira ao sol na esplanada com uma mochila enorme sem necessidade."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    "spring_green_4": {
+      "id": "spring_green_4",
+      "theme": "spring",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Nettoyer avec soin la grille du barbecue avant et après la cuisson sans rechigner.",
+        "en": "Carefully scrubbing the barbecue grill before and after cooking without complaining.",
+        "es": "Limpiar a fondo la parrilla de la barbacoa antes y después de cocinar sin quejarse.",
+        "de": "Den Grillrost vor und nach dem Grillen gründlich und ohne Murren sauber schrubben.",
+        "nl": "Het barbecuerooster voor en na het bakken grondig schoonmaken zonder te zeuren.",
+        "pt": "Limpar com cuidado a grelha do churrasco antes e depois de cozinhar sem refilar."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    "spring_red_5": {
+      "id": "spring_red_5",
+      "theme": "spring",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Débarquer au barbecue chez des amis sans apporter la moindre boisson ni grillade.",
+        "en": "Showing up at a friend's barbecue completely empty-handed without drinks or food.",
+        "es": "Llegar a la barbacoa en casa de amigos sin traer ni una bebida ni nada para la parrilla.",
+        "de": "Mit leeren Händen zur Grillparty bei Freunden kommen, ohne Drinks oder Grillgut.",
+        "nl": "Met lege handen op de barbecue bij vrienden verschijnen zonder drank of hapjes.",
+        "pt": "Aparecer no churrasco em casa de amigos de mãos a abanar sem bebidas nem comida."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    "spring_green_5": {
+      "id": "spring_green_5",
+      "theme": "spring",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Ramasser tous les déchets du pique-nique dans un sac poubelle sans qu'on le demande.",
+        "en": "Packing all the picnic trash into a garbage bag without needing to be asked.",
+        "es": "Recoger toda la basura del picnic en una bolsa sin necesidad de que se lo pidan.",
+        "de": "Den gesamten Müll des Picknicks ohne Aufforderung in einen Müllsack packen.",
+        "nl": "Al het afval van de picknick uit eigen beweging in een vuilniszak verzamelen.",
+        "pt": "Apanhar todo o lixo do piquenique num saco do lixo sem ninguém ter de pedir."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    "spring_red_6": {
+      "id": "spring_red_6",
+      "theme": "spring",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Se plaindre de ses allergies au pollen en continu pendant tout le repas en plein air.",
+        "en": "Complaining about pollen allergies non-stop during the entire outdoor lunch.",
+        "es": "Quejarse de su alergia al polen sin parar durante toda la comida al aire libre.",
+        "de": "Sich während des gesamten Essens im Freien pausenlos über Pollenallergie beschweren.",
+        "nl": "De hele buitenlunch lang onafgebroken klagen over hooikoorts en stuifmeel.",
+        "pt": "Passar o almoço inteiro ao ar livre a queixar-se sem parar das alergias ao pólen."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    "spring_green_6": {
+      "id": "spring_green_6",
+      "theme": "spring",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Préparer une grande carafe d'eau fraîche avec menthe et citron pour tout le monde.",
+        "en": "Prepping a large pitcher of ice-cold water with fresh mint and lemon for everyone.",
+        "es": "Preparar una jarra grande de agua fresca con menta y limón para toda la mesa.",
+        "de": "Eine große Karaffe eiskaltes Wasser mit frischer Minze und Zitrone bereitstellen.",
+        "nl": "Een grote karaf ijskoud water met verse munt en citroen neerzetten voor iedereen.",
+        "pt": "Preparar um jarro grande de água fresca com hortelã e limão para todo o grupo."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    "spring_red_7": {
+      "id": "spring_red_7",
+      "theme": "spring",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Sortir les tongs dès le premier rayon de mars avec les pieds d'une blancheur aveuglante.",
+        "en": "Wearing flip-flops at the first March sunbeam with blindingly pale winter feet.",
+        "es": "Ponerse chanclas con el primer rayo de sol de marzo luciendo pies blanquísimos.",
+        "de": "Beim ersten Sonnenstrahl im März Flip-Flops tragen und schneeweiße Füße zeigen.",
+        "nl": "Bij het eerste streepje maartse zon op slippers lopen met spierwitte wintervoeten.",
+        "pt": "Usar chinelos de dedo ao primeiro raio de sol de março com os pés brancos do inverno."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    "spring_green_7": {
+      "id": "spring_green_7",
+      "theme": "spring",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Céder spontanément la place la plus ensoleillée de la table au dernier arrivé.",
+        "en": "Spontaneously offering the sunniest seat at the table to the friend arriving last.",
+        "es": "Ceder espontáneamente el asiento más soleado de la mesa al último en llegar.",
+        "de": "Dem zuletzt eintreffenden Freund spontan den sonnigsten Platz am Tisch überlassen.",
+        "nl": "Spontaan de zonnigste plek aan tafel afstaan aan de vriend die als laatste arriveert.",
+        "pt": "Ceder espontaneamente o lugar mais ensolarado da mesa ao amigo que chegou por último."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    "spring_red_8": {
+      "id": "spring_red_8",
+      "theme": "spring",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Manger en cachette la moitié des chocolats de Pâques destinés aux enfants.",
+        "en": "Secretly eating half of the Easter chocolate meant for the kids in the household.",
+        "es": "Comerse a escondidas la mitad de los chocolates de Pascua destinados a los niños.",
+        "de": "Heimlich die Hälfte der Osterschokolade aufessen, die für die Kinder gedacht war.",
+        "nl": "Stiekem de helft van de paaseitjes opeten die voor de kinderen bedoeld waren.",
+        "pt": "Comer às escondidas metade dos chocolates da Páscoa reservados para as crianças."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    "spring_green_8": {
+      "id": "spring_green_8",
+      "theme": "spring",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Apporter une barquette de fraises sucrées bien fraîches pour le dessert partagé.",
+        "en": "Bringing a fresh basket of sweet local strawberries for the shared outdoor dessert.",
+        "es": "Traer una bandeja de fresas dulces y frescas para compartir en el postre al sol.",
+        "de": "Eine Schale frische, süße Erdbeeren als Nachtisch für alle draußen mitbringen.",
+        "nl": "Een bakje zoete verse aardbeien meenemen om te delen als dessert in de zon.",
+        "pt": "Trazer uma cesta de morangos doces e frescos para partilhar na sobremesa ao sol."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    "spring_red_9": {
+      "id": "spring_red_9",
+      "theme": "spring",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Mettre son enceinte Bluetooth à fond au milieu du parc plein de familles en balade.",
+        "en": "Blasting your Bluetooth speaker on full blast in a quiet park full of families.",
+        "es": "Poner el altavoz Bluetooth a todo volumen en un parque lleno de familias paseando.",
+        "de": "Die Bluetooth-Box im ruhigen Park voller Spaziergänger auf maximale Lautstärke drehen.",
+        "nl": "Een bluetoothbox op standje maximaal zetten in een druk park vol wandelende gezinnen.",
+        "pt": "Meter uma coluna Bluetooth no volume máximo num parque sossegado cheio de famílias."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    "spring_green_9": {
+      "id": "spring_green_9",
+      "theme": "spring",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Prêter une deuxième paire de lunettes de soleil à un ami qui plisse les yeux.",
+        "en": "Lending a spare pair of sunglasses to a friend squinting in the bright glare.",
+        "es": "Prestar unas gafas de sol de repuesto al amigo que está cegado por el sol.",
+        "de": "Eine zweite Sonnenbrille an den Freund verleihen, der geblendet die Augen zukneift.",
+        "nl": "Een reservezonnebril uitlenen aan een vriend die tegen het felle licht in knijpt.",
+        "pt": "Emprestar uns óculos de sol suplentes ao amigo que está encandeado pela luz forte."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    "spring_red_10": {
+      "id": "spring_red_10",
+      "theme": "spring",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Refuser de décaler sa chaise de dix centimètres pour laisser passer un landau.",
+        "en": "Refusing to scoot your chair back four inches to let a baby stroller pass by.",
+        "es": "Negarse a mover la silla unos centímetros para dejar pasar un carrito de bebé.",
+        "de": "Sich weigern, den Stuhl zehn Zentimeter zu rücken, um einen Kinderwagen durchzulassen.",
+        "nl": "Weigeren je stoel tien centimeter op te schuiven om een kinderwagen door te laten.",
+        "pt": "Recusar afastar a cadeira dez centímetros para deixar passar um carrinho de bebé."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    "spring_green_10": {
+      "id": "spring_green_10",
+      "theme": "spring",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Apporter un jeu de boules de pétanque ou un frisbee pour animer l'après-midi au parc.",
+        "en": "Bringing boules or a frisbee to liven up a lazy sunny afternoon in the park.",
+        "es": "Llevar un juego de petanca o un frisbee para animar la tarde soleada en el parque.",
+        "de": "Ein Boule-Set oder eine Frisbee mitbringen, um den sonnigen Nachmittag aufzulockern.",
+        "nl": "Jeu de boules of een frisbee meenemen om de zonnige middag in het park op te vrolijken.",
+        "pt": "Trazer um jogo de petanca ou um frisbee para animar a tarde soalheira no parque."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    "spring_red_11": {
+      "id": "spring_red_11",
+      "theme": "spring",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Parler de son régime avant l'été à chaque bouchée d'apéro partagée entre amis.",
+        "en": "Talking about summer diet goals at literally every single bite of shared snacks.",
+        "es": "Hablar de la dieta para el verano en cada bocado de picoteo compartido con amigos.",
+        "de": "Bei jedem Bissen Aperitif-Snack ungefragt über die Diät für den Sommer reden.",
+        "nl": "Bij elk borrelhapje ongevraagd over het afvaldieet voor de zomer beginnen te praten.",
+        "pt": "Falar da dieta para o verão a cada petisco partilhado na esplanada com amigos."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    "spring_green_11": {
+      "id": "spring_green_11",
+      "theme": "spring",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Préparer une citronnade maison bien fraîche et acidulée pour désaltérer la bande.",
+        "en": "Making fresh tart homemade lemonade to quench everyone's thirst in the heat.",
+        "es": "Preparar limonada casera fresca y chispeante para calmar la sed de toda la pandilla.",
+        "de": "Frische hausgemachte Limonade zubereiten, um den Durst der Gruppe zu stillen.",
+        "nl": "Zelfgemaakte friszure limonade maken om de dorst van de groep te lessen.",
+        "pt": "Fazer uma limonada caseira fresca e ácida para saciar a sede de todo o grupo."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    "spring_red_12": {
+      "id": "spring_red_12",
+      "theme": "spring",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Faire une blague cruelle du premier avril en annonçant une fausse démission urgente.",
+        "en": "Pulling a cruel April Fools prank by falsely announcing a sudden job resignation.",
+        "es": "Hacer una broma cruel de inocentes anunciando una dimisión inventada de urgencia.",
+        "de": "Einen gemeinen Aprilscherz machen und eine gefälschte Kündigung im Job vortäuschen.",
+        "nl": "Een nare 1-aprilgrap uithalen door een zogenaamd dringend ontslag aan te kondigen.",
+        "pt": "Fazer uma partida maldosa de 1 de abril fingindo um despedimento dramático do trabalho."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    "spring_green_12": {
+      "id": "spring_green_12",
+      "theme": "spring",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Laisser la place face au soleil à celui qui n'a pas pu prendre de congés récents.",
+        "en": "Leaving the prime sun-facing chair to the friend who hasn't had time off in months.",
+        "es": "Dejar el sitio orientado al sol al amigo que lleva meses sin tomarse vacaciones.",
+        "de": "Den Platz in der Sonne dem Freund überlassen, der lange keinen Urlaub hatte.",
+        "nl": "De lekkerste zonneplek overlaten aan de vriend die al maanden niet vrij heeft gehad.",
+        "pt": "Deixar o lugar de frente para o sol ao amigo que não tira férias há meses."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    "spring_red_13": {
+      "id": "spring_red_13",
+      "theme": "spring",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Laisser ses canettes et emballages gras traîner sur la pelouse après le pique-nique.",
+        "en": "Leaving greasy fast-food wrappers and empty cans scattered on the park lawn.",
+        "es": "Dejar latas vacías y envases grasientos tirados en el césped tras el picnic.",
+        "de": "Dosen und fettige Verpackungen nach dem Picknick einfach auf der Wiese liegenlassen.",
+        "nl": "Lege blikjes en vette verpakkingen na de picknick zomaar op het gras laten liggen.",
+        "pt": "Deixar latas vazias e embalagens de comida espalhadas na relva após o piquenique."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    "spring_green_13": {
+      "id": "spring_green_13",
+      "theme": "spring",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Avoir pensé aux serviettes en papier et au gel lavant pour les mains au pique-nique.",
+        "en": "Remembering to pack napkins and hand sanitizing gel for the outdoor picnic.",
+        "es": "Haber llevado servilletas de papel y gel higienizante para las manos al picnic.",
+        "de": "An Papierservietten und Handdesinfektionsmittel beim Parkpicknick gedacht haben.",
+        "nl": "Aan servetjes en handontsmettingsgel gedacht hebben voor de picknick buiten.",
+        "pt": "Lembrar-se de trazer guardanapos de papel e gel desinfetante para o piquenique."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    "spring_red_14": {
+      "id": "spring_red_14",
+      "theme": "spring",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Exiger de changer de bar dès que l'ombre d'un immeuble touche un coin de la table.",
+        "en": "Demanding to switch bars the very instant a building shadow touches the table corner.",
+        "es": "Exigir cambiar de bar en cuanto la sombra de un edificio roza una esquina de la mesa.",
+        "de": "Sofort Bar wechseln wollen, sobald der Schatten eines Hauses den Tisch berührt.",
+        "nl": "Meteen willen verkassen naar een ander café zodra een schaduw de tafel raakt.",
+        "pt": "Exigir mudar logo de bar assim que a sombra de um prédio toca na esquina da mesa."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    "spring_green_14": {
+      "id": "spring_green_14",
+      "theme": "spring",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Proposer de garder les vélos de tout le groupe pendant que les autres commandent.",
+        "en": "Offering to watch everyone's bicycles while the rest of the crew orders drinks.",
+        "es": "Ofrecerse a vigilar las bicicletas del grupo mientras los demás van a pedir.",
+        "de": "Freiwillig auf alle Fahrräder aufpassen, während die anderen Drinks bestellen gehen.",
+        "nl": "Aanbieden op alle fietsen te passen terwijl de rest van de groep drankjes bestelt.",
+        "pt": "Oferecer-se para guardar as bicicletas de todos enquanto os outros vão pedir."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    "spring_red_15": {
+      "id": "spring_red_15",
+      "theme": "spring",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Boire les trois quarts du rosé bien frais sans jamais en avoir racheté une bouteille.",
+        "en": "Gulping down most of the chilled rosé wine without ever contributing a single bottle.",
+        "es": "Beberse casi todo el vino rosado bien frío sin aportar nunca una sola botella.",
+        "de": "Den Großteil des kühlen Roséweins austrinken, ohne je eine Flasche beizusteuern.",
+        "nl": "Het leeuwendeel van de koude rosé opdrinken zonder ooit zelf een fles mee te nemen.",
+        "pt": "Beber quase todo o vinho rosé bem fresco sem nunca ter trazido uma garrafa."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    "spring_green_15": {
+      "id": "spring_green_15",
+      "theme": "spring",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Prévoir un plaid doux et chaud pour continuer à discuter sur le balcon à la nuit tombée.",
+        "en": "Providing a soft fleece blanket so everyone can keep chatting on the balcony at dusk.",
+        "es": "Llevar una manta suave y abrigada para seguir charlando en el balcón al anochecer.",
+        "de": "Eine weiche Kuscheldecke mitbringen, um bei Dämmerung auf dem Balkon weiterzureden.",
+        "nl": "Een lekker zacht dekentje neerleggen om 's avonds lang op het balkon te kletsen.",
+        "pt": "Trazer uma manta macia e quente para continuar a conversar na varanda ao anoitecer."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    "spring_red_16": {
+      "id": "spring_red_16",
+      "theme": "spring",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Confisquer le seul terrain de pétanque du parc pendant deux heures sans tourner.",
+        "en": "Hogging the park's only pétanque court for over two hours without sharing with others.",
+        "es": "Monopolizar la única pista de petanca del parque durante dos horas sin rotar.",
+        "de": "Den einzigen Bouleplatz im Park zwei Stunden besetzen, ohne andere mitspielen zu lassen.",
+        "nl": "De enige jeu-de-boulesbaan in het park urenlang claimen zonder anderen een beurt te gunnen.",
+        "pt": "Monopolizar o único campo de petanca do parque durante duas horas sem deixar jogar."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    "spring_green_16": {
+      "id": "spring_green_16",
+      "theme": "spring",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Mettre une playlist solaire et chaleureuse à un volume parfait pour bavarder au calme.",
+        "en": "Curating a warm sunny playlist at just the right volume to chat comfortably outdoors.",
+        "es": "Poner una lista de música alegre al volumen ideal para poder charlar tranquilamente.",
+        "de": "Eine sonnige Playlist in perfekter Lautstärke abspielen, sodass man sich unterhalten kann.",
+        "nl": "Een heerlijke zonnige afspeellijst aanzetten op een zacht volume zodat iedereen praat.",
+        "pt": "Colocar uma lista de música solarenga no volume perfeito para conversar com calma."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    "spring_red_17": {
+      "id": "spring_red_17",
+      "theme": "spring",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Enclencher la climatisation à fond dans l'habitacle dès qu'il fait dix-huit degrés dehors.",
+        "en": "Cranking the car air conditioning to freezing blast as soon as it hits eighteen outside.",
+        "es": "Encender el aire acondicionado a tope en el coche en cuanto hace dieciocho grados fuera.",
+        "de": "Die Autoklimaanlage voll aufdrehen, sobald es draußen gerade mal achtzehn Grad hat.",
+        "nl": "De airco in de auto loeihard aanzetten zodra het buiten amper achttien graden is.",
+        "pt": "Ligar o ar condicionado no máximo no carro assim que estão dezoito graus lá fora."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    "spring_green_17": {
+      "id": "spring_green_17",
+      "theme": "spring",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Offrir un bouquet de tulipes fraîches du marché du matin à l'hôte qui reçoit l'apéro.",
+        "en": "Gifting a bunch of fresh morning market tulips to the host organizing the patio drinks.",
+        "es": "Regalar un ramo de tulipanes frescos del mercado al anfitrión que organiza el picoteo.",
+        "de": "Dem Gastgeber der Terrassenrunde einen Strauß frische Tulpen vom Markt mitbringen.",
+        "nl": "Een bos verse tulpen van de ochtendmarkt meenemen voor wie de borrel organiseert.",
+        "pt": "Oferecer um ramo de tulipas frescas do mercado matinal a quem recebe o convívio."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    "spring_red_18": {
+      "id": "spring_red_18",
+      "theme": "spring",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Faire quarante poses devant les cerisiers en fleurs en bloquant le passage aux promeneurs.",
+        "en": "Striking forty poses in front of blooming cherry trees while blocking all pedestrian paths.",
+        "es": "Hacerse cuarenta fotos frente a los cerezos en flor bloqueando el paso a la gente.",
+        "de": "Vierzig Posen vor den Kirschblüten einnehmen und dabei den ganzen Weg blockieren.",
+        "nl": "Veertig poses aannemen voor de bloesembomen en het hele pad blokkeren voor wandelaars.",
+        "pt": "Fazer quarenta poses em frente às cerejeiras em flor bloqueando o caminho a todos."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "spring_pack",
+      "live_tier": "safe"
+    },
+    "festival_red_1": {
+      "id": "festival_red_1",
+      "theme": "festival",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Filmer l'intégralité du concert bras tendus avec son flash en cachant la vue aux gens derrière.",
+        "en": "Filming the entire concert with outstretched arms and flash on, blocking everyone behind.",
+        "es": "Grabar todo el concierto con los brazos en alto y flash, tapando la vista a los de atrás.",
+        "de": "Das gesamte Konzert mit gestreckten Armen und Blitz filmen und allen die Sicht nehmen.",
+        "nl": "Het hele concert filmen met gestrekte armen en flits, waardoor niemand erachter iets ziet.",
+        "pt": "Filmar o concerto inteiro de braços no ar com flash, tapando a vista a quem está atrás."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    "festival_green_1": {
+      "id": "festival_green_1",
+      "theme": "festival",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Avoir toujours une boîte de bouchons d'oreilles neufs à distribuer aux amis dans la fosse.",
+        "en": "Always carrying a fresh box of earplugs to share with friends in the loud concert crowd.",
+        "es": "Llevar siempre una caja de tapones nuevos para los oídos y repartir a los amigos.",
+        "de": "Immer eine Schachtel frische Ohrstöpsel dabeihaben und an Freunde im Konzert verteilen.",
+        "nl": "Altijd een doosje nieuwe oordopjes bij je hebben om uit te delen aan vrienden in de zaal.",
+        "pt": "Trazer sempre uma caixa de tampões para os ouvidos e distribuir pelos amigos no recinto."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    "festival_red_2": {
+      "id": "festival_red_2",
+      "theme": "festival",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Partir chercher une tournée de boissons au bar et disparaître mystérieusement trois heures.",
+        "en": "Going to grab a round of drinks at the festival bar and disappearing for three solid hours.",
+        "es": "Ir a pedir una ronda de bebidas a la barra del festival y desaparecer tres horas enteras.",
+        "de": "Eine Runde Getränke an der Festivalbar holen wollen und drei Stunden lang verschwinden.",
+        "nl": "Een rondje drinken gaan halen aan de festivalbar en drie uur lang spoorloos verdwijnen.",
+        "pt": "Ir buscar uma rodada de bebidas ao bar do festival e desaparecer durante três horas."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    "festival_green_2": {
+      "id": "festival_green_2",
+      "theme": "festival",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Avoir une batterie externe chargée à cent pour cent et la prêter gentiment sans hésiter.",
+        "en": "Carrying a fully charged power bank and kindly lending it around without hesitation.",
+        "es": "Tener una batería externa al cien por cien y prestarla amablemente a quien la necesite.",
+        "de": "Eine voll geladene Powerbank dabeihaben und sie Freunden jederzeit gerne ausleihen.",
+        "nl": "Een volle powerbank bij je hebben en die zonder aarzelen uitlenen aan vrienden met lege accu.",
+        "pt": "Ter uma bateria externa carregada a cem por cento e emprestá-la logo a quem precisa."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    "festival_red_3": {
+      "id": "festival_red_3",
+      "theme": "festival",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Abandonner sa tente cassée et ses détritus sur le terrain de camping le dimanche soir.",
+        "en": "Abandoning your broken tent and trash piles on the festival campsite on Sunday night.",
+        "es": "Abandonar la tienda rota y montones de basura en el camping del festival el domingo.",
+        "de": "Das kaputte Zelt und Müllberge am Sonntagabend einfach auf dem Campingplatz zurücklassen.",
+        "nl": "Je kapotte tent en stapels afval op zondagavond zomaar achterlaten op de festivalcamping.",
+        "pt": "Abandonar a tenda estragada e o lixo no parque de campismo do festival no domingo à noite."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    "festival_green_3": {
+      "id": "festival_green_3",
+      "theme": "festival",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Distribuer des gorgées d'eau fraîche à ses voisins dans la fosse surchauffée par l'ambiance.",
+        "en": "Offering refreshing sips of cool water to surrounding neighbors in the sweltering pit.",
+        "es": "Ofrecer tragos de agua fresca a la gente cercana en el foso recalentado por el concierto.",
+        "de": "Den Nachbarn im überhitzten Konzertkessel frische Schlucke Wasser anbieten.",
+        "nl": "Frisse slokken water aanbieden aan mensen om je heen in het oververhitte publiek.",
+        "pt": "Oferecer goles de água fresca aos vizinhos no meio da multidão abafada pelo calor."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    "festival_red_4": {
+      "id": "festival_red_4",
+      "theme": "festival",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Monter sur les épaules de quelqu'un au premier rang et bloquer la scène à cent personnes.",
+        "en": "Hopping onto someone's shoulders in the front row, blocking the stage for a hundred fans.",
+        "es": "Subirse a hombros en primera fila tapando la visión del escenario a cien personas.",
+        "de": "In der ersten Reihe auf fremde Schultern steigen und hundert Leuten die Sicht versperren.",
+        "nl": "Op iemands schouders gaan zitten op de eerste rij en het zicht voor honderd man blokkeren.",
+        "pt": "Subir para os ombros de alguém na primeira fila tapando o palco a cem pessoas atrás."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    "festival_green_4": {
+      "id": "festival_green_4",
+      "theme": "festival",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Former spontanément un cercle protecteur pour aider quelqu'un à retrouver ses lunettes tombées.",
+        "en": "Forming a quick human circle to help a fellow concertgoer safely find fallen glasses.",
+        "es": "Hacer un círculo protector para ayudar a alguien a buscar sus gafas caídas en el suelo.",
+        "de": "Einen schützenden Kreis bilden, um jemandem zu helfen, seine Brille im Gedränge zu finden.",
+        "nl": "Een beschermende cirkel vormen om iemand te helpen die zijn bril kwijt is in de menigte.",
+        "pt": "Fazer uma roda protetora para ajudar alguém a encontrar os óculos que caíram no chão."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    "festival_red_5": {
+      "id": "festival_red_5",
+      "theme": "festival",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Jouer des coudes agressivement dans la foule pour gratter des places en disant pardon pour rire.",
+        "en": "Shoving aggressively through the crowd while fake-apologizing just to sneak to the front.",
+        "es": "Abrirse paso a empujones agresivos entre el público fingiendo pedir disculpas.",
+        "de": "Sich rücksichtslos mit Ellbogen nach vorne drängeln und scheinheilig Entschuldigung sagen.",
+        "nl": "Agressief met ellebogen naar voren dringen en schijnheilig sorry roepen om vooraan te komen.",
+        "pt": "Empurrar toda a gente com os cotovelos na multidão enquanto diz com licença a rir."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    "festival_green_5": {
+      "id": "festival_green_5",
+      "theme": "festival",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Savoir replier la fameuse tente pop-up du groupe en moins de deux minutes chrono.",
+        "en": "Knowing how to pack up the notorious pop-up tent in under two minutes for the crew.",
+        "es": "Saber doblar la tienda de campaña plegable del grupo en menos de dos minutos cronometrados.",
+        "de": "Das widerspenstige Wurfzelt der Gruppe in unter zwei Minuten mühelos zusammenfalten.",
+        "nl": "De beruchte pop-up tent van de groep binnen twee minuten soepel weten op te vouwen.",
+        "pt": "Saber dobrar a famosa tenda que abre em dois segundos em menos de dois minutos sem stress."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    "festival_red_6": {
+      "id": "festival_red_6",
+      "theme": "festival",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Piquer discrètement le gobelet consigné du voisin de tente pour récupérer deux euros.",
+        "en": "Sneakily pocketing a camping neighbor's deposit cup just to claim back two euros.",
+        "es": "Mangarse disimuladamente el vaso retornable del vecino de tienda para cobrar dos euros.",
+        "de": "Heimlich den Pfandbecher des Zeltnachbarn einstecken, um zwei Euro Pfand zu kassieren.",
+        "nl": "Stiekem de statiegeldbeker van de buurman op de camping meenemen voor twee euro.",
+        "pt": "Ficar disfarçadamente com o copo reutilizável do vizinho de tenda para ganhar dois euros."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    "festival_green_6": {
+      "id": "festival_green_6",
+      "theme": "festival",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Avoir toujours des paquets de mouchoirs et du gel nettoyant pour l'étape des toilettes.",
+        "en": "Stocking plenty of tissues and sanitizing gel for the dreaded festival toilet lines.",
+        "es": "Tener siempre pañuelos de papel y gel higienizante para el turno de los aseos.",
+        "de": "Immer Papiertaschentücher und Handgel für den Gang zu den Festival-Toiletten bereitstellen.",
+        "nl": "Altijd zakdoekjes en ontsmettende handgel bij je hebben voor de beruchte festivaltoiletten.",
+        "pt": "Ter sempre pacotes de lenços de papel e gel higiénico à mão para a fila dos banhos e casas de banho."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    "festival_red_7": {
+      "id": "festival_red_7",
+      "theme": "festival",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Mettre de la grosse musique techno sur son enceinte à six heures du matin au camping.",
+        "en": "Blasting heavy techno on a portable speaker at six in the morning in the tent area.",
+        "es": "Poner techno atronador en el altavoz a las seis de la mañana en el camping del festival.",
+        "de": "Um sechs Uhr morgens auf dem Campingplatz laute Techno-Beats über die Box ballern.",
+        "nl": "Om zes uur 's ochtends keiharde techno over de camping laten knallen met een soundbox.",
+        "pt": "Pôr música tecno aos berros na coluna portátil às seis da manhã no meio do campismo."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    "festival_green_7": {
+      "id": "festival_green_7",
+      "theme": "festival",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Fixer un point de repère infaillible et une heure de rendez-vous dès l'entrée sur le site.",
+        "en": "Picking a foolproof meeting landmark and clear backup time upon entering the venue.",
+        "es": "Fijar un punto de encuentro clarísimo y una hora acordada nada más entrar al recinto.",
+        "de": "Direkt beim Betreten des Geländes einen unverwechselbaren Treffpunkt vereinbaren.",
+        "nl": "Bij binnenkomst meteen een onmiskenbaar herkenningspunt en ontmoetingstijd afspreken.",
+        "pt": "Definir logo à entrada do recinto um ponto de encontro evidente e uma hora certa para todos."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    "festival_red_8": {
+      "id": "festival_red_8",
+      "theme": "festival",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Critiquer la performance de tous les groupes sur scène sans en connaître aucun titre.",
+        "en": "Mocking every band's live set despite not knowing a single track on the entire lineup.",
+        "es": "Criticar la actuación de cada grupo del cartel sin conocer ni una sola de sus canciones.",
+        "de": "Jede Band auf der Bühne schlechtreden, obwohl man keinen einzigen Song von ihnen kennt.",
+        "nl": "Elke band op het podium afkraken terwijl je geen enkel nummer uit het oeuvre kent.",
+        "pt": "Criticar a atuação de todas as bandas no palco sem conhecer uma única canção do cartaz."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    "festival_green_8": {
+      "id": "festival_green_8",
+      "theme": "festival",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Porter sur ses épaules un ami plus petit pendant son morceau favori pour qu'il voie tout.",
+        "en": "Hoisting a shorter friend onto your shoulders for their favorite song so they see clearly.",
+        "es": "Subir a hombros al amigo más bajito durante su tema preferido para que lo disfrute bien.",
+        "de": "Einen kleineren Freund beim Lieblingslied auf die Schultern heben, damit er gut sieht.",
+        "nl": "Een kleinere vriend op je schouders nemen tijdens zijn lievelingsnummer om alles te zien.",
+        "pt": "Pôr aos ombros o amigo mais baixinho durante a canção favorita para que veja o palco todo."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    "festival_red_9": {
+      "id": "festival_red_9",
+      "theme": "festival",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Vider toute la batterie du téléphone d'un ami en multipliant les vidéos ratées de concerts.",
+        "en": "Draining a friend's battery filming endless shaky, muffled concert clips on their phone.",
+        "es": "Agotar la batería del móvil de un amigo grabando vídeos borrosos del concierto sin permiso.",
+        "de": "Den Handyakku des Freundes mit unzähligen verwackelten Konzertaufnahmen leeren.",
+        "nl": "De telefoonbatterij van een vriend leegtrekken met eindeloze mislukte concertfilmpjes.",
+        "pt": "Gastar a bateria do telemóvel de um amigo a gravar dezenas de vídeos desfocados de concertos."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    "festival_green_9": {
+      "id": "festival_green_9",
+      "theme": "festival",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Rapporter plusieurs gobelets d'eau fraîche pour le groupe pendant la fin du spectacle.",
+        "en": "Bringing back multiple cups of cold water for the thirsty squad right before encores.",
+        "es": "Volver con varios vasos de agua fría para toda la pandilla antes de los bises finales.",
+        "de": "Vor den Zugaben mehrere Becher frisches Wasser für die durstige Gruppe besorgen.",
+        "nl": "Vlak voor de toegift bekers koel water halen voor de hele dorstige vriendengroep.",
+        "pt": "Trazer vários copos de água fresca para a malta toda antes do encore final."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    "festival_red_10": {
+      "id": "festival_red_10",
+      "theme": "festival",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Garder égoïstement sa bouteille d'eau scellée dans la fosse alors que tout le monde suffoque.",
+        "en": "Selfishly hoarding a sealed water bottle in the packed crowd while everyone swelters.",
+        "es": "Guardarse egoístamente una botella de agua precintada mientras todos sufren de calor.",
+        "de": "Die eigene Wasserflasche geizig für sich behalten, während alle um einen herum schwitzen.",
+        "nl": "Egoïstisch een gesloten flesje water bewaren terwijl iedereen eromheen staat te puffen.",
+        "pt": "Guardar a garrafa de água só para si na multidão enquanto toda a gente sufoca com o calor."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    "festival_green_10": {
+      "id": "festival_green_10",
+      "theme": "festival",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Aider spontanément des inconnus en galère à monter leur abri sous la pluie battante.",
+        "en": "Spontaneously helping struggling strangers pitch their camp shelter in pouring rain.",
+        "es": "Ayudar amablemente a desconocidos en apuros a montar su tienda bajo una lluvia intensa.",
+        "de": "Fremden Campern im strömenden Regen spontan beim Zeltaufbau zur Seite stehen.",
+        "nl": "Wildvreemden in de stromende regen spontaan helpen om hun tent op te zetten.",
+        "pt": "Ajudar desconhecidos em apuros a montar a tenda de campismo debaixo de chuva intensa."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    "festival_red_11": {
+      "id": "festival_red_11",
+      "theme": "festival",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Parler de ses anecdotes de bureau à voix forte pendant le solo de guitare le plus émouvant.",
+        "en": "Loudly chatting about boring office gossip right during the most emotional guitar solo.",
+        "es": "Contar cotilleos de oficina a viva voz durante el solo de guitarra más emotivo de la noche.",
+        "de": "Beim emotionalsten Gitarrensolo des Abends lautstark über Bürogeschichten labern.",
+        "nl": "Luidkeels over kantoorverhalen kletsen tijdens de meest emotionele gitaarsolo van de avond.",
+        "pt": "Falar alto de fofocas do escritório durante o solo de guitarra mais emotivo da noite."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    "festival_green_11": {
+      "id": "festival_green_11",
+      "theme": "festival",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Prêter un poncho de pluie étanche à un voisin trempé jusqu'aux os par l'orage.",
+        "en": "Lending an extra waterproof rain poncho to a neighbor soaked to the bone by the storm.",
+        "es": "Prestar un chubasquero impermeable de repuesto a alguien empapado por el chaparrón.",
+        "de": "Einem vom Gewitter durchnässten Nachbarn ein wasserdichtes Regenponcho leihen.",
+        "nl": "Een waterdichte regenponcho uitlenen aan een buurman die kletsnat is geregend.",
+        "pt": "Emprestar um impermeável suplente a um desconhecido encharcado até aos ossos pela chuvada."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    "festival_red_12": {
+      "id": "festival_red_12",
+      "theme": "festival",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Perdre la bande dès le premier concert et envoyer cinquante textos inaudibles en panique.",
+        "en": "Losing the crew at the very first stage and sending fifty unintelligible panic texts.",
+        "es": "Perder al grupo en el primer escenario y mandar cincuenta mensajes ilegibles en pánico.",
+        "de": "Die Gruppe beim ersten Konzert verlieren und fünfzig unverständliche Panik-Texte schicken.",
+        "nl": "De groep kwijtraken bij het eerste optreden en vijftig onbegrijpelijke paniekappjes sturen.",
+        "pt": "Perder os amigos logo no primeiro concerto e enviar cinquenta mensagens em pânico."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    "festival_green_12": {
+      "id": "festival_green_12",
+      "theme": "festival",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Prendre soin avec calme et bienveillance du copain qui a un coup de fatigue en festival.",
+        "en": "Calmly taking caring watch over a fatigued friend who needs rest and hydration in camp.",
+        "es": "Cuidar con calma y paciencia del amigo agotado que necesita descansar y beber agua.",
+        "de": "Sich ruhig und fürsorglich um den Freund kümmern, der eine Pause und Wasser braucht.",
+        "nl": "Rustig en attent zorgen voor de vriend die oververmoeid is en even rust nodig heeft.",
+        "pt": "Cuidar com carinho e paciência do amigo que teve uma quebra de energia e precisa de repouso."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    "festival_red_13": {
+      "id": "festival_red_13",
+      "theme": "festival",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Ramasser les verres pleins de terre par terre pour encaisser la monnaie sans rien payer.",
+        "en": "Grabbing mud-caked cups off the floor to pocket deposit coins without buying anything.",
+        "es": "Recoger vasos embarrados del suelo para cobrar las monedas sin haber pagado un euro.",
+        "de": "Dreckige Becher vom Boden aufsammeln, um Pfandgeld zu kassieren, ohne etwas zu kaufen.",
+        "nl": "Viezige bekers van de grond rapen om het statiegeld in je eigen zak te steken.",
+        "pt": "Apanhar copos cheios de lama do chão para levantar as moedas do depósito sem pagar nada."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    "festival_green_13": {
+      "id": "festival_green_13",
+      "theme": "festival",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Sortir des barres de céréales énergétiques pour tout le groupe au creux de la nuit.",
+        "en": "Pulling out tasty energy cereal bars for the whole squad when midnight hunger strikes.",
+        "es": "Sacar barritas de cereales energéticas para todo el grupo en mitad de la madrugada.",
+        "de": "Mitten in der Nacht Müsliriegel für die hungrige Truppe aus dem Rucksack zaubern.",
+        "nl": "Midden in de nacht energierepen uitdelen aan de hele groep wanneer de honger toeslaat.",
+        "pt": "Tirar barritas de cereais da mochila para o grupo todo quando a fome aperta a meio da noite."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    "festival_red_14": {
+      "id": "festival_red_14",
+      "theme": "festival",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Prendre une douche de vingt minutes au camping alors qu'il y a cent mètres de file d'attente.",
+        "en": "Taking a twenty-minute hot shower at camp while a huge line forms in the morning cold.",
+        "es": "Darse una ducha de veinte minutos en el camping con una cola kilométrica de gente.",
+        "de": "Zwanzig Minuten lang duschen, obwohl eine riesige Schlange frierend davor wartet.",
+        "nl": "Twintig minuten douchen op de camping terwijl er een gigantische rij staat te wachten.",
+        "pt": "Demorar vinte minutos no duche do campismo com uma fila enorme de pessoas à espera ao frio."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    "festival_green_14": {
+      "id": "festival_green_14",
+      "theme": "festival",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Rapporter tous les gobelets du campement au stand sans rien exiger en échange.",
+        "en": "Returning all the campsite's collected deposit cups without asking for anything in return.",
+        "es": "Llevar todos los vasos acumulados del campamento a la devolución sin pedir nada a cambio.",
+        "de": "Alle Pfandbecher des Camps gesammelt zurückbringen, ohne etwas dafür zu verlangen.",
+        "nl": "Alle verzamelde bekers van het kamp netjes terugbrengen naar de inname zonder gedoe.",
+        "pt": "Levar todos os copos usados do acampamento de volta ao balcão sem pedir nada em troca."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    "festival_red_15": {
+      "id": "festival_red_15",
+      "theme": "festival",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Débrancher le câble d'un festivalier sur la borne de recharge pour brancher son portable.",
+        "en": "Unplugging someone else's cable at the charging hub to charge your own smartphone.",
+        "es": "Desconectar el cable de otro asistente en el punto de carga para poner el móvil propio.",
+        "de": "Das Ladekabel eines anderen an der Ladestation abziehen, um das eigene Handy zu laden.",
+        "nl": "De stekker van een ander uit het laadstation trekken om je eigen telefoon op te laden.",
+        "pt": "Desligar o cabo de alguém no posto de carregamento para pôr o próprio telemóvel à carga."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    "festival_green_15": {
+      "id": "festival_green_15",
+      "theme": "festival",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Retrouver un téléphone égaré dans la pelouse et le déposer au bureau des objets perdus.",
+        "en": "Finding a lost smartphone on the festival lawn and bringing it to the lost and found.",
+        "es": "Encontrar un teléfono extraviado en la hierba y llevarlo al punto de objetos perdidos.",
+        "de": "Ein verlorenes Smartphone auf dem Gelände finden und bei der Fundstelle abgeben.",
+        "nl": "Een gevonden smartphone in het gras direct naar de balie met gevonden voorwerpen brengen.",
+        "pt": "Encontrar um telemóvel perdido no recinto e levá-lo diretamente à receção de perdidos."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    "festival_red_16": {
+      "id": "festival_red_16",
+      "theme": "festival",
+      "type": "red_flag",
+      "texts": {
+        "fr": "S'allonger sur le matelas d'un copain avec des bottes pleines de boue sans faire attention.",
+        "en": "Lying down on a friend's sleeping mat with muddy festival boots still on your feet.",
+        "es": "Tumbarse en la colchoneta de un compañero con las botas llenas de barro sin cuidado.",
+        "de": "Sich mit matschigen Festivalstiefeln unachtsam auf die Luftmatratze des Kumpels legen.",
+        "nl": "Met modderige festivalboots op het luchtbed van een vriend gaan liggen zonder op te letten.",
+        "pt": "Deitar-se no colchão de um amigo com as botas cheias de lama sem ter o mínimo cuidado."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    "festival_green_16": {
+      "id": "festival_green_16",
+      "theme": "festival",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Partager ses paillettes biodégradables avec tout le campement au réveil du matin.",
+        "en": "Sharing biodegradable face glitter with everyone in the camping area upon waking up.",
+        "es": "Compartir purpurina biodegradable con todos los vecinos de acampada al despertarse.",
+        "de": "Morgens biologisch abbaubaren Glitzer mit dem ganzen Camp für den Tag teilen.",
+        "nl": "Biologisch afbreekbare glitters uitdelen aan de hele camping om de festivaldag te starten.",
+        "pt": "Partilhar brilhantes biodegradáveis com todo o acampamento ao acordar de manhã."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    "festival_red_17": {
+      "id": "festival_red_17",
+      "theme": "festival",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Bloquer l'accès aux miroirs collectifs pour parfaire sa coiffure pendant un quart d'heure.",
+        "en": "Blocking the public bathroom mirrors for fifteen minutes just to redo your festival hair.",
+        "es": "Tapar los espejos colectivos quince minutos para retocarse el pelo antes del concierto.",
+        "de": "Die Waschbecken-Spiegel fünfzehn Minuten blockieren, um die Festivalfrisur zu stylen.",
+        "nl": "De spiegels bij de wasbakken een kwartier lang bezet houden voor je festivalkapsel.",
+        "pt": "Ocupar os espelhos partilhados durante quinze minutos só para arranjar o penteado."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    "festival_green_17": {
+      "id": "festival_green_17",
+      "theme": "festival",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Aider toute l'équipe à ranger les affaires et nettoyer le camp avant de partir.",
+        "en": "Helping the entire crew pack gear and thoroughly clean the campsite before heading home.",
+        "es": "Ayudar a todo el grupo a recoger trastos y limpiar la zona de acampada antes de irse.",
+        "de": "Der ganzen Truppe helfen, das Gepäck zu packen und den Zeltplatz blitzblank zu hinterlassen.",
+        "nl": "Het hele team helpen met inpakken en de kampeerplek brandschoon achterlaten.",
+        "pt": "Ajudar a equipa toda a arrumar as coisas e limpar o acampamento antes de regressar."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    "festival_red_18": {
+      "id": "festival_red_18",
+      "theme": "festival",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Lancer son gobelet en plastique plein de liquide dans la foule pour manifester sa joie.",
+        "en": "Tossing a liquid-filled plastic cup high into the crowd to celebrate during the chorus.",
+        "es": "Lanzar un vaso de plástico lleno de líquido por encima del público para festejar.",
+        "de": "Einen vollen Plastikbecher mit Getränk in die feiernde Menge werfen, um zu jubeln.",
+        "nl": "Een volle plastic beker drank over het publiek gooien om mee te feesten.",
+        "pt": "Atirar um copo de plástico cheio de bebida para cima da multidão durante o refrão."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "festival_pack",
+      "live_tier": "safe"
+    },
+    "autumn_red_1": {
+      "id": "autumn_red_1",
+      "theme": "autumn",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Prendre les quatre plus grosses pommes de terre chaudes du plat dès le début de la raclette.",
+        "en": "Grabbing the four largest steaming potatoes from the bowl right as raclette starts.",
+        "es": "Coger las cuatro patatas más grandes del plato nada más empezar la noche de raclette.",
+        "de": "Zu Beginn des Raclette-Abends direkt die vier größten Kartoffeln aus der Schüssel nehmen.",
+        "nl": "Bij aanvang van het gourmetten meteen de vier grootste aardappels van de schaal pakken.",
+        "pt": "Tirar logo as quatro maiores batatas da travessa mal começa o jantar de raclette."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    "autumn_green_1": {
+      "id": "autumn_green_1",
+      "theme": "autumn",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Prévoir un demi-kilo de fromage à raclette en réserve au cas où de gros mangeurs ont faim.",
+        "en": "Stocking an extra pound of raclette cheese just in case hungry guests want seconds.",
+        "es": "Comprar medio kilo extra de queso por si los invitados más comilones tienen apetito.",
+        "de": "Ein halbes Kilo extra Raclettekäse besorgen, falls hungrige Gäste Nachschlag möchten.",
+        "nl": "Een pond extra kaas inslaan voor het geval grote eters nog trek hebben.",
+        "pt": "Comprar meio quilo extra de queijo raclette caso os mais gulosos queiram repetir."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    "autumn_red_2": {
+      "id": "autumn_red_2",
+      "theme": "autumn",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Laisser son poêlon vide griller sous la résistance chauffante et enfumer tout le salon.",
+        "en": "Leaving an empty raclette pan sizzling under the grill element and smoking up the room.",
+        "es": "Dejar la paleta vacía quemándose bajo la resistencia llenando el salón de humo.",
+        "de": "Das leere Raclette-Pfännchen unter den Heizstäben brutzeln lassen und Rauch erzeugen.",
+        "nl": "Je lege gourmetpannetje onder het gloeiende element laten bakken tot de kamer blauw staat.",
+        "pt": "Deixar a pá vazia a queimar sob a resistência aquecida enchendo a sala de fumo."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    "autumn_green_2": {
+      "id": "autumn_green_2",
+      "theme": "autumn",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Allumer une bougie parfumée ou un feu de cheminée pour réchauffer l'ambiance automnale.",
+        "en": "Lighting a cozy scented candle or crackling fireplace to warm the autumn evening vibe.",
+        "es": "Encender una vela aromática o la chimenea para dar calidez a la velada de otoño.",
+        "de": "Eine duftende Kerze oder den Kamin anzünden, um gemütliche Herbststimmung zu schaffen.",
+        "nl": "Een geurkaarsje of de open haard aansteken om voor warme herfstsfeer te zorgen.",
+        "pt": "Acender uma vela aromática ou a lareira para dar aconchego ao serão de outono."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    "autumn_red_3": {
+      "id": "autumn_red_3",
+      "theme": "autumn",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Annuler une sortie entre amis à la dernière minute sous prétexte qu'il tombe trois gouttes.",
+        "en": "Cancelling an outing at the last minute just because a few raindrops started falling.",
+        "es": "Cancelar una salida con amigos a última hora con la excusa de que caen cuatro gotas.",
+        "de": "Ein Treffen in letzter Sekunde absagen, nur weil draußen ein paar Regentropfen fallen.",
+        "nl": "Een afspraak op het laatste moment afblazen omdat er drie druppels regen vallen.",
+        "pt": "Desmarcar um convívio à última hora com a desculpa de que caem umas gotas de chuva."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    "autumn_green_3": {
+      "id": "autumn_green_3",
+      "theme": "autumn",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Proposer de gros chaussons chauds et douillets aux invités qui ont froid aux pieds.",
+        "en": "Offering fluffy warm guest slippers to friends whose feet are cold from the drizzle.",
+        "es": "Ofrecer zapatillas de casa cálidas y cómodas a los invitados con los pies fríos.",
+        "de": "Den Gästen, die kalte Füße vom Regen haben, kuschelig warme Hausschuhe anbieten.",
+        "nl": "Warme en zachte pantoffels aanbieden aan gasten die koude voeten hebben van de regen.",
+        "pt": "Oferecer pantufas bem quentes e confortáveis aos convidados que chegam com pés frios."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    "autumn_red_4": {
+      "id": "autumn_red_4",
+      "theme": "autumn",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Pousser le chauffage à vingt-quatre degrés chez soi puis ouvrir les fenêtres en grand.",
+        "en": "Blasting home heating to twenty-four degrees only to open the windows wide ten minutes later.",
+        "es": "Poner la calefacción a veinticuatro grados para luego abrir de par en par las ventanas.",
+        "de": "Die Heizung auf vierundzwanzig Grad hochdrehen und kurz darauf alle Fenster aufreißen.",
+        "nl": "De kachel op vierentwintig graden zetten en vervolgens de ramen wagenwijd openzetten.",
+        "pt": "Ligar o aquecimento a vinte e quatro graus e logo a seguir escancarar as janelas de casa."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    "autumn_green_4": {
+      "id": "autumn_green_4",
+      "theme": "autumn",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Préparer un grand velouté de potimarron maison fumant pour régaler tout le monde au dîner.",
+        "en": "Cooking a big pot of steaming homemade pumpkin soup to treat everyone for dinner.",
+        "es": "Cocinar una crema casera de calabaza humeante y deliciosa para cenar entre amigos.",
+        "de": "Eine große Schüssel dampfende Kürbissuppe kochen, um alle beim Abendessen zu wärmen.",
+        "nl": "Een grote pan dampende pompoensoep maken om iedereen bij het avondeten te verwennen.",
+        "pt": "Fazer um creme de abóbora caseiro a fumegar para aquecer toda a gente ao jantar."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    "autumn_red_5": {
+      "id": "autumn_red_5",
+      "theme": "autumn",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Acheter dix gadgets inutiles lors du Black Friday uniquement parce qu'ils étaient soldés.",
+        "en": "Buying ten useless gadgets during Black Friday sales purely because they had discount tags.",
+        "es": "Comprar diez artilugios inútiles el Black Friday solo porque tenían descuento atractivo.",
+        "de": "Am Black Friday zehn unnütze Gadgets kaufen, nur weil sie scheinbar reduziert waren.",
+        "nl": "Tien nutteloze gadgets kopen tijdens Black Friday enkel en alleen omdat ze in de aanbieding waren.",
+        "pt": "Comprar dez coisas inúteis na Black Friday só porque estavam com desconto apelativo."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    "autumn_green_5": {
+      "id": "autumn_green_5",
+      "theme": "autumn",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Sortir un second plaid moelleux du placard pour son invité qui frissonne sur le canapé.",
+        "en": "Pulling a second fluffy blanket from the closet for a guest shivering on the couch.",
+        "es": "Sacar una segunda manta suave del armario para el invitado que tiene frío en el sofá.",
+        "de": "Eine zweite weiche Kuscheldecke für den Gast holen, der auf dem Sofa fröstelt.",
+        "nl": "Een tweede zacht fleecedekentje pakken voor de gast die zit te rillen op de bank.",
+        "pt": "Tirar uma segunda manta aconchegante do armário para o convidado que tem frio no sofá."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    "autumn_red_6": {
+      "id": "autumn_red_6",
+      "theme": "autumn",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Prendre le dernier morceau de fromage fondant dans le plat sans consulter les autres convives.",
+        "en": "Snatching the very last slice of melted cheese without asking the rest of the table.",
+        "es": "Quedarse con la última loncha de queso de la fuente sin consultar al resto de la mesa.",
+        "de": "Das allerletzte Stück Käse aus der Schale nehmen, ohne vorher am Tisch nachzufragen.",
+        "nl": "Het allerlaatste plakje kaas van de schotel pakken zonder even rond te vragen aan tafel.",
+        "pt": "Tirar a última fatia de queijo da travessa sem perguntar aos outros convivas da mesa."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    "autumn_green_6": {
+      "id": "autumn_green_6",
+      "theme": "autumn",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Émincer à l'avance des cornichons et petits oignons pour garnir la table de raclette.",
+        "en": "Slicing plenty of pickles and baby onions ahead of time to garnish the raclette feast.",
+        "es": "Picar con antelación pepinillos y cebolletas para completar la mesa de raclette.",
+        "de": "Vorab reichlich Gewürzgurken und Silberzwiebeln für das Raclette-Essen schneiden.",
+        "nl": "Vooraf augurkjes en zilveruitjes fijnsnijden om de gezellige maaltijd compleet te maken.",
+        "pt": "Cortar previamente pickles e cebolinhas de conserva para enriquecer a mesa de raclette."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    "autumn_red_7": {
+      "id": "autumn_red_7",
+      "theme": "autumn",
+      "type": "red_flag",
+      "texts": {
+        "fr": "S'enrouler dans le meilleur plaid du salon tel un burrito et refuser de partager l'espace.",
+        "en": "Wrapping yourself like a burrito in the couch's best blanket and refusing to share an inch.",
+        "es": "Enrollarse como una croqueta en la manta más suave del sofá y negarse a compartirla.",
+        "de": "Sich wie ein Burrito in die beste Sofadecke wickeln und niemanden heranlassen.",
+        "nl": "Jezelf als een burrito in het fijnste dekentje wikkelen en weigeren een stukje te delen.",
+        "pt": "Enrolar-se como um casulo na melhor manta do sofá e recusar partilhar um cantinho."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    "autumn_green_7": {
+      "id": "autumn_green_7",
+      "theme": "autumn",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Préparer un grand chocolat chaud à l'ancienne avec crème fouettée par temps de bruine.",
+        "en": "Whipping up rich homemade hot cocoa with fresh whipped cream on a chilly drizzle day.",
+        "es": "Preparar un chocolate caliente tradicional con nata montada en una tarde gris y fría.",
+        "de": "Echte heiße Schokolade mit Schlagsahne zubereiten, wenn es draußen trüb und nass ist.",
+        "nl": "Warme chocolademelk met een toef slagroom maken wanneer het buiten guur en grijs is.",
+        "pt": "Preparar um chocolate quente caseiro com chantilly numa tarde fria de chuva miudinha."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    "autumn_red_8": {
+      "id": "autumn_red_8",
+      "theme": "autumn",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Passer des chansons de fête de Noël en boucle dès le premier novembre au matin.",
+        "en": "Looping holiday jingles on high volume the literal morning of November first.",
+        "es": "Poner villancicos navideños en bucle desde la misma mañana del uno de noviembre.",
+        "de": "Schon am ersten Novembermorgen Weihnachtslieder in Dauerschleife laufen lassen.",
+        "nl": "Vanaf 1 november 's ochtends vroeg non-stop kerstliedjes op herhaling zetten.",
+        "pt": "Pôr canções de Natal a tocar em repetição logo na manhã do primeiro de novembro."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    "autumn_green_8": {
+      "id": "autumn_green_8",
+      "theme": "autumn",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Lever haut son grand parapluie dans la rue pour ne pas éborgner les passants plus petits.",
+        "en": "Lifting your umbrella up high on busy sidewalks to avoid poking shorter pedestrians.",
+        "es": "Levantar el paraguas alto en la acera para no tropezar con viandantes más bajitos.",
+        "de": "Den Regenschirm auf dem Gehweg anheben, um kleineren Passanten nicht zu nahe zu kommen.",
+        "nl": "Je paraplu op straat hoog optillen om kleinere voorbijgangers niet te raken.",
+        "pt": "Erguer o guarda-chuva no passeio para não bater nos olhos dos transeuntes mais baixos."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    "autumn_red_9": {
+      "id": "autumn_red_9",
+      "theme": "autumn",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Entrer chez son hôte sans retirer ses bottes trempées et maculées de boue automnale.",
+        "en": "Walking right into someone's home without taking off soggy, mud-crusted autumn boots.",
+        "es": "Entrar en casa del anfitrión sin quitarse las botas empapadas y llenas de barro.",
+        "de": "Mit nassen, matschigen Herbststiefeln ungeniert in die Wohnung des Gastgebers stapfen.",
+        "nl": "Met drijfnatte en modderige herfstlaarzen zo de woonkamer van de gastheer binnenlopen.",
+        "pt": "Entrar em casa do anfitrião sem descalçar as botas encharcadas e cheias de lama."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    "autumn_green_9": {
+      "id": "autumn_green_9",
+      "theme": "autumn",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Sortir un jeu de plateau captivant pour sauver un après-midi pluvieux et morose.",
+        "en": "Bringing out a gripping board game to rescue a gloomy, rain-drenched Sunday afternoon.",
+        "es": "Sacar un juego de mesa divertido para amenizar una tarde gris y lluviosa de domingo.",
+        "de": "Ein fesselndes Brettspiel hervorholen, um einen verregneten Sonntagnachmittag zu retten.",
+        "nl": "Een spannend bordspel op tafel zetten om een saaie en regenachtige middag te redden.",
+        "pt": "Tirar um jogo de tabuleiro divertido para animar uma tarde de domingo cinzenta e chuvosa."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    "autumn_red_10": {
+      "id": "autumn_red_10",
+      "theme": "autumn",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Cuisiner du chou ou du poisson dans un studio calfeutré sans jamais ouvrir pour aérer.",
+        "en": "Cooking pungent cabbage or fish in a sealed apartment without opening a single window.",
+        "es": "Cocinar coliflor o pescado en un piso cerrado sin abrir ni una ventana para ventilar.",
+        "de": "Kohl oder Fisch in einer geschlossenen Wohnung kochen, ohne je zu lüften.",
+        "nl": "Kool of vis bakken in een dichte flat zonder ooit een raampje open te zetten.",
+        "pt": "Cozinhar couve ou peixe num apartamento fechado sem nunca abrir para arejar."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    "autumn_green_10": {
+      "id": "autumn_green_10",
+      "theme": "autumn",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Arriver avec une tarte aux pommes et cannelle encore tiède pour le goûter partagé.",
+        "en": "Arriving with a freshly baked, warm cinnamon apple pie for the cozy afternoon tea.",
+        "es": "Llegar con una tarta de manzana y canela aún tibia para merendar entre todos.",
+        "de": "Mit einem ofenwarmen Apfel-Zimt-Kuchen zum gemütlichen Nachmittagstee aufkreuzen.",
+        "nl": "Aankomen met een nog warme appel-kaneeltaart voor het gezellige theemoment.",
+        "pt": "Chegar com uma tarte de maçã e canela ainda morna para o lanche partilhado."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    "autumn_red_11": {
+      "id": "autumn_red_11",
+      "theme": "autumn",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Bousculer les passants sur le trottoir avec les baleines acérées de son grand parapluie.",
+        "en": "Carelessly bumping into street passersby with the sharp ribs of a wide golf umbrella.",
+        "es": "Golpear a los peatones en la acera con las varillas afiladas de un paraguas grande.",
+        "de": "Passanten auf dem Gehweg rücksichtslos mit den Metallspitzen des Schirms anstoßen.",
+        "nl": "Voetgangers op de stoep hinderen met de scherpe baleinen van een grote paraplu.",
+        "pt": "Empurrar as pessoas no passeio com as varetas pontiagudas de um guarda-chuva enorme."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    "autumn_green_11": {
+      "id": "autumn_green_11",
+      "theme": "autumn",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Proposer spontanément de raccompagner des amis en voiture pour leur éviter l'averse.",
+        "en": "Spontaneously offering friends a ride home to spare them from the freezing downpour.",
+        "es": "Ofrecerse amablemente a llevar a los amigos en coche para ahorrarles el aguacero.",
+        "de": "Freunden spontan eine Mitfahrgelegenheit anbieten, um ihnen den Platzregen zu ersparen.",
+        "nl": "Vrienden spontaan een lift naar huis aanbieden om ze de plensbui te besparen.",
+        "pt": "Oferecer-se de bom grado para levar os amigos a casa e poupá-los à chuva torrencial."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    "autumn_red_12": {
+      "id": "autumn_red_12",
+      "theme": "autumn",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Perdre son morceau de pain dans le caquelon de fondue et prétendre que ce n'est pas à soi.",
+        "en": "Dropping your bread cube into the fondue pot and brazenly denying it belongs to you.",
+        "es": "Perder el trozo de pan en la cazuela de fondue y fingir que no era el suyo.",
+        "de": "Das Brotstück im Fondue-Topf verlieren und dreist behaupten, es gehöre einem nicht.",
+        "nl": "Je stukje brood in de kaasfonduepan verliezen en stellig beweren dat het niet van jou was.",
+        "pt": "Deixar cair o pedaço de pão na panela de fondue e jurar a pés juntos que não era seu."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    "autumn_green_12": {
+      "id": "autumn_green_12",
+      "theme": "autumn",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Régler le thermostat du salon sur une température douce qui convient à tout le monde.",
+        "en": "Setting the living room thermostat to a balanced temperature that suits everybody.",
+        "es": "Poner el termostato de la sala a una temperatura agradable que agrade a todos.",
+        "de": "Den Thermostat im Wohnzimmer auf eine angenehme Temperatur für alle einstellen.",
+        "nl": "De thermostaat in de woonkamer op een fijne temperatuur zetten die voor ieder prettig is.",
+        "pt": "Ajustar o termóstato da sala para uma temperatura suave e confortável para todos."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    "autumn_red_13": {
+      "id": "autumn_red_13",
+      "theme": "autumn",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Refuser d'allumer le chauffage en colocation quand le salon affiche douze degrés au compteur.",
+        "en": "Refusing to turn on radiators in a shared flat when the thermostat shows twelve degrees.",
+        "es": "Negarse a poner la calefacción en el piso compartido cuando hace doce grados en el salón.",
+        "de": "Sich weigern, die Heizung in der WG anzuschalten, obwohl das Thermometer zwölf Grad anzeigt.",
+        "nl": "Weigeren de verwarming aan te zetten in het studentenhuis terwijl het twaalf graden is.",
+        "pt": "Recusar ligar o aquecimento na casa partilhada quando estão doze graus na sala."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    "autumn_green_13": {
+      "id": "autumn_green_13",
+      "theme": "autumn",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Faire sécher le manteau trempé de son visiteur sur un cintre près d'un radiateur tiède.",
+        "en": "Hanging a guest's soaking wet coat on a hanger near a gentle radiator to dry off.",
+        "es": "Colgar el abrigo empapado del invitado en una percha cerca del radiador para secarlo.",
+        "de": "Den durchnässten Mantel des Gastes auf einem Bügel nahe der Heizung trocknen lassen.",
+        "nl": "De kletsnatte jas van de bezoeker netjes op een hanger bij de verwarming laten drogen.",
+        "pt": "Pendurar o casaco encharcado do convidado num cabide perto do radiador para secar."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    "autumn_red_14": {
+      "id": "autumn_red_14",
+      "theme": "autumn",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Regarder tous les épisodes de la série commune en cachette un dimanche après-midi pluvieux.",
+        "en": "Secretly bingeing all episodes of a shared TV series alone on a rainy Sunday afternoon.",
+        "es": "Verse todos los capítulos de la serie compartida a escondidas una tarde de lluvia.",
+        "de": "Alle Folgen der gemeinsamen Serie heimlich an einem regnerischen Nachmittag wegbingen.",
+        "nl": "Stiekem alle afleveringen van de gezamenlijke serie bingen op een regenachtige zondag.",
+        "pt": "Ver todos os episódios da série conjunta às escondidas numa tarde de chuva."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    "autumn_green_14": {
+      "id": "autumn_green_14",
+      "theme": "autumn",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Prévoir de généreuses garnitures végétariennes pour les amis lors de la soirée raclette.",
+        "en": "Providing delicious vegetarian toppings and veggies for friends at the raclette dinner.",
+        "es": "Ofrecer ricas opciones vegetarianas para los amigos en la velada de raclette.",
+        "de": "Köstliche vegetarische Beilagen für Freunde beim gemeinsamen Raclette bereitstellen.",
+        "nl": "Heerlijke vegetarische opties en groenten klaarmaken voor vrienden bij het gourmetten.",
+        "pt": "Preparar opções vegetarianas apetitosas para os amigos na noite de raclette."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    "autumn_red_15": {
+      "id": "autumn_red_15",
+      "theme": "autumn",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Venir les mains vides à une soirée raclette et se jeter sur le fromage le plus cher.",
+        "en": "Showing up empty-handed to a raclette party and instantly grabbing the priciest cheese.",
+        "es": "Venir con las manos vacías a una raclette y lanzarse a por el queso más gourmet.",
+        "de": "Mit leeren Händen zum Raclette-Abend kommen und sich auf den teuersten Käse stürzen.",
+        "nl": "Zonder iets mee te nemen op de gourmetavond komen en meteen de duurste kaas pakken.",
+        "pt": "Aparecer de mãos vazias num jantar de raclette e atirar-se logo ao queijo mais caro."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    "autumn_green_15": {
+      "id": "autumn_green_15",
+      "theme": "autumn",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Ouvrir brièvement la fenêtre après le repas pour aérer sans faire grelotter la pièce.",
+        "en": "Briefly cracking a window after eating to freshen the room air without cooling it down.",
+        "es": "Abrir brevemente la ventana tras cenar para ventilar el ambiente sin enfriar el salón.",
+        "de": "Nach dem Essen kurz stoßlüften, um für frische Luft zu sorgen, ohne dass alle frieren.",
+        "nl": "Na het eten kort ventileren zodat de geur verdwijnt zonder dat de kamer koud wordt.",
+        "pt": "Abrir um pouco a janela após a refeição para arejar o ambiente sem arrefecer a sala."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    "autumn_red_16": {
+      "id": "autumn_red_16",
+      "theme": "autumn",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Secouer énergiquement son parapluie ruisselant à l'intérieur du salon sur le parquet.",
+        "en": "Vigorously shaking a dripping wet umbrella right inside the living room onto wood floors.",
+        "es": "Sacudir con fuerza el paraguas chorreando agua en el salón mojando el suelo de madera.",
+        "de": "Den tropfnassen Regenschirm mitten im Wohnzimmer kräftig auf dem Parkett ausschütteln.",
+        "nl": "Een kletsnatte paraplu midden in de woonkamer op de houten vloer uitschudden.",
+        "pt": "Sacudir o guarda-chuva a pingar água dentro da sala molhando o chão de madeira."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    "autumn_green_16": {
+      "id": "autumn_green_16",
+      "theme": "autumn",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Préparer une tisane bienfaisante au miel et thym pour un ami qui commence à tousser.",
+        "en": "Brewing a soothing thyme and honey herbal tea for a friend starting to catch a chill.",
+        "es": "Preparar una infusión caliente de tomillo y miel para un amigo que empieza a toser.",
+        "de": "Einen wohltuenden Kräutertee mit Thymian und Honig für den erkälteten Freund kochen.",
+        "nl": "Een verzachtende kruidenthee met honing en tijm zetten voor een vriend die hoest.",
+        "pt": "Fazer uma infusão reconfortante de tomilho e mel para um amigo que começa a tossir."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    "autumn_red_17": {
+      "id": "autumn_red_17",
+      "theme": "autumn",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Manger des marrons chauds dans la rue et jeter les écorces brûlées sur le trottoir mouillé.",
+        "en": "Snacking on roasted chestnuts in the street and tossing the shells onto wet pavements.",
+        "es": "Comer castañas asadas por la calle y tirar las cáscaras quemadas a la acera mojada.",
+        "de": "Heiße Maronen auf der Straße essen und die verbrannten Schalen auf den Gehweg werfen.",
+        "nl": "Geroosterde tamme kastanjes eten en de schillen achteloos op de natte stoep gooien.",
+        "pt": "Comer castanhas assadas na rua e atirar as cascas queimadas para o passeio molhado."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    "autumn_green_17": {
+      "id": "autumn_green_17",
+      "theme": "autumn",
+      "type": "green_flag",
+      "texts": {
+        "fr": "Offrir un cornet de marrons chauds tout juste grillés à partager pendant une promenade.",
+        "en": "Sharing a paper cone of freshly roasted warm chestnuts during a brisk autumn walk.",
+        "es": "Comprar un cucurucho de castañas asadas bien calientes para compartir en el paseo.",
+        "de": "Eine Tüte ofenfrische Maronen spendieren und beim Herbstspaziergang teilen.",
+        "nl": "Een puntzak hete geroosterde kastanjes halen om te delen tijdens een frisse wandeling.",
+        "pt": "Oferecer um cartucho de castanhas bem quentinhas para partilhar durante o passeio."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
+    },
+    "autumn_red_18": {
+      "id": "autumn_red_18",
+      "theme": "autumn",
+      "type": "red_flag",
+      "texts": {
+        "fr": "Râler quotidiennement sur le changement d'heure et la nuit qui tombe à dix-sept heures.",
+        "en": "Whining every single evening about the clock change and darkness falling at five PM.",
+        "es": "Quejarse a diario del cambio de hora y de que sea noche cerrada a las cinco de la tarde.",
+        "de": "Jeden Tag lautstark über die Zeitumstellung und die Dunkelheit um siebzehn Uhr jammern.",
+        "nl": "Elke avond steen en been klagen over het verzetten van de klok en het vroege donker.",
+        "pt": "Queixar-se todos os dias da mudança da hora e da noite que cai às cinco da tarde."
+      },
+      "difficulty": 1,
+      "enabled": true,
+      "mode": "classic",
+      "packId": "autumn_pack",
+      "live_tier": "safe"
     }
   },
-  "card_count": 904
+  "card_count": 1009
 }

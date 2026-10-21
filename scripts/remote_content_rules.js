@@ -110,7 +110,7 @@ function validateOfficialCardCatalog(catalog, errors = []) {
       assertPositiveInt(catalog.version, 'official_card_catalog.version');
     }
     assert(Array.isArray(catalog.cards), 'official_card_catalog.cards: expected_array');
-    assert(catalog.cards.length <= 1000, 'official_card_catalog.cards: too_many_items');
+    assert(catalog.cards.length <= 2000, 'official_card_catalog.cards: too_many_items');
     const ids = new Set();
     for (const [index, card] of catalog.cards.entries()) {
       const label = `official_card_catalog.cards[${index}]`;
