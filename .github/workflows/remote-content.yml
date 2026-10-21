@@ -14,7 +14,7 @@ on:
   # push trigger, a direct commit to main reaches the public site unchecked.
   push:
     branches: [main]
-    paths: &content_paths
+    paths:
       - 'manifest.json'
       - 'daily.json'
       - 'daily_pool.json'
@@ -25,7 +25,16 @@ on:
       - 'scripts/**'
       - '.github/workflows/remote-content.yml'
   pull_request:
-    paths: *content_paths
+    paths:
+      - 'manifest.json'
+      - 'daily.json'
+      - 'daily_pool.json'
+      - 'cards_patch.json'
+      - 'blacklist.txt'
+      - 'blacklist.json'
+      - 'data/live_consensus.json'
+      - 'scripts/**'
+      - '.github/workflows/remote-content.yml'
 
 permissions:
   contents: read
