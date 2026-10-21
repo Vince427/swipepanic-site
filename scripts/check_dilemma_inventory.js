@@ -30,9 +30,23 @@ function checkInventory(now = new Date()) {
   console.log(`[Dilemma Inventory] Carte du jour: ${currentCardId}`);
   console.log(`[Dilemma Inventory] Jours restants avant fin du cycle annuel: ${daysRemaining} jours`);
 
-  const alertNeeded = daysRemaining <= 60;
+    const alertNeeded = daysRemaining <= 60;
   if (alertNeeded) {
     console.warn(`⚠️ [ALERTE RENOUVELLEMENT] Il ne reste plus que ${daysRemaining} jours avant la fin du cycle des 365 cartes !`);
+    if (process.env.GH_TOKEN) {
+      try {
+        const { execSync } = require('child_process');
+        const searchRes = execSync('gh issue list --search "Stock Dilemmes : Fin de cycle proche" --json number -q ".[0].number"', { encoding: 'utf8' }).trim();
+        if (!searchRes) {
+          const title = `⚠️ [Swipe Panic] Stock Dilemmes : Fin de cycle proche (${daysRemaining} jours restants)`;
+          const body = `Bonjour Vince ! 👋\n\nLe stock de dilemmes 50/50 arrive bientôt à la fin de son cycle annuel (365 jours).\n\n- **Cycle en cours** : Année ${currentYear}\n- **Jour actuel** : ${currentDayInCycle} / 365\n- **Jours restants avant boucle** : **${daysRemaining} jours**\n\nIl est temps de préparer les nouvelles cartes pour l'année suivante dans daily_impossible.json et dans l'app !\n*(Note : Même si aucune carte n'est ajoutée, l'algorithme reboucle automatiquement sans aucun bug ni crash).*\n`;
+          execSync(`gh issue create --title "${title}" --body "${body}"`, { encoding: 'utf8' });
+          console.log('Created renewal alert issue on GitHub');
+        }
+      } catch (err) {
+        console.error('Issue check/create error:', err.message);
+      }
+    }
   } else {
     console.log(`✓ Stock confortable : ${daysRemaining} jours restants.`);
   }
