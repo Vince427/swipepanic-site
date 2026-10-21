@@ -962,6 +962,191 @@ footer {
   line-height: 1.5;
 }
 
+.daily-dilemma-prompt-wrap {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.daily-dilemma-prompt {
+  margin: 0;
+  font-size: clamp(18px, 2.2vw, 22px);
+  font-weight: 800;
+  color: #f8fafc;
+  letter-spacing: -0.01em;
+}
+
+.daily-5050-row {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  gap: 16px;
+  margin: 16px 0 20px 0;
+}
+
+.daily-choice-btn {
+  flex: 1;
+  max-width: 440px;
+  min-height: 110px;
+  padding: 20px 22px;
+  border-radius: 18px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  font-family: inherit;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.daily-choice-btn.choice-a {
+  background: linear-gradient(145deg, rgba(0, 229, 255, 0.12), rgba(0, 180, 216, 0.05));
+  border: 2px solid #00e5ff;
+  color: #ffffff;
+  box-shadow: 0 6px 20px rgba(0, 229, 255, 0.2), inset 0 0 12px rgba(0, 229, 255, 0.08);
+}
+
+.daily-choice-btn.choice-a:hover:not(:disabled) {
+  background: linear-gradient(145deg, rgba(0, 229, 255, 0.22), rgba(0, 180, 216, 0.1));
+  box-shadow: 0 8px 30px rgba(0, 229, 255, 0.45), inset 0 0 18px rgba(0, 229, 255, 0.2);
+  transform: translateY(-3px);
+}
+
+.daily-choice-btn.choice-b {
+  background: linear-gradient(145deg, rgba(255, 42, 109, 0.12), rgba(217, 4, 103, 0.05));
+  border: 2px solid #ff2a6d;
+  color: #ffffff;
+  box-shadow: 0 6px 20px rgba(255, 42, 109, 0.2), inset 0 0 12px rgba(255, 42, 109, 0.08);
+}
+
+.daily-choice-btn.choice-b:hover:not(:disabled) {
+  background: linear-gradient(145deg, rgba(255, 42, 109, 0.22), rgba(217, 4, 103, 0.1));
+  box-shadow: 0 8px 30px rgba(255, 42, 109, 0.45), inset 0 0 18px rgba(255, 42, 109, 0.2);
+  transform: translateY(-3px);
+}
+
+.daily-choice-btn:active:not(:disabled) {
+  transform: translateY(1px);
+}
+
+.daily-choice-btn:disabled {
+  cursor: default;
+  opacity: 0.85;
+}
+
+.daily-choice-btn.selected {
+  outline: 3px solid #ffd528;
+  outline-offset: 3px;
+  opacity: 1;
+}
+
+.daily-choice-btn .choice-tag {
+  display: inline-flex;
+  align-items: center;
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  padding: 3px 10px;
+  border-radius: 999px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.daily-choice-btn .choice-tag.tag-a {
+  background: rgba(0, 229, 255, 0.25);
+  color: #00e5ff;
+  border: 1px solid rgba(0, 229, 255, 0.5);
+}
+
+.daily-choice-btn .choice-tag.tag-b {
+  background: rgba(255, 42, 109, 0.25);
+  color: #ff2a6d;
+  border: 1px solid rgba(255, 42, 109, 0.5);
+}
+
+.daily-choice-btn .choice-text {
+  display: block;
+  font-size: clamp(15px, 1.8vw, 17px);
+  font-weight: 700;
+  line-height: 1.45;
+  color: #f8fafc;
+}
+
+.daily-vs-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  padding: 8px 16px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #ffd528, #ff9100);
+  color: #0c1020;
+  font-weight: 900;
+  font-size: 13px;
+  letter-spacing: 1px;
+  box-shadow: 0 0 18px rgba(255, 213, 40, 0.6);
+  flex-shrink: 0;
+  user-select: none;
+}
+
+@media (max-width: 720px) {
+  .daily-5050-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .daily-choice-btn {
+    max-width: 100%;
+    min-height: 85px;
+  }
+  .daily-vs-badge {
+    margin: 4px auto;
+  }
+}
+
+.daily-actions-btns {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.daily-share-btn {
+  background: linear-gradient(135deg, #25d366, #128c7e);
+  color: #ffffff !important;
+  font-weight: 800;
+  white-space: nowrap;
+  border: none;
+  border-radius: 12px;
+  padding: 12px 20px;
+  box-shadow: 0 4px 14px rgba(37, 211, 102, 0.35);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.daily-share-btn:hover {
+  background: linear-gradient(135deg, #2bf075, #15a392);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(37, 211, 102, 0.5);
+}
+
+.vote-tag-a {
+  background: rgba(0, 229, 255, 0.2) !important;
+  color: #00e5ff !important;
+  border: 1px solid #00e5ff !important;
+}
+
+.vote-tag-b {
+  background: rgba(255, 42, 109, 0.2) !important;
+  color: #ff2a6d !important;
+  border: 1px solid #ff2a6d !important;
+}
+
 .daily-dilemma-vote-row {
   display: flex;
   gap: 16px;
@@ -1057,11 +1242,11 @@ footer {
 }
 
 .pct-accept {
-  color: #00e676;
+  color: #00e5ff;
 }
 
 .pct-reject {
-  color: #ff5252;
+  color: #ff2a6d;
 }
 
 .daily-progress-track {
@@ -1074,12 +1259,14 @@ footer {
 }
 
 .daily-progress-fill-accept {
-  background: linear-gradient(90deg, #00c853, #00e676);
+  background: linear-gradient(90deg, #00b4d8, #00e5ff);
+  box-shadow: 0 0 10px rgba(0, 229, 255, 0.6);
   transition: width 0.6s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .daily-progress-fill-reject {
-  background: linear-gradient(90deg, #ff5252, #d50000);
+  background: linear-gradient(90deg, #ff2a6d, #ff0055);
+  box-shadow: 0 0 10px rgba(255, 42, 109, 0.6);
   transition: width 0.6s cubic-bezier(0.16, 1, 0.3, 1);
 }
 

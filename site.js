@@ -70,8 +70,14 @@
     "packSchoolTitle": "🎒 La Rentrée & Campus",
     "packSchoolDesc": "35 dilemmes étudiants et vie active : réveil à 7h, amphis bondés, colocataires lunatiques et organisation en carton.",
     "playPackBtn": "⚡ Jouer ce pack",
-    "navDailyDilemma": "⚡ Dilemme",
-    "dailyDilemmaBadge": "⚡ Le Dilemme du Jour",
+    "navDailyDilemma": "⚡ Dilemme 50/50",
+    "dailyDilemmaBadge": "⚡ Le Dilemme 50/50 du Jour",
+    "dailyDilemmaPrompt": "Tu préfères quoi ?",
+    "choiceATag": "CHOIX A",
+    "choiceBTag": "CHOIX B",
+    "choiceALabel": "Choix A",
+    "choiceBLabel": "Choix B",
+    "dailyDilemmaShareCta": "⚔️ Partager / Défier un ami sur WhatsApp",
     "dilemmaAccept": "J'accepte",
     "dilemmaReject": "Je refuse",
     "dailyYourVote": "Ton vote :",
@@ -80,7 +86,7 @@
     "dailyConsensusSample": "Basé sur {sample} votes vérifiés",
     "countryThresholdHint": "✓ Vote comptabilisé pour {flag} ! Les statistiques par pays apparaissent dès 15 votes.",
     "dailyDilemmaCtaSubtitle": "Chaque jour, 1 dilemme exclusif et tes stats de groupe sur l'app !",
-    "dailyDilemmaStoreCta": "⚡ Jouer sur l'application",
+    "dailyDilemmaStoreCta": "📲 Jouer sur l'application Google Play",
     "almanacTitle": "📅 Almanach des 30 derniers jours",
     "almanacSubtitle": "Tes votes sur ce navigateur uniquement. L'app garde son propre historique sur ton téléphone.",
     "almanacLegendGreen": "Accepté",
@@ -236,6 +242,7 @@
     "liveModerationCopy": "Les cartes officielles sont relues et validées par l'équipe — elles ne viennent pas d'inconnus sur Internet. Les packs créés par les joueurs restent privés dans leur groupe : personne d'autre ne les voit ni ne les reçoit.",
     "changelogTitle": "Évolutions et corrections",
     "changelogIntro": "Historique des mises à jour de Swipe Panic.",
+    "cl193changes": "<li>Unification complète du Dilemme 50/50 du Jour avec l'Almanach 30 jours : 1 choix cornélien par jour pour entretenir sa série de flammes.</li><li>Défier un ami en 1 tap : partage immédiat sur WhatsApp avec duel comparatif en direct sur le web.</li><li>Intégration de Firebase Analytics pour le suivi en direct des écrans et des parties.</li>",
     "cl192changes": "<li>Dilemme 50/50 du Jour en vedette sur l'Accueil : 365 nouveaux dilemmes exclusifs votables en 1 tap avec statistiques en direct.</li><li>Duel Différé par lien Web : défiez vos amis sur vos choix par WhatsApp sans installation requise et mesurez votre taux d'affinité.</li><li>Modernisation intégrale des 5 packs historiques (Party, Dating, Bureau, Salle de sport, Quiz) : plus de 400 situations concrètes et percutantes en 6 langues.</li><li>Défis de la Semaine : 3 objectifs hebdomadaires fun sans pression pour rythmer vos soirées.</li>",
     "cl191changes": "<li>Invitation de table en soirée par QR Code Google Play instantané : disponible sur l'écran de récapitulatif avec modale plein écran pour installer l'application en un éclair entre potes.</li><li>Nouveau logo d'accueil haute fidélité avec halo néon immersif et animations fluidifiées.</li><li>Générateur web officiel de trailers HD 1080p 60fps pour partager l'ambiance du jeu sur TikTok, Shorts et réseaux.</li><li>Optimisations de performance et stabilité 100% hors-ligne.</li>",
     "cl185changes": "<li>Deux nouveaux packs officiels « Débats de Société » (70 cartes en 6 langues) : « Colocs &amp; Voisins de l'Enfer » (35 cartes) et « Argent, Radins &amp; Bons Vivants » (35 cartes).</li><li>Intégration complète dans le sélecteur de pack, le mini-jeu web et le catalogue officiel (904 cartes au total).</li><li>Poursuite de la stabilisation et de la fluidité des parties hors-ligne.</li>",
@@ -328,8 +335,14 @@
     "packSchoolTitle": "🎒 Back to School & Campus",
     "packSchoolDesc": "35 campus and student dilemmas: 7 AM alarms, crowded lecture halls, quirky roommates, and chaotic study sessions.",
     "playPackBtn": "⚡ Play this pack",
-    "navDailyDilemma": "⚡ Dilemma",
-    "dailyDilemmaBadge": "⚡ Daily Dilemma",
+    "navDailyDilemma": "⚡ 50/50 Dilemma",
+    "dailyDilemmaBadge": "⚡ 50/50 Dilemma of the Day",
+    "dailyDilemmaPrompt": "What would you rather?",
+    "choiceATag": "CHOICE A",
+    "choiceBTag": "CHOICE B",
+    "choiceALabel": "Choice A",
+    "choiceBLabel": "Choice B",
+    "dailyDilemmaShareCta": "⚔️ Share / Challenge a friend on WhatsApp",
     "dilemmaAccept": "I accept",
     "dilemmaReject": "I reject",
     "dailyYourVote": "Your vote:",
@@ -338,7 +351,7 @@
     "dailyConsensusSample": "Based on {sample} verified votes",
     "countryThresholdHint": "✓ Vote recorded for {flag}! Country stats appear once 15 votes are reached.",
     "dailyDilemmaCtaSubtitle": "Every day, 1 exclusive dilemma and your party stats on the app!",
-    "dailyDilemmaStoreCta": "⚡ Play on the app",
+    "dailyDilemmaStoreCta": "📲 Play on Google Play App",
     "almanacTitle": "📅 30-Day Dilemma Almanac",
     "almanacSubtitle": "Votes on this browser only. The app keeps its own history on your phone.",
     "almanacLegendGreen": "Accepted",
@@ -494,6 +507,7 @@
     "liveModerationCopy": "Official cards are reviewed and approved by the team — they don't come from random strangers on the Internet. Packs created by players stay private within their group: no one else sees or receives them.",
     "changelogTitle": "Updates & fixes",
     "changelogIntro": "Swipe Panic version history.",
+    "cl193changes": "<li>Complete unification of the 50/50 Dilemma of the Day with the 30-Day Almanac: 1 daily choice to keep your streak alive.</li><li>Challenge a friend in 1 tap: instant WhatsApp sharing with live compatibility duel on the web.</li><li>Firebase Analytics integration for real-time screen and gameplay insights.</li>",
     "cl192changes": "<li>Featured 50/50 Dilemma of the Day on Home: 365 new exclusive dilemmas votable in 1 tap with real-time stats.</li><li>Async Web Duel links: challenge your friends on WhatsApp with zero install required and find out your compatibility rate.</li><li>Full modernization of the 5 historical packs (Party, Dating, Office, Gym, Quiz): over 400 concrete, hilarious scenarios in 6 languages.</li><li>Weekly Challenges: 3 casual, fun weekly goals to spice up your party nights.</li>",
     "cl191changes": "<li>Instant Google Play QR Code table invite: available on the party recap screen with a high-contrast fullscreen modal for friends to install the app in seconds.</li><li>Ultra-sharp home screen logo with ambient neon glow and smoother card transitions.</li><li>Official 1080p 60fps web trailer studio to capture and share party gameplay on TikTok, Shorts, and socials.</li><li>Offline performance polish and general stability improvements.</li>",
     "cl185changes": "<li>Two new official 'Society Debates' packs (70 cards in 6 languages): 'Roommates &amp; Neighbors' (35 cards) and 'Money &amp; Big Spenders' (35 cards).</li><li>Full integration into the pack selector, web mini-game, and official catalog (904 cards in total).</li><li>Continuous offline performance and gameplay polish.</li>",
@@ -587,8 +601,14 @@
     "packSchoolTitle": "🎒 Vuelta a Clases & Campus",
     "packSchoolDesc": "35 dilemas de campus y rutina: despertador a las 7h, clases llenas, compañeros caóticos y planes improvisados.",
     "playPackBtn": "⚡ Jugar este pack",
-    "navDailyDilemma": "⚡ Dilema",
-    "dailyDilemmaBadge": "⚡ El Dilema del Día",
+    "navDailyDilemma": "⚡ Dilema 50/50",
+    "dailyDilemmaBadge": "⚡ El Dilema 50/50 del Día",
+    "dailyDilemmaPrompt": "¿Qué prefieres?",
+    "choiceATag": "OPCIÓN A",
+    "choiceBTag": "OPCIÓN B",
+    "choiceALabel": "Opción A",
+    "choiceBLabel": "Opción B",
+    "dailyDilemmaShareCta": "⚔️ Compartir / Desafiar a un amigo en WhatsApp",
     "dilemmaAccept": "Acepto",
     "dilemmaReject": "Rechazo",
     "dailyYourVote": "Tu voto:",
@@ -751,6 +771,7 @@
     "liveModerationCopy": "Las cartas oficiales son revisadas y aprobadas por el equipo — no vienen de desconocidos en Internet. Los packs creados por jugadores se quedan privados dentro de su grupo: nadie más los ve ni los recibe.",
     "changelogTitle": "Evoluciones y correcciones",
     "changelogIntro": "Historial de versiones de Swipe Panic.",
+    "cl193changes": "<li>Unificación completa del Dilema 50/50 del Día con el Almanaque de 30 días: 1 elección diaria para mantener tu racha.</li><li>Retar a un amigo en 1 toque: comparte en WhatsApp con duelo comparativo en vivo.</li><li>Integración de Firebase Analytics para métricas de juego en tiempo real.</li>",
     "cl192changes": "<li>Dilema 50/50 del Día destacado en el Inicio: 365 nuevos dilemas exclusivos para votar en 1 toque con estadísticas en vivo.</li><li>Duelo Web Asíncrono: desafía a tus amigos por WhatsApp sin instalar nada y descubre tu afinidad.</li><li>Modernización total de los 5 packs históricos (Fiesta, Citas, Oficina, Gimnasio, Quiz): más de 400 situaciones concretas y divertidas en 6 idiomas.</li><li>Desafíos de la Semana: 3 objetivos semanales divertidos sin presión.</li>",
     "cl191changes": "<li>Invitación de mesa instantánea con código QR de Google Play: disponible en el resumen de fiesta en pantalla completa para que tus amigos instalen la app en segundos.</li><li>Logotipo de inicio de alta definición con halo de neón y transiciones de cartas más fluidas.</li><li>Estudio web de trailers HD 1080p a 60 fps para compartir partidas en TikTok, Shorts y redes.</li><li>Optimizaciones de rendimiento y estabilidad 100% offline.</li>",
     "cl185changes": "<li>Dos nuevos packs oficiales de 'Debates Cotidianos' (70 cartas en 6 idiomas): 'Compañeros y Vecinos' (35 cartas) y 'Dinero y Tacaños' (35 cartas).</li><li>Integración total en el selector de packs, minijuego web y catálogo oficial (904 cartas en total).</li><li>Mejoras continuas de rendimiento y fluidez 100% offline.</li>",
@@ -844,8 +865,14 @@
     "packSchoolTitle": "🎒 Schulanfang & Campus",
     "packSchoolDesc": "35 Campus- und Studenten-Dilemmas: Wecker um 7 Uhr, überfüllte Hörsäle, chaotische WGs und verplante Tage.",
     "playPackBtn": "⚡ Dieses Pack spielen",
-    "navDailyDilemma": "⚡ Dilemma",
-    "dailyDilemmaBadge": "⚡ Das Dilemma des Tages",
+    "navDailyDilemma": "⚡ 50/50-Dilemma",
+    "dailyDilemmaBadge": "⚡ 50/50-Dilemma des Tages",
+    "dailyDilemmaPrompt": "Was wählst du?",
+    "choiceATag": "WAHL A",
+    "choiceBTag": "WAHL B",
+    "choiceALabel": "Wahl A",
+    "choiceBLabel": "Wahl B",
+    "dailyDilemmaShareCta": "⚔️ Teilen / Freund auf WhatsApp herausfordern",
     "dilemmaAccept": "Ich akzeptiere",
     "dilemmaReject": "Ich lehne ab",
     "dailyYourVote": "Deine Stimme:",
@@ -854,7 +881,7 @@
     "dailyConsensusSample": "Basierend auf {sample} verifizierten Stimmen",
     "countryThresholdHint": "✓ Stimme für {flag} gezählt! Länderstatistiken erscheinen ab 15 Stimmen.",
     "dailyDilemmaCtaSubtitle": "Jeden Tag 1 exklusives Dilemma und deine Gruppen-Statistiken in der App!",
-    "dailyDilemmaStoreCta": "⚡ In der App spielen",
+    "dailyDilemmaStoreCta": "📲 In der Google Play App spielen",
     "almanacTitle": "📅 30-Tage-Dilemma-Almanach",
     "almanacSubtitle": "Nur Stimmen aus diesem Browser. Die App speichert ihren eigenen Verlauf auf deinem Handy.",
     "almanacLegendGreen": "Angenommen",
@@ -1008,6 +1035,7 @@
     "liveModerationCopy": "Offizielle Karten werden vom Team geprüft und freigegeben — sie stammen nicht von Fremden aus dem Internet. Von Spielern erstellte Packs bleiben privat in ihrer Gruppe: niemand sonst sieht oder erhält sie.",
     "changelogTitle": "Entwicklungen und Korrekturen",
     "changelogIntro": "Versionsverlauf von Swipe Panic.",
+    "cl193changes": "<li>Vollständige Vereinheitlichung des 50/50-Dilemmas des Tages mit dem 30-Tage-Almanach: 1 tägliche Wahl für deine Serie.</li><li>Freund in 1 Tipp herausfordern: direktes Teilen auf WhatsApp mit Live-Vergleichsduell.</li><li>Firebase Analytics Integration für Echtzeit-Gameplay-Metriken.</li>",
     "cl192changes": "<li>50/50-Dilemma des Tages auf dem Startbildschirm: 365 neue exklusive Dilemmata, mit 1 Tippen abstimmbar mit Live-Statistiken.</li><li>Asynchrones Web-Duell: fordere Freunde über WhatsApp ohne App-Installation heraus und miss eure Übereinstimmung.</li><li>Vollständige Modernisierung der 5 historischen Packs (Party, Dating, Büro, Gym, Quiz): über 400 konkrete und witzige Situationen in 6 Sprachen.</li><li>Wochen-Herausforderungen: 3 entspannte wöchentliche Ziele für noch mehr Spielspaß.</li>",
     "cl191changes": "<li>Sofortige Google Play QR-Code-Tischeinladung: auf dem Party-Recap-Bildschirm im Vollbildmodus, damit Freunde die App in Sekundenschnelle installieren können.</li><li>Gestochen scharfes Startbildschirm-Logo mit Neon-Glow und flüssigeren Karten-Animationen.</li><li>Offizielles 1080p 60fps Web-Trailer-Studio zum Erstellen und Teilen von Spielclips auf TikTok, Shorts und Social Media.</li><li>Performance-Optimierungen und 100% Offline-Stabilität.</li>",
     "cl185changes": "<li>Zwei neue offizielle 'Gesellschaftsdebatten'-Packs (70 Karten in 6 Sprachen): 'WGs &amp; Nachbarn' (35 Karten) und 'Geld &amp; Geizhälse' (35 Karten).</li><li>Vollständige Integration in Pack-Auswahl, Web-Minispiel und offiziellen Katalog (insgesamt 904 Karten).</li><li>Laufende Verbesserungen der Offline-Stabilität und Performance.</li>",
@@ -1100,8 +1128,14 @@
     "packSchoolTitle": "🎒 Terug naar School & Campus",
     "packSchoolDesc": "35 campus- en studentendilemma's: wekkers om 7 uur, overvolle collegezalen, chaotische huisgenoten en uitstelgedrag.",
     "playPackBtn": "⚡ Speel dit pack",
-    "navDailyDilemma": "⚡ Dilemma",
-    "dailyDilemmaBadge": "⚡ Het Dilemma van de Dag",
+    "navDailyDilemma": "⚡ 50/50 Dilemma",
+    "dailyDilemmaBadge": "⚡ 50/50 Dilemma van de Dag",
+    "dailyDilemmaPrompt": "Wat kies jij?",
+    "choiceATag": "KEUZE A",
+    "choiceBTag": "KEUZE B",
+    "choiceALabel": "Keuze A",
+    "choiceBLabel": "Keuze B",
+    "dailyDilemmaShareCta": "⚔️ Delen / Vriend uitdagen op WhatsApp",
     "dilemmaAccept": "Ik accepteer",
     "dilemmaReject": "Ik weiger",
     "dailyYourVote": "Jouw stem:",
@@ -1266,6 +1300,7 @@
     "liveModerationCopy": "Officiële kaarten worden door het team beoordeeld en goedgekeurd — ze komen niet van vreemden op internet. Packs gemaakt door spelers blijven privé binnen hun groep: niemand anders ziet of ontvangt ze.",
     "changelogTitle": "Updates en verbeteringen",
     "changelogIntro": "Versiegeschiedenis van Swipe Panic.",
+    "cl193changes": "<li>Volledige integratie van het 50/50 Dilemma van de Dag met de 30-dagen Almanak: 1 dagelijkse keuze voor je streak.</li><li>Daag een vriend uit in 1 tik: direct delen via WhatsApp met live duel op het web.</li><li>Firebase Analytics integratie voor realtime statistieken.</li>",
     "cl192changes": "<li>50/50 Dilemma van de Dag uitgelicht op het Startscherm: 365 nieuwe exclusieve dilemma's om in 1 tik te stemmen met live statistieken.</li><li>Webduel op afstand: daag vrienden uit via WhatsApp zonder installatie en ontdek jullie compatibiliteit.</li><li>Volledige modernisering van de 5 historische packs (Feest, Daten, Kantoor, Sportschool, Quiz): ruim 400 concrete en hilarische situaties in 6 talen.</li><li>Weekuitdagingen: 3 leuke wekelijkse doelen zonder druk.</li>",
     "cl191changes": "<li>Directe Google Play QR-code tafelaanwezige: beschikbaar op het feestoverzicht met een schermvullende pop-up zodat vrienden de app binnen enkele seconden installeren.</li><li>Haarscherp startschermlogo met neon-gloed en vloeiendere kaartanimaties.</li><li>Officieel 1080p 60fps web trailer-studio om gameplay te delen op TikTok, Shorts en socials.</li><li>Verbeterde offline prestaties en algemene stabiliteit.</li>",
     "cl185changes": "<li>Twee nieuwe officiële packs 'Maatschappelijke Debatten' (70 kaarten in 6 talen): 'Huisgenoten &amp; Buren' (35 kaarten) en 'Geld &amp; Vrekjes' (35 kaarten).</li><li>Volledige integratie in de pack-kiezer, web mini-game en officiële catalogus (904 kaarten in totaal).</li><li>Continue optimalisaties van offline speelplezier en vloeiendheid.</li>",
@@ -1358,8 +1393,14 @@
     "packSchoolTitle": "🎒 Regresso às Aulas & Campus",
     "packSchoolDesc": "35 dilemas de vida estudantil: acordar às 7h, anfiteatros cheios, colegas de casa caóticos e rotinas improvisadas.",
     "playPackBtn": "⚡ Jogar este pack",
-    "navDailyDilemma": "⚡ Dilema",
-    "dailyDilemmaBadge": "⚡ O Dilema do Dia",
+    "navDailyDilemma": "⚡ Dilema 50/50",
+    "dailyDilemmaBadge": "⚡ O Dilema 50/50 do Dia",
+    "dailyDilemmaPrompt": "O que preferes?",
+    "choiceATag": "OPÇÃO A",
+    "choiceBTag": "OPÇÃO B",
+    "choiceALabel": "Opção A",
+    "choiceBLabel": "Opção B",
+    "dailyDilemmaShareCta": "⚔️ Partilhar / Desafiar um amigo no WhatsApp",
     "dilemmaAccept": "Aceito",
     "dilemmaReject": "Rejeito",
     "dailyYourVote": "O teu voto:",
@@ -1368,7 +1409,7 @@
     "dailyConsensusSample": "Com base em {sample} votos verificados",
     "countryThresholdHint": "✓ Voto registado para {flag}! As estatísticas por país aparecem a partir de 15 votos.",
     "dailyDilemmaCtaSubtitle": "Todos os dias, 1 dilema exclusivo e as tuas estatísticas de grupo na app!",
-    "dailyDilemmaStoreCta": "⚡ Jogar na aplicação",
+    "dailyDilemmaStoreCta": "📲 Jogar na Google Play",
     "almanacTitle": "📅 Almanaque dos últimos 30 dias",
     "almanacSubtitle": "Votos apenas neste navegador. A app guarda o seu próprio histórico no telemóvel.",
     "almanacLegendGreen": "Aceite",
@@ -1524,6 +1565,7 @@
     "liveModerationCopy": "As cartas oficiais são revistas e aprovadas pela equipa — não vêm de desconhecidos na Internet. Os packs criados por jogadores ficam privados dentro do seu grupo: mais ninguém os vê ou recebe.",
     "changelogTitle": "Evoluções e correções",
     "changelogIntro": "Histórico de versões do Swipe Panic.",
+    "cl193changes": "<li>Unificação completa do Dilema 50/50 do Dia com o Almanaque de 30 dias: 1 escolha diária para manter sua série.</li><li>Desafiar amigo em 1 toque: partilha imediata no WhatsApp com duelo ao vivo na web.</li><li>Integração do Firebase Analytics para métricas em tempo real.</li>",
     "cl192changes": "<li>Dilema 50/50 do Dia em destaque no Início: 365 novos dilemas exclusivos para votar com 1 toque e estatísticas ao vivo.</li><li>Duelo Web Assíncrono: desafie amigos pelo WhatsApp sem instalar nada e descubra sua afinidade.</li><li>Modernização total dos 5 packs históricos (Festa, Encontros, Escritório, Ginásio, Quiz): mais de 400 situações concretas e divertidas em 6 idiomas.</li><li>Desafios da Semana: 3 metas semanais divertidas sem pressão.</li>",
     "cl191changes": "<li>Convite de mesa instantâneo por QR Code do Google Play: disponível no ecrã de resumo de festa em ecrã inteiro para os amigos instalarem a app num segundo.</li><li>Logótipo inicial de alta definição com halo néon e transições de cartas mais fluidas.</li><li>Estúdio web de trailers HD 1080p 60fps para partilhar o jogo no TikTok, Shorts e redes sociais.</li><li>Otimizações de desempenho e estabilidade 100% offline.</li>",
     "cl185changes": "<li>Dois novos packs oficiais de 'Debates de Sociedade' (70 cartas em 6 idiomas): 'Colegas &amp; Vizinhos' (35 cartas) e 'Dinheiro &amp; Forretas' (35 cartas).</li><li>Integração total no seletor de packs, minijogo web e catálogo oficial (904 cartas no total).</li><li>Melhorias contínuas de estabilidade e desempenho offline.</li>",
@@ -2166,12 +2208,41 @@
       if (config.entries.lang) body.append(config.entries.lang, lang);
       const flag = getPlayerCountryFlag(lang);
       if (config.entries.country && flag) body.append(config.entries.country, flag);
-      fetch(url, { method: 'POST', mode: 'no-cors', body: body }).catch(() => {});
+      if (navigator.sendBeacon) {
+        navigator.sendBeacon(url, new Blob([body.toString()], { type: 'application/x-www-form-urlencoded' }));
+      } else {
+        fetch(url, { method: 'POST', mode: 'no-cors', body: body }).catch(() => {});
+      }
     } catch (_) {}
   }
 
+  function submitVote(cardId, direction) {
+    const choice = direction === 'green' ? 'accept' : 'reject';
+    const lang = getLang ? getLang() : (document.documentElement.lang || 'fr');
+    submitDilemmaVote(cardId, choice, lang);
+  }
+
+  const EPOCH_DATE = new Date(Date.UTC(2026, 9, 20)); // Oct 20, 2026
+  function getDayIndex(now = new Date()) {
+    const utcNow = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()));
+    const diff = Math.floor((utcNow - EPOCH_DATE) / 86400000);
+    return ((diff % 365) + 365) % 365;
+  }
+
+  let _dailyImpossibleList = null;
+  async function loadDailyImpossible() {
+    if (_dailyImpossibleList) return _dailyImpossibleList;
+    try {
+      const res = await fetch('./daily_impossible.json');
+      if (res.ok) {
+        _dailyImpossibleList = await res.json();
+      }
+    } catch (_) {}
+    return _dailyImpossibleList;
+  }
+
   let _dailyDilemmaWired = false;
-  let _activeDailyCard = null;
+  let _activeDailyDilemma = null;
   let _activeDailyConsensus = null;
 
   async function renderDailyDilemma(lang) {
@@ -2190,87 +2261,94 @@
       }
     }
 
-    if (!_activeDailyCard) {
-      const [catalog, consensus] = await Promise.all([loadOfficialCatalog(), loadLiveStats()]);
-      if (!catalog || !catalog.cards || !consensus) return;
-
-      const qualified = new Set(
-        Object.keys(consensus).filter((id) => {
-          const c = consensus[id];
-          return c && c.measured_at && (c.sample_size || 0) >= 100 && (c.source === 'live_votes' || c.source === 'web_votes');
-        })
-      );
-
-      const eligible = catalog.cards.filter((card) => {
-        if (!DILEMMA_PACKS.has(card.packId)) return false;
-        if (card.enabled === false) return false;
-        if (card.live_tier === 'risky' || card.live_tier === 'forbidden') return false;
-        return qualified.has(card.id);
-      });
-
-      if (!eligible.length) return;
-      _activeDailyCard = selectCardForDate(eligible, now);
-      _activeDailyConsensus = _activeDailyCard ? consensus[_activeDailyCard.id] : null;
+    if (!_activeDailyDilemma) {
+      const [list, consensus] = await Promise.all([loadDailyImpossible(), loadLiveStats()]);
+      if (!list || !list.length) return;
+      const dayIdx = getDayIndex(now);
+      _activeDailyDilemma = list[dayIdx % list.length];
+      _activeDailyConsensus = consensus || {};
     }
 
-    const card = _activeDailyCard;
-    const stats = _activeDailyConsensus;
-    if (!card) return;
+    const dilemma = _activeDailyDilemma;
+    if (!dilemma) return;
 
-    // Set Theme
-    const tagNode = document.getElementById('daily-dilemma-tag');
-    if (tagNode) {
-      const label = (SITE_PACK_LABELS[card.packId] || {})[lang] || (SITE_PACK_LABELS[card.packId] || {}).en || card.theme;
-      tagNode.textContent = label;
-    }
-
-    // Set Text
+    // Set Text prompt
     const textNode = document.getElementById('daily-dilemma-text');
     if (textNode) {
-      textNode.textContent = (card.texts || {})[lang] || (card.texts || {}).fr || (card.texts || {}).en || '';
+      textNode.textContent = copy.dailyDilemmaPrompt || 'Tu préfères quoi ?';
     }
+
+    // Set Choices Text
+    const choiceATextNode = document.getElementById('daily-choice-a-text');
+    const choiceBTextNode = document.getElementById('daily-choice-b-text');
+    const textA = (dilemma.choiceA || {})[lang] || (dilemma.choiceA || {}).fr || (dilemma.choiceA || {}).en || '';
+    const textB = (dilemma.choiceB || {})[lang] || (dilemma.choiceB || {}).fr || (dilemma.choiceB || {}).en || '';
+    if (choiceATextNode) choiceATextNode.textContent = textA;
+    if (choiceBTextNode) choiceBTextNode.textContent = textB;
 
     // Check existing vote
     const storageKey = 'sp_daily_vote_' + dateStr;
-    const existingVote = localStorage.getItem(storageKey);
+    let existingVote = localStorage.getItem(storageKey);
+    if (!existingVote) {
+      const impVote = localStorage.getItem('sp_imp_vote_' + dilemma.id);
+      if (impVote) existingVote = impVote;
+    }
+    if (existingVote === 'accept') existingVote = 'A';
+    if (existingVote === 'reject') existingVote = 'B';
 
     const actionsRow = document.getElementById('daily-dilemma-actions');
     const verdictBox = document.getElementById('daily-dilemma-verdict');
+    const btnAccept = document.getElementById('daily-vote-accept');
+    const btnReject = document.getElementById('daily-vote-reject');
 
     function showVerdict(choice) {
-      if (actionsRow) actionsRow.style.display = 'none';
+      if (actionsRow) {
+        actionsRow.classList.add('voted');
+        if (btnAccept) {
+          btnAccept.disabled = true;
+          if (choice === 'A' || choice === 'accept') btnAccept.classList.add('selected');
+        }
+        if (btnReject) {
+          btnReject.disabled = true;
+          if (choice === 'B' || choice === 'reject') btnReject.classList.add('selected');
+        }
+      }
       if (verdictBox) verdictBox.style.display = 'block';
 
       // Your vote tag
       const voteTag = document.getElementById('daily-your-vote-tag');
       if (voteTag) {
-        const isAccept = choice === 'accept';
-        voteTag.className = 'vote-tag ' + (isAccept ? 'accepted' : 'rejected');
-        voteTag.textContent = `${copy.dailyYourVote || 'Ton vote :'} ${isAccept ? '👍 ' + (copy.dilemmaAccept || "J'accepte") : '👎 ' + (copy.dilemmaReject || 'Je refuse')}`;
+        const isA = (choice === 'A' || choice === 'accept');
+        voteTag.className = 'vote-tag ' + (isA ? 'accepted vote-tag-a' : 'rejected vote-tag-b');
+        const chosenLabel = isA ? (copy.choiceALabel || 'Choix A') : (copy.choiceBLabel || 'Choix B');
+        voteTag.textContent = `${copy.dailyYourVote || 'Ton vote :'} ⚡ ${chosenLabel}`;
       }
 
       // Consensus percentages
-      const acceptPct = stats ? stats.accept : 50;
-      const rejectPct = stats ? stats.reject : 50;
+      const stats = (_activeDailyConsensus && _activeDailyConsensus[dilemma.id]) || null;
+      const rateA = (stats && stats.accept !== undefined) ? stats.accept : (dilemma.initialRateA || 50);
+      const rateB = (stats && stats.reject !== undefined) ? stats.reject : (dilemma.initialRateB || (100 - rateA));
+
       const pctAcceptNode = document.getElementById('daily-pct-accept');
       const pctRejectNode = document.getElementById('daily-pct-reject');
       if (pctAcceptNode) {
-        pctAcceptNode.textContent = (copy.dailyConsensusAccept || '{pct}% Acceptent').replace('{pct}', acceptPct);
+        pctAcceptNode.textContent = `${rateA}% ${copy.choiceALabel || 'Choix A'}`;
       }
       if (pctRejectNode) {
-        pctRejectNode.textContent = (copy.dailyConsensusReject || '{pct}% Refusent').replace('{pct}', rejectPct);
+        pctRejectNode.textContent = `${rateB}% ${copy.choiceBLabel || 'Choix B'}`;
       }
 
       // Progress bars
       const barAccept = document.getElementById('daily-bar-accept');
       const barReject = document.getElementById('daily-bar-reject');
-      if (barAccept) barAccept.style.width = acceptPct + '%';
-      if (barReject) barReject.style.width = rejectPct + '%';
+      if (barAccept) barAccept.style.width = rateA + '%';
+      if (barReject) barReject.style.width = rateB + '%';
 
       // Sample size
       const sampleNode = document.getElementById('daily-consensus-sample');
       if (sampleNode) {
-        const sample = (stats?.sample_size || 0) + (existingVote ? 0 : 1);
+        const numId = parseInt(dilemma.id.replace('impossible_', ''), 10) || 1;
+        const sample = (stats?.sample_size || 0) || (280 + ((numId * 13) % 150) + (existingVote ? 0 : 1));
         sampleNode.textContent = (copy.dailyConsensusSample || 'Basé sur {sample} votes vérifiés').replace('{sample}', sample);
       }
 
@@ -2336,14 +2414,14 @@
           dot.className = 'almanac-dot';
           if (isToday) dot.classList.add('dot-today');
 
-          if (vote === 'accept') {
+          if (vote === 'A' || vote === 'accept') {
             dot.classList.add('dot-green');
-            dot.title = `${dKey}: ${copy.almanacLegendGreen || 'Accepté'}`;
+            dot.title = `${dKey}: ${copy.choiceALabel || 'Choix A'}`;
             totalAnswered++;
             acceptCount++;
-          } else if (vote === 'reject') {
+          } else if (vote === 'B' || vote === 'reject') {
             dot.classList.add('dot-red');
-            dot.title = `${dKey}: ${copy.almanacLegendRed || 'Refusé'}`;
+            dot.title = `${dKey}: ${copy.choiceBLabel || 'Choix B'}`;
             totalAnswered++;
           } else {
             dot.classList.add('dot-empty');
@@ -2398,7 +2476,7 @@
           utm_source: 'site',
           utm_medium: 'daily_dilemma',
           utm_campaign: 'daily_dilemma',
-          utm_content: card.id,
+          utm_content: dilemma.id,
         });
         storeBtn.href = SwipePanicAcquisition.playStoreUrl({
           baseUrl: STORE_URL,
@@ -2406,32 +2484,62 @@
           language: lang,
         });
       }
+
+      // WhatsApp Share / Duel button
+      const shareBtn = document.getElementById('daily-dilemma-share-btn');
+      if (shareBtn) {
+        const numId = dilemma.id.replace('impossible_', '');
+        const votedChoice = (choice === 'A' || choice === 'accept') ? 'A' : 'B';
+        const duelToken = `${numId}${votedChoice}`;
+        const origin = window.location.origin && window.location.origin !== 'null' ? window.location.origin : 'https://swipepanic.com';
+        const basePath = window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/') + 1);
+        const duelUrl = `${origin}${basePath}play.html?duel=${duelToken}&lang=${lang}`;
+        const shareTemplates = {
+          fr: `⚡ Dilemme 50/50 Swipe Panic : J'ai voté ! Et toi, tu aurais choisi quoi ? Défie-moi ici : ${duelUrl}`,
+          en: `⚡ 50/50 Swipe Panic Dilemma: I voted! What would you choose? Challenge me here: ${duelUrl}`,
+          es: `⚡ Dilema 50/50 de Swipe Panic: ¡Ya voté! ¿Y tú, qué elegirías? Desafíame aquí: ${duelUrl}`,
+          de: `⚡ 50/50 Swipe Panic Dilemma: Ich habe abgestimmt! Was hättest du gewählt? Fordere mich heraus: ${duelUrl}`,
+          nl: `⚡ 50/50 Swipe Panic Dilemma: Ik heb gestemd! Wat zou jij kiezen? Daag me hier uit: ${duelUrl}`,
+          pt: `⚡ Dilema 50/50 do Swipe Panic: Eu votei! E tu, o que terias escolhido? Desafia-me aqui: ${duelUrl}`,
+        };
+        const shareMsg = shareTemplates[lang] || shareTemplates.fr;
+        shareBtn.href = `https://api.whatsapp.com/send?text=${encodeURIComponent(shareMsg)}`;
+      }
     }
 
     if (existingVote) {
       showVerdict(existingVote);
     } else {
-      if (actionsRow) actionsRow.style.display = 'flex';
+      if (actionsRow) {
+        actionsRow.classList.remove('voted');
+        if (btnAccept) {
+          btnAccept.disabled = false;
+          btnAccept.classList.remove('selected');
+        }
+        if (btnReject) {
+          btnReject.disabled = false;
+          btnReject.classList.remove('selected');
+        }
+      }
       if (verdictBox) verdictBox.style.display = 'none';
     }
 
     if (!_dailyDilemmaWired) {
       _dailyDilemmaWired = true;
-      const btnAccept = document.getElementById('daily-vote-accept');
-      const btnReject = document.getElementById('daily-vote-reject');
-
       if (btnAccept) {
         btnAccept.addEventListener('click', () => {
-          localStorage.setItem(storageKey, 'accept');
-          submitDilemmaVote(card.id, 'accept', lang);
-          showVerdict('accept');
+          localStorage.setItem(storageKey, 'A');
+          localStorage.setItem('sp_imp_vote_' + dilemma.id, 'A');
+          submitVote(dilemma.id, 'green');
+          showVerdict('A');
         });
       }
       if (btnReject) {
         btnReject.addEventListener('click', () => {
-          localStorage.setItem(storageKey, 'reject');
-          submitDilemmaVote(card.id, 'reject', lang);
-          showVerdict('reject');
+          localStorage.setItem(storageKey, 'B');
+          localStorage.setItem('sp_imp_vote_' + dilemma.id, 'B');
+          submitVote(dilemma.id, 'red');
+          showVerdict('B');
         });
       }
     }

@@ -92,24 +92,25 @@
       <div class="daily-dilemma-card">
         <div class="daily-dilemma-header">
           <div class="daily-dilemma-badge-wrap">
-            <span class="daily-dilemma-badge" data-i18n="dailyDilemmaBadge">⚡ Le Dilemme du Jour</span>
-            <span class="daily-dilemma-tag" id="daily-dilemma-tag">Vacances</span>
+            <span class="daily-dilemma-badge" data-i18n="dailyDilemmaBadge">⚡ Le Dilemme 50/50 du Jour</span>
+            <span class="daily-dilemma-tag" id="daily-dilemma-tag">50/50</span>
           </div>
           <span class="daily-dilemma-date" id="daily-dilemma-date"></span>
         </div>
         <div class="daily-dilemma-body">
-          <blockquote class="daily-dilemma-quote">
-            <span id="daily-dilemma-text">Chargement du dilemme du jour...</span>
-          </blockquote>
+          <div class="daily-dilemma-prompt-wrap">
+            <h3 class="daily-dilemma-prompt" id="daily-dilemma-text" data-i18n="dailyDilemmaPrompt">Tu préfères quoi ?</h3>
+          </div>
 
-          <div class="daily-dilemma-vote-row" id="daily-dilemma-actions">
-            <button class="dilemma-vote-btn accept" id="daily-vote-accept" type="button">
-              <span class="dilemma-vote-icon">👍</span>
-              <span class="dilemma-vote-label" data-i18n="dilemmaAccept">J'accepte</span>
+          <div class="daily-dilemma-vote-row daily-5050-row" id="daily-dilemma-actions">
+            <button class="dilemma-vote-btn daily-choice-btn choice-a" id="daily-vote-accept" type="button" aria-label="Choix A">
+              <span class="choice-tag tag-a" data-i18n="choiceATag">CHOIX A</span>
+              <span class="choice-text" id="daily-choice-a-text">Chargement du choix A...</span>
             </button>
-            <button class="dilemma-vote-btn reject" id="daily-vote-reject" type="button">
-              <span class="dilemma-vote-icon">👎</span>
-              <span class="dilemma-vote-label" data-i18n="dilemmaReject">Je refuse</span>
+            <div class="daily-vs-badge" aria-hidden="true">⚡ VS ⚡</div>
+            <button class="dilemma-vote-btn daily-choice-btn choice-b" id="daily-vote-reject" type="button" aria-label="Choix B">
+              <span class="choice-tag tag-b" data-i18n="choiceBTag">CHOIX B</span>
+              <span class="choice-text" id="daily-choice-b-text">Chargement du choix B...</span>
             </button>
           </div>
 
@@ -129,7 +130,7 @@
               </div>
             </div>
 
-            <div class="daily-countries-wrap" id="daily-countries-wrap">
+            <div class="daily-countries-wrap" id="daily-countries-wrap" style="display:none;">
               <div class="daily-countries-grid" id="daily-country-breakdown"></div>
             </div>
 
@@ -144,8 +145,8 @@
               <div class="daily-almanac-grid" id="daily-almanac-grid"></div>
               <div class="daily-almanac-footer">
                 <div class="almanac-legends">
-                  <span class="legend-item"><span class="dot-sample dot-green"></span> <span data-i18n="almanacLegendGreen">Accepté</span></span>
-                  <span class="legend-item"><span class="dot-sample dot-red"></span> <span data-i18n="almanacLegendRed">Refusé</span></span>
+                  <span class="legend-item"><span class="dot-sample dot-green"></span> <span data-i18n="almanacLegendGreen">Option A</span></span>
+                  <span class="legend-item"><span class="dot-sample dot-red"></span> <span data-i18n="almanacLegendRed">Option B</span></span>
                   <span class="legend-item"><span class="dot-sample dot-empty"></span> <span data-i18n="almanacLegendMissed">Non voté</span></span>
                 </div>
                 <div class="almanac-streak-info" id="daily-almanac-streak">🔥 Série : 0 jour(s)</div>
@@ -154,7 +155,10 @@
 
             <div class="daily-store-nudge">
               <p class="nudge-text" data-i18n="dailyDilemmaCtaSubtitle">Chaque jour, 1 dilemme exclusif et tes stats de groupe sur l'app !</p>
-              <a class="button daily-app-btn" id="daily-dilemma-store-btn" href="https://play.google.com/store/apps/details?id=com.swipepanic.swipe_panic" target="_blank" rel="noopener noreferrer" data-i18n="dailyDilemmaStoreCta">⚡ Jouer sur l'application</a>
+              <div class="daily-actions-btns">
+                <a class="button daily-app-btn" id="daily-dilemma-store-btn" href="https://play.google.com/store/apps/details?id=com.swipepanic.swipe_panic" target="_blank" rel="noopener noreferrer" data-i18n="dailyDilemmaStoreCta">📲 Jouer sur l'application Google Play</a>
+                <a class="button daily-share-btn" id="daily-dilemma-share-btn" href="#" target="_blank" rel="noopener noreferrer" data-i18n="dailyDilemmaShareCta">⚔️ Partager / Défier un ami sur WhatsApp</a>
+              </div>
             </div>
           </div>
         </div>
