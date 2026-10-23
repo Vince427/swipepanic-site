@@ -1006,6 +1006,9 @@
         <option value="vacation_pack">✈️ Vacances</option>
         <option value="gym_pack_v1">🏋️ Salle de sport</option>
         <option value="quiz_pack_v1">🧠 Quiz</option>
+        <option value="spring_pack">☀️ Terrasses & Beaux Jours</option>
+        <option value="festival_pack">🎪 Festivals & Concerts</option>
+        <option value="autumn_pack">🍂 Raclette & Cocooning</option>
       </select>
       <select id="countrySelect" class="select-dropdown" aria-label="Choisir mon pays"></select>
     </div>
@@ -1336,6 +1339,9 @@
         packVacation: "✈️ Vacances",
         packGym: "🏋️ Salle de sport",
         packQuiz: "🧠 Quiz",
+        packSpring: "☀️ Terrasses & Beaux Jours",
+        packFestival: "🎪 Festivals & Concerts",
+        packAutumn: "🍂 Raclette & Cocooning",
                 quizCorrect: "Bonne réponse !",
         quizWrong: "Mauvaise réponse !",
         quizAnswerIs: "La bonne réponse était",
@@ -1424,6 +1430,9 @@ socialScoreDesc: "Tes choix de soirée : {count} actions et vérités assumées 
         packVacation: "✈️ Vacation & Travel",
         packGym: "🏋️ Gym & Fitness",
         packQuiz: "🧠 Trivia Quiz",
+        packSpring: "☀️ Spring & Sunny Days",
+        packFestival: "🎪 Festivals & Concerts",
+        packAutumn: "🍂 Autumn & Cozy Nights",
                 quizCorrect: "Correct answer!",
         quizWrong: "Wrong answer!",
         quizAnswerIs: "The correct answer was",
@@ -1512,6 +1521,9 @@ socialScoreDesc: "Your party choices: {count} actions and truths accepted!",
         packVacation: "✈️ Vacaciones y Viajes",
         packGym: "🏋️ Gimnasio y Fitness",
         packQuiz: "🧠 Quiz y Preguntas",
+        packSpring: "☀️ Terrazas & Buen Tiempo",
+        packFestival: "🎪 Festivales & Conciertos",
+        packAutumn: "🍂 Otoño & Noches Acogedoras",
         quizCorrect: "¡Respuesta correcta!",
         quizWrong: "¡Respuesta incorrecta!",
         quizAnswerIs: "La respuesta correcta era",
@@ -1600,6 +1612,9 @@ socialScoreDesc: "Tus elecciones de fiesta: {count} retos y verdades asumidas.",
         packVacation: "✈️ Urlaub & Reisen",
         packGym: "🏋️ Fitnessstudio & Gym",
         packQuiz: "🧠 Quiz & Trivia",
+        packSpring: "☀️ Terrassen & Sonnentage",
+        packFestival: "🎪 Festivals & Konzerte",
+        packAutumn: "🍂 Herbst & Gemütliche Abende",
                 quizCorrect: "Richtig!",
         quizWrong: "Falsch!",
         quizAnswerIs: "Die richtige Antwort war",
@@ -1688,6 +1703,9 @@ socialScoreDesc: "Deine Party-Auswahl: {count} angenommene Aufgaben und Wahrheit
         packVacation: "✈️ Vakantie & Reizen",
         packGym: "🏋️ Sportschool & Fitness",
         packQuiz: "🧠 Quiz & Kennis",
+        packSpring: "☀️ Terrassen & Lentedagen",
+        packFestival: "🎪 Festivals & Concerten",
+        packAutumn: "🍂 Herfst & Gezellige Avonden",
                 quizCorrect: "Goed antwoord!",
         quizWrong: "Fout antwoord!",
         quizAnswerIs: "Het juiste antwoord was",
@@ -1776,6 +1794,9 @@ socialScoreDesc: "Jouw feestkeuzes: {count} voltooide acties en waarheden!",
         packVacation: "✈️ Férias & Viagens",
         packGym: "🏋️ Academia & Fitness",
         packQuiz: "🧠 Quiz & Conhecimento",
+        packSpring: "☀️ Esplanadas & Dias de Sol",
+        packFestival: "🎪 Festivais & Concertos",
+        packAutumn: "🍂 Outono & Noites Aconchegantes",
                 quizCorrect: "Resposta correta!",
         quizWrong: "Resposta errada!",
         quizAnswerIs: "A resposta correta era",
@@ -1920,6 +1941,9 @@ socialScoreDesc: "As tuas escolhas de festa: {count} desafios e verdades assumid
           <option value="vacation_pack">${t.packVacation || "✈️ Vacances"}</option>
           <option value="gym_pack_v1">${t.packGym || "🏋️ Salle de sport"}</option>
           <option value="quiz_pack_v1">${t.packQuiz || "🧠 Quiz"}</option>
+          <option value="spring_pack">${t.packSpring}</option>
+          <option value="festival_pack">${t.packFestival}</option>
+          <option value="autumn_pack">${t.packAutumn}</option>
         `;
         packSelect.value = curVal || 'all';
       }
@@ -2913,7 +2937,7 @@ socialScoreDesc: "As tuas escolhas de festa: {count} desafios e verdades assumid
           resultDescMid: 'Moitié d\'accord, moitié débat explosif ! ⚡',
           resultDescLow: 'Tout vous oppose, débat garanti au prochain apéro ! 💥',
           downloadBtn: '📲 Télécharger Swipe Panic (Gratuit)',
-          playMoreBtn: '🎲 Jouer aux 365 Dilemmes 50/50',
+          playMoreBtn: '⚡ Voir le dilemme du jour',
         },
         en: {
           badge: '⚔️ 50/50 FRIEND DUEL',
@@ -2930,7 +2954,7 @@ socialScoreDesc: "As tuas escolhas de festa: {count} desafios e verdades assumid
           resultDescMid: 'Half agreement, half explosive debate! ⚡',
           resultDescLow: 'Complete opposites — guaranteed debate tonight! 💥',
           downloadBtn: '📲 Download Swipe Panic (Free)',
-          playMoreBtn: '🎲 Play more 50/50 Dilemmas',
+          playMoreBtn: '⚡ See today\'s dilemma',
         },
         es: {
           badge: '⚔️ DUELO 50/50 ENTRE AMIGOS',
@@ -2947,7 +2971,7 @@ socialScoreDesc: "As tuas escolhas de festa: {count} desafios e verdades assumid
           resultDescMid: '¡Mitad acuerdo, mitad debate explosivo! ⚡',
           resultDescLow: '¡Polos opuestos, debate garantizado! 💥',
           downloadBtn: '📲 Descargar Swipe Panic (Gratis)',
-          playMoreBtn: '🎲 Jugar más Dilemas 50/50',
+          playMoreBtn: '⚡ Ver el dilema de hoy',
         },
         de: {
           badge: '⚔️ 50/50 FREUNDES-DUELL',
@@ -2964,7 +2988,7 @@ socialScoreDesc: "As tuas escolhas de festa: {count} desafios e verdades assumid
           resultDescMid: 'Halb einig, halb explosiver Diskussionsstoff! ⚡',
           resultDescLow: 'Komplette Gegensätze — Diskussion garantiert! 💥',
           downloadBtn: '📲 Swipe Panic kostenlos laden',
-          playMoreBtn: '🎲 Weitere 50/50-Dilemmas spielen',
+          playMoreBtn: '⚡ Dilemma des Tages ansehen',
         },
         nl: {
           badge: '⚔️ 50/50 VRIENDENDUEL',
@@ -2981,7 +3005,7 @@ socialScoreDesc: "As tuas escolhas de festa: {count} desafios e verdades assumid
           resultDescMid: 'Half eens, half vurige discussie! ⚡',
           resultDescLow: 'Tegenpolen — gegarandeerd discussie! 💥',
           downloadBtn: '📲 Download Swipe Panic (Gratis)',
-          playMoreBtn: '🎲 Speel meer 50/50-Dilemma\'s',
+          playMoreBtn: '⚡ Bekijk het dilemma van vandaag',
         },
         pt: {
           badge: '⚔️ DUELO 50/50 ENTRE AMIGOS',
@@ -2998,7 +3022,7 @@ socialScoreDesc: "As tuas escolhas de festa: {count} desafios e verdades assumid
           resultDescMid: 'Metade acordo, metade debate explosivo! ⚡',
           resultDescLow: 'Opostos totais — debate garantido! 💥',
           downloadBtn: '📲 Baixar Swipe Panic (Grátis)',
-          playMoreBtn: '🎲 Jogar mais Dilemas 50/50',
+          playMoreBtn: '⚡ Ver o dilema de hoje',
         }
       };
 
@@ -3038,8 +3062,7 @@ socialScoreDesc: "As tuas escolhas de festa: {count} desafios e verdades assumid
             </div>
           `;
           document.getElementById('closeDuelBtn').onclick = () => {
-            modal.remove();
-            initGame();
+            window.location.assign(`./index.html?lang=${lang}#daily-dilemma`);
           };
           return;
         }

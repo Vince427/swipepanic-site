@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-21T19:43:42.040Z",
+  "updated_at": "2026-10-23T10:07:33.675Z",
   "cards": [
     {
       "id": "dating_red_1",
@@ -16424,11 +16424,11 @@
       "type": "red_flag",
       "texts": {
         "fr": "Venir en bermuda ou robe de plage au travail dès le premier jour où il fait dix-neuf degrés.",
-        "en": "Wearing beach shorts or a sun dress to the office on the very first warm spring day.",
-        "es": "Ir en bermudas o vestido playero a la oficina en cuanto el termómetro marca calor.",
-        "de": "In Shorts oder Sommerkleid zur Arbeit kommen, sobald es das erste Mal warm wird.",
-        "nl": "In korte broek of strandjurk naar kantoor gaan zodra het voor het eerst lekker weer is.",
-        "pt": "Aparecer de calções ou vestido de praia no trabalho no primeiro dia de calor do ano."
+        "en": "Wearing beach shorts or a sun dress to work as soon as the thermometer hits nineteen degrees.",
+        "es": "Ir en bermudas o vestido playero al trabajo en cuanto el termómetro marca diecinueve grados.",
+        "de": "In Strandshorts oder Sommerkleid zur Arbeit kommen, sobald es neunzehn Grad hat.",
+        "nl": "In strandbroek of strandjurk naar kantoor gaan zodra het negentien graden is.",
+        "pt": "Ir de calções ou vestido de praia para o trabalho mal o termómetro marca dezanove graus."
       },
       "difficulty": 1,
       "enabled": true,
@@ -16837,12 +16837,12 @@
       "theme": "spring",
       "type": "green_flag",
       "texts": {
-        "fr": "Avoir pensé à prendre un spray anti-moustiques dès les premières soirées en terrasse.",
-        "en": "Remembering to pack mosquito repellent spray for the very first spring terrace evening.",
-        "es": "Llevar repelente de mosquitos en el bolso desde la primera noche en la terraza.",
-        "de": "Schon am ersten Frühlingsabend auf der Terrasse Mückenspray dabeihaben.",
-        "nl": "Al bij de allereerste terrasavond een muggenspray in je tas hebben zitten.",
-        "pt": "Lembrar-se de levar spray repelente de mosquitos logo na primeira noite na esplanada."
+        "fr": "Choisir une terrasse à l'ombre pour qu'un ami allergique au pollen puisse venir, alors que les autres voulaient le soleil.",
+        "en": "Choosing a shaded terrace so a friend with pollen allergies can join, even though the others wanted sunshine.",
+        "es": "Elegir una terraza a la sombra para que venga un amigo con alergia al polen, aunque los demás querían sol.",
+        "de": "Eine schattige Terrasse wählen, damit ein Freund mit Pollenallergie mitkommen kann, obwohl die anderen Sonne wollten.",
+        "nl": "Een terras in de schaduw kiezen zodat een vriend met hooikoorts mee kan, terwijl de rest in de zon wilde zitten.",
+        "pt": "Escolher uma esplanada à sombra para um amigo com alergia ao pólen poder vir, apesar de os outros quererem sol."
       },
       "difficulty": 1,
       "enabled": true,
@@ -17215,12 +17215,12 @@
       "theme": "festival",
       "type": "green_flag",
       "texts": {
-        "fr": "Rester au bord du pogo pour repousser fermement les gens qui trébuchent sans jamais y entrer.",
-        "en": "Standing on the edge of the moshpit pushing back fallers without ever jumping in yourself.",
-        "es": "Quedarse al borde del pogo frenando a quienes tropiezan sin meterse dentro nunca.",
-        "de": "Am Rand des Moshpits stehen und Strauchelnde abfangen, ohne selbst hineinzuspringen.",
-        "nl": "Aan de rand van de moshpit staan om vallende mensen op te vangen zonder zelf mee te doen.",
-        "pt": "Ficar à beira do moshpit a empurrar quem tropeça para dentro sem nunca entrar na roda."
+        "fr": "Rester au bord du pogo pour aider ceux qui tombent, quitte à rater son morceau préféré.",
+        "en": "Staying at the edge of the mosh pit to help people who fall, even if you miss your favourite song.",
+        "es": "Quedarte al borde del pogo para ayudar a quien se caiga, aunque te pierdas tu canción favorita.",
+        "de": "Am Rand des Moshpits bleiben und Gestürzten helfen, auch wenn du deinen Lieblingssong verpasst.",
+        "nl": "Aan de rand van de moshpit blijven om vallende mensen te helpen, ook als je je lievelingsnummer mist.",
+        "pt": "Ficar à beira do moshpit para ajudar quem cai, mesmo que percas a tua música favorita."
       },
       "difficulty": 1,
       "enabled": true,
@@ -17359,12 +17359,12 @@
       "theme": "festival",
       "type": "green_flag",
       "texts": {
-        "fr": "Ramener une trousse de secours complète avec sérum, compresses et pansements pour tout le groupe.",
-        "en": "Bringing a full first-aid kit with saline, wipes and dressings for the whole camping crew.",
-        "es": "Llevar un botiquín completo con suero, gasas y tiritas para todo el grupo en la tienda.",
-        "de": "Ein komplettes Erste-Hilfe-Set mit Desinfektion und Verbänden für die Gruppe mitnehmen.",
-        "nl": "Een complete EHBO-set met ontsmettingsmiddel en verband meenemen voor de vriendengroep.",
-        "pt": "Trazer um estojo de primeiros socorros completo com soro e pensos para o grupo todo."
+        "fr": "Distribuer des bouchons d'oreille au groupe avant le premier rang du concert, même à ceux qui n'en ont pas demandé.",
+        "en": "Handing out earplugs to the group before heading to the front row, even to friends who didn't ask for them.",
+        "es": "Repartir tapones para los oídos antes de ir a primera fila, incluso a los amigos que no los pidieron.",
+        "de": "Vor der ersten Konzertreihe Ohrstöpsel an alle verteilen, auch an Freunde, die nicht danach gefragt haben.",
+        "nl": "Voor de eerste rij oordoppen aan de hele groep uitdelen, ook aan vrienden die er niet om vroegen.",
+        "pt": "Distribuir tampões para os ouvidos ao grupo antes de ir para a primeira fila, mesmo a quem não pediu."
       },
       "difficulty": 1,
       "enabled": true,
@@ -17413,12 +17413,12 @@
       "theme": "festival",
       "type": "red_flag",
       "texts": {
-        "fr": "Doubler toute la file des toilettes sèches en prétendant une urgence médicale absolue.",
-        "en": "Skipping the whole festival toilet queue by faking an absolute medical emergency.",
-        "es": "Colarse en toda la fila de los aseos alegando una supuesta urgencia médica extrema.",
-        "de": "Die gesamte Schlange vor den Toiletten überspringen und einen akuten Notfall vortäuschen.",
-        "nl": "De hele rij voor de toiletten voordringen met een smoes over een acute medische noodzaak.",
-        "pt": "Passar à frente de toda a fila das casas de banho fingindo uma urgência médica extrema."
+        "fr": "Faire revenir dans la file des toilettes un ami parti chercher de l'eau pour tout le groupe.",
+        "en": "Letting a friend rejoin you in the toilet queue after they went to get water for the whole group.",
+        "es": "Dejar que un amigo vuelva a tu sitio en la cola del baño tras ir a buscar agua para todo el grupo.",
+        "de": "Einen Freund in der Toilettenschlange wieder zu dir lassen, nachdem er Wasser für die ganze Gruppe geholt hat.",
+        "nl": "Een vriend weer bij je in de toiletrij laten aansluiten nadat die water voor de hele groep haalde.",
+        "pt": "Deixar um amigo voltar ao teu lugar na fila da casa de banho depois de ir buscar água para o grupo todo."
       },
       "difficulty": 1,
       "enabled": true,
@@ -17435,7 +17435,7 @@
         "en": "Refusing to share nine-euro chips with mates who didn't bother ordering food themselves.",
         "es": "Negarte a compartir tus patatas de nueve euros con amigos que no quisieron pedir nada.",
         "de": "Die Neun-Euro-Pommes nicht teilen wollen mit Freunden, die am Stand nichts bestellt haben.",
-        "nl": "Weigeren je dure festivalfriet te delen met vrienden die zelf te gierig waren om te bestellen.",
+        "nl": "Weigeren je festivalfriet van negen euro te delen met vrienden die zelf niets bestelden.",
         "pt": "Recusar partilhar as batatas de nove euros com amigos que não quiseram pedir nada no balcão."
       },
       "difficulty": 1,
@@ -17503,12 +17503,12 @@
       "theme": "festival",
       "type": "green_flag",
       "texts": {
-        "fr": "Conseiller à son ami d'arrêter de boire et de passer à l'eau dès qu'il commence à tituber.",
-        "en": "Telling a friend to stop drinking and switch to water as soon as they start stumbling.",
-        "es": "Aconsejar a un amigo parar con el alcohol y beber agua en cuanto empieza a tambalearse.",
-        "de": "Dem Freund raten, mit dem Trinken aufzuhören und Wasser zu nehmen, sobald er wankt.",
-        "nl": "Een vriend adviseren te stoppen met alcohol en op water over te gaan zodra hij wankelt.",
-        "pt": "Avisar o amigo para parar com o álcool e beber água logo que começa a cambalear."
+        "fr": "Proposer de rater le dernier rappel pour raccompagner au camping un ami épuisé, pendant que les autres restent au concert.",
+        "en": "Offering to miss the final encore to walk an exhausted friend back to camp while the others stay at the concert.",
+        "es": "Ofrecerte a perder el último bis para acompañar al camping a un amigo agotado mientras los demás siguen en el concierto.",
+        "de": "Anbieten, die letzte Zugabe zu verpassen und einen erschöpften Freund zum Zelt zu begleiten, während die anderen bleiben.",
+        "nl": "Aanbieden de laatste toegift te missen om een uitgeputte vriend naar de camping te brengen terwijl de rest blijft.",
+        "pt": "Oferecer-te para perder o último encore e acompanhar ao campismo um amigo exausto, enquanto os outros ficam no concerto."
       },
       "difficulty": 1,
       "enabled": true,
@@ -17629,12 +17629,12 @@
       "theme": "autumn",
       "type": "green_flag",
       "texts": {
-        "fr": "Regarder un seul épisode de la série commune en avance car le suspense était insoutenable.",
-        "en": "Watching just one episode of your shared show ahead because the cliffhanger was unbearable.",
-        "es": "Ver un solo capítulo de la serie común a solas porque el suspense era insoportable.",
-        "de": "Eine einzige Folge der gemeinsamen Serie heimlich vorschauen, weil die Spannung zu groß war.",
-        "nl": "Stiekem één aflevering van de serie vooruitkijken omdat de cliffhanger niet te harden was.",
-        "pt": "Ver apenas um episódio da série conjunta em avanço porque o suspense era insuportável."
+        "fr": "Sortir sous la pluie rejoindre un ami qui a besoin de parler alors que tu avais prévu une soirée seul.",
+        "en": "Going out in the rain to meet a friend who needs to talk when you had planned a quiet night alone.",
+        "es": "Salir bajo la lluvia para ver a un amigo que necesita hablar cuando habías planeado una noche a solas.",
+        "de": "Im Regen zu einem Freund gehen, der reden muss, obwohl du einen ruhigen Abend allein geplant hattest.",
+        "nl": "Door de regen naar een vriend gaan die wil praten terwijl je een rustige avond alleen had gepland.",
+        "pt": "Sair à chuva para encontrar um amigo que precisa de conversar quando tinhas planeado uma noite só tua."
       },
       "difficulty": 1,
       "enabled": true,
@@ -18007,12 +18007,12 @@
       "theme": "autumn",
       "type": "red_flag",
       "texts": {
-        "fr": "Manger des marrons chauds dans la rue et jeter les écorces brûlées sur le trottoir mouillé.",
-        "en": "Snacking on roast chestnuts in the street and dropping the burnt skins on wet pavements.",
-        "es": "Comer castañas asadas por la calle e ir tirando las pieles negras a la acera mojada.",
-        "de": "Maronen auf der Straße essen und die verbrannten Schalen auf den nassen Gehweg werfen.",
-        "nl": "Gepofte kastanjes eten op straat en de zwarte schillen op de natte stoep gooien.",
-        "pt": "Comer castanhas assadas na rua e ir atirando as cascas queimadas para o passeio molhado."
+        "fr": "Annuler une soirée cinéma sous la pluie après l'achat des billets, en proposant de rembourser sa place.",
+        "en": "Canceling a rainy cinema night after the tickets were bought, while offering to pay back your seat.",
+        "es": "Cancelar una noche de cine por la lluvia después de comprar las entradas, ofreciendo pagar la tuya.",
+        "de": "Einen Kinoabend wegen Regen absagen, nachdem die Tickets gekauft wurden, und anbieten, die eigene Karte zu bezahlen.",
+        "nl": "Een filmavond vanwege de regen afzeggen nadat de kaartjes gekocht zijn, maar je eigen ticket terugbetalen.",
+        "pt": "Cancelar uma ida ao cinema por causa da chuva depois de comprarem os bilhetes, oferecendo pagar o teu."
       },
       "difficulty": 1,
       "enabled": true,
@@ -35732,11 +35732,11 @@
       "type": "red_flag",
       "texts": {
         "fr": "Venir en bermuda ou robe de plage au travail dès le premier jour où il fait dix-neuf degrés.",
-        "en": "Wearing beach shorts or a sun dress to the office on the very first warm spring day.",
-        "es": "Ir en bermudas o vestido playero a la oficina en cuanto el termómetro marca calor.",
-        "de": "In Shorts oder Sommerkleid zur Arbeit kommen, sobald es das erste Mal warm wird.",
-        "nl": "In korte broek of strandjurk naar kantoor gaan zodra het voor het eerst lekker weer is.",
-        "pt": "Aparecer de calções ou vestido de praia no trabalho no primeiro dia de calor do ano."
+        "en": "Wearing beach shorts or a sun dress to work as soon as the thermometer hits nineteen degrees.",
+        "es": "Ir en bermudas o vestido playero al trabajo en cuanto el termómetro marca diecinueve grados.",
+        "de": "In Strandshorts oder Sommerkleid zur Arbeit kommen, sobald es neunzehn Grad hat.",
+        "nl": "In strandbroek of strandjurk naar kantoor gaan zodra het negentien graden is.",
+        "pt": "Ir de calções ou vestido de praia para o trabalho mal o termómetro marca dezanove graus."
       },
       "difficulty": 1,
       "enabled": true,
@@ -36145,12 +36145,12 @@
       "theme": "spring",
       "type": "green_flag",
       "texts": {
-        "fr": "Avoir pensé à prendre un spray anti-moustiques dès les premières soirées en terrasse.",
-        "en": "Remembering to pack mosquito repellent spray for the very first spring terrace evening.",
-        "es": "Llevar repelente de mosquitos en el bolso desde la primera noche en la terraza.",
-        "de": "Schon am ersten Frühlingsabend auf der Terrasse Mückenspray dabeihaben.",
-        "nl": "Al bij de allereerste terrasavond een muggenspray in je tas hebben zitten.",
-        "pt": "Lembrar-se de levar spray repelente de mosquitos logo na primeira noite na esplanada."
+        "fr": "Choisir une terrasse à l'ombre pour qu'un ami allergique au pollen puisse venir, alors que les autres voulaient le soleil.",
+        "en": "Choosing a shaded terrace so a friend with pollen allergies can join, even though the others wanted sunshine.",
+        "es": "Elegir una terraza a la sombra para que venga un amigo con alergia al polen, aunque los demás querían sol.",
+        "de": "Eine schattige Terrasse wählen, damit ein Freund mit Pollenallergie mitkommen kann, obwohl die anderen Sonne wollten.",
+        "nl": "Een terras in de schaduw kiezen zodat een vriend met hooikoorts mee kan, terwijl de rest in de zon wilde zitten.",
+        "pt": "Escolher uma esplanada à sombra para um amigo com alergia ao pólen poder vir, apesar de os outros quererem sol."
       },
       "difficulty": 1,
       "enabled": true,
@@ -36523,12 +36523,12 @@
       "theme": "festival",
       "type": "green_flag",
       "texts": {
-        "fr": "Rester au bord du pogo pour repousser fermement les gens qui trébuchent sans jamais y entrer.",
-        "en": "Standing on the edge of the moshpit pushing back fallers without ever jumping in yourself.",
-        "es": "Quedarse al borde del pogo frenando a quienes tropiezan sin meterse dentro nunca.",
-        "de": "Am Rand des Moshpits stehen und Strauchelnde abfangen, ohne selbst hineinzuspringen.",
-        "nl": "Aan de rand van de moshpit staan om vallende mensen op te vangen zonder zelf mee te doen.",
-        "pt": "Ficar à beira do moshpit a empurrar quem tropeça para dentro sem nunca entrar na roda."
+        "fr": "Rester au bord du pogo pour aider ceux qui tombent, quitte à rater son morceau préféré.",
+        "en": "Staying at the edge of the mosh pit to help people who fall, even if you miss your favourite song.",
+        "es": "Quedarte al borde del pogo para ayudar a quien se caiga, aunque te pierdas tu canción favorita.",
+        "de": "Am Rand des Moshpits bleiben und Gestürzten helfen, auch wenn du deinen Lieblingssong verpasst.",
+        "nl": "Aan de rand van de moshpit blijven om vallende mensen te helpen, ook als je je lievelingsnummer mist.",
+        "pt": "Ficar à beira do moshpit para ajudar quem cai, mesmo que percas a tua música favorita."
       },
       "difficulty": 1,
       "enabled": true,
@@ -36667,12 +36667,12 @@
       "theme": "festival",
       "type": "green_flag",
       "texts": {
-        "fr": "Ramener une trousse de secours complète avec sérum, compresses et pansements pour tout le groupe.",
-        "en": "Bringing a full first-aid kit with saline, wipes and dressings for the whole camping crew.",
-        "es": "Llevar un botiquín completo con suero, gasas y tiritas para todo el grupo en la tienda.",
-        "de": "Ein komplettes Erste-Hilfe-Set mit Desinfektion und Verbänden für die Gruppe mitnehmen.",
-        "nl": "Een complete EHBO-set met ontsmettingsmiddel en verband meenemen voor de vriendengroep.",
-        "pt": "Trazer um estojo de primeiros socorros completo com soro e pensos para o grupo todo."
+        "fr": "Distribuer des bouchons d'oreille au groupe avant le premier rang du concert, même à ceux qui n'en ont pas demandé.",
+        "en": "Handing out earplugs to the group before heading to the front row, even to friends who didn't ask for them.",
+        "es": "Repartir tapones para los oídos antes de ir a primera fila, incluso a los amigos que no los pidieron.",
+        "de": "Vor der ersten Konzertreihe Ohrstöpsel an alle verteilen, auch an Freunde, die nicht danach gefragt haben.",
+        "nl": "Voor de eerste rij oordoppen aan de hele groep uitdelen, ook aan vrienden die er niet om vroegen.",
+        "pt": "Distribuir tampões para os ouvidos ao grupo antes de ir para a primeira fila, mesmo a quem não pediu."
       },
       "difficulty": 1,
       "enabled": true,
@@ -36721,12 +36721,12 @@
       "theme": "festival",
       "type": "red_flag",
       "texts": {
-        "fr": "Doubler toute la file des toilettes sèches en prétendant une urgence médicale absolue.",
-        "en": "Skipping the whole festival toilet queue by faking an absolute medical emergency.",
-        "es": "Colarse en toda la fila de los aseos alegando una supuesta urgencia médica extrema.",
-        "de": "Die gesamte Schlange vor den Toiletten überspringen und einen akuten Notfall vortäuschen.",
-        "nl": "De hele rij voor de toiletten voordringen met een smoes over een acute medische noodzaak.",
-        "pt": "Passar à frente de toda a fila das casas de banho fingindo uma urgência médica extrema."
+        "fr": "Faire revenir dans la file des toilettes un ami parti chercher de l'eau pour tout le groupe.",
+        "en": "Letting a friend rejoin you in the toilet queue after they went to get water for the whole group.",
+        "es": "Dejar que un amigo vuelva a tu sitio en la cola del baño tras ir a buscar agua para todo el grupo.",
+        "de": "Einen Freund in der Toilettenschlange wieder zu dir lassen, nachdem er Wasser für die ganze Gruppe geholt hat.",
+        "nl": "Een vriend weer bij je in de toiletrij laten aansluiten nadat die water voor de hele groep haalde.",
+        "pt": "Deixar um amigo voltar ao teu lugar na fila da casa de banho depois de ir buscar água para o grupo todo."
       },
       "difficulty": 1,
       "enabled": true,
@@ -36743,7 +36743,7 @@
         "en": "Refusing to share nine-euro chips with mates who didn't bother ordering food themselves.",
         "es": "Negarte a compartir tus patatas de nueve euros con amigos que no quisieron pedir nada.",
         "de": "Die Neun-Euro-Pommes nicht teilen wollen mit Freunden, die am Stand nichts bestellt haben.",
-        "nl": "Weigeren je dure festivalfriet te delen met vrienden die zelf te gierig waren om te bestellen.",
+        "nl": "Weigeren je festivalfriet van negen euro te delen met vrienden die zelf niets bestelden.",
         "pt": "Recusar partilhar as batatas de nove euros com amigos que não quiseram pedir nada no balcão."
       },
       "difficulty": 1,
@@ -36811,12 +36811,12 @@
       "theme": "festival",
       "type": "green_flag",
       "texts": {
-        "fr": "Conseiller à son ami d'arrêter de boire et de passer à l'eau dès qu'il commence à tituber.",
-        "en": "Telling a friend to stop drinking and switch to water as soon as they start stumbling.",
-        "es": "Aconsejar a un amigo parar con el alcohol y beber agua en cuanto empieza a tambalearse.",
-        "de": "Dem Freund raten, mit dem Trinken aufzuhören und Wasser zu nehmen, sobald er wankt.",
-        "nl": "Een vriend adviseren te stoppen met alcohol en op water over te gaan zodra hij wankelt.",
-        "pt": "Avisar o amigo para parar com o álcool e beber água logo que começa a cambalear."
+        "fr": "Proposer de rater le dernier rappel pour raccompagner au camping un ami épuisé, pendant que les autres restent au concert.",
+        "en": "Offering to miss the final encore to walk an exhausted friend back to camp while the others stay at the concert.",
+        "es": "Ofrecerte a perder el último bis para acompañar al camping a un amigo agotado mientras los demás siguen en el concierto.",
+        "de": "Anbieten, die letzte Zugabe zu verpassen und einen erschöpften Freund zum Zelt zu begleiten, während die anderen bleiben.",
+        "nl": "Aanbieden de laatste toegift te missen om een uitgeputte vriend naar de camping te brengen terwijl de rest blijft.",
+        "pt": "Oferecer-te para perder o último encore e acompanhar ao campismo um amigo exausto, enquanto os outros ficam no concerto."
       },
       "difficulty": 1,
       "enabled": true,
@@ -36937,12 +36937,12 @@
       "theme": "autumn",
       "type": "green_flag",
       "texts": {
-        "fr": "Regarder un seul épisode de la série commune en avance car le suspense était insoutenable.",
-        "en": "Watching just one episode of your shared show ahead because the cliffhanger was unbearable.",
-        "es": "Ver un solo capítulo de la serie común a solas porque el suspense era insoportable.",
-        "de": "Eine einzige Folge der gemeinsamen Serie heimlich vorschauen, weil die Spannung zu groß war.",
-        "nl": "Stiekem één aflevering van de serie vooruitkijken omdat de cliffhanger niet te harden was.",
-        "pt": "Ver apenas um episódio da série conjunta em avanço porque o suspense era insuportável."
+        "fr": "Sortir sous la pluie rejoindre un ami qui a besoin de parler alors que tu avais prévu une soirée seul.",
+        "en": "Going out in the rain to meet a friend who needs to talk when you had planned a quiet night alone.",
+        "es": "Salir bajo la lluvia para ver a un amigo que necesita hablar cuando habías planeado una noche a solas.",
+        "de": "Im Regen zu einem Freund gehen, der reden muss, obwohl du einen ruhigen Abend allein geplant hattest.",
+        "nl": "Door de regen naar een vriend gaan die wil praten terwijl je een rustige avond alleen had gepland.",
+        "pt": "Sair à chuva para encontrar um amigo que precisa de conversar quando tinhas planeado uma noite só tua."
       },
       "difficulty": 1,
       "enabled": true,
@@ -37315,12 +37315,12 @@
       "theme": "autumn",
       "type": "red_flag",
       "texts": {
-        "fr": "Manger des marrons chauds dans la rue et jeter les écorces brûlées sur le trottoir mouillé.",
-        "en": "Snacking on roast chestnuts in the street and dropping the burnt skins on wet pavements.",
-        "es": "Comer castañas asadas por la calle e ir tirando las pieles negras a la acera mojada.",
-        "de": "Maronen auf der Straße essen und die verbrannten Schalen auf den nassen Gehweg werfen.",
-        "nl": "Gepofte kastanjes eten op straat en de zwarte schillen op de natte stoep gooien.",
-        "pt": "Comer castanhas assadas na rua e ir atirando as cascas queimadas para o passeio molhado."
+        "fr": "Annuler une soirée cinéma sous la pluie après l'achat des billets, en proposant de rembourser sa place.",
+        "en": "Canceling a rainy cinema night after the tickets were bought, while offering to pay back your seat.",
+        "es": "Cancelar una noche de cine por la lluvia después de comprar las entradas, ofreciendo pagar la tuya.",
+        "de": "Einen Kinoabend wegen Regen absagen, nachdem die Tickets gekauft wurden, und anbieten, die eigene Karte zu bezahlen.",
+        "nl": "Een filmavond vanwege de regen afzeggen nadat de kaartjes gekocht zijn, maar je eigen ticket terugbetalen.",
+        "pt": "Cancelar uma ida ao cinema por causa da chuva depois de comprarem os bilhetes, oferecendo pagar o teu."
       },
       "difficulty": 1,
       "enabled": true,

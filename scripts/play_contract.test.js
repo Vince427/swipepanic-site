@@ -20,6 +20,36 @@ const path = require('path');
 const ROOT = path.join(__dirname, '..');
 const PLAY = fs.readFileSync(path.join(ROOT, 'play.html'), 'utf8');
 
+test('shared duel returns to the daily dilemma, not an unrelated card deck', () => {
+  const HOME = fs.readFileSync(path.join(ROOT, 'index.html'), 'utf8');
+  assert.match(HOME, /id="daily-dilemma"/);
+  assert.match(PLAY, /window\.location\.assign\(`\.\/index\.html\?lang=\$\{lang\}#daily-dilemma`\)/);
+  assert.doesNotMatch(PLAY, /closeDuelBtn[^]*?modal\.remove\(\);\s*initGame\(\)/);
+  for (const key of ['fr', 'en', 'es', 'de', 'nl', 'pt']) {
+    assert.match(PLAY, new RegExp(`${key}:\\s*\\{[^]*?playMoreBtn:`));
+  }
+});
+
+test('the mini-game offers all newly published seasonal packs', () => {
+  for (const pack of ['spring_pack', 'festival_pack', 'autumn_pack']) {
+    assert.match(PLAY, new RegExp(`<option value="${pack}">`));
+  }
+});
+
+test('the public pack list and totals match the published catalog', () => {
+  const catalog = JSON.parse(fs.readFileSync(path.join(ROOT, 'official_card_catalog.json'), 'utf8'));
+  const home = fs.readFileSync(path.join(ROOT, 'index.html'), 'utf8');
+  const packIds = Object.keys(catalog.packs);
+  const links = [...home.matchAll(/href="\.\/play\.html\?pack=([^"&]+)"/g)]
+    .map((match) => match[1]);
+  for (const id of packIds) {
+    assert.ok(links.includes(id), `public pack link missing: ${id}`);
+  }
+  assert.match(home, new RegExp(`${packIds.length} packs officiels`, 'i'));
+  assert.match(home, /data-i18n="cards1009"/);
+  assert.equal(catalog.card_count, 1009);
+});
+
 function extractHelpers() {
   const start = PLAY.indexOf('const COUNTRY_CODES');
   const end = PLAY.indexOf('const COUNTRY_STORAGE_KEY');
