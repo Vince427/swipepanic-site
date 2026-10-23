@@ -17,8 +17,8 @@
       "nl": "Nooit meer films of series kijken in je leven",
       "pt": "Nunca mais assistir a filmes ou séries na sua vida"
     },
-    "initialRateA": 55,
-    "initialRateB": 45
+    "initialRateA": 59,
+    "initialRateB": 41
   },
   {
     "id": "impossible_2",
@@ -59,8 +59,8 @@
       "nl": "100 jaar naar de toekomst reizen zonder terugkeer",
       "pt": "Viajar 100 anos para o futuro sem volta"
     },
-    "initialRateA": 36,
-    "initialRateB": 64
+    "initialRateA": 31,
+    "initialRateB": 69
   },
   {
     "id": "impossible_4",
