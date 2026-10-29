@@ -1,58 +1,27 @@
-# Swipe Panic public site
+# 🃏 Swipe Panic — Official Web Portal & Live Content Feed (EN / FR)
 
-Static public pages and JSON files for `https://swipepanic.app`.
+> **🌍 Live Website:** [https://swipepanic.app](https://swipepanic.app)
 
-Remote content endpoints:
+---
 
-- `manifest.json`
-- `daily.json`
-- `daily_pool.json`
-- `official_card_catalog.json`
-- `cards_patch.json`
-- `blacklist.txt`
-- `blacklist.json`
-- `data/live_consensus.json` — live audience consensus, published from the
-  studio's `deploy_consensus.js`. Card-id keyed:
-  `{ "<cardId>": { "accept": int, "reject": int, "countries"?: { "<flag>": { "accept": int, "reject": int } } } }`.
-  Referenced by `manifest.json` (`live_consensus_url`). Consumed by the app
-  recap AND by `live.html` (the "Le LIVE jouait" funnel block), which infers
-  the featured pack from card-id **prefixes** (`vacation_*` → `vacation_pack`,
-  etc.). Keep card-id prefixes intact or the funnel stops surfacing the pack.
+## 🇬🇧 English Overview
 
-Validate public JSON before publishing:
+This repository hosts the static web portal, browser playable demo (`play.html`), live community event pages (`live.html`), legal pages (`privacy.html`, `terms.html`), and remote JSON content feeds for **Swipe Panic** (`https://swipepanic.app`).
 
-```powershell
-node scripts\validate_remote_content.js
-```
+### 📦 Public Content Feeds
+- [`manifest.json`](manifest.json) — Remote manifest and catalog version pointers.
+- [`daily.json`](daily.json) & [`daily_pool.json`](daily_pool.json) — Reviewed daily challenge cards (6-locale support: `EN`, `FR`, `ES`, `DE`, `IT`, `PT`).
+- [`official_card_catalog.json`](official_card_catalog.json) & [`cards_patch.json`](cards_patch.json) — Official multi-language card catalog and balance patches.
+- `data/live_consensus.json` — Aggregated anonymous community vote consensus used by post-game recaps and live streams.
 
-Regenerate `daily.json` from the reviewed public pool:
+---
 
-```powershell
-node scripts\generate_daily.js --date=2026-05-10
-```
+## 🇫🇷 Présentation en Français
 
-## Admin workflow
+Ce dépôt héberge le portail web statique, la démo jouable dans le navigateur (`play.html`), les pages d'événements communautaires (`live.html`), les mentions légales (`privacy.html`, `terms.html`) ainsi que les flux JSON publics de **Swipe Panic** (`https://swipepanic.app`).
 
-The site is public and static. Do not publish internal launch plans, private
-agent notes, API secrets or app worktree files here.
-
-Weekly content (published through daily.json for app compatibility):
-
-1. Add reviewed official card IDs to `official_card_catalog.json`.
-2. Add or update a pool in `daily_pool.json`.
-3. Keep `safe_reviewed` as a 6-locale map, not a boolean shortcut.
-4. Run `node scripts\generate_daily.js --date=YYYY-MM-DD`.
-5. Run `node scripts\validate_remote_content.js`.
-
-Reports and suggestions arrive through `support@swipepanic.app`. Configure mail
-filters by subject/source:
-
-- `[SwipePanic][UGC_REPORT]` or `Source: app_ugc_report` -> urgent moderation.
-- `[SwipePanic][CARD_REPORT]` or `Source: app_card_report` -> official card review.
-- `[SwipePanic][CARD_SUGGESTION]` or `Source: site_suggest` -> backlog.
-- `JSON_REPORT` / `JSON_DRAFT` blocks -> copy into a review branch only after
-  manual moderation.
-
-When a reported item is valid, add the pack/card/device/keyword to
-`blacklist.json` and the legacy line to `blacklist.txt`, then validate before
-publishing. The app still works offline if these files cannot be reached.
+### 📦 Flux Publics de Contenu
+- [`manifest.json`](manifest.json) — Manifeste distant et versions des catalogues.
+- [`daily.json`](daily.json) & [`daily_pool.json`](daily_pool.json) — Défis quotidiens validés en 6 langues (`EN`, `FR`, `ES`, `DE`, `IT`, `PT`).
+- [`official_card_catalog.json`](official_card_catalog.json) & [`cards_patch.json`](cards_patch.json) — Catalogue officiel des cartes et correctifs d'équilibrage.
+- `data/live_consensus.json` — Consensus communautaire agrégé et anonyme affiché en fin de partie et lors des sessions Live.
