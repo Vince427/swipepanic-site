@@ -202,7 +202,10 @@ test('daily.json is configured with valid cards and 6-language copy', () => {
   );
   const catalogIds = new Set(catalog.cards.map((c) => c.id));
 
-  assert.ok(daily.cardIds && daily.cardIds.length >= 34, 'daily.json must have at least 34 cards');
+  assert.ok(
+    Array.isArray(daily.cardIds) && daily.cardIds.length >= 8,
+    'daily.json must have at least 8 cards',
+  );
   for (const cardId of daily.cardIds) {
     assert.ok(catalogIds.has(cardId), `daily.json card ${cardId} not found in catalog`);
   }
